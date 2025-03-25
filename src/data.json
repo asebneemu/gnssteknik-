@@ -6,79 +6,79 @@
       "icon": "public/navbar-icons/gnss-icon.png",
       "photo": "/navbar-photos/gnss.JPG",
       "path": "/gnss",
-      "description": "GNSS (Global Navigation Satellite System), küresel ölçekte konum belirleme hizmeti sunan bir sistemler grubudur. Bu sistem, dünya üzerindeki herhangi bir noktayı hassas bir şekilde tespit edebilmek için yörüngede dönen uydulardan gelen sinyalleri kullanır. GNSS, özellikle GPS (Global Positioning System) ile tanınsa da, GLONASS, Galileo, BeiDou gibi başka sistemler de mevcuttur ve her biri farklı coğrafi bölgelerde hizmet verir. GNSS teknolojisi, enlem, boylam ve irtifa gibi konum bilgilerini yüksek doğrulukla sağlar. Ayrıca, hava, deniz ve kara ulaşımında, tarımda, haritalama işlerinde, coğrafi bilgi sistemlerinde (GIS) ve acil durum yönetiminde yaygın olarak kullanılır. GNSS sinyalleri, yalnızca konum değil, aynı zamanda zaman senkronizasyonu ve hız ölçümü gibi veriler de sunar. Bu sistemler, dünya genelinde kullanıcıların doğru konum bilgisine erişmelerini sağlamak için bir arada çalışır."
+      "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme sistemlerinin genel adıdır. GPS, GLONASS, Galileo ve BeiDou gibi uydu sistemlerinin birlikte çalışmasıyla, dünya üzerinde her noktada, her an kesin konum belirlemesi yapılabilir. Özellikle RTK ve PPP teknolojileri sayesinde santimetre düzeyinde doğruluk sağlanabilir. GNSS, inşaat, haritacılık, tarım, madencilik, denizcilik, ulaşım, akıllı şehir uygulamaları ve otonom sistemlerde kritik bir rol oynar. GNSS alıcıları, zorlu saha koşullarında bile güvenilir veri sunar. Gerçek zamanlı veri iletimi, yüksek uydu takip kapasitesi ve dayanıklı gövde yapılarıyla hem mobil hem sabit uygulamalarda kullanılır. Büyük ölçekli altyapı projeleri, metro ve tünel çalışmaları, arazi düzenlemeleri ve jeodezik ölçümlerde yüksek doğruluk ve verimlilik sağlar."
     },
     {
       "name": "TOTAL STATION",
       "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
       "icon": "public/navbar-icons/tstation.png",
-      "photo": "/navbar-photos/totals.JPG",
+      "photo": "/navbar-photos/totalstation.webp",
       "path": "/total-station",
-      "description": "Total Station, lazerle ölçüm yapabilen ve elektronik cihazlarla donatılmış gelişmiş bir arazi ölçüm cihazıdır. Bu cihaz, hem yatay hem de dikey açıları hassas bir şekilde ölçer ve mesafe hesaplamaları yapar. Total Station, genellikle inşaat, haritacılık, mühendislik ve arazi düzenleme çalışmalarında kullanılır. Yüksek doğruluk oranıyla, nokta hassasiyeti gerektiren projelerde tercih edilir. Lazer teknolojisi sayesinde, çok uzak mesafelerde bile doğru veri elde edilebilir. Total Station, geleneksel ölçüm yöntemlerine kıyasla hız ve verimlilik sağlar. Ayrıca, ölçülen verileri dijital ortamda saklayarak, veri analizini ve işleme süreçlerini kolaylaştırır. Bu cihaz, modern inşaat ve altyapı projelerinde vazgeçilmez bir araçtır."
+      "description": "Total Station; lazer, elektronik açı ve mesafe ölçüm cihazlarını bir araya getiren, sahada hızlı ve yüksek doğrulukla veri toplayabilen gelişmiş ölçüm sistemidir. Otomatik hedef tanıma, prizma takibi ve uzaktan veri aktarımı gibi özellikleri sayesinde büyük inşaat projelerinde ve mühendislik uygulamalarında kritik rol oynar. CAD ve BIM sistemlerine kolay veri aktarımı, sahada hatasız ölçüm, hızlı veri kaydı ve gerçek zamanlı doğrulama imkanı sunar. Total Station cihazları, köprü inşaatları, otoyol çalışmaları, tünel kazıları ve baraj projelerinde santimetre altı hassasiyet sağlar. Dayanıklı ve ergonomik tasarımlarıyla her türlü hava ve saha koşulunda kullanılabilir. Entegre yazılımları ile rapor üretimi ve veri analizi süreçlerini hızlandırır."
     },
     {
       "name": "İHA",
-      "title": "İHA Teknolojisi: Havadan Görüntüleme",
+      "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
       "icon": "public/navbar-icons/iha.png",
-      "photo": "/navbar-photos/iha.jpg",
+      "photo": "/navbar-photos/iha.webp",
       "path": "/iha",
-      "description": "İnsansız Hava Araçları (İHA), genellikle haritalama, gözlem ve veri toplama amaçlarıyla kullanılan uçan cihazlardır. Bu araçlar, özellikle haritacılık alanında, yüzeyin yüksek çözünürlüklü görüntülerini almak için kullanılır. İHA'lar, GPS ve diğer navigasyon sistemleriyle donatılmış olup, belirli rotalarda otonom olarak uçabilirler. Havadan veri toplama, özellikle zorlu arazi koşullarında, geleneksel yöntemlere göre daha hızlı ve verimli bir çözüm sunar. İHA'lar, yüksek çözünürlüklü kameralar, Lidar sensörleri ve termal kameralar gibi ekipmanlarla donatılabilir, bu da topografik haritalama ve 3D modelleme gibi uygulamaları mümkün kılar. Haritacılıkta kullanılan İHA'lar, aynı zamanda arazilerin dijital haritalarını oluşturmak, binaların, yolların ve diğer altyapıların doğru konum verilerini elde etmek için oldukça etkilidir. Ayrıca, uçuş rotalarını önceden belirleyip veri toplama süreci, yüksek hassasiyet ve minimum insan müdahalesi ile gerçekleşir."
+      "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
     },
     {
       "name": "LİDAR",
-      "title": "Lidar Teknolojisi: 3D Haritalama",
+      "title": "Lidar Teknolojisi: Yüksek Hassasiyetli 3D Tarama",
       "icon": "public/navbar-icons/lidar.png",
-      "photo": "/navbar-photos/lidar.jpg",
+      "photo": "/navbar-photos/lidar.webp",
       "path": "/lidar",
-      "description": "Lidar (Light Detection and Ranging), lazer ışınları kullanarak mesafe ölçümü yapan bir teknolojidir ve genellikle haritalama, arazi analizi ve çevre izleme gibi uygulamalarda kullanılır. Lidar, lazer ışınlarını hedef yüzeye gönderir ve yansıyan ışığın geri dönüş süresini ölçerek yüzeyin üç boyutlu verilerini elde eder. Bu teknoloji, özellikle orman haritalama, şehir planlaması, su yolları haritalama ve afet yönetimi gibi alanlarda oldukça etkilidir. Lidar cihazları, yüksek hassasiyetle topoğrafik haritalar oluşturabilir ve yer yüzeyindeki engelleri, yapıları veya bitki örtüsünü detaylı şekilde analiz edebilir. Lidar, hava araçlarına (İHA veya uçaklar) monte edilerek geniş alanlarda veri toplama imkanı sağlar, bu da zaman kazandırır ve yer yüzeyine yapılan fiziksel müdahaleyi azaltır. Ayrıca, lidar verileri, diğer ölçüm yöntemlerine kıyasla çok daha hızlı ve doğru sonuçlar verir, bu yüzden modern haritacılık ve jeodezi uygulamalarında tercih edilmektedir."
+      "description": "Lidar (Light Detection and Ranging), lazer ışınlarıyla yüzeyleri tarayarak üç boyutlu nokta bulutları oluşturan ileri seviye bir teknolojidir. Hava ve kara araçlarına monte edilerek geniş alanlarda milimetrik doğrulukta veri toplanabilir. Özellikle orman envanteri, yol projeleri, altyapı planlaması, şehir modellemesi ve madencilik sektörlerinde tercih edilir. Karmaşık arazi yapılarının detaylı analizi, bitki örtüsü altındaki yüzey haritalamaları ve hacim hesapları için ideal bir çözümdür. Toplanan veriler, CAD, GIS ve mühendislik yazılımlarına entegre edilerek 3D analiz ve modelleme süreçlerine katkı sağlar. Hız, doğruluk ve detay seviyesi açısından benzersiz avantajlar sunar."
     },
     {
       "name": "NİVO",
-      "title": "Nivo Teknolojisi: Yükseklik Ölçüm Cihazları",
+      "title": "Nivo Teknolojisi: Hassas Kot ve Yükseklik Ölçüm Cihazları",
       "icon": "public/navbar-icons/nivo.png",
-      "photo": "/navbar-photos/nivo.jpg",
+      "photo": "/navbar-photos/nivo.webp",
       "path": "/nivo",
-      "description": "Nivo, inşaat ve mühendislik uygulamalarında yükseklik farklarını ölçmek için kullanılan hassas bir cihazdır. Optik veya dijital nivolar, su terazisi ve dürbün sistemi kullanarak zemindeki yükseklik değişikliklerini ölçer. Bu cihazlar, özellikle arazi düzlemesi, eğim belirleme ve kot ölçümü gibi işlemler için önemlidir. Nivo, çeşitli inşaat projelerinde, altyapı çalışmalarında ve haritacılıkta doğruluğu artırmak için tercih edilir. Dijital modeller ve ölçüm cihazları sayesinde, daha hızlı ve doğru sonuçlar elde edilebilir."
+      "description": "Nivo, inşaat, altyapı ve mühendislik projelerinde yükseklik farklarını ve kot ölçümlerini hassas şekilde belirlemek için kullanılan profesyonel cihazlardır. Optik ve dijital versiyonları ile farklı kullanıcı ihtiyaçlarına hitap eder. Dijital nivolar, ölçüm sonuçlarını otomatik hesaplar ve anlık ekranda görüntüler. Şantiye uygulamalarında; zemin düzlemesi, şev ölçümü, yol ve köprü eğim kontrolleri gibi kritik alanlarda kullanılır. Titreşim sönümleyici sistemleri ve IP66 koruma sınıfı gövdeleriyle zorlu saha koşullarında uzun süreli dayanıklılık sağlar. Hafif ve taşınabilir yapıları sayesinde sahada hızlı kurulum ve rahat kullanım imkanı sunar."
     },
     {
       "name": "BATİMETRİ",
-      "title": "Batimetri Teknolojisi: Su Altı Haritalama",
+      "title": "Batimetri Teknolojisi: Su Altı Haritalama ve Derinlik Ölçümü",
       "icon": "public/navbar-icons/batimetri.png",
-      "photo": "/navbar-photos/batimetri.jpg",
+      "photo": "/navbar-photos/batimetri.webp",
       "path": "/batimetri",
-      "description": "Batimetri, sonar ve akustik dalgalar kullanarak deniz tabanının ve su altı yüzeylerinin derinlik ölçümlerini yapar. Su altı haritalama, liman tasarımı, balıkçılık ve bilimsel araştırmalar gibi birçok alanda kritik öneme sahiptir. Çok ışınlı sonar sistemleri ile detaylı ve doğru haritalar oluşturur."
+      "description": "Batimetri, su altı yüzeylerinin derinliklerini ölçmek ve topografik haritalarını çıkarmak için kullanılan ileri seviye bir tekniktir. Tek ışınlı ve çok ışınlı sonar sistemleri ile donatılmış batimetri sistemleri; baraj gölleri, limanlar, nehir yatakları ve deniz alanlarında kullanılır. GNSS entegrasyonu ile birlikte çalışan bu sistemler, koordinatlı derinlik verisi sağlayarak mühendislik projeleri, taşkın analizi, kanal ve liman tasarımları için kritik bilgiler üretir. Canlı veri aktarımı, anlık ekran görüntüleme ve detaylı hacim hesaplama özellikleri sayesinde projelerde zaman kazandırır. Mobil kullanılabilen versiyonları, zorlu deniz koşullarında bile güvenilir sonuçlar sunar."
     },
     {
       "name": "MAKİNE KONTROL",
-      "title": "Makine Kontrol Teknolojisi: Otomatik Yönetim",
+      "title": "Makine Kontrol Teknolojisi: Şantiye Otomasyonu ve Hassas Kazı",
       "icon": "public/navbar-icons/mk.png",
-      "photo": "/navbar-photos/mk.jpg",
+      "photo": "/navbar-photos/mk.webp",
       "path": "/makine-kontrol",
-      "description": "Makine kontrol sistemleri, GPS ve sensörler kullanarak inşaat makinelerinin hassas kazı ve dolgu işlemlerini otomatik olarak yönetir. Buldozer, ekskavatör ve greyder gibi araçlarda yaygın olarak kullanılan bu sistemler, iş süreçlerinde hız ve doğruluk sağlar."
+      "description": "Makine kontrol sistemleri; ekskavatör, dozer ve greyder gibi ağır inşaat makinelerinde kullanılan, otomatik kazı ve dolgu işlemlerini milimetrik hassasiyetle gerçekleştiren sistemlerdir. GNSS ve sensörlerle entegre çalışan bu teknolojiler, 3D proje verileriyle sahaya doğrudan uygulama yapma imkanı sunar. Operasyonlarda hata oranını minimize eder, işçilik maliyetlerinden tasarruf sağlar ve proje süresini kısaltır. Şantiyelerde zaman yönetimini optimize eden makine kontrol sistemleri, canlı ilerleme takibi ve veri kayıt özellikleri ile tüm süreçleri dijital ortamda izlenebilir hale getirir."
     },
     {
       "name": "SENSÖR",
-      "title": "Sensör Teknolojisi: Akıllı Sistemler",
+      "title": "Sensör Teknolojisi: Akıllı İzleme ve Veri Toplama Sistemleri",
       "icon": "public/navbar-icons/sensor.png",
-      "photo": "/navbar-photos/sensor.jpg",
+      "photo": "/navbar-photos/sensor.webp",
       "path": "/sensor",
-      "description": "Sensörler, sıcaklık, nem, basınç ve hareket gibi çevresel verileri algılayarak işleyen akıllı cihazlardır. IoT (Nesnelerin İnterneti) ile entegre çalışan sensör sistemleri, tarım, endüstri ve güvenlik uygulamalarında kritik rol oynar."
+      "description": "Sensör sistemleri; sıcaklık, nem, basınç, eğim, hareket ve titreşim gibi çevresel ve yapısal verileri anlık olarak toplayan ve işleyen akıllı cihazlardır. IoT altyapısı ile kablosuz veri iletimi yaparak uzaktan izleme imkanı sağlar. Özellikle yapı sağlığı izleme, jeoteknik gözlem, çevresel analizler, tarım ve endüstri sektörlerinde yaygın olarak kullanılır. Uzun pil ömrü, düşük enerji tüketimi ve zorlu saha koşullarına dayanıklı yapıları ile güvenilir veri toplama süreçleri sağlar. Gelişmiş sensör ağları, anlık uyarılar ve otomatik raporlama özellikleriyle projelerin kontrol altında tutulmasına olanak tanır."
     },
     {
       "name": "YAZILIM",
-      "title": "Yazılım Teknolojisi: Veri Analiz ve Haritalama",
+      "title": "Yazılım Teknolojisi: Veri Analiz, Haritalama ve Raporlama",
       "icon": "public/navbar-icons/yazilim.png",
-      "photo": "/navbar-photos/yazilim.jpg",
+      "photo": "/navbar-photos/yazilim.webp",
       "path": "/yazilim",
-      "description": "Haritalama ve veri analiz yazılımları, GNSS ve Lidar gibi teknolojilerden alınan verileri işleyerek detaylı raporlar ve 3D modeller oluşturur. Bu yazılımlar, şehir planlama, altyapı ve afet yönetimi gibi birçok alanda kullanılmaktadır."
+      "description": "Haritalama, veri analiz ve raporlama yazılımları; GNSS, Lidar, İHA ve batimetri sistemlerinden toplanan verileri hızlı ve doğru şekilde işlemek için kullanılır. 3D modelleme, yüzey analizleri, hacim hesaplamaları ve ortofoto üretimi gibi işlemleri tek platformda gerçekleştirme imkanı sunar. CAD ve BIM entegrasyonu sayesinde inşaat ve altyapı projelerinde kolay veri akışı sağlar. Bulut tabanlı veri paylaşımı, otomatik raporlama ve kullanıcı dostu arayüzleri ile saha ve ofis süreçlerini kusursuz şekilde entegre eder. Büyük ölçekli mühendislik projelerinde zaman tasarrufu sağlar ve karar süreçlerini hızlandırır."
     },
     {
       "name": "AKSESUAR",
-      "title": "Aksesuar Teknolojisi: Destekleyici Ekipmanlar",
+      "title": "Aksesuar Teknolojisi: Destekleyici Çözümler",
       "icon": "public/navbar-icons/aksesuar.png",
-      "photo": "/navbar-photos/aksesuar.jpg",
+      "photo": "/navbar-photos/aksesuar.webp",
       "path": "/aksesuar",
-      "description": "GNSS, Lidar, drone ve total station gibi cihazlar için batarya, tripod ve kablo gibi destekleyici aksesuarlar sunar. Bu ekipmanlar, saha çalışmalarında verimliliği ve ölçüm hassasiyetini artırır."
+      "description": "GNSS, Lidar, İHA ve total station gibi ölçüm cihazlarına özel üretilmiş bataryalar, tripodlar, prizma setleri, veri kabloları ve taşıma çantaları; saha çalışmalarının verimliliğini artırır. Yüksek kaliteli ve dayanıklı malzemelerden üretilen aksesuarlar, en zorlu arazi koşullarında bile uzun ömürlü kullanım sağlar. Hızlı kurulum, kolay taşınabilirlik ve ergonomik tasarımları sayesinde saha personeline zaman kazandırır. Bu destekleyici ekipmanlar, veri toplama süreçlerinde kesintisiz performans sağlar ve ölçüm hassasiyetini artırarak saha operasyonlarını daha verimli hale getirir."
     }
   ],
 
@@ -175,18 +175,38 @@
   ],
 
   "socialLinks": [
-    { "name": "Marketing", "icon": "FaGlobe", "url": "https://example.com" },
-    {
-      "name": "Instagram",
-      "icon": "FaInstagram",
-      "url": "https://instagram.com"
-    },
-    { "name": "Twitter", "icon": "FaTwitter", "url": "https://twitter.com" },
-    { "name": "LinkedIn", "icon": "FaLinkedin", "url": "https://linkedin.com" },
-    { "name": "Facebook", "icon": "FaFacebook", "url": "https://facebook.com" },
-    { "name": "YouTube", "icon": "FaYoutube", "url": "https://youtube.com" },
-    { "name": "WhatsApp", "icon": "FaWhatsapp", "url": "https://whatsapp.com" }
-  ],
+  {
+    "name": "Twitter",
+    "icon": "FaTwitter",
+    "url": "https://x.com/gnssteknik"
+  },
+  {
+    "name": "Instagram",
+    "icon": "FaInstagram",
+    "url": "https://www.instagram.com/gnssteknik/"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "FaLinkedin",
+    "url": "https://www.linkedin.com/company/gnss-teknik/"
+  },
+  {
+    "name": "Facebook",
+    "icon": "FaFacebook",
+    "url": "https://www.facebook.com/Gnssteknik"
+  },
+  {
+    "name": "YouTube",
+    "icon": "FaYoutube",
+    "url": "https://www.youtube.com/user/gnssteknik"
+  },
+  {
+    "name": "WhatsApp",
+    "icon": "FaWhatsapp",
+    "url": "https://wa.me/905302827888"
+  }
+],
+
 
   "products": [
     {
