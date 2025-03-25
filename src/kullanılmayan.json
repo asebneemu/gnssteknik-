@@ -1,0 +1,55 @@
+{
+    "id": 20,
+    "name": "CHCnav i90 GNSS Receiver",
+    "description": "Yüksek hassasiyet ve dayanıklılık sunan i90 GNSS alıcısı.",
+    "images": [
+      "/marka-photos/chcnav/i90-0.png",
+      "/marka-photos/chcnav/i90-1.png",
+      "/marka-photos/chcnav/i90-2.png",
+      "/marka-photos/chcnav/i90-3.png",
+      "/marka-photos/chcnav/i90-0.png"
+    ],
+    "category": "gnss",
+    "brand": "chcnav",
+    "type": "akilli-gnss",
+    "typeTitle": "Akıllı GNSS Alıcıları",
+    "specs": [
+      "Yüksek hassasiyetli GNSS alıcısı ile doğru konumlandırma.",
+      "Çift batarya ile uzun süreli çalışma imkanı.",
+      "İntegrated IMU-RTK teknolojisi ile güçlü GNSS verisi.",
+      "Wi-Fi, Bluetooth bağlantıları ile kablosuz kullanım.",
+      "UHF, NTRIP ve APIS desteği ile farklı çalışma modları.",
+      "Lityum-iyon çıkarılabilir bataryalarla güç kaybı olmadan uzun süre veri toplama.",
+      "Kompakt tasarım ve IP67 su/toz geçirmezlik ile zorlu şartlarda dayanıklı kullanım.",
+      "Renkli LCD ekran ile anlık konum verilerini takip etme."
+    ]
+  },
+
+  {
+    "id": 21,
+    "name": "CHCnav i73 GNSS Receiver",
+    "description": "Yüksek hassasiyet ve dayanıklılık sunan i73 GNSS alıcısı.",
+    "images": [
+      "/marka-photos/chcnav/i73-0.png",
+      "/marka-photos/chcnav/i73-1.png",
+      "/marka-photos/chcnav/i73-2.png",
+      "/marka-photos/chcnav/i73-0.png"
+    ],
+    "category": "gnss",
+    "brand": "chcnav",
+    "type": "akilli-gnss",
+    "typeTitle": "Akıllı GNSS Alıcıları",
+    "specs": [
+      "6800 mAh kapasiteli iki adet çıkarılabilir lityum-iyon batarya ile uzun süreli çalışma imkanı.",
+      "IP67 su ve toz geçirmezlik standardı ile zorlu koşullarda dayanıklılık.",
+      "IMU-RTK teknolojisi ile eğim telafisi yapabilme ve hassas konumlandırma.",
+      "USB Type-C bağlantı noktası ile hızlı veri aktarımı ve şarj desteği.",
+      "UHF ve Bluetooth bağlantıları ile kablosuz iletişim seçenekleri.",
+      "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+      "NTRIP, APIS ve TCP desteği ile esnek bağlantı modları.",
+      "Wi-Fi üzerinden uzaktan yapılandırma ve veri indirme imkanı.",
+      "RINEX ve HCN formatlarında veri kaydetme desteği.",
+      "2 metreye kadar darbelere karşı dayanıklı kompakt tasarım.",
+      "Tilt kompansasyonu ve yüksek doğruluk sağlayan ZENITH algoritması."
+    ]
+  },

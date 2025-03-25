@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .bg-gray-900 {
+    background-color: #1a202c;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
