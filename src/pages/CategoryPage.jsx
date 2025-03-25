@@ -59,9 +59,7 @@ export default function CategoryPage() {
           photo={info.photo}
         />
 
-        <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800">
-          Neden Bu Teknoloji?
-        </h2>
+        
         <SideBySideCards />
 
         <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800 mt-16">

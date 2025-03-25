@@ -33,7 +33,7 @@ export default function HeaderBar() {
             className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
           >
             <FontAwesomeIcon className="text-xl md:text-base" icon={faUserFriends} />
-            <span className="hidden md:inline">Müşteri Hikayeleri</span> {/* 🔥 md altı: Kaybol */}
+            <span className="hidden md:inline">Blog</span> {/* 🔥 md altı: Kaybol */}
           </NavLink>
         </div>
 

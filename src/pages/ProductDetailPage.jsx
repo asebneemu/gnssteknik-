@@ -1,13 +1,18 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import data from "../data.json";
-import ProductCard from "../components/product/ProductCard"; // import ekleyelim
+import ProductCard from "../components/product/ProductCard";
 
 export default function ProductDetailPage() {
   const { category, brand, productId } = useParams();
   const navigate = useNavigate();
   const [selectedImage, setSelectedImage] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Sayfa yüklendiğinde otomatik en üste çık
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const normalizedCategory = category
     ? category.replace("/", "").toLowerCase()
@@ -38,7 +43,6 @@ export default function ProductDetailPage() {
 
   const mainImage = selectedImage || product.images?.[1] || product.image;
 
-  // Uyumlu ürünleri bul
   const compatibleProducts = product.compatibleProducts
     ? data.products.filter((item) =>
         product.compatibleProducts.includes(item.id)
@@ -46,7 +50,7 @@ export default function ProductDetailPage() {
     : [];
 
   return (
-    <div className="w-4/5 mx-auto py-5">
+    <div className="w-full max-w-[1200px] mx-auto py-5">
       <button
         onClick={() => navigate(-1)}
         className="fixed bottom-5 right-5 bg-orange-500 text-white py-2 px-6 rounded-md hover:bg-orange-600 transition z-50"
@@ -54,9 +58,9 @@ export default function ProductDetailPage() {
         ← Geri Dön
       </button>
 
-      <div className="flex flex-col md:flex-row gap-8 justify-center items-center md:items-start">
+      <div className="flex flex-col md:flex-row gap-8 justify-center md:items-start">
         <div className="flex w-full md:w-1/2 items-start">
-          <div className="flex flex-col space-y-4 mr-4 mt-10 max-h-[600px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+          <div className="flex flex-col space-y-4 mr-4 max-h-[600px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             {product.images?.slice(1).map((image, index) => (
               <img
                 key={index}
@@ -70,7 +74,7 @@ export default function ProductDetailPage() {
             ))}
           </div>
 
-          <div className="w-[450px] h-[600px] rounded-md overflow-hidden ml-auto mr-4">
+          <div className="w-[450px] h-[600px] rounded-md overflow-hidden mr-4">
             <img
               src={mainImage}
               alt={product.name}
@@ -96,17 +100,17 @@ export default function ProductDetailPage() {
       </div>
 
       {compatibleProducts.length > 0 && (
-        <div className="w-4/5 mx-auto mt-0 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Birlikte Kullanabileceğiniz Ürünler
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {compatibleProducts.map((item) => (
-              <ProductCard key={item.id} product={item} />
-            ))}
-          </div>
-        </div>
-      )}
+  <div className="mx-auto mt-10">
+    <h2 className="text-3xl font-bold mb-6 text-left">
+      Birlikte Kullanabileceğiniz Ürünler
+    </h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      {compatibleProducts.map((item) => (
+        <ProductCard key={item.id} product={item} />
+      ))}
+    </div>
+  </div>
+)}
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">

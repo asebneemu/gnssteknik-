@@ -3101,201 +3101,485 @@
       "category": "gnss",
       "left": [
         {
-          "title": "Yüksek Hassasiyet",
-          "slogan": "Milimetre seviyesinde konumlandırma",
-          "text": "GNSS teknolojisi, çoklu frekans desteği ve RTK teknolojisi ile milimetre seviyesinde doğruluk sağlar. İnşaat, madencilik ve jeodezi gibi hassasiyet gerektiren projelerde kritik bir rol oynar.",
-          "leftImg": "/resimler/gnss-left-1.jpg"
+          "title": "Milimetre Seviyesinde Yüksek Hassasiyet",
+          "slogan": "RTK ve çoklu frekans ile ultra hassasiyet",
+          "text": "GNSS sistemleri, RTK ve PPK desteği ile milimetre seviyesinde doğruluk sağlar. Özellikle hassas mühendislik projelerinde konumlandırmada en yüksek performansı sunar."
         },
         {
-          "title": "Kesintisiz Çalışma",
-          "slogan": "Zorlu koşullarda bile güvenilir",
-          "text": "GNSS sistemleri, çoklu uydu takibi ve yedekleme mekanizmaları sayesinde en zorlu çevresel koşullarda bile kesintisiz çalışma imkanı sunar. Yoğun ağaçlık alanlar, şehir merkezleri ve dağlık bölgelerde dahi yüksek doğrulukta konumlandırma yapabilir. Bu özellik, özellikle madencilik, orman mühendisliği ve afet yönetimi gibi sürekli veri akışının kritik olduğu sektörlerde büyük avantaj sağlar.",
-          "leftImg": "/resimler/gnss-left-3.jpg"
+          "title": "Kesintisiz Çalışma ve Güvenilir Veri Akışı",
+          "slogan": "Her koşulda kararlı performans",
+          "text": "GNSS cihazları, çoklu uydu takibi ve yedekleme sistemleri sayesinde zorlu çevresel koşullarda bile kesintisiz veri toplama imkanı sağlar."
+        },
+        {
+          "title": "Hızlı Sabitlenme (Quick Fix)",
+          "slogan": "Anında sabit çözüm",
+          "text": "Gelişmiş GNSS sistemleri, konum sabitlemesini saniyeler içinde gerçekleştirerek zaman kazandırır ve sahada verimliliği artırır."
+        },
+        {
+          "title": "Kolay Taşınabilirlik ve Hafiflik",
+          "slogan": "Her zaman sahada yanınızda",
+          "text": "GNSS alıcıları, kompakt tasarımı ve hafifliği sayesinde saha kullanımında kolay taşınabilirlik sağlar ve ergonomik kullanım sunar."
+        },
+        {
+          "title": "Uzun Pil Ömrü ve Enerji Verimliliği",
+          "slogan": "Kesintisiz ölçüm desteği",
+          "text": "12-24 saate kadar uzun pil ömrü ile GNSS sistemleri, sahada uzun süreli ölçüm ve veri toplama olanağı sağlar."
+        },
+        {
+          "title": "Kolay Entegrasyon ve Platform Uyumu",
+          "slogan": "Her sistemle uyumlu",
+          "text": "GNSS sistemleri, farklı yazılımlar ve platformlarla entegre çalışarak veri transferi ve analiz süreçlerini hızlandırır."
         }
       ],
       "right": [
         {
-          "title": "STEC GNSS Alıcısı",
-          "text": "RTK ve PPK desteği ile yüksek doğrulukta konumlandırma sağlar. Dayanıklı yapısı ile zorlu koşullarda kesintisiz hizmet sunar.",
-          "rightImg": "/resimler/gnss-right-1.JPG",
-          "sectors": ["İnşaat", "Madencilik", "Tarım"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Yüksek hassasiyet, altyapı projeleri ve hassas ölçüm gerektiren uygulamalarda kritik avantaj sağlar.",
+          "sectors": ["İnşaat", "Jeodezi", "Altyapı Projeleri", "Maden Arama"]
         },
         {
-          "title": "Trimble GNSS Alıcısı",
-          "text": "Trimble GNSS alıcısı, çoklu frekans desteği ve sağlam gövdesi ile zorlu saha koşullarında yüksek performans sunar. Gelişmiş RTK ve PPK teknolojisi ile milimetre seviyesinde hassasiyet sağlar. Kolay taşınabilir yapısı ve uzun pil ömrü sayesinde, büyük ölçekli projelerde kesintisiz veri toplama imkanı tanır.",
-          "rightImg": "/resimler/gnss-right-3.jpg",
-          "sectors": ["Madencilik", "Orman Mühendisliği", "Afet Yönetimi"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kesintisiz çalışma, uzun süreli saha görevlerinde ve veri akışının kritik olduğu alanlarda güven sağlar.",
+          "sectors": ["Madencilik", "Afet Yönetimi", "Orman Mühendisliği", "Lojistik"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Hızlı sabitlenme, zamana karşı yarışılan projelerde ve anlık veri ihtiyacının olduğu uygulamalarda büyük kolaylık sunar.",
+          "sectors": ["Haritacılık", "Saha Ölçümleri", "Acil Müdahale", "Tarım"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kolay taşınabilirlik, sürekli saha değişimi ve mobil çalışma gerektiren projelerde maksimum esneklik sağlar.",
+          "sectors": ["Altyapı Projeleri", "Saha Keşifleri", "Mobil Ölçüm Çalışmaları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Uzun pil ömrü, kesintisiz veri toplamanın önemli olduğu büyük ölçekli projelerde avantaj sağlar.",
+          "sectors": ["Jeodezi", "Maden Keşifleri", "Altyapı İnşaatları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kolay entegrasyon, veri yönetimi ve çoklu sistem kullanımının gerektiği kompleks projelerde öne çıkar.",
+          "sectors": ["Şehir Planlama", "BIM Projeleri", "Arazi Yönetimi"]
         }
       ]
-    },
+    },       
     {
       "category": "total-station",
       "left": [
         {
-          "title": "Hassas Ölçüm",
-          "slogan": "Milimetre hassasiyetinde veri toplama",
-          "text": "Total Station cihazları, lazer ve elektronik ölçüm teknolojileri ile yatay ve düşey açıları hassas bir şekilde ölçer.",
-          "leftImg": "/resimler/totalstation-left-1.jpg"
+          "title": "Milimetre Hassasiyetinde Ölçüm",
+          "slogan": "En ince detayları yakalayın",
+          "text": "Total Station cihazları, yatay ve dikey açılar ile mesafe ölçümlerinde milimetre seviyesinde hassasiyet sağlar. Bu özellik, inşaat, altyapı ve mühendislik projelerinde kritik önem taşır."
+        },
+        {
+          "title": "Hızlı ve Otomatik Hedef Takibi",
+          "slogan": "Zaman kazandıran otomasyon",
+          "text": "Otomatik hedef takibi (Auto-Tracking), hareket eden prizma veya hedefleri sürekli takip ederek operatöre zaman kazandırır ve verimliliği artırır."
+        },
+        {
+          "title": "Uzun Menzilli Ölçüm Kapasitesi",
+          "slogan": "Daha uzağı kolayca ölçün",
+          "text": "Total Station cihazları, 5000 metreye kadar hedeflere odaklanarak uzun mesafelerde bile yüksek doğrulukta ölçüm sağlar."
+        },
+        {
+          "title": "Kolay Veri Transferi ve Entegrasyon",
+          "slogan": "Veri akışında pratik çözümler",
+          "text": "Bluetooth, USB ve WiFi desteği ile Total Station cihazları verilerin sahada hızlı aktarımına ve kolay yazılım entegrasyonuna imkan tanır."
+        },
+        {
+          "title": "Zorlu Şartlara Dayanıklılık",
+          "slogan": "Her koşulda performans",
+          "text": "IP66/IP68 koruma standartlarına sahip Total Station cihazları, suya, toza ve ani sıcaklık değişimlerine karşı üstün dayanıklılık sağlar."
         }
       ],
       "right": [
         {
-          "title": "SOKKIA Total Station",
-          "text": "İnşaat ve mühendislik projelerinde hassas ölçümler sağlar.",
-          "rightImg": "/resimler/totalstation-right-1.jpg",
-          "sectors": ["İnşaat", "Jeodezi"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Milimetre hassasiyeti, altyapı inşaatları ve büyük mühendislik projelerinde kritik avantaj sunar.",
+          "sectors": ["İnşaat", "Altyapı", "Jeodezi"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Otomatik hedef takibi, dinamik ölçüm ve hareketli saha çalışmalarında operatöre hız kazandırır.",
+          "sectors": ["Maden Sahaları", "Baraj İnşaatları", "Yol Projeleri"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Uzun menzilli ölçüm yeteneği, büyük arazilerde ve zorlu topoğrafik alanlarda vazgeçilmezdir.",
+          "sectors": ["Arazi Etütleri", "Büyük Alan Haritalamaları", "Tarım"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kolay veri transferi, hızlı proje teslimleri ve sahada mobil çalışma gerektiren projeler için avantaj sağlar.",
+          "sectors": ["Şantiye Yönetimi", "Altyapı Çalışmaları", "Kentsel Dönüşüm"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Dayanıklılık, zorlu saha koşullarında uzun süreli güvenilir kullanım sağlar.",
+          "sectors": ["Baraj Projeleri", "Tünel İnşaatları", "Orman Ölçüm Çalışmaları"]
         }
       ]
-    },
+    },    
     {
       "category": "iha",
       "left": [
         {
-          "title": "Havadan Haritalama",
-          "slogan": "Yüksek çözünürlüklü görüntüleme",
-          "text": "İHA'lar, gelişmiş kameralar ve Lidar ile donatılarak havadan yüksek çözünürlüklü haritalama yapar.",
-          "leftImg": "/resimler/iha-left-1.jpg"
+          "title": "Havadan Yüksek Çözünürlüklü Görüntüleme",
+          "slogan": "Detaylı veri toplama gücü",
+          "text": "İHA sistemleri, yüksek çözünürlüklü kameraları sayesinde büyük alanları ayrıntılı ve hızlı şekilde görüntüler, profesyonel haritalama ve denetim projelerinde tercih edilir."
+        },
+        {
+          "title": "Lidar Entegrasyonu ile 3D Haritalama",
+          "slogan": "Üç boyutlu detaylı modelleme",
+          "text": "Gelişmiş İHA’lar, Lidar sensörleri ile entegre çalışarak ağaçlık, dağlık ve karmaşık alanlarda 3D modelleme imkanı sunar."
+        },
+        {
+          "title": "Uzun Uçuş Süresi ve Geniş Menzil",
+          "slogan": "Tek seferde daha fazla alan",
+          "text": "Uzun uçuş süresi ve 10 km’ye varan menzil sayesinde İHA’lar, geniş bölgelerde veri toplama işlemlerini hızlı ve verimli şekilde gerçekleştirir."
+        },
+        {
+          "title": "Otomatik Uçuş Planlama ve Rota Takibi",
+          "slogan": "Yazılım destekli otonom görevler",
+          "text": "Otomatik rota planlaması ve anlık uçuş takibi özellikleri sayesinde, veri toplama süreçlerinde hata payı en aza indirilir ve iş gücü tasarrufu sağlanır."
+        },
+        {
+          "title": "Dayanıklı Gövde ve Zorlu Hava Koşullarına Uyum",
+          "slogan": "Her şartta güvenilir kullanım",
+          "text": "Rüzgar, yağmur ve zorlu çevre koşullarına dayanıklı gövde yapısı sayesinde İHA’lar, sahada kesintisiz hizmet sunar."
         }
       ],
       "right": [
         {
-          "title": "DJI Haritalama Dronu",
-          "text": "4K kamera ve Lidar entegrasyonu ile profesyonel haritalama projelerinde tercih edilir.",
-          "rightImg": "/resimler/iha-right-1.jpg",
-          "sectors": ["Tarım", "İnşaat", "Güvenlik"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Yüksek çözünürlüklü görüntüleme, tarım alanlarından inşaat projelerine kadar geniş kullanım sağlar.",
+          "sectors": ["Tarım", "İnşaat", "Haritacılık", "Enerji"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Lidar entegrasyonu, zorlu arazi yapılarında detaylı modelleme ve haritalama ihtiyaçlarını karşılar.",
+          "sectors": ["Jeoloji", "Maden Keşifleri", "Orman Yönetimi", "Şehir Planlama"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Uzun uçuş süresi, geniş alanları kısa sürede tarayarak zamandan tasarruf sağlar.",
+          "sectors": ["Altyapı İnşaatları", "Büyük Tarım Alanları", "Afet Müdahalesi"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Otomatik uçuş planlaması, tekrarlı görevlerde ve yüksek hassasiyet isteyen çalışmalarda verimliliği artırır.",
+          "sectors": ["Haritalama", "Arazi İzleme", "Mimari Projeler"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Dayanıklı gövde yapısı, zorlu hava koşullarında sürekli görev yapmayı mümkün kılar.",
+          "sectors": ["Afet Yönetimi", "Askeri Operasyonlar", "Enerji Denetimleri"]
         }
       ]
-    },
+    },    
     {
       "category": "lidar",
       "left": [
         {
-          "title": "3D Haritalama",
-          "slogan": "Lazerle milimetre hassasiyetinde ölçüm",
-          "text": "Lidar teknolojisi, lazer darbeleri ile üç boyutlu yüzey modelleri oluşturarak yüksek doğruluk sunar.",
-          "leftImg": "/resimler/lidar-left-1.jpg"
+          "title": "3D Yüzey Modelleme",
+          "slogan": "Milimetrik detaylarla 3D haritalar",
+          "text": "Lidar sensörleri, lazer darbeleri kullanarak yüksek çözünürlüklü üç boyutlu yüzey modelleri üretir ve karmaşık alanları hassas şekilde haritalar."
+        },
+        {
+          "title": "Hızlı ve Yüksek Yoğunluklu Veri Toplama",
+          "slogan": "Saniyeler içinde milyonlarca veri noktası",
+          "text": "Lidar sistemleri, kısa sürede yüksek yoğunluklu veri toplar; bu sayede şehir planlama, orman envanteri ve altyapı projelerinde detaylı analiz yapılabilir."
+        },
+        {
+          "title": "Uzun Menzilli Tarama Kapasitesi",
+          "slogan": "500 metreye kadar menzil",
+          "text": "Gelişmiş lidar cihazları, 500 metreye kadar mesafede tarama yaparak geniş alanların modellemesinde avantaj sağlar."
+        },
+        {
+          "title": "Farklı Platformlara Entegrasyon",
+          "slogan": "Her zeminde kullanıma uygun",
+          "text": "Lidar çözümleri, İHA, kara aracı veya tripod üzerinde kolayca kullanılabilir; farklı ihtiyaçlara göre esneklik sağlar."
+        },
+        {
+          "title": "Zorlu Koşullara Dayanıklılık",
+          "slogan": "Toz, su ve sıcaklığa karşı koruma",
+          "text": "IP67 koruma sınıfına sahip lidar cihazları, zorlu hava koşullarında bile kesintisiz performans sunar."
         }
       ],
       "right": [
         {
-          "title": "CHCNAV Lidar Sensör",
-          "text": "Yüksek çözünürlükte tarama ve GNSS desteği ile kullanılır.",
-          "rightImg": "/resimler/lidar-right-1.jpg",
-          "sectors": ["Şehir Planlama", "Haritacılık"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "3D yüzey modelleme, arazi etüdü, şehir planlama ve inşaat projelerinde kritik öneme sahiptir.",
+          "sectors": ["Şehir Planlama", "Altyapı", "Madencilik", "Jeoloji"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Hızlı veri toplama özelliği, büyük alanların kısa sürede analiz edilmesi gereken projelerde avantaj sağlar.",
+          "sectors": ["Orman Yönetimi", "Arazi Haritalama", "Afet Analizleri"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Uzun menzil kapasitesi, geniş arazilerde ve açık alanlarda tarama gerektiren projelerde tercih edilir.",
+          "sectors": ["Büyük Alan Haritalama", "Baraj Projeleri", "Otoyol İnşaatı"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Platform esnekliği, farklı kullanım alanlarında aynı cihazı rahatlıkla kullanabilmeyi sağlar.",
+          "sectors": ["İHA Haritalama", "Kara Aracı Taraması", "Saha Çalışmaları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Dayanıklılık, dış etkenlerin yoğun olduğu zorlu saha koşullarında güvenilir kullanım sunar.",
+          "sectors": ["Madencilik", "Jeoteknik Araştırmalar", "Çevre İncelemeleri"]
         }
       ]
-    },
+    },    
     {
       "category": "nivo",
       "left": [
         {
-          "title": "Yükseklik Ölçümü",
-          "slogan": "Milimetrik hassasiyet",
-          "text": "İnşaat ve mühendislik projelerinde yükseklik farklarını hassas bir şekilde ölçer.",
-          "leftImg": "/resimler/nivo-left-1.jpg"
+          "title": "Milimetrik Hassasiyetle Yükseklik Ölçümü",
+          "slogan": "Daha doğru kot ölçümü",
+          "text": "Nivo cihazları, inşaat, mühendislik ve altyapı projelerinde yüksek hassasiyetli yükseklik ölçümü yaparak doğru seviyelendirme sağlar."
+        },
+        {
+          "title": "Kolay Kullanım ve Hızlı Kurulum",
+          "slogan": "Sahada pratik ve hızlı ölçüm",
+          "text": "Kullanıcı dostu arayüzü ve hızlı ayarlama mekanizması sayesinde sahada hızlı ölçüm ve kolay kullanım imkanı sunar."
+        },
+        {
+          "title": "Manyetik Sönümleyicili Otomatik Tesviye",
+          "slogan": "Titreşimlere karşı hassas dengeleme",
+          "text": "Manyetik sönümleyici teknolojisi sayesinde zemin titreşimlerinden minimum seviyede etkilenir ve ölçümlerde maksimum doğruluk sağlar."
+        },
+        {
+          "title": "Zorlu Koşullara Dayanıklılık",
+          "slogan": "IP54 / IP66 ile her şartta güvenilir",
+          "text": "Toz ve su geçirmez yapısıyla zorlu hava ve saha koşullarında dahi güvenilir ölçüm yapmaya devam eder."
         }
       ],
       "right": [
         {
-          "title": "Leica Nivo",
-          "text": "Kolay kullanım ve yüksek hassasiyet sunar.",
-          "rightImg": "/resimler/nivo-right-1.jpg",
-          "sectors": ["İnşaat", "Mühendislik"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Milimetrik hassasiyet, kot farkı ölçümleri ve hassas seviyelendirme gerektiren tüm projelerde kritik öneme sahiptir.",
+          "sectors": ["İnşaat", "Altyapı", "Mühendislik"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kolay kullanım ve hızlı kurulum, zaman kazandırır ve saha ölçümlerinde pratiklik sağlar.",
+          "sectors": ["Şantiye Çalışmaları", "Arazi Planlaması", "Yol İnşaatı"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Manyetik sönümleyici, dış etkenlerden kaynaklı hataları en aza indirir ve stabil ölçümler sağlar.",
+          "sectors": ["Büyük İnşaat Projeleri", "Hassas Kot Ölçümleri", "Zemin Çalışmaları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Zorlu koşullara dayanıklılık, açık arazi, şantiyeler ve zorlu hava koşullarında güvenilir ölçüm sağlar.",
+          "sectors": ["Açık Arazi Çalışmaları", "Orman Mühendisliği", "Madencilik"]
         }
       ]
-    },
+    },    
     {
       "category": "batimetri",
       "left": [
         {
-          "title": "Su Altı Haritalama",
-          "slogan": "Sonar tabanlı ölçüm",
-          "text": "Batimetri sistemleri, sonar teknolojisi ile su altı yüzeylerinin detaylı haritalanmasını sağlar.",
-          "leftImg": "/resimler/batimetri-left-1.jpg"
+          "title": "Yüksek Çözünürlüklü Su Altı Haritalama",
+          "slogan": "Detaylı ve hassas su altı modelleri",
+          "text": "Sonar ve GNSS teknolojisi ile göl, baraj ve nehir tabanlarının yüksek çözünürlüklü haritaları oluşturulur."
+        },
+        {
+          "title": "Derinlik ve Hacim Hesaplama Yeteneği",
+          "slogan": "Hassas derinlik ve hacim analizleri",
+          "text": "Batimetri sistemleri, su kütlelerinin derinlik profillerini ve toplam hacimlerini kesin doğrulukla hesaplayabilir."
+        },
+        {
+          "title": "Gerçek Zamanlı Veri İzleme ve Kayıt",
+          "slogan": "Anlık veri aktarımı",
+          "text": "Canlı veri akışı sayesinde ölçümler sırasında anlık derinlik değişimlerini izleyebilir ve kayıt altına alabilirsiniz."
+        },
+        {
+          "title": "Çoklu Sensör Entegrasyonu",
+          "slogan": "Daha doğru ve güvenilir veri",
+          "text": "GNSS, hareket sensörleri ve ek sonar entegrasyonu ile veri doğruluğu artırılır ve kompleks alanlarda hassasiyet sağlanır."
+        },
+        {
+          "title": "Taşınabilirlik ve Kolay Kurulum",
+          "slogan": "Sahada hızlı ve pratik kullanım",
+          "text": "Hafif yapısı ve kolay montaj imkanı sayesinde sahada çabuk kurulum sağlar ve zamandan tasarruf ettirir."
+        },
+        {
+          "title": "Zorlu Su Koşullarına Dayanıklılık",
+          "slogan": "Dalga ve akıntıya karşı üstün dayanıklılık",
+          "text": "Batimetri ekipmanları, tuzlu su, dalga ve akıntı gibi zorlu çevresel şartlara karşı dayanıklı tasarlanmıştır."
         }
       ],
       "right": [
         {
-          "title": "CHCNAV Batimetri Sensörü",
-          "text": "Sonar tabanlı ölçüm ve analiz sunar.",
-          "rightImg": "/resimler/batimetri-right-1.jpg",
-          "sectors": ["Liman", "Balıkçılık"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Yüksek çözünürlüklü su altı haritalama, baraj güvenliği, kıyı mühendisliği ve çevresel etütlerde kullanılır.",
+          "sectors": ["Baraj Yönetimi", "Kıyı Mühendisliği", "Çevresel Etütler"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Derinlik ve hacim hesaplamaları, su rezervleri yönetimi ve taşkın analizlerinde kritik öneme sahiptir.",
+          "sectors": ["Su Yönetimi", "Taşkın Analizi", "Balıkçılık"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Gerçek zamanlı izleme, anlık veri gerektiren liman operasyonları ve altyapı çalışmalarında tercih edilir.",
+          "sectors": ["Liman İşletmeleri", "Altyapı Çalışmaları", "Afet Yönetimi"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Çoklu sensör desteği, karmaşık su alanlarında daha güvenilir veri toplamak için avantaj sağlar.",
+          "sectors": ["Kıyı Erozyon Takibi", "Hidrolojik Araştırmalar", "Savunma Sanayi"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Taşınabilirlik ve kolay kurulum, saha personeline hızlı uygulama ve mobil çalışma imkanı sağlar.",
+          "sectors": ["Acil Müdahale", "Arazi İncelemeleri", "Araştırma Projeleri"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Zorlu su koşullarına dayanıklılık, açık deniz araştırmaları ve uzun süreli saha çalışmaları için kritik öneme sahiptir.",
+          "sectors": ["Açık Deniz Çalışmaları", "Askeri Operasyonlar", "Oşinografi"]
         }
       ]
-    },
+    },    
     {
       "category": "makine-kontrol",
       "left": [
         {
-          "title": "Otomatik Kontrol",
-          "slogan": "Hassas kazı ve dolgu",
-          "text": "GPS ve sensörlerle entegre çalışan sistemler, hassas kazı ve dolgu işlemlerini otomatik olarak gerçekleştirir.",
-          "leftImg": "/resimler/makinekontrol-left-1.jpg"
+          "title": "Hassas Kazı ve Dolgu Kontrolü",
+          "slogan": "Milimetrik otomasyon",
+          "text": "Makine kontrol sistemleri, kazı ve dolgu işlemlerini milimetrik doğrulukla otomatikleştirerek insan hatasını minimize eder ve proje hızını artırır."
+        },
+        {
+          "title": "Otomatik Seviye Ayarı ve Eğim Takibi",
+          "slogan": "Her zaman doğru eğim",
+          "text": "Otomatik eğim ve seviye kontrolü, sahadaki tüm yüzeylerin istenen açı ve seviyede oluşturulmasını sağlar."
+        },
+        {
+          "title": "3D Model Entegrasyonu",
+          "slogan": "BIM ve CAD uyumluluğu",
+          "text": "Makine kontrol sistemleri, 3D proje verilerini doğrudan yükleyerek sahada birebir uygulama yapılmasına imkan tanır."
+        },
+        {
+          "title": "Gerçek Zamanlı Konum Takibi",
+          "slogan": "Anlık görev takibi",
+          "text": "Makine konumu, çalışma derinliği ve proje ilerlemesi anlık olarak takip edilerek hatalar erkenden tespit edilir."
+        },
+        {
+          "title": "Operatör Dostu Arayüz ve Hızlı Öğrenme",
+          "slogan": "Karmaşıklıktan uzak kullanım",
+          "text": "Kullanıcı dostu arayüzleri sayesinde saha personeli tarafından kısa sürede öğrenilip rahatlıkla kullanılabilir."
+        },
+        {
+          "title": "Zorlu Şantiye Koşullarına Dayanıklılık",
+          "slogan": "IP66 korumalı yapı",
+          "text": "Toz, çamur ve zorlu hava koşullarına dayanıklı yapısı sayesinde uzun süreli saha çalışmalarında güvenilir performans sağlar."
         }
       ],
       "right": [
         {
-          "title": "CHCNAV Makine Kontrol Sistemi",
-          "text": "Otomatik yönlendirme ve hassas kontrol sunar.",
-          "rightImg": "/resimler/makinekontrol-right-1.jpg",
-          "sectors": ["İnşaat", "Madencilik"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Hassas kazı ve dolgu, büyük altyapı projeleri ve baraj inşaatlarında kritik öneme sahiptir.",
+          "sectors": ["Baraj İnşaatı", "Altyapı Projeleri", "Yol Yapımı"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Otomatik eğim ve seviye takibi, yol ve havaalanı inşaatlarında hatasız uygulama sağlar.",
+          "sectors": ["Havaalanı İnşaatları", "Yol Projeleri", "Şantiye Uygulamaları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "3D model entegrasyonu, karmaşık mühendislik projelerinde birebir saha uygulaması sağlar.",
+          "sectors": ["BIM Projeleri", "Maden Sahaları", "Endüstriyel Tesisler"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Gerçek zamanlı konum takibi, anlık izleme ve veri raporlaması gerektiren projelerde tercih edilir.",
+          "sectors": ["Liman İnşaatları", "Tünel Kazıları", "Otoyol Yapımları"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Operatör dostu arayüz, saha personelinin kolayca adapte olması için büyük avantaj sağlar.",
+          "sectors": ["Şantiye Ekipleri", "Eğitim Projeleri", "Arazi Şefliği"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Dayanıklı yapısı, çetin saha koşullarında uzun süreli kullanım sağlar.",
+          "sectors": ["Madencilik", "Ağır İnşaat Sahaları", "Orman Altyapı Çalışmaları"]
         }
       ]
-    },
-    {
-      "category": "aksesuar",
-      "left": [
-        {
-          "title": "Destekleyici Ekipman",
-          "slogan": "Verimliliği artırır",
-          "text": "Batarya, tripod ve kablolar gibi aksesuarlar, GNSS ve Lidar cihazlarının saha koşullarında daha etkili kullanılmasını sağlar.",
-          "leftImg": "/resimler/aksesuar-left-1.jpg"
-        }
-      ],
-      "right": [
-        {
-          "title": "DJI Drone Bataryası",
-          "text": "Yüksek kapasite ve hızlı şarj özellikleri ile uzun süreli kullanım sağlar.",
-          "rightImg": "/resimler/aksesuar-right-1.jpg",
-          "sectors": ["Drone", "Haritacılık"]
-        }
-      ]
-    },
+    },    
     {
       "category": "sensor",
       "left": [
         {
-          "title": "Akıllı Sensörler",
-          "slogan": "Çevresel verilerin toplanması",
-          "text": "Akıllı sensörler, sıcaklık, nem, basınç gibi çeşitli çevresel verileri toplayarak analiz eder. Kablosuz iletişim teknolojileri sayesinde, bu veriler anında işlenebilir ve uzaktan erişim sağlanabilir. Özellikle tarım, sanayi ve güvenlik alanlarında geniş bir kullanım yelpazesine sahiptir.",
-          "leftImg": "/resimler/sensor-left-1.jpg"
+          "title": "Gerçek Zamanlı Veri İzleme",
+          "slogan": "Anlık veri takibi ve raporlama",
+          "text": "Sensör sistemleri, sıcaklık, basınç, eğim ve diğer parametreleri anlık olarak izler ve sürekli raporlama yapar."
+        },
+        {
+          "title": "Kablosuz İletim ve Uzaktan Erişim",
+          "slogan": "Her an her yerden veri erişimi",
+          "text": "GSM, LoRa ve WiFi destekli sistemler sayesinde veriler anlık olarak merkeze iletilir ve uzaktan erişim sağlanır."
+        },
+        {
+          "title": "Uzun Pil Ömrü ve Düşük Enerji Tüketimi",
+          "slogan": "Bakım gerektirmeyen uzun ömür",
+          "text": "Düşük enerji tüketimi ve uzun pil ömrü sayesinde yıllarca müdahale gerektirmeden çalışır."
+        },
+        {
+          "title": "Otomatik Sıcaklık ve Basınç Kompansasyonu",
+          "slogan": "Hassas ve hatasız veri",
+          "text": "Ortam sıcaklığı ve basınç değişimlerine karşı otomatik olarak kendini ayarlayarak yüksek doğruluk sağlar."
+        },
+        {
+          "title": "Kolay Kurulum ve Modüler Yapı",
+          "slogan": "Esnek ve hızlı saha montajı",
+          "text": "Sensör sistemleri, farklı platformlara kolayca entegre olabilen modüler tasarıma sahiptir ve sahada hızlı kurulum sağlar."
+        },
+        {
+          "title": "Zorlu Çevre Koşullarına Dayanıklılık",
+          "slogan": "IP68 ile üstün koruma",
+          "text": "Sensörler, suya, toza ve dış darbelere karşı IP68 koruması ile en zorlu saha koşullarında bile güvenilir çalışır."
         }
       ],
       "right": [
         {
-          "title": "SENCEIVE Sensör Sistemi",
-          "text": "SENCEIVE sensörleri, kablosuz veri iletimi ve uzun pil ömrü ile zorlu ortamlarda etkili çözümler sunar. Gelişmiş sensör ağı sayesinde, veri toplama süreçlerini hızlandırır ve kesintisiz izleme sağlar.",
-          "rightImg": "/resimler/sensor-right-1.jpg",
-          "sectors": ["Tarım", "Sanayi", "Güvenlik"]
-        }
-      ]
-    },
-    {
-      "category": "yazilim",
-      "left": [
+          "title": "Öne Çıkan Alanlar",
+          "text": "Gerçek zamanlı veri izleme, sürekli ölçüm ve kontrol gerektiren mühendislik ve çevre projelerinde kullanılır.",
+          "sectors": ["Altyapı İzleme", "Yapı Sağlığı", "Tarım", "Sanayi"]
+        },
         {
-          "title": "Veri Analizi ve İşleme",
-          "slogan": "Hassas ve detaylı raporlama",
-          "text": "GNSS ve Lidar gibi çeşitli sensörlerden gelen verileri analiz eden yazılımlar, detaylı raporlama ve 3D modelleme imkanı sunar. Bu yazılımlar, büyük ölçekli projelerde veri yönetimini kolaylaştırır ve karar alma süreçlerini hızlandırır.",
-          "leftImg": "/resimler/yazilim-left-1.jpg"
-        }
-      ],
-      "right": [
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kablosuz iletim, uzak bölgelerde ve altyapı sistemlerinde veri transferi için avantaj sağlar.",
+          "sectors": ["Afet Yönetimi", "Su Kaynakları İzleme", "Endüstriyel Tesisler"]
+        },
         {
-          "title": "CHCNAV Haritalama Yazılımı",
-          "text": "CHCNAV haritalama yazılımı, GNSS ve Lidar verilerini işleyerek 3D modelleme ve analiz sağlar. Kolay kullanımı ve bulut tabanlı altyapısı ile büyük projelerde tercih edilir.",
-          "rightImg": "/resimler/yazilim-right-1.jpg",
-          "sectors": ["Şehir Planlama", "Haritacılık", "İnşaat"]
+          "title": "Öne Çıkan Alanlar",
+          "text": "Uzun pil ömrü, bakım maliyetlerinin düşürülmesini ve kesintisiz çalışmayı sağlar.",
+          "sectors": ["Maden Saha İzlemesi", "Enerji Santralleri", "Ulaşım Altyapısı"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Otomatik kompansasyon, sıcaklık ve basınç değişimlerinin olduğu sahalarda hatasız veri toplamak için vazgeçilmezdir.",
+          "sectors": ["Köprü İzleme", "Baraj Yapıları", "Yüksek Katlı Binalar"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Kolay kurulum ve modüler yapı, zaman kaybını önleyerek hızlı saha kurulumları sağlar.",
+          "sectors": ["Geoteknik İzleme", "Arazi Stabilite Kontrolleri", "Ar-Ge Projeleri"]
+        },
+        {
+          "title": "Öne Çıkan Alanlar",
+          "text": "Zorlu çevre koşullarına dayanıklılık, dış ortamda yıllarca sürecek projelerde güvenli kullanım sunar.",
+          "sectors": ["Çöl Projeleri", "Kutup Çalışmaları", "Açık Deniz Platformları"]
         }
       ]
     }
@@ -3330,13 +3614,6 @@
         "Yılların verdiği deneyim ve uzmanlık ile müşterilerimize en doğru çözümleri sunuyoruz.",
         "Kalite ve güvenilirlikten ödün vermeden, inovatif teknolojilerle hizmetinizdeyiz."
       ],
-      "otherp": [
-        "Haritalama ve konumlandırma çözümlerimiz, mühendislik ve inşaat projelerinde yüksek hassasiyet sağlar. GNSS cihazlarımız, her türlü saha koşulunda güvenilir veriler sunar.",
-        "İleri seviye GNSS sistemlerimiz, yer kontrol noktalarının belirlenmesi ve topoğrafik haritalama süreçlerini hızlandırır. Sürekli yenilenen teknolojimizle projelerinizi daha verimli hale getiriyoruz.",
-        "Müşterilerimize satış sonrası destek ve eğitim hizmetleriyle her adımda yanınızdayız. Uzman ekibimiz, cihaz kurulumundan yazılım entegrasyonuna kadar kapsamlı çözümler sunar.",
-        "GNSS Teknik olarak, Ar-Ge yatırımlarımız sayesinde teknolojiyi bir adım ileriye taşıyoruz. Çözüm ortaklarımızla birlikte daha güçlü ve etkili sistemler geliştiriyoruz.",
-        "Müşteri memnuniyetini en ön planda tutarak, ihtiyaçlarınıza özel çözümler üretiyoruz. Kaliteli hizmet ve güvenilirlik bizim için vazgeçilmezdir."
-      ],
       "imageLeft": "/resimler/aboutus-left.jpg",
       "imageRight": "/resimler/aboutus-right.jpg",
       "buttonText": "Hakkımızda Daha Fazla",
@@ -3368,7 +3645,7 @@
         "Haritalama teknolojilerimizle uydu, lidar ve GNSS çözümleri sunuyoruz. Hem bireysel hem de kurumsal müşterilerimize en güncel ve hassas haritalama hizmetlerini sağlamak için uzman mühendis kadromuzla çalışıyoruz.",
         "Yeni marketing sitemizde, farklı sektörlere yönelik detaylı ürün kategorileri ve kullanım alanlarına göre öneriler bulabilirsiniz. Kapsamlı ürün bilgileri ve karşılaştırma tabloları sayesinde ihtiyaçlarınıza uygun çözümleri kolayca seçebilirsiniz. Ayrıca, satış sonrası destek ve eğitim hizmetlerimizle kullanıcı deneyimini en üst seviyeye taşıyoruz."
       ],
-      "imageLeft": "/resimler/market.jpg",
+      "imageLeft": "/resimler/market.png",
       "imageRight": "",
       "buttonText": "Marketing Sitemizi İnceleyin",
       "buttonLink": "/marketing",
