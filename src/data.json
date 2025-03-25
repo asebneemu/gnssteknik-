@@ -3629,13 +3629,13 @@
       "type": "aboutus",
       "title": "GNSS Teknik",
       "subtitle": "Sizinle tanıştığımız için çok mutluyuz!",
-      "description": "GNSS Teknik olarak, hassas konumlandırma çözümlerinde lideriz. Müşteri odaklı yaklaşımımızla, ileri teknolojiyi sizlerle buluşturuyoruz.",
+      "description": "GNSS Teknik olarak, hassas konumlandırma ve ölçüm teknolojilerinde sektörün öncüsüyüz. Müşteri odaklı yaklaşımımız ve güçlü çözüm ortaklarımızla, en güncel teknolojileri sizlerle buluşturuyoruz. Bizimle çalışarak; bilgi birikimimizden, uzmanlığımızdan ve güçlü altyapımızdan faydalanabilirsiniz.",
       "paragraphs": [
-        "Yılların verdiği deneyim ve uzmanlık ile müşterilerimize en doğru çözümleri sunuyoruz.",
-        "Kalite ve güvenilirlikten ödün vermeden, inovatif teknolojilerle hizmetinizdeyiz."
+        "Yılların verdiği tecrübe ve alanında uzman ekibimizle, ihtiyaç duyduğunuz her anda doğru çözümler üretiyoruz. Ürün tedariğinden teknik desteğe, her aşamada sizin yanınızdayız. GNSS Teknik’in çalışma anlayışını ve sunduğu değerleri daha yakından tanımak için hakkımızda sayfamızda sizleri bekliyoruz.",
+        "Kalite, güvenilirlik ve inovasyonu odağımıza alarak sektörde fark yaratıyoruz. Geleceğe yönelik vizyonumuz ve güçlü misyonumuzla, müşterilerimize daima en iyisini sunma hedefindeyiz. Daha fazlasını öğrenmek ve bizimle büyüyen çözüm ortaklıklarına göz atmak için hakkımızda sayfamıza uğrayabilirsiniz."
       ],
-      "imageLeft": "/resimler/aboutus-left.jpg",
-      "imageRight": "/resimler/aboutus-right.jpg",
+      "imageLeft": "",
+      "imageRight": "/resimler/aboutus-big.webp",
       "buttonText": "Hakkımızda Daha Fazla",
       "buttonLink": "/aboutus",
       "layout": "right"
@@ -3644,13 +3644,13 @@
       "type": "categories",
       "title": "Teknoloji Kategorilerimiz",
       "subtitle": "GNSS, Lidar ve Daha Fazlası!",
-      "description": "Farklı teknoloji kategorilerimizle ihtiyacınıza uygun çözümler sunuyoruz.",
+      "description": "Farklı teknoloji kategorilerimizle, her ölçüm ve veri toplama ihtiyacınıza uygun çözümler sunuyoruz. Gnss, total station, iha, lidar, nivo, batimetri, makine kontrol, sensör, yazılım ve aksesuar kategorilerimizin her biri, profesyonel çalışmalarınızı desteklemek için özenle hazırlanmıştır. Tüm detayları keşfetmek için kategoriler sayfamıza mutlaka göz atın.",
       "paragraphs": [
-        "GNSS ile hassas konumlandırma çözümleri.",
-        "Lidar teknolojisi ile detaylı haritalama.",
-        "İHA sistemleri ile hızlı ve etkili veri toplama."
+        "Konumlandırmadan ölçüme kadar GNSS ve total station çözümlerimizle en doğru verilere ulaşabilirsiniz. Bu cihazlar, hassasiyet ve güvenilirliği ön planda tutarak projelerinize kesinlik kazandırır. Hangi sistemin size uygun olduğunu görmek için kategorilerimizi inceleyebilirsiniz.",
+        "Hızlı veri toplamak ve büyük alanları modellemek için İHA ve lidar teknolojileri öne çıkar. Sahada zamandan tasarruf etmek ve detaylı sonuçlar elde etmek için ihtiyacınıza uygun çözümler kategorilerimizde sizi bekliyor. Tüm seçenekleri karşılaştırarak karar vermek için kategoriler sayfamıza davetlisiniz.",
+        "Nivo, batimetri, makine kontrol sistemleri, sensörler, profesyonel yazılımlar ve saha aksesuarları gibi tamamlayıcı tüm teknolojileri de sizler için bir araya getirdik. İster arazi ölçümü ister deniz ölçümleri veya otomasyon projeleri olsun, aradığınız her şey için kategoriler sayfamızı ziyaret edin ve projelerinizi ileri taşıyacak çözümleri keşfedin."
       ],
-      "imageLeft": "/resimler/kategori.jpg",
+      "imageLeft": "/resimler/kategori.webp",
       "imageRight": "",
       "buttonText": "Tüm Kategorileri Gör",
       "buttonLink": "/kategori",
