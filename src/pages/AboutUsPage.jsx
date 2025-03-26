@@ -23,12 +23,19 @@ const PartnersSection = ({ logos }) => {
       <h2 className="text-4xl font-bold mb-8 text-left">Çözüm Ortaklarımız</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
         {logos.map((logo, index) => (
-          <img
+          <a
             key={index}
-            src={logo.src}
-            alt={logo.alt}
-            className="w-full h-auto object-contain max-h-24 transition-transform hover:scale-105"
-          />
+            href={logo.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform hover:scale-105"
+          >
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              className="w-full h-auto object-contain max-h-24"
+            />
+          </a>
         ))}
       </div>
     </div>
@@ -41,10 +48,10 @@ export default function AboutUsPage() {
       <AboutUsSection
         title="Hakkımızda"
         paragraphs={[
-          "Firmamız, <b>2008 yılında</b> kurulmuş olup, <b>2012 yılında</b> yeni bir yapılanmaya giderek <i>GNSS teknolojileri</i> alanında dünyanın önde gelen firmalarından <b>CHCNAV</b> ile iş birliği yapmaya başlamıştır. Aynı dönemde el tipi <i>GNSS çözümleri</i> sunan <b>BHC</b> firması ile anlaşmaya vararak Türkiye yetkili satıcısı olmuştur. Mobil <i>GBS (GIS)</i> çözümleri için <b>Digiterra</b> firması ile görüşmeler gerçekleştirilmiş ve yazılım alanında geniş bir ürün yelpazesi oluşturularak konumsal çözümler sunulmaya başlanmıştır. <b>2019 yılında DJI Enterprise</b> bayisi olarak yetkilendirilmiş ve hemen ardından <b>3D Survey Fotoğraf Değerleme ve Harita Üretim yazılımı</b>nın da yetkili satıcısı olarak ürün portföyünü genişletmiştir. <b>2025 yılı itibarıyla</b> <b>Senceive, Benewake, Stec</b> ve <b>Autel Robotics</b> gibi alanında lider firmalar da ürün gamımıza eklenmiştir.",
-          "<b>GNSS teknolojilerinin hızla geliştiği dönemde</b>, Türkiye'de gerçekleştirilen büyük ölçekli <i>GNSS ihaleleri</i>nin tamamını kazanarak sektördeki gücünü pekiştirmiştir. <b>%100 müşteri memnuniyeti</b> ilkesi doğrultusunda ekibini genişletmiş, yeni şubeler açmış ve <b>TSE belgeli servis hizmeti</b>ni hayata geçirmiştir. Türkiye <i>GNSS pazarı</i>nda hızla yükselerek ciro açısından en büyük üç firma arasına girmiş, satış adetlerinde ise lider konuma ulaşmayı başarmıştır.",
-          "<b>Konumlama, navigasyon ve haritalama</b> alanlarında; <i>GNSS, INS, Referans İstasyonları, RTK tabletler</i> ve <i>mobil GNSS çözümleri</i> sunmaktayız. Ayrıca <i>Batimetri, İnsansız Deniz Araçları, Total Station ve Robotik Sistemler, Deformasyon Çözümleri, İnsansız Hava Araçları</i> ve yazılım çözümlerine ek olarak <i>Lidar teknolojileri</i> ile kapsamlı çözümler sağlamaktayız.",
-          "<b>Yeni yıl itibarıyla</b> uzmanlık alanlarımızı daha da genişleterek <i>BIM (Yapı Bilgi Modellemesi), Yapı Sağlığı İzleme Sistemleri, Makine Kontrol Sistemleri</i> ve <i>ADAS (Otonom Sürüş) Sensör Çözümleri</i> gibi birçok farklı mühendislik disiplininde faaliyet göstermeye başladık. <b>Yenilikçi ve teknoloji odaklı yaklaşımımızla</b> sektöre öncülük etmeye devam ediyoruz.",
+          "Firmamız, <b>2008 yılında</b> kurulmuş olup, <b>2012 yılında</b> yeni bir yapılanmaya giderek <b>GNSS teknolojileri</b> firmalarından <b>CHCNAV</b> ile iş birliği yapmaya başlamıştır. Aynı dönemde el tipi <b>GNSS çözümleri</b> sunan <b>BHC</b> firması ile anlaşmaya vararak Türkiye yetkili satıcısı olmuştur. Mobil <b>GBS (GIS)</b> çözümleri için <b>Digiterra</b> firması ile görüşmeler gerçekleştirilmiş ve yazılım alanında geniş bir ürün yelpazesi oluşturularak konumsal çözümler sunulmaya başlanmıştır. <b>2019 yılında DJI Enterprise</b> bayisi olarak yetkilendirilmiş ve hemen ardından <b>3D Survey Fotoğraf Değerleme ve Harita Üretim yazılımı</b>nın da yetkili satıcısı olarak ürün portföyünü genişletmiştir. <b>2025 yılı itibarıyla</b> <b>Stec GNSS, Total Station ve Lidar</b> gibi birçok ürün yelpazesine sahip markanın Türkiye'de tek yetkili satıcısı olmuştur. Ayrıca <b>Senceive, Benewake ve Autel Robotics</b> gibi alanında lider firmalar da ürün gamımıza eklenmiştir.",
+          "<b>GNSS teknolojilerinin hızla geliştiği dönemde</b>, Türkiye'de gerçekleştirilen büyük ölçekli <b>GNSS ihaleleri</b>nin tamamını kazanarak sektördeki gücünü pekiştirmiştir. <b>%100 müşteri memnuniyeti</b> ilkesi doğrultusunda ekibini genişletmiş, yeni şubeler açmış ve <b>TSE belgeli servis hizmetini</b> hayata geçirmiştir. Türkiye <b>GNSS pazarı</b>nda hızla yükselerek ciro açısından en büyük üç firma arasına girmiş, satış adetlerinde ise lider konuma ulaşmayı başarmıştır.",
+          "<b>Konumlama, navigasyon ve haritalama</b> alanlarında; <b>GNSS, INS, Referans İstasyonları, RTK tabletler</b> ve <b>mobil GNSS çözümleri</b> sunmaktayız. Ayrıca <b>Batimetri, İnsansız Deniz Araçları, Total Station ve Robotik Sistemler, Deformasyon Çözümleri, İnsansız Hava Araçları</b> ve yazılım çözümlerine ek olarak <b>Lidar teknolojileri</b> ile kapsamlı çözümler sağlamaktayız.",
+          "<b>Yeni yıl itibarıyla</b> uzmanlık alanlarımızı daha da genişleterek <b>BIM (Yapı Bilgi Modellemesi), Yapı Sağlığı İzleme Sistemleri, Makine Kontrol Sistemleri</b> ve <b>ADAS (Otonom Sürüş) Sensör Çözümleri</b> gibi birçok farklı mühendislik disiplininde faaliyet göstermeye başladık. <b>Yenilikçi ve teknoloji odaklı yaklaşımımızla</b> sektöre öncülük etmeye devam ediyoruz.",
         ]}
       />
 
@@ -52,36 +59,42 @@ export default function AboutUsPage() {
         title="Vizyonumuz"
         paragraphs={[
           "<b>Her koşulda yanınızdayız...</b>",
-          "Rekabet yaratan ürünleriyle hedef kitle tarafından en çok tercih edilen, kattığı değerle sürekli, kaliteli ürün ve hizmetleriyle kalıcılık sağlayan, temsil etmekte olduğu markalar ve fark yaratan hizmet anlayışı ile alanında lider şirket olmak.",
+          "Hedef kitlemiz tarafından en çok tercih edilen, rekabetçi ürünleriyle fark yaratan; kaliteli ve sürdürülebilir hizmet anlayışıyla kalıcılığını sağlayan, temsil ettiği markalarla değer katan ve sektöründe lider bir şirket olmayı hedefliyoruz.",
         ]}
       />
 
       <AboutUsSection
         title="Misyonumuz"
         paragraphs={[
-          "<b><i>Müşterilerimiz için maksimum değer yaratmak için varız.</i></b>",
-          "GNSS Teknik, alanlarında tecrübe sahibi uzman çalışanları ile <i>ölçme ve mühendislik</i>, <i>mobil haritalama & geospatial</i>, <i>deniz ölçmeleri & inşaat</i>, <i>navigasyon & altyapı</i> çözümleri konusunda kapsamlı çözümler üretmeyi; satış, satış sonrası ve teknik destek hizmetlerini en üst düzeyde sunmayı görev edinmiştir.",
+          "<b><i>Müşterilerimize en yüksek değeri sunmak için varız.</i></b>",
+          "GNSS Teknik olarak; <b>ölçme ve mühendislik, mobil haritalama ve geospatial, deniz ölçmeleri ve inşaat, navigasyon ve altyapı çözümleri</b> alanlarında uzman ekibimizle kapsamlı çözümler sunuyoruz. <b>Satış, satış sonrası ve teknik destek</b> süreçlerinde en yüksek kalite standartlarını hedefleyerek, müşteri memnuniyetini ön planda tutuyoruz.",
         ]}
       />
 
       <AboutUsSection
         title="Değerlerimiz"
         paragraphs={[
-          "Vizyonumuzu gerçekleştirmek için çalışmalarımızda tutku, dürüstlük, girişimcilik ve yenilikle güçlenmeyi planlıyoruz. Bu değerler, yaptığımız her şeyde bize rehberlik etmekte ve kuruluşumuzun temelini oluşturmaktadır.",
-          "<b><i>Başarının anahtarı:</i></b> Dünyada gelişmekte olan ve kullanıcılarımıza değer katacağına inandığımız en güncel teknolojilerden uzman personelimizle en iyiye, müşteri memnuniyetine değer verip getiriyoruz. Türkiye'de ve temsilciliklerimizde markalaşmak ve kendi markamıza değer katmak için sürekli araştırıyoruz.",
-          "<b><i>Farkındalık:</i></b> Kişisel farkındalığın amaca kendimizi sürekli geliştirmekte ve bireysel gelişim ihtiyacımızı belirlemekte. Kendimiz gibi müşterilerimizin de ihtiyaca ve çözüm arayışlarında bu farkındalık ve özveri hedef noktamız olmaktadır.",
-          "<b>Açık fikirli ve yenilikçiyiz:</b> Müşterilerimizin ihtiyaçlarını daha iyi karşılamak için akılcı, dinamik, yenilikçi ve açık fikirliyiz. İleri teknoloji, ürünler, çözümlerle yönetim, projelerin ana ekseninde olduğumuzu anlam kazanacağını biliyoruz.",
-          "<b>Samimi ve güvenilirlik:</b> Güven ve dürüstlük en önemli maddi olmayan varlıklarımızdır. GNSS TEKNİK her zaman tüm projelerinde öncü ve samimiyet ve sonuna güveni inşa etmektedir.",
+          "<b>Vizyonumuzu gerçekleştirmek için</b> tüm çalışmalarımızı <b>tutku, dürüstlük, girişimcilik ve yenilikçilik</b> ilkeleriyle şekillendiriyoruz. Bu değerler, yalnızca yolumuzu değil, aynı zamanda kurum kültürümüzü de belirlemektedir.",
+          "<b>Başarının Anahtarı:</b> Gelişen teknolojileri yakından takip ediyor, uzman kadromuzla kullanıcılarımıza en yeni ve en etkili çözümleri sunuyoruz. Türkiye’de ve temsilciliklerimizde markalaşmayı, kendi markamıza sürekli değer katmayı hedefliyoruz.",
+          "<b>Farkındalık:</b> Bireysel gelişimin gücüne inanıyor, kişisel farkındalık ile hem kendimizi hem müşterilerimizi daha ileriye taşıyoruz. İhtiyaçları doğru analiz ederek özveriyle çözüm üretiyoruz.",
+          "<b>Yenilikçilik ve Açık Fikirli Yaklaşım:</b> Müşterilerimizin değişen beklentilerine uyum sağlamak için yenilikçi, dinamik ve akılcı çözümler geliştiriyoruz. İleri teknoloji ve güçlü yönetim anlayışımızla projelerimizin merkezine sürekli gelişimi yerleştiriyoruz.",
+          "<b>Güven ve Samimiyet:</b> Güvenilirlik ve dürüstlük en kıymetli değerlerimizdir. GNSS Teknik olarak her projede samimi ilişkiler kurar, uzun vadeli güven inşa ederiz. Müşterilerimizle güçlü ve kalıcı bağlar kurmak en büyük önceliğimizdir.",
         ]}
       />
 
       <PartnersSection
         logos={[
-          { src: "/logos/paksoy.png", alt: "PAKSOY Logo" },
-          { src: "/logos/paksoy.png", alt: "DJI Logo" },
-          { src: "/logos/paksoy.png", alt: "Autel Robotics Logo" },
-          { src: "/logos/paksoy.png", alt: "Senceive Logo" },
-          // daha sonra eklemek istersen buraya yenilerini eklersin
+          {
+            src: "/logos/paksoy.png",
+            alt: "PAKSOY Logo",
+            url: "https://paksoyteknik.com.tr/",
+          },
+          {
+            src: "/logos/3bharita.webp",
+            alt: "3B HARİTA Logo",
+            url: "https://4bharita.com.tr/",
+          },
+          // İstersen yeni ortakları buraya ekleyebilirsin
         ]}
       />
     </div>
