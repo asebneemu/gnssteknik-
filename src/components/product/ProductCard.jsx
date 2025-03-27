@@ -1,10 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useCompare } from "../../context/CompareContext";
+import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
 
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
   const { compareList, toggleCompare, isInCompare } = useCompare();
+  const { language } = useLanguage(); // Dil seçimini alıyoruz
 
   if (!product) {
     return null;
@@ -12,6 +14,14 @@ const ProductCard = ({ product }) => {
 
   const isCompared = isInCompare(product.id);
   const mainImage = product.images?.[0] || product.image;
+
+  // Dil seçimine göre metinleri ayarlıyoruz
+  const moreInfoText = language === "tr" ? "Daha Fazla Bilgi" : "More Info";
+  const compareText = language === "tr" ? "Karşılaştır" : "Compare";
+  const removeText = language === "tr" ? "Kaldır" : "Remove";
+
+  // Dil seçimine göre yol ayarı
+  const categoryPath = language === "tr" ? "kategori" : "category";
 
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[580px] p-5 relative transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between">
@@ -32,11 +42,11 @@ const ProductCard = ({ product }) => {
         <div className="mt-auto flex flex-col gap-4">
           <button
             onClick={() =>
-              navigate(`/${product.category}/${product.brand}/${product.id}`)
+              navigate(`/${categoryPath}/${product.category}/${product.brand}/${product.id}`)
             }
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"
           >
-            Daha Fazla Bilgi
+            {moreInfoText}
           </button>
 
           <button
@@ -45,7 +55,7 @@ const ProductCard = ({ product }) => {
               isCompared ? "bg-gray-500" : "bg-gray-700"
             } transition`}
           >
-            {isCompared ? "Kaldır" : "Karşılaştır"}
+            {isCompared ? removeText : compareText}
           </button>
         </div>
       </div>

@@ -1,23 +1,24 @@
-import { useData } from "../../context/DataContext";
 import { useParams } from "react-router-dom";
+import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
 
 const SideBySideCards = () => {
-  const { sideBySideCards } = useData(); // 📌 data.json'dan veri çek
-  const { category } = useParams(); // 📌 URL'den kategori bilgisi al
+  const { data, language } = useLanguage(); // useLanguage hook'u ile data ve language alıyoruz
+  const { sideBySideCards } = data;
+  const { category } = useParams(); // URL'den kategori bilgisi al
 
-  const data = sideBySideCards.find((item) => item.category === category);
+  const categoryData = sideBySideCards.find((item) => item.category === category);
 
-  if (!data) {
+  if (!categoryData) {
     return <div className="text-center py-10"></div>;
   }
 
   return (
     <div className="w-full mx-auto py-10 space-y-10">
       <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800">
-          Neden Bu Teknoloji?
-        </h2>
+        {language === "tr" ? "Neden Bu Teknoloji?" : "Why This Technology?"}
+      </h2>
       <div className="border-l-4 border-gray-800 pl-6">
-        {data.left.map((leftItem, index) => (
+        {categoryData.left.map((leftItem, index) => (
           <div
             key={index}
             className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch border-b border-gray-800 pb-10 mb-10 ml-auto"
@@ -36,12 +37,12 @@ const SideBySideCards = () => {
             {/* Sağ Kart */}
             <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col h-full text-left transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                {data.right[index].title}
+                {categoryData.right[index].title}
               </h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                {data.right[index].sectors.join(", ")}
+                {categoryData.right[index].sectors.join(", ")}
               </h3>
-              <p className="text-sm text-gray-600 mt-auto">{data.right[index].text}</p>
+              <p className="text-sm text-gray-600 mt-auto">{categoryData.right[index].text}</p>
             </div>
           </div>
         ))}

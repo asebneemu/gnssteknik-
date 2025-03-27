@@ -22,7 +22,7 @@ export default function NavbarLink({ icon, name, path, className, onClick }) {
       {icon && <div className="w-10 h-10">{icon}</div>}
 
       {/* Başlık */}
-      <span className="md:text-md text-md font-large">{name}</span>
+      <span className="md:text-md text-md font-large text-center">{name}</span>
     </Link>
   );
 }

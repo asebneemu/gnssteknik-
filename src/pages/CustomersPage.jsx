@@ -1,9 +1,10 @@
 // src/pages/CustomersPage.jsx
-import { useData } from "../context/DataContext";
+import { useLanguage } from "../context/LanguageContext"; // useLanguage kullanıyoruz
 import FeaturedSection from "../components/categorypage/FeaturedSection";
 
 export default function CustomersPage() {
-  const { customerStories } = useData();
+  const { data } = useLanguage(); // useLanguage hook'u ile data alıyoruz
+  const { customerStories } = data;
 
   return (
     <div className="my-20">

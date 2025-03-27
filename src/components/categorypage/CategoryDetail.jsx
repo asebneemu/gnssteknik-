@@ -1,4 +1,3 @@
-// src/components/CategoryDetail.jsx
 import { useRef, useState, useEffect } from "react";
 
 const CategoryDetail = ({ title, description, photo }) => {
@@ -6,7 +5,6 @@ const CategoryDetail = ({ title, description, photo }) => {
   const [textHeight, setTextHeight] = useState(0);
   const imageHeight = 350;
 
-  // ✅ Yazı yüksekliğini hesaplama
   useEffect(() => {
     const handleResize = () => {
       if (textRef.current) {
@@ -14,11 +12,11 @@ const CategoryDetail = ({ title, description, photo }) => {
       }
     };
 
-    handleResize(); // İlk yükleme için
-    window.addEventListener("resize", handleResize); // Sayfa boyutu değiştiğinde yeniden hesapla
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Temizleme
+      window.removeEventListener("resize", handleResize);
     };
   }, [description]);
 

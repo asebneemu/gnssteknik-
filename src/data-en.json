@@ -1,0 +1,3693 @@
+{
+  "mainNavbar": [
+    {
+      "name": "GNSS",
+      "title": "GNSS Technology: Precision Positioning",
+      "icon": "public/navbar-icons/gnss-icon.png",
+      "photo": "/navbar-photos/gnss.JPG",
+      "path": "/gnss",
+      "description": "GNSS (Global Navigation Satellite System) refers to satellite systems such as GPS, GLONASS, Galileo, and BeiDou working together to provide precise global positioning, speed, and timing data. With RTK and PPP technologies, centimeter-level accuracy can be achieved. GNSS plays a critical role in construction, surveying, agriculture, mining, maritime operations, transportation, smart city applications, and autonomous systems. GNSS receivers deliver reliable data even in harsh field conditions, with real-time data transfer, high satellite tracking capacity, and durable designs for both mobile and fixed applications."
+    },
+    {
+      "name": "TOTAL STATION",
+      "title": "Total Station Technology: Professional Measurement Devices",
+      "icon": "public/navbar-icons/tstation.png",
+      "photo": "/navbar-photos/totalstation.webp",
+      "path": "/total-station",
+      "description": "Total Station devices combine laser, electronic angle, and distance measurement technologies to enable fast and precise data collection on-site. With features like automatic target recognition, prism tracking, and remote data transmission, they are essential in major construction and engineering projects. They ensure seamless data transfer to CAD and BIM systems, error-free measurements, quick data logging, and real-time verification. Total Stations provide sub-centimeter accuracy for bridge constructions, highway projects, tunnel excavations, and dam works."
+    },
+    {
+      "name": "UAV",
+      "title": "UAV Technology: Aerial Imaging and Mapping",
+      "icon": "public/navbar-icons/iha.png",
+      "photo": "/navbar-photos/iha.webp",
+      "path": "/uav",
+      "description": "Unmanned Aerial Vehicles (UAVs) are used in high-resolution imaging, orthophoto production, and 3D modeling. They enable fast and efficient data collection in challenging terrains. Integrated with GNSS, lidar, and multispectral cameras, UAVs are used in sectors like agriculture, mining, construction, and disaster management. They support automatic flight planning, data collection over pre-defined routes, and live monitoring during flights."
+    },
+    {
+      "name": "LIDAR",
+      "title": "LiDAR Technology: High-Precision 3D Scanning",
+      "icon": "public/navbar-icons/lidar.png",
+      "photo": "/navbar-photos/lidar.webp",
+      "path": "/lidar",
+      "description": "LiDAR (Light Detection and Ranging) is an advanced technology that uses laser beams to create 3D point clouds of surfaces. Mounted on aerial or ground vehicles, it collects data with millimeter precision over large areas. Ideal for forestry, road projects, infrastructure planning, city modeling, and mining applications."
+    },
+    {
+      "name": "LEVEL INSTRUMENT",
+      "title": "Leveling Technology: Accurate Elevation Measurement",
+      "icon": "public/navbar-icons/nivo.png",
+      "photo": "/navbar-photos/nivo.webp",
+      "path": "/level-instrument",
+      "description": "Leveling instruments are used in construction, infrastructure, and engineering projects to measure height differences with high precision. They come in optical and digital models. Digital levels automatically calculate and display measurements on-screen for quick and reliable use in site applications."
+    },
+    {
+      "name": "BATHYMETRY",
+      "title": "Bathymetry Technology: Underwater Mapping and Depth Measurement",
+      "icon": "public/navbar-icons/batimetri.png",
+      "photo": "/navbar-photos/batimetri.webp",
+      "path": "/bathymetry",
+      "description": "Bathymetry is used to measure underwater surface depths and produce topographic maps. Equipped with single-beam and multi-beam sonar systems, bathymetry equipment is essential for dam reservoirs, harbors, rivers, and marine studies."
+    },
+    {
+      "name": "MACHINE CONTROL",
+      "title": "Machine Control Technology: Site Automation and Precision Excavation",
+      "icon": "public/navbar-icons/mk.png",
+      "photo": "/navbar-photos/mk.webp",
+      "path": "/machine-control",
+      "description": "Machine control systems are integrated into heavy machinery like excavators, dozers, and graders for automatic excavation and filling with millimeter accuracy. These technologies reduce errors, save labor costs, and shorten project durations by allowing direct application of 3D project data on site."
+    },
+    {
+      "name": "SENSOR",
+      "title": "Sensor Technology: Smart Monitoring and Data Collection Systems",
+      "icon": "public/navbar-icons/sensor.png",
+      "photo": "/navbar-photos/sensor.webp",
+      "path": "/sensor",
+      "description": "Sensor systems collect and process real-time environmental and structural data such as temperature, humidity, pressure, inclination, movement, and vibration. Widely used in structural health monitoring, geotechnical observation, environmental studies, and industrial applications."
+    },
+    {
+      "name": "SOFTWARE",
+      "title": "Software Technology: Data Analysis, Mapping, and Reporting",
+      "icon": "public/navbar-icons/yazilim.png",
+      "photo": "/navbar-photos/yazilim.webp",
+      "path": "/software",
+      "description": "Mapping, data analysis, and reporting software are used to process data from GNSS, LiDAR, UAV, and bathymetry systems quickly and accurately. They offer features like 3D modeling, surface analysis, volume calculations, and ortho-image production."
+    },
+    {
+      "name": "ACCESSORIES",
+      "title": "Accessory Technology: Supporting Solutions",
+      "icon": "public/navbar-icons/aksesuar.png",
+      "photo": "/navbar-photos/aksesuar.webp",
+      "path": "/accessories",
+      "description": "Accessories such as batteries, tripods, prism sets, data cables, and carrying cases designed for GNSS, LiDAR, UAV, and total station devices increase field efficiency. High-quality, durable materials ensure long-lasting performance even under tough conditions."
+    }
+  ],
+  "newNavbar": [
+    {
+      "name": "3DSurvey",
+      "icon": "marka-icons/3DSURVEY.png",
+      "path": "/3dsurvey",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "Surface scanning solutions with 3DSurvey.",
+      "banner-url": "https://www.3DSurvey.com",
+      "filter": ["/software"]
+    },
+    {
+      "name": "CHCNAV",
+      "icon": "marka-icons/chcnav.png",
+      "path": "/chcnav",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "Precision positioning solutions with CHCNAV.",
+      "banner-url": "https://www.chcnav.com",
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/uav",
+        "/lidar",
+        "/bathymetry",
+        "/machine-control",
+        "/accessories",
+        "/software",
+        "/sensor"
+      ]
+    },
+    {
+      "name": "AUTEL",
+      "icon": "marka-icons/autel.png",
+      "path": "/autel",
+      "banner-photo": "marka-photos/autel-banner.jpg",
+      "banner-description": "Advanced aerial mapping with Autel.",
+      "banner-url": "https://www.autel.com",
+      "filter": ["/uav", "/software", "/accessories"]
+    },
+    {
+      "name": "DJI",
+      "icon": "marka-icons/dji.png",
+      "path": "/dji",
+      "banner-photo": "marka-photos/dji-banner.JPG",
+      "banner-description": "Professional drone solutions with DJI.",
+      "banner-url": "https://www.dji.com",
+      "filter": ["/uav", "/software", "/accessories"]
+    },
+    {
+      "name": "SOKKIA",
+      "icon": "marka-icons/sokkia.png",
+      "path": "/sokkia",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "Advanced measurement devices with SOKKIA.",
+      "banner-url": "https://www.sokkia.com",
+      "filter": ["/total-station", "/level-instrument", "/accessories"]
+    },
+    {
+      "name": "STEC",
+      "icon": "marka-icons/stec.png",
+      "path": "/stec",
+      "banner-photo": "marka-photos/stec-banner.jpg",
+      "banner-description": "High-precision measurements with STEC.",
+      "banner-url": "https://www.stec.com",
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/level-instrument",
+        "/lidar",
+        "/software",
+        "/accessories"
+      ]
+    },
+    {
+      "name": "SENCEIVE",
+      "icon": "marka-icons/senceive.png",
+      "path": "/senceive",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "Smart sensor systems with SENCEIVE.",
+      "banner-url": "https://www.senceive.com",
+      "filter": ["/sensor", "/accessories"]
+    },
+    {
+      "name": "BENEWAKE",
+      "icon": "marka-icons/benewake.png",
+      "path": "/benewake",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "Surface scanning solutions with BENEWAKE.",
+      "banner-url": "https://www.benewake.com",
+      "filter": ["/sensor", "/accessories"]
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "Twitter",
+      "icon": "FaTwitter",
+      "url": "https://x.com/gnssteknik"
+    },
+    {
+      "name": "Instagram",
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/gnssteknik/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/company/gnss-teknik/"
+    },
+    {
+      "name": "Facebook",
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/Gnssteknik"
+    },
+    {
+      "name": "YouTube",
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/user/gnssteknik"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "FaWhatsapp",
+      "url": "https://wa.me/905302827888"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "STEC AXIS-1 Total Station",
+      "description": "A total station offering high-precision measurement and advanced features.",
+      "category": "total-station",
+      "images": [
+        "/marka-photos/stec/axis-1.0.png",
+        "/marka-photos/stec/axis-1.1.png",
+        "/marka-photos/stec/axis-1.2.png",
+        "/marka-photos/stec/axis-1.3.png"
+      ],
+      "brand": "stec",
+      "specs": [
+        "Measures with 2 cm accuracy at 1.5-2 km reflectorless range.",
+        "Accurate distance measurements even on inclined surfaces with 2 mm + 2 ppm accuracy thanks to 4' tilt compensation.",
+        "Measurement speed of 0.3 seconds and over 16 hours of operation for long fieldwork efficiency.",
+        "IP67 water and dust-resistant body ensures reliability in harsh environments.",
+        "3.1\" large clear screen for easy viewing of measurement data.",
+        "User-friendly experience with quick measurement button and guide light.",
+        "Includes advanced onboard programs like stake-out, angle offset, and road projection."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "STEC AXIS-2 Total Station",
+      "description": "The AXIS-2 total station offers higher accuracy and advanced features.",
+      "images": [
+        "/marka-photos/stec/axis-2.0.png",
+        "/marka-photos/stec/axis-2.1.png",
+        "/marka-photos/stec/axis-2.2.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "Measures with 1 cm accuracy at 2 km reflectorless range.",
+        "5' tilt compensation ensures 1 mm + 1 ppm accuracy on inclined surfaces.",
+        "Measurement speed of 0.2 seconds and more than 20 hours of operation time.",
+        "IP68 water and dust-resistant body for reliability in extreme conditions.",
+        "4.3\" large touchscreen for easy use.",
+        "Enhanced user interface with wireless connectivity options.",
+        "Includes 3D projection and automatic target recognition systems."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "STEC AXIS-3 Total Station",
+      "description": "AXIS-3 total station with high accuracy and user-friendly interface.",
+      "images": [
+        "/marka-photos/stec/axis-3.0.png",
+        "/marka-photos/stec/axis-3.1.png",
+        "/marka-photos/stec/axis-3.2.png",
+        "/marka-photos/stec/axis-3.3.png",
+        "/marka-photos/stec/axis-3.4.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "2\" angle accuracy and 1.5/2 km reflectorless range.",
+        "4' tilt compensation with 2 mm + 2 ppm distance accuracy for precision.",
+        "16-hour operation time with 0.3 second measurement speed.",
+        "Dual-sided color touchscreen with intuitive interface.",
+        "AutoHI plummet feature for easy instrument height measurement.",
+        "Guide light for convenient stake-out operations and quick targeting.",
+        "Practical onboard programs like COGO, resection, offset, and road projection.",
+        "Bluetooth, USB, and WLAN connectivity for data transfer.",
+        "Lightweight and portable design for high field efficiency."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "STEC AXIS-4 Total Station",
+      "description": "AXIS-4 series total station with high precision and flexibility.",
+      "images": [
+        "/marka-photos/stec/axis-4.0.png",
+        "/marka-photos/stec/axis-4.1.png",
+        "/marka-photos/stec/axis-4.2.png",
+        "/marka-photos/stec/axis-4.3.png",
+        "/marka-photos/stec/axis-4.4.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "1\"/2\" angle accuracy and 1/1.5/2 km reflectorless range.",
+        "4' tilt compensation with 1 mm + 1 ppm distance accuracy.",
+        "10-hour battery life with 0.3 second measurement speed.",
+        "4\" color touchscreen with user-friendly graphical interface.",
+        "Equipped with advanced measurement programs like COGO and quick code.",
+        "Wireless data transfer via Bluetooth, USB, and WLAN.",
+        "Auto instrument height measurement reduces error margin.",
+        "Improved icon-based interface for easier use.",
+        "Displays results with graphics and creates directional diagrams after each measurement.",
+        "IP66 water and dust resistance for challenging field conditions.",
+        "32 GB internal memory for large data storage."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "STEC AXIS-9 Total Station",
+      "description": "AXIS-9 series total station offering high precision and flexibility.",
+      "images": [
+        "/marka-photos/stec/axis-9.0.png",
+        "/marka-photos/stec/axis-9.1.png",
+        "/marka-photos/stec/axis-9.2.png",
+        "/marka-photos/stec/axis-9.3.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "1\"/2\" angle accuracy with 1/1.5/2 km reflectorless range options.",
+        "4' tilt compensation with 1 mm + 1 ppm distance accuracy.",
+        "10-hour battery life with 0.3 second measurement speed.",
+        "5.0 inch high-resolution touchscreen with Android 9 OS for user-friendly interface.",
+        "Auto H.I feature for quick instrument height measurement.",
+        "Built-in guide light facilitates stake-out operations.",
+        "Multiple connection options including Bluetooth, USB, WLAN, and email.",
+        "Flexible use with 1000M, 1500M, and 2000M NP range options.",
+        "Google services support and strong graphics capabilities for easy data management."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "STEC AXIS-10 Robotic Total Station",
+      "description": "AXIS-10 robotic total station offering high performance and flexibility.",
+      "images": [
+        "/marka-photos/stec/axis-10.0.png",
+        "/marka-photos/stec/axis-10.1.png",
+        "/marka-photos/stec/axis-10.2.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "180°/s torque drive and 1000 m prism recognition capacity for fast and wide range use.",
+        "300 m prism search capacity and 20°/s tracking speed for dynamic measurements.",
+        "0.5\" and 1\" angle accuracy with 1 mm + 1 ppm distance accuracy for high precision.",
+        "Remote control range of 600 m with a 6\" touchscreen for easy operation.",
+        "Continuous prism tracking and quick targeting with xTrak technology.",
+        "Android 9 operating system for open connectivity and real-time data management."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "STEC SE Lite GNSS Receiver",
+      "description": "A compact GNSS receiver offering high performance despite its small size.",
+      "images": [
+        "/marka-photos/stec/se-lite.0.png",
+        "/marka-photos/stec/se-lite.1.png",
+        "/marka-photos/stec/se-lite.2.png"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "Supports 1,408 channels and 21 frequencies for wide satellite tracking.",
+        "ZENITH algorithm enables fast signal stabilization even in dense foliage and urban environments.",
+        "Extremely compact design with 108 mm width and 82 mm height.",
+        "High-precision positioning with 8+1 mm RTK accuracy.",
+        "S-Link offers secure and stable data transmission up to 15 km.",
+        "Collects data up to a 60° tilt without calibration thanks to EZtilt.",
+        "Upward smart antenna design provides extended coverage and long-range capabilities.",
+        "Android compatible with real-time data collection capacity."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "STEC SV1 GNSS Receiver",
+      "description": "A GNSS receiver providing high precision and durability.",
+      "images": [
+        "/marka-photos/stec/sv1.0.png",
+        "/marka-photos/stec/sv1.1.png",
+        "/marka-photos/stec/sv1.2.png",
+        "/marka-photos/stec/sv1.3.png"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "Tracks all satellite systems with support for 1,408 channels and 21 frequencies.",
+        "Performs high-accuracy positioning with 8+1 mm RTK accuracy.",
+        "Fast signal stabilization in difficult environments thanks to the ZENITH algorithm.",
+        "EZtilt allows data collection up to a 60° tilt without calibration.",
+        "SPOS provides PPP and HAS support via L-band satellites for precise positioning without internet.",
+        "2W UHF Rx/Tx internal antenna ensures stable data transmission up to 15 km.",
+        "IP68 rating ensures operation in tough field conditions.",
+        "Provides broad connectivity with Type-C USB, SIM card slot, and radio antenna port.",
+        "Magnesium alloy body with a lightweight design of 740g.",
+        "Compact with 74 mm width and 128 mm height.",
+        "Camera-supported AR stake-out solution for precise targeting."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "STEC SDi GNSS Receiver",
+      "description": "A high-precision GNSS receiver with AR support and IMU-based measurement.",
+      "images": [
+        "/marka-photos/stec/sdi.0.png",
+        "/marka-photos/stec/sdi.1.png",
+        "/marka-photos/stec/sdi.2.png",
+        "/marka-photos/stec/sdi.3.png",
+        "/marka-photos/stec/sdi.4.png"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "Supports all global GNSS systems with 1,408 channels.",
+        "Offers 8mm horizontal and 15mm vertical RTK accuracy.",
+        "IMU-supported tilt measurements up to 60° without calibration.",
+        "Provides PPP positioning via L-Band and PPP support without internet.",
+        "UHF radio modem (2W Tx/Rx) enables data transmission up to 15 km.",
+        "Built-in 4G GSM, Wi-Fi, and Bluetooth for easy data transfer.",
+        "HDR-supported CMOS camera for precise AR-based targeting.",
+        "IP68 water and dust resistance, operates between -30°C and +65°C.",
+        "Lightweight (890g) magnesium alloy body for durability.",
+        "Supports fast charging and data transfer via USB Type-C.",
+        "NFC feature for quick connections."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "STEC LiScan50 Handheld Laser Scanner",
+      "description": "A wireless, lightweight, and easy-to-use LiDAR scanner capturing high-precision point clouds and panoramic images.",
+      "images": [
+        "/marka-photos/stec/liscan50.0.png",
+        "/marka-photos/stec/liscan50.1.png",
+        "/marka-photos/stec/liscan50.2.png",
+        "/marka-photos/stec/liscan50.3.png",
+        "/marka-photos/stec/liscan50.4.png"
+      ],
+      "category": "lidar",
+      "brand": "stec",
+      "specs": [
+        "Maximum measuring range of 70m (R=80%) and 40m (R=10%).",
+        "Class I laser technology with a 905nm wavelength.",
+        "Field of view: 360° horizontal, -7° to +52° vertical.",
+        "Measurement speed of 200,000 points per second.",
+        "2cm relative accuracy, 5cm absolute accuracy.",
+        "18MP panoramic camera.",
+        "Ergonomic lightweight design: 1,010g (including camera and battery).",
+        "Operating temperature: -10˚C to +50˚C, storage temperature: -20˚C to +60˚C.",
+        "Power consumption of 20W, 12V - 17.6V DC power supply.",
+        "Battery life of 1.5 hours.",
+        "64GB USB flash disk data storage.",
+        "Compatible with tripod, base plate, and pole.",
+        "USB Type-C for charging and data transfer.",
+        "Records data while moving with SLAM technology."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "STEC LiScan100 Handheld Laser Scanner",
+      "description": "A wireless, lightweight, and easy-to-use LiDAR scanner capturing high-precision point clouds and panoramic images.",
+      "images": [
+        "/marka-photos/stec/liscan100.0.png",
+        "/marka-photos/stec/liscan100.1.png",
+        "/marka-photos/stec/liscan100.2.png",
+        "/marka-photos/stec/liscan100.3.png",
+        "/marka-photos/stec/liscan100.4.png"
+      ],
+      "category": "lidar",
+      "brand": "stec",
+      "specs": [
+        "120m/300m maximum measuring range.",
+        "Class I laser technology with a 905nm wavelength.",
+        "Field of view: 360° horizontal, 260° vertical.",
+        "Measurement speed of 320,000 points per second.",
+        "1cm relative accuracy, 3-5cm absolute accuracy.",
+        "72MP panoramic camera.",
+        "Ergonomic design made of aviation-grade aluminum with ceramic coating.",
+        "Operating temperature: -10˚C to +50˚C, storage temperature: -20˚C to +60˚C.",
+        "Power consumption of 20W, 12V - 17.6V DC power supply.",
+        "Battery life of 3 hours.",
+        "Compatible with tripod, base plate, and pole.",
+        "USB Type-C for charging and data transfer.",
+        "Records data while moving with SLAM technology.",
+        "GNSS module for CORS connectivity and real-time kinematic positioning.",
+        "Real-time scanning monitoring and point cloud preview via app."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "STEC DLS-15 Digital Leveling Instrument",
+      "description": "A digital leveling instrument designed for precise height measurements, offering both optical and digital readings with high accuracy.",
+      "images": [
+        "/marka-photos/stec/dls-1507.0.png",
+        "/marka-photos/stec/dls-1507.1.png",
+        "/marka-photos/stec/dls-1507.2.png",
+        "/marka-photos/stec/dls-1507.3.png",
+        "/marka-photos/stec/dls-1507.4.png"
+      ],
+     "category": "level-instrument",
+      "brand": "stec",
+      "specs": [
+        "Height accuracy of 1.5mm (digital reading) and 2.0mm (optical reading).",
+        "Digital measurement distance between 1.5m - 100m.",
+        "Distance accuracy: D ≤ 10m: 10mm, D > 10m: D * 0.001.",
+        "Minimum height difference display with 1mm / 0.5mm accuracy.",
+        "32x magnification telescope with 3” resolution.",
+        "1°20′ field of view.",
+        "Magnetic damped compensator with ±12′ leveling range.",
+        "16MB internal data storage capacity.",
+        "Mini-USB connection interface.",
+        "LCD display (128×32 dpi) with backlight.",
+        "Operating temperature range: -20℃ to +50℃.",
+        "Dimensions: 230mm x 150mm x 210mm, weight: 2.5kg."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "STEC DLS-03 Digital Leveling Instrument",
+      "description": "A digital leveling instrument designed for precise height measurements, offering both optical and digital readings with high accuracy.",
+      "specs": [
+        "Height accuracy of 0.3mm (digital reading) and 2.0mm (optical reading).",
+        "Digital measurement distance between 2m - 110m.",
+        "Distance accuracy: D ≤ 10m: 10mm, D > 10m: D * 0.001.",
+        "Minimum height difference display with 0.01mm / 0.1mm / 1mm precision.",
+        "32x magnification telescope with 3” resolution.",
+        "1°30′ field of view.",
+        "Magnetic damped compensator with ±12′ leveling range.",
+        "128MB internal data storage capacity.",
+        "Mini-USB connection interface.",
+        "LCD display (128×32 dpi) with backlight.",
+        "Operating temperature range: -20℃ to +50℃.",
+        "Dimensions: 230mm x 225mm x 203mm, weight: 3.1kg.",
+        "IP65 water and dust resistance certification."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "CHCNAV iBase GNSS Receiver",
+      "description": "A GNSS receiver offering high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, and BeiDou satellite systems.",
+        "Up to 25 km UHF RTK coverage with a 5-watt radio module for extended communication.",
+        "IP67 water and dust resistance and IK08 impact protection for harsh environments.",
+        "Versatile connectivity with UHF, 4G modem, Wi-Fi, and Bluetooth.",
+        "Two removable 7,000 mAh lithium-ion batteries provide up to 12 hours of operation.",
+        "IMU-RTK technology enables tilt compensation and measurements up to 60°.",
+        "Compatible with RTCM 3.x, RINEX, NMEA 0183, and HCN data formats.",
+        "8 GB internal storage for GNSS raw data logging.",
+        "RTK tilt compensation offers 8 mm + 0.7 mm/° accuracy.",
+        "Post-processing kinematic (PPK) support for 3 mm + 1 ppm horizontal accuracy.",
+        "Automatic frequency selection for UHF interference control and 10 Hz RTK update rate.",
+        "0.96-inch OLED display for real-time position and device status monitoring.",
+        "Shock-resistant body design withstands drops up to 2 meters."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "CHCNAV i73+ GNSS Receiver",
+      "description": "A GNSS receiver providing high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels, tracking GPS, GLONASS, Galileo, and BeiDou satellite systems.",
+        "IMU-RTK technology enables tilt compensation with 3 cm accuracy for up to 30° tilt.",
+        "6800 mAh internal battery provides up to 24 hours of operation in RTK mode.",
+        "UHF Tx/Rx modem enables wireless data transmission up to 8 km.",
+        "IP67 water and dust resistance, with drop protection up to 2 meters.",
+        "Flexible connectivity with NTRIP, APIS, and TCP support.",
+        "0.96-inch OLED display for real-time position and device status monitoring.",
+        "10 Hz RTK update rate ensures real-time position data.",
+        "8 GB internal storage for GNSS raw data logging.",
+        "USB Type-C and Bluetooth 4.2 for fast data transfer and charging.",
+        "RTK tilt compensation with 8 mm + 0.7 mm/° accuracy.",
+        "Supports RINEX, HCN, and NMEA data logging formats.",
+        "Wireless connectivity via NFC and Wi-Fi 802.11 b/g/n."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CHCNAV i83 GNSS Receiver",
+      "description": "A GNSS receiver providing high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels, tracking GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
+        "IMU-RTK technology with tilt compensation up to 60° and 3 cm accuracy.",
+        "9,600 mAh internal battery enables up to 34 hours of operation in RTK mode.",
+        "UHF Tx/Rx modem allows wireless data transmission up to 15 km.",
+        "IP67 water and dust resistance, with drop protection up to 2 meters.",
+        "Flexible connectivity with NTRIP, APIS, and TCP support.",
+        "1.1-inch OLED color display for real-time position and device status monitoring.",
+        "10 Hz RTK update rate for real-time positioning data.",
+        "8 GB internal storage for GNSS raw data logging.",
+        "USB Type-C and Bluetooth 4.2 for fast data transfer and charging.",
+        "RTK tilt compensation with 8 mm + 0.7 mm/° accuracy.",
+        "Supports RINEX, HCN, and NMEA data logging formats.",
+        "Wireless connectivity via NFC and Wi-Fi 802.11 b/g/n.",
+        "Post-processing kinematic (PPK) support with 3 mm + 1 ppm horizontal accuracy.",
+        "Magnesium alloy body ensures durability with a compact 2.54 kg design."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CHCNAV i93 GNSS Receiver",
+      "description": "A GNSS receiver offering high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
+        "IMU-RTK technology with tilt compensation up to 60° and 3 cm accuracy.",
+        "9,600 mAh internal battery provides up to 34 hours of operation in RTK mode.",
+        "UHF Tx/Rx modem allows wireless data transmission up to 15 km.",
+        "IP68 water and dust resistance and impact protection up to 2 meters.",
+        "Flexible connectivity with NTRIP, APIS, and TCP support.",
+        "1.1-inch OLED color display for real-time position and device status monitoring.",
+        "10 Hz RTK update rate for real-time positioning data.",
+        "32 GB internal memory with support for up to 128 GB external storage.",
+        "USB Type-C and Bluetooth 5.0 for fast data transfer and charging.",
+        "RTK tilt compensation accuracy of 8 mm + 0.7 mm/°.",
+        "Supports RINEX, HCN, and NMEA data formats.",
+        "Wireless connectivity via NFC and Wi-Fi 802.11 a/b/g/n/ac.",
+        "Post-processing kinematic (PPK) support with 3 mm + 1 ppm horizontal accuracy.",
+        "Magnesium alloy body with a compact and durable design weighing 1.15 kg.",
+        "Automatic high-speed continuous capture with up to 85% overlap and fast processing.",
+        "0.96-inch OLED display for device status and position monitoring.",
+        "200 Hz IMU update rate for automatic IMU initialization and precise tilt measurement.",
+        "Flexible data compatibility with RTCM 2.x, RTCM 3.x, CMR, and NMEA formats.",
+        "Starlight-grade camera for capturing color images even in low light conditions."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "CHCNAV i89 GNSS Receiver",
+      "description": "A GNSS receiver offering high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, and BeiDou satellite systems.",
+        "Reliable fixes up to 96% with iStar2.0 and ionospheric reduction technology.",
+        "IMU-RTK technology with tilt compensation up to 60° and 3 cm accuracy.",
+        "16.5 hours operating time with fast 18W charging for full charge in 3 hours.",
+        "IP68 water and dust resistance and impact protection up to 2 meters.",
+        "UHF Tx/Rx modem enables wireless data transmission up to 15 km.",
+        "Automatic IMU startup without manual calibration for high precision.",
+        "0.96-inch OLED display for device status and position monitoring.",
+        "Video photogrammetry algorithms support for 3D modeling.",
+        "Wireless connectivity via NFC, Wi-Fi 802.11 a/b/g/n/ac, and Bluetooth 5.0.",
+        "32 GB internal storage for GNSS raw data logging.",
+        "Virtual Pole Tip™ technology for point visualization on CAD projects.",
+        "200 Hz IMU update rate for automatic tilt measurement and precision.",
+        "Magnesium alloy body with a compact design weighing 750 g.",
+        "Wide compatibility with NTRIP, RTCM, and RINEX data formats."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "CHCNAV i76 GNSS Receiver",
+      "description": "A GNSS receiver offering high precision and durability.",
+      "specs": [
+        "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
+        "5th Generation Ultra-IMU technology with tilt compensation up to 60° and 3 cm accuracy.",
+        "17 hours of operating time and full charge in 4.5 hours for extended use.",
+        "IP68 water and dust resistance and impact protection up to 2 meters.",
+        "UHF Tx/Rx modem enables wireless data transmission up to 15 km.",
+        "0.96-inch OLED display for device status and position monitoring.",
+        "4th Generation Air-Medium GNSS antenna with over 96% RTK fix rate.",
+        "32 GB internal storage for GNSS raw data logging.",
+        "USB Type-C and Bluetooth 5.0 for fast data transfer and charging.",
+        "RTK tilt compensation accuracy of 8 mm + 0.7 mm/°.",
+        "Supports RINEX, HCN, and NMEA data logging formats.",
+        "Wireless connectivity via NFC and Wi-Fi 802.11 a/b/g/n/ac.",
+        "Post-processing kinematic (PPK) support with 3 mm + 1 ppm horizontal accuracy.",
+        "Magnesium alloy body with a compact and durable design weighing 450 g.",
+        "CAD+AR support for up to 40% more efficient project stakeouts."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "CHCNAV LandStar 8 Software",
+      "description": "LandStar 8 software offering advanced mapping and surveying solutions.",
+      "specs": [
+        "Compatible with Android OS and features a user-friendly interface.",
+        "Open and process CAD files up to 50% faster with the MetaCAD graphic engine.",
+        "Quickly view and edit DXF files up to 200 MB.",
+        "Cloud-based integration for project backup and remote support.",
+        "Quick Code feature for one-click line and detail addition.",
+        "CAD-based map editing and area calculation functions.",
+        "Advanced project management with QR code-based coordinate and project transfer.",
+        "GNSS data transfer supported by NTRIP, APIS, and TCP.",
+        "Compatible with IP68-certified devices for durability in harsh environments.",
+        "Simplified site calibration wizard for fast calibration.",
+        "3D map support displaying real-time location and measurement data.",
+        "Data export support in RINEX, CSV, and NMEA formats.",
+        "Multi-language support and localized video tutorials.",
+        "Layer management compatible with WMS/WFS and CAD maps.",
+        "Continuous support through remote assistance and software updates."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "CHCNAV CGO 2.0 Software",
+      "description": "CGO 2.0 software offering advanced GNSS data processing solutions.",
+      "specs": [
+        "Fully integrated with GNSS, RTK, ROAD, and UAV modules.",
+        "Accurate GNSS data processing with Static, PPK, and PPP algorithms.",
+        "CAD-based operations and rapid data analysis with MetaCAD engine.",
+        "Data transfer support in RINEX, NMEA, and CSV formats.",
+        "Advanced error correction algorithms for processing GNSS raw data.",
+        "High-precision post-processing kinematic (PPK) support.",
+        "Cloud-based integration for project backup and remote assistance.",
+        "Advanced geodetic tools such as coordinate transformations and TIFF compression.",
+        "3D mapping and UAV trajectory support with real-time location data.",
+        "Automatic download and integration of CORS reference data.",
+        "Optimized for processing large field data quickly.",
+        "User-friendly interface with an easy learning curve.",
+        "GNSS data transfer supported by NTRIP and APIS.",
+        "Multi-language support and localized help documents.",
+        "Compatible with Windows 7, 8, and 10 (32-bit and 64-bit)."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "CHCNAV MapCloud 2.0",
+      "description": "A powerful GIS data collection and mapping application with a strong mapping engine and cloud-based integration.",
+      "specs": [
+        "Supports popular GIS formats such as SHAPES, DWG, DXF, SHP, KML, GPX, TIF, and IMG.",
+        "Seamless integration with online base maps like Google, Bing, WMS, and WFS.",
+        "Loads GB-class SHP files quickly and handles TB-class TIF files smoothly.",
+        "Cloud-based sharing between field and office via sharing code.",
+        "Customizable layer templates and thematic maps with a user-friendly interface.",
+        "Supports data collection with GNSS RTK receivers for high-precision positioning.",
+        "Audio and visual notifications for ease of use in field operations.",
+        "Functions include coordinate allocation, track recording, length, and area measurements.",
+        "Expandable for secondary development to obtain GNSS data.",
+        "Compatible with CHCNAV control units running Android 7.0.1 and above."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "CHCNAV MAS",
+      "description": "A cloud-based monitoring and alarm platform offering data visualization and alarm management.",
+      "specs": [
+        "Remote monitoring and alarm management through Internet, IoT, and big data integration.",
+        "Support for creating 3D scenes with DEM, GIS maps, satellite, and radar imagery.",
+        "View radar and multi-sensor data on a single screen with interactive graphics analysis.",
+        "Four-level customizable alarm system with SMS, email, and direct notifications.",
+        "Support for real-time meteorological data, sensor data, and video monitoring.",
+        "Flexible access and remote management via web, mobile app, and H5 interfaces.",
+        "Automatic reporting system with customizable formats and frequencies.",
+        "Supports Windows Server 2019 and later, and Ubuntu.",
+        "Database support for MySQL 5.7.24 and above.",
+        "Recommended hardware includes Intel Core i7 processor and GTX 1060 or higher graphics card."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "CHCNAV P5U GNSS Reference Receiver",
+      "description": "High precision and durability offered by the P5 GNSS reference receiver.",
+      "specs": [
+        "Supports 624 channels and simultaneous tracking of GPS, GLONASS, Galileo, BDS, and QZSS satellite systems.",
+        "RTK accuracy: 8 mm + 1 ppm horizontal and 15 mm + 1 ppm vertical.",
+        "32 GB internal storage with external storage support up to 1 TB.",
+        "Built-in lithium-ion battery provides up to 24 hours of continuous operation.",
+        "IP67 water and dust resistance ensures reliable use in harsh conditions.",
+        "Advanced network compatibility with NTRIP client/server and caster support.",
+        "Wireless data transmission via Bluetooth and Wi-Fi.",
+        "Fast data transfer and configuration via Ethernet and USB.",
+        "Data logging in RINEX and HCN formats.",
+        "Remote configuration and data downloading via HTTP and FTP.",
+        "Carrier phase measurement precision < 1 mm for GNSS signals.",
+        "Compact and durable design for both mobile and fixed base station use."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "CHCNAV P5E-Net GNSS Receiver",
+      "description": "High precision and durability offered by the P5E-Net GNSS reference receiver.",
+      "specs": [
+        "Supports 624 channels and tracks all satellite systems.",
+        "Supports GPS (L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5/E6), BDS (B1/B2/B3), SBAS, and L-Band signals.",
+        "RTK accuracy: 8 mm + 1 ppm horizontal and 15 mm + 1 ppm vertical.",
+        "Post-processing accuracy: 2.5 mm + 0.5 ppm horizontal and 5 mm + 0.5 ppm vertical.",
+        "32 GB internal memory with external USB storage support.",
+        "Integrated Bluetooth, Wi-Fi, and 4G modem for wireless communication.",
+        "IP67 water and dust resistance for operation in harsh environments.",
+        "Up to 20 hours of operation with the internal battery.",
+        "Powered by an IMX287 processor running at 450 MHz.",
+        "Color LCD screen with a user-friendly interface for easy configuration.",
+        "FTP push and online download support for data transfer.",
+        "Operating temperature range: -40°C to +65°C."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "CHCNAV DL8 Datalink",
+      "description": "A reliable UHF radio modem for long-distance GNSS RTK corrections.",
+      "specs": [
+        "Operates within the 410-470 MHz frequency band.",
+        "Adjustable output power from 5W to 28W.",
+        "IP67 water and dust resistance for durability in harsh environments.",
+        "50 Ohm TNC female connector for antenna connection.",
+        "Supports serial port baud rates up to 115200 bps.",
+        "Easy configuration via Bluetooth and OLED display.",
+        "Operating voltage of 9-16V DC and weighs 2 kg.",
+        "Supports GMSK and 4FSK modulation for strong data transmission.",
+        "±1 ppm frequency stability ensures reliable communication.",
+        "Operates in transceiver, transmit-only, and receive-only modes."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "CHCNAV LT60H Rugged GNSS Smartphone",
+      "description": "High precision and durability with the LT60H GNSS smartphone.",
+      "specs": [
+        "GNSS module with 1,408 channels supporting GPS, GLONASS, Galileo, and BeiDou.",
+        "2.0 GHz Qualcomm Snapdragon octa-core processor with DDR3 memory for high performance.",
+        "6.3-inch sunlight-readable IPS display with Corning Gorilla Glass 3 protection.",
+        "IP67 water and dust resistance for durability in harsh conditions.",
+        "6,000 mAh lithium-ion battery offering up to 8 hours of continuous use.",
+        "Certified with Google Mobile Service (GMS) and Android Enterprise Recommended (AER).",
+        "64 GB ROM and 4 GB RAM for high storage and performance.",
+        "Expandable memory up to 128 GB via Micro SD card.",
+        "Built-in sensors including NFC, G-Sensor, Light Sensor, E-Compass, and Gyroscope.",
+        "Fast data transfer via Type-C USB and OTG support.",
+        "Dual SIM 4G modem for uninterrupted internet connection.",
+        "Drop resistance up to 1.5 meters according to IP67 standards."
+      ]
+    },
+    {
+      "id": 42,
+      "name": "CHCNAV LT800H GNSS Rugged RTK Tablet",
+      "description": "High precision and durability with the LT800H GNSS RTK tablet.",
+      "specs": [
+        "High-precision GNSS module with 1,408 channels supporting GPS, GLONASS, Galileo, and BeiDou.",
+        "8.1-inch sunlight-readable IPS display with Corning Gorilla Glass 3 protection.",
+        "2.0 GHz octa-core processor for fast processing of large maps and datasets.",
+        "Dual SIM 4G modem for fast and uninterrupted internet connection.",
+        "IP67 water and dust resistance for durability in harsh environments.",
+        "9,000 mAh lithium-ion battery offering up to 8 hours of continuous use.",
+        "Certified with Google Mobile Service (GMS) and Android Enterprise Recommended (AER).",
+        "128 GB ROM and 8 GB RAM for large storage and excellent performance.",
+        "Expandable storage up to 256 GB via Micro SD card.",
+        "Built-in sensors including NFC, G-Sensor, Light Sensor, E-Compass, and Gyroscope.",
+        "Fast data transfer via Type-C USB and OTG support.",
+        "Drop resistance up to 1.2 meters according to IP67 standards.",
+        "RTK technology offering centimeter and decimeter-level accuracy."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "CHCNAV HCE600 Rugged Field Controller",
+      "description": "High durability and precision with the HCE600 field controller.",
+      "specs": [
+        "5.5-inch DragonTrail™ HD+ display with sunlight-readable IPS panel.",
+        "2.0 GHz Helio MTK 6762 octa-core processor for high performance.",
+        "3 GB RAM and 32 GB internal memory, expandable up to 128 GB with MicroSD.",
+        "Certified with IP67 and MIL-STD-810H for water, dust, and impact resistance.",
+        "Seamless connectivity with Bluetooth 5.0, 4G modem, and dual-band Wi-Fi.",
+        "9,000 mAh battery providing up to 14 hours of continuous operation.",
+        "GNSS support for GPS, GLONASS, and BeiDou satellite systems.",
+        "Alphanumeric keypad and customizable shortcut keys for easy use.",
+        "500-nit brightness for excellent visibility in bright conditions.",
+        "Fast data transfer with Type-C USB and OTG support.",
+        "Drop resistance up to 1.5 meters on concrete surfaces.",
+        "Compatible with Android 10 operating system and LandStar application."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "CHCNAV LT700H RTK Android Tablet",
+      "description": "The LT700H RTK tablet with rugged design and high-precision GNSS support.",
+      "specs": [
+        "Android 8.1 operating system and octa-core 2.2 GHz processor.",
+        "4 GB RAM and 64 GB internal storage, expandable up to 128 GB via Micro SD.",
+        "Supports GPS, GLONASS, BDS, and GALILEO with 0.05 m HRMS accuracy.",
+        "IP67 water and dust resistance and 1.5 m drop protection on concrete.",
+        "8-inch IPS screen, 1920x1200 resolution, waterproof and glove-supported touchscreen.",
+        "8000 mAh battery offering up to 12 hours of runtime and 4-hour charging time.",
+        "5 MP front camera, 16 MP rear camera with integrated flash.",
+        "Wi-Fi, Bluetooth 4.1, and Type-C/OTG connectivity support.",
+        "Built-in NFC, G-sensor, light sensor, proximity sensor, e-compass, and gyroscope.",
+        "Compact and durable design: dimensions of 240 x 151 x 32 mm and weight of 675 g."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "CHCNAV CTS-A100 Total Station",
+      "description": "The CTS-A100 total station offering high accuracy and durability.",
+      "specs": [
+        "Android operating system with LandStar software for a user-friendly interface.",
+        "Qualcomm octa-core processor, 3 GB RAM, and 32 GB ROM for high processing power.",
+        "Powerful EDM system with 5000 m prism and 1500 m reflectorless measurement range.",
+        "2'' angular accuracy and dual-axis electronic compensator for precise measurements.",
+        "IP55 water and dust resistance for tough field conditions.",
+        "5.0-inch HD screen with clear visibility even in sunlight.",
+        "Wi-Fi and 4G connectivity for data transfer via cloud services.",
+        "MetaCAD engine for CAD-based operations and fast data processing.",
+        "3 mm + 2 ppm reflectorless and 2 mm + 2 ppm with prism measurement accuracy.",
+        "Automatic temperature and pressure correction sensors for environmental adjustments.",
+        "27x magnification and focus range from 1.5 m to infinity for detailed observation.",
+        "8-hour battery life with IP55 protection for extended fieldwork.",
+        "Type-A USB and MicroUSB ports for flexible data transfer.",
+        "802.11 b/g Wi-Fi and Bluetooth 4.2 for wireless communication.",
+        "Supports RINEX, HCN, and NMEA data formats for wide compatibility."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "CHCNAV AA9 Airborne LiDAR + RGB System",
+      "description": "High-precision airborne LiDAR and RGB system for fast and accurate 3D mapping.",
+      "specs": [
+        "Measurement range up to 600 meters with 500,000 points per second scan rate.",
+        "5 mm repeatable range accuracy and 2 to 5 cm absolute accuracy.",
+        "Supports up to 6 return echoes for high vegetation penetration.",
+        "26 MP half-frame camera for high-resolution orthophotos.",
+        "Lightweight 1.45 kg design for easy drone integration.",
+        "IP64 certification for durability in harsh weather conditions.",
+        "CoPre and CoProcess software for easy and fast data processing.",
+        "Up to 30 minutes of continuous operation time.",
+        "GNSS module supporting GPS, GLONASS, BeiDou, and Galileo satellite systems.",
+        "Rotating mirror scanning at 250 scans/second for a wide field of view.",
+        "Alphaport interface for quick setup and connectivity."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "CHCNAV AA10 LiDAR System",
+      "description": "High accuracy and durability with the AA10 LiDAR + RGB system.",
+      "specs": [
+        "5 mm repeatable range accuracy and 2-5 cm absolute accuracy.",
+        "Long-range measurement up to 800 meters with a 500,000 points/second scan rate.",
+        "45 MP full-frame orthophoto camera for high-resolution imaging.",
+        "Multi-target capability with up to 8 return echoes for precise data in dense vegetation.",
+        "Positioning supported by GNSS and IMU with a 500 Hz IMU update rate.",
+        "IP64 water and dust resistance for use in harsh conditions.",
+        "Advanced data processing and feature extraction with CoPre and CoProcess software.",
+        "1.55 kg lightweight and compact design compatible with various UAV platforms.",
+        "High-quality point clouds generated with a 45 MP camera and continuously rotating mirror.",
+        "500 kHz laser frequency and 0.032° scan angle for precise 3D modeling.",
+        "Wireless data transfer via Bluetooth and Wi-Fi connectivity.",
+        "Embedded CoPre software for automatic data alignment and model creation."
+      ]
+    },
+    {
+      "id": 61,
+      "name": "CHCNAV AA15 LiDAR System",
+      "description": "High accuracy and fast data collection with the AA15 LiDAR system.",
+      "specs": [
+        "15 mm accuracy and 2-5 cm absolute precision for high-accuracy measurement.",
+        "2 million pulses per second scanning speed and 600 scans per second for dense point clouds.",
+        "Long-range scanning up to 150 meters with support for up to 16 return echoes.",
+        "Weighs only 2.5 kg, making it one of the lightest LiDAR systems in its class.",
+        "IP64 water and dust resistance for tough working environments.",
+        "Automatic data processing and feature extraction with CHCNAV CoPre and CoProcess software.",
+        "Compatible with DJI drones and various aerial platforms.",
+        "Supports external cameras of 45 MP and 61 MP for high-resolution imagery.",
+        "Compact dimensions of 247 mm × 126 mm × 156 mm.",
+        "512 GB internal storage with support for up to 1 TB external memory.",
+        "Bluetooth and Wi-Fi connectivity for wireless data transfer.",
+        "0.032° laser deflection angle and 75° field of view for precise 3D modeling."
+      ]
+    },
+    {
+      "id": 62,
+      "name": "CHCNAV AA450 LiDAR System",
+      "description": "Lightweight and high-performance AA450 LiDAR system, providing UAV-based precision mapping solutions.",
+      "specs": [
+        "Long-range scanning capability up to 450 meters.",
+        "Integrated 26 MP professional industrial camera for high-resolution imaging.",
+        "Maximum scan rate of 720,000 points per second for dense point cloud generation.",
+        "5-10 cm absolute accuracy and 15 mm precision for high-accuracy data collection.",
+        "Direct Skyport interface for connection with DJI M300 and M210 V2 UAVs.",
+        "IP64 water and dust resistance for operation in harsh environments.",
+        "Advanced data processing and automatic alignment with CHC CoPre software.",
+        "256 GB internal storage and fast data transfer via USB Type-C at 160 Mb/s.",
+        "Lightweight design at only 0.95 kg for easy UAV integration.",
+        "45° scan angle with 240,000 points per second single-return support.",
+        "GNSS-assisted positioning with a 500 Hz IMU update rate.",
+        "Wide operating temperature range between -20°C and +50°C."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "CHCNAV AlphaUni 300/900/1300 LiDAR System",
+      "description": "The AlphaUni 300/900/1300 LiDAR systems offer high precision and flexibility, providing multi-platform mapping solutions.",
+      "specs": [
+        "Range up to 330 meters and scanning capability of 1.2 million points per second.",
+        "0.010 m RMS horizontal and 0.010 m RMS vertical accuracy for high precision.",
+        "IMU-supported GNSS positioning with a 600 Hz IMU update rate.",
+        "IP64 water and dust resistance for use in tough conditions.",
+        "Advanced data processing and automatic alignment with CHC CoPre software.",
+        "UHF data transmission up to 8 km and wireless remote control.",
+        "High-resolution imaging with a 45 MP calibrated Sony camera.",
+        "Lightweight, compact design weighing 2.1 kg.",
+        "360° field of view and scanning speed of 200 scans/second for fast and detailed scanning.",
+        "500 GB internal storage with fast data transfer via 160 Mb/s USB Type-C.",
+        "Multi-platform compatibility: UAV, vehicle, train, and backpack mounting.",
+        "Industrial-grade durability and operation in wide temperature ranges (-20°C to +50°C)."
+      ]
+    },
+    {
+      "id": 64,
+      "name": "CHCNAV AU20 LiDAR System",
+      "description": "Flexible and high-performance AU20 LiDAR system offering multi-platform mapping solutions.",
+      "specs": [
+        "Range up to 1450 meters and scanning capability of 2 million points per second.",
+        "Absolute accuracy between 2-5 cm and 15 mm measurement precision.",
+        "IP64 water and dust resistance for operation in tough conditions.",
+        "Multi-target capability with up to 16 echoes for precise data collection in dense vegetation.",
+        "Advanced data processing and feature extraction with CHC CoPre and CoProcess software.",
+        "Integrated high-resolution imaging with a 45 MP industrial camera.",
+        "Lightweight, compact design weighing 2.82 kg.",
+        "360° scanning angle and 200 scans/second for fast and detailed scanning.",
+        "512 GB internal storage with 80 Mb/s data transfer rate.",
+        "Multi-platform support: UAV, vehicle, and backpack mounting.",
+        "GNSS-assisted positioning and 500 Hz IMU update rate.",
+        "Industrial-grade durability and wide operating temperature range (-20°C to +50°C)."
+      ]
+    },
+    {
+      "id": 65,
+      "name": "CHCNAV RS10 LiDAR",
+      "description": "Portable LiDAR solution capable of high-precision 3D scanning and mapping for indoor and outdoor environments.",
+      "specs": [
+        "Combines GNSS RTK, LiDAR, and SLAM technologies.",
+        "Provides 5 cm absolute measurement accuracy with RTK and SLAM integration.",
+        "Comprehensive scanning with a 360° × 270° field of view.",
+        "Portable usage with a lightweight, compact design of 1.9 kg.",
+        "SFix technology ensures 5 cm accuracy in areas without GNSS signal.",
+        "Vi-LiDAR technology provides 5 cm accuracy up to 15 meters.",
+        "Scanning speed of 640,000 points/second for high-accuracy data collection.",
+        "IP64 water and dust resistance standard for durability in tough conditions.",
+        "512 GB internal storage capacity.",
+        "Hot-swappable battery allowing 60 minutes of continuous use.",
+        "Wireless data transfer via Bluetooth and Wi-Fi connectivity options.",
+        "CoProcess software support for automatic drawing extraction and data processing."
+      ]
+    },
+    {
+      "id": 68,
+      "name": "CHCNAV CoProcess LiDAR Processing Software",
+      "description": "CoProcess software provides advanced LiDAR data processing and analysis capabilities, delivering professional mapping and analysis solutions.",
+      "images": [
+        "/marka-photos/chcnav/copre-1.png",
+        "/marka-photos/chcnav/copre-2.png",
+        "/marka-photos/chcnav/copre-3.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "lidar-software",
+      "typeTitle": "LiDAR Software",
+      "specs": [
+        "Automatic creation of DEM and DSM for accurate terrain modeling.",
+        "Batch point cloud classification and feature extraction.",
+        "Support for both automatic and manual feature extraction for road data.",
+        "Dense data classification with advanced algorithms.",
+        "Measurement tools for volume calculation and analysis.",
+        "High performance on large datasets using CoData format.",
+        "User-friendly interface with modular design.",
+        "Export support in DXF and DAT formats."
+      ]
+    },
+    {
+      "id": 69,
+      "name": "CHCNAV CoPre LiDAR Processing Software",
+      "description": "CoPre offers fast and efficient LiDAR data processing solutions with features optimized for mobile mapping.",
+      "images": [
+        "/marka-photos/chcnav/copre-1.png",
+        "/marka-photos/chcnav/copre-2.png",
+        "/marka-photos/chcnav/copre-3.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "lidar-software",
+      "typeTitle": "LiDAR Software",
+      "specs": [
+        "Automatic trajectory processing and point cloud color matching.",
+        "High-accuracy DOM and 3D model generation.",
+        "Advanced layer control and point cloud cleaning.",
+        "Data accuracy check and detailed reporting tools.",
+        "One-click automatic processing and export options.",
+        "Data output in DXF and LAS formats.",
+        "Fast processing capability for large datasets.",
+        "Workflow compatible with POS and SLAM data."
+      ]
+    },
+    {
+      "id": 70,
+      "name": "CHCNAV X500 UAV",
+      "description": "The X500 UAV offers high performance and flexibility for multi-platform mapping and exploration solutions.",
+      "images": [
+        "/marka-photos/chcnav/x500-0.png",
+        "/marka-photos/chcnav/x500-1.png",
+        "/marka-photos/chcnav/x500-2.png",
+        "/marka-photos/chcnav/x500-3.png"
+      ],
+      "category": "uav",
+      "brand": "chcnav",
+      "specs": [
+        "5 kg payload capacity and up to 58 minutes of flight time.",
+        "IP55 water and dust resistance for reliable operation in harsh conditions.",
+        "CHCNAV video transmission system with up to 20 km range.",
+        "Obstacle detection up to 80 meters with millimeter-wave radar.",
+        "Dual GNSS, triple IMU, and dual-redundant flight control for safety.",
+        "10.1-inch touchscreen remote controller for easy operation.",
+        "CHCNAV SmartGo software supporting rectangular, corridor, polygon, and façade routes.",
+        "45° scanning angle and 200 scans/second for fast, detailed mapping.",
+        "13.9 kg maximum take-off weight and 5.0 kg payload capacity.",
+        "±0.5 m vertical and ±1.5 m horizontal GNSS accuracy.",
+        "Skyport interface compatible with DJI M300 and M210 V2 UAVs.",
+        "32 GB internal storage and fast data transfer via USB Type-C."
+      ]
+    },
+    {
+      "id": 71,
+      "name": "CHCNAV C5 UAV Aerial Mapping Camera",
+      "description": "Lightweight and high-performance C5 camera designed for aerial mapping and photogrammetry applications.",
+      "images": [
+        "/marka-photos/chcnav/c5-0.png",
+        "/marka-photos/chcnav/c5-1.png",
+        "/marka-photos/chcnav/c5-2.png"
+      ],
+      "category": "uav",
+      "brand": "chcnav",
+      "type": "aerial-mapping-cameras",
+      "typeTitle": "Aerial Mapping Cameras",
+      "specs": [
+        "Weighs 290 grams with compact dimensions of 75 x 63.5 x 102.5 mm.",
+        "256 GB internal storage and 80 Mb/s data transfer via USB-C.",
+        "Fixed-focus full-frame camera optimized for orthophoto captures.",
+        "IP64 water and dust resistance for tough environments.",
+        "3.76 µm pixel size and 130 MP resolution (26 MP x 5).",
+        "Advanced processing with CoPre software and aerotriangulation support.",
+        "Skyport compatibility for integration with DJI and CHCNAV drones.",
+        "Operating temperature range: -20°C to +50°C.",
+        "External memory card support with up to 300 Mb/s copy speed."
+      ]
+    },
+    {
+      "id": 72,
+      "name": "CHCNAV C30 UAV Aerial Mapping Camera",
+      "description": "The C30 camera offers professional-grade aerial mapping solutions with high-resolution and precise imagery.",
+      "images": [
+        "/marka-photos/chcnav/c30-0.png",
+        "/marka-photos/chcnav/c30-1.png",
+        "/marka-photos/chcnav/c30-2.png"
+      ],
+      "category": "uav",
+      "brand": "chcnav",
+      "type": "aerial-mapping-cameras",
+      "typeTitle": "Aerial Mapping Cameras",
+      "specs": [
+        "Weighs 600 grams with compact dimensions of 110 x 108 x 85 mm.",
+        "640 GB external memory card and 300 Mb/s data transfer speed.",
+        "Optimized for oblique photogrammetry with high-performance optics.",
+        "CoPre software support for point cloud coloring and analysis.",
+        "IP64 water and dust resistance for rugged environmental conditions.",
+        "45 MP resolution with low-distortion lens.",
+        "Skyport compatibility for integration with DJI and CHCNAV drones.",
+        "Supports up to 200,000 shots per second with up to 5 lenses.",
+        "Operating temperature range: -20°C to +50°C."
+      ]
+    },
+    {
+      "id": 80,
+      "name": "CHCNAV APACHE 3 Bathymetry Device",
+      "description": "The APACHE 3 is optimized for hydrographic surveys, offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/apache3-0.png",
+        "/marka-photos/chcnav/apache3-1.png",
+        "/marka-photos/chcnav/apache3-2.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "specs": [
+        "Precise positioning with integrated GNSS and IMU.",
+        "ADCP compatibility for flow velocity and water depth measurement.",
+        "IP67 water and dust resistance standard.",
+        "35 kg payload capacity and 6-hour battery life.",
+        "200 kHz single-beam echo sounder support.",
+        "Macromolecule polyester carbon fiber body.",
+        "Android-based control system and 4G connectivity."
+      ]
+    },
+    {
+      "id": 81,
+      "name": "CHCNAV APACHE 3 PRO Bathymetry Device",
+      "description": "Equipped with advanced hydrographic measurement features, APACHE 3 PRO is ideal for professional use.",
+      "images": [
+        "/marka-photos/chcnav/apache3pro-0.png",
+        "/marka-photos/chcnav/apache3pro-1.png",
+        "/marka-photos/chcnav/apache3pro-2.png",
+        "/marka-photos/chcnav/apache3pro-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "specs": [
+        "High-resolution measurement with NORBIT multibeam echo sounder.",
+        "8-hour battery life and maximum speed of 5 m/s.",
+        "IP67 water and dust resistance standard.",
+        "35 kg payload capacity and 360° video support.",
+        "Macromolecule polyester carbon fiber body.",
+        "Integrated GNSS+IMU for precise positioning.",
+        "Android-based control and 4G connectivity."
+      ]
+    },
+    {
+      "id": 82,
+      "name": "CHCNAV APACHE 4 Bathymetry Device",
+      "description": "The APACHE 4 is optimized for hydrographic surveys, offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/apache4-0.png",
+        "/marka-photos/chcnav/apache4-1.png",
+        "/marka-photos/chcnav/apache4-2.png",
+        "/marka-photos/chcnav/apache4-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "specs": [
+        "Accurate positioning and orientation with integrated GNSS+IMU.",
+        "ADCP compatibility for flow velocity and water depth measurement.",
+        "IP67 water and dust resistance standard.",
+        "Android-based control system and 4G connectivity.",
+        "35 kg payload capacity and 8-hour battery life.",
+        "360° video support and 200 kHz echo sounding frequency.",
+        "Durability with macromolecule polyester carbon fiber body."
+      ]
+    },
+    {
+      "id": 83,
+      "name": "CHCNAV APACHE 6 Bathymetry Device",
+      "description": "APACHE 6 with high-resolution multibeam echo sounder support is ideal for comprehensive marine surveys.",
+      "images": [
+        "/marka-photos/chcnav/apache6-0.png",
+        "/marka-photos/chcnav/apache6-1.png",
+        "/marka-photos/chcnav/apache6-2.png",
+        "/marka-photos/chcnav/apache6-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "specs": [
+        "High-resolution measurement with NORBIT multibeam echo sounder.",
+        "6-hour battery life and maximum speed of 5 m/s.",
+        "IP65 water and dust resistance standard.",
+        "Android-based control system and 4G connectivity.",
+        "15 kg weight and 60 kg payload capacity.",
+        "Triple-hull design with macromolecule polyester carbon fiber body.",
+        "Support for automatic route planning and data processing."
+      ]
+    },
+
+    {
+      "id": 90,
+      "name": "CHCNAV D270 Hydrographic System",
+      "description": "The D270 system is optimized for precise bathymetric measurements and seabed mapping.",
+      "images": [
+        "/marka-photos/chcnav/d270-0.png",
+        "/marka-photos/chcnav/d270-1.png",
+        "/marka-photos/chcnav/d270-2.png",
+        "/marka-photos/chcnav/d270-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hydrographic Systems",
+      "specs": [
+        "Support for 200 kHz and 450 kHz single and multibeam echo sounders.",
+        "8-hour battery life and IP67 water and dust resistance standard.",
+        "Precise positioning with integrated GNSS and IMU.",
+        "Android-based control system and 4G connectivity.",
+        "Maximum speed of 10 m/s and 35 kg payload capacity."
+      ]
+    },
+    {
+      "id": 91,
+      "name": "CHCNAV D390 Hydrographic System",
+      "description": "The D390 is designed for professional bathymetric measurement and marine applications.",
+      "images": [
+        "/marka-photos/chcnav/d390-0.png",
+        "/marka-photos/chcnav/d390-1.png",
+        "/marka-photos/chcnav/d390-2.png",
+        "/marka-photos/chcnav/d390-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hydrographic Systems",
+      "specs": [
+        "High-resolution data collection with a 500 kHz multibeam echo sounder system.",
+        "10-hour battery life and IP67 water and dust resistance standard.",
+        "Accurate measurements with integrated GNSS+IMU and ADCP support.",
+        "Fast data transfer via Ethernet and USB.",
+        "Android-based control system and 4G connectivity."
+      ]
+    },
+    {
+      "id": 92,
+      "name": "CHCNAV RS600 Hydrographic System",
+      "description": "The RS600 system is designed for acoustic Doppler current profiling.",
+      "images": [
+        "/marka-photos/chcnav/rs600-0.png",
+        "/marka-photos/chcnav/rs600-1.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hydrographic Systems",
+      "specs": [
+        "Precise current profiling with 300 kHz ADCP support.",
+        "IP68 waterproofing and 15-hour battery life.",
+        "Wireless data transmission via Bluetooth and Wi-Fi.",
+        "Fast data transfer via USB and Ethernet.",
+        "Accurate positioning with integrated GNSS.",
+        "Operating temperature range: -20°C to +50°C."
+      ]
+    },
+    {
+      "id": 93,
+      "name": "CHCNAV RS1200 Hydrographic System",
+      "description": "The RS1200 system is designed for high-precision acoustic Doppler current profiling.",
+      "images": [
+        "/marka-photos/chcnav/rs1200-0.png",
+        "/marka-photos/chcnav/rs1200-1.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hydrographic Systems",
+      "specs": [
+        "High-resolution current profiling with 600 kHz ADCP support.",
+        "IP68 waterproofing and 20-hour battery life.",
+        "Accurate positioning with integrated GNSS+IMU.",
+        "Data recording in NMEA and RINEX formats.",
+        "Fast data transfer via Ethernet and USB.",
+        "Operating temperature range: -20°C to +60°C."
+      ]
+    },
+
+    {
+      "id": 94,
+      "name": "CHCNAV HQ-400 Hydrographic System",
+      "description": "The HQ-400 is designed for multibeam echo sounding and precise bathymetric measurements.",
+      "images": [
+        "/marka-photos/chcnav/hq-400-0.png",
+        "/marka-photos/chcnav/hq-400-1.png",
+        "/marka-photos/chcnav/hq-400-2.png",
+        "/marka-photos/chcnav/hq-400-3.png"
+      ],
+      "category": "bathymetry",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hydrographic Systems",
+      "specs": [
+        "High resolution with NORBIT multibeam echo sounder system.",
+        "IP67 water and dust resistance standard.",
+        "8-hour battery life and 200 kHz sounding frequency.",
+        "Precise positioning with integrated GNSS and IMU.",
+        "Data transfer via Ethernet and USB."
+      ]
+    },
+    {
+      "id": 100,
+      "name": "CHCNAV PS-2000 Sensor",
+      "description": "High-precision and contactless deformation monitoring system.",
+      "images": [
+        "/marka-photos/chcnav/ps2000-0.png",
+        "/marka-photos/chcnav/ps2000-1.png",
+        "/marka-photos/chcnav/ps2000-2.png",
+        "/marka-photos/chcnav/ps2000-3.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "specs": [
+        "Contactless deformation measurement with 0.1 mm accuracy.",
+        "360° monitoring angle with customizable scan range.",
+        "Differential interferometric measurement and circular synthetic aperture imaging technology.",
+        "Real-time data updates for fast decision-making.",
+        "IP65 water and dust resistance standard.",
+        "25 kg weight and portable compact design.",
+        "FMCW modulation and Ku-band operation.",
+        "Monitoring range from 0.3 m to 5000 m.",
+        "LAN connection and low power consumption (≤50 W).",
+        "Operating temperature: -35°C to +55°C."
+      ]
+    },
+    {
+      "id": 101,
+      "name": "CHCNAV CGI-830 GNSS and IMU Sensor",
+      "description": "Advanced GNSS and IMU sensor for precise positioning and orientation.",
+      "images": [
+        "/marka-photos/chcnav/cgi-830-1.png",
+        "/marka-photos/chcnav/cgi-830-2.png",
+        "/marka-photos/chcnav/cgi-830-3.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS and IMU Sensors",
+      "specs": [
+        "Supports simultaneous tracking of multiple GNSS systems with 624 channels.",
+        "IMU-RTK technology for tilt-insensitive precise positioning.",
+        "RTK accuracy: 8 mm + 1 ppm horizontally, 15 mm + 1 ppm vertically.",
+        "IP68 water and dust resistance for tough conditions.",
+        "Bluetooth, Wi-Fi, and 4G connectivity options.",
+        "32 GB internal storage for extensive data capacity.",
+        "Operating temperature: -40°C to +65°C.",
+        "Built-in battery providing up to 24 hours of continuous operation."
+      ]
+    },
+    {
+      "id": 102,
+      "name": "CHCNAV CGI-610 GNSS and IMU Sensor",
+      "description": "High-precision GNSS and IMU sensor for monitoring and positioning.",
+      "images": [
+        "/marka-photos/chcnav/cgi-610-0.png",
+        "/marka-photos/chcnav/cgi-610-1.png",
+        "/marka-photos/chcnav/cgi-610-2.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS and IMU Sensors",
+      "specs": [
+        "Supports all GNSS satellite systems with 624 channels.",
+        "Precise positioning with IMU-RTK integration unaffected by tilt and movement.",
+        "RTK accuracy: 8 mm + 1 ppm horizontally, 15 mm + 1 ppm vertically.",
+        "IP68 water and dust resistance with a robust body.",
+        "Connectivity via Bluetooth, Wi-Fi, 4G, and Ethernet.",
+        "Built-in battery providing up to 20 hours of continuous operation.",
+        "Operating temperature: -40°C to +65°C.",
+        "32 GB internal memory with external USB support."
+      ]
+    },
+
+    {
+      "id": 103,
+      "name": "CHCNAV P2 GNSS and IMU Sensor",
+      "description": "High-precision GNSS and IMU sensor for monitoring and positioning applications.",
+      "images": [
+        "/marka-photos/chcnav/p2-0.png",
+        "/marka-photos/chcnav/p2-1.png",
+        "/marka-photos/chcnav/p2-2.png",
+        "/marka-photos/chcnav/p2-3.png",
+        "/marka-photos/chcnav/p2-4.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS and IMU Sensors",
+      "specs": [
+        "Supports all GNSS systems with 624 channels.",
+        "Precise positioning with IMU-RTK integration, unaffected by tilt or movement.",
+        "RTK accuracy: 8 mm + 1 ppm horizontally, 15 mm + 1 ppm vertically.",
+        "IP68 water and dust resistance with a durable body.",
+        "Connectivity options via Bluetooth, Wi-Fi, 4G, and Ethernet.",
+        "Built-in battery providing up to 20 hours of continuous operation.",
+        "Operating temperature: -40°C to +65°C.",
+        "32 GB internal memory with external USB support."
+      ]
+    },
+    {
+      "id": 104,
+      "name": "CHCNAV CGI-230 GNSS and IMU Sensor",
+      "description": "High-precision GNSS and IMU sensor for monitoring and positioning tasks.",
+      "images": [
+        "/marka-photos/chcnav/cgi-230-1.png",
+        "/marka-photos/chcnav/cgi-230-2.png",
+        "/marka-photos/chcnav/cgi-230-3.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS and IMU Sensors",
+      "specs": [
+        "Supports multiple GNSS systems including GPS, GLONASS, Galileo, BDS, and QZSS.",
+        "624 channel capacity for simultaneous tracking of multiple satellite systems.",
+        "Precise positioning with IMU-RTK technology, unaffected by tilt.",
+        "RTK accuracy: 8 mm + 1 ppm horizontally, 15 mm + 1 ppm vertically.",
+        "IP68 water and dust resistance for tough environments.",
+        "Connectivity via Bluetooth, Wi-Fi, 4G, and Ethernet.",
+        "Built-in battery for up to 24 hours of continuous operation.",
+        "Operating temperature: -40°C to +65°C.",
+        "32 GB internal storage with external USB support.",
+        "Remote configuration and data transfer via HTTP and FTP."
+      ]
+    },
+    {
+      "id": 105,
+      "name": "CHCNAV H3 GNSS Monitoring Receiver",
+      "description": "High-precision and versatile GNSS monitoring receiver.",
+      "images": [
+        "/marka-photos/chcnav/h3-0.png",
+        "/marka-photos/chcnav/h3-1.png",
+        "/marka-photos/chcnav/h3-2.png",
+        "/marka-photos/chcnav/h3-3.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS Sensors",
+      "specs": [
+        "Supports GPS, GLONASS, BeiDou, Galileo, and QZSS with 1408 channels.",
+        "Reliable positioning with high-precision GNSS and MEMS sensor integration.",
+        "iSTAR algorithm for high accuracy data even in challenging environments.",
+        "IP67 water and dust resistance standard for tough conditions.",
+        "Energy-efficient design with power consumption below 1.8W and solar panel support.",
+        "Wireless data transmission via 4G modem, Wi-Fi, and Bluetooth.",
+        "Static mode accuracy of 3 mm + 0.5 ppm horizontally and 5 mm + 0.5 ppm vertically.",
+        "Remote configuration and data transfer with NTRIP, TCP, and MQTT protocols.",
+        "Compact design with integrated antenna for easy setup and use.",
+        "Operating temperature: -40°C to +65°C.",
+        "Shock resistance: protection against drops from up to 1 meter height."
+      ]
+    },
+
+    {
+      "id": 110,
+      "name": "CHCNAV TX63",
+      "description": "High-precision machine control system.",
+      "images": [
+        "/marka-photos/chcnav/tx63-0.png",
+        "/marka-photos/chcnav/tx63-1.png",
+        "/marka-photos/chcnav/tx63-2.png",
+        "/marka-photos/chcnav/tx63-3.png"
+      ],
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "Automatic level control with high-precision GNSS and IMU support.",
+        "IP67 water and dust resistance certification.",
+        "Easy operation and configuration with MCNAV software.",
+        "Control via 10.1-inch industrial touchscreen.",
+        "Compatible with all GNSS satellite systems.",
+        "Advanced hydraulic control system.",
+        "Centimeter-level RTK accuracy."
+      ]
+    },
+    {
+      "id": 111,
+      "name": "CHCNAV TG63",
+      "description": "3D automatic level control system for motor graders.",
+      "images": [
+        "/marka-photos/chcnav/tg63-1.png",
+        "/marka-photos/chcnav/tg63-2.jpg",
+        "/marka-photos/chcnav/tg63-3.jpg"
+      ],
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "High-precision dual GNSS and 100 Hz IMU for automatic blade control.",
+        "IP67 and IP68 water and dust resistance standards.",
+        "10.1-inch Android touchscreen and MCNAV software.",
+        "Supports 2D/3D dual mode.",
+        "Industrial antenna and IP68 metal housing.",
+        "±2 cm height accuracy.",
+        "High precision with hydraulic control system."
+      ]
+    },
+    {
+      "id": 112,
+      "name": "CHCNAV TD63 PRO",
+      "description": "3D automatic control system for dozers.",
+      "images": [
+        "/marka-photos/chcnav/td63pro-0.png",
+        "/marka-photos/chcnav/td63pro-1.png",
+        "/marka-photos/chcnav/td63pro-2.png",
+        "/marka-photos/chcnav/td63pro-3.png"
+      ],
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "High-precision automatic blade control with dual GNSS and 100 Hz IMU.",
+        "IP67 and IP68 water and dust resistance certification.",
+        "10.1-inch Android touchscreen and MCNAV software.",
+        "Centimeter-level RTK accuracy.",
+        "Automatic control with hydraulic system.",
+        "Industrial antenna and robust cable structure.",
+        "Operating temperature range from -40°C to +85°C."
+      ]
+    },
+    {
+      "id": 201,
+      "name": "DJI Matrice 350 RTK",
+      "description": "Industrial drone offering top-level safety and advanced autonomous flight features.",
+      "images": [
+        "/marka-photos/dji/m350-0.png",
+        "/marka-photos/dji/m350-1.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "55-Minute Maximum Flight Time: Continuous performance for long operations.",
+        "IP55 Protection Level: Safe flights even in harsh weather conditions.",
+        "20 km Maximum Transmission Distance: Enhanced signal strength with O3 Enterprise and a 4-antenna system.",
+        "TB65 Smart Battery: 400 charge cycles, fast charging, and automatic warming in low temperatures.",
+        "Night Vision FPV Camera: Clear view in low-light conditions.",
+        "6-Directional Sensors and CSM Radar: 360° obstacle detection and precise positioning.",
+        "DJI RC Plus Controller: 7-inch high-brightness display, IP54 rating, and operating temperature from -20°C to +50°C.",
+        "New GNSS & RTK Module: Supports GPS, GLONASS, BeiDou, and Galileo for faster RTK fixing.",
+        "2.7 kg Maximum Payload: Dual gimbal ports for multiple sensor support."
+      ]
+    },
+    {
+      "id": 209,
+      "name": "DJI Zenmuse H20",
+      "description": "Professional multi-sensor drone camera featuring 23× hybrid zoom, laser rangefinder, and wide-angle camera.",
+      "images": [
+        "/marka-photos/dji/h20-0.png",
+        "/marka-photos/dji/h20-2.png",
+        "/marka-photos/dji/h20seri.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Multi-Sensor Camera",
+      "specs": [
+        "Camera Sensors: 20 MP zoom camera, 12 MP wide-angle camera.",
+        "Zoom Capability: 23× hybrid optical zoom, 200× digital zoom.",
+        "Laser Rangefinder: 3 – 1200 meters, ±0.2 m accuracy.",
+        "Video Resolution: 4K/30 fps.",
+        "Gimbal Structure: 3-axis stabilization system.",
+        "Water and Dust Resistance: IP44 rating.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Platform Compatibility: DJI Matrice 300 RTK."
+      ]
+    },
+    {
+      "id": 210,
+      "name": "DJI Zenmuse H20T",
+      "description": "Hybrid aerial imaging system combining thermal camera, high-resolution zoom, wide-angle camera, and laser rangefinder.",
+      "images": [
+        "/marka-photos/dji/h20t-0.png",
+        "/marka-photos/dji/h20t-1.png",
+        "/marka-photos/dji/h20t-2.png",
+        "/marka-photos/dji/h20seri.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Multi-Sensor Camera",
+      "specs": [
+        "Camera Sensors: 20 MP zoom camera, 12 MP wide-angle camera, 640×512 thermal camera.",
+        "Zoom Capability: 23× hybrid optical zoom, 200× digital zoom.",
+        "Laser Rangefinder: 3 – 1200 meters, ±0.2 m accuracy.",
+        "Video Resolution: 4K/30 fps.",
+        "Thermal Camera: 640×512 resolution, 30 Hz refresh rate.",
+        "Temperature Measurement Accuracy: ±2°C or ±2%.",
+        "Temperature Measurement Modes: Spot temperature measurement, area temperature analysis, isotherm settings.",
+        "Alarm System: Notifications for objects exceeding preset temperature thresholds.",
+        "Gimbal Structure: 3-axis stabilization system.",
+        "Water and Dust Resistance: IP44 rating.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Platform Compatibility: DJI Matrice 300 RTK."
+      ]
+    },
+    {
+      "id": 211,
+      "name": "DJI Zenmuse H20N",
+      "description": "Hybrid drone camera equipped with night vision and thermal imaging capabilities, delivering excellent performance in low-light conditions.",
+      "images": [
+        "/marka-photos/dji/h20n-0.png",
+        "/marka-photos/dji/h20n-1.png",
+        "/marka-photos/dji/h20n-2.png",
+        "/marka-photos/dji/h20n-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Multi-Sensor Camera",
+      "specs": [
+        "Starlight Wide-Angle Camera: 1/2.7” CMOS, 2 MP resolution.",
+        "Starlight Zoom Camera: 1/1.8” CMOS, 4 MP resolution, 20× hybrid optical zoom, 128× max zoom.",
+        "Dual Thermal Cameras: 640×512 @30Hz, 53mm and 196mm focal lengths.",
+        "Thermal Zoom: 2× and 8× optical zoom, 32× max zoom.",
+        "Laser Rangefinder: 3 – 1200 meters, ±0.2m accuracy.",
+        "Gimbal Structure: 3-axis stabilization system.",
+        "Night Vision Mode: Clear and colorful imaging in low-light conditions.",
+        "Smart Flight Features: Object tracking, automatic temperature analysis, target marking, regional analysis.",
+        "Water and Dust Resistance: IP44 certification.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Compatible Drone Models: DJI Matrice 300 RTK."
+      ]
+    },
+    {
+      "id": 214,
+      "name": "DJI Matrice 30T RTK",
+      "description": "Compact and portable industrial drone equipped with thermal camera and advanced flight systems.",
+      "images": [
+        "/marka-photos/dji/m30t-0.png",
+        "/marka-photos/dji/m30t-1.png",
+        "/marka-photos/dji/m30t-2.png",
+        "/marka-photos/dji/m30t-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maximum Flight Time: 41 minutes.",
+        "Transmission Distance: 15 km (OcuSync 3 Enterprise).",
+        "Water and Dust Resistance: IP55 certification.",
+        "Battery System: TB30 smart battery with hot-swap support.",
+        "Camera Sensors: 48 MP zoom camera, 12 MP wide-angle camera, 640×512 thermal camera.",
+        "Zoom Capacity: 16× optical zoom, 200× maximum digital zoom.",
+        "Laser Rangefinder: Up to 1200 meters with ±0.2m accuracy.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Gimbal Structure: 3-axis gimbal.",
+        "Smart Flight Features: AI-assisted object recognition, automatic flight route planning, night vision mode."
+      ]
+    },
+    {
+      "id": 215,
+      "name": "DJI Matrice 4T RTK",
+      "description": "Compact and durable industrial drone equipped with thermal imaging, zoom camera, and laser rangefinder.",
+      "images": [
+        "/marka-photos/dji/m4t-0.png",
+        "/marka-photos/dji/m4t-1.png",
+        "/marka-photos/dji/m4t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maximum Flight Time: 50 minutes.",
+        "Transmission Distance: 20 km (DJI O4 Enterprise).",
+        "Camera Sensors: 48 MP zoom camera, 12 MP wide-angle camera, 640×512 thermal camera.",
+        "Zoom Capacity: 20× optical zoom, 200× maximum digital zoom.",
+        "Laser Rangefinder: Up to 1200 meters with ±0.2m accuracy.",
+        "Battery System: TB40 smart battery with hot-swap support.",
+        "Water and Dust Resistance: IP55 certification.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Gimbal Structure: 3-axis gimbal.",
+        "Smart Flight Features: AI-assisted object recognition, automatic route planning."
+      ]
+    },
+    {
+      "id": 216,
+      "name": "DJI Matrice 4E RTK",
+      "description": "Compact and durable industrial drone equipped with advanced RTK support, zoom camera, and laser rangefinder.",
+      "images": [
+        "/marka-photos/dji/m4e-0.png",
+        "/marka-photos/dji/m4e-1.png",
+        "/marka-photos/dji/m4e-2.png",
+        "/marka-photos/dji/m4e-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maximum Flight Time: 50 minutes.",
+        "Transmission Distance: 20 km (DJI O4 Enterprise).",
+        "Camera Sensors: 48 MP zoom camera, 12 MP wide-angle camera.",
+        "Zoom Capacity: 20× optical zoom, 200× maximum digital zoom.",
+        "Laser Rangefinder: Up to 1200 meters with ±0.2m accuracy.",
+        "Battery System: TB40 smart battery with hot-swap support.",
+        "Water and Dust Resistance: IP55 certification.",
+        "Operating Temperature: -20°C to +50°C.",
+        "Gimbal Structure: 3-axis gimbal.",
+        "Smart Flight Features: AI-assisted object recognition, automatic route planning."
+      ]
+    },
+    {
+      "id": 217,
+      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
+      "description": "A compact drone optimized for precision mapping and engineering projects with RTK support.",
+      "images": [
+        "/marka-photos/dji/m3e-0.png",
+        "/marka-photos/dji/m3e-1.png",
+        "/marka-photos/dji/m3e-2.png",
+        "/marka-photos/dji/m3e-3.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Max Flight Time: 45 minutes",
+        "Transmission Range: 15 km (DJI O3 Enterprise)",
+        "Camera Sensor: 20 MP 4/3 CMOS with mechanical shutter",
+        "Mapping Accuracy: Centimeter-level positioning with RTK",
+        "Zoom Capability: 56× digital zoom, 7× optical zoom",
+        "Battery System: TB30 intelligent battery with hot-swap support",
+        "Water and Dust Resistance: IP54 rating",
+        "Operating Temperature: -10°C to +40°C",
+        "Gimbal Structure: 3-axis stabilized gimbal",
+        "Smart Flight Features: AI-assisted flight planning, precision object tracking, mapping"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "DJI Mavic 3 Thermal (M3T RTK)",
+      "description": "A compact industrial drone equipped with thermal camera, RTK support, and advanced flight systems.",
+      "images": [
+        "/marka-photos/dji/m3t-0.png",
+        "/marka-photos/dji/m3t-1.png",
+        "/marka-photos/dji/m3t-2.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "thermal-rtk-drone",
+      "typeTitle": "Thermal RTK Drone",
+      "specs": [
+        "Max Flight Time: 45 minutes",
+        "Transmission Range: 15 km (DJI O3 Enterprise)",
+        "Camera Sensors: 48 MP wide-angle camera, 640×512 thermal camera",
+        "Zoom Capability: 56× digital zoom, 7× optical zoom",
+        "Laser Rangefinder: Up to 1200 meters with ±0.2m accuracy",
+        "Thermal Camera: 640×512 resolution, 30 Hz refresh rate, isothermal analysis support",
+        "Battery System: TB30 intelligent battery with hot-swap support",
+        "Water and Dust Resistance: IP54 rating",
+        "Operating Temperature: -10°C to +40°C",
+        "Gimbal Structure: 3-axis stabilized gimbal",
+        "Smart Flight Features: AI-assisted object detection, automated flight planning, night vision mode"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "DJI Mavic 3 Multispectral (M3M)",
+      "description": "A professional drone designed for precision agriculture and environmental analysis with RGB and multispectral cameras.",
+      "images": [
+        "/marka-photos/dji/m3m-0.png",
+        "/marka-photos/dji/m3m-1.png",
+        "/marka-photos/dji/m3m-2.png",
+        "/marka-photos/dji/m3m-3.png",
+        "/marka-photos/dji/m3m-4.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "multispectral-drone",
+      "typeTitle": "Multispectral Drone",
+      "specs": [
+        "RGB Camera: 20 MP 4/3 CMOS with mechanical shutter",
+        "Multispectral Camera: 5 MP with four spectral bands (Green, Red, Red Edge, Near-Infrared)",
+        "RTK Accuracy: Centimeter-level RTK positioning",
+        "Flight Time: Up to 43 minutes",
+        "Transmission Range: 15 km (DJI O3 Enterprise)",
+        "Obstacle Detection: Omnidirectional obstacle sensors",
+        "Battery System: 100W charging hub with 88W fast-charging support",
+        "Water and Dust Resistance: Rugged design for harsh environments",
+        "Operating Temperature: -10°C to +40°C",
+        "Autonomous Features: Smart flight planning, regional analysis, object tracking",
+        "Cloud API & Open Ecosystem: Integration with third-party software"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "DJI U10 Laser Gas Leak Detection System",
+      "description": "Industrial laser-based gas detector using TDLAS technology for methane gas leak detection.",
+      "images": [
+        "/marka-photos/dji/u10-0.png",
+        "/marka-photos/dji/u10-1.png",
+        "/marka-photos/dji/u10-2.png",
+        "/marka-photos/dji/u10-3.png"
+      ],
+      "category": "sensor",
+      "brand": "dji",
+      "type": "gas-detection-sensor",
+      "typeTitle": "Gas Leak Detection Sensor",
+      "specs": [
+        "Gas Detection Type: Methane (CH₄)",
+        "Detection Technology: Tunable Diode Laser Absorption Spectroscopy (TDLAS)",
+        "Detection Sensitivity: 1 ppm or higher",
+        "Detection Range: Up to 100 meters",
+        "Real-Time Data Analysis: Provides gas concentration analysis in ppm with instant data transmission",
+        "Environmental Durability: Operates in various weather conditions",
+        "Operating Temperature: -20°C to +50°C",
+        "UAV Compatibility: Compatible with DJI Matrice 200, 300 RTK",
+        "Data Output: Real-time recording, analysis, and 3D mapping integration",
+        "Weight: ≤1 kg"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "DJI Zenmuse L1",
+      "description": "Professional aerial mapping and 3D modeling solution integrated with a LiDAR module, 20 MP RGB camera, and high-precision IMU.",
+      "images": [
+        "/marka-photos/dji/l1-0.png",
+        "/marka-photos/dji/l1-1.png",
+        "/marka-photos/dji/l1-2.png",
+        "/marka-photos/dji/l1-3.png",
+        "/marka-photos/dji/l1-4.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "lidar-camera",
+      "typeTitle": "Aerial LiDAR Camera",
+      "specs": [
+        "LiDAR Module: Livox LiDAR with detection range up to 450 meters and 240,000 points/second scan rate",
+        "Camera Sensor: 1-inch CMOS 20 MP RGB camera with mechanical shutter",
+        "IMU Accuracy: 0.025° roll/pitch and 0.15° yaw accuracy",
+        "Detection Range: 450 m (80% reflectivity), 190 m (10% reflectivity)",
+        "Live Point Cloud View: Real-time monitoring and on-site verification",
+        "Scanning: Single and multiple return support with 480,000 points/second data collection",
+        "Operating Temperature: -20°C to +50°C",
+        "Water & Dust Resistance: IP54 certified for challenging environments",
+        "Gimbal Stabilization: 3-axis gimbal system",
+        "Platform Compatibility: DJI Matrice 300 RTK"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "DJI Zenmuse L2",
+      "description": "High-precision aerial mapping solution with integrated LiDAR module, 20 MP RGB camera, and IMU.",
+      "images": [
+        "/marka-photos/dji/l2-0.png",
+        "/marka-photos/dji/l2-1.png",
+        "/marka-photos/dji/l2-2.png",
+        "/marka-photos/dji/l2-3.png",
+        "/marka-photos/dji/l2-4.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "lidar-camera",
+      "typeTitle": "Aerial LiDAR Camera",
+      "specs": [
+        "LiDAR Module: Livox LiDAR with 450-meter range and 240,000 points/second scan speed",
+        "RGB Camera: 20 MP resolution 4/3 CMOS sensor",
+        "IMU Accuracy: 0.02° roll/pitch and 0.05° yaw accuracy",
+        "Detection Range: 450 m (80% reflectivity), 250 m (10% reflectivity)",
+        "Live Point Cloud View: Real-time visualization and site verification",
+        "Multiple Return Support: Enhanced data quality in complex environments",
+        "Operating Temperature: -20°C to +50°C",
+        "Water & Dust Resistance: IP54 certification",
+        "Gimbal: 3-axis stabilized gimbal",
+        "Platform Compatibility: DJI Matrice 300 RTK and Matrice 350 RTK"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "DJI Zenmuse P1",
+      "description": "High-precision aerial photogrammetry camera with a full-frame 45 MP sensor, mechanical shutter, and integrated RTK module.",
+      "images": [
+        "/marka-photos/dji/p1-0.png",
+        "/marka-photos/dji/p1-1.png",
+        "/marka-photos/dji/p1-2.png",
+        "/marka-photos/dji/p1-3.png"
+      ],
+      "category": "uav",
+      "brand": "dji",
+      "type": "photogrammetry-camera",
+      "typeTitle": "Photogrammetry Camera",
+      "specs": [
+        "Sensor: Full-frame 45 MP CMOS sensor",
+        "Mechanical Shutter: 1/2000 second global shutter",
+        "Lens Compatibility: Supports 24 mm, 35 mm, and 50 mm interchangeable lenses",
+        "RTK Module: Built-in RTK support for centimeter-level accuracy",
+        "Mapping Efficiency: DJI Smart Oblique Capture for wider coverage",
+        "Time Synchronization: TimeSync 2.0 for syncing IMU, RTK, and camera data",
+        "Image Formats: JPEG and RAW DNG support",
+        "Video Recording: 8K resolution video capability",
+        "Operating Temperature: -20°C to +50°C",
+        "Water & Dust Resistance: IP4X rating",
+        "Platform Compatibility: DJI Matrice 300 RTK and Matrice 350 RTK"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Autel Dragonfish Lite",
+      "description": "Hybrid fixed-wing drone offering extended flight time and high precision for industrial applications.",
+      "images": [
+        "/marka-photos/autel/dragonfish-lite-0.png",
+        "/marka-photos/autel/dragonfish-lite-1.png",
+        "/marka-photos/autel/dragonfish-lite-2.png",
+        "/marka-photos/autel/dragonfish-lite-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "fixed-wing-uav",
+      "typeTitle": "Fixed-Wing UAV",
+      "specs": [
+        "Max Flight Time: Up to 75 minutes for uninterrupted missions",
+        "Horizontal Flight Speed: 30 m/s for rapid mission execution",
+        "Max Takeoff Weight: 5.5 kg with substantial payload capacity",
+        "Positioning: GNSS (GPS, GLONASS, BeiDou, Galileo) and RTK for centimeter-level accuracy",
+        "Transmission Range: 30 km for long-distance real-time data transmission",
+        "Ingress Protection: IP43 for dust and water resistance",
+        "Smart Flight Modes: Includes intelligent tracking, terrain following, auto return, and precision landing",
+        "Ground Control: 9.7-inch display with 4.5-hour battery life for long operations",
+        "Wind Resistance: 15 m/s in fixed-wing mode, 12 m/s in vertical takeoff mode",
+        "Operating Temperature: -20°C to +50°C"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Autel Dragonfish Standard",
+      "description": "A professional fixed-wing UAV offering long flight time, high payload capacity, and precise positioning capabilities.",
+      "images": [
+        "/marka-photos/autel/dragonfish-standart-0.png",
+        "/marka-photos/autel/dragonfish-standart-1.png",
+        "/marka-photos/autel/dragonfish-standart-2.png",
+        "/marka-photos/autel/dragonfish-standart-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "fixed-wing-uav",
+      "typeTitle": "Fixed-Wing UAV",
+      "specs": [
+        "120 minutes flight time for maximum efficiency on extended missions.",
+        "Horizontal flight speed of 30 m/s for rapid area coverage.",
+        "Maximum takeoff weight of 9 kg with payload capacity up to 1.5 kg.",
+        "30 km dual-frequency HD video and data transmission range.",
+        "Wind resistance of 15 m/s in fixed-wing mode and 12 m/s in vertical takeoff mode.",
+        "IP43 protection level for dust and water resistance.",
+        "RTK accuracy of 1 cm + 1 ppm horizontal and 1.5 cm + 1 ppm vertical.",
+        "Operating temperature range from -20°C to +50°C.",
+        "Supports GPS, GLONASS, BeiDou, and Galileo systems.",
+        "9.7-inch display with 2048x1536 resolution and 4.5 hours battery life.",
+        "3-minute setup and 5-second system check for time efficiency.",
+        "Smart tracking, automatic mission flights, terrain follow, and precision landing capabilities."
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Autel Dragonfish Pro",
+      "description": "A professional industrial UAV with 180-minute flight time and 30 km transmission range.",
+      "images": [
+        "/marka-photos/autel/dragonfish-pro-0.png",
+        "/marka-photos/autel/dragonfish-pro-1.png",
+        "/marka-photos/autel/dragonfish-pro-2.png",
+        "/marka-photos/autel/dragonfish-pro-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "fixed-wing-uav",
+      "typeTitle": "Fixed-Wing UAV",
+      "specs": [
+        "Maximum flight time: Up to 180 minutes in calm conditions.",
+        "Transmission range: HD video transmission up to 30 km.",
+        "Payload capacity: Can carry up to 2.5 kg.",
+        "Maximum flight speed: 30 m/s.",
+        "Wind resistance: 15 m/s (fixed-wing mode), 12 m/s (vertical mode).",
+        "Maximum takeoff weight: 17 kg total.",
+        "Operating temperature: -20°C to +50°C.",
+        "GNSS support: GPS, GLONASS, BeiDou, Galileo.",
+        "Battery: 3.6 kg intelligent lithium polymer battery.",
+        "Protection class: IP43 dust and water resistance.",
+        "Compatibility: Compatible with DG-Z2, T3, T3H, L20T, L50T gimbals.",
+        "Control system: Full compatibility with Autel Voyager application."
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Autel Alpha",
+      "description": "A professional industrial multi-rotor UAV with high payload capacity and long flight endurance.",
+      "images": [
+        "/marka-photos/autel/alpha-0.png",
+        "/marka-photos/autel/alpha-1.png",
+        "/marka-photos/autel/alpha-2.png",
+        "/marka-photos/autel/alpha-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "heavy-duty-uav",
+      "typeTitle": "Heavy-Duty Industrial UAVs",
+      "specs": [
+        "Up to 40 minutes flight time for extended operations.",
+        "Payload capacity up to 10 kg.",
+        "Supports a maximum takeoff weight of up to 35 kg.",
+        "Horizontal flight speed of 22 m/s.",
+        "Wind resistance up to 20 m/s for challenging conditions.",
+        "GNSS support: GPS, GLONASS, BeiDou, Galileo.",
+        "RTK positioning accuracy at centimeter level.",
+        "Operating temperature range from -20°C to +50°C.",
+        "IP55 dust and water resistance certification.",
+        "12S intelligent lithium battery with a 45-minute charging time.",
+        "10.1-inch controller screen with 20 km transmission range.",
+        "Features include automatic takeoff and landing, smart tracking, flight planning, and terrain follow."
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Autel Titan",
+      "description": "Professional heavy-duty multi-rotor UAV with 10 kg payload capacity and 55-minute flight endurance for long-range missions.",
+      "images": [
+        "/marka-photos/autel/titan-0.png",
+        "/marka-photos/autel/titan-1.png",
+        "/marka-photos/autel/titan-2.png",
+        "/marka-photos/autel/titan-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "heavy-duty-uav",
+      "typeTitle": "Heavy-Duty Industrial UAVs",
+      "specs": [
+        "Up to 55 minutes continuous flight time in calm conditions.",
+        "Payload capacity of up to 10 kg.",
+        "Long-range missions up to 50 km.",
+        "Horizontal flight speed of 25 m/s.",
+        "Wind resistance up to 12 m/s.",
+        "GNSS support: GPS, GLONASS, BDS, and Galileo.",
+        "IP55 water and dust resistance rating.",
+        "720° omnidirectional obstacle detection with night vision support.",
+        "Hot-swappable dual battery system for continuous operation.",
+        "A-Mesh network support for multi-device communication and master-slave control.",
+        "Dimensions: 1879×1866×584 mm (with propellers), folded size 752×328×526 mm.",
+        "Total weight: 23 kg including gimbal and batteries."
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Autel EVO Max 4N",
+      "title": "EVO Max 4N",
+      "description": "A professional reconnaissance drone offering night vision, thermal imaging, and high sensitivity in low-light conditions.",
+      "images": [
+        "/marka-photos/autel/evo-max-4n-0.png",
+        "/marka-photos/autel/evo-max-4n-1.png",
+        "/marka-photos/autel/evo-max-4n-2.png",
+        "/marka-photos/autel/evo-max-4n-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "multi-sensor-uav",
+      "typeTitle": "Multi-Sensor UAVs",
+      "specs": [
+        "Equipped with a night vision camera for clear imaging in ultra-low light conditions.",
+        "Features a 640×512 resolution thermal sensor for precise temperature measurements.",
+        "Distance measurement up to 1200 meters with ±0.2m accuracy.",
+        "Maximum flight time of 42 minutes.",
+        "Data transmission range of up to 50 km.",
+        "Maximum horizontal flight speed of 25 m/s.",
+        "Stable flight in wind speeds up to 12 m/s.",
+        "IP43 certification for water and dust resistance.",
+        "High accuracy positioning supported by GPS, GLONASS, BeiDou, and Galileo systems.",
+        "Includes smart tracking, regional scanning, mapping, and terrain follow capabilities.",
+        "Operates in temperatures from -20°C to +50°C."
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Autel EVO Max 4T",
+      "title": "EVO Max 4T",
+      "description": "A professional mission drone integrated with zoom, wide-angle, thermal cameras, and laser rangefinder.",
+      "images": [
+        "/marka-photos/autel/evo-max-4t-0.png",
+        "/marka-photos/autel/evo-max-4t-1.png",
+        "/marka-photos/autel/evo-max-4t-2.png",
+        "/marka-photos/autel/evo-max-4t-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "multi-sensor-uav",
+      "typeTitle": "Multi-Sensor UAVs",
+      "specs": [
+        "48 MP sensor with 10× optical zoom and 160× digital zoom.",
+        "50 MP resolution, 1/1.28\" CMOS sensor with low-light optimization.",
+        "640×512 thermal resolution with 30Hz refresh rate and temperature monitoring support.",
+        "Laser range measurement up to 1200 meters with ±0.2m accuracy.",
+        "Up to 42 minutes of flight time.",
+        "Reliable data transmission up to 50 km.",
+        "Horizontal flight speed up to 25 m/s.",
+        "Wind resistance up to 12 m/s.",
+        "IP43 protection rating.",
+        "Supported by GPS, GLONASS, BeiDou, and Galileo systems.",
+        "Operational temperature range from -20°C to +50°C.",
+        "Features include automatic flight planning, object tracking, temperature analysis, and smart target identification."
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Autel EVO Max 4T XE",
+      "title": "EVO Max 4T XE",
+      "description": "An advanced multi-sensor reconnaissance UAV developed for professional security and exploration missions.",
+      "images": [
+        "/marka-photos/autel/evo-max-4t-xe-0.png",
+        "/marka-photos/autel/evo-max-4t-xe-1.png",
+        "/marka-photos/autel/evo-max-4t-xe-2.png",
+        "/marka-photos/autel/evo-max-4t-xe-3.png"
+      ],
+      "category": "uav",
+      "brand": "autel",
+      "type": "multi-sensor-uav",
+      "typeTitle": "Multi-Sensor UAVs",
+      "specs": [
+        "48 MP sensor with 10× optical zoom and 160× digital zoom capability.",
+        "50 MP resolution with a 1/1.28\" CMOS sensor optimized for low-light environments.",
+        "Thermal imaging with 640×512 resolution and 30Hz refresh rate.",
+        "Laser distance measurement up to 1200 meters with ±0.2m accuracy.",
+        "Up to 42 minutes of flight endurance.",
+        "Reliable data transmission up to 50 km.",
+        "Horizontal flight speed up to 25 m/s.",
+        "Wind resistance up to 12 m/s.",
+        "IP43 rating for protection against challenging weather conditions.",
+        "Precision positioning supported by GPS, GLONASS, BeiDou, and Galileo systems.",
+        "Operational temperature range between -20°C and +50°C.",
+        "Features smart flight planning, automatic target tracking, temperature analysis, and regional scanning."
+      ]
+    },
+    {
+      "id": 320,
+      "name": "Benewake Horn-X2 Pro Lidar",
+      "title": "Horn-X2 Pro Lidar",
+      "description": "Long-range, high-resolution Lidar sensor for industrial and autonomous systems.",
+      "images": [
+        "/marka-photos/benewake/horn-x2-pro.png",
+        "/marka-photos/benewake/horn-x2-pro.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Accurate detection up to 300 meters.",
+        "0.05-degree resolution for detailed 3D mapping.",
+        "360° horizontal and ±15° vertical scanning support.",
+        "1.28 million points per second data output for high-density mapping.",
+        "Average power consumption of 25W for efficient operation.",
+        "IP67 water and dust resistance certification.",
+        "Operates in temperatures from -40°C to +85°C.",
+        "Ethernet and CAN supported outputs for easy integration.",
+        "Supports up to 16 target echoes for stable data in dense environments.",
+        "Rugged design suitable for harsh industrial conditions."
+      ]
+    },
+    {
+      "id": 321,
+      "name": "Benewake AD2-S X3",
+      "title": "AD2-S X3 Lidar Sensor",
+      "description": "High-resolution 256-line 3D Lidar sensor designed for smart city and traffic management applications.",
+      "images": [
+        "/marka-photos/benewake/ad2s-x3.png",
+        "/marka-photos/benewake/ad2s-x3.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Detection range up to 150 meters with 256-line resolution.",
+        "120° x 25.6° field of view for wide-area coverage.",
+        "Produces 2 million points/second with microsecond-level time synchronization.",
+        "Gaze function doubles resolution in critical areas.",
+        "Centimeter-level positioning accuracy.",
+        "Multi-sensor fusion and digital platform integration for flexible use.",
+        "IP67-rated for water and dust resistance.",
+        "Fast data transfer via Ethernet.",
+        "Operates between -20°C and +60°C with stable performance."
+      ]
+    },
+    {
+      "id": 322,
+      "name": "Benewake TF02-i",
+      "title": "TF02-i Lidar Sensor",
+      "description": "Lidar sensor designed for drones and smart transportation systems with 40-meter measurement range, IP65 protection, and fast response times.",
+      "images": [
+        "/marka-photos/benewake/tf02i-0.png",
+        "/marka-photos/benewake/tf02i-1.png",
+        "/marka-photos/benewake/tf02i-2.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range between 0.1m and 40m.",
+        "Reliable performance between -20°C and +70°C.",
+        "3° field of view for precise detection in narrow spaces.",
+        "1 cm resolution for fine detail measurement.",
+        "Adjustable scanning frequency between 1 Hz and 1000 Hz.",
+        "Operating voltage between 7V and 30V.",
+        "Power consumption ≤70mA@12V for energy efficiency.",
+        "IP65-rated for dust and water resistance.",
+        "Lightweight design at 60g for easy portability.",
+        "Stable measurement even under 100K lux lighting conditions."
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Benewake TF03",
+      "title": "TF03 Lidar Sensor",
+      "description": "High-precision LiDAR sensor developed for drones, smart transportation, and industrial applications, with a long detection range of up to 180 meters and IP67 protection.",
+      "images": [
+        "/marka-photos/benewake/tf03.png",
+        "/marka-photos/benewake/tf03.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Accurate measurements between 0.1 meters and 180 meters.",
+        "±10 cm accuracy up to 10 meters, 1% accuracy beyond 10 meters.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "0.5° narrow field of view for pinpoint accuracy.",
+        "1 cm resolution for detailed measurement.",
+        "Stable performance between -25°C and +60°C.",
+        "IP67 rating for water, dust, and harsh environmental resistance.",
+        "Flexible connection with UART, CAN, RS-232, RS-485, and 4-20 mA analog output.",
+        "Operates with 5V to 24V input voltage.",
+        "≤1W power consumption for efficient operation.",
+        "Compact design with dimensions of 44 mm x 43 mm x 32 mm.",
+        "Lightweight at 89 g ± 3 g for easy installation."
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Benewake TF-NOVA",
+      "title": "TF-NOVA Lidar Sensor",
+      "description": "Compact Lidar sensor designed for drones, robotics, and industrial automation applications with a detection range of 40 meters and high precision.",
+      "images": [
+        "/marka-photos/benewake/tfnova.png",
+        "/marka-photos/benewake/tfnova.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 m to 40 m.",
+        "1 cm resolution ensures high precision.",
+        "3° field of view for accurate detection in confined spaces.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "Stable performance under ambient light conditions up to 100K lux.",
+        "IP67-rated for protection against dust, water, and harsh environments.",
+        "Reliable performance between -20°C and +70°C.",
+        "Operating voltage between 5V and 24V.",
+        "Low power consumption of ≤1.5W.",
+        "Weighs only 52 g with compact dimensions for easy portability and integration."
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Benewake TFS20-L",
+      "title": "TFS20-L Lidar Sensor",
+      "description": "Ideal LiDAR sensor for drones, robotics, and industrial applications with a detection range of up to 20 meters, ultra-compact design, and low power consumption.",
+      "images": [
+        "/marka-photos/benewake/tfs20l.png",
+        "/marka-photos/benewake/tfs20l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Precise measurement from 0.2 m to 20 m.",
+        "Accuracy of ±6 cm from 0.2 m to 6 m; after 6 m, operates with a 1% margin of error.",
+        "Adjustable scanning frequency from 1 Hz to 250 Hz.",
+        "<2° field of view for precise detection in narrow spaces.",
+        "1 cm resolution delivers highly detailed data.",
+        "Stable performance under 100K lux ambient light.",
+        "Operating voltage of 3.3V.",
+        "Energy-efficient with power consumption of ≤0.35W.",
+        "Ultra-compact design with dimensions of 21 mm x 15 mm x 7.87 mm and weight of only 1.35 g."
+      ]
+    },
+    {
+      "id": 326,
+      "name": "Benewake TFA170-L",
+      "title": "TFA170-L Lidar Sensor",
+      "description": "LiDAR sensor for drones and industrial applications offering 170 meters detection range, ultra-lightweight design, and high accuracy for precise distance measurement.",
+      "images": [
+        "/marka-photos/benewake/tfa170l.png",
+        "/marka-photos/benewake/tfa170l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Accurate measurement from 0.1 m to 170 m.",
+        "Accuracy of ±10 cm from 0.2 m to 10 m; beyond 10 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "0.4° horizontal and 0.04° vertical field of view for high-resolution detection.",
+        "1 cm resolution for detailed, precise data.",
+        "Stable performance in temperatures from -20°C to +60°C.",
+        "Fast and reliable data transfer via RS-232 interface.",
+        "Operates at 12V DC power.",
+        "Low power consumption of ≤1W for energy efficiency.",
+        "Ultra-lightweight and compact design: 31 x 30.2 x 19.2 mm and only 10 g weight."
+      ]
+    },
+    {
+      "id": 327,
+      "name": "Benewake TFmini-S",
+      "title": "TFmini-S Micro LiDAR Sensor",
+      "description": "Micro LiDAR sensor with a measurement range from 0.1 m to 12 m, featuring a compact and lightweight design. Ideal for drones, robotics, and IoT applications with advanced frame rates and versatile interfaces for reliable distance measurement.",
+      "images": [
+        "/marka-photos/benewake/tfminis.png",
+        "/marka-photos/benewake/tfminis.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 m to 12 m.",
+        "Accuracy of ±6 cm from 0.1 m to 6 m; after 6 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "2° field of view for accurate detection in confined spaces.",
+        "1 cm resolution for high-precision data.",
+        "Stable performance under ambient light up to 70K lux.",
+        "Reliable performance in temperatures between 0°C and 60°C.",
+        "Flexible integration with UART and I²C interfaces.",
+        "Operates at 5V ±0.1V input voltage.",
+        "Low power consumption of ≤0.7W.",
+        "Ultra-compact and lightweight design measuring 42 mm x 15 mm x 16 mm and weighing 5 g ±0.3 g."
+      ]
+    },
+    {
+      "id": 328,
+      "name": "Benewake TFmini Plus",
+      "title": "TFmini Plus LiDAR Sensor",
+      "description": "Compact and lightweight LiDAR sensor with a measurement range of 0.1 m to 12 m. Featuring advanced frame rate, high accuracy, and IP65 protection, it is ideal for drones, robotics, and IoT applications for reliable distance measurement.",
+      "images": [
+        "/marka-photos/benewake/tfminiplus.png",
+        "/marka-photos/benewake/tfminiplus.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 m to 12 m.",
+        "Accuracy of ±5 cm between 0.1 m and 5 m; beyond 5 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "3.6° field of view for clear detection in confined spaces.",
+        "1 cm resolution for high-precision data.",
+        "Stable performance under ambient light up to 70K lux.",
+        "Reliable performance between -20°C and 60°C.",
+        "Flexible integration with UART and I²C interfaces.",
+        "Operating voltage of 5V ±0.5V.",
+        "Energy-efficient with a power consumption of 550mW.",
+        "Ultra-compact and lightweight with dimensions of 35 mm x 18.5 mm x 21 mm and a weight of 12 g ±1 g."
+      ]
+    },
+    {
+      "id": 329,
+      "name": "Benewake TFmini-i",
+      "title": "TFmini-i Industrial LiDAR Sensor",
+      "description": "Industrial-grade compact and durable LiDAR sensor with a measurement range of 0.1 m to 12 m. Featuring IP65 protection, wide input voltage range, and flexible interfaces, it ensures reliable distance measurement for industrial applications.",
+      "images": [
+        "/marka-photos/benewake/tfmini-i.png",
+        "/marka-photos/benewake/tfmini-i.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 m to 12 m.",
+        "Accuracy of ±6 cm between 0.1 m and 6 m; beyond 6 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 100 Hz.",
+        "2° field of view for accurate detection in narrow spaces.",
+        "1 cm resolution for high-precision data.",
+        "Stable performance under ambient light up to 70K lux.",
+        "Reliable operation between -20°C and 60°C.",
+        "Flexible integration with RS-485 and CAN interfaces.",
+        "Wide operating voltage range from 7V to 30V.",
+        "Low power consumption of ≤0.8W.",
+        "Compact and durable design with dimensions of 50 mm x 34 mm x 41 mm and a weight of 52 g."
+      ]
+    },
+    {
+      "id": 330,
+      "name": "Benewake TF02-Pro",
+      "title": "TF02-Pro Mid-Range LiDAR Sensor",
+      "description": "Compact and durable mid-range LiDAR sensor with a measurement range of 0.1 m to 40 m. With IP65 protection, high accuracy, and flexible interfaces, it is ideal for drones, smart transportation, and agricultural applications.",
+      "images": [
+        "/marka-photos/benewake/tf02-pro-0.png",
+        "/marka-photos/benewake/tf02-pro-0.png",
+        "/marka-photos/benewake/tf02-pro-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 m to 40 m.",
+        "Accuracy of ±5 cm between 0.1 m and 5 m; beyond 5 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "3° field of view for accurate detection in narrow areas.",
+        "1 cm resolution for precise measurement.",
+        "Stable operation under ambient light up to 100K lux.",
+        "Reliable performance between -20°C and 60°C.",
+        "Flexible integration with UART and I²C interfaces.",
+        "Wide operating voltage from 5V to 12V.",
+        "Low power consumption of ≤1W.",
+        "Compact and robust design with dimensions of 69 mm x 41.5 mm x 26 mm and a weight of 50 g."
+      ]
+    },
+    {
+      "id": 331,
+      "name": "Benewake TF-Luna",
+      "title": "TF-Luna Compact LiDAR Sensor",
+      "description": "Compact and lightweight LiDAR sensor with a measurement range from 0.2 m to 8 m. With high accuracy, low power consumption, and flexible interfaces, it is ideal for robotics, drones, and industrial automation applications for reliable distance measurement.",
+      "images": [
+        "/marka-photos/benewake/tf-luna-0.png",
+        "/marka-photos/benewake/tf-luna-0.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.2 m to 8 m.",
+        "Accuracy of ±6 cm between 0.2 m and 3 m; beyond 3 m, operates with a 2% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 250 Hz.",
+        "2° field of view for clear detection in confined spaces.",
+        "1 cm resolution for high-precision data.",
+        "Resistance to ambient light up to 70K lux.",
+        "Operating temperature between -10°C and 60°C.",
+        "Flexible integration with UART and I²C interfaces.",
+        "Operating voltage of 5V ±0.1V.",
+        "Low power consumption of ≤0.35W.",
+        "Ultra-compact design with dimensions of 35 mm x 21.25 mm x 13.5 mm and a weight of only 5 g."
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Benewake TF02-Pro-W",
+      "title": "TF02-Pro-W Industrial LiDAR Sensor",
+      "description": "An industrial-grade LiDAR sensor designed for volume monitoring and level detection with a self-cleaning feature. It offers high accuracy, wide scanning frequency, and flexible interface options for reliable measurement in harsh environments.",
+      "images": [
+        "/marka-photos/benewake/tf02-pro-w-0.png",
+        "/marka-photos/benewake/tf02-pro-w-0.png",
+        "/marka-photos/benewake/tf02-pro-w-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.1 meters to 25 meters.",
+        "Accuracy of ±5 cm between 0.1 m and 5 m; beyond 5 m, operates with a 1% error margin.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "3-degree field of view for clear detection in confined areas.",
+        "1 cm resolution for high-precision data.",
+        "Stable operation under ambient light up to 100,000 lux.",
+        "Reliable performance between -20°C and 60°C.",
+        "Flexible integration with UART, RS-485, and I²C interfaces.",
+        "Wide input voltage range from 5V to 12V.",
+        "Energy-efficient with a power consumption of 1W.",
+        "Compact size: 69 mm x 41.5 mm x 26 mm.",
+        "Lightweight design with a weight of 50 grams."
+      ]
+    },
+    {
+      "id": 333,
+      "name": "Benewake TF350",
+      "title": "TF350 Long-Range Industrial LiDAR Sensor",
+      "description": "A long-range LiDAR sensor designed for industrial applications with a detection range of up to 350 meters, 1 cm resolution, and IP67 protection. It delivers high accuracy and reliable performance in demanding conditions.",
+      "images": [
+        "/marka-photos/benewake/tf350-0.png",
+        "/marka-photos/benewake/tf350-0.png",
+        "/marka-photos/benewake/tf350-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Detection range up to 350 meters.",
+        "1 cm resolution with a 1% error margin for high accuracy.",
+        "Adjustable scanning frequency from 1 Hz to 1000 Hz.",
+        "0.7-degree vertical field of view for precise detection.",
+        "Stable operation even in high brightness conditions.",
+        "Reliable performance between -20°C and 60°C.",
+        "IP67-rated protection against water and dust.",
+        "Flexible integration with UART, CAN, and RS-485 interfaces.",
+        "Wide voltage range from 10V to 30V.",
+        "Maximum power consumption of 4.5W for efficient operation.",
+        "Dimensions: 155 mm x 95 mm x 75 mm.",
+        "Robust body weighing 1.1 kg."
+      ]
+    },
+    {
+      "id": 334,
+      "name": "Benewake TFA1500-L",
+      "title": "TFA1500-L Kilometer-Level Long-Range LiDAR Sensor",
+      "description": "A long-range LiDAR sensor designed for industrial and engineering applications with a range of up to 1500 meters and high-frequency measurement capability. Features a compact build, low power consumption, and precise data output.",
+      "images": [
+        "/marka-photos/benewake/tfa1500-l.png",
+        "/marka-photos/benewake/tfa1500-l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement range from 0.05 meters to 1500 meters.",
+        "Accuracy of ±50 cm up to 100 meters; 1.5% error margin between 100-200 meters.",
+        "Adjustable scanning speed up to 50 Hz for long distances and 1000 Hz for short distances.",
+        "Field of view under 0.5° for precise detection.",
+        "1 cm resolution for continuous and detailed data.",
+        "Stable operation under ambient light up to 100,000 lux.",
+        "Reliable operation between -40°C and 60°C.",
+        "Quick integration with UART interface.",
+        "Wide voltage input range from 9V to 36V.",
+        "Low power consumption of under 1.1W.",
+        "Compact dimensions: 33 mm x 34 mm x 18 mm.",
+        "Ultra-lightweight design weighing just 20 grams."
+      ]
+    },
+    {
+      "id": 335,
+      "name": "Benewake TR Series",
+      "title": "TR Series High-Performance 2D LiDAR Sensors",
+      "description": "A family of high-precision, durable 2D LiDAR sensors designed for SLAM navigation, obstacle detection, and robotic applications. It offers a wide field of view, fast scanning, and a compact design for reliable solutions in professional industrial applications.",
+      "images": [
+        "/marka-photos/benewake/tr-series-0.png",
+        "/marka-photos/benewake/tr-series-0.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensors",
+      "specs": [
+        "Measurement capability up to 20 meters.",
+        "Adjustable scanning frequency from 10 Hz to 30 Hz.",
+        "Fixed angular resolution of 0.225° for clear data output.",
+        "360° horizontal scanning capability.",
+        "Point density of up to 40,000 points per second.",
+        "Reliable operation between -20°C and 60°C.",
+        "IP65-rated dust and water resistance.",
+        "Compact size: 60 mm x 60 mm x 80 mm.",
+        "Lightweight design for ease of use."
+      ]
+    },
+    {
+      "id": 336,
+      "name": "Benewake Horn-RT",
+      "title": "Horn-RT Long-Range 3D LiDAR Sensor",
+      "description": "High-performance LiDAR sensor providing safe and long-range 3D detection for railway system applications. Offers measurement up to 300 meters, robust environmental resistance, and precise target recognition capability.",
+      "images": [
+        "/marka-photos/benewake/horn-rt.png",
+        "/marka-photos/benewake/horn-rt.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "LiDAR Sensors",
+      "specs": [
+        "Measures up to 300 meters on targets with 10% reflectivity.",
+        "Adjustable wide scanning angle with 90° horizontal and 10° to 30° vertical fields of view.",
+        "Data collection rate adjustable between 1 to 20 FPS.",
+        "Adjustable precision between 0.05° and 0.2°.",
+        "IP67 certified for water and dust resistance.",
+        "Operates according to Class 1 laser safety standards.",
+        "EMC tested for electromagnetic protection.",
+        "Successfully tested for shock and vibration in harsh field conditions.",
+        "Designed to withstand long-term exposure to saline environments."
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Senceive Nano Triaxial Tilt Sensor Node",
+      "title": "Nano Triaxial Tilt Sensor – Ultra-Compact Tilt Monitoring Solution",
+      "description": "The Senceive Nano Triaxial Tilt Sensor is a compact, IP68-protected sensor with wireless connectivity and up to 12 years of battery life, designed for ultra-precise tilt monitoring in infrastructure and construction projects.",
+      "images": [
+        "/marka-photos/senceive/nano-tilt-0.png",
+        "/marka-photos/senceive/nano-tilt-1.png",
+        "/marka-photos/senceive/nano-tilt-2.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "tilt-sensor",
+      "typeTitle": "Tilt Sensors",
+      "specs": [
+        "Measures tilt up to ±15°.",
+        "Provides ultra-high precision with 0.0001° accuracy.",
+        "Operates continuously for up to 12 years.",
+        "Functions between -40°C and +85°C.",
+        "Compatible with FlatMesh™ and GeoWAN™ platforms.",
+        "IP68 water and dust resistance.",
+        "Ultra-compact dimensions: 63 mm x 38 mm x 33 mm.",
+        "Quick and adjustable mounting for field installations."
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Senceive Triaxial Tilt Sensor Node",
+      "title": "Triaxial Tilt Sensor – High-Precision Three-Axis Tilt Measurement Sensor",
+      "description": "The Senceive Triaxial Tilt Sensor Node is a professional structural monitoring sensor that measures ultra-precise tilt changes on three axes, with wireless data transmission, IP68 protection, and up to 12 years of battery life.",
+      "images": [
+        "/marka-photos/senceive/triaxial-tilt-0.png",
+        "/marka-photos/senceive/triaxial-tilt-1.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "tilt-sensor",
+      "typeTitle": "Tilt Sensors",
+      "specs": [
+        "Capable of measuring tilt up to ±15°.",
+        "Offers measurement accuracy of 0.0001°.",
+        "Up to 12 years of continuous use.",
+        "Operates in temperatures from -40°C to +85°C.",
+        "Compatible with FlatMesh™ and GeoWAN™ platforms.",
+        "IP68-rated for water and dust protection.",
+        "Enables fast and easy installation on site."
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Senceive Tilt Beam",
+      "title": "Tilt Beam – Modular Surface Deformation Measurement System",
+      "description": "The Senceive Tilt Beam is an advanced monitoring sensor designed to measure surface and structural movements over long distances, with wireless connectivity, modular design, IP68 protection, and up to 12 years of battery life.",
+      "images": [
+        "/marka-photos/senceive/tilt-beam-0.png",
+        "/marka-photos/senceive/tilt-beam-1.png",
+        "/marka-photos/senceive/tilt-beam-2.png",
+        "/marka-photos/senceive/tilt-beam-3.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "tilt-beam",
+      "typeTitle": "Tilt Beam Monitoring Systems",
+      "specs": [
+        "Measures tilt up to ±15°.",
+        "Provides measurement accuracy of 0.0001°.",
+        "Allows long-track monitoring with connectable modules.",
+        "Up to 12 years of continuous operation.",
+        "Functions between -40°C and +85°C.",
+        "Fully integrated with FlatMesh™ and GeoWAN™ platforms.",
+        "IP68-rated for water and dust resistance.",
+        "Easily mountable and expandable structure."
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Senceive Optical Displacement Sensor Node",
+      "title": "Optical Displacement Sensor – Laser-Based Surface Movement Monitoring",
+      "description": "The Senceive Optical Displacement Sensor is a professional sensor that monitors small surface displacements with millimeter-level accuracy using laser-based technology. It features wireless data transmission, IP68 protection, and a measurement capacity of up to 50 meters.",
+      "images": [
+        "/marka-photos/senceive/ods-0.png",
+        "/marka-photos/senceive/ods-1.png",
+        "/marka-photos/senceive/ods-2.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "displacement-sensor",
+      "typeTitle": "Surface Movement Sensors",
+      "specs": [
+        "Measures surface movement between 0.2 and 50 meters.",
+        "Offers high precision with ±1 mm accuracy.",
+        "Utilizes integrated laser-based sensor technology.",
+        "Up to 5 years of continuous operation.",
+        "Operates in temperatures between -10°C and +50°C.",
+        "Compatible with FlatMesh™ and GeoWAN™ networks.",
+        "IP68 water and dust resistance.",
+        "Quick installation with wall or surface mounting options."
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Senceive Digital Interface Node",
+      "title": "Digital Interface Node – Solution for Integrating Digital Sensors into Wireless Networks",
+      "description": "The Senceive Digital Interface Node allows you to integrate your existing digital sensors into wireless monitoring networks. It features long battery life, low power consumption, IP68 protection, and offers professional connectivity and integration flexibility.",
+      "images": [
+        "/marka-photos/senceive/digital-interface-0.png",
+        "/marka-photos/senceive/digital-interface-1.png",
+        "/marka-photos/senceive/digital-interface-2.png",
+        "/marka-photos/senceive/digital-interface-3.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "interface-node",
+      "typeTitle": "Interface and Integration Modules",
+      "specs": [
+        "Supports digital inputs and outputs.",
+        "Up to 12 years of long-term operation.",
+        "Operates between -40°C and +85°C.",
+        "Compatible with FlatMesh™ and GeoWAN™ systems.",
+        "IP68 water and dust resistance.",
+        "Supports real-time and periodic data transmission.",
+        "Low power consumption with automatic sleep mode.",
+        "Offers easy mounting and on-site setup assistance."
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Senceive Crack Sensor Node",
+      "title": "Crack Sensor Node – Precise Crack Movement Monitoring Solution",
+      "description": "The Senceive Crack Sensor Node is a reliable crack monitoring solution for critical structures, measuring crack movements with 0.1 mm precision. It features IP68 protection, wireless data transmission, and up to 10 years of battery life.",
+      "images": [
+        "/marka-photos/senceive/crack-sensor-0.png",
+        "/marka-photos/senceive/crack-sensor-0.png"
+      ],
+      "category": "sensor",
+      "brand": "senceive",
+      "type": "crack-sensor",
+      "typeTitle": "Crack Monitoring Sensors",
+      "specs": [
+        "Measures crack movement up to ±20 mm.",
+        "Detects micro-cracks with 0.1 mm resolution.",
+        "Provides up to 10 years of continuous operation.",
+        "Stable performance between -20°C and +60°C.",
+        "Compatible with FlatMesh™ and GeoWAN™ platforms.",
+        "Superior IP68 water and dust protection.",
+        "Quick setup with wall, column, or surface mounting.",
+        "Automatic temperature compensation for environmental changes."
+      ],
+      "compatibleProducts": [301, 302, 401]
+    }
+  ],
+  "infoCards": [
+    {
+      "icon": "/icons/gnss.png",
+      "title": "GNSS Technology",
+      "description": "Discover precision positioning systems."
+    },
+    {
+      "icon": "/icons/lidar.png",
+      "title": "Lidar Sensors",
+      "description": "Three-dimensional surface modeling technology."
+    },
+    {
+      "icon": "/icons/drone.png",
+      "title": "Drone Solutions",
+      "description": "Advanced systems for aerial imaging and mapping."
+    }
+  ],
+  "teamCards": [
+    {
+      "name": "Ali Yılmaz",
+      "role": "GNSS Specialist",
+      "photo": "/team/ali.jpg",
+      "socials": [
+        {
+          "icon": "🔗",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Zeynep Kaya",
+      "role": "Lidar Engineer",
+      "photo": "/team/zeynep.jpg",
+      "socials": [
+        {
+          "icon": "🔗",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Ahmet Demir",
+      "role": "Drone Pilot",
+      "photo": "/team/ahmet.jpg",
+      "socials": [
+        {
+          "icon": "🔗",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Ayşe Yıldız",
+      "position": "Engineer",
+      "comment": "GNSS technology works perfectly!"
+    },
+    {
+      "name": "Mehmet Kılıç",
+      "position": "Land Surveyor",
+      "comment": "Lidar systems provide very accurate results."
+    },
+    {
+      "name": "Fatma Demir",
+      "position": "Photogrammetry Specialist",
+      "comment": "Drone solutions are excellent!"
+    }
+  ],
+  "references": [
+    {
+      "name": "ADM",
+      "logo": "/ref-icons/adm.png"
+    },
+    {
+      "name": "AFAD (Disaster and Emergency Management Authority)",
+      "logo": "/ref-icons/afad.png"
+    },
+    {
+      "name": "Afyon University",
+      "logo": "/ref-icons/afyonuni.png"
+    },
+    {
+      "name": "Akdeniz University",
+      "logo": "/ref-icons/aku.png"
+    },
+    {
+      "name": "Ankara Metropolitan Municipality",
+      "logo": "/ref-icons/ankarabb.png"
+    },
+    {
+      "name": "Antalya Metropolitan Municipality",
+      "logo": "/ref-icons/antalyabb.png"
+    },
+    {
+      "name": "Aselsan",
+      "logo": "/ref-icons/aselsan.png"
+    },
+    {
+      "name": "Bozok University",
+      "logo": "/ref-icons/bozok.png"
+    },
+    {
+      "name": "CK Electricity",
+      "logo": "/ref-icons/ckelektrik.png"
+    },
+    {
+      "name": "Çoruh Electricity",
+      "logo": "/ref-icons/coruhelektrik.png"
+    },
+    {
+      "name": "State Hydraulic Works (DSI)",
+      "logo": "/ref-icons/dsi.png"
+    },
+    {
+      "name": "Eltemtek",
+      "logo": "/ref-icons/eltemtek.png"
+    },
+    {
+      "name": "Erciyes University (ERU)",
+      "logo": "/ref-icons/eru.png"
+    },
+    {
+      "name": "Erbakan University",
+      "logo": "/ref-icons/erbakanuni.png"
+    },
+    {
+      "name": "Fırat Electricity",
+      "logo": "/ref-icons/firatelektrik.png"
+    },
+    {
+      "name": "FNSS Defense Systems",
+      "logo": "/ref-icons/fnss.png"
+    },
+    {
+      "name": "Gebze Technical University",
+      "logo": "/ref-icons/gebzeuni.png"
+    },
+    {
+      "name": "İC İçtaş",
+      "logo": "/ref-icons/icictas.png"
+    },
+    {
+      "name": "Izmir Metropolitan Municipality",
+      "logo": "/ref-icons/izmirbb.png"
+    },
+    {
+      "name": "Istanbul Metropolitan Municipality",
+      "logo": "/ref-icons/istanbulbb.png"
+    },
+    {
+      "name": "Istanbul Technical University (ITU)",
+      "logo": "/ref-icons/itu.png"
+    },
+    {
+      "name": "Kalyon Construction",
+      "logo": "/ref-icons/kalyon.png"
+    },
+    {
+      "name": "Kandilli Observatory and Earthquake Research Institute",
+      "logo": "/ref-icons/kandilli.png"
+    },
+    {
+      "name": "Kayseri Metropolitan Municipality",
+      "logo": "/ref-icons/kayseribb.png"
+    },
+    {
+      "name": "General Directorate of Highways (KGM)",
+      "logo": "/ref-icons/kgm.png"
+    },
+    {
+      "name": "Kolin Construction",
+      "logo": "/ref-icons/kolin.png"
+    },
+    {
+      "name": "Konya Metropolitan Municipality",
+      "logo": "/ref-icons/konyabb.png"
+    },
+    {
+      "name": "Karadeniz Technical University (KTU)",
+      "logo": "/ref-icons/ktu.png"
+    },
+    {
+      "name": "Makimsan",
+      "logo": "/ref-icons/makimsan.png"
+    },
+    {
+      "name": "Malatya Metropolitan Municipality",
+      "logo": "/ref-icons/malatyabb.png"
+    }
+  ],
+  "sideBySideCards": [
+    {
+      "category": "gnss",
+      "left": [
+        {
+          "title": "Millimeter-Level High Accuracy",
+          "slogan": "Ultra precision with RTK and multi-frequency",
+          "text": "GNSS systems provide millimeter-level accuracy with RTK and PPK support. It offers top performance for positioning in precision engineering projects."
+        },
+        {
+          "title": "Uninterrupted Operation and Reliable Data Flow",
+          "slogan": "Stable performance in all conditions",
+          "text": "GNSS devices ensure uninterrupted data collection even in harsh environmental conditions thanks to multi-satellite tracking and backup systems."
+        },
+        {
+          "title": "Quick Fix",
+          "slogan": "Instant fixed solution",
+          "text": "Advanced GNSS systems achieve position fix within seconds, saving time and increasing field productivity."
+        },
+        {
+          "title": "Portability and Lightweight Design",
+          "slogan": "Always with you in the field",
+          "text": "GNSS receivers offer easy portability and ergonomic use in the field with their compact and lightweight design."
+        },
+        {
+          "title": "Long Battery Life and Energy Efficiency",
+          "slogan": "Continuous measurement support",
+          "text": "With a battery life of up to 12-24 hours, GNSS systems allow for long-term measurements and data collection in the field."
+        },
+        {
+          "title": "Easy Integration and Platform Compatibility",
+          "slogan": "Compatible with all systems",
+          "text": "GNSS systems work in integration with different software and platforms, accelerating data transfer and analysis processes."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "High accuracy is a critical advantage in infrastructure projects and applications that require precise measurements.",
+          "sectors": [
+            "Construction",
+            "Geodesy",
+            "Infrastructure Projects",
+            "Mining Exploration"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Uninterrupted operation provides reliability in long-term field tasks and areas where continuous data flow is crucial.",
+          "sectors": [
+            "Mining",
+            "Disaster Management",
+            "Forest Engineering",
+            "Logistics"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Quick fix feature offers great convenience in projects racing against time and applications requiring instant data.",
+          "sectors": [
+            "Surveying",
+            "Field Measurements",
+            "Emergency Response",
+            "Agriculture"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Portability provides maximum flexibility for projects that require constant site changes and mobile operations.",
+          "sectors": [
+            "Infrastructure Projects",
+            "Field Explorations",
+            "Mobile Surveying"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Long battery life is an advantage in large-scale projects where uninterrupted data collection is essential.",
+          "sectors": [
+            "Geodesy",
+            "Mining Surveys",
+            "Infrastructure Constructions"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Easy integration stands out in complex projects that require data management and multi-system usage.",
+          "sectors": ["Urban Planning", "BIM Projects", "Land Management"]
+        }
+      ]
+    },
+    {
+      "category": "total-station",
+      "left": [
+        {
+          "title": "Millimeter-Level Precision Measurement",
+          "slogan": "Capture the finest details",
+          "text": "Total Station devices provide millimeter-level precision in horizontal and vertical angle and distance measurements. This feature is critically important in construction, infrastructure, and engineering projects."
+        },
+        {
+          "title": "Fast and Automatic Target Tracking",
+          "slogan": "Automation that saves time",
+          "text": "Automatic target tracking (Auto-Tracking) continuously follows moving prisms or targets, saving the operator time and increasing efficiency."
+        },
+        {
+          "title": "Long-Range Measurement Capability",
+          "slogan": "Easily measure farther distances",
+          "text": "Total Station devices can focus on targets up to 5000 meters, providing high-accuracy measurements even at long distances."
+        },
+        {
+          "title": "Easy Data Transfer and Integration",
+          "slogan": "Practical solutions for data flow",
+          "text": "With Bluetooth, USB, and WiFi support, Total Station devices enable quick data transfer in the field and seamless software integration."
+        },
+        {
+          "title": "Durability in Harsh Conditions",
+          "slogan": "Performance under all conditions",
+          "text": "Total Station devices with IP66/IP68 protection standards offer superior durability against water, dust, and sudden temperature changes."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "Millimeter accuracy offers a critical advantage in infrastructure constructions and large engineering projects.",
+          "sectors": ["Construction", "Infrastructure", "Geodesy"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Automatic target tracking speeds up dynamic measurements and mobile field work.",
+          "sectors": ["Mining Sites", "Dam Constructions", "Road Projects"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Long-range measurement capability is indispensable for large terrains and challenging topographic areas.",
+          "sectors": ["Land Surveys", "Large Area Mapping", "Agriculture"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Easy data transfer provides advantages in fast project deliveries and mobile field operations.",
+          "sectors": [
+            "Site Management",
+            "Infrastructure Works",
+            "Urban Transformation"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Durability ensures long-term reliable use in challenging field conditions.",
+          "sectors": [
+            "Dam Projects",
+            "Tunnel Constructions",
+            "Forest Surveying Operations"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "uav",
+      "left": [
+        {
+          "title": "High-Resolution Aerial Imaging",
+          "slogan": "The power of detailed data collection",
+          "text": "UAV systems capture large areas in detail and quickly with their high-resolution cameras, making them the preferred choice for professional mapping and inspection projects."
+        },
+        {
+          "title": "3D Mapping with Lidar Integration",
+          "slogan": "Detailed three-dimensional modeling",
+          "text": "Advanced UAVs integrate with Lidar sensors to enable 3D modeling in forested, mountainous, and complex areas."
+        },
+        {
+          "title": "Long Flight Time and Extended Range",
+          "slogan": "Cover more area in a single flight",
+          "text": "With long flight durations and up to 10 km range, UAVs can efficiently collect data over large areas quickly and effectively."
+        },
+        {
+          "title": "Automatic Flight Planning and Route Tracking",
+          "slogan": "Autonomous missions powered by smart software",
+          "text": "Automatic route planning and real-time flight tracking features minimize errors in data collection processes and save labor time."
+        },
+        {
+          "title": "Durable Structure and Adaptation to Harsh Weather",
+          "slogan": "Reliable operation under all conditions",
+          "text": "Thanks to their durable body structure resistant to wind, rain, and harsh environmental conditions, UAVs provide uninterrupted service in the field."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "High-resolution imaging is widely used in agriculture, construction projects, and beyond.",
+          "sectors": ["Agriculture", "Construction", "Mapping", "Energy"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Lidar integration meets detailed modeling and mapping needs in challenging terrain.",
+          "sectors": [
+            "Geology",
+            "Mining Exploration",
+            "Forest Management",
+            "Urban Planning"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Long flight times allow large areas to be scanned quickly, saving time.",
+          "sectors": [
+            "Infrastructure Construction",
+            "Large Agricultural Areas",
+            "Disaster Response"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Automatic flight planning enhances efficiency for repetitive tasks and high-precision projects.",
+          "sectors": ["Mapping", "Land Monitoring", "Architectural Projects"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Durable body design ensures continuous operation in challenging weather conditions.",
+          "sectors": [
+            "Disaster Management",
+            "Military Operations",
+            "Energy Inspections"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "lidar",
+      "left": [
+        {
+          "title": "3D Surface Modeling",
+          "slogan": "3D maps with millimetric detail",
+          "text": "LiDAR sensors use laser pulses to generate high-resolution three-dimensional surface models and precisely map complex terrains."
+        },
+        {
+          "title": "Fast and High-Density Data Collection",
+          "slogan": "Millions of data points in seconds",
+          "text": "LiDAR systems collect large amounts of high-density data in a short time, enabling detailed analysis for urban planning, forest inventories, and infrastructure projects."
+        },
+        {
+          "title": "Long-Range Scanning Capability",
+          "slogan": "Up to 500 meters range",
+          "text": "Advanced LiDAR devices scan distances of up to 500 meters, providing an advantage in modeling large areas."
+        },
+        {
+          "title": "Integration with Various Platforms",
+          "slogan": "Suitable for any platform",
+          "text": "LiDAR solutions can be easily mounted on UAVs, ground vehicles, or tripods, offering flexibility for different applications."
+        },
+        {
+          "title": "Resistance to Harsh Conditions",
+          "slogan": "Protection against dust, water, and temperature extremes",
+          "text": "LiDAR devices with IP67 protection rating ensure continuous performance even under harsh environmental conditions."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "3D surface modeling is critically important in land surveying, urban planning, and construction projects.",
+          "sectors": ["Urban Planning", "Infrastructure", "Mining", "Geology"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Fast data collection is advantageous in projects that require rapid analysis of large areas.",
+          "sectors": ["Forest Management", "Land Mapping", "Disaster Analysis"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Long-range scanning capability is preferred in projects that require scanning across large terrains and open areas.",
+          "sectors": [
+            "Large Area Mapping",
+            "Dam Projects",
+            "Highway Construction"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Platform flexibility allows the same device to be used easily in multiple applications.",
+          "sectors": [
+            "UAV Mapping",
+            "Vehicle-Based Scanning",
+            "Field Operations"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Durability ensures reliable operation in tough field conditions with heavy external exposure.",
+          "sectors": [
+            "Mining",
+            "Geotechnical Research",
+            "Environmental Surveys"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "nivo",
+      "left": [
+        {
+          "title": "Millimetric Precision in Height Measurement",
+          "slogan": "More accurate elevation measurement",
+          "text": "Level devices provide highly accurate height measurements in construction, engineering, and infrastructure projects, ensuring precise leveling."
+        },
+        {
+          "title": "Easy Use and Quick Setup",
+          "slogan": "Practical and fast field measurement",
+          "text": "Thanks to the user-friendly interface and quick adjustment mechanism, it offers fast measurement and ease of use in the field."
+        },
+        {
+          "title": "Magnetic Damping Auto-Leveling",
+          "slogan": "Precise balancing against vibrations",
+          "text": "With magnetic damping technology, it minimizes the effect of ground vibrations and ensures maximum accuracy in measurements."
+        },
+        {
+          "title": "Durability in Harsh Conditions",
+          "slogan": "Reliable with IP54 / IP66 under all conditions",
+          "text": "With its dustproof and waterproof design, it continues to provide reliable measurements even in tough weather and site conditions."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "Millimetric precision is crucial in all projects requiring elevation difference measurements and precise leveling.",
+          "sectors": ["Construction", "Infrastructure", "Engineering"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Ease of use and quick setup save time and bring practicality to field measurements.",
+          "sectors": [
+            "Construction Sites",
+            "Land Planning",
+            "Road Construction"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Magnetic damping minimizes errors caused by external factors and ensures stable measurements.",
+          "sectors": [
+            "Large Construction Projects",
+            "Precise Elevation Measurements",
+            "Groundwork Operations"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Durability in harsh conditions ensures reliable measurement in open fields, construction sites, and tough weather environments.",
+          "sectors": ["Open Field Operations", "Forest Engineering", "Mining"]
+        }
+      ]
+    },
+    {
+      "category": "bathymetry",
+      "left": [
+        {
+          "title": "High-Resolution Underwater Mapping",
+          "slogan": "Detailed and precise underwater models",
+          "text": "Using sonar and GNSS technology, high-resolution maps of lake, dam, and riverbeds are generated."
+        },
+        {
+          "title": "Depth and Volume Calculation Capability",
+          "slogan": "Accurate depth and volume analysis",
+          "text": "Bathymetry systems can accurately calculate the depth profiles and total volumes of water bodies."
+        },
+        {
+          "title": "Real-Time Data Monitoring and Recording",
+          "slogan": "Instant data transmission",
+          "text": "With live data streaming, you can monitor and record real-time depth changes during measurements."
+        },
+        {
+          "title": "Multi-Sensor Integration",
+          "slogan": "More accurate and reliable data",
+          "text": "Data accuracy is enhanced through GNSS, motion sensors, and additional sonar integration, providing precision in complex areas."
+        },
+        {
+          "title": "Portability and Easy Setup",
+          "slogan": "Fast and practical field use",
+          "text": "Its lightweight structure and easy assembly enable quick setup in the field, saving time."
+        },
+        {
+          "title": "Resistance to Harsh Water Conditions",
+          "slogan": "Superior durability against waves and currents",
+          "text": "Bathymetry equipment is designed to withstand harsh environmental conditions such as saltwater, waves, and currents."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "High-resolution underwater mapping is used in dam safety, coastal engineering, and environmental surveys.",
+          "sectors": [
+            "Dam Management",
+            "Coastal Engineering",
+            "Environmental Surveys"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Depth and volume calculations are critical in water reserve management and flood analysis.",
+          "sectors": ["Water Management", "Flood Analysis", "Fisheries"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Real-time monitoring is preferred for port operations and infrastructure work requiring immediate data.",
+          "sectors": [
+            "Port Operations",
+            "Infrastructure Projects",
+            "Disaster Management"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Multi-sensor support provides advantages in collecting reliable data in complex aquatic environments.",
+          "sectors": [
+            "Coastal Erosion Monitoring",
+            "Hydrological Research",
+            "Defense Industry"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Portability and easy setup offer field personnel fast implementation and mobile operation capabilities.",
+          "sectors": [
+            "Emergency Response",
+            "Field Surveys",
+            "Research Projects"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Resistance to harsh water conditions is essential for open sea research and long-term field studies.",
+          "sectors": ["Open Sea Studies", "Military Operations", "Oceanography"]
+        }
+      ]
+    },
+    {
+      "category": "machine-control",
+      "left": [
+        {
+          "title": "Precise Excavation and Fill Control",
+          "slogan": "Millimetric automation",
+          "text": "Machine control systems automate excavation and fill operations with millimetric accuracy, minimizing human error and increasing project speed."
+        },
+        {
+          "title": "Automatic Level Adjustment and Slope Tracking",
+          "slogan": "Perfect slope every time",
+          "text": "Automatic slope and level control ensures that all surfaces on-site are created at the desired angle and level."
+        },
+        {
+          "title": "3D Model Integration",
+          "slogan": "BIM and CAD compatibility",
+          "text": "Machine control systems allow direct loading of 3D project data, enabling precise field implementation."
+        },
+        {
+          "title": "Real-Time Position Tracking",
+          "slogan": "Live task monitoring",
+          "text": "Machine position, working depth, and project progress are monitored in real-time to detect errors early."
+        },
+        {
+          "title": "Operator-Friendly Interface and Easy Learning",
+          "slogan": "User-friendly operation",
+          "text": "Thanks to intuitive interfaces, field personnel can learn quickly and use the system with ease."
+        },
+        {
+          "title": "Durability for Harsh Site Conditions",
+          "slogan": "IP66-protected structure",
+          "text": "With dust, mud, and harsh weather resistance, machine control systems provide reliable performance for long-term field operations."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "Precise excavation and fill control is crucial in large infrastructure projects and dam construction.",
+          "sectors": [
+            "Dam Construction",
+            "Infrastructure Projects",
+            "Road Building"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Automatic slope and level tracking ensures flawless execution in road and airport construction.",
+          "sectors": [
+            "Airport Construction",
+            "Road Projects",
+            "Construction Sites"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "3D model integration allows precise on-site implementation in complex engineering projects.",
+          "sectors": ["BIM Projects", "Mining Sites", "Industrial Facilities"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Real-time position tracking is preferred for projects requiring live monitoring and data reporting.",
+          "sectors": [
+            "Port Construction",
+            "Tunnel Excavation",
+            "Highway Projects"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Operator-friendly interfaces provide great convenience for quick adaptation by field personnel.",
+          "sectors": ["Site Teams", "Training Projects", "Field Management"]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Durable design ensures long-term use in tough site conditions.",
+          "sectors": [
+            "Mining",
+            "Heavy Construction Sites",
+            "Forest Infrastructure Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "sensor",
+      "left": [
+        {
+          "title": "Real-Time Data Monitoring",
+          "slogan": "Instant data tracking and reporting",
+          "text": "Sensor systems monitor temperature, pressure, tilt, and other parameters in real-time and provide continuous reporting."
+        },
+        {
+          "title": "Wireless Transmission and Remote Access",
+          "slogan": "Data access anytime, anywhere",
+          "text": "Thanks to GSM, LoRa, and WiFi-supported systems, data is transmitted instantly to the center and can be accessed remotely."
+        },
+        {
+          "title": "Long Battery Life and Low Power Consumption",
+          "slogan": "Maintenance-free long-term operation",
+          "text": "With low energy consumption and long battery life, sensors can operate for years without the need for intervention."
+        },
+        {
+          "title": "Automatic Temperature and Pressure Compensation",
+          "slogan": "Accurate and error-free data",
+          "text": "Automatically adjusts for changes in ambient temperature and pressure to ensure high measurement accuracy."
+        },
+        {
+          "title": "Easy Installation and Modular Structure",
+          "slogan": "Flexible and fast field setup",
+          "text": "Sensor systems feature a modular design that can be easily integrated into different platforms and installed quickly on site."
+        },
+        {
+          "title": "Resistance to Harsh Environmental Conditions",
+          "slogan": "Superior protection with IP68 rating",
+          "text": "Sensors with IP68 protection work reliably even in the harshest field conditions against water, dust, and external impacts."
+        }
+      ],
+      "right": [
+        {
+          "title": "Key Application Areas",
+          "text": "Real-time data monitoring is used in engineering and environmental projects that require continuous measurement and control.",
+          "sectors": [
+            "Infrastructure Monitoring",
+            "Structural Health",
+            "Agriculture",
+            "Industry"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Wireless transmission provides an advantage for data transfer in remote areas and infrastructure systems.",
+          "sectors": [
+            "Disaster Management",
+            "Water Resource Monitoring",
+            "Industrial Facilities"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Long battery life reduces maintenance costs and ensures uninterrupted operation.",
+          "sectors": [
+            "Mine Site Monitoring",
+            "Power Plants",
+            "Transport Infrastructure"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Automatic compensation is indispensable for error-free data collection in areas with temperature and pressure variations.",
+          "sectors": [
+            "Bridge Monitoring",
+            "Dam Structures",
+            "High-Rise Buildings"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Easy installation and modular design prevent time loss and enable quick field setups.",
+          "sectors": [
+            "Geotechnical Monitoring",
+            "Land Stability Controls",
+            "R&D Projects"
+          ]
+        },
+        {
+          "title": "Key Application Areas",
+          "text": "Resistance to harsh environmental conditions ensures reliable use in projects lasting for years outdoors.",
+          "sectors": ["Desert Projects", "Polar Research", "Offshore Platforms"]
+        }
+      ]
+    }
+  ],
+  "customerStories": [
+    {
+      "title": "Innovative GNSS Solutions",
+      "description": "Make a difference in your projects with high-precision GNSS solutions.",
+      "imageLeft": "/assets/images/gnss-left.jpg",
+      "imageRight": "/assets/images/gnss-right.jpg",
+      "bottomText": "Accuracy rate increased by 95% thanks to this solution.",
+      "brand": "Stec",
+      "type": "gnss"
+    },
+    {
+      "title": "DJI and Lidar Technology",
+      "description": "Take your projects a step ahead with precise measurements using Lidar.",
+      "imageLeft": "/assets/images/lidar-left.jpg",
+      "imageRight": "/assets/images/lidar-right.jpg",
+      "bottomText": "30% faster data processing with Lidar technology.",
+      "brand": "DJI",
+      "type": "lidar"
+    }
+  ],
+  "pageSections": [
+    {
+      "type": "aboutus",
+      "title": "We Are Everywhere in Turkey!",
+      "subtitle": "We are very happy to meet you!",
+      "description": "We cover all 81 provinces: Over 3,000 surveying companies, more than 500 municipalities, over 1,000 government institutions, more than 800 construction companies, over 110 energy companies, and more than 130 universities are among our references.",
+      "paragraphs": [
+        "With years of experience and our expert team, we provide the right solutions whenever you need them. From product supply to technical support, we are with you every step of the way. To learn more about GNSS Teknik’s working principles and the value we offer, visit our About Us page."
+      ],
+      "imageLeft": "",
+      "imageRight": "/resimler/aboutus-big.webp",
+      "buttonText": "Learn More About Us",
+      "buttonLink": "/aboutus",
+      "layout": "right"
+    },
+    {
+      "type": "categories",
+      "title": "Measurement and Data Collection Solutions for Every Field!",
+      "subtitle": "GNSS, LiDAR and More!",
+      "description": "We offer solutions for every project with our GNSS, total station, UAV, LiDAR, level instrument, bathymetry, machine control, sensor, software, and accessories categories.",
+      "paragraphs": [
+        "For projects requiring precision and reliability, GNSS and total station devices stand out. Explore UAV and LiDAR technologies for fast data collection over large areas. With our complementary systems, you can find everything you need for land, marine measurements, and automation projects in our categories."
+      ],
+      "imageLeft": "/resimler/kategori.webp",
+      "imageRight": "",
+      "buttonText": "See All Categories",
+      "buttonLink": "/category",
+      "layout": "right"
+    },
+    {
+      "type": "marketing",
+      "title": "Discover Our New Marketing Website!",
+      "subtitle": "Surveying and Technology Solutions",
+      "description": "Speed up your business processes with our surveying and advanced technology solutions. With our new marketing website, you can easily discover solutions tailored to your needs in a faster and more effective way.",
+      "paragraphs": [
+        "Our mapping solutions cover satellite, LiDAR, and GNSS technologies. With our team of expert engineers, we provide the most up-to-date and precise data for both individual and corporate clients.",
+        "On our new marketing website, you can find detailed product categories and recommendations by usage areas for different industries. Thanks to comprehensive product information and comparison tables, you can easily select the solutions that best meet your needs. Moreover, with our after-sales support and training services, we ensure the highest level of user experience."
+      ],
+      "imageLeft": "/resimler/market3.png",
+      "imageRight": "",
+      "buttonText": "Explore Our Marketing Website",
+      "buttonLink": "/marketing",
+      "layout": "right"
+    }
+  ],
+  "aboutUs": {
+    "aboutUs": {
+      "title": "About Us",
+      "paragraphs": [
+        "Our company was established in <b>2008</b> and underwent a restructuring in <b>2012</b> to collaborate with <b>CHCNAV</b>, a manufacturer of <b>GNSS technologies</b>. During the same period, we reached an agreement with <b>BHC</b>, a company offering handheld <b>GNSS solutions</b>, becoming their authorized dealer in Turkey. For mobile <b>GBS (GIS)</b> solutions, we engaged in discussions with <b>Digiterra</b>, expanding our software product range to provide comprehensive spatial solutions. In <b>2019</b>, we were authorized as a dealer for <b>DJI Enterprise</b> and subsequently added <b>3D Survey Photo Evaluation and Map Production software</b> to our product portfolio. We also offer terrestrial measurement instruments such as <b>Total Stations</b> and levels. As <b>GNSS technologies</b> continued to evolve rapidly, we secured all major <b>GNSS tenders</b> conducted in Turkey during that period, strengthening our position in the industry. To ensure <b>100% customer satisfaction</b>, we expanded our team, opened new branches, and implemented <b>TSE-certified service</b>. Over the years, we have rapidly ascended in the Turkish <b>GNSS market</b>, ranking among the top three companies in terms of revenue and achieving leadership in sales volume. In the fields of <b>positioning, navigation, and mapping</b>, we offer solutions including <b>GNSS, INS, Reference Stations, RTK tablets</b>, and <b>mobile GNSS solutions</b>. Additionally, we provide comprehensive solutions involving <b>Bathymetry, Unmanned Surface Vehicles, Total Stations and Robotic Systems, Deformation Solutions, Unmanned Aerial Vehicles</b>, and software solutions, culminating in <b>Lidar technologies</b>."
+      ]
+    },
+    "vision": {
+      "title": "Our Vision",
+      "paragraphs": [
+        "<b>We are with you under all circumstances...</b>",
+        "To be the most preferred company by our target audience, creating difference with competitive products; ensuring permanence with quality and sustainable service approach; adding value with the brands we represent and becoming a leading company in our sector."
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "paragraphs": [
+        "<b><i>We exist to provide the highest value to our customers.</i></b>",
+        "As GNSS Teknik, with our experienced and expert staff, we aim to produce comprehensive solutions in the fields of <b>surveying and engineering, mobile mapping and geospatial, hydrographic surveys and construction, navigation and infrastructure</b>; and to provide <b>sales, after-sales, and technical support</b> services at the highest level."
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "paragraphs": [
+        "<b>To realize our vision</b>, we shape all our work with the principles of <b>passion, honesty, entrepreneurship, and innovation</b>. These values not only guide our path but also define our corporate culture.",
+        "<b>Key to Success:</b> We closely follow evolving technologies, offering our users the newest and most effective solutions with our expert team. We aim to brand ourselves in Turkey and our representations, continuously adding value to our own brand.",
+        "<b>Awareness:</b> We believe in the power of personal development, advancing both ourselves and our customers through personal awareness. We analyze needs correctly and produce solutions with dedication.",
+        "<b>Innovation and Open-Minded Approach:</b> To adapt to our customers' changing expectations, we develop innovative, dynamic, and rational solutions. We place continuous improvement at the center of our projects with advanced technology and strong management understanding.",
+        "<b>Trust and Sincerity:</b> Reliability and honesty are our most valuable principles. As GNSS Teknik, we establish sincere relationships in every project, building long-term trust. Establishing strong and lasting bonds with our customers is our top priority."
+      ]
+    },
+    "partners": {
+      "title": "Our Partners",
+      "logos": [
+        {
+          "src": "/logos/paksoy.png",
+          "alt": "PAKSOY Logo",
+          "url": "https://paksoyteknik.com.tr/"
+        },
+        {
+          "src": "/logos/3bharita.webp",
+          "alt": "3B HARİTA Logo",
+          "url": "https://4bharita.com.tr/"
+        }
+      ]
+    }
+  }
+}

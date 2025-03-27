@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faBook, faHome, faUserFriends } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function HeaderBar() {
   const [copied, setCopied] = useState(false);
+  const { language } = useLanguage();
 
   const handleCopy = () => {
     navigator.clipboard.writeText("+90 312 285 1420");
@@ -29,7 +31,9 @@ export default function HeaderBar() {
             className="flex items-center space-x-4 md:space-x-2 hover:opacity-80 focus:outline-none"
           >
             <FontAwesomeIcon className="text-xl md:text-base" icon={faHome} />
-            <span className="text-base md:text-sm">Anasayfa</span>
+            <span className="text-base md:text-sm">
+              {language === "tr" ? "Anasayfa" : "Home"}
+            </span>
           </NavLink>
         </div>
 
@@ -40,7 +44,9 @@ export default function HeaderBar() {
             className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
           >
             <FontAwesomeIcon className="text-xl md:text-base" icon={faBook} />
-            <span className="hidden md:inline">Hakkımızda</span>
+            <span className="hidden md:inline">
+              {language === "tr" ? "Hakkımızda" : "About Us"}
+            </span>
           </NavLink>
 
           <NavLink
@@ -48,7 +54,9 @@ export default function HeaderBar() {
             className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
           >
             <FontAwesomeIcon className="text-xl md:text-base" icon={faUserFriends} />
-            <span className="hidden md:inline">Blog</span>
+            <span className="hidden md:inline">
+              {language === "tr" ? "Blog" : "Customer Stories"}
+            </span>
           </NavLink>
         </div>
 
@@ -65,7 +73,7 @@ export default function HeaderBar() {
       {/* ✅ Kopyalandı bildirimi */}
       {copied && (
         <div className="absolute right-5 top-3 bg-green-600 text-white px-3 py-1 rounded-xl text-xs shadow-md transition-all">
-          Kopyalandı!
+          {language === "tr" ? "Kopyalandı!" : "Copied!"}
         </div>
       )}
     </div>

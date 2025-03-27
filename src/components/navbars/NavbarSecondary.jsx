@@ -1,7 +1,7 @@
 import { useActiveNav } from "../../context/ActiveNavContext";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import data from "../../data.json";
+import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
 import NavbarLink from "./NavbarLink";
 
 export default function NavbarSecondary() {
@@ -16,6 +16,10 @@ export default function NavbarSecondary() {
   const [filteredBrands, setFilteredBrands] = useState([]);
   const navigate = useNavigate();
   const location = useLocation();
+  
+  // newNavbar'ı LanguageContext'ten alıyoruz
+  const { language, data } = useLanguage(); // useLanguage'den veri alıyoruz
+  const { newNavbar = [] } = data; // Fallback olarak boş dizi veriyoruz
 
   // ✅ Anasayfaya dönüldüğünde seçimleri sıfırla
   useEffect(() => {
@@ -24,30 +28,30 @@ export default function NavbarSecondary() {
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
     }
-  }, [location]);
+  }, [location, setActiveMainPath, setActiveSecondaryPath, setFilteredProducts]);
 
   // ✅ Seçilen ana kategoriye göre alt markaları filtrele
   useEffect(() => {
     if (activeMainPath) {
-      setFilteredBrands(data.newNavbar.filter((brand) =>
+      setFilteredBrands(newNavbar.filter((brand) =>
         brand.filter.includes(activeMainPath)
       ));
     } else {
       setFilteredBrands([]);
     }
-  }, [activeMainPath]);
+  }, [activeMainPath, newNavbar]); // newNavbar'ı da bağımlılık olarak ekledik
 
   // ✅ Alt navbar tıklama fonksiyonu (MainNavbar mantığı ile)
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
-      const targetPath = `/kategori${activeMainPath}${brandPath}`;
+      const targetPath = `/${language === "tr" ? "kategori" : "category"}${activeMainPath}${brandPath}`;
       const currentPath = location.pathname;
 
       if (activeSecondaryPath === brandPath) {
         setActiveSecondaryPath(null);
         setFilteredProducts([]);
         setTimeout(() => {
-          navigate(`/kategori${activeMainPath}`);
+          navigate(`/${language === "tr" ? "kategori" : "category"}${activeMainPath}`);
         }, 0);
       } else {
         setActiveSecondaryPath(brandPath);
@@ -62,7 +66,6 @@ export default function NavbarSecondary() {
 
   return (
     <nav className="bg-white shadow-md border-b border-gray-300 sticky top-[100px] md:top-[155px] lg:top-[150px] w-full z-50">
-
       {/* 🔥 md ve üstü: İkonlu ve normal görünüm */}
       <div className="w-[80%] mx-auto grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 py-4 hidden md:grid">
         {filteredBrands.map((item, index) => (
@@ -76,7 +79,7 @@ export default function NavbarSecondary() {
                 />
               }
               name={item.name}
-              path={`/kategori${activeMainPath}${item.path}`}
+              path={`/${language === "tr" ? "kategori" : "category"}${activeMainPath}${item.path}`} // Dil'e bağlı path yönlendirmesi
               onClick={() => handleSecondaryNavClick(item.path)}
               className={`text-base lg:text-lg font-medium px-8 py-4 transition-all ${
                 activeSecondaryPath === item.path

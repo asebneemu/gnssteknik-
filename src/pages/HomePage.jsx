@@ -1,4 +1,3 @@
-// src/pages/HomePage.jsx
 import Banner from "../components/homepage/Banner";
 import Slider from "../components/homepage/Slider";
 import ContactSection from "../components/homepage/ContactSection";
@@ -7,18 +6,20 @@ import SocialSidebar from "../components/SocialLinks";
 import InfoCards from "../components/where/InfoCards";
 import TeamCards from "../components/where/TeamCards";
 import TestimonialSlider from "../components/where/TestimonialSlider";
-import { useData } from "../context/DataContext";
+import { useLanguage } from "../context/LanguageContext"; // useLanguage kullanıyoruz
 
 export default function HomePage() {
-  const { 
-    newNavbar, 
-    socialLinks, 
-    infoCards,        
-    teamCards,        
+  const { data, language } = useLanguage(); // useLanguage'den veri ve dil alıyoruz
+
+  const {
+    newNavbar = [], // Boş bir dizi olarak default değer veriyoruz
+    socialLinks,
+    infoCards,
+    teamCards,
     testimonials,
     references,
-    pageSections    
-  } = useData();
+    pageSections,
+  } = data; // LanguageContext'ten gelen veriyi kullanıyoruz
 
   const brands = newNavbar.map((brand) => ({
     name: brand.name,
@@ -26,9 +27,9 @@ export default function HomePage() {
   }));
 
   // ✅ Spesifik içerikleri çek
-  const aboutUsSection = pageSections.find(section => section.type === "aboutus");
-  const marketingSection = pageSections.find(section => section.type === "marketing");
-  const categoriesSection = pageSections.find(section => section.type === "categories");  // ✅ Kategoriler için
+  const aboutUsSection = pageSections.find((section) => section.type === "aboutus");
+  const marketingSection = pageSections.find((section) => section.type === "marketing");
+  const categoriesSection = pageSections.find((section) => section.type === "categories");
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -49,7 +50,11 @@ export default function HomePage() {
         />
       )}
 
-      <Slider title="Referanslarımız" photos={references} />
+      {/* ✅ Referanslar Slider */}
+      <Slider
+        title={language === "tr" ? "Referanslarımız" : "Our References"}
+        photos={references}
+      />
 
       {/* ✅ About Us Section */}
       {aboutUsSection && (
@@ -66,7 +71,12 @@ export default function HomePage() {
         />
       )}
 
-      <Slider title="Markalarımız" photos={brands} />
+      {/* ✅ Markalar Slider */}
+      <Slider
+        title={language === "tr" ? "Markalarımız" : "Our Brands"}
+        photos={brands}
+      />
+
       {/*<InfoCards items={infoCards} />*/}
 
       {/* ✅ Kategoriler için MiddleSection */}

@@ -1,0 +1,2507 @@
+--- data.json
++++ data-tr.json
+@@ -81,7 +81,6 @@
+       "description": "GNSS, Lidar, İHA ve total station gibi ölçüm cihazlarına özel üretilmiş bataryalar, tripodlar, prizma setleri, veri kabloları ve taşıma çantaları; saha çalışmalarının verimliliğini artırır. Yüksek kaliteli ve dayanıklı malzemelerden üretilen aksesuarlar, en zorlu arazi koşullarında bile uzun ömürlü kullanım sağlar. Hızlı kurulum, kolay taşınabilirlik ve ergonomik tasarımları sayesinde saha personeline zaman kazandırır. Bu destekleyici ekipmanlar, veri toplama süreçlerinde kesintisiz performans sağlar ve ölçüm hassasiyetini artırarak saha operasyonlarını daha verimli hale getirir."
+
+     }
+
+   ],
+
+-
+
+   "newNavbar": [
+
+     {
+
+       "name": "3DSurvey",
+
+@@ -90,7 +89,9 @@
+       "banner-photo": "marka-photos/default-banner.jpg",
+
+       "banner-description": "3DSurvey ile yüzey tarama çözümleri.",
+
+       "banner-url": "https://www.3DSurvey.com",
+
+-      "filter": ["/yazilim"]
+
++      "filter": [
+
++        "/yazilim"
+
++      ]
+
+     },
+
+     {
+
+       "name": "CHCNAV",
+
+@@ -118,7 +119,11 @@
+       "banner-photo": "marka-photos/autel-banner.jpg",
+
+       "banner-description": "Autel ile gelişmiş hava haritalama.",
+
+       "banner-url": "https://www.autel.com",
+
+-      "filter": ["/iha", "/yazilim", "/aksesuar"]
+
++      "filter": [
+
++        "/iha",
+
++        "/yazilim",
+
++        "/aksesuar"
+
++      ]
+
+     },
+
+     {
+
+       "name": "DJI",
+
+@@ -127,7 +132,11 @@
+       "banner-photo": "marka-photos/dji-banner.JPG",
+
+       "banner-description": "DJI ile profesyonel drone çözümleri.",
+
+       "banner-url": "https://www.dji.com",
+
+-      "filter": ["/iha", "/yazilim", "/aksesuar"]
+
++      "filter": [
+
++        "/iha",
+
++        "/yazilim",
+
++        "/aksesuar"
+
++      ]
+
+     },
+
+     {
+
+       "name": "SOKKIA",
+
+@@ -136,7 +145,11 @@
+       "banner-photo": "marka-photos/default-banner.jpg",
+
+       "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
+
+       "banner-url": "https://www.sokkia.com",
+
+-      "filter": ["/total-station", "/nivo", "/aksesuar"]
+
++      "filter": [
+
++        "/total-station",
+
++        "/nivo",
+
++        "/aksesuar"
+
++      ]
+
+     },
+
+     {
+
+       "name": "STEC",
+
+@@ -161,7 +174,10 @@
+       "banner-photo": "marka-photos/default-banner.jpg",
+
+       "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
+
+       "banner-url": "https://www.senceive.com",
+
+-      "filter": ["/sensor", "/aksesuar"]
+
++      "filter": [
+
++        "/sensor",
+
++        "/aksesuar"
+
++      ]
+
+     },
+
+     {
+
+       "name": "BENEWAKE",
+
+@@ -170,48 +186,48 @@
+       "banner-photo": "marka-photos/default-banner.jpg",
+
+       "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
+
+       "banner-url": "https://www.benewake.com",
+
+-      "filter": ["/sensor", "/aksesuar"]
+
++      "filter": [
+
++        "/sensor",
+
++        "/aksesuar"
+
++      ]
+
+     }
+
+   ],
+
+-
+
+   "socialLinks": [
+
+-  {
+
+-    "name": "Twitter",
+
+-    "icon": "FaTwitter",
+
+-    "url": "https://x.com/gnssteknik"
+
+-  },
+
+-  {
+
+-    "name": "Instagram",
+
+-    "icon": "FaInstagram",
+
+-    "url": "https://www.instagram.com/gnssteknik/"
+
+-  },
+
+-  {
+
+-    "name": "LinkedIn",
+
+-    "icon": "FaLinkedin",
+
+-    "url": "https://www.linkedin.com/company/gnss-teknik/"
+
+-  },
+
+-  {
+
+-    "name": "Facebook",
+
+-    "icon": "FaFacebook",
+
+-    "url": "https://www.facebook.com/Gnssteknik"
+
+-  },
+
+-  {
+
+-    "name": "YouTube",
+
+-    "icon": "FaYoutube",
+
+-    "url": "https://www.youtube.com/user/gnssteknik"
+
+-  },
+
+-  {
+
+-    "name": "WhatsApp",
+
+-    "icon": "FaWhatsapp",
+
+-    "url": "https://wa.me/905302827888"
+
+-  }
+
+-],
+
+-
+
+-
+
++    {
+
++      "name": "Twitter",
+
++      "icon": "FaTwitter",
+
++      "url": "https://x.com/gnssteknik"
+
++    },
+
++    {
+
++      "name": "Instagram",
+
++      "icon": "FaInstagram",
+
++      "url": "https://www.instagram.com/gnssteknik/"
+
++    },
+
++    {
+
++      "name": "LinkedIn",
+
++      "icon": "FaLinkedin",
+
++      "url": "https://www.linkedin.com/company/gnss-teknik/"
+
++    },
+
++    {
+
++      "name": "Facebook",
+
++      "icon": "FaFacebook",
+
++      "url": "https://www.facebook.com/Gnssteknik"
+
++    },
+
++    {
+
++      "name": "YouTube",
+
++      "icon": "FaYoutube",
+
++      "url": "https://www.youtube.com/user/gnssteknik"
+
++    },
+
++    {
+
++      "name": "WhatsApp",
+
++      "icon": "FaWhatsapp",
+
++      "url": "https://wa.me/905302827888"
+
++    }
+
++  ],
+
+   "products": [
+
+     {
+
+       "id": 1,
+
+-      "name": "STEC AXIS-1 Total Station",
+
++      "name": "STEC AXIS-1 Total Station (Toplam İstasyon)",
+
+       "description": "Yüksek hassasiyetli ölçüm ve gelişmiş özellikler sunan total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-1.0.png",
+
+@@ -233,7 +249,7 @@
+     },
+
+     {
+
+       "id": 2,
+
+-      "name": "STEC AXIS-2 Total Station",
+
++      "name": "STEC AXIS-2 Total Station (Toplam İstasyon)",
+
+       "description": "Daha yüksek hassasiyet ve gelişmiş özellikler sunan AXIS-2 total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-2.0.png",
+
+@@ -254,7 +270,7 @@
+     },
+
+     {
+
+       "id": 3,
+
+-      "name": "STEC AXIS-3 Total Station",
+
++      "name": "STEC AXIS-3 Total Station (Toplam İstasyon)",
+
+       "description": "Yüksek hassasiyet ve kullanıcı dostu arayüz sunan AXIS 3 total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-3.0.png",
+
+@@ -279,7 +295,7 @@
+     },
+
+     {
+
+       "id": 4,
+
+-      "name": "STEC AXIS-4 Total Station",
+
++      "name": "STEC AXIS-4 Total Station (Toplam İstasyon)",
+
+       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 4 serisi total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-4.0.png",
+
+@@ -306,7 +322,7 @@
+     },
+
+     {
+
+       "id": 9,
+
+-      "name": "STEC AXIS-9 Total Station",
+
++      "name": "STEC AXIS-9 Total Station (Toplam İstasyon)",
+
+       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 9 serisi total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-9.0.png",
+
+@@ -330,7 +346,7 @@
+     },
+
+     {
+
+       "id": 10,
+
+-      "name": "STEC AXIS-10 Robotic Total Station",
+
++      "name": "STEC AXIS-10 Robotik Total Station (Toplam İstasyon) (Toplam İstasyon)",
+
+       "description": "Yüksek performans ve esneklik sunan AXIS 10 serisi robotic total station.",
+
+       "images": [
+
+         "/marka-photos/stec/axis-10.0.png",
+
+@@ -350,7 +366,7 @@
+     },
+
+     {
+
+       "id": 11,
+
+-      "name": "STEC SE Lite GNSS Receiver",
+
++      "name": "STEC SE Lite GNSS Alıcısı",
+
+       "description": "Küçük boyutuna rağmen yüksek performans sunan SE Lite GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/stec/se-lite.0.png",
+
+@@ -372,7 +388,7 @@
+     },
+
+     {
+
+       "id": 12,
+
+-      "name": "STEC SV1 GNSS Receiver",
+
++      "name": "STEC SV1 GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan SV1 GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/stec/sv1.0.png",
+
+@@ -398,7 +414,7 @@
+     },
+
+     {
+
+       "id": 13,
+
+-      "name": "STEC SDi GNSS Receiver",
+
++      "name": "STEC SDi GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/stec/sdi.0.png",
+
+@@ -425,7 +441,7 @@
+     },
+
+     {
+
+       "id": 14,
+
+-      "name": "STEC LiScan50 Handheld Laser Scanner",
+
++      "name": "STEC LiScan50 El Tipi Lazer Tarayıcı",
+
+       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
+
+       "images": [
+
+         "/marka-photos/stec/liscan50.0.png",
+
+@@ -544,7 +560,7 @@
+     },
+
+     {
+
+       "id": 22,
+
+-      "name": "CHCNAV iBase GNSS Receiver",
+
++      "name": "CHCNAV iBase GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan iBase GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/iBase-0.png",
+
+@@ -573,7 +589,7 @@
+     },
+
+     {
+
+       "id": 23,
+
+-      "name": "CHCNAV i73+ GNSS Receiver",
+
++      "name": "CHCNAV i73+ GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan i73+ GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/i73+-0.png",
+
+@@ -602,7 +618,7 @@
+     },
+
+     {
+
+       "id": 24,
+
+-      "name": "CHCNAV i83 GNSS Receiver",
+
++      "name": "CHCNAV i83 GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/i83-0.png",
+
+@@ -634,7 +650,7 @@
+     },
+
+     {
+
+       "id": 25,
+
+-      "name": "CHCNAV i93 GNSS Receiver",
+
++      "name": "CHCNAV i93 GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan i93 GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/i93-0.png",
+
+@@ -669,7 +685,7 @@
+     },
+
+     {
+
+       "id": 26,
+
+-      "name": "CHCNAV i89 GNSS Receiver",
+
++      "name": "CHCNAV i89 GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan i89 GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/i89-0.png",
+
+@@ -701,7 +717,7 @@
+     },
+
+     {
+
+       "id": 27,
+
+-      "name": "CHCNAV i76 GNSS Receiver",
+
++      "name": "CHCNAV i76 GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan i76 GNSS alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/i76-0.png",
+
+@@ -847,7 +863,7 @@
+     },
+
+     {
+
+       "id": 36,
+
+-      "name": "CHCNAV P5U GNSS Reference Receiver",
+
++      "name": "CHCNAV P5U GNSS Referans Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/p5-0.png",
+
+@@ -874,7 +890,7 @@
+     },
+
+     {
+
+       "id": 37,
+
+-      "name": "CHCNAV P5E-Net GNSS Receiver",
+
++      "name": "CHCNAV P5E-Net GNSS Alıcısı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/p5e-0.png",
+
+@@ -926,7 +942,7 @@
+     },
+
+     {
+
+       "id": 41,
+
+-      "name": "CHCNAV LT60H Rugged GNSS Smartphone",
+
++      "name": "CHCNAV LT60H Dayanıklı GNSS Akıllı Telefon",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan LT60H GNSS akıllı telefon.",
+
+       "images": [
+
+         "/marka-photos/chcnav/lt60h-0.png",
+
+@@ -954,7 +970,7 @@
+     },
+
+     {
+
+       "id": 42,
+
+-      "name": "CHCNAV LT800H GNSS RTK Rugged Tablet",
+
++      "name": "CHCNAV LT800H GNSS Dayanıklı RTK Tablet",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan LT800H GNSS RTK tablet.",
+
+       "images": [
+
+         "/marka-photos/chcnav/lt800h-0.png",
+
+@@ -985,7 +1001,7 @@
+     },
+
+     {
+
+       "id": 43,
+
+-      "name": "CHCNAV HCE600 Rugged Field Controller",
+
++      "name": "CHCNAV HCE600 Dayanıklı Saha Kontrol Ünitesi",
+
+       "description": "Yüksek dayanıklılık ve hassasiyet sunan HCE600 saha kontrol cihazı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/hce600-0.png",
+
+@@ -1041,7 +1057,7 @@
+     },
+
+     {
+
+       "id": 50,
+
+-      "name": "CHCNAV CTS-A100 Total Station",
+
++      "name": "CHCNAV CTS-A100 Total Station (Toplam İstasyon)",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan CTS-A100 total station.",
+
+       "images": [
+
+         "/marka-photos/chcnav/cts-a100-0.png",
+
+@@ -1071,7 +1087,7 @@
+     },
+
+     {
+
+       "id": 59,
+
+-      "name": "CHCNAV AA9 Airborne LiDAR + RGB System",
+
++      "name": "CHCNAV AA9 Havadan LiDAR + RGB Sistemi",
+
+       "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
+
+       "images": [
+
+         "/marka-photos/chcnav/aa9-1.png",
+
+@@ -1316,7 +1332,7 @@
+     },
+
+     {
+
+       "id": 70,
+
+-      "name": "CHCNAV X500 İHA",
+
++      "name": "CHCNAV X500 İnsansız Hava Aracı (İHA)",
+
+       "description": "Yüksek performans ve esneklik sunan X500 İHA, çok platformlu haritalama ve keşif çözümleri sunar.",
+
+       "images": [
+
+         "/marka-photos/chcnav/x500-0.png",
+
+@@ -1343,7 +1359,7 @@
+     },
+
+     {
+
+       "id": 71,
+
+-      "name": "CHCNAV C5 İHA Hava Haritalama Kamerası",
+
++      "name": "CHCNAV C5 İnsansız Hava Aracı (İHA) Hava Haritalama Kamerası",
+
+       "description": "Hafif ve yüksek performanslı C5 kamera, hava haritalama ve fotogrametrik uygulamalar için tasarlanmıştır.",
+
+       "images": [
+
+         "/marka-photos/chcnav/c5-0.png",
+
+@@ -1368,7 +1384,7 @@
+     },
+
+     {
+
+       "id": 72,
+
+-      "name": "CHCNAV C30 İHA Hava Haritalama Kamerası",
+
++      "name": "CHCNAV C30 İnsansız Hava Aracı (İHA) Hava Haritalama Kamerası",
+
+       "description": "Profesyonel hava haritalama çözümleri sunan C30 kamera, yüksek çözünürlüklü ve hassas çekimler yapar.",
+
+       "images": [
+
+         "/marka-photos/chcnav/c30-0.png",
+
+@@ -1393,7 +1409,7 @@
+     },
+
+     {
+
+       "id": 80,
+
+-      "name": "CHCNAV APACHE 3 Batimetri",
+
++      "name": "CHCNAV APACHE 3 Batimetri Cihazı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiştir.",
+
+       "images": [
+
+         "/marka-photos/chcnav/apache3-0.png",
+
+@@ -1414,7 +1430,7 @@
+     },
+
+     {
+
+       "id": 81,
+
+-      "name": "CHCNAV APACHE 3 PRO Batimetri",
+
++      "name": "CHCNAV APACHE 3 PRO Batimetri Cihazı",
+
+       "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için idealdir.",
+
+       "images": [
+
+         "/marka-photos/chcnav/apache3pro-0.png",
+
+@@ -1436,7 +1452,7 @@
+     },
+
+     {
+
+       "id": 82,
+
+-      "name": "CHCNAV APACHE 4 Batimetri",
+
++      "name": "CHCNAV APACHE 4 Batimetri Cihazı",
+
+       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 4, hidroğrafik ölçümler için optimize edilmiştir.",
+
+       "images": [
+
+         "/marka-photos/chcnav/apache4-0.png",
+
+@@ -1458,7 +1474,7 @@
+     },
+
+     {
+
+       "id": 83,
+
+-      "name": "CHCNAV APACHE 6 Batimetri",
+
++      "name": "CHCNAV APACHE 6 Batimetri Cihazı",
+
+       "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
+
+       "images": [
+
+         "/marka-photos/chcnav/apache6-0.png",
+
+@@ -1613,7 +1629,7 @@
+     },
+
+     {
+
+       "id": 101,
+
+-      "name": "CHCNAV CGI-830 GNSS ve IMU Sensör",
+
++      "name": "CHCNAV CGI-830 GNSS ve IMU Sensörü",
+
+       "description": "Gelişmiş GNSS ve IMU özellikli hassas konumlandırma ve yön bulma sensörü.",
+
+       "images": [
+
+         "/marka-photos/chcnav/cgi-830-1.png",
+
+@@ -1637,7 +1653,7 @@
+     },
+
+     {
+
+       "id": 102,
+
+-      "name": "CHCNAV CGI-610 GNSS ve IMU Sensör",
+
++      "name": "CHCNAV CGI-610 GNSS ve IMU Sensörü",
+
+       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+
+       "images": [
+
+         "/marka-photos/chcnav/cgi-610-0.png",
+
+@@ -1661,7 +1677,7 @@
+     },
+
+     {
+
+       "id": 103,
+
+-      "name": "CHCNAV P2 GNSS ve IMU Sensör",
+
++      "name": "CHCNAV P2 GNSS ve IMU Sensörü",
+
+       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+
+       "images": [
+
+         "/marka-photos/chcnav/p2-0.png",
+
+@@ -1687,7 +1703,7 @@
+     },
+
+     {
+
+       "id": 104,
+
+-      "name": "CHCNAV CGI-230 GNSS ve IMU Sensör",
+
++      "name": "CHCNAV CGI-230 GNSS ve IMU Sensörü",
+
+       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+
+       "images": [
+
+         "/marka-photos/chcnav/cgi-230-1.png",
+
+@@ -1713,7 +1729,7 @@
+     },
+
+     {
+
+       "id": 105,
+
+-      "name": "CHCNAV H3 GNSS Monitoring Receiver",
+
++      "name": "CHCNAV H3 GNSS İzleme Alıcısı",
+
+       "description": "Yüksek hassasiyetli ve çok yönlü GNSS izleme alıcısı.",
+
+       "images": [
+
+         "/marka-photos/chcnav/h3-0.png",
+
+@@ -1909,7 +1925,6 @@
+         "Desteklenen Drone Modelleri: DJI Matrice 300 RTK"
+
+       ]
+
+     },
+
+-
+
+     {
+
+       "id": 214,
+
+       "name": "DJI Matrice 30T RTK",
+
+@@ -2075,7 +2090,7 @@
+     },
+
+     {
+
+       "id": 221,
+
+-      "name": "DJI U10 Laser Gas Leak Detection System",
+
++      "name": "DJI U10 Lazer Gaz Kaçak Tespit Sistemi",
+
+       "description": "Metan gazı kaçaklarını tespit etmek için TDLAS teknolojisini kullanan lazer bazlı endüstriyel gaz dedektörü.",
+
+       "images": [
+
+         "/marka-photos/dji/u10-0.png",
+
+@@ -2283,7 +2298,7 @@
+       ],
+
+       "category": "iha",
+
+       "brand": "autel",
+
+-     "type": "endustriyel-iha",
+
++      "type": "endustriyel-iha",
+
+       "typeTitle": "Endüstriyel Ağır Yük İHA'ları",
+
+       "specs": [
+
+         "40 dakikaya kadar uçuş süresi ile uzun süreli görevlerde kullanım sağlar.",
+
+@@ -2299,7 +2314,8 @@
+         "10.1 inç ekranlı kontrol cihazı ile 20 km iletim menzili sunar.",
+
+         "Otomatik kalkış, iniş, akıllı takip, uçuş planlama ve arazi takip özelliklerine sahiptir."
+
+       ]
+
+-    },{
+
++    },
+
++    {
+
+       "id": 304,
+
+       "name": "Autel Titan",
+
+       "title": "Titan",
+
+@@ -2342,8 +2358,8 @@
+       ],
+
+       "category": "iha",
+
+       "brand": "autel",
+
+-     "type": "multi-sensor-iha",
+
+-"typeTitle": "Çok Sensörlü İHA'lar",
+
++      "type": "multi-sensor-iha",
+
++      "typeTitle": "Çok Sensörlü İHA'lar",
+
+       "specs": [
+
+         "Ultra düşük ışıkta net görüntüleme sağlayan gece görüş kamerası içerir.",
+
+         "640×512 çözünürlüğe sahip termal sensör ile hassas sıcaklık ölçümleri yapar.",
+
+@@ -2371,8 +2387,8 @@
+       ],
+
+       "category": "iha",
+
+       "brand": "autel",
+
+-     "type": "multi-sensor-iha",
+
+-"typeTitle": "Çok Sensörlü İHA'lar",
+
++      "type": "multi-sensor-iha",
+
++      "typeTitle": "Çok Sensörlü İHA'lar",
+
+       "specs": [
+
+         "48 MP sensör, 10× optik zoom, 160× dijital zoom desteği sunar.",
+
+         "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
+
+@@ -2876,7 +2892,7 @@
+     },
+
+     {
+
+       "id": 500,
+
+-      "name": "Senceive Nano Triaxial Tilt Sensor Node",
+
++      "name": "Senceive Nano Triaxial Eğim Sensör Düğümü",
+
+       "title": "Nano Triaxial Tilt Sensör – Ultra Kompakt Eğim İzleme Çözümü",
+
+       "description": "Senceive Nano Triaxial Tilt Sensör, altyapı ve yapı projelerinde eğim değişikliklerini ultra hassasiyetle izlemek için tasarlanmış, IP68 korumalı, kablosuz bağlantılı ve 12 yıla kadar pil ömrü sunan kompakt bir sensördür.",
+
+       "images": [
+
+@@ -2898,10 +2914,10 @@
+         "63 mm x 38 mm x 33 mm ultra kompakt tasarım.",
+
+         "Hızlı ve ayarlanabilir montaj kolaylığı sağlar."
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "id": 501,
+
+-      "name": "Senceive Triaxial Tilt Sensor Node",
+
++      "name": "Senceive Triaxial Eğim Sensör Düğümü",
+
+       "title": "Triaxial Tilt Sensor – Üç Eksenli Yüksek Hassasiyetli Eğim Ölçüm Sensörü",
+
+       "description": "Senceive Triaxial Tilt Sensor Node, üç eksende ultra hassas eğim değişikliği ölçümü yapabilen, IP68 korumalı, kablosuz veri aktarımı sağlayan ve 12 yıla kadar pil ömrü sunan profesyonel yapısal izleme sensörüdür.",
+
+       "images": [
+
+@@ -2921,7 +2937,7 @@
+         "IP68 suya ve toza karşı dayanıklıdır.",
+
+         "Sahada hızlı ve pratik montaj imkanı sunar."
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "id": 502,
+
+       "name": "Senceive Tilt Beam",
+
+@@ -2950,7 +2966,7 @@
+     },
+
+     {
+
+       "id": 503,
+
+-      "name": "Senceive Optical Displacement Sensor Node",
+
++      "name": "Senceive Optik Yer Değiştirme Sensör Düğümü",
+
+       "title": "Optical Displacement Sensör – Lazer Tabanlı Yüzey Hareket İzleme",
+
+       "description": "Senceive Optical Displacement Sensor, lazer tabanlı teknolojisiyle yapı yüzeylerindeki küçük yer değişimlerini milimetre seviyesinde izleyen, IP68 korumalı, kablosuz veri aktarımı ve 50 metreye kadar ölçüm kapasitesi sunan profesyonel bir sensördür.",
+
+       "images": [
+
+@@ -2975,7 +2991,7 @@
+     },
+
+     {
+
+       "id": 504,
+
+-      "name": "Senceive Digital Interface Node",
+
++      "name": "Senceive Dijital Arayüz Düğümü",
+
+       "title": "Digital Interface Node – Dijital Sensörleri Kablosuz Ağa Dahil Etme Çözümü",
+
+       "description": "Senceive Digital Interface Node, mevcut dijital sensörlerinizi kablosuz izleme ağlarına entegre edebilmenizi sağlayan, uzun pil ömürlü, düşük güç tüketimli, IP68 korumalı ve esnek kullanım imkanı sunan profesyonel bir bağlantı arayüz çözümüdür.",
+
+       "images": [
+
+@@ -3022,10 +3038,12 @@
+         "Duvar, kolon veya yüzey sabitlemesi ile hızlı kurulum imkanı sunar.",
+
+         "Çevresel değişimlere karşı otomatik sıcaklık kompansasyonu sağlar."
+
+       ],
+
+-      "compatibleProducts": [301, 302, 401]
+
++      "compatibleProducts": [
+
++        301,
+
++        302,
+
++        401
+
++      ]
+
+     }
+
+-    
+
+-                                                                           
+
+   ],
+
+   "infoCards": [
+
+     {
+
+@@ -3044,28 +3062,41 @@
+       "description": "Hava çekimi ve haritalama için gelişmiş sistemler."
+
+     }
+
+   ],
+
+-
+
+   "teamCards": [
+
+     {
+
+       "name": "Ali Yılmaz",
+
+       "role": "GNSS Uzmanı",
+
+       "photo": "/team/ali.jpg",
+
+-      "socials": [{ "icon": "🔗", "link": "#" }]
+
++      "socials": [
+
++        {
+
++          "icon": "🔗",
+
++          "link": "#"
+
++        }
+
++      ]
+
+     },
+
+     {
+
+       "name": "Zeynep Kaya",
+
+       "role": "Lidar Mühendisi",
+
+       "photo": "/team/zeynep.jpg",
+
+-      "socials": [{ "icon": "🔗", "link": "#" }]
+
++      "socials": [
+
++        {
+
++          "icon": "🔗",
+
++          "link": "#"
+
++        }
+
++      ]
+
+     },
+
+     {
+
+       "name": "Ahmet Demir",
+
+       "role": "Drone Pilot",
+
+       "photo": "/team/ahmet.jpg",
+
+-      "socials": [{ "icon": "🔗", "link": "#" }]
+
++      "socials": [
+
++        {
+
++          "icon": "🔗",
+
++          "link": "#"
+
++        }
+
++      ]
+
+     }
+
+   ],
+
+-
+
+   "testimonials": [
+
+     {
+
+       "name": "Ayşe Yıldız",
+
+@@ -3084,38 +3115,127 @@
+     }
+
+   ],
+
+   "references": [
+
+-    { "name": "ADM", "logo": "/ref-icons/adm.png" },
+
+-    { "name": "AFAD", "logo": "/ref-icons/afad.png" },
+
+-    { "name": "Afyon Üniversitesi", "logo": "/ref-icons/afyonuni.png" },
+
+-    { "name": "Akdeniz Üniversitesi", "logo": "/ref-icons/aku.png" },
+
+-    { "name": "Ankara BB", "logo": "/ref-icons/ankarabb.png" },
+
+-    { "name": "Antalya BB", "logo": "/ref-icons/antalyabb.png" },
+
+-    { "name": "Aselsan", "logo": "/ref-icons/aselsan.png" },
+
+-    { "name": "Bozok", "logo": "/ref-icons/bozok.png" },
+
+-    { "name": "ÇK Elektrik", "logo": "/ref-icons/ckelektrik.png" },
+
+-    { "name": "Çoruh Elektrik", "logo": "/ref-icons/coruhelektrik.png" },
+
+-    { "name": "DSİ", "logo": "/ref-icons/dsi.png" },
+
+-    { "name": "Eltemtek", "logo": "/ref-icons/eltemtek.png" },
+
+-    { "name": "ERÜ", "logo": "/ref-icons/eru.png" },
+
+-    { "name": "Erbakan Üniversitesi", "logo": "/ref-icons/erbakanuni.png" },
+
+-    { "name": "Fırat Elektrik", "logo": "/ref-icons/firatelektrik.png" },
+
+-    { "name": "FNSS", "logo": "/ref-icons/fnss.png" },
+
+-    { "name": "Gebze Üniversitesi", "logo": "/ref-icons/gebzeuni.png" },
+
+-    { "name": "İC İçtaş", "logo": "/ref-icons/icictas.png" },
+
+-    { "name": "İzmir BB", "logo": "/ref-icons/izmirbb.png" },
+
+-    { "name": "İstanbul BB", "logo": "/ref-icons/istanbulbb.png" },
+
+-    { "name": "İTÜ", "logo": "/ref-icons/itu.png" },
+
+-    { "name": "Kalyon", "logo": "/ref-icons/kalyon.png" },
+
+-    { "name": "Kandilli", "logo": "/ref-icons/kandilli.png" },
+
+-    { "name": "Kayseri BB", "logo": "/ref-icons/kayseribb.png" },
+
+-    { "name": "KGM", "logo": "/ref-icons/kgm.png" },
+
+-    { "name": "Kolin", "logo": "/ref-icons/kolin.png" },
+
+-    { "name": "Konya BB", "logo": "/ref-icons/konyabb.png" },
+
+-    { "name": "KTÜ", "logo": "/ref-icons/ktu.png" },
+
+-    { "name": "Makimsan", "logo": "/ref-icons/makimsan.png" },
+
+-    { "name": "Malatya BB", "logo": "/ref-icons/malatyabb.png" }
+
++    {
+
++      "name": "ADM",
+
++      "logo": "/ref-icons/adm.png"
+
++    },
+
++    {
+
++      "name": "AFAD",
+
++      "logo": "/ref-icons/afad.png"
+
++    },
+
++    {
+
++      "name": "Afyon Üniversitesi",
+
++      "logo": "/ref-icons/afyonuni.png"
+
++    },
+
++    {
+
++      "name": "Akdeniz Üniversitesi",
+
++      "logo": "/ref-icons/aku.png"
+
++    },
+
++    {
+
++      "name": "Ankara BB",
+
++      "logo": "/ref-icons/ankarabb.png"
+
++    },
+
++    {
+
++      "name": "Antalya BB",
+
++      "logo": "/ref-icons/antalyabb.png"
+
++    },
+
++    {
+
++      "name": "Aselsan",
+
++      "logo": "/ref-icons/aselsan.png"
+
++    },
+
++    {
+
++      "name": "Bozok",
+
++      "logo": "/ref-icons/bozok.png"
+
++    },
+
++    {
+
++      "name": "ÇK Elektrik",
+
++      "logo": "/ref-icons/ckelektrik.png"
+
++    },
+
++    {
+
++      "name": "Çoruh Elektrik",
+
++      "logo": "/ref-icons/coruhelektrik.png"
+
++    },
+
++    {
+
++      "name": "DSİ",
+
++      "logo": "/ref-icons/dsi.png"
+
++    },
+
++    {
+
++      "name": "Eltemtek",
+
++      "logo": "/ref-icons/eltemtek.png"
+
++    },
+
++    {
+
++      "name": "ERÜ",
+
++      "logo": "/ref-icons/eru.png"
+
++    },
+
++    {
+
++      "name": "Erbakan Üniversitesi",
+
++      "logo": "/ref-icons/erbakanuni.png"
+
++    },
+
++    {
+
++      "name": "Fırat Elektrik",
+
++      "logo": "/ref-icons/firatelektrik.png"
+
++    },
+
++    {
+
++      "name": "FNSS",
+
++      "logo": "/ref-icons/fnss.png"
+
++    },
+
++    {
+
++      "name": "Gebze Üniversitesi",
+
++      "logo": "/ref-icons/gebzeuni.png"
+
++    },
+
++    {
+
++      "name": "İC İçtaş",
+
++      "logo": "/ref-icons/icictas.png"
+
++    },
+
++    {
+
++      "name": "İzmir BB",
+
++      "logo": "/ref-icons/izmirbb.png"
+
++    },
+
++    {
+
++      "name": "İstanbul BB",
+
++      "logo": "/ref-icons/istanbulbb.png"
+
++    },
+
++    {
+
++      "name": "İTÜ",
+
++      "logo": "/ref-icons/itu.png"
+
++    },
+
++    {
+
++      "name": "Kalyon",
+
++      "logo": "/ref-icons/kalyon.png"
+
++    },
+
++    {
+
++      "name": "Kandilli",
+
++      "logo": "/ref-icons/kandilli.png"
+
++    },
+
++    {
+
++      "name": "Kayseri BB",
+
++      "logo": "/ref-icons/kayseribb.png"
+
++    },
+
++    {
+
++      "name": "KGM",
+
++      "logo": "/ref-icons/kgm.png"
+
++    },
+
++    {
+
++      "name": "Kolin",
+
++      "logo": "/ref-icons/kolin.png"
+
++    },
+
++    {
+
++      "name": "Konya BB",
+
++      "logo": "/ref-icons/konyabb.png"
+
++    },
+
++    {
+
++      "name": "KTÜ",
+
++      "logo": "/ref-icons/ktu.png"
+
++    },
+
++    {
+
++      "name": "Makimsan",
+
++      "logo": "/ref-icons/makimsan.png"
+
++    },
+
++    {
+
++      "name": "Malatya BB",
+
++      "logo": "/ref-icons/malatyabb.png"
+
++    }
+
+   ],
+
+-
+
+   "sideBySideCards": [
+
+     {
+
+       "category": "gnss",
+
+@@ -3155,35 +3275,62 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Yüksek hassasiyet, altyapı projeleri ve hassas ölçüm gerektiren uygulamalarda kritik avantaj sağlar.",
+
+-          "sectors": ["İnşaat", "Jeodezi", "Altyapı Projeleri", "Maden Arama"]
+
++          "sectors": [
+
++            "İnşaat",
+
++            "Jeodezi",
+
++            "Altyapı Projeleri",
+
++            "Maden Arama"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kesintisiz çalışma, uzun süreli saha görevlerinde ve veri akışının kritik olduğu alanlarda güven sağlar.",
+
+-          "sectors": ["Madencilik", "Afet Yönetimi", "Orman Mühendisliği", "Lojistik"]
+
++          "sectors": [
+
++            "Madencilik",
+
++            "Afet Yönetimi",
+
++            "Orman Mühendisliği",
+
++            "Lojistik"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Hızlı sabitlenme, zamana karşı yarışılan projelerde ve anlık veri ihtiyacının olduğu uygulamalarda büyük kolaylık sunar.",
+
+-          "sectors": ["Haritacılık", "Saha Ölçümleri", "Acil Müdahale", "Tarım"]
+
++          "sectors": [
+
++            "Haritacılık",
+
++            "Saha Ölçümleri",
+
++            "Acil Müdahale",
+
++            "Tarım"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kolay taşınabilirlik, sürekli saha değişimi ve mobil çalışma gerektiren projelerde maksimum esneklik sağlar.",
+
+-          "sectors": ["Altyapı Projeleri", "Saha Keşifleri", "Mobil Ölçüm Çalışmaları"]
+
++          "sectors": [
+
++            "Altyapı Projeleri",
+
++            "Saha Keşifleri",
+
++            "Mobil Ölçüm Çalışmaları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Uzun pil ömrü, kesintisiz veri toplamanın önemli olduğu büyük ölçekli projelerde avantaj sağlar.",
+
+-          "sectors": ["Jeodezi", "Maden Keşifleri", "Altyapı İnşaatları"]
+
++          "sectors": [
+
++            "Jeodezi",
+
++            "Maden Keşifleri",
+
++            "Altyapı İnşaatları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kolay entegrasyon, veri yönetimi ve çoklu sistem kullanımının gerektiği kompleks projelerde öne çıkar.",
+
+-          "sectors": ["Şehir Planlama", "BIM Projeleri", "Arazi Yönetimi"]
+
++          "sectors": [
+
++            "Şehir Planlama",
+
++            "BIM Projeleri",
+
++            "Arazi Yönetimi"
+
++          ]
+
+         }
+
+       ]
+
+-    },       
+
++    },
+
+     {
+
+       "category": "total-station",
+
+       "left": [
+
+@@ -3217,30 +3364,50 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Milimetre hassasiyeti, altyapı inşaatları ve büyük mühendislik projelerinde kritik avantaj sunar.",
+
+-          "sectors": ["İnşaat", "Altyapı", "Jeodezi"]
+
++          "sectors": [
+
++            "İnşaat",
+
++            "Altyapı",
+
++            "Jeodezi"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Otomatik hedef takibi, dinamik ölçüm ve hareketli saha çalışmalarında operatöre hız kazandırır.",
+
+-          "sectors": ["Maden Sahaları", "Baraj İnşaatları", "Yol Projeleri"]
+
++          "sectors": [
+
++            "Maden Sahaları",
+
++            "Baraj İnşaatları",
+
++            "Yol Projeleri"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Uzun menzilli ölçüm yeteneği, büyük arazilerde ve zorlu topoğrafik alanlarda vazgeçilmezdir.",
+
+-          "sectors": ["Arazi Etütleri", "Büyük Alan Haritalamaları", "Tarım"]
+
++          "sectors": [
+
++            "Arazi Etütleri",
+
++            "Büyük Alan Haritalamaları",
+
++            "Tarım"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kolay veri transferi, hızlı proje teslimleri ve sahada mobil çalışma gerektiren projeler için avantaj sağlar.",
+
+-          "sectors": ["Şantiye Yönetimi", "Altyapı Çalışmaları", "Kentsel Dönüşüm"]
+
++          "sectors": [
+
++            "Şantiye Yönetimi",
+
++            "Altyapı Çalışmaları",
+
++            "Kentsel Dönüşüm"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Dayanıklılık, zorlu saha koşullarında uzun süreli güvenilir kullanım sağlar.",
+
+-          "sectors": ["Baraj Projeleri", "Tünel İnşaatları", "Orman Ölçüm Çalışmaları"]
+
++          "sectors": [
+
++            "Baraj Projeleri",
+
++            "Tünel İnşaatları",
+
++            "Orman Ölçüm Çalışmaları"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "iha",
+
+       "left": [
+
+@@ -3274,30 +3441,52 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Yüksek çözünürlüklü görüntüleme, tarım alanlarından inşaat projelerine kadar geniş kullanım sağlar.",
+
+-          "sectors": ["Tarım", "İnşaat", "Haritacılık", "Enerji"]
+
++          "sectors": [
+
++            "Tarım",
+
++            "İnşaat",
+
++            "Haritacılık",
+
++            "Enerji"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Lidar entegrasyonu, zorlu arazi yapılarında detaylı modelleme ve haritalama ihtiyaçlarını karşılar.",
+
+-          "sectors": ["Jeoloji", "Maden Keşifleri", "Orman Yönetimi", "Şehir Planlama"]
+
++          "sectors": [
+
++            "Jeoloji",
+
++            "Maden Keşifleri",
+
++            "Orman Yönetimi",
+
++            "Şehir Planlama"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Uzun uçuş süresi, geniş alanları kısa sürede tarayarak zamandan tasarruf sağlar.",
+
+-          "sectors": ["Altyapı İnşaatları", "Büyük Tarım Alanları", "Afet Müdahalesi"]
+
++          "sectors": [
+
++            "Altyapı İnşaatları",
+
++            "Büyük Tarım Alanları",
+
++            "Afet Müdahalesi"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Otomatik uçuş planlaması, tekrarlı görevlerde ve yüksek hassasiyet isteyen çalışmalarda verimliliği artırır.",
+
+-          "sectors": ["Haritalama", "Arazi İzleme", "Mimari Projeler"]
+
++          "sectors": [
+
++            "Haritalama",
+
++            "Arazi İzleme",
+
++            "Mimari Projeler"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Dayanıklı gövde yapısı, zorlu hava koşullarında sürekli görev yapmayı mümkün kılar.",
+
+-          "sectors": ["Afet Yönetimi", "Askeri Operasyonlar", "Enerji Denetimleri"]
+
++          "sectors": [
+
++            "Afet Yönetimi",
+
++            "Askeri Operasyonlar",
+
++            "Enerji Denetimleri"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "lidar",
+
+       "left": [
+
+@@ -3331,30 +3520,51 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "3D yüzey modelleme, arazi etüdü, şehir planlama ve inşaat projelerinde kritik öneme sahiptir.",
+
+-          "sectors": ["Şehir Planlama", "Altyapı", "Madencilik", "Jeoloji"]
+
++          "sectors": [
+
++            "Şehir Planlama",
+
++            "Altyapı",
+
++            "Madencilik",
+
++            "Jeoloji"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Hızlı veri toplama özelliği, büyük alanların kısa sürede analiz edilmesi gereken projelerde avantaj sağlar.",
+
+-          "sectors": ["Orman Yönetimi", "Arazi Haritalama", "Afet Analizleri"]
+
++          "sectors": [
+
++            "Orman Yönetimi",
+
++            "Arazi Haritalama",
+
++            "Afet Analizleri"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Uzun menzil kapasitesi, geniş arazilerde ve açık alanlarda tarama gerektiren projelerde tercih edilir.",
+
+-          "sectors": ["Büyük Alan Haritalama", "Baraj Projeleri", "Otoyol İnşaatı"]
+
++          "sectors": [
+
++            "Büyük Alan Haritalama",
+
++            "Baraj Projeleri",
+
++            "Otoyol İnşaatı"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Platform esnekliği, farklı kullanım alanlarında aynı cihazı rahatlıkla kullanabilmeyi sağlar.",
+
+-          "sectors": ["İHA Haritalama", "Kara Aracı Taraması", "Saha Çalışmaları"]
+
++          "sectors": [
+
++            "İHA Haritalama",
+
++            "Kara Aracı Taraması",
+
++            "Saha Çalışmaları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Dayanıklılık, dış etkenlerin yoğun olduğu zorlu saha koşullarında güvenilir kullanım sunar.",
+
+-          "sectors": ["Madencilik", "Jeoteknik Araştırmalar", "Çevre İncelemeleri"]
+
++          "sectors": [
+
++            "Madencilik",
+
++            "Jeoteknik Araştırmalar",
+
++            "Çevre İncelemeleri"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "nivo",
+
+       "left": [
+
+@@ -3383,25 +3593,41 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Milimetrik hassasiyet, kot farkı ölçümleri ve hassas seviyelendirme gerektiren tüm projelerde kritik öneme sahiptir.",
+
+-          "sectors": ["İnşaat", "Altyapı", "Mühendislik"]
+
++          "sectors": [
+
++            "İnşaat",
+
++            "Altyapı",
+
++            "Mühendislik"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kolay kullanım ve hızlı kurulum, zaman kazandırır ve saha ölçümlerinde pratiklik sağlar.",
+
+-          "sectors": ["Şantiye Çalışmaları", "Arazi Planlaması", "Yol İnşaatı"]
+
++          "sectors": [
+
++            "Şantiye Çalışmaları",
+
++            "Arazi Planlaması",
+
++            "Yol İnşaatı"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Manyetik sönümleyici, dış etkenlerden kaynaklı hataları en aza indirir ve stabil ölçümler sağlar.",
+
+-          "sectors": ["Büyük İnşaat Projeleri", "Hassas Kot Ölçümleri", "Zemin Çalışmaları"]
+
++          "sectors": [
+
++            "Büyük İnşaat Projeleri",
+
++            "Hassas Kot Ölçümleri",
+
++            "Zemin Çalışmaları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Zorlu koşullara dayanıklılık, açık arazi, şantiyeler ve zorlu hava koşullarında güvenilir ölçüm sağlar.",
+
+-          "sectors": ["Açık Arazi Çalışmaları", "Orman Mühendisliği", "Madencilik"]
+
++          "sectors": [
+
++            "Açık Arazi Çalışmaları",
+
++            "Orman Mühendisliği",
+
++            "Madencilik"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "batimetri",
+
+       "left": [
+
+@@ -3440,35 +3666,59 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Yüksek çözünürlüklü su altı haritalama, baraj güvenliği, kıyı mühendisliği ve çevresel etütlerde kullanılır.",
+
+-          "sectors": ["Baraj Yönetimi", "Kıyı Mühendisliği", "Çevresel Etütler"]
+
++          "sectors": [
+
++            "Baraj Yönetimi",
+
++            "Kıyı Mühendisliği",
+
++            "Çevresel Etütler"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Derinlik ve hacim hesaplamaları, su rezervleri yönetimi ve taşkın analizlerinde kritik öneme sahiptir.",
+
+-          "sectors": ["Su Yönetimi", "Taşkın Analizi", "Balıkçılık"]
+
++          "sectors": [
+
++            "Su Yönetimi",
+
++            "Taşkın Analizi",
+
++            "Balıkçılık"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Gerçek zamanlı izleme, anlık veri gerektiren liman operasyonları ve altyapı çalışmalarında tercih edilir.",
+
+-          "sectors": ["Liman İşletmeleri", "Altyapı Çalışmaları", "Afet Yönetimi"]
+
++          "sectors": [
+
++            "Liman İşletmeleri",
+
++            "Altyapı Çalışmaları",
+
++            "Afet Yönetimi"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Çoklu sensör desteği, karmaşık su alanlarında daha güvenilir veri toplamak için avantaj sağlar.",
+
+-          "sectors": ["Kıyı Erozyon Takibi", "Hidrolojik Araştırmalar", "Savunma Sanayi"]
+
++          "sectors": [
+
++            "Kıyı Erozyon Takibi",
+
++            "Hidrolojik Araştırmalar",
+
++            "Savunma Sanayi"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Taşınabilirlik ve kolay kurulum, saha personeline hızlı uygulama ve mobil çalışma imkanı sağlar.",
+
+-          "sectors": ["Acil Müdahale", "Arazi İncelemeleri", "Araştırma Projeleri"]
+
++          "sectors": [
+
++            "Acil Müdahale",
+
++            "Arazi İncelemeleri",
+
++            "Araştırma Projeleri"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Zorlu su koşullarına dayanıklılık, açık deniz araştırmaları ve uzun süreli saha çalışmaları için kritik öneme sahiptir.",
+
+-          "sectors": ["Açık Deniz Çalışmaları", "Askeri Operasyonlar", "Oşinografi"]
+
++          "sectors": [
+
++            "Açık Deniz Çalışmaları",
+
++            "Askeri Operasyonlar",
+
++            "Oşinografi"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "makine-kontrol",
+
+       "left": [
+
+@@ -3507,35 +3757,59 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Hassas kazı ve dolgu, büyük altyapı projeleri ve baraj inşaatlarında kritik öneme sahiptir.",
+
+-          "sectors": ["Baraj İnşaatı", "Altyapı Projeleri", "Yol Yapımı"]
+
++          "sectors": [
+
++            "Baraj İnşaatı",
+
++            "Altyapı Projeleri",
+
++            "Yol Yapımı"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Otomatik eğim ve seviye takibi, yol ve havaalanı inşaatlarında hatasız uygulama sağlar.",
+
+-          "sectors": ["Havaalanı İnşaatları", "Yol Projeleri", "Şantiye Uygulamaları"]
+
++          "sectors": [
+
++            "Havaalanı İnşaatları",
+
++            "Yol Projeleri",
+
++            "Şantiye Uygulamaları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "3D model entegrasyonu, karmaşık mühendislik projelerinde birebir saha uygulaması sağlar.",
+
+-          "sectors": ["BIM Projeleri", "Maden Sahaları", "Endüstriyel Tesisler"]
+
++          "sectors": [
+
++            "BIM Projeleri",
+
++            "Maden Sahaları",
+
++            "Endüstriyel Tesisler"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Gerçek zamanlı konum takibi, anlık izleme ve veri raporlaması gerektiren projelerde tercih edilir.",
+
+-          "sectors": ["Liman İnşaatları", "Tünel Kazıları", "Otoyol Yapımları"]
+
++          "sectors": [
+
++            "Liman İnşaatları",
+
++            "Tünel Kazıları",
+
++            "Otoyol Yapımları"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Operatör dostu arayüz, saha personelinin kolayca adapte olması için büyük avantaj sağlar.",
+
+-          "sectors": ["Şantiye Ekipleri", "Eğitim Projeleri", "Arazi Şefliği"]
+
++          "sectors": [
+
++            "Şantiye Ekipleri",
+
++            "Eğitim Projeleri",
+
++            "Arazi Şefliği"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Dayanıklı yapısı, çetin saha koşullarında uzun süreli kullanım sağlar.",
+
+-          "sectors": ["Madencilik", "Ağır İnşaat Sahaları", "Orman Altyapı Çalışmaları"]
+
++          "sectors": [
+
++            "Madencilik",
+
++            "Ağır İnşaat Sahaları",
+
++            "Orman Altyapı Çalışmaları"
+
++          ]
+
+         }
+
+       ]
+
+-    },    
+
++    },
+
+     {
+
+       "category": "sensor",
+
+       "left": [
+
+@@ -3574,32 +3848,57 @@
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Gerçek zamanlı veri izleme, sürekli ölçüm ve kontrol gerektiren mühendislik ve çevre projelerinde kullanılır.",
+
+-          "sectors": ["Altyapı İzleme", "Yapı Sağlığı", "Tarım", "Sanayi"]
+
++          "sectors": [
+
++            "Altyapı İzleme",
+
++            "Yapı Sağlığı",
+
++            "Tarım",
+
++            "Sanayi"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kablosuz iletim, uzak bölgelerde ve altyapı sistemlerinde veri transferi için avantaj sağlar.",
+
+-          "sectors": ["Afet Yönetimi", "Su Kaynakları İzleme", "Endüstriyel Tesisler"]
+
++          "sectors": [
+
++            "Afet Yönetimi",
+
++            "Su Kaynakları İzleme",
+
++            "Endüstriyel Tesisler"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Uzun pil ömrü, bakım maliyetlerinin düşürülmesini ve kesintisiz çalışmayı sağlar.",
+
+-          "sectors": ["Maden Saha İzlemesi", "Enerji Santralleri", "Ulaşım Altyapısı"]
+
++          "sectors": [
+
++            "Maden Saha İzlemesi",
+
++            "Enerji Santralleri",
+
++            "Ulaşım Altyapısı"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Otomatik kompansasyon, sıcaklık ve basınç değişimlerinin olduğu sahalarda hatasız veri toplamak için vazgeçilmezdir.",
+
+-          "sectors": ["Köprü İzleme", "Baraj Yapıları", "Yüksek Katlı Binalar"]
+
++          "sectors": [
+
++            "Köprü İzleme",
+
++            "Baraj Yapıları",
+
++            "Yüksek Katlı Binalar"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Kolay kurulum ve modüler yapı, zaman kaybını önleyerek hızlı saha kurulumları sağlar.",
+
+-          "sectors": ["Geoteknik İzleme", "Arazi Stabilite Kontrolleri", "Ar-Ge Projeleri"]
+
++          "sectors": [
+
++            "Geoteknik İzleme",
+
++            "Arazi Stabilite Kontrolleri",
+
++            "Ar-Ge Projeleri"
+
++          ]
+
+         },
+
+         {
+
+           "title": "Öne Çıkan Alanlar",
+
+           "text": "Zorlu çevre koşullarına dayanıklılık, dış ortamda yıllarca sürecek projelerde güvenli kullanım sunar.",
+
+-          "sectors": ["Çöl Projeleri", "Kutup Çalışmaları", "Açık Deniz Platformları"]
+
++          "sectors": [
+
++            "Çöl Projeleri",
+
++            "Kutup Çalışmaları",
+
++            "Açık Deniz Platformları"
+
++          ]
+
+         }
+
+       ]
+
+     }
+
+@@ -3672,4 +3971,4 @@
+       "layout": "right"
+
+     }
+
+   ]
+
+-}
+
++}

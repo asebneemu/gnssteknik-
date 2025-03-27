@@ -1,36 +1,43 @@
-import React, { createContext, useState, useContext, useEffect } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
-// Tema context'i oluşturuyoruz
+// 1️⃣ Theme Context Oluştur
 const ThemeContext = createContext();
 
-// Tema sağlayıcı bileşeni
+// 2️⃣ Provider Bileşeni
 export const ThemeProvider = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+  );
 
-  // Dark mode bilgisini localStorage'dan alıyoruz (önceki seçim kaybolmasın diye)
   useEffect(() => {
-    const savedMode = localStorage.getItem("theme");
-    if (savedMode === "dark") {
-      setIsDarkMode(true);
+    localStorage.setItem("theme", theme);
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
-  }, []);
+  }, [theme]);
 
-  // Dark mode değiştirme fonksiyonu
   const toggleTheme = () => {
-    setIsDarkMode((prevMode) => {
-      const newMode = !prevMode;
-      // Seçilen temayı localStorage'da tutuyoruz
-      localStorage.setItem("theme", newMode ? "dark" : "light");
-      return newMode;
-    });
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
 
   return (
-    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );
 };
 
-// Tema context'ini kullanma hook'u
+// 3️⃣ Kullanım için hook
 export const useTheme = () => useContext(ThemeContext);
+
+// 4️⃣ Toggle Buton Örneği (kullanmak için):
+// const { theme, toggleTheme } = useTheme();
+// <button onClick={toggleTheme}>{theme === "dark" ? "🌙" : "☀️"}</button>
+
+// 5️⃣ index.js / App.js içinde ThemeProvider ile sarmala
+// <ThemeProvider>
+//   <App />
+// </ThemeProvider>

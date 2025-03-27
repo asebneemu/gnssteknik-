@@ -1,11 +1,12 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import data from "../data.json";
+import { useLanguage } from "../context/LanguageContext"; // useLanguage kullanıyoruz
 import ProductCard from "../components/product/ProductCard";
 
 export default function ProductDetailPage() {
   const { category, brand, productId } = useParams();
   const navigate = useNavigate();
+  const { data } = useLanguage(); // useLanguage hook'u ile data alıyoruz
   const [selectedImage, setSelectedImage] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -14,17 +15,29 @@ export default function ProductDetailPage() {
     window.scrollTo(0, 0);
   }, []);
 
-  const normalizedCategory = category
-    ? category.replace("/", "").toLowerCase()
-    : "";
+  if (!data || !data.products) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen text-gray-700">
+        <h2 className="text-2xl font-semibold">Veri yüklenemedi</h2>
+        <button
+          onClick={() => navigate(-1)}
+          className="mt-4 bg-orange-500 text-white py-2 px-6 rounded-md hover:bg-orange-600 transition"
+        >
+          Geri Dön
+        </button>
+      </div>
+    );
+  }
+
+  const normalizedCategory = category ? category.replace("/", "").toLowerCase() : "";
   const normalizedBrand = brand ? brand.replace("/", "").toLowerCase() : "";
   const normalizedProductId = productId ? productId.toString() : "";
 
   const product = data.products.find(
     (item) =>
       item.id.toString() === normalizedProductId &&
-      item.category.toLowerCase() === normalizedCategory &&
-      item.brand.toLowerCase() === normalizedBrand
+      item.category?.toLowerCase() === normalizedCategory &&
+      item.brand?.toLowerCase() === normalizedBrand
   );
 
   if (!product) {
@@ -100,17 +113,17 @@ export default function ProductDetailPage() {
       </div>
 
       {compatibleProducts.length > 0 && (
-  <div className="mx-auto mt-10">
-    <h2 className="text-3xl font-bold mb-6 text-left">
-      Birlikte Kullanabileceğiniz Ürünler
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-      {compatibleProducts.map((item) => (
-        <ProductCard key={item.id} product={item} />
-      ))}
-    </div>
-  </div>
-)}
+        <div className="mx-auto mt-10">
+          <h2 className="text-3xl font-bold mb-6 text-left">
+            Birlikte Kullanabileceğiniz Ürünler
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {compatibleProducts.map((item) => (
+              <ProductCard key={item.id} product={item} />
+            ))}
+          </div>
+        </div>
+      )}
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">

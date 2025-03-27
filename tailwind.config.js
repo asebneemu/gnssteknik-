@@ -2,6 +2,7 @@
 module.exports = {
   mode: "jit", // JIT modunu aç
   purge: ["./src/**/*.{js,jsx,ts,tsx}"], // Kullanılan dosya yollarını tanımla
+  darkMode: "class", // Koyu modu aç
   theme: {
     extend: {
       colors: {

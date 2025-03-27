@@ -1,32 +1,45 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import data from "../data.json";
+import { useLanguage } from "../context/LanguageContext";
 import ProductCard from "../components/product/ProductCard";
 
-const ProductListPage = ({ products }) => {
-  const { category, brand } = useParams();
+const ProductListPage = () => {
+  const { category, brand } = useParams(); // URL'den category ve brand parametrelerini alıyoruz
+  const { data, language } = useLanguage(); // Dil ve veri alıyoruz
 
-  const normalizedCategory = category ? category.replace("/", "") : "";
-  const normalizedBrand = brand ? brand.replace("/", "") : "";
-
-  const filteredProducts = data.products.filter(
-    (item) =>
-      item.category.toLowerCase() === normalizedCategory.toLowerCase() &&
-      (normalizedBrand
-        ? item.brand.toLowerCase() === normalizedBrand.toLowerCase()
-        : true)
-  );
-
-  if (filteredProducts.length === 0) {
+  if (!data || !data.products) {
     return (
       <h2 className="text-center text-gray-600 text-xl mt-10">
-        Ürün Bulunamadı
+        {language === "tr" ? "Veri yüklenemedi" : "Data could not be loaded"}
       </h2>
     );
   }
 
+  // Hata ayıklama için log ekleyin
+  console.log("category param:", category);
+  console.log("brand param:", brand);
+  console.log("data.products:", data.products);
+
+  // Ürünleri filtrele
+  const filteredProducts = data.products.filter(
+    (item) =>
+      item.category?.toLowerCase() === category?.toLowerCase() &&
+      (brand ? item.brand?.toLowerCase() === brand?.toLowerCase() : true)
+  );
+
+  console.log("filteredProducts:", filteredProducts);
+
+  if (filteredProducts.length === 0) {
+    return (
+      <h2 className="text-center text-gray-600 text-xl mt-10">
+        {language === "tr" ? "Ürün Bulunamadı" : "No Products Found"}
+      </h2>
+    );
+  }
+
+  // Ürünleri türlerine göre grupla
   const groupedProducts = filteredProducts.reduce((acc, product) => {
-    const type = product.typeTitle || "diğer";
+    const type = product.typeTitle || (language === "tr" ? "Diğer" : "Other");
     if (!acc[type]) acc[type] = [];
     acc[type].push(product);
     return acc;

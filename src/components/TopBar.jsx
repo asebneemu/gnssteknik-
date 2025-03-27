@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faGlobe, faSun } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { useActiveNav } from "../context/ActiveNavContext";
-import data from "../data.json";
+import { useLanguage } from "../context/LanguageContext";  // useLanguage hook'u ekleniyor
 import logo from "../assets/1x/logo.png";
 
 export default function TopBar() {
@@ -11,22 +11,35 @@ export default function TopBar() {
   const [searchActive, setSearchActive] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
+  const { data, language, toggleLanguage } = useLanguage();  // Dil ve veri context'i alınıyor
 
-  const filteredResults = data.products.filter((product) =>
+  // Fallback veri ekliyoruz, eğer products yoksa boş bir dizi veririz
+  const products = data?.products || [];
+
+  // Arama sonuçları
+  const filteredResults = products.filter((product) =>
     product.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  // Dil değiştirildiğinde sayfa yönlendirmesini doğru yapma
+  const handleLanguageToggle = () => {
+    toggleLanguage();  // Dil değiştiriliyor
+    // Dil değiştiğinde, doğru kategori yolunu yönlendiriyoruz
+    const currentPath = window.location.pathname;
+    if (currentPath.includes("kategori") || currentPath.includes("category")) {
+      navigate(currentPath.replace(/\/kategori\/|\/category\//, `/${language === "tr" ? "kategori" : "category"}/`));
+    }
+  };
+
   return (
     <div className="relative flex flex-col lg:flex-row items-center my-8 py-4 border-b border-gray-300 z-50">
-      {/* 🔥 Yüzde 80 genişlikte ana kapsayıcı */}
       <div className="w-full max-w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between relative">
-        
-        {/* 🔥 Logo (Sola Yaslandı, md altı için ortalanacak) */}
+        {/* Logo */}
         <div className="flex items-center justify-center md:justify-start w-full md:w-1/3 mb-4 md:mb-0">
           <img src={logo} alt="Logo" className="h-28 lg:h-32 object-contain" />
         </div>
 
-        {/* 🔎 Arama Kutusu (Ortada, md altı için alt alta) */}
+        {/* Arama Kutusu */}
         <div className="w-full max-w-lg flex justify-center relative mb-4 md:mb-0">
           <div className="relative w-full max-w-md">
             <FontAwesomeIcon
@@ -36,7 +49,7 @@ export default function TopBar() {
             <input
               type="text"
               className="w-full py-3 px-4 pl-10 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Ürün, kategori veya marka..."
+              placeholder={language === "tr" ? "Ürün, kategori veya marka..." : "Product, category or brand..."}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onFocus={() => {
@@ -52,14 +65,14 @@ export default function TopBar() {
             />
           </div>
 
-          {/* 🔥 Sonuçları Göster */}
+          {/* Sonuçları Göster */}
           {searchActive && searchQuery && filteredResults.length > 0 && (
             <div className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] max-h-60 overflow-y-auto">
               {filteredResults.map((product) => (
                 <div
                   key={product.id}
                   onClick={() => {
-                    navigate(`/${product.category}/${product.brand}/${product.id}`);
+                    navigate(`/${language === "tr" ? "kategori" : "category"}/${product.category}/${product.brand}/${product.id}`);
                     setSearchActive(false);
                     setNavbarsVisible(true);
                   }}
@@ -76,29 +89,29 @@ export default function TopBar() {
             </div>
           )}
 
-          {/* 🔴 Eğer sonuç yoksa boş mesaj göster */}
+          {/* Sonuç yoksa */}
           {searchActive && searchQuery && filteredResults.length === 0 && (
             <div
               className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] p-3 text-gray-500"
             >
-              Sonuç bulunamadı.
+              {language === "tr" ? "Sonuç bulunamadı." : "No results found."}
             </div>
           )}
         </div>
 
-        {/* 🔥 Dil & Tema Butonları (Yüzde 80 genişlik içinde sağda ve tam üste yaslandı) */}
+        {/* Dil Butonu */}
         <div className="absolute top-0 right-0 flex items-center space-x-4 justify-end lg:w-1/3 transform -translate-y-8">
-          <div className="flex items-center space-x-2 cursor-pointer">
+          <div
+            onClick={handleLanguageToggle}  // Dil değiştir fonksiyonu
+            className="flex items-center space-x-2 cursor-pointer hover:text-blue-500 transition"
+            title="Change Language"
+          >
             <FontAwesomeIcon icon={faGlobe} className="text-xl text-gray-700" />
-            <span className="text-gray-700 text-sm">TR</span>
-          </div>
-          <div className="flex items-center space-x-2 cursor-pointer">
-            <FontAwesomeIcon icon={faSun} className="text-xl text-gray-700" />
-            <span className="text-gray-700 text-sm">Light Mode</span>
+            <span className="text-gray-700 text-sm">{language === "tr" ? "TR" : "EN"}</span>
           </div>
         </div>
 
-        {/* 🔥 Boş Div (Dengelemek için) */}
+        {/* Denge div'i */}
         <div className="hidden md:block lg:w-1/3"></div>
       </div>
     </div>
