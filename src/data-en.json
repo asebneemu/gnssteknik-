@@ -491,7 +491,7 @@
         "/marka-photos/stec/dls-1507.3.png",
         "/marka-photos/stec/dls-1507.4.png"
       ],
-     "category": "level-instrument",
+      "category": "level-instrument",
       "brand": "stec",
       "specs": [
         "Height accuracy of 1.5mm (digital reading) and 2.0mm (optical reading).",
@@ -512,6 +512,16 @@
       "id": 17,
       "name": "STEC DLS-03 Digital Leveling Instrument",
       "description": "A digital leveling instrument designed for precise height measurements, offering both optical and digital readings with high accuracy.",
+      "images": [
+        "/marka-photos/stec/dls03.0.png",
+        "/marka-photos/stec/dls03.1.png",
+        "/marka-photos/stec/dls03.2.png",
+        "/marka-photos/stec/dls03.3.png",
+        "/marka-photos/stec/dls03.4.png",
+        "/marka-photos/stec/dls03.5.png"
+      ],
+      "category": "level-instrument",
+      "brand": "stec",
       "specs": [
         "Height accuracy of 0.3mm (digital reading) and 2.0mm (optical reading).",
         "Digital measurement distance between 2m - 110m.",
@@ -532,6 +542,15 @@
       "id": 22,
       "name": "CHCNAV iBase GNSS Receiver",
       "description": "A GNSS receiver offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/iBase-0.png",
+        "/marka-photos/chcnav/iBase-1.png",
+        "/marka-photos/chcnav/iBase-0.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, and BeiDou satellite systems.",
         "Up to 25 km UHF RTK coverage with a 5-watt radio module for extended communication.",
@@ -552,6 +571,15 @@
       "id": 23,
       "name": "CHCNAV i73+ GNSS Receiver",
       "description": "A GNSS receiver providing high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/i73+-0.png",
+        "/marka-photos/chcnav/i73+-1.png",
+        "/marka-photos/chcnav/i73+-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels, tracking GPS, GLONASS, Galileo, and BeiDou satellite systems.",
         "IMU-RTK technology enables tilt compensation with 3 cm accuracy for up to 30° tilt.",
@@ -572,6 +600,16 @@
       "id": 24,
       "name": "CHCNAV i83 GNSS Receiver",
       "description": "A GNSS receiver providing high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/i83-0.png",
+        "/marka-photos/chcnav/i83-1.png",
+        "/marka-photos/chcnav/i83-2.png",
+        "/marka-photos/chcnav/i83-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels, tracking GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
         "IMU-RTK technology with tilt compensation up to 60° and 3 cm accuracy.",
@@ -594,6 +632,14 @@
       "id": 25,
       "name": "CHCNAV i93 GNSS Receiver",
       "description": "A GNSS receiver offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/i93-0.png",
+        "/marka-photos/chcnav/i93-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
         "IMU-RTK technology with tilt compensation up to 60° and 3 cm accuracy.",
@@ -621,6 +667,16 @@
       "id": 26,
       "name": "CHCNAV i89 GNSS Receiver",
       "description": "A GNSS receiver offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/i89-0.png",
+        "/marka-photos/chcnav/i89-1.png",
+        "/marka-photos/chcnav/i89-2.png",
+        "/marka-photos/chcnav/i89-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, and BeiDou satellite systems.",
         "Reliable fixes up to 96% with iStar2.0 and ionospheric reduction technology.",
@@ -643,6 +699,17 @@
       "id": 27,
       "name": "CHCNAV i76 GNSS Receiver",
       "description": "A GNSS receiver offering high precision and durability.",
+      "images": [
+        "/marka-photos/chcnav/i76-0.png",
+        "/marka-photos/chcnav/i76-3.png",
+        "/marka-photos/chcnav/i76-2.png",
+        "/marka-photos/chcnav/i76-1.png",
+        "/marka-photos/chcnav/i76-5.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "smart-gnss",
+      "typeTitle": "Smart GNSS Receivers",
       "specs": [
         "Supports 1,408 channels and tracks GPS, GLONASS, Galileo, BeiDou, and QZSS satellite systems.",
         "5th Generation Ultra-IMU technology with tilt compensation up to 60° and 3 cm accuracy.",
@@ -665,6 +732,16 @@
       "id": 30,
       "name": "CHCNAV LandStar 8 Software",
       "description": "LandStar 8 software offering advanced mapping and surveying solutions.",
+      "images": [
+        "/marka-photos/chcnav/landstar8-0.png",
+        "/marka-photos/chcnav/landstar8-1.png",
+        "/marka-photos/chcnav/landstar8-2.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Surveying and Mapping Software",
+
       "specs": [
         "Compatible with Android OS and features a user-friendly interface.",
         "Open and process CAD files up to 50% faster with the MetaCAD graphic engine.",
@@ -687,6 +764,16 @@
       "id": 31,
       "name": "CHCNAV CGO 2.0 Software",
       "description": "CGO 2.0 software offering advanced GNSS data processing solutions.",
+      "images": [
+        "/marka-photos/chcnav/cgo2-0.png",
+        "/marka-photos/chcnav/cgo2-1.png",
+        "/marka-photos/chcnav/cgo2-2.png",
+        "/marka-photos/chcnav/cgo2-3.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Surveying and Mapping Software",
       "specs": [
         "Fully integrated with GNSS, RTK, ROAD, and UAV modules.",
         "Accurate GNSS data processing with Static, PPK, and PPP algorithms.",
@@ -709,6 +796,14 @@
       "id": 32,
       "name": "CHCNAV MapCloud 2.0",
       "description": "A powerful GIS data collection and mapping application with a strong mapping engine and cloud-based integration.",
+      "images": [
+        "/marka-photos/chcnav/mapcloud-0.png",
+        "/marka-photos/chcnav/mapcloud-0.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Surveying and Mapping Software",
       "specs": [
         "Supports popular GIS formats such as SHAPES, DWG, DXF, SHP, KML, GPX, TIF, and IMG.",
         "Seamless integration with online base maps like Google, Bing, WMS, and WFS.",
@@ -726,6 +821,14 @@
       "id": 33,
       "name": "CHCNAV MAS",
       "description": "A cloud-based monitoring and alarm platform offering data visualization and alarm management.",
+      "images": [
+        "/marka-photos/chcnav/mas-0.png",
+        "/marka-photos/chcnav/mas-1.png"
+      ],
+      "category": "software",
+      "brand": "chcnav",
+      "type": "monitoring-alarm-system",
+      "typeTitle": "Monitoring and Alarm Systems",
       "specs": [
         "Remote monitoring and alarm management through Internet, IoT, and big data integration.",
         "Support for creating 3D scenes with DEM, GIS maps, satellite, and radar imagery.",
@@ -743,6 +846,14 @@
       "id": 36,
       "name": "CHCNAV P5U GNSS Reference Receiver",
       "description": "High precision and durability offered by the P5 GNSS reference receiver.",
+      "images": [
+        "/marka-photos/chcnav/p5-0.png",
+        "/marka-photos/chcnav/p5-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Reference Stations",
       "specs": [
         "Supports 624 channels and simultaneous tracking of GPS, GLONASS, Galileo, BDS, and QZSS satellite systems.",
         "RTK accuracy: 8 mm + 1 ppm horizontal and 15 mm + 1 ppm vertical.",
@@ -762,6 +873,14 @@
       "id": 37,
       "name": "CHCNAV P5E-Net GNSS Receiver",
       "description": "High precision and durability offered by the P5E-Net GNSS reference receiver.",
+      "images": [
+        "/marka-photos/chcnav/p5e-0.png",
+        "/marka-photos/chcnav/p5e-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Reference Stations",
       "specs": [
         "Supports 624 channels and tracks all satellite systems.",
         "Supports GPS (L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5/E6), BDS (B1/B2/B3), SBAS, and L-Band signals.",
@@ -781,6 +900,14 @@
       "id": 38,
       "name": "CHCNAV DL8 Datalink",
       "description": "A reliable UHF radio modem for long-distance GNSS RTK corrections.",
+      "images": [
+        "/marka-photos/chcnav/dl8-0.png",
+        "/marka-photos/chcnav/dl8-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Reference Stations",
       "specs": [
         "Operates within the 410-470 MHz frequency band.",
         "Adjustable output power from 5W to 28W.",
@@ -798,6 +925,15 @@
       "id": 41,
       "name": "CHCNAV LT60H Rugged GNSS Smartphone",
       "description": "High precision and durability with the LT60H GNSS smartphone.",
+      "images": [
+        "/marka-photos/chcnav/lt60h-0.png",
+        "/marka-photos/chcnav/lt60h-1.png",
+        "/marka-photos/chcnav/lt60h-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Control Units and Tablets",
       "specs": [
         "GNSS module with 1,408 channels supporting GPS, GLONASS, Galileo, and BeiDou.",
         "2.0 GHz Qualcomm Snapdragon octa-core processor with DDR3 memory for high performance.",
@@ -817,6 +953,17 @@
       "id": 42,
       "name": "CHCNAV LT800H GNSS Rugged RTK Tablet",
       "description": "High precision and durability with the LT800H GNSS RTK tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt800h-0.png",
+        "/marka-photos/chcnav/lt800h-1.png",
+        "/marka-photos/chcnav/lt800h-2.png",
+        "/marka-photos/chcnav/lt800h-3.png",
+        "/marka-photos/chcnav/lt800h-4.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Control Units and Tablets",
       "specs": [
         "High-precision GNSS module with 1,408 channels supporting GPS, GLONASS, Galileo, and BeiDou.",
         "8.1-inch sunlight-readable IPS display with Corning Gorilla Glass 3 protection.",
@@ -837,6 +984,15 @@
       "id": 43,
       "name": "CHCNAV HCE600 Rugged Field Controller",
       "description": "High durability and precision with the HCE600 field controller.",
+      "images": [
+        "/marka-photos/chcnav/hce600-0.png",
+        "/marka-photos/chcnav/hce600-1.png",
+        "/marka-photos/chcnav/hce600-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Control Units and Tablets",
       "specs": [
         "5.5-inch DragonTrail™ HD+ display with sunlight-readable IPS panel.",
         "2.0 GHz Helio MTK 6762 octa-core processor for high performance.",
@@ -856,6 +1012,17 @@
       "id": 45,
       "name": "CHCNAV LT700H RTK Android Tablet",
       "description": "The LT700H RTK tablet with rugged design and high-precision GNSS support.",
+      "images": [
+        "/marka-photos/chcnav/lt700h-0.png",
+        "/marka-photos/chcnav/lt700h-1.png",
+        "/marka-photos/chcnav/lt700h-2.png",
+        "/marka-photos/chcnav/lt700h-3.png",
+        "/marka-photos/chcnav/lt700h-4.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Control Units and Tablets",
       "specs": [
         "Android 8.1 operating system and octa-core 2.2 GHz processor.",
         "4 GB RAM and 64 GB internal storage, expandable up to 128 GB via Micro SD.",
@@ -873,6 +1040,14 @@
       "id": 50,
       "name": "CHCNAV CTS-A100 Total Station",
       "description": "The CTS-A100 total station offering high accuracy and durability.",
+      "images": [
+        "/marka-photos/chcnav/cts-a100-0.png",
+        "/marka-photos/chcnav/cts-a100-1.png",
+        "/marka-photos/chcnav/cts-a100-2.png",
+        "/marka-photos/chcnav/cts-a100-3.png"
+      ],
+      "category": "total-station",
+      "brand": "chcnav",
       "specs": [
         "Android operating system with LandStar software for a user-friendly interface.",
         "Qualcomm octa-core processor, 3 GB RAM, and 32 GB ROM for high processing power.",
@@ -895,6 +1070,15 @@
       "id": 59,
       "name": "CHCNAV AA9 Airborne LiDAR + RGB System",
       "description": "High-precision airborne LiDAR and RGB system for fast and accurate 3D mapping.",
+      "images": [
+        "/marka-photos/chcnav/aa9-1.png",
+        "/marka-photos/chcnav/aa9-2.png",
+        "/marka-photos/chcnav/aa9-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Systems",
       "specs": [
         "Measurement range up to 600 meters with 500,000 points per second scan rate.",
         "5 mm repeatable range accuracy and 2 to 5 cm absolute accuracy.",
@@ -913,6 +1097,16 @@
       "id": 60,
       "name": "CHCNAV AA10 LiDAR System",
       "description": "High accuracy and durability with the AA10 LiDAR + RGB system.",
+      "images": [
+        "/marka-photos/chcnav/aa10-0.png",
+        "/marka-photos/chcnav/aa10-1.png",
+        "/marka-photos/chcnav/aa10-2.png",
+        "/marka-photos/chcnav/aa10-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Systems",
       "specs": [
         "5 mm repeatable range accuracy and 2-5 cm absolute accuracy.",
         "Long-range measurement up to 800 meters with a 500,000 points/second scan rate.",
@@ -932,6 +1126,17 @@
       "id": 61,
       "name": "CHCNAV AA15 LiDAR System",
       "description": "High accuracy and fast data collection with the AA15 LiDAR system.",
+      "images": [
+  "/marka-photos/chcnav/aa15-0.png",
+  "/marka-photos/chcnav/aa15-1.png",
+  "/marka-photos/chcnav/aa15-2.png",
+  "/marka-photos/chcnav/aa15-3.png"
+],
+"category": "lidar",
+"brand": "chcnav",
+"type": "airborne-lidar",
+"typeTitle": "Airborne LiDAR Systems"
+,
       "specs": [
         "15 mm accuracy and 2-5 cm absolute precision for high-accuracy measurement.",
         "2 million pulses per second scanning speed and 600 scans per second for dense point clouds.",
@@ -951,6 +1156,18 @@
       "id": 62,
       "name": "CHCNAV AA450 LiDAR System",
       "description": "Lightweight and high-performance AA450 LiDAR system, providing UAV-based precision mapping solutions.",
+      "images": [
+  "/marka-photos/chcnav/aa450-0.png",
+  "/marka-photos/chcnav/aa450-1.png",
+  "/marka-photos/chcnav/aa450-2.png",
+  "/marka-photos/chcnav/aa450-3.png",
+  "/marka-photos/chcnav/aa450-4.png"
+],
+"category": "lidar",
+"brand": "chcnav",
+"type": "airborne-lidar",
+"typeTitle": "Airborne LiDAR Systems"
+,
       "specs": [
         "Long-range scanning capability up to 450 meters.",
         "Integrated 26 MP professional industrial camera for high-resolution imaging.",
@@ -970,6 +1187,13 @@
       "id": 63,
       "name": "CHCNAV AlphaUni 300/900/1300 LiDAR System",
       "description": "The AlphaUni 300/900/1300 LiDAR systems offer high precision and flexibility, providing multi-platform mapping solutions.",
+      "images": [
+        "/marka-photos/chcnav/alphauni-1.png",
+        "/marka-photos/chcnav/alphauni-2.png",
+        "/marka-photos/chcnav/alphauni-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
       "specs": [
         "Range up to 330 meters and scanning capability of 1.2 million points per second.",
         "0.010 m RMS horizontal and 0.010 m RMS vertical accuracy for high precision.",
@@ -989,6 +1213,13 @@
       "id": 64,
       "name": "CHCNAV AU20 LiDAR System",
       "description": "Flexible and high-performance AU20 LiDAR system offering multi-platform mapping solutions.",
+      "images": [
+        "/marka-photos/chcnav/au20-0.png",
+        "/marka-photos/chcnav/au20-1.png",
+        "/marka-photos/chcnav/au20-2.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
       "specs": [
         "Range up to 1450 meters and scanning capability of 2 million points per second.",
         "Absolute accuracy between 2-5 cm and 15 mm measurement precision.",
@@ -1008,6 +1239,16 @@
       "id": 65,
       "name": "CHCNAV RS10 LiDAR",
       "description": "Portable LiDAR solution capable of high-precision 3D scanning and mapping for indoor and outdoor environments.",
+      "images": [
+        "/marka-photos/chcnav/rs10-0.png",
+        "/marka-photos/chcnav/rs10-1.png",
+        "/marka-photos/chcnav/rs10-2.png",
+        "/marka-photos/chcnav/rs10-3.png",
+        "/marka-photos/chcnav/rs10-4.png",
+        "/marka-photos/chcnav/rs10-5.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
       "specs": [
         "Combines GNSS RTK, LiDAR, and SLAM technologies.",
         "Provides 5 cm absolute measurement accuracy with RTK and SLAM integration.",
@@ -1510,7 +1751,7 @@
         "/marka-photos/chcnav/tx63-2.png",
         "/marka-photos/chcnav/tx63-3.png"
       ],
-      "category": "makine-kontrol",
+      "category": "machine-control",
       "brand": "chcnav",
       "specs": [
         "Automatic level control with high-precision GNSS and IMU support.",
@@ -1531,7 +1772,7 @@
         "/marka-photos/chcnav/tg63-2.jpg",
         "/marka-photos/chcnav/tg63-3.jpg"
       ],
-      "category": "makine-kontrol",
+      "category": "machine-control",
       "brand": "chcnav",
       "specs": [
         "High-precision dual GNSS and 100 Hz IMU for automatic blade control.",
@@ -1553,7 +1794,7 @@
         "/marka-photos/chcnav/td63pro-2.png",
         "/marka-photos/chcnav/td63pro-3.png"
       ],
-      "category": "makine-kontrol",
+      "category": "machine-control",
       "brand": "chcnav",
       "specs": [
         "High-precision automatic blade control with dual GNSS and 100 Hz IMU.",
@@ -1573,7 +1814,7 @@
         "/marka-photos/dji/m350-0.png",
         "/marka-photos/dji/m350-1.png"
       ],
-      "category": "iha",
+    "category": "uav",
       "brand": "dji",
       "type": "rtk-drone",
       "typeTitle": "RTK Drone",
@@ -1598,7 +1839,7 @@
         "/marka-photos/dji/h20-2.png",
         "/marka-photos/dji/h20seri.png"
       ],
-      "category": "iha",
+    "category": "uav",
       "brand": "dji",
       "type": "multi-sensor-camera",
       "typeTitle": "Multi-Sensor Camera",
@@ -1623,7 +1864,7 @@
         "/marka-photos/dji/h20t-2.png",
         "/marka-photos/dji/h20seri.png"
       ],
-      "category": "iha",
+      "category": "uav",
       "brand": "dji",
       "type": "multi-sensor-camera",
       "typeTitle": "Multi-Sensor Camera",
@@ -1652,7 +1893,7 @@
         "/marka-photos/dji/h20n-2.png",
         "/marka-photos/dji/h20n-3.png"
       ],
-      "category": "iha",
+      "category": "uav",
       "brand": "dji",
       "type": "multi-sensor-camera",
       "typeTitle": "Multi-Sensor Camera",
@@ -1680,7 +1921,7 @@
         "/marka-photos/dji/m30t-2.png",
         "/marka-photos/dji/m30t-3.png"
       ],
-      "category": "iha",
+      "category": "uav",
       "brand": "dji",
       "type": "rtk-drone",
       "typeTitle": "RTK Drone",
@@ -1706,7 +1947,7 @@
         "/marka-photos/dji/m4t-1.png",
         "/marka-photos/dji/m4t-2.png"
       ],
-      "category": "iha",
+      "category": "uav",
       "brand": "dji",
       "type": "rtk-drone",
       "typeTitle": "RTK Drone",
@@ -1733,7 +1974,7 @@
         "/marka-photos/dji/m4e-2.png",
         "/marka-photos/dji/m4e-3.png"
       ],
-      "category": "iha",
+      "category": "uav",
       "brand": "dji",
       "type": "rtk-drone",
       "typeTitle": "RTK Drone",
