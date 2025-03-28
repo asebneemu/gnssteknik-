@@ -25,8 +25,7 @@ const CategoryDetail = ({ title, description, photo }) => {
       <h1 className="text-4xl font-bold mb-8 text-left">{title}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         <div
-          className="relative w-full overflow-hidden rounded-lg shadow-lg"
-          style={{ height: `${imageHeight}px` }}
+          className="relative w-full overflow-hidden rounded-lg shadow-lg h-[200px] sm:h-[250px] md:h-[350px]"
         >
           <img
             src={photo}
