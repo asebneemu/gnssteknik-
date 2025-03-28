@@ -3851,7 +3851,7 @@
       "imageLeft": "/resimler/kategori.webp",
       "imageRight": "",
       "buttonText": "Tüm Kategorileri Gör",
-      "buttonLink": "/kategori",
+      "buttonLink": "/category",
       "layout": "right"
     },
     {

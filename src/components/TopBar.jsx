@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { useActiveNav } from "../context/ActiveNavContext";
-import { useLanguage } from "../context/LanguageContext";  // useLanguage hook'u ekleniyor
+import { useLanguage } from "../context/LanguageContext"; // useLanguage hook'u ekleniyor
 import logo from "../assets/1x/logo.png";
 
 export default function TopBar() {
@@ -11,23 +11,28 @@ export default function TopBar() {
   const [searchActive, setSearchActive] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
-  const { data, language, toggleLanguage } = useLanguage();  // Dil ve veri context'i alınıyor
+  const { data, language, toggleLanguage } = useLanguage(); // Dil ve veri context'i alınıyor
 
   // Fallback veri ekliyoruz, eğer products yoksa boş bir dizi veririz
   const products = data?.products || [];
 
   // Arama sonuçları
-  const filteredResults = products.filter((product) =>
-    product.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredResults = products.filter((product) => {
+    const query = searchQuery.toLowerCase();
+    return (
+      product.name.toLowerCase().includes(query) ||
+      product.description?.toLowerCase().includes(query) ||
+      product.typeTitle?.toLowerCase().includes(query)
+    );
+  });
 
   // Dil değiştirildiğinde sayfa yönlendirmesini doğru yapma
   const handleLanguageToggle = () => {
-    toggleLanguage();  // Dil değiştiriliyor
-    // Dil değiştiğinde, doğru kategori yolunu yönlendiriyoruz
+    toggleLanguage(); // Dil değiştiriliyor
+    // Dil değiştiğinde, kategori yerine her zaman category kullanıyoruz
     const currentPath = window.location.pathname;
-    if (currentPath.includes("kategori") || currentPath.includes("category")) {
-      navigate(currentPath.replace(/\/kategori\/|\/category\//, `/${language === "tr" ? "kategori" : "category"}/`));
+    if (currentPath.includes("category")) {
+      navigate(currentPath); // Path zaten category ise değişiklik yapma
     }
   };
 
@@ -49,7 +54,11 @@ export default function TopBar() {
             <input
               type="text"
               className="w-full py-3 px-4 pl-10 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder={language === "tr" ? "Ürün, kategori veya marka..." : "Product, category or brand..."}
+              placeholder={
+                language === "tr"
+                  ? "Ürün, kategori veya marka..."
+                  : "Product, category or brand..."
+              }
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onFocus={() => {
@@ -72,17 +81,20 @@ export default function TopBar() {
                 <div
                   key={product.id}
                   onClick={() => {
-                    navigate(`/${language === "tr" ? "kategori" : "category"}/${product.category}/${product.brand}/${product.id}`);
+                    navigate(
+                      `/category/${product.category}/${product.brand}/${product.id}`
+                    );
                     setSearchActive(false);
                     setNavbarsVisible(true);
                   }}
                   className="p-3 hover:bg-gray-100 cursor-pointer flex items-center space-x-3"
                 >
                   <img
-                    src={product.image}
+                    src={product.images?.[0]}
                     alt={product.name}
                     className="w-10 h-10 object-cover rounded"
                   />
+
                   <span className="text-gray-700">{product.name}</span>
                 </div>
               ))}
@@ -91,9 +103,7 @@ export default function TopBar() {
 
           {/* Sonuç yoksa */}
           {searchActive && searchQuery && filteredResults.length === 0 && (
-            <div
-              className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] p-3 text-gray-500"
-            >
+            <div className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] p-3 text-gray-500">
               {language === "tr" ? "Sonuç bulunamadı." : "No results found."}
             </div>
           )}
@@ -102,12 +112,14 @@ export default function TopBar() {
         {/* Dil Butonu */}
         <div className="absolute top-0 right-0 flex items-center space-x-4 justify-end lg:w-1/3 transform -translate-y-8">
           <div
-            onClick={handleLanguageToggle}  // Dil değiştir fonksiyonu
+            onClick={handleLanguageToggle} // Dil değiştir fonksiyonu
             className="flex items-center space-x-2 cursor-pointer hover:text-blue-500 transition"
             title="Change Language"
           >
             <FontAwesomeIcon icon={faGlobe} className="text-xl text-gray-700" />
-            <span className="text-gray-700 text-sm">{language === "tr" ? "TR" : "EN"}</span>
+            <span className="text-gray-700 text-sm">
+              {language === "tr" ? "TR" : "EN"}
+            </span>
           </div>
         </div>
 

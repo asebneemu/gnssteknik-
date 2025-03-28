@@ -48,8 +48,8 @@ export default function HeaderBar() {
               {language === "tr" ? "Hakkımızda" : "About Us"}
             </span>
           </NavLink>
-
-          <NavLink
+          
+          {/* <NavLink
             to="/customers"
             className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
           >
@@ -57,7 +57,8 @@ export default function HeaderBar() {
             <span className="hidden md:inline">
               {language === "tr" ? "Blog" : "Customer Stories"}
             </span>
-          </NavLink>
+          </NavLink> */}
+          
         </div>
 
         {/* 🔥 Sağ Taraf - Tıklayınca Kopyala */}
