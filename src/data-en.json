@@ -3,15 +3,15 @@
     {
       "name": "GNSS",
       "title": "GNSS Technology: Precision Positioning",
-      "icon": "public/navbar-icons/gnss-icon.png",
-      "photo": "/navbar-photos/gnss.JPG",
+      "icon": "navbar-icons/gnss-icon.png",
+      "photo": "/navbar-photos/gnsst.jpeg",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System) refers to satellite systems such as GPS, GLONASS, Galileo, and BeiDou working together to provide precise global positioning, speed, and timing data. With RTK and PPP technologies, centimeter-level accuracy can be achieved. GNSS plays a critical role in construction, surveying, agriculture, mining, maritime operations, transportation, smart city applications, and autonomous systems. GNSS receivers deliver reliable data even in harsh field conditions, with real-time data transfer, high satellite tracking capacity, and durable designs for both mobile and fixed applications."
     },
     {
       "name": "TOTAL STATION",
       "title": "Total Station Technology: Professional Measurement Devices",
-      "icon": "public/navbar-icons/tstation.png",
+      "icon": "navbar-icons/tstation.png",
       "photo": "/navbar-photos/totalstation.webp",
       "path": "/total-station",
       "description": "Total Station devices combine laser, electronic angle, and distance measurement technologies to enable fast and precise data collection on-site. With features like automatic target recognition, prism tracking, and remote data transmission, they are essential in major construction and engineering projects. They ensure seamless data transfer to CAD and BIM systems, error-free measurements, quick data logging, and real-time verification. Total Stations provide sub-centimeter accuracy for bridge constructions, highway projects, tunnel excavations, and dam works."
@@ -19,7 +19,7 @@
     {
       "name": "UAV",
       "title": "UAV Technology: Aerial Imaging and Mapping",
-      "icon": "public/navbar-icons/iha.png",
+      "icon": "navbar-icons/iha.png",
       "photo": "/navbar-photos/iha.webp",
       "path": "/uav",
       "description": "Unmanned Aerial Vehicles (UAVs) are used in high-resolution imaging, orthophoto production, and 3D modeling. They enable fast and efficient data collection in challenging terrains. Integrated with GNSS, lidar, and multispectral cameras, UAVs are used in sectors like agriculture, mining, construction, and disaster management. They support automatic flight planning, data collection over pre-defined routes, and live monitoring during flights."
@@ -27,7 +27,7 @@
     {
       "name": "LIDAR",
       "title": "LiDAR Technology: High-Precision 3D Scanning",
-      "icon": "public/navbar-icons/lidar.png",
+      "icon": "navbar-icons/lidar.png",
       "photo": "/navbar-photos/lidar.webp",
       "path": "/lidar",
       "description": "LiDAR (Light Detection and Ranging) is an advanced technology that uses laser beams to create 3D point clouds of surfaces. Mounted on aerial or ground vehicles, it collects data with millimeter precision over large areas. Ideal for forestry, road projects, infrastructure planning, city modeling, and mining applications."
@@ -35,7 +35,7 @@
     {
       "name": "LEVEL INSTRUMENT",
       "title": "Leveling Technology: Accurate Elevation Measurement",
-      "icon": "public/navbar-icons/nivo.png",
+      "icon": "navbar-icons/nivo.png",
       "photo": "/navbar-photos/nivo.webp",
       "path": "/level-instrument",
       "description": "Leveling instruments are used in construction, infrastructure, and engineering projects to measure height differences with high precision. They come in optical and digital models. Digital levels automatically calculate and display measurements on-screen for quick and reliable use in site applications."
@@ -43,7 +43,7 @@
     {
       "name": "BATHYMETRY",
       "title": "Bathymetry Technology: Underwater Mapping and Depth Measurement",
-      "icon": "public/navbar-icons/batimetri.png",
+      "icon": "navbar-icons/batimetri.png",
       "photo": "/navbar-photos/batimetri.webp",
       "path": "/bathymetry",
       "description": "Bathymetry is used to measure underwater surface depths and produce topographic maps. Equipped with single-beam and multi-beam sonar systems, bathymetry equipment is essential for dam reservoirs, harbors, rivers, and marine studies."
@@ -51,7 +51,7 @@
     {
       "name": "MACHINE CONTROL",
       "title": "Machine Control Technology: Site Automation and Precision Excavation",
-      "icon": "public/navbar-icons/mk.png",
+      "icon": "navbar-icons/mk.png",
       "photo": "/navbar-photos/mk.webp",
       "path": "/machine-control",
       "description": "Machine control systems are integrated into heavy machinery like excavators, dozers, and graders for automatic excavation and filling with millimeter accuracy. These technologies reduce errors, save labor costs, and shorten project durations by allowing direct application of 3D project data on site."
@@ -59,7 +59,7 @@
     {
       "name": "SENSOR",
       "title": "Sensor Technology: Smart Monitoring and Data Collection Systems",
-      "icon": "public/navbar-icons/sensor.png",
+      "icon": "navbar-icons/sensor.png",
       "photo": "/navbar-photos/sensor.webp",
       "path": "/sensor",
       "description": "Sensor systems collect and process real-time environmental and structural data such as temperature, humidity, pressure, inclination, movement, and vibration. Widely used in structural health monitoring, geotechnical observation, environmental studies, and industrial applications."
@@ -67,7 +67,7 @@
     {
       "name": "SOFTWARE",
       "title": "Software Technology: Data Analysis, Mapping, and Reporting",
-      "icon": "public/navbar-icons/yazilim.png",
+      "icon": "navbar-icons/yazilim.png",
       "photo": "/navbar-photos/yazilim.webp",
       "path": "/software",
       "description": "Mapping, data analysis, and reporting software are used to process data from GNSS, LiDAR, UAV, and bathymetry systems quickly and accurately. They offer features like 3D modeling, surface analysis, volume calculations, and ortho-image production."
@@ -75,7 +75,7 @@
     {
       "name": "ACCESSORIES",
       "title": "Accessory Technology: Supporting Solutions",
-      "icon": "public/navbar-icons/aksesuar.png",
+      "icon": "navbar-icons/aksesuar.png",
       "photo": "/navbar-photos/aksesuar.webp",
       "path": "/accessories",
       "description": "Accessories such as batteries, tripods, prism sets, data cables, and carrying cases designed for GNSS, LiDAR, UAV, and total station devices increase field efficiency. High-quality, durable materials ensure long-lasting performance even under tough conditions."
@@ -86,7 +86,7 @@
       "name": "3DSurvey",
       "icon": "marka-icons/3DSURVEY.png",
       "path": "/3dsurvey",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/3DSurvey-banner.png",
       "banner-description": "Surface scanning solutions with 3DSurvey.",
       "banner-url": "https://www.3DSurvey.com",
       "filter": ["/software"]
@@ -141,7 +141,7 @@
       "name": "STEC",
       "icon": "marka-icons/stec.png",
       "path": "/stec",
-      "banner-photo": "marka-photos/stec-banner.jpg",
+      "banner-photo": "marka-photos/stec-banner.png",
       "banner-description": "High-precision measurements with STEC.",
       "banner-url": "https://www.stec.com",
       "filter": [

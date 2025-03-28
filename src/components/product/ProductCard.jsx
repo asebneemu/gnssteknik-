@@ -20,9 +20,6 @@ const ProductCard = ({ product }) => {
   const compareText = language === "tr" ? "Karşılaştır" : "Compare";
   const removeText = language === "tr" ? "Kaldır" : "Remove";
 
-  // Dil seçimine göre yol ayarı
-  const categoryPath = language === "tr" ? "kategori" : "category";
-
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[580px] p-5 relative transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between">
       <div className="relative w-full h-56 overflow-hidden">
@@ -42,7 +39,7 @@ const ProductCard = ({ product }) => {
         <div className="mt-auto flex flex-col gap-4">
           <button
             onClick={() =>
-              navigate(`/${categoryPath}/${product.category}/${product.brand}/${product.id}`)
+              navigate(`/category/${product.category}/${product.brand}/${product.id}`)
             }
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"
           >

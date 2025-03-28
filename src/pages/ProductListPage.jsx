@@ -15,19 +15,12 @@ const ProductListPage = () => {
     );
   }
 
-  // Hata ayıklama için log ekleyin
-  console.log("category param:", category);
-  console.log("brand param:", brand);
-  console.log("data.products:", data.products);
-
   // Ürünleri filtrele
   const filteredProducts = data.products.filter(
     (item) =>
       item.category?.toLowerCase() === category?.toLowerCase() &&
       (brand ? item.brand?.toLowerCase() === brand?.toLowerCase() : true)
   );
-
-  console.log("filteredProducts:", filteredProducts);
 
   if (filteredProducts.length === 0) {
     return (
@@ -38,15 +31,26 @@ const ProductListPage = () => {
   }
 
   // Ürünleri türlerine göre grupla
-  const groupedProducts = filteredProducts.reduce((acc, product) => {
-    const type = product.typeTitle || (language === "tr" ? "" : "");
-    if (!acc[type]) acc[type] = [];
-    acc[type].push(product);
-    return acc;
-  }, {});
+  const groupedProducts = filteredProducts.reduce(
+    (acc, product) => {
+      const type = product.typeTitle || ""; // Eğer typeTitle yoksa hiçbir şey yazılmayacak.
+      if (!acc[type]) acc[type] = [];
+      acc[type].push(product);
+      return acc;
+    },
+    {}
+  );
 
   return (
     <div className="w-10/12 mx-auto py-10">
+      {/* En üstte kategori ve marka bilgisi */}
+      <div className="mb-6 text-center">
+        <h2 className="text-4xl font-bold text-orange-500">
+          {category.toUpperCase()} - {brand.toUpperCase()}
+        </h2>
+      </div>
+
+      {/* Tür belirtilen ürünler */}
       {Object.entries(groupedProducts).map(([typeTitle, products]) => (
         <div key={typeTitle} className="mb-10">
           <h2 className="text-3xl font-bold text-center mb-6">{typeTitle}</h2>

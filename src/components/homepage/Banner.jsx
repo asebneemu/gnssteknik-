@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function Banner() {
-  const { data } = useLanguage(); // useLanguage'den veri alıyoruz
+  const { data, language } = useLanguage(); // Dil bilgisini alıyoruz
   const { newNavbar = [] } = data; // newNavbar'ı LanguageContext'ten alıyoruz
   const [isLg, setIsLg] = useState(window.innerWidth >= 1024);
 
@@ -53,7 +53,7 @@ export default function Banner() {
                 </p>
                 <a href={item["banner-url"]} target="_blank" rel="noopener noreferrer">
                   <button className="mt-4 px-4 py-2 bg-gray-600 text-white rounded-md">
-                    {data.language === "tr" ? "Hemen Keşfet" : "Discover Now"} {/* ✅ Dil'e bağlı metin */}
+                    {language === "tr" ? "Hemen Keşfet" : "Discover Now"} {/* ✅ Dil'e bağlı metin */}
                   </button>
                 </a>
               </div>

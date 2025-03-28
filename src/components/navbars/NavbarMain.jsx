@@ -22,21 +22,26 @@ export default function NavbarMain() {
   if (!navbarsVisible) return null;
 
   const handleMainNavClick = (path) => {
-    const basePath = "/category"; // Türkçe ve İngilizce için aynı path kullanılıyor
+    const basePath = "/category";
     if (activeMainPath === path) {
-      // Eğer aynı kategoriye tıklanırsa sıfırla
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      navigate(basePath); // Ana kategoriye yönlendir
+      navigate(basePath);
     } else {
-      // Yeni kategoriye tıklanırsa ayarla
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      navigate(`${basePath}${path}`); // Yeni kategoriye yönlendir
+      navigate(`${basePath}${path}`);
+  
+      // 🔥 Sayfanın en üstüne dön
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     }
   };
+  
 
   // ✅ Sayfa değiştiğinde aktif öğeyi sıfırla
   useEffect(() => {

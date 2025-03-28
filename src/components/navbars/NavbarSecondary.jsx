@@ -21,7 +21,6 @@ export default function NavbarSecondary() {
   const { data } = useLanguage();
   const { newNavbar = [] } = data;
 
-  // Anasayfaya dönüldüğünde seçimleri sıfırla
   useEffect(() => {
     if (location.pathname === "/") {
       setActiveMainPath(null);
@@ -30,7 +29,6 @@ export default function NavbarSecondary() {
     }
   }, [location, setActiveMainPath, setActiveSecondaryPath, setFilteredProducts]);
 
-  // Seçilen ana kategoriye göre alt markaları filtrele
   useEffect(() => {
     if (activeMainPath) {
       setFilteredBrands(
@@ -41,7 +39,6 @@ export default function NavbarSecondary() {
     }
   }, [activeMainPath, newNavbar]);
 
-  // Alt navbar tıklama fonksiyonu
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
       const targetPath = `/category${activeMainPath}${brandPath}`;
@@ -60,11 +57,26 @@ export default function NavbarSecondary() {
     }
   };
 
+  // 🔥 Sayfa içi tıklanınca alt navbarı kapat
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      const isInsideNavbar =
+        e.target.closest("nav") || e.target.closest("button") || e.target.closest("img");
+      if (!isInsideNavbar) {
+        setActiveMainPath(null);
+        setActiveSecondaryPath(null);
+      }
+    };
+  
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [setActiveMainPath, setActiveSecondaryPath]);
+  
+
   if (!navbarsVisible || !activeMainPath || filteredBrands.length === 0) return null;
 
   return (
     <nav className="bg-white shadow-md border-b border-gray-300 w-full font-medium">
-      {/* xl ve üstü ekranlar için: birebir MainNavbar yapısı */}
       <div
         className="w-[80%] mx-auto hidden xl:grid py-0"
         style={{ gridTemplateColumns: `repeat(10, minmax(0, 1fr))` }}
@@ -98,7 +110,6 @@ export default function NavbarSecondary() {
         })}
       </div>
 
-      {/* md-altı görünüm (ikonsuz) */}
       <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden">
         {filteredBrands.map((item, index) => (
           <button

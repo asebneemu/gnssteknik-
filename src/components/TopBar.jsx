@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useActiveNav } from "../context/ActiveNavContext";
 import { useLanguage } from "../context/LanguageContext"; // useLanguage hook'u ekleniyor
 import logo from "../assets/1x/logo.png";
+import { Link } from "react-router-dom"; // Eklenmesi gerekiyor
 
 export default function TopBar() {
   const { navbarsVisible, setNavbarsVisible } = useActiveNav();
@@ -41,7 +42,15 @@ export default function TopBar() {
       <div className="w-full max-w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between relative">
         {/* Logo */}
         <div className="flex items-center justify-center md:justify-start w-full md:w-1/3 mb-4 md:mb-0">
-          <img src={logo} alt="Logo" className="h-28 lg:h-32 object-contain" />
+          <Link to="/">
+            {" "}
+            {/* Giriş sayfası yolu */}
+            <img
+              src={logo}
+              alt="Logo"
+              className="h-28 lg:h-32 object-contain cursor-pointer"
+            />
+          </Link>
         </div>
 
         {/* Arama Kutusu */}

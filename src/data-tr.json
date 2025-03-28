@@ -3,15 +3,15 @@
     {
       "name": "GNSS",
       "title": "GNSS Teknolojisi: Hassas Konumlandırma",
-      "icon": "public/navbar-icons/gnss-icon.png",
-      "photo": "/navbar-photos/gnss.JPG",
+      "icon": "navbar-icons/gnss-icon.png",
+      "photo": "/navbar-photos/gnsst.jpeg",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme sistemlerinin genel adıdır. GPS, GLONASS, Galileo ve BeiDou gibi uydu sistemlerinin birlikte çalışmasıyla, dünya üzerinde her noktada, her an kesin konum belirlemesi yapılabilir. Özellikle RTK ve PPP teknolojileri sayesinde santimetre düzeyinde doğruluk sağlanabilir. GNSS, inşaat, haritacılık, tarım, madencilik, denizcilik, ulaşım, akıllı şehir uygulamaları ve otonom sistemlerde kritik bir rol oynar. GNSS alıcıları, zorlu saha koşullarında bile güvenilir veri sunar. Gerçek zamanlı veri iletimi, yüksek uydu takip kapasitesi ve dayanıklı gövde yapılarıyla hem mobil hem sabit uygulamalarda kullanılır. Büyük ölçekli altyapı projeleri, metro ve tünel çalışmaları, arazi düzenlemeleri ve jeodezik ölçümlerde yüksek doğruluk ve verimlilik sağlar."
     },
     {
       "name": "TOTAL STATION",
       "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
-      "icon": "public/navbar-icons/tstation.png",
+      "icon": "navbar-icons/tstation.png",
       "photo": "/navbar-photos/totalstation.webp",
       "path": "/total-station",
       "description": "Total Station; lazer, elektronik açı ve mesafe ölçüm cihazlarını bir araya getiren, sahada hızlı ve yüksek doğrulukla veri toplayabilen gelişmiş ölçüm sistemidir. Otomatik hedef tanıma, prizma takibi ve uzaktan veri aktarımı gibi özellikleri sayesinde büyük inşaat projelerinde ve mühendislik uygulamalarında kritik rol oynar. CAD ve BIM sistemlerine kolay veri aktarımı, sahada hatasız ölçüm, hızlı veri kaydı ve gerçek zamanlı doğrulama imkanı sunar. Total Station cihazları, köprü inşaatları, otoyol çalışmaları, tünel kazıları ve baraj projelerinde santimetre altı hassasiyet sağlar. Dayanıklı ve ergonomik tasarımlarıyla her türlü hava ve saha koşulunda kullanılabilir. Entegre yazılımları ile rapor üretimi ve veri analizi süreçlerini hızlandırır."
@@ -19,7 +19,7 @@
     {
       "name": "İHA",
       "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
-      "icon": "public/navbar-icons/iha.png",
+      "icon": "navbar-icons/iha.png",
       "photo": "/navbar-photos/iha.webp",
       "path": "/iha",
       "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
@@ -27,7 +27,7 @@
     {
       "name": "LİDAR",
       "title": "Lidar Teknolojisi: Yüksek Hassasiyetli 3D Tarama",
-      "icon": "public/navbar-icons/lidar.png",
+      "icon": "navbar-icons/lidar.png",
       "photo": "/navbar-photos/lidar.webp",
       "path": "/lidar",
       "description": "Lidar (Light Detection and Ranging), lazer ışınlarıyla yüzeyleri tarayarak üç boyutlu nokta bulutları oluşturan ileri seviye bir teknolojidir. Hava ve kara araçlarına monte edilerek geniş alanlarda milimetrik doğrulukta veri toplanabilir. Özellikle orman envanteri, yol projeleri, altyapı planlaması, şehir modellemesi ve madencilik sektörlerinde tercih edilir. Karmaşık arazi yapılarının detaylı analizi, bitki örtüsü altındaki yüzey haritalamaları ve hacim hesapları için ideal bir çözümdür. Toplanan veriler, CAD, GIS ve mühendislik yazılımlarına entegre edilerek 3D analiz ve modelleme süreçlerine katkı sağlar. Hız, doğruluk ve detay seviyesi açısından benzersiz avantajlar sunar."
@@ -35,7 +35,7 @@
     {
       "name": "NİVO",
       "title": "Nivo Teknolojisi: Hassas Kot ve Yükseklik Ölçüm Cihazları",
-      "icon": "public/navbar-icons/nivo.png",
+      "icon": "navbar-icons/nivo.png",
       "photo": "/navbar-photos/nivo.webp",
       "path": "/nivo",
       "description": "Nivo, inşaat, altyapı ve mühendislik projelerinde yükseklik farklarını ve kot ölçümlerini hassas şekilde belirlemek için kullanılan profesyonel cihazlardır. Optik ve dijital versiyonları ile farklı kullanıcı ihtiyaçlarına hitap eder. Dijital nivolar, ölçüm sonuçlarını otomatik hesaplar ve anlık ekranda görüntüler. Şantiye uygulamalarında; zemin düzlemesi, şev ölçümü, yol ve köprü eğim kontrolleri gibi kritik alanlarda kullanılır. Titreşim sönümleyici sistemleri ve IP66 koruma sınıfı gövdeleriyle zorlu saha koşullarında uzun süreli dayanıklılık sağlar. Hafif ve taşınabilir yapıları sayesinde sahada hızlı kurulum ve rahat kullanım imkanı sunar."
@@ -43,7 +43,7 @@
     {
       "name": "BATİMETRİ",
       "title": "Batimetri Teknolojisi: Su Altı Haritalama ve Derinlik Ölçümü",
-      "icon": "public/navbar-icons/batimetri.png",
+      "icon": "navbar-icons/batimetri.png",
       "photo": "/navbar-photos/batimetri.webp",
       "path": "/batimetri",
       "description": "Batimetri, su altı yüzeylerinin derinliklerini ölçmek ve topografik haritalarını çıkarmak için kullanılan ileri seviye bir tekniktir. Tek ışınlı ve çok ışınlı sonar sistemleri ile donatılmış batimetri sistemleri; baraj gölleri, limanlar, nehir yatakları ve deniz alanlarında kullanılır. GNSS entegrasyonu ile birlikte çalışan bu sistemler, koordinatlı derinlik verisi sağlayarak mühendislik projeleri, taşkın analizi, kanal ve liman tasarımları için kritik bilgiler üretir. Canlı veri aktarımı, anlık ekran görüntüleme ve detaylı hacim hesaplama özellikleri sayesinde projelerde zaman kazandırır. Mobil kullanılabilen versiyonları, zorlu deniz koşullarında bile güvenilir sonuçlar sunar."
@@ -51,7 +51,7 @@
     {
       "name": "MAKİNE KONTROL",
       "title": "Makine Kontrol Teknolojisi: Şantiye Otomasyonu ve Hassas Kazı",
-      "icon": "public/navbar-icons/mk.png",
+      "icon": "navbar-icons/mk.png",
       "photo": "/navbar-photos/mk.webp",
       "path": "/makine-kontrol",
       "description": "Makine kontrol sistemleri; ekskavatör, dozer ve greyder gibi ağır inşaat makinelerinde kullanılan, otomatik kazı ve dolgu işlemlerini milimetrik hassasiyetle gerçekleştiren sistemlerdir. GNSS ve sensörlerle entegre çalışan bu teknolojiler, 3D proje verileriyle sahaya doğrudan uygulama yapma imkanı sunar. Operasyonlarda hata oranını minimize eder, işçilik maliyetlerinden tasarruf sağlar ve proje süresini kısaltır. Şantiyelerde zaman yönetimini optimize eden makine kontrol sistemleri, canlı ilerleme takibi ve veri kayıt özellikleri ile tüm süreçleri dijital ortamda izlenebilir hale getirir."
@@ -59,7 +59,7 @@
     {
       "name": "SENSÖR",
       "title": "Sensör Teknolojisi: Akıllı İzleme ve Veri Toplama Sistemleri",
-      "icon": "public/navbar-icons/sensor.png",
+      "icon": "navbar-icons/sensor.png",
       "photo": "/navbar-photos/sensor.webp",
       "path": "/sensor",
       "description": "Sensör sistemleri; sıcaklık, nem, basınç, eğim, hareket ve titreşim gibi çevresel ve yapısal verileri anlık olarak toplayan ve işleyen akıllı cihazlardır. IoT altyapısı ile kablosuz veri iletimi yaparak uzaktan izleme imkanı sağlar. Özellikle yapı sağlığı izleme, jeoteknik gözlem, çevresel analizler, tarım ve endüstri sektörlerinde yaygın olarak kullanılır. Uzun pil ömrü, düşük enerji tüketimi ve zorlu saha koşullarına dayanıklı yapıları ile güvenilir veri toplama süreçleri sağlar. Gelişmiş sensör ağları, anlık uyarılar ve otomatik raporlama özellikleriyle projelerin kontrol altında tutulmasına olanak tanır."
@@ -67,7 +67,7 @@
     {
       "name": "YAZILIM",
       "title": "Yazılım Teknolojisi: Veri Analiz, Haritalama ve Raporlama",
-      "icon": "public/navbar-icons/yazilim.png",
+      "icon": "navbar-icons/yazilim.png",
       "photo": "/navbar-photos/yazilim.webp",
       "path": "/yazilim",
       "description": "Haritalama, veri analiz ve raporlama yazılımları; GNSS, Lidar, İHA ve batimetri sistemlerinden toplanan verileri hızlı ve doğru şekilde işlemek için kullanılır. 3D modelleme, yüzey analizleri, hacim hesaplamaları ve ortofoto üretimi gibi işlemleri tek platformda gerçekleştirme imkanı sunar. CAD ve BIM entegrasyonu sayesinde inşaat ve altyapı projelerinde kolay veri akışı sağlar. Bulut tabanlı veri paylaşımı, otomatik raporlama ve kullanıcı dostu arayüzleri ile saha ve ofis süreçlerini kusursuz şekilde entegre eder. Büyük ölçekli mühendislik projelerinde zaman tasarrufu sağlar ve karar süreçlerini hızlandırır."
@@ -75,7 +75,7 @@
     {
       "name": "AKSESUAR",
       "title": "Aksesuar Teknolojisi: Destekleyici Çözümler",
-      "icon": "public/navbar-icons/aksesuar.png",
+      "icon": "navbar-icons/aksesuar.png",
       "photo": "/navbar-photos/aksesuar.webp",
       "path": "/aksesuar",
       "description": "GNSS, Lidar, İHA ve total station gibi ölçüm cihazlarına özel üretilmiş bataryalar, tripodlar, prizma setleri, veri kabloları ve taşıma çantaları; saha çalışmalarının verimliliğini artırır. Yüksek kaliteli ve dayanıklı malzemelerden üretilen aksesuarlar, en zorlu arazi koşullarında bile uzun ömürlü kullanım sağlar. Hızlı kurulum, kolay taşınabilirlik ve ergonomik tasarımları sayesinde saha personeline zaman kazandırır. Bu destekleyici ekipmanlar, veri toplama süreçlerinde kesintisiz performans sağlar ve ölçüm hassasiyetini artırarak saha operasyonlarını daha verimli hale getirir."
@@ -86,7 +86,7 @@
       "name": "3DSurvey",
       "icon": "marka-icons/3DSURVEY.png",
       "path": "/3DSurvey",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/3DSurvey-banner.png",
       "banner-description": "3DSurvey ile yüzey tarama çözümleri.",
       "banner-url": "https://www.3DSurvey.com",
       "filter": ["/yazilim"]
@@ -141,7 +141,7 @@
       "name": "STEC",
       "icon": "marka-icons/stec.png",
       "path": "/stec",
-      "banner-photo": "marka-photos/stec-banner.jpg",
+      "banner-photo": "marka-photos/stec-banner.png",
       "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
       "banner-url": "https://www.stec.com",
       "filter": [
@@ -208,7 +208,7 @@
     {
       "id": 1,
       "name": "STEC AXIS-1 Total Station",
-      "description": "3.1 İnç Ekran ile 2'' Açı Hassasiyeti ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
+      "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
       "images": [
         "/marka-photos/stec/axis-1.0.png",
         "/marka-photos/stec/axis-1.1.png",
@@ -232,7 +232,7 @@
     },
     {
       "id": 2,
-      "name": "STEC AXIS-2 Android Total Station",
+      "name": "STEC AXIS-2 Total Station",
       "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
         "/marka-photos/stec/axis-2.0.png",
@@ -254,7 +254,7 @@
     },
     {
       "id": 3,
-      "name": "STEC AXIS-3 Android Total Station",
+      "name": "STEC AXIS-3 Total Station",
       "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
         "/marka-photos/stec/axis-3.0.png",
@@ -279,8 +279,8 @@
     },
     {
       "id": 4,
-      "name": "STEC AXIS-4 Android Total Station",
-      "description": "Yüksek hassasiyet ve esneklik sunan AXIS 4 serisi total station.",
+      "name": "STEC AXIS-4 Total Station Serisi",
+      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-4.0.png",
         "/marka-photos/stec/axis-4.1.png",
@@ -291,23 +291,27 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "1\"/2\" açı hassasiyeti ve 1/1.5/2 km prizmasız menzil sunar.",
-        "4' eğim telafisi ve 1+1/2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
-        "10 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
-        "4\" renkli dokunmatik ekran ve kullanıcı dostu grafik arayüz içerir.",
-        "COGO, quick code ve stake out gibi gelişmiş ölçüm programları ile donatılmıştır.",
-        "Bluetooth, USB ve WLAN ile kablosuz veri aktarımı yapabilir.",
-        "Tek tuşla alet yüksekliği ölçme özelliği ile hata oranını azaltır.",
-        "Yenilenen ikon tabanlı arayüz ile daha kolay kullanım sağlar.",
-        "Her ölçüm sonrası grafiklerle sonuçları gösterir ve yön diagramları oluşturabilir.",
-        "IP66 suya ve toza dayanıklılık sayesinde zorlu saha koşullarında güvenle kullanılabilir.",
-        "32 GB dahili hafıza ile büyük miktarda veri saklama kapasitesi sunar."
+        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
+        "AXIS 4:1500m Reflektörülü 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 4L:2000m Reflektörülü 5000m Reflektörlü/  2\" Açı Hassasiyeti",
+        "AXIS 4P:1000m Reflektörülü 5000m Reflektörlü / 1\" Açı Hassasiyeti",
+        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "3900 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
+        "4\" LCD Renkli Dokunmatik Ekran Ve Kullanıcı Dostu Grafik Arayüz İçerir.",
+        "Cad Aplikasyonu, Grafik Ölçüm Ve Yol Modülü Gibi Gelişmiş Ölçüm Programları İle Donatılmıştır.",
+        "Bluetooth, USB Ve WLAN İle Kablosuz Veri Aktarımı Yapabilir.",
+        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
+        "Yenilenen İkon Tabanlı Arayüz İle Daha Kolay Kullanım Sağlar.",
+        "Her Ölçüm Sonrası Grafiklerle Sonuçları Gösterir Ve Ekranda Gösterir.",
+        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
+        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar.",
+        "-20°C To 50°C Çalışma Şartlarına Uygundur."
       ]
-    },
+    },    
     {
       "id": 9,
-      "name": "STEC AXIS-9 Android Total Station",
-      "description": "Yüksek hassasiyet ve esneklik sunan AXIS 9 serisi total station.",
+      "name": "STEC AXIS-9 Android Total Station Serisi",
+      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-9.0.png",
         "/marka-photos/stec/axis-9.1.png",
@@ -317,21 +321,28 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "1\"/2\" açı hassasiyeti ve 1/1.5/2 km prizmasız menzil sunar.",
-        "4' eğim telafisi ve 1+1/2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
-        "10 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
-        "5.0 inç yüksek çözünürlüklü dokunmatik ekran ve Android 9 işletim sistemi ile kullanıcı dostu bir arayüz sunar.",
-        "Otomatik H.I özelliği ile tek tuşla alet yüksekliği ölçebilir.",
-        "Yerleşik kılavuz ışığı ile stake-out işlemlerini kolaylaştırır.",
-        "Bluetooth, USB, WLAN ve e-posta ile geniş bağlantı seçenekleri sunar.",
-        "1000M, 1500M ve 2000M NP menzil seçenekleri ile esnek kullanım imkanı tanır.",
-        "Google servisleri desteği ve güçlü grafik özellikleri ile kolay veri yönetimi sağlar."
+        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
+        "AXIS 9:1500m Reflektörsüz 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 9L:2000m Reflektörsüz 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 9P:1000m Reflektörsüz 5000m Reflektörlü / 1\" Açı Hassasiyeti",
+        "Android 9 İşletim Sistemi İle Yüksek Verimli Ve Hızlı Çalışma Olanağı Sağlar.",
+        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "5000 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
+        "5.0 İnç Yüksek Çözünürlüklü Dokunmatik Ekran Ve Android 9 İşletim Sistemi İle Kullanıcı Dostu Bir Arayüz Sunar.",
+        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
+        "Yerleşik Kılavuz Işığı İle Aplikasyon İşlemlerini Kolaylaştırır.",
+        "Bluetooth, USB, WLAN Ve E-Posta İle Geniş Bağlantı Seçenekleri Sunar.",
+        "1000M, 1500M Ve 2000M NP Menzil Seçenekleri İle Esnek Kullanım İmkanı Tanır.",
+        "Google Servis Desteği Ve Güçlü Grafik Özellikleri İle Kolay Veri Yönetimi Sağlar.",
+        "-20°C To 50°C Çalışma Şartlarına Uygundur.",
+        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
+        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar."
       ]
-    },
+    },    
     {
       "id": 10,
       "name": "STEC AXIS-10 Robotik Android Total Station",
-      "description": "Yüksek performans ve esneklik sunan AXIS 10 serisi robotic total station.",
+      "description": "0.5\"/1\" Açı Hassasiyeti, Android İşletim Sistemi, Otomatik Takip Ve Hedef Kilitleme İmkanı Sunan Yüksek Performanslı AXIS 10 Serisi Robotic Total Station.",
       "images": [
         "/marka-photos/stec/axis-10.0.png",
         "/marka-photos/stec/axis-10.1.png",
@@ -340,18 +351,24 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "180°/s tork sürücüsü ve 1000 m prizma tanıma kapasitesi ile hızlı ve geniş menzil sunar.",
-        "300 m prizma arama kapasitesi ve 20°/s takip hızı ile dinamik ölçüm yapabilir.",
-        "0.5\" ve 1\" açı hassasiyeti ve 1+1 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
-        "600 m uzaktan kontrol menziline sahip olup 6\" dokunmatik ekran ile kolay kullanım sunar.",
-        "xTrak teknolojisi ile prizmayı sürekli olarak takip eder ve hızlı hedefleme sağlar.",
-        "Android 9 işletim sistemi ile açık bağlantı ve gerçek zamanlı veri yönetimi imkanı tanır."
+        "180°/s Tork Sürücüsü Ve 1000 M Prizma Tanıma Kapasitesi Ve Oto Takip İle Hızlı Ve Geniş Menzil Sunar.",
+        "300 M Prizma Arama Kapasitesi (360°) Ve 20°/s Takip Hızı İle Dinamik Ölçüm Yapabilir.",
+        "0.5\" Ve 1\" Açı Hassasiyeti Ve 1+1 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "600 M Uzaktan Kontrol Menziline Sahip Olup 6\" Dokunmatik Ekran İle Kolay Kullanım Sunar.",
+        "xTrak Teknolojisi İle Prizmayı Sürekli Olarak Takip Eder Ve Hızlı Hedefleme Sağlar.",
+        "Android 9 İşletim Sistemi İle Açık Bağlantı Ve Gerçek Zamanlı Veri Yönetimi İmkanı Tanır.",
+        "xTrak Teknolojisi Sayesinde Ağaçlar Veya Arabalar Tarafından Kısa Süreliğine Engellense Bile Prizmayı Sürekli Olarak Takip Eder.",
+        "Üstün Kamerası İle Ekrana Tıklayarak Hedef Almanızı Kolaylıkla Sağlar.",
+        "Cad Aplikasyonu, Yol Modülü, Grafik Alım Gibi Gelişmiş Ölçüm Programlarını Sunar.",
+        "IP65 Korumasıyla -20°C To +50°C Zorlu Şartlarda Çalışma İmkanı Sunar.",
+        "6400 mAh Bataryası İle 10 Saat Çalışma İmkanı Tanır.",
+        "Yanında Ekstra 8 İnç Ekranı, 8000 mAh Bataryası, Android 10 İşlemcisi, 4 GB RAM 64 GB Hafızası Ve Dokunmatik Tableti İle İşlerinizi Hızlıca Gerçekleştirebilir, Uzaktan Komut Verebilirsiniz."
       ]
-    },
+    },    
     {
       "id": 13,
       "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
-      "description": "Küçük Boyutuyla 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
+      "description": "Açuç içi Boyutuyla 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/se-lite.0.png",
         "/marka-photos/stec/se-lite.1.png",
@@ -377,7 +394,7 @@
     {
       "id": 12,
       "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve Kameralı Uygulama Desteğiyle Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
+      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve kKameralı Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
       "images": [
         "/marka-photos/stec/sv1.0.png",
         "/marka-photos/stec/sv1.1.png",
@@ -406,7 +423,7 @@
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS alıcısı.",
+      "description": "2 W Radyo Modemli, Lazerle Ölçüm ve Aplikasyon İmkansı Sunan, Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/sdi.0.png",
         "/marka-photos/stec/sdi.1.png",
@@ -579,13 +596,14 @@
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet sunar.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
         "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı."
+        "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
       "id": 23,
-      "name": "CHCNAV i73+ GNSS Alıcısı",
-      "description": "6800 mAh Batarya, 8 Km UHF Veri Aktarımı ve IP67 Koruma ile Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
+      "name": "CHCNAV i73+ IMU Kameralı GNSS Alıcısı",
+      "description": "Hafif Avuçiçi Boyutuyla, 1 W Radyo Modemli, IMU Kameralı, Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i73+-0.png",
         "/marka-photos/chcnav/i73+-1.png",
@@ -597,7 +615,7 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümlerde 3 cm hassasiyet.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümler sunar.",
         "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
         "UHF Tx/Rx modem ile 3-8 km'ye kadar kablosuz veri iletimi.",
         "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
@@ -613,7 +631,7 @@
     {
       "id": 24,
       "name": "CHCNAV i83 GNSS Alıcısı",
-      "description": "2 Watt Radyo Modem, 34 Saatlik Kesintisiz Çalışma Süresi ve 15 km’ye Ulaşan UHF Bağlantısıyla Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
+      "description": "2 Watt Radyo Modem, Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
       "images": [
         "/marka-photos/chcnav/i83-0.png",
         "/marka-photos/chcnav/i83-1.png",
@@ -628,12 +646,13 @@
         "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
         "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
-        "UHF Tx/Rx modem ile 15 km'ye kadar RTK yayını.",
+        "2 W radyo modem ile 15 km'ye kadar RTK yayını.",
         "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri ve İnsansız hava araçları için İHA sabit modu.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "İnsansız hava araçları için İHA sabit modu.",
         "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
-        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "4G GSM modem ile NTRIP yayını.",
         "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
@@ -644,8 +663,8 @@
     },
     {
       "id": 25,
-      "name": "CHCNAV i93 GNSS Alıcısı",
-      "description": "200 Hz IMU Güncelleme Hızı, Starlight Kamera Teknolojisi ve 128 GB Hafıza Desteğiyle Yüksek Hassasiyet ve Dayanıklılık Sunan IMU Kameralı i93 GNSS Alıcısı",
+      "name": "CHCNAV i93 IMU Kameralı GNSS Alıcısı",
+      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve Kamera ile Alım-Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
         "/marka-photos/chcnav/i93-1.png"
@@ -673,14 +692,13 @@
         "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
         "Kamera ile AR Aplikasyonu",
         "200 Hz IMU güncelleme hızı ile otomatik IMU başlatma ve yüksek hassasiyetli eğim ölçümü.",
-        "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu.",
-        "Starlight-grade kamera ile düşük ışıkta dahi renkli görüntü yakalama imkanı."
+        "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu."
       ]
     },
     {
       "id": 26,
-      "name": "CHCNAV i89 GNSS Alıcısı",
-      "description": "NFC, CAD Üzerinde Nokta Görselleştirme ve 3D Modelleme Yeteneği ile Yüksek Hassasiyet ve Dayanıklılık Sunan i89 GNSS Alıcısı",
+      "name": "CHCNAV i89 IMU Kameralı GNSS Alıcısı",
+      "description": "2 W Radyo Modemli, Kamera ile ALım-Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan i89 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i89-0.png",
         "/marka-photos/chcnav/i89-1.png",
@@ -712,8 +730,8 @@
     },
     {
       "id": 27,
-      "name": "CHCNAV i76 GNSS Alıcısı",
-      "description": "17 Saatlik Çalışma Süresi, IP68 Koruma ve %96 RTK Fix Oranı ile Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
+      "name": "CHCNAV i76 GNSS IMU Kameralı GNSS Alıcısı",
+      "description": "Hafif Avuçiçi Boyutuyla, Cors-RTK gezici, Kameralı, Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i76-0.png",
         "/marka-photos/chcnav/i76-3.png",
@@ -1053,19 +1071,19 @@
     {
       "id": 50,
       "name": "CHCNAV CTS-A100 Android Total Station",
-      "description": "4G ve Wi-Fi Bağlantısı, 27x Optik Zoom ve 8 Saat Çalışma Süresiyle Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
+      "description": "2'' Açı Hassasiyeti, 1300 m Reklektörsüz Okuma, Android İşletim Sistemli, Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
       "images": [
-        "/marka-photos/chcnav/cts-a100-0.png",
-        "/marka-photos/chcnav/cts-a100-1.png",
-        "/marka-photos/chcnav/cts-a100-2.png",
-        "/marka-photos/chcnav/cts-a100-3.png"
+        "/marka-photos/chcnav/cts-a100-0.jpg",
+        "/marka-photos/chcnav/cts-a100-1.jpg",
+        "/marka-photos/chcnav/cts-a100-2.jpg",
+        "/marka-photos/chcnav/cts-a100-3.jpg"
       ],
       "category": "total-station",
       "brand": "chcnav",
       "specs": [
         "Android işletim sistemi ve LandStar 8 yazılımı ile kullanıcı dostu arayüz.",
         "Qualcomm octa-core işlemci, 3 GB RAM ve 32 GB ROM ile yüksek işlem gücü.",
-        "5000 m prizma ve 1500 m reflektörsüz ölçüm menzili ile güçlü EDM sistemi.",
+        "5000 m reklektörlü ve 1500 m reflektörsüz ölçüm menzili ile güçlü EDM sistemi.",
         "2'' açısal hassasiyet ve çift eksenli elektronik kompansatör ile yüksek doğruluk.",
         "IP55 su ve toz geçirmezlik standardı ile zorlu saha koşullarında dayanıklılık.",
         "5.0 inç HD ekran ile güneş ışığında bile net görüntü.",

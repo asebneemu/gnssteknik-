@@ -17,7 +17,8 @@ const ContactSection = () => {
   const mapTitle = language === "tr" ? "Gnss Teknik, Ankara" : "Gnss Teknik, Ankara";
 
   return (
-    <div className="w-10/12 mx-auto py-10">
+    <div id="contact-section" className="w-10/12 mx-auto py-10">
+
       {/* İletişim Formu ve Harita */}
       <div className="flex flex-col md:flex-row gap-8">
         {/* Sol kutu - İletişim Formu */}
@@ -25,8 +26,8 @@ const ContactSection = () => {
           <ContactCard
             title={contactTitle}
             description={contactDescription}
-            serviceId="service_general"
-            templateId="template_general"
+            serviceId="service_ft3q3bn"
+            templateId="template_tzg0aik"
           />
         </div>
 
@@ -76,7 +77,7 @@ const ContactCard = ({ title, description, serviceId, templateId }) => {
         serviceId,
         templateId,
         { name: data.name, email: data.email, message: data.message },
-        "YOUR_PUBLIC_KEY"
+        "RLfviTv9dMouNhsYS"
       )
       .then(() => {
         toast.success(successMessage);
