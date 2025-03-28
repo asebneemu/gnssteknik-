@@ -49,31 +49,36 @@ export default function NavbarMain() {
 
   return (
     <nav className="bg-[rgba(255,255,255,0.9)] shadow-md border-b border-gray-300 sticky top-0 w-full z-50 font-medium">
-      <div className="w-[80%] mx-auto hidden xl:grid gap-6 grid-cols-10 py-4">
-        {navbarItems.map((item, index) => {
-          const isActive = activeMainPath === item.path;
+      <div
+  className={`w-[80%] mx-auto hidden xl:grid py-0`}
+  style={{ gridTemplateColumns: `repeat(${navbarItems.length}, minmax(0, 1fr))` }}
+>
+  {navbarItems.map((item, index) => {
+    const isActive = activeMainPath === item.path;
 
-          return (
-            <div key={index} className="flex flex-col items-center">
-              <NavbarLink
-                icon={
-                  <img
-                    src={import.meta.env.BASE_URL + item.icon}
-                    alt={item.name}
-                    className="w-12 h-12 object-contain transition-all"
-                  />
-                }
-                name={item.name}
-                path={`/category${item.path}`}
-                onClick={() => handleMainNavClick(item.path)}
-                className={`text-sm xl:text-lg px-8 transition-all ${
-                  isActive ? "border-2 border-orange-500 rounded-lg shadow-md" : "text-gray-700"
-                } hover:text-orange-500`}
-              />
-            </div>
-          );
-        })}
-      </div>
+    return (
+      <NavbarLink
+        key={index}
+        icon={
+          <img
+            src={import.meta.env.BASE_URL + item.icon}
+            alt={item.name}
+            className="w-12 h-12 object-contain transition-all"
+          />
+        }
+        name={item.name}
+        path={`/category${item.path}`}
+        onClick={() => handleMainNavClick(item.path)}
+        className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center ${
+          isActive
+            ? "border-2 border-orange-500 rounded-lg shadow-md"
+            : "text-gray-700"
+        } hover:text-orange-500`}
+      />
+    );
+  })}
+</div>
+
 
       <div className="w-[80%] mx-auto hidden md:grid xl:hidden grid-cols-5 gap-4 py-4 border-b">
         {navbarItems.map((item, index) => (

@@ -37,7 +37,7 @@ export default function TopBar() {
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center my-8 py-4 border-b border-gray-300 z-50">
+    <div className="relative flex flex-col lg:flex-row items-center py-4 border-b border-gray-300 z-50">
       <div className="w-full max-w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between relative">
         {/* Logo */}
         <div className="flex items-center justify-center md:justify-start w-full md:w-1/3 mb-4 md:mb-0">

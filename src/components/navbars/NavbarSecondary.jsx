@@ -1,27 +1,27 @@
 import { useActiveNav } from "../../context/ActiveNavContext";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
+import { useLanguage } from "../../context/LanguageContext";
 import NavbarLink from "./NavbarLink";
 
 export default function NavbarSecondary() {
-  const { 
-    activeMainPath, 
-    activeSecondaryPath, 
-    setActiveSecondaryPath, 
-    setFilteredProducts, 
-    navbarsVisible, 
-    setActiveMainPath 
+  const {
+    activeMainPath,
+    activeSecondaryPath,
+    setActiveSecondaryPath,
+    setFilteredProducts,
+    navbarsVisible,
+    setActiveMainPath,
   } = useActiveNav();
+
   const [filteredBrands, setFilteredBrands] = useState([]);
   const navigate = useNavigate();
   const location = useLocation();
-  
-  // newNavbar'ı LanguageContext'ten alıyoruz
-  const { data } = useLanguage(); // useLanguage'den veri alıyoruz
-  const { newNavbar = [] } = data; // Fallback olarak boş dizi veriyoruz
 
-  // ✅ Anasayfaya dönüldüğünde seçimleri sıfırla
+  const { data } = useLanguage();
+  const { newNavbar = [] } = data;
+
+  // Anasayfaya dönüldüğünde seçimleri sıfırla
   useEffect(() => {
     if (location.pathname === "/") {
       setActiveMainPath(null);
@@ -30,18 +30,18 @@ export default function NavbarSecondary() {
     }
   }, [location, setActiveMainPath, setActiveSecondaryPath, setFilteredProducts]);
 
-  // ✅ Seçilen ana kategoriye göre alt markaları filtrele
+  // Seçilen ana kategoriye göre alt markaları filtrele
   useEffect(() => {
     if (activeMainPath) {
-      setFilteredBrands(newNavbar.filter((brand) =>
-        brand.filter.includes(activeMainPath)
-      ));
+      setFilteredBrands(
+        newNavbar.filter((brand) => brand.filter.includes(activeMainPath))
+      );
     } else {
       setFilteredBrands([]);
     }
-  }, [activeMainPath, newNavbar]); // newNavbar'ı da bağımlılık olarak ekledik
+  }, [activeMainPath, newNavbar]);
 
-  // ✅ Alt navbar tıklama fonksiyonu (MainNavbar mantığı ile)
+  // Alt navbar tıklama fonksiyonu
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
       const targetPath = `/category${activeMainPath}${brandPath}`;
@@ -61,12 +61,12 @@ export default function NavbarSecondary() {
     }
   };
 
-  // ✅ Navbar görünürlüğü ve marka kontrolü
-  if (!navbarsVisible || filteredBrands.length === 0) return null;
+  // Görünürlüğü kontrol et
+  if (!navbarsVisible || !activeMainPath || filteredBrands.length === 0) return null;
 
   return (
-    <nav className="bg-white shadow-md border-b border-gray-300 sticky top-[100px] md:top-[155px] lg:top-[150px] w-full z-50">
-      {/* 🔥 md ve üstü: İkonlu ve normal görünüm */}
+    <nav className="bg-white shadow-md border-b border-gray-300 w-full">
+      {/* md ve üstü: İkonlu görünüm */}
       <div className="w-[80%] mx-auto grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 py-4 hidden md:grid">
         {filteredBrands.map((item, index) => (
           <div key={index} className="flex flex-col items-start">
@@ -79,7 +79,7 @@ export default function NavbarSecondary() {
                 />
               }
               name={item.name}
-              path={`/category${activeMainPath}${item.path}`} // Path artık sabit "/category"
+              path={`/category${activeMainPath}${item.path}`}
               onClick={() => handleSecondaryNavClick(item.path)}
               className={`text-base lg:text-lg font-medium px-8 py-4 transition-all ${
                 activeSecondaryPath === item.path
@@ -91,14 +91,16 @@ export default function NavbarSecondary() {
         ))}
       </div>
 
-      {/* 🔥 md altı: Beş sütun düzeni ve ikonsuz görünüm */}
+      {/* md altı: İkonsuz görünüm */}
       <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden">
         {filteredBrands.map((item, index) => (
-          <button 
-            key={index} 
-            onClick={() => handleSecondaryNavClick(item.path)} 
+          <button
+            key={index}
+            onClick={() => handleSecondaryNavClick(item.path)}
             className={`text-xs text-center py-2 border-b border-gray-300 ${
-              activeSecondaryPath === item.path ? 'text-yellow-400' : 'text-gray-700'
+              activeSecondaryPath === item.path
+                ? "text-yellow-400"
+                : "text-gray-700"
             } hover:text-gray-600`}
           >
             {item.name}

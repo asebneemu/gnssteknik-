@@ -14,7 +14,7 @@ export default function NavbarLink({ icon, name, path, className, onClick }) {
       to={path}
       onClick={handleClick}
       className={`flex flex-row lg:flex-col items-center justify-center 
-        ${isActive ? "gap-2" : "gap-4"} px-3 lg:px-2 xl:px-5 py-2 rounded-md transition-all duration-300 ${className}`}
+        ${isActive ? "gap-2" : "gap-4"} px-3 lg:px-2 xl:px-5 pb-2 rounded-md transition-all duration-300 ${className}`}
       aria-label={name}
       title={name}
     >
@@ -22,7 +22,7 @@ export default function NavbarLink({ icon, name, path, className, onClick }) {
       {icon && <div className="w-10 h-10">{icon}</div>}
 
       {/* Başlık */}
-      <span className="md:text-md text-md font-large text-center">{name}</span>
+      <span className="md:text-sm text-sm font-large text-center">{name}</span>
     </Link>
   );
 }
