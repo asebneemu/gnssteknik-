@@ -31,7 +31,14 @@ export default function MiddleSection({
     <div className="py-10 my-10 w-10/12 mx-auto">
       
       {/* 🔹 MOBİL GÖRÜNÜM */}
-      <div className="lg:hidden grid grid-cols-1 gap-8 items-stretch">
+      <div className="lg:hidden grid grid-cols-1 gap-6 items-stretch">
+        {!noImages && (
+          <div className="flex flex-col gap-4">
+            {hasImageLeft && <img src={imageLeft} alt="Image Left" className={mobileImageClass} />}
+            {hasImageRight && <img src={imageRight} alt="Image Right" className={mobileImageClass} />}
+          </div>
+        )}
+
         <div className="flex flex-col gap-6" ref={textRef}>
           {subtitle && <h4 className="text-base font-medium text-orange-500">{subtitle}</h4>}
           <h1 className="text-4xl font-bold">{title}</h1>
@@ -48,13 +55,6 @@ export default function MiddleSection({
             </a>
           )}
         </div>
-
-        {!noImages && (
-          <div className="flex flex-col gap-4">
-            {hasImageLeft && <img src={imageLeft} alt="Image Left" className={mobileImageClass} />}
-            {hasImageRight && <img src={imageRight} alt="Image Right" className={mobileImageClass} />}
-          </div>
-        )}
       </div>
 
       {/* 🔹 MASAÜSTÜ GÖRÜNÜM */}
