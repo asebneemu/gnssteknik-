@@ -109,20 +109,6 @@ export default function TopBar() {
           )}
         </div>
 
-        {/* Dil Butonu */}
-        <div className="absolute top-0 right-0 flex items-center space-x-4 justify-end lg:w-1/3 transform -translate-y-8">
-          <div
-            onClick={handleLanguageToggle} // Dil değiştir fonksiyonu
-            className="flex items-center space-x-2 cursor-pointer hover:text-blue-500 transition"
-            title="Change Language"
-          >
-            <FontAwesomeIcon icon={faGlobe} className="text-xl text-gray-700" />
-            <span className="text-gray-700 text-sm">
-              {language === "tr" ? "TR" : "EN"}
-            </span>
-          </div>
-        </div>
-
         {/* Denge div'i */}
         <div className="hidden md:block lg:w-1/3"></div>
       </div>

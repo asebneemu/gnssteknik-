@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faBook, faHome, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faBook, faHome, faUserFriends, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function HeaderBar() {
   const [copied, setCopied] = useState(false);
-  const { language } = useLanguage();
+  const { language, toggleLanguage } = useLanguage(); // toggleLanguage eklendi
 
   const handleCopy = () => {
     navigator.clipboard.writeText("+90 312 285 1420");
@@ -62,13 +62,30 @@ export default function HeaderBar() {
         </div>
 
         {/* 🔥 Sağ Taraf - Tıklayınca Kopyala */}
-        <button
-          onClick={handleCopy}
-          className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer"
-        >
-          <FontAwesomeIcon className="text-2xl md:text-base" icon={faPhone} />
-          <span className="hidden md:inline">+90 312 285 1420</span>
-        </button>
+
+         {/* 🔥 Sağ Taraf - Dil Butonu + Telefon */}
+        <div className="flex items-center space-x-6">
+          {/* 🌐 Dil Butonu */}
+          <div
+            onClick={toggleLanguage}
+            className="flex items-center space-x-1 cursor-pointer hover:text-blue-300 transition"
+            title="Change Language"
+          >
+            <FontAwesomeIcon icon={faGlobe} className="text-xl text-white" />
+            <span className="text-white text-sm">
+              {language === "tr" ? "TR" : "EN"}
+            </span>
+          </div>
+
+          {/* 📞 Telefon */}
+          <button
+            onClick={handleCopy}
+            className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer"
+          >
+            <FontAwesomeIcon className="text-2xl md:text-base" icon={faPhone} />
+            <span className="hidden md:inline">+90 312 285 1420</span>
+          </button>
+        </div>
       </div>
 
       {/* ✅ Kopyalandı bildirimi */}
