@@ -39,7 +39,7 @@ const ProductListPage = () => {
 
   // Ürünleri türlerine göre grupla
   const groupedProducts = filteredProducts.reduce((acc, product) => {
-    const type = product.typeTitle || (language === "tr" ? "Diğer" : "Other");
+    const type = product.typeTitle || (language === "tr" ? "" : "");
     if (!acc[type]) acc[type] = [];
     acc[type].push(product);
     return acc;
