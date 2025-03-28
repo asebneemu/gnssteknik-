@@ -18,7 +18,7 @@ export default function NavbarSecondary() {
   const location = useLocation();
   
   // newNavbar'ı LanguageContext'ten alıyoruz
-  const { language, data } = useLanguage(); // useLanguage'den veri alıyoruz
+  const { data } = useLanguage(); // useLanguage'den veri alıyoruz
   const { newNavbar = [] } = data; // Fallback olarak boş dizi veriyoruz
 
   // ✅ Anasayfaya dönüldüğünde seçimleri sıfırla
@@ -44,14 +44,14 @@ export default function NavbarSecondary() {
   // ✅ Alt navbar tıklama fonksiyonu (MainNavbar mantığı ile)
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
-      const targetPath = `/${language === "tr" ? "kategori" : "category"}${activeMainPath}${brandPath}`;
+      const targetPath = `/category${activeMainPath}${brandPath}`;
       const currentPath = location.pathname;
 
       if (activeSecondaryPath === brandPath) {
         setActiveSecondaryPath(null);
         setFilteredProducts([]);
         setTimeout(() => {
-          navigate(`/${language === "tr" ? "kategori" : "category"}${activeMainPath}`);
+          navigate(`/category${activeMainPath}`);
         }, 0);
       } else {
         setActiveSecondaryPath(brandPath);
@@ -79,7 +79,7 @@ export default function NavbarSecondary() {
                 />
               }
               name={item.name}
-              path={`/${language === "tr" ? "kategori" : "category"}${activeMainPath}${item.path}`} // Dil'e bağlı path yönlendirmesi
+              path={`/category${activeMainPath}${item.path}`} // Path artık sabit "/category"
               onClick={() => handleSecondaryNavClick(item.path)}
               className={`text-base lg:text-lg font-medium px-8 py-4 transition-all ${
                 activeSecondaryPath === item.path

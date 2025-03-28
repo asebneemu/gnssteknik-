@@ -38,7 +38,7 @@ export default function MiddleSection({
               className={`flex flex-col gap-6 ${noImages ? "col-span-5" : "col-span-2"}`}
               ref={textRef}
             >
-              {subtitle && <h4 className="text-base font-medium text-blue-600">{subtitle}</h4>}
+              {subtitle && <h4 className="text-base font-medium text-orange-500">{subtitle}</h4>}
               <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>
               <p className="text-base leading-relaxed">{description}</p>
               {paragraphs.map((text, index) => (
@@ -47,7 +47,7 @@ export default function MiddleSection({
               {buttonText && buttonLink && (
                 <a 
                   href={buttonLink} 
-                  className="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition max-w-max whitespace-nowrap"
+                  className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-orange-600 transition max-w-max whitespace-nowrap"
                 >
                   {buttonText}
                 </a>
@@ -93,7 +93,7 @@ export default function MiddleSection({
               className={`flex flex-col gap-6 ${noImages ? "col-span-5" : "col-span-2"}`}
               ref={textRef}
             >
-              {subtitle && <h4 className="text-base font-medium text-blue-600">{subtitle}</h4>}
+              {subtitle && <h4 className="text-base font-medium text-orange-500">{subtitle}</h4>}
               <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>
               <p className="text-base leading-relaxed">{description}</p>
               {paragraphs.map((text, index) => (
@@ -102,7 +102,7 @@ export default function MiddleSection({
               {buttonText && buttonLink && (
                 <a 
                   href={buttonLink} 
-                  className="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition max-w-max whitespace-nowrap"
+                  className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-orange-600 transition max-w-max whitespace-nowrap"
                 >
                   {buttonText}
                 </a>

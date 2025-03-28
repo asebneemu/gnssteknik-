@@ -207,8 +207,8 @@
   "products": [
     {
       "id": 1,
-      "name": "STEC AXIS-1 Total Station (Toplam İstasyon)",
-      "description": "Yüksek hassasiyetli ölçüm ve gelişmiş özellikler sunan total station.",
+      "name": "STEC AXIS-1 Total Station",
+      "description": "3.1 İnç Ekran ile 2'' Açı Hassasiyeti ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
       "images": [
         "/marka-photos/stec/axis-1.0.png",
         "/marka-photos/stec/axis-1.1.png",
@@ -218,19 +218,22 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "1,5-2 km prizmasız menzilde 2 cm hassasiyetle ölçüm yapabilir.",
+        "1,5-2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
         "4' eğim telafisi sayesinde eğimli yüzeylerde bile 2 mm + 2 ppm hassasiyetle doğru mesafe ölçümleri sağlar.",
-        "0,3 saniyede ölçüm yapabilme hızı ile 16 saatten fazla çalışma süresi sunarak uzun saha çalışmalarında verimliliği artırır.",
+        "0,3 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunarak uzun saha çalışmalarında verimliliği artırır.",
         "IP67 suya ve toza dayanıklı gövdesi ile zorlu çevre koşullarında bile güvenilir ölçümler sağlar.",
         "3.1\" geniş ve net ekranı ile ölçüm verilerini kolayca görüntülemeye imkan tanır.",
         "Hızlı ölçüm butonu ve kılavuz ışığı ile kullanıcı dostu bir deneyim sunar.",
-        "Stake out, açı offseti ve yol projeksiyonu gibi gelişmiş onboard programlar içerir."
+        "Aplikasyon, açı offseti ve yol modülü gibi gelişmiş programlar ile ölçüm işlemlerini hızlandırır.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
+        "USB ve bluetooth ile veri transfer kolaylığı sağlar."
       ]
     },
     {
       "id": 2,
-      "name": "STEC AXIS-2 Total Station (Toplam İstasyon)",
-      "description": "Daha yüksek hassasiyet ve gelişmiş özellikler sunan AXIS-2 total station.",
+      "name": "STEC AXIS-2 Android Total Station",
+      "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
         "/marka-photos/stec/axis-2.0.png",
         "/marka-photos/stec/axis-2.1.png",
@@ -239,19 +242,20 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "2 km prizmasız menzilde 1 cm hassasiyetle ölçüm yapabilir.",
+        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
         "5' eğim telafisi sayesinde eğimli yüzeylerde 1 mm + 1 ppm hassasiyet sağlar.",
-        "0,2 saniyede ölçüm yapabilme hızı ile 20 saatten fazla çalışma süresi sunar.",
+        "0,2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunar.",
         "IP68 suya ve toza dayanıklı gövdesi ile en zorlu çevre koşullarında bile güvenilir.",
-        "4.3\" geniş ve dokunmatik ekranı ile kolay kullanım.",
-        "Gelişmiş kullanıcı arayüzü ve kablosuz bağlantı seçenekleri.",
+        "USB ve bluetooth ile veri transfer kolaylığı sağlar.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
         "3D projeksiyon ve otomatik hedef tanıma sistemi."
       ]
     },
     {
       "id": 3,
-      "name": "STEC AXIS-3 Total Station (Toplam İstasyon)",
-      "description": "Yüksek hassasiyet ve kullanıcı dostu arayüz sunan AXIS 3 total station.",
+      "name": "STEC AXIS-3 Android Total Station",
+      "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
         "/marka-photos/stec/axis-3.0.png",
         "/marka-photos/stec/axis-3.1.png",
@@ -262,12 +266,12 @@
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "2\" açı hassasiyeti ve 1.5/2 km prizmasız menzil sunar.",
+        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
         "4' eğim telafisi ve 2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
-        "16 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
+        "0.2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 12 saatten fazla çalışma süresi sunar.",
         "Çift taraflı renkli dokunmatik ekran ve kullanıcı dostu arayüz ile kolay kullanım sunar.",
-        "AutoHI plummet ile tek tuşla alet yüksekliği ölçebilir.",
-        "Kılavuz ışığı ile stake-out işlemlerini kolaylaştırır ve hızlı hedefleme sağlar.",
+        "AutoHI plummet lazer ile tek tuşla alet yüksekliği otomatik ölçülmektedir.",
+        "Kılavuz ışığı ile aplikasyon işlemlerini kolaylaştırır ve hızlı hedefleme sağlar.",
         "Pratik onboard programlar ile COGO, resection, offset ve yol projeksiyonu gibi işlemler yapılabilir.",
         "Bluetooth, USB ve WLAN bağlantı seçenekleri ile geniş veri aktarım imkanı tanır.",
         "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
@@ -275,7 +279,7 @@
     },
     {
       "id": 4,
-      "name": "STEC AXIS-4 Total Station (Toplam İstasyon)",
+      "name": "STEC AXIS-4 Android Total Station",
       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 4 serisi total station.",
       "images": [
         "/marka-photos/stec/axis-4.0.png",
@@ -302,7 +306,7 @@
     },
     {
       "id": 9,
-      "name": "STEC AXIS-9 Total Station (Toplam İstasyon)",
+      "name": "STEC AXIS-9 Android Total Station",
       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 9 serisi total station.",
       "images": [
         "/marka-photos/stec/axis-9.0.png",
@@ -326,7 +330,7 @@
     },
     {
       "id": 10,
-      "name": "STEC AXIS-10 Robotik Total Station (Toplam İstasyon) (Toplam İstasyon)",
+      "name": "STEC AXIS-10 Robotik Android Total Station",
       "description": "Yüksek performans ve esneklik sunan AXIS 10 serisi robotic total station.",
       "images": [
         "/marka-photos/stec/axis-10.0.png",
@@ -345,9 +349,9 @@
       ]
     },
     {
-      "id": 11,
-      "name": "STEC SE Lite GNSS Alıcısı",
-      "description": "Küçük boyutuna rağmen yüksek performans sunan SE Lite GNSS alıcısı.",
+      "id": 13,
+      "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
+      "description": "Küçük Boyutuyla 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/se-lite.0.png",
         "/marka-photos/stec/se-lite.1.png",
@@ -360,16 +364,20 @@
         "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
         "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
         "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
-        "S-Link ile 15 km'ye kadar güvenli ve stabil veri iletimi sunar.",
+        "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
         "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
         "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
-        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir."
+        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
+        "10200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
+        "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
       "id": 12,
-      "name": "STEC SV1 GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan SV1 GNSS alıcısı.",
+      "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
+      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve Kameralı Uygulama Desteğiyle Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
       "images": [
         "/marka-photos/stec/sv1.0.png",
         "/marka-photos/stec/sv1.1.png",
@@ -389,12 +397,15 @@
         "Type-C USB, SIM kart yuvası ve radyo anten portu ile geniş bağlantı seçenekleri sunar.",
         "Magnesium alaşımlı gövde ve 740g ağırlığı ile hafif ve dayanıklıdır.",
         "74 mm genişlik ve 128 mm yükseklik ile kompakt bir tasarıma sahiptir.",
-        "Kamera destekli AR stake-out çözümü ile hassas hedefleme sağlar."
+        "Kamera destekli AR aplikasyon çözümü ile hassas aplikasyonu sağlar.",
+        "İnsansız hava araçları için İHA sabit modu",
+        "4G GSM modem ile NTRIP yayını.",
+        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği VE RINEX VE NMEA mesajlarını kaydetme."
       ]
     },
     {
-      "id": 13,
-      "name": "STEC SDi GNSS Alıcısı",
+      "id": 11,
+      "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
       "description": "Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS alıcısı.",
       "images": [
         "/marka-photos/stec/sdi.0.png",
@@ -411,12 +422,17 @@
         "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
         "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
         "UHF Radyo Modemi (2W Tx/Rx) ile 15 km'ye kadar veri iletimi yapabilir.",
-        "Dahili 4G GSM, Wi-Fi ve Bluetooth desteği ile veri transferi kolaydır.",
-        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde hedefleyebilir.",
+        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği VE RINEX VE NMEA mesajlarını kaydetme.",
+        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
         "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
         "Magnesium alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
         "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
-        "NFC özelliği ile hızlı bağlantı kurulabilir."
+        "NFC özelliği ile hızlı bağlantı kurulabilir.",
+        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
+        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
+        "Kamera ile AR Aplikasyonu yapabilir.",
+        "13600 mAh batarya ile 15 saat çalışma süresi sunar.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -541,7 +557,7 @@
     {
       "id": 22,
       "name": "CHCNAV iBase GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan iBase GNSS alıcısı.",
+      "description": "5 Watt Radyo Modem, 25 km Menzilli Yüksek Hassasiyet ve Dayanıklılık Sunan iBase GNSS Alıcısı.",
       "images": [
         "/marka-photos/chcnav/iBase-0.png",
         "/marka-photos/chcnav/iBase-1.png",
@@ -553,16 +569,15 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ve GPS, GLONASS, Galileo, BeiDou uydu sistemlerini takip edebilme.",
-        "25 km'ye kadar UHF RTK kapsama alanı ve 5 watt radyo modülü ile geniş iletişim imkanı.",
+        "25 km'ye kadar TK kapsama alanı ve 5 watt radyo modülü ile geniş iletişim imkanı.",
         "IP67 su ve toz geçirmezlik standardı ve IK08 darbe koruması ile zorlu koşullarda dayanıklılık.",
-        "UHF, 4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleri.",
+        "4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleriyle 20-30 km'ye kadar ağ RTK yayını.",
         "İki adet çıkarılabilir 7,000 mAh lityum-iyon batarya ile 12 saate kadar çalışma süresi.",
-        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğim ölçümü.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğim ölçümü.",
         "RTCM 3.x, RINEX, NMEA 0183 ve HCN gibi veri formatları ile geniş uyumluluk.",
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet sunar.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Otomatik frekans seçimi ile UHF parazit kontrolü ve 10 Hz RTK güncelleme hızı.",
         "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı."
       ]
@@ -570,7 +585,7 @@
     {
       "id": 23,
       "name": "CHCNAV i73+ GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan i73+ GNSS alıcısı.",
+      "description": "6800 mAh Batarya, 8 Km UHF Veri Aktarımı ve IP67 Koruma ile Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i73+-0.png",
         "/marka-photos/chcnav/i73+-1.png",
@@ -582,12 +597,11 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile eğim telafisi ve 30°'ye kadar eğimli ölçümlerde 3 cm hassasiyet.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümlerde 3 cm hassasiyet.",
         "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
-        "UHF Tx/Rx modem ile 8 km'ye kadar kablosuz veri iletimi.",
+        "UHF Tx/Rx modem ile 3-8 km'ye kadar kablosuz veri iletimi.",
         "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
         "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
-        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
@@ -599,7 +613,7 @@
     {
       "id": 24,
       "name": "CHCNAV i83 GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
+      "description": "2 Watt Radyo Modem, 34 Saatlik Kesintisiz Çalışma Süresi ve 15 km’ye Ulaşan UHF Bağlantısıyla Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i83-0.png",
         "/marka-photos/chcnav/i83-1.png",
@@ -612,11 +626,11 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
-        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "UHF Tx/Rx modem ile 15 km'ye kadar RTK yayını.",
         "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri ve İnsansız hava araçları için İHA sabit modu.",
         "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
@@ -625,13 +639,13 @@
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
         "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Magnesium alaşımlı gövde ile 2.54 kg ağırlığında kompakt ve dayanıklı tasarım."
+        "Magnesium alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
       ]
     },
     {
       "id": 25,
       "name": "CHCNAV i93 GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan i93 GNSS alıcısı.",
+      "description": "200 Hz IMU Güncelleme Hızı, Starlight Kamera Teknolojisi ve 128 GB Hafıza Desteğiyle Yüksek Hassasiyet ve Dayanıklılık Sunan IMU Kameralı i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
         "/marka-photos/chcnav/i93-1.png"
@@ -642,13 +656,13 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
         "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
         "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri ve İnsansız hava araçları için İHA sabit modu.",
         "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "4G GSM modem ile NTRIP yayını.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı ve 128 GB'a kadar harici destek.",
         "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
@@ -656,8 +670,8 @@
         "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
         "Magnesium alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım.",
-        "Otomatik yüksek hızlı sürekli çekim ile %85'e kadar örtüşme oranı ve hızlı işlem süresi.",
-        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
+        "Kamera ile AR Aplikasyonu",
         "200 Hz IMU güncelleme hızı ile otomatik IMU başlatma ve yüksek hassasiyetli eğim ölçümü.",
         "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu.",
         "Starlight-grade kamera ile düşük ışıkta dahi renkli görüntü yakalama imkanı."
@@ -666,7 +680,7 @@
     {
       "id": 26,
       "name": "CHCNAV i89 GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan i89 GNSS alıcısı.",
+      "description": "NFC, CAD Üzerinde Nokta Görselleştirme ve 3D Modelleme Yeteneği ile Yüksek Hassasiyet ve Dayanıklılık Sunan i89 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i89-0.png",
         "/marka-photos/chcnav/i89-1.png",
@@ -679,14 +693,15 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "iStar2.0 ve iyonosfer azaltma teknolojisi ile %96 oranında güvenilir sabitleme.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "iStar2.0 ve iyonosfer azaltma teknolojisi ile %96 oranında güvenilir ölçüm.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "16.5 saat çalışma süresi ve 18W hızlı şarj ile 3 saatte tam dolum.",
         "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "1 Watt radyo modem ile 3-8 km arası RTK yayını",
         "Otomatik IMU başlatma ile manuel kalibrasyona gerek kalmadan yüksek hassasiyet.",
         "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "Video fotogrametri algoritmaları ile 3D modelleme desteği.",
+        "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
+        "Kamera ile AR Aplikasyonu",
         "NFC, Wi-Fi 802.11 a/b/g/n/ac ve Bluetooth 5.0 ile kablosuz bağlantı.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "Virtual Pole Tip™ teknolojisi ile CAD projeleri üzerinde nokta görselleştirme.",
@@ -698,7 +713,7 @@
     {
       "id": 27,
       "name": "CHCNAV i76 GNSS Alıcısı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan i76 GNSS alıcısı.",
+      "description": "17 Saatlik Çalışma Süresi, IP68 Koruma ve %96 RTK Fix Oranı ile Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i76-0.png",
         "/marka-photos/chcnav/i76-3.png",
@@ -712,11 +727,11 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
-        "5. Nesil Ultra-IMU teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "5. Nesil Ultra-IMU teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "17 saat çalışma süresi ve 4.5 saatte tam şarj ile uzun süreli kullanım.",
         "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
-        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "Kamera ile AR Aplikasyonu",
+        "İnsansız hava araçları için İHA sabit modu",
         "4. Nesil Air-Medium GNSS anteni ile %96 üzerinde RTK fix oranı.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
@@ -725,7 +740,7 @@
         "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
         "Magnesium alaşımlı gövde ile 450 g ağırlığında kompakt ve dayanıklı tasarım.",
-        "CAD+AR ile %40 daha verimli proje stakeout imkanı."
+        "CAD+AR ile %40 daha hızlı kamera aplikasyonu imkanı"
       ]
     },
     {
@@ -1037,8 +1052,8 @@
     },
     {
       "id": 50,
-      "name": "CHCNAV CTS-A100 Total Station (Toplam İstasyon)",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan CTS-A100 total station.",
+      "name": "CHCNAV CTS-A100 Android Total Station",
+      "description": "4G ve Wi-Fi Bağlantısı, 27x Optik Zoom ve 8 Saat Çalışma Süresiyle Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
       "images": [
         "/marka-photos/chcnav/cts-a100-0.png",
         "/marka-photos/chcnav/cts-a100-1.png",
@@ -1048,7 +1063,7 @@
       "category": "total-station",
       "brand": "chcnav",
       "specs": [
-        "Android işletim sistemi ve LandStar yazılımı ile kullanıcı dostu arayüz.",
+        "Android işletim sistemi ve LandStar 8 yazılımı ile kullanıcı dostu arayüz.",
         "Qualcomm octa-core işlemci, 3 GB RAM ve 32 GB ROM ile yüksek işlem gücü.",
         "5000 m prizma ve 1500 m reflektörsüz ölçüm menzili ile güçlü EDM sistemi.",
         "2'' açısal hassasiyet ve çift eksenli elektronik kompansatör ile yüksek doğruluk.",
@@ -1059,10 +1074,10 @@
         "3 mm + 2 ppm hassasiyet ile reflektörsüz, 2 mm + 2 ppm hassasiyet ile prizmalı ölçüm.",
         "Otomatik sıcaklık ve basınç düzeltme sensörleri ile çevresel faktörlere karşı hassas ölçüm.",
         "27x büyütme ve 1.5 m - sonsuz arası netleme mesafesi ile detaylı gözlem.",
-        "IP55 sertifikası ve 8 saat batarya süresi ile uzun saha çalışmaları.",
+        "5000 mAh bataryayla ve 8 saat batarya süresi ile uzun saha çalışmaları.",
         "Type-A USB ve MicroUSB bağlantı noktaları ile esnek veri aktarımı.",
         "802.11 b/g Wi-Fi ve Bluetooth 4.2 ile kablosuz iletişim seçenekleri.",
-        "RINEX, HCN ve NMEA veri formatlarını destekleyen geniş uyumluluk."
+        "Txt, dwg gibi format destekli, cad aplikasyonları ile uyumlu veri aktarımı."
       ]
     },
     {
@@ -3820,7 +3835,7 @@
         "Yılların verdiği tecrübe ve alanında uzman ekibimizle, ihtiyaç duyduğunuz her anda doğru çözümler üretiyoruz. Ürün tedariğinden teknik desteğe, her aşamada sizin yanınızdayız. GNSS Teknik’in çalışma anlayışını ve sunduğu değerleri daha yakından tanımak için hakkımızda sayfamızda sizleri bekliyoruz."
       ],
       "imageLeft": "",
-      "imageRight": "/resimler/aboutus-big.webp",
+      "imageRight": "/resimler/harita01.jpg",
       "buttonText": "Hakkımızda Daha Fazla",
       "buttonLink": "/aboutus",
       "layout": "right"
@@ -3841,14 +3856,14 @@
     },
     {
       "type": "marketing",
-      "title": "Yeni Marketing Sitemiz ile Tanışın!",
-      "subtitle": "Harita Mühendisliği ve Teknoloji Çözümleri",
-      "description": "Harita mühendisliği ve ileri teknoloji ürünlerimizle iş süreçlerinizi hızlandırın. Yeni marketing sitemizle birlikte, ihtiyacınıza uygun çözümleri daha hızlı ve etkili bir şekilde keşfedin.",
+      "title": "Yeni E-Ticaret Sitemiz ile Tanışın!",
+      "subtitle": "Harita Mühendisliği ve Coğrafi Veride Güvenilirlik",
+      "description": "Harita mühendisliği ve ileri teknoloji ürünlerimizle iş süreçlerinizi hızlandırın. Yeni e-ticaret sitemizle birlikte, ihtiyacınıza uygun çözümleri daha hızlı ve etkili bir şekilde keşfedin.",
       "paragraphs": [
-        "Haritalama çözümlerimiz; uydu, lidar ve GNSS teknolojilerini kapsar. Alanında uzman mühendis ekibimizle, bireysel ve kurumsal müşterilere en güncel ve hassas verileri sunuyoruz.",
-        "Yeni marketing sitemizde, farklı sektörlere yönelik detaylı ürün kategorileri ve kullanım alanlarına göre öneriler bulabilirsiniz. Kapsamlı ürün bilgileri ve karşılaştırma tabloları sayesinde ihtiyaçlarınıza uygun çözümleri kolayca seçebilirsiniz. Ayrıca, satış sonrası destek ve eğitim hizmetlerimizle kullanıcı deneyimini en üst seviyeye taşıyoruz."
+        "Haritalama çözümlerimiz; uydu, LIDAR ve GNSS teknolojilerini kapsar. Alanında uzman mühendis ekibimizle, bireysel ve kurumsal müşterilere en güncel ve hassas verileri sunuyoruz.",
+        "Yeni e-ticaret sitemiz ile ileri teknoloji haritalama çözümlerine şimdi daha hızlı ve kolay ulaşabilirsiniz. E-ticaret altyapımız sayesinde, ihtiyaç duyduğunuz ürünleri zahmetsizce inceleyip hemen temin edebilirsiniz."
       ],
-      "imageLeft": "/resimler/market3.png",
+      "imageLeft": "/resimler/market2.jpg",
       "imageRight": "",
       "buttonText": "Marketing Sitemizi İnceleyin",
       "buttonLink": "/marketing",

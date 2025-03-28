@@ -1,19 +1,19 @@
 import { useActiveNav } from "../../context/ActiveNavContext";
-import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanacağız
+import { useLanguage } from "../../context/LanguageContext";
 import { useNavigate, useLocation } from "react-router-dom";
 import NavbarLink from "./NavbarLink";
 import { useEffect } from "react";
 
 export default function NavbarMain() {
-  const { language, data } = useLanguage();  // Veriyi ve dil bilgisini alıyoruz
-  const navbarItems = data?.mainNavbar || [];  // Main Navbar'ı data'dan alıyoruz
+  const { language, data } = useLanguage(); // Veriyi ve dil bilgisini alıyoruz
+  const navbarItems = data?.mainNavbar || []; // Main Navbar'ı data'dan alıyoruz
 
   const {
     activeMainPath,
     setActiveMainPath,
     setActiveSecondaryPath,
     setFilteredProducts,
-    navbarsVisible
+    navbarsVisible,
   } = useActiveNav();
 
   const navigate = useNavigate();
@@ -22,34 +22,33 @@ export default function NavbarMain() {
   if (!navbarsVisible) return null;
 
   const handleMainNavClick = (path) => {
-    const basePath = language === "tr" ? "/kategori" : "/category";
+    const basePath = "/category"; // Türkçe ve İngilizce için aynı path kullanılıyor
     if (activeMainPath === path) {
+      // Eğer aynı kategoriye tıklanırsa sıfırla
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      setTimeout(() => {
-        navigate(basePath);  // Dil'e bağlı olarak path yönlendirmesi
-      }, 0);
+      navigate(basePath); // Ana kategoriye yönlendir
     } else {
+      // Yeni kategoriye tıklanırsa ayarla
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      navigate(`${basePath}${path}`);  // Dil'e bağlı path yönlendirmesi
+      navigate(`${basePath}${path}`); // Yeni kategoriye yönlendir
     }
-  };  
+  };
 
-  // ✅ Anasayfaya dönüldüğünde seçimleri sıfırlama
+  // ✅ Sayfa değiştiğinde aktif öğeyi sıfırla
   useEffect(() => {
-    if (location.pathname === "/") {
+    const basePath = "/category"; // Türkçe ve İngilizce için aynı path kullanılıyor
+    if (!location.pathname.startsWith(basePath)) {
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
-      setFilteredProducts([]);
     }
-  }, [location, setActiveMainPath, setActiveSecondaryPath, setFilteredProducts]);
+  }, [location.pathname, setActiveMainPath, setActiveSecondaryPath]);
 
   return (
     <nav className="bg-[rgba(255,255,255,0.9)] shadow-md border-b border-gray-300 sticky top-0 w-full z-50 font-medium">
-      {/* 🔥 XL ve üstü: İkon üstte, yazı altta */}
       <div className="w-[80%] mx-auto hidden xl:grid gap-6 grid-cols-10 py-4">
         {navbarItems.map((item, index) => {
           const isActive = activeMainPath === item.path;
@@ -58,13 +57,17 @@ export default function NavbarMain() {
             <div key={index} className="flex flex-col items-center">
               <NavbarLink
                 icon={
-                  <img src={import.meta.env.BASE_URL + item.icon} alt={item.name} className="w-12 h-12 object-contain transition-all" />
+                  <img
+                    src={import.meta.env.BASE_URL + item.icon}
+                    alt={item.name}
+                    className="w-12 h-12 object-contain transition-all"
+                  />
                 }
-                name={item.name}  
-                path={`/${language === "tr" ? "kategori" : "category"}${item.path}`}  // Dil'e bağlı path yönlendirmesi
+                name={item.name}
+                path={`/category${item.path}`} // Path artık sabit "/category"
                 onClick={() => handleMainNavClick(item.path)}
                 className={`text-sm xl:text-lg px-8 transition-all
-                  ${isActive ? 'border-2 border-orange-500 rounded-lg shadow-md' : 'text-gray-700'}
+                  ${isActive ? "border-2 border-orange-500 rounded-lg shadow-md" : "text-gray-700"}
                   hover:text-orange-500`}
               />
             </div>
@@ -75,28 +78,26 @@ export default function NavbarMain() {
       {/* 🔥 XL altı: İkon ve yazı yan yana olacak */}
       <div className="w-[80%] mx-auto hidden md:grid xl:hidden grid-cols-5 gap-4 py-4 border-b">
         {navbarItems.map((item, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className={`flex items-center gap-2 p-2 rounded-lg transition-all ${
-              activeMainPath === item.path ? 'text-orange-500 border-orange-500' : 'text-gray-700 border-gray-300'
+              activeMainPath === item.path ? "text-orange-500 border-orange-500" : "text-gray-700 border-gray-300"
             }`}
           >
-            {/* 🔥 İkonun boyutu her aşamada küçülecek, bir noktada kaybolacak */}
-            <img 
-              src={`/${item.icon}`} 
-              alt={item.name} 
+            <img
+              src={`/${item.icon}`}
+              alt={item.name}
               className="transition-all 
                 w-10 md:w-8 lg:w-6
                 md:inline-block sm:hidden"
-            /> 
+            />
 
-            {/* 🔥 Yazının boyutu da küçülecek */}
-            <button 
-              onClick={() => handleMainNavClick(item.path)} 
+            <button
+              onClick={() => handleMainNavClick(item.path)}
               className="transition-all w-full hover:text-orange-500
                 text-lg md:text-base sm:text-sm"
             >
-              {item.title}  {/* title kullanıyoruz */}
+              {item.name} {/* name kullanıyoruz */}
             </button>
           </div>
         ))}
@@ -105,15 +106,17 @@ export default function NavbarMain() {
       {/* 🔥 MD altı: İkon gizlenmiş, sadece yazı gösterilecek */}
       <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden border-b">
         {navbarItems.map((item, index) => (
-          <div 
-            key={index} 
-            className={`text-center border-b ${activeMainPath === item.path ? 'text-orange-500 border-orange-500' : 'text-gray-700 border-gray-300'}`}
+          <div
+            key={index}
+            className={`text-center border-b ${
+              activeMainPath === item.path ? "text-orange-500 border-orange-500" : "text-gray-700 border-gray-300"
+            }`}
           >
-            <button 
-              onClick={() => handleMainNavClick(item.path)} 
+            <button
+              onClick={() => handleMainNavClick(item.path)}
               className="text-xs transition-all w-full hover:text-orange-500"
             >
-              {item.title}  {/* title kullanıyoruz */}
+              {item.name} {/* name kullanıyoruz */}
             </button>
           </div>
         ))}
