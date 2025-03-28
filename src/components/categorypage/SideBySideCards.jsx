@@ -21,8 +21,9 @@ const SideBySideCards = () => {
         {categoryData.left.map((leftItem, index) => (
           <div
             key={index}
-            className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch border-b border-gray-800 pb-10 mb-10 ml-auto"
+            className="w-full md:w-4/5 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch border-b border-gray-800 pb-10 mb-10 ml-auto"
           >
+            {/* Sol Kart */}
             <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col h-full text-left transition-transform duration-300 md:hover:scale-105 md:hover:shadow-2xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {leftItem.title}
@@ -30,9 +31,12 @@ const SideBySideCards = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {leftItem.slogan}
               </h3>
-              <p className="text-sm text-gray-600 mt-auto">{leftItem.text}</p>
+              <p className="text-sm text-gray-600 mt-auto">
+                {leftItem.text}
+              </p>
             </div>
 
+            {/* Sağ Kart */}
             <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col h-full text-left transition-transform duration-300 md:hover:scale-105 md:hover:shadow-2xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {categoryData.right[index].title}
@@ -40,7 +44,9 @@ const SideBySideCards = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {categoryData.right[index].sectors.join(", ")}
               </h3>
-              <p className="text-sm text-gray-600 mt-auto">{categoryData.right[index].text}</p>
+              <p className="text-sm text-gray-600 mt-auto">
+                {categoryData.right[index].text}
+              </p>
             </div>
           </div>
         ))}

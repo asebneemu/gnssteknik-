@@ -24,9 +24,7 @@ const CategoryDetail = ({ title, description, photo }) => {
     <div className="mb-16 mt-16">
       <h1 className="text-4xl font-bold mb-8 text-left">{title}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-        <div
-          className="relative w-full overflow-hidden rounded-lg shadow-lg h-[200px] sm:h-[250px] md:h-[350px]"
-        >
+        <div className="relative w-full overflow-hidden rounded-lg shadow-lg h-[200px] sm:h-[250px] md:h-[350px]">
           <img
             src={photo}
             alt={title}
@@ -35,9 +33,7 @@ const CategoryDetail = ({ title, description, photo }) => {
         </div>
         <div
           ref={textRef}
-          className={`text-lg text-gray-700 ${
-            textHeight > imageHeight ? "overflow-y-scroll max-h-[350px] pr-2" : ""
-          }`}
+          className="text-lg text-gray-700 max-h-none overflow-visible"
         >
           {description}
         </div>

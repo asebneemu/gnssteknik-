@@ -2,30 +2,27 @@ import { useParams, useLocation } from "react-router-dom";
 import { useActiveNav } from "../context/ActiveNavContext";
 import CategoryDetail from "../components/categorypage/CategoryDetail";
 import SideBySideCards from "../components/categorypage/SideBySideCards";
-import FeaturedSection from "../components/categorypage/FeaturedSection";
+// import FeaturedSection from "../components/categorypage/FeaturedSection";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function CategoryPage() {
-  const { category } = useParams(); // URL'den kategori parametresini alıyoruz
+  const { category } = useParams();
   const { activeMainPath } = useActiveNav();
   const location = useLocation();
-  const { language, data } = useLanguage(); // useLanguage hook'u ile language ve data alıyoruz
+  const { language, data } = useLanguage();
 
-  const { mainNavbar, customerStories } = data;
+  const { mainNavbar /*, customerStories*/ } = data;
 
-  // ✅ Tüm kategorileri al
   const allCategories = mainNavbar || [];
   const info = category
-    ? allCategories.find((item) => item.path === `/${category}`) // `path` ile eşleştiriyoruz
+    ? allCategories.find((item) => item.path === `/${category}`)
     : null;
 
-  // ✅ Kategoriye göre müşteri hikayeleri filtrele
-  const filteredStories =
-    customerStories?.filter((story) =>
-      [story.type.toLowerCase(), story.brand.toLowerCase()].includes(category?.toLowerCase())
-    ) || [];
+  // const filteredStories =
+  //   customerStories?.filter((story) =>
+  //     [story.type.toLowerCase(), story.brand.toLowerCase()].includes(category?.toLowerCase())
+  //   ) || [];
 
-  // ✅ Eğer sadece /category'deysek tüm kategorileri göster
   if (location.pathname === "/category" && !activeMainPath) {
     return (
       <div className="w-10/12 mx-auto py-10">
@@ -43,7 +40,6 @@ export default function CategoryPage() {
     );
   }
 
-  // ✅ Seçili kategori yoksa veya bilgi bulunamazsa
   if (!info) {
     return (
       <div className="w-10/12 mx-auto py-10 text-center text-gray-600">
@@ -54,7 +50,6 @@ export default function CategoryPage() {
     );
   }
 
-  // ✅ Seçili kategori varsa: Detayları ve diğer içerikleri göster
   return (
     <div className="w-10/12 mx-auto py-10">
       <div className="w-4/5 mx-auto">
@@ -66,7 +61,7 @@ export default function CategoryPage() {
 
         <SideBySideCards />
 
-        <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800 mt-16">
+        {/* <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800 mt-16">
           {language === "tr" ? "Müşteri Hikayeleri" : "Customer Stories"}
         </h2>
 
@@ -87,7 +82,7 @@ export default function CategoryPage() {
               ? "Bu kategoriye ait müşteri hikayesi bulunmamaktadır."
               : "No customer stories available for this category."}
           </p>
-        )}
+        )} */}
       </div>
     </div>
   );
