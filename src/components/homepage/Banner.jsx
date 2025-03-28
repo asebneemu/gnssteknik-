@@ -1,14 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useState, useEffect } from "react";
-import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
+import { useLanguage } from "../../context/LanguageContext";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function Banner() {
-  const { data, language } = useLanguage(); // Dil bilgisini alıyoruz
-  const { newNavbar = [] } = data; // newNavbar'ı LanguageContext'ten alıyoruz
+  const { data, language } = useLanguage();
+  const { newNavbar = [] } = data;
   const [isLg, setIsLg] = useState(window.innerWidth >= 1024);
 
   useEffect(() => {
@@ -24,9 +24,9 @@ export default function Banner() {
         spaceBetween={0}
         slidesPerView={1}
         className="w-full"
-        navigation={isLg} // Büyük ekranda oklar aktif
+        navigation={isLg}
         pagination={{ clickable: true }}
-        autoplay={isLg ? false : { delay: 3000, disableOnInteraction: false }} // Küçük ekranda autoplay
+        autoplay={isLg ? false : { delay: 3000, disableOnInteraction: false }}
         loop={true}
         loopAdditionalSlides={1}
       >
@@ -40,20 +40,23 @@ export default function Banner() {
               style={{ backgroundImage: `url(${item["banner-photo"]})` }}
             >
               <div
-                className="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg 
-               lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
-               w-4/5 max-md:w-4/5 max-md:mx-auto"
-                style={{ width: "30%" }}
+                className="bg-white bg-opacity-70 p-4 md:p-6 rounded-lg shadow-lg 
+                lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
+                w-4/5 max-w-md text-center"
               >
-                <h2 className="text-2xl font-bold text-gray-800">
-                  {item.name} {/* ✅ Başlık */}
+                <h2 className="text-xl md:text-2xl font-bold text-gray-800">
+                  {item.name}
                 </h2>
                 <p className="text-gray-600 mt-2 hidden lg:block">
-                  {item["banner-description"]} {/* ✅ Açıklama */}
+                  {item["banner-description"]}
                 </p>
-                <a href={item["banner-url"]} target="_blank" rel="noopener noreferrer">
-                  <button className="mt-4 px-4 py-2 bg-gray-600 text-white rounded-md">
-                    {language === "tr" ? "Hemen Keşfet" : "Discover Now"} {/* ✅ Dil'e bağlı metin */}
+                <a
+                  href={item["banner-url"]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="mt-3 md:mt-4 px-3 py-1.5 md:px-4 md:py-2 text-sm md:text-base bg-gray-600 text-white rounded-md">
+                    {language === "tr" ? "Hemen Keşfet" : "Discover Now"}
                   </button>
                 </a>
               </div>
@@ -62,7 +65,6 @@ export default function Banner() {
         ))}
       </Swiper>
 
-      {/* Swiper buton ve pagination stilleri */}
       <style jsx>{`
         .banner-slider .swiper {
           min-height: 70vh !important;
