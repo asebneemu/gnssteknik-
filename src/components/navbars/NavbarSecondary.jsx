@@ -45,7 +45,6 @@ export default function NavbarSecondary() {
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
       const targetPath = `/category${activeMainPath}${brandPath}`;
-      const currentPath = location.pathname;
 
       if (activeSecondaryPath === brandPath) {
         setActiveSecondaryPath(null);
@@ -61,16 +60,24 @@ export default function NavbarSecondary() {
     }
   };
 
-  // Görünürlüğü kontrol et
   if (!navbarsVisible || !activeMainPath || filteredBrands.length === 0) return null;
 
   return (
-    <nav className="bg-white shadow-md border-b border-gray-300 w-full">
-      {/* md ve üstü: İkonlu görünüm */}
-      <div className="w-[80%] mx-auto grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 py-4 hidden md:grid">
-        {filteredBrands.map((item, index) => (
-          <div key={index} className="flex flex-col items-start">
+    <nav className="bg-white shadow-md border-b border-gray-300 w-full font-medium">
+      {/* xl ve üstü ekranlar için: birebir MainNavbar yapısı */}
+      <div
+        className="w-[80%] mx-auto hidden xl:grid py-0"
+        style={{ gridTemplateColumns: `repeat(10, minmax(0, 1fr))` }}
+      >
+        {Array.from({ length: 10 }).map((_, index) => {
+          const item = filteredBrands[index];
+          if (!item) return <div key={`empty-${index}`} />;
+
+          const isActive = activeSecondaryPath === item.path;
+
+          return (
             <NavbarLink
+              key={index}
               icon={
                 <img
                   src={`/${item.icon}`}
@@ -81,17 +88,17 @@ export default function NavbarSecondary() {
               name={item.name}
               path={`/category${activeMainPath}${item.path}`}
               onClick={() => handleSecondaryNavClick(item.path)}
-              className={`text-base lg:text-lg font-medium px-8 py-4 transition-all ${
-                activeSecondaryPath === item.path
-                  ? "hover:text-yellow-400 border-2 border-yellow-400 rounded-lg shadow-md"
-                  : "text-gray-800"
-              } hover:text-gray-600`}
+              className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center ${
+                isActive
+                  ? "border-2 border-yellow-400 rounded-lg shadow-md"
+                  : "text-gray-700"
+              } hover:text-yellow-400`}
             />
-          </div>
-        ))}
+          );
+        })}
       </div>
 
-      {/* md altı: İkonsuz görünüm */}
+      {/* md-altı görünüm (ikonsuz) */}
       <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden">
         {filteredBrands.map((item, index) => (
           <button

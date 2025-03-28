@@ -5,8 +5,8 @@ import NavbarLink from "./NavbarLink";
 import { useEffect } from "react";
 
 export default function NavbarMain() {
-  const { language, data } = useLanguage();
-  const navbarItems = data?.mainNavbar || [];
+  const { language, data } = useLanguage(); // Veriyi ve dil bilgisini alıyoruz
+  const navbarItems = data?.mainNavbar || []; // Main Navbar'ı data'dan alıyoruz
 
   const {
     activeMainPath,
@@ -19,33 +19,33 @@ export default function NavbarMain() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Log navbarItems to debug
-  console.log("Navbar Items:", navbarItems);
+  if (!navbarsVisible) return null;
 
   const handleMainNavClick = (path) => {
-    const basePath = "/category";
+    const basePath = "/category"; // Türkçe ve İngilizce için aynı path kullanılıyor
     if (activeMainPath === path) {
+      // Eğer aynı kategoriye tıklanırsa sıfırla
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      navigate(basePath);
+      navigate(basePath); // Ana kategoriye yönlendir
     } else {
+      // Yeni kategoriye tıklanırsa ayarla
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
       setFilteredProducts([]);
-      navigate(`${basePath}${path}`);
+      navigate(`${basePath}${path}`); // Yeni kategoriye yönlendir
     }
   };
 
+  // ✅ Sayfa değiştiğinde aktif öğeyi sıfırla
   useEffect(() => {
-    const basePath = "/category";
+    const basePath = "/category"; // Türkçe ve İngilizce için aynı path kullanılıyor
     if (!location.pathname.startsWith(basePath)) {
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
     }
   }, [location.pathname, setActiveMainPath, setActiveSecondaryPath]);
-
-  if (!navbarsVisible) return null;
 
   return (
     <nav className="bg-[rgba(255,255,255,0.9)] shadow-md border-b border-gray-300 sticky top-0 w-full z-50 font-medium">
@@ -80,6 +80,7 @@ export default function NavbarMain() {
 </div>
 
 
+      {/* 🔥 XL altı: İkon ve yazı yan yana olacak */}
       <div className="w-[80%] mx-auto hidden md:grid xl:hidden grid-cols-5 gap-4 py-4 border-b">
         {navbarItems.map((item, index) => (
           <div
@@ -91,19 +92,23 @@ export default function NavbarMain() {
             <img
               src={`/${item.icon}`}
               alt={item.name}
-              className="transition-all w-10 md:w-8 lg:w-6 md:inline-block sm:hidden"
+              className="transition-all 
+                w-10 md:w-8 lg:w-6
+                md:inline-block sm:hidden"
             />
 
             <button
               onClick={() => handleMainNavClick(item.path)}
-              className="transition-all w-full hover:text-orange-500 text-lg md:text-base sm:text-sm"
+              className="transition-all w-full hover:text-orange-500
+                text-lg md:text-base sm:text-sm"
             >
-              {item.name}
+              {item.name} {/* name kullanıyoruz */}
             </button>
           </div>
         ))}
       </div>
 
+      {/* 🔥 MD altı: İkon gizlenmiş, sadece yazı gösterilecek */}
       <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden border-b">
         {navbarItems.map((item, index) => (
           <div
@@ -116,7 +121,7 @@ export default function NavbarMain() {
               onClick={() => handleMainNavClick(item.path)}
               className="text-xs transition-all w-full hover:text-orange-500"
             >
-              {item.name}
+              {item.name} {/* name kullanıyoruz */}
             </button>
           </div>
         ))}
