@@ -6,9 +6,10 @@ import {
   faHome,
   faUserFriends,
   faGlobe,
-  faEnvelope, // ✅ Mail ikonu
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { useLanguage } from "../context/LanguageContext";
 
 export default function HeaderBar() {
@@ -16,8 +17,16 @@ export default function HeaderBar() {
   const { language, toggleLanguage } = useLanguage();
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("+90 312 285 1420");
-    setCopied(true);
+    if (isMobileDevice()) {
+      window.location.href = "tel:+903122851420";
+    } else {
+      navigator.clipboard.writeText("+90 312 285 1420");
+      setCopied(true);
+    }
+  };
+
+  const isMobileDevice = () => {
+    return /Mobi|Android/i.test(navigator.userAgent);
   };
 
   useEffect(() => {
@@ -27,17 +36,9 @@ export default function HeaderBar() {
     }
   }, [copied]);
 
-  const scrollToContact = () => {
-    const contactElement = document.getElementById("contact-section");
-    if (contactElement) {
-      contactElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="w-full bg-gray-800 text-white text-sm relative">
       <div className="max-w-[80%] mx-auto flex items-center justify-between py-3">
-        {/* Sol Taraf */}
         <div className="flex items-center space-x-2">
           <NavLink
             to="/"
@@ -50,7 +51,6 @@ export default function HeaderBar() {
           </NavLink>
         </div>
 
-        {/* Orta Taraf */}
         <div className="flex flex-grow justify-end md:justify-start items-center space-x-6 mx-4">
           <NavLink
             to="/aboutus"
@@ -63,9 +63,7 @@ export default function HeaderBar() {
           </NavLink>
         </div>
 
-        {/* Sağ Taraf */}
         <div className="flex items-center space-x-6">
-          {/* 🌐 Dil Butonu */}
           <div
             onClick={toggleLanguage}
             className="flex items-center space-x-1 cursor-pointer hover:text-blue-300 transition"
@@ -77,16 +75,11 @@ export default function HeaderBar() {
             </span>
           </div>
 
-          {/* 📧 Mail */}
-          <button
-            onClick={scrollToContact}
-            className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer"
-          >
+          <HashLink smooth to="/#contact-form" className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer">
             <FontAwesomeIcon icon={faEnvelope} className="text-xl md:text-base" />
             <span className="hidden md:inline">info@gnssteknik.com.tr</span>
-          </button>
+          </HashLink>
 
-          {/* 📞 Telefon */}
           <button
             onClick={handleCopy}
             className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer"

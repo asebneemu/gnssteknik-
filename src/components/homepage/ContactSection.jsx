@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
-import emailjs from "emailjs-com"; // ✅ EmailJS Kütüphanesi
+import emailjs from "emailjs-com";
 import "react-toastify/dist/ReactToastify.css";
-import { useLanguage } from "../../context/LanguageContext"; // Dil desteği için ekledik
+import { useLanguage } from "../../context/LanguageContext";
 
 const ContactSection = () => {
-  const { language } = useLanguage(); // Dil seçimini alıyoruz
+  const { language } = useLanguage();
 
-  // Dil seçimine göre metinler
   const contactTitle = language === "tr" ? "İletişim" : "Contact";
   const contactDescription =
     language === "tr"
@@ -17,12 +16,12 @@ const ContactSection = () => {
   const mapTitle = language === "tr" ? "Gnss Teknik, Ankara" : "Gnss Teknik, Ankara";
 
   return (
-    <div id="contact-section" className="w-10/12 mx-auto py-10">
-
-      {/* İletişim Formu ve Harita */}
+    <div id="contact-section" className="w-10/12 mx-auto py-10 pb-20">
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Sol kutu - İletişim Formu */}
-        <div className="bg-white p-6 shadow-lg rounded-lg w-full md:w-1/3">
+        <div
+          id="contact-form"
+          className="bg-white p-6 shadow-lg rounded-lg w-full md:w-1/3"
+        >
           <ContactCard
             title={contactTitle}
             description={contactDescription}
@@ -31,7 +30,6 @@ const ContactSection = () => {
           />
         </div>
 
-        {/* Sağ kutu - Harita */}
         <div className="w-full md:w-2/3 h-96">
           <h3 className="text-xl font-semibold text-gray-800 mb-4">{mapTitle}</h3>
           <div className="w-full h-full">
@@ -51,7 +49,7 @@ const ContactSection = () => {
 };
 
 const ContactCard = ({ title, description, serviceId, templateId }) => {
-  const { language } = useLanguage(); // Dil seçimini alıyoruz
+  const { language } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const {
     register,
@@ -60,14 +58,19 @@ const ContactCard = ({ title, description, serviceId, templateId }) => {
     formState: { errors },
   } = useForm();
 
-  // Dil seçimine göre metinler
   const namePlaceholder = language === "tr" ? "Adınız" : "Your Name";
   const emailPlaceholder = language === "tr" ? "Email Adresiniz" : "Your Email";
   const messagePlaceholder = language === "tr" ? "Mesajınız" : "Your Message";
   const submitButtonText = language === "tr" ? "Gönder" : "Send";
   const submittingText = language === "tr" ? "Gönderiliyor..." : "Submitting...";
-  const successMessage = language === "tr" ? `${title} formu başarıyla gönderildi! 📩` : `${title} form submitted successfully! 📩`;
-  const errorMessage = language === "tr" ? "Mesaj gönderilirken hata oluştu! ❌" : "An error occurred while sending the message! ❌";
+  const successMessage =
+    language === "tr"
+      ? `${title} formu başarıyla gönderildi! 📩`
+      : `${title} form submitted successfully! 📩`;
+  const errorMessage =
+    language === "tr"
+      ? "Mesaj gönderilirken hata oluştu! ❌"
+      : "An error occurred while sending the message! ❌";
 
   const onSubmit = (data) => {
     setIsSubmitting(true);
@@ -76,7 +79,11 @@ const ContactCard = ({ title, description, serviceId, templateId }) => {
       .send(
         serviceId,
         templateId,
-        { name: data.name, email: data.email, message: data.message },
+        {
+          name: data.name,
+          email: data.email,
+          message: data.message,
+        },
         "RLfviTv9dMouNhsYS"
       )
       .then(() => {
@@ -100,48 +107,75 @@ const ContactCard = ({ title, description, serviceId, templateId }) => {
         <input
           type="text"
           {...register("name", {
-            required: language === "tr" ? "İsim alanı zorunludur" : "Name is required",
+            required:
+              language === "tr"
+                ? "İsim alanı zorunludur"
+                : "Name is required",
             minLength: {
               value: 3,
-              message: language === "tr" ? "İsim en az 3 karakter olmalıdır" : "Name must be at least 3 characters",
+              message:
+                language === "tr"
+                  ? "İsim en az 3 karakter olmalıdır"
+                  : "Name must be at least 3 characters",
             },
           })}
           placeholder={namePlaceholder}
           className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
         />
-        {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm">{errors.name.message}</p>
+        )}
 
         <input
           type="email"
           {...register("email", {
-            required: language === "tr" ? "Email alanı zorunludur" : "Email is required",
+            required:
+              language === "tr"
+                ? "Email alanı zorunludur"
+                : "Email is required",
             pattern: {
-              value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
-              message: language === "tr" ? "Geçerli bir email girin" : "Enter a valid email",
+              value:
+                /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+              message:
+                language === "tr"
+                  ? "Geçerli bir email girin"
+                  : "Enter a valid email",
             },
           })}
           placeholder={emailPlaceholder}
           className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
         />
-        {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
+        {errors.email && (
+          <p className="text-red-500 text-sm">{errors.email.message}</p>
+        )}
 
         <textarea
           rows="4"
           {...register("message", {
-            required: language === "tr" ? "Mesaj alanı zorunludur" : "Message is required",
+            required:
+              language === "tr"
+                ? "Mesaj alanı zorunludur"
+                : "Message is required",
             minLength: {
               value: 10,
-              message: language === "tr" ? "Mesaj en az 10 karakter olmalıdır" : "Message must be at least 10 characters",
+              message:
+                language === "tr"
+                  ? "Mesaj en az 10 karakter olmalıdır"
+                  : "Message must be at least 10 characters",
             },
           })}
           placeholder={messagePlaceholder}
           className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
         ></textarea>
-        {errors.message && <p className="text-red-500 text-sm">{errors.message.message}</p>}
+        {errors.message && (
+          <p className="text-red-500 text-sm">{errors.message.message}</p>
+        )}
 
         <button
           type="submit"
-          className={`w-full bg-blue-600 text-white py-3 rounded-lg shadow-md hover:bg-blue-700 transition ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""}`}
+          className={`w-full bg-blue-600 text-white py-3 rounded-lg shadow-md hover:bg-blue-700 transition ${
+            isSubmitting ? "opacity-50 cursor-not-allowed" : ""
+          }`}
           disabled={isSubmitting}
         >
           {isSubmitting ? submittingText : submitButtonText}
