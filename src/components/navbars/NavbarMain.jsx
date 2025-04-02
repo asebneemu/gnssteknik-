@@ -23,24 +23,24 @@ export default function NavbarMain() {
 
   const handleMainNavClick = (path) => {
     const basePath = "/category";
+    const currentPath = location.pathname;
+  
     if (activeMainPath === path) {
+      // Aynı butona tekrar tıklanırsa üst kategoriye dön ve kapat
+      navigate(basePath);
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
-      setFilteredProducts([]);
-      navigate(basePath);
     } else {
+      // Yeni kategoriye veya farklı kategoriye gidince aç
+      navigate(`${basePath}${path}`);
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
-      setFilteredProducts([]);
-      navigate(`${basePath}${path}`);
-  
-      // 🔥 Sayfanın en üstüne dön
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
     }
+  
+    setFilteredProducts([]);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  
   
 
   // ✅ Sayfa değiştiğinde aktif öğeyi sıfırla

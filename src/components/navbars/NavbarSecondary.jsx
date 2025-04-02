@@ -42,21 +42,22 @@ export default function NavbarSecondary() {
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
       const targetPath = `/category${activeMainPath}${brandPath}`;
-
-      if (activeSecondaryPath === brandPath) {
+      const currentPath = location.pathname;
+  
+      if (currentPath === targetPath) {
+        // Zaten aynı alt kategorideysek bir üst dizine dön
+        navigate(`/category${activeMainPath}`);
         setActiveSecondaryPath(null);
-        setFilteredProducts([]);
-        setTimeout(() => {
-          navigate(`/category${activeMainPath}`);
-        }, 0);
       } else {
         setActiveSecondaryPath(brandPath);
-        setFilteredProducts([]);
         navigate(targetPath);
       }
+  
+      setFilteredProducts([]);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
-
+  
   // 🔥 Sayfa içi tıklanınca alt navbarı kapat
   useEffect(() => {
     const handleClickOutside = (e) => {

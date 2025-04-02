@@ -95,7 +95,7 @@
       "name": "CHCNAV",
       "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/chcnav-banner.png",
       "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
@@ -132,7 +132,7 @@
       "name": "SOKKIA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/sokkia-banner.jpg",
       "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
       "banner-url": "https://www.sokkia.com",
       "filter": ["/total-station", "/nivo", "/aksesuar"]
@@ -423,7 +423,7 @@
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modemli, Lazerle Ölçüm ve Aplikasyon İmkansı Sunan, Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS Alıcısı.",
+      "description": "2 W Radyo Modemli, Lazerle Ölçüm ve Aplikasyon İmkansı Sunan, Yüksek hassasiyetli, AR destekli ve IMU tabanlı SDi GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/sdi.0.png",
         "/marka-photos/stec/sdi.1.png",
@@ -664,7 +664,7 @@
     {
       "id": 25,
       "name": "CHCNAV i93 IMU Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve Kamera ile Alım-Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
+      "description": "Çift Kamera Teknolojisi, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
         "/marka-photos/chcnav/i93-1.png"

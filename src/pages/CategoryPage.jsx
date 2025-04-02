@@ -26,6 +26,11 @@ export default function CategoryPage() {
   if (location.pathname === "/category" && !activeMainPath) {
     return (
       <div className="w-10/12 mx-auto py-10">
+        <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
+          {language === "tr"
+            ? "Keşfetmeye Değer Kategoriler"
+            : "Categories Worth Exploring"}
+        </h1>
         <div className="w-4/5 mx-auto">
           {allCategories.map((item, index) => (
             <CategoryDetail

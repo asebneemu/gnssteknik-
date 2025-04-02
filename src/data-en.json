@@ -95,7 +95,7 @@
       "name": "CHCNAV",
       "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/chcnav-banner.png",
       "banner-description": "Precision positioning solutions with CHCNAV.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
@@ -132,7 +132,7 @@
       "name": "SOKKIA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/sokkia-banner.jpg",
       "banner-description": "Advanced measurement devices with SOKKIA.",
       "banner-url": "https://www.sokkia.com",
       "filter": ["/total-station", "/level-instrument", "/accessories"]

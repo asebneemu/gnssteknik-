@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; // React Router'dan Link bileşenini ekleyin
 import { useRef, useEffect, useState } from "react";
 
 export default function MiddleSection({ 
@@ -47,12 +48,12 @@ export default function MiddleSection({
             <p key={index} className="text-base leading-relaxed">{text}</p>
           ))}
           {buttonText && buttonLink && (
-            <a 
-              href={buttonLink} 
+            <Link 
+              to={buttonLink} 
               className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-orange-600 transition max-w-max whitespace-nowrap"
             >
               {buttonText}
-            </a>
+            </Link>
           )}
         </div>
       </div>
@@ -72,12 +73,12 @@ export default function MiddleSection({
                 <p key={index} className="text-base leading-relaxed">{text}</p>
               ))}
               {buttonText && buttonLink && (
-                <a 
-                  href={buttonLink} 
+                <Link 
+                  to={buttonLink} 
                   className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-orange-600 transition max-w-max whitespace-nowrap"
                 >
                   {buttonText}
-                </a>
+                </Link>
               )}
             </div>
 
@@ -124,12 +125,12 @@ export default function MiddleSection({
                 <p key={index} className="text-base leading-relaxed">{text}</p>
               ))}
               {buttonText && buttonLink && (
-                <a 
-                  href={buttonLink} 
+                <Link 
+                  to={buttonLink} 
                   className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-orange-600 transition max-w-max whitespace-nowrap"
                 >
                   {buttonText}
-                </a>
+                </Link>
               )}
             </div>
           </>
