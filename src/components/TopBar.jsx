@@ -1,50 +1,43 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { useActiveNav } from "../context/ActiveNavContext";
-import { useLanguage } from "../context/LanguageContext"; // useLanguage hook'u ekleniyor
+import { useLanguage } from "../context/LanguageContext";
 import logo from "../assets/1x/logo.png";
-import { Link } from "react-router-dom"; // Eklenmesi gerekiyor
+import { Link } from "react-router-dom";
 
-export default function TopBar() {
-  const { navbarsVisible, setNavbarsVisible } = useActiveNav();
+export default function TopBar({ setSearching }) {
   const [searchActive, setSearchActive] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
-  const { data, language, toggleLanguage } = useLanguage(); // Dil ve veri context'i alınıyor
+  const { data, language, toggleLanguage } = useLanguage();
 
-  // Fallback veri ekliyoruz, eğer products yoksa boş bir dizi veririz
   const products = data?.products || [];
 
-  // Arama sonuçları
   const filteredResults = products.filter((product) => {
     const query = searchQuery.toLowerCase();
     return (
-      product.name.toLowerCase().includes(query) ||
+      product.name?.toLowerCase().includes(query) ||
       product.description?.toLowerCase().includes(query) ||
       product.typeTitle?.toLowerCase().includes(query)
     );
   });
 
-  // Dil değiştirildiğinde sayfa yönlendirmesini doğru yapma
-  const handleLanguageToggle = () => {
-    toggleLanguage(); // Dil değiştiriliyor
-    // Dil değiştiğinde, kategori yerine her zaman category kullanıyoruz
-    const currentPath = window.location.pathname;
-    if (currentPath.includes("category")) {
-      navigate(currentPath); // Path zaten category ise değişiklik yapma
-    }
+  // Arama kutusunun temizlenmesi için navigate sonrası sıfırlama işlemi ekliyoruz
+  const handleSearchSelect = (product) => {
+    navigate(`/category/${product.category}/${product.brand}/${product.id}`);
+    setSearchQuery("");  // Arama kutusunu sıfırla
+    setSearchActive(false);  // Arama aktiflik durumunu sıfırla
+    setSearching(false);  // Navbar'ı geri getir
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center py-4 border-b border-gray-300 z-50">
+    <div className="relative flex flex-col lg:flex-row items-center py-4 border-b border-gray-300 z-50 bg-white">
       <div className="w-full max-w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between relative">
         {/* Logo */}
         <div className="flex items-center justify-center md:justify-start w-full md:w-1/3 mb-4 md:mb-0">
           <Link to="/">
-            {" "}
-            {/* Giriş sayfası yolu */}
             <img
               src={logo}
               alt="Logo"
@@ -54,7 +47,7 @@ export default function TopBar() {
         </div>
 
         {/* Arama Kutusu */}
-        <div className="w-full max-w-lg flex justify-center relative mb-4 md:mb-0">
+        <div className="w-full max-w-lg flex justify-center relative mb-4 md:mb-0 z-[9999]">
           <div className="relative w-full max-w-md">
             <FontAwesomeIcon
               icon={faSearch}
@@ -72,30 +65,24 @@ export default function TopBar() {
               onChange={(e) => setSearchQuery(e.target.value)}
               onFocus={() => {
                 setSearchActive(true);
-                setNavbarsVisible(false);
+                setSearching(true); // ✅ SADECE BU — navbarsVisible false YOK ARTIK
               }}
               onBlur={() => {
                 setTimeout(() => {
                   setSearchActive(false);
-                  setNavbarsVisible(true);
+                  setSearching(false); // 🔙 sticky geri
                 }, 200);
               }}
             />
           </div>
 
-          {/* Sonuçları Göster */}
+          {/* Arama Sonuçları */}
           {searchActive && searchQuery && filteredResults.length > 0 && (
             <div className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] max-h-60 overflow-y-auto">
               {filteredResults.map((product) => (
                 <div
                   key={product.id}
-                  onClick={() => {
-                    navigate(
-                      `/category/${product.category}/${product.brand}/${product.id}`
-                    );
-                    setSearchActive(false);
-                    setNavbarsVisible(true);
-                  }}
+                  onClick={() => handleSearchSelect(product)} // ✅ searchResult'tan seçilince işlemi gerçekleştir
                   className="p-3 hover:bg-gray-100 cursor-pointer flex items-center space-x-3"
                 >
                   <img
@@ -103,14 +90,13 @@ export default function TopBar() {
                     alt={product.name}
                     className="w-10 h-10 object-cover rounded"
                   />
-
                   <span className="text-gray-700">{product.name}</span>
                 </div>
               ))}
             </div>
           )}
 
-          {/* Sonuç yoksa */}
+          {/* Sonuç Yok */}
           {searchActive && searchQuery && filteredResults.length === 0 && (
             <div className="absolute top-full left-0 w-full bg-white shadow-lg border border-gray-300 rounded-md z-[9999] p-3 text-gray-500">
               {language === "tr" ? "Sonuç bulunamadı." : "No results found."}
@@ -118,8 +104,8 @@ export default function TopBar() {
           )}
         </div>
 
-        {/* Denge div'i */}
-        <div className="hidden md:block lg:w-1/3"></div>
+        {/* Denge div’i */}
+        <div className="hidden md:block lg:w-1/3" />
       </div>
     </div>
   );
