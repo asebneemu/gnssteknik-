@@ -631,7 +631,7 @@
     {
       "id": 24,
       "name": "CHCNAV i83 IMU CORS-GNSS Alıcısı",
-      "description": "2 W Radyo Modem, 15 Kkm RTK Yayını, Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
+      "description": "2 W Radyo Modem, 15 Km RTK Yayını, 34 Saat Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
       "images": [
         "/marka-photos/chcnav/i83-0.png",
         "/marka-photos/chcnav/i83-1.png",
@@ -663,8 +663,8 @@
     },
     {
       "id": 25,
-      "name": "CHCNAV i93 IMU Kameralı GNSS Alıcısı",
-      "description": "Çift Kamera Teknolojisi, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
+      "name": "CHCNAV i93 IMU, KAMERALI, CORS-GNSS Alıcısı",
+      "description": "Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
         "/marka-photos/chcnav/i93-1.png"
