@@ -586,9 +586,9 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ve GPS, GLONASS, Galileo, BeiDou uydu sistemlerini takip edebilme.",
-        "25 km'ye kadar TK kapsama alanı ve 5 watt radyo modülü ile geniş iletişim imkanı.",
+        "25 km'ye kadar RTK kapsama alanı ve 5 watt radyo modemi ile geniş iletişim imkanı.",
         "IP67 su ve toz geçirmezlik standardı ve IK08 darbe koruması ile zorlu koşullarda dayanıklılık.",
-        "4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleriyle 20-30 km'ye kadar ağ RTK yayını.",
+        "4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleriyle NTRİP ağ RTK yayını.",
         "İki adet çıkarılabilir 7,000 mAh lityum-iyon batarya ile 12 saate kadar çalışma süresi.",
         "IMU-RTK teknolojisi ile 60°'ye kadar eğim ölçümü.",
         "RTCM 3.x, RINEX, NMEA 0183 ve HCN gibi veri formatları ile geniş uyumluluk.",
@@ -617,7 +617,7 @@
         "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
         "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümler sunar.",
         "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
-        "UHF Tx/Rx modem ile 3-8 km'ye kadar kablosuz veri iletimi.",
+        "1 watt radyo modemi ile 3-8 km'ye kadar RTK kapsama alanı.",
         "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
         "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
@@ -625,7 +625,8 @@
         "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
-        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı."
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -643,7 +644,7 @@
       "type": "akilli-gnss",
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
         "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
         "2 W radyo modem ile 15 km'ye kadar RTK yayını.",
@@ -652,13 +653,13 @@
         "İnsansız hava araçları için İHA sabit modu.",
         "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
-        "4G GSM modem ile NTRIP yayını.",
+        "4G GSM modem ile NTRIP ağ RTK yayını.",
         "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
         "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Magnesium alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
+        "Magnezyum alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
       ]
     },
     {
@@ -674,23 +675,24 @@
       "type": "akilli-gnss",
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
+        "Kamera ile AR Aplikasyonu",
         "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
-        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "2 watt radyo modem ile 15 km'ye kadar RT yayını.",
         "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
         "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri ve İnsansız hava araçları için İHA sabit modu.",
         "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "4G GSM modem ile NTRIP yayını.",
+        "4G GSM modem ile NTRIP ağ yayını.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı ve 128 GB'a kadar harici destek.",
         "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
         "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
         "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Magnesium alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım.",
-        "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
-        "Kamera ile AR Aplikasyonu",
+        "Magnezyum alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım.",
+        
         "200 Hz IMU güncelleme hızı ile otomatik IMU başlatma ve yüksek hassasiyetli eğim ölçümü.",
         "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu."
       ]
@@ -711,21 +713,21 @@
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "iStar2.0 ve iyonosfer azaltma teknolojisi ile %96 oranında güvenilir ölçüm.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
-        "16.5 saat çalışma süresi ve 18W hızlı şarj ile 3 saatte tam dolum.",
-        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "1 Watt radyo modem ile 3-8 km arası RTK yayını",
-        "Otomatik IMU başlatma ile manuel kalibrasyona gerek kalmadan yüksek hassasiyet.",
-        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "Kamera ile fotogrometrik yöntemle uzaktan koordinat ölçümü ve 3 boyutlu modelleme",
         "Kamera ile AR Aplikasyonu",
+        "iStar2.0 ve iyonosfer azaltma teknolojisi ile %96 oranında güvenilir ölçüm.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
+        "16.5 saat çalışma süresi ve 18 W hızlı şarj ile 3 saatte tam dolum.",
+        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "1 Watt radyo modem ile 3-8 km arası RTK kapsama alanı.",
+        "Otomatik IMU başlatma ile manuel kalibrasyona gerek kalmadan yüksek hassasiyet.",
         "NFC, Wi-Fi 802.11 a/b/g/n/ac ve Bluetooth 5.0 ile kablosuz bağlantı.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "Virtual Pole Tip™ teknolojisi ile CAD projeleri üzerinde nokta görselleştirme.",
         "200 Hz IMU güncelleme hızı ile otomatik eğim ölçümü ve hassasiyet.",
-        "Magnesium alaşımlı gövde ile 750 g ağırlığında kompakt tasarım.",
-        "NTRIP, RTCM ve RINEX veri formatlarını destekleyen geniş uyumluluk."
+        "Magnezyum alaşımlı gövde ile 750 g ağırlığında kompakt tasarım.",
+        "NTRIP, RTCM ve RINEX veri formatlarını destekleyen geniş uyumluluk.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -744,12 +746,11 @@
       "type": "akilli-gnss",
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "Kamera ile AR Aplikasyonu",
         "5. Nesil Ultra-IMU teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
         "17 saat çalışma süresi ve 4.5 saatte tam şarj ile uzun süreli kullanım.",
         "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "Kamera ile AR Aplikasyonu",
-        "İnsansız hava araçları için İHA sabit modu",
         "4. Nesil Air-Medium GNSS anteni ile %96 üzerinde RTK fix oranı.",
         "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
         "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
@@ -757,8 +758,9 @@
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
         "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Magnesium alaşımlı gövde ile 450 g ağırlığında kompakt ve dayanıklı tasarım.",
-        "CAD+AR ile %40 daha hızlı kamera aplikasyonu imkanı"
+        "Magnezyum alaşımlı gövde ile 450 g ağırlığında kompakt ve dayanıklı tasarım.",
+        "CAD+AR ile %40 daha hızlı kamera aplikasyonu imkanı",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -968,17 +970,19 @@
       "typeTitle": "Kontrol Üniteleri ve Tabletler",
       "specs": [
         "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
-        "2.0 GHz Qualcomm Snapdragon octa-core işlemci ve DDR3 bellek ile yüksek performans.",
+        "2.0 GHz Qualcomm Snapdragon 8 çekirdek işlemci ve DDR3 bellek ile yüksek performans.",
         "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "Android 12 İşletim Sistemli.",
         "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
-        "6000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık.",
+        "8000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
         "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
         "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
         "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
         "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
         "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
         "Dual SIM 4G modem ile kesintisiz internet bağlantısı.",
-        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık."
+        
       ]
     },
     {
@@ -997,9 +1001,10 @@
       "type": "control-unit-tablet",
       "typeTitle": "Kontrol Üniteleri ve Tabletler",
       "specs": [
-        "1408 kanallı yüksek hassasiyetli GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
+        "1408 kanallı yüksek hassasiyetli GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou uydu desteği.",
         "8.1 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
-        "2.0 GHz octa-core işlemci ile büyük haritalar ve veri setlerinde hızlı işlem.",
+        "2.0 GHz 8 çekirdek işlemci ile büyük haritalar ve veri setlerinde hızlı işlem.",
+        "Android 12 İşletim Sistemli.",
         "Dual SIM 4G modem ile hızlı ve kesintisiz internet bağlantısı.",
         "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullara dayanıklı.",
         "9000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
@@ -1009,7 +1014,7 @@
         "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
         "Type-C USB ve OTG desteği ile kolay veri aktarımı.",
         "IP67 standartlarına göre 1.2 metreye kadar düşmelere karşı dayanıklılık.",
-        "Centimetre ve decimetre seviyesinde hassasiyet sunan RTK teknolojisi."
+        "Santimetre hassasiyet sunan RTK teknolojisi."
       ]
     },
     {
@@ -1027,17 +1032,18 @@
       "typeTitle": "Kontrol Üniteleri ve Tabletler",
       "specs": [
         "5.5 inç DragonTrail™ HD+ ekran ile güneş ışığında okunabilir IPS panel.",
-        "2.0 GHz Helio MTK 6762 octa-core işlemci ile yüksek performans.",
+        "2.0 GHz Helio MTK 6762 8 çekirdek işlemci ile yüksek performans.",
         "3 GB RAM ve 32 GB dahili hafıza, 128 GB'a kadar MicroSD desteği.",
+        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
         "IP67 ve MIL-STD-810H sertifikaları ile su, toz ve darbeye karşı dayanıklılık.",
         "Bluetooth 5.0, 4G modem ve çift bant Wi-Fi ile kesintisiz bağlantı.",
-        "9000 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
-        "GNSS desteği ile GPS, GLONASS ve BeiDou uydu sistemleri.",
+        "6240 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
         "Alfanumerik tuş takımı ve özelleştirilebilir kısayol tuşları ile kolay kullanım.",
         "500 nit parlaklık ile zorlu ışık koşullarında yüksek görünürlük.",
         "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
         "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
-        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu."
+        "345 g ağırlığı ile ergonomik kullanım ve taşınabilirlik."
       ]
     },
     {
@@ -1059,7 +1065,7 @@
         "Android 8.1 işletim sistemi ve 8 çekirdekli 2.2 GHz işlemci.",
         "4 GB RAM ve 64 GB dahili hafıza, 128 GB'a kadar Micro SD desteği.",
         "GPS, GLONASS, BDS ve GALILEO uydu sistemleri ile 0.05 m HRMS doğruluk.",
-        "IP67 su ve toz geçirmezlik sertifikası, 1.5 m beton düşme dayanıklılığı.",
+        "IP67 su ve toz geçirmezlik sertifikası, 1.5 m sert zemine düşme dayanıklılığı.",
         "8 inç IPS ekran, 1920x1200 çözünürlük, su geçirmez ve eldiven destekli dokunmatik ekran.",
         "8000 mAh batarya ile 12 saate kadar çalışma süresi ve 4 saat şarj süresi.",
         "5 MP ön kamera, 16 MP arka kamera ve entegre flaş.",
