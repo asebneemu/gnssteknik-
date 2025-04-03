@@ -386,7 +386,7 @@
         "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
         "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
         "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
-        "10200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
+        "10.200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
         "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
       ]
@@ -394,7 +394,7 @@
     {
       "id": 12,
       "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modem, Yüksek Kapasiteli Batarya ve kKameralı Yüksek Hassasiyet ve Dayanıklılık Sunan SV1 GNSS Alıcısı",
+      "description": "2 W Radyo Modem, 15 km RTK Yayını, 15 Saat Yüksek Batarya Ömrüyle SV1 GNSS Alıcısı",
       "images": [
         "/marka-photos/stec/sv1.0.png",
         "/marka-photos/stec/sv1.1.png",
@@ -405,25 +405,27 @@
       "brand": "stec",
       "specs": [
         "1,408 kanal ve 21 frekans desteği ile tüm uydu sistemlerini takip edebilir.",
-        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+        "8 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
         "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında hızlı sinyal sabitleme sağlar.",
         "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek kalmadan veri toplayabilir.",
         "SPOS ile L-band uydular üzerinden PPP ve HAS desteği sunarak internet olmadan yüksek hassasiyet sağlar.",
-        "2W UHF Rx/Tx iç anten ile 15 km'ye kadar güvenli ve stabil veri iletimi yapar.",
+        "2W 2 W radyo modem ile 15 km'ye kadar RTK yayını.",
+        "İnsansız hava araçları için İHA sabit modu",
         "IP68 su ve toz geçirmezlik standardı ile zorlu çevre koşullarında sorunsuz çalışır.",
         "Type-C USB, SIM kart yuvası ve radyo anten portu ile geniş bağlantı seçenekleri sunar.",
-        "Magnesium alaşımlı gövde ve 740g ağırlığı ile hafif ve dayanıklıdır.",
+        "Magnezyum alaşımlı gövde ve 740g ağırlığı ile hafif ve dayanıklıdır.",
         "74 mm genişlik ve 128 mm yükseklik ile kompakt bir tasarıma sahiptir.",
         "Kamera destekli AR aplikasyon çözümü ile hassas aplikasyonu sağlar.",
-        "İnsansız hava araçları için İHA sabit modu",
-        "4G GSM modem ile NTRIP yayını.",
-        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği VE RINEX VE NMEA mesajlarını kaydetme."
+ 
+        "4G GSM modem ile NTRIP ağ RTK yayını",
+        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RINEX VE NMEA mesajlarını kaydetme."
       ]
     },
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modemli, Lazerle Ölçüm ve Aplikasyon İmkansı Sunan, Yüksek hassasiyetli, AR destekli ve IMU tabanlı SDi GNSS Alıcısı.",
+      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkan ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/sdi.0.png",
         "/marka-photos/stec/sdi.1.png",
@@ -435,20 +437,20 @@
       "brand": "stec",
       "specs": [
         "1,408 kanal desteği ile tüm küresel GNSS sistemlerini destekler.",
-        "8mm RTK yatay, 15mm dikey hassasiyet sunar.",
+        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
+        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
+        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
+        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet sunar.",
         "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
         "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
-        "UHF Radyo Modemi (2W Tx/Rx) ile 15 km'ye kadar veri iletimi yapabilir.",
-        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği VE RINEX VE NMEA mesajlarını kaydetme.",
-        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
+        "2 W Radyo Modemi ile 15 km'ye kadar veri iletimi yapabilir.",
+        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RINEX VE NMEA mesajlarını kaydetme.",
         "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
         "Magnesium alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
         "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
         "NFC özelliği ile hızlı bağlantı kurulabilir.",
-        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
-        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
-        "Kamera ile AR Aplikasyonu yapabilir.",
-        "13600 mAh batarya ile 15 saat çalışma süresi sunar.",
+        "13.600 mAh batarya ile 15 saat çalışma süresi sunar.",
         "İnsansız hava araçları için İHA sabit modu"
       ]
     },
@@ -655,7 +657,7 @@
         "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
         "4G GSM modem ile NTRIP ağ RTK yayını.",
         "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
-        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet",
         "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
         "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
