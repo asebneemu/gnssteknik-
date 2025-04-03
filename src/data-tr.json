@@ -955,8 +955,8 @@
     },
     {
       "id": 41,
-      "name": "CHCNAV LT60H GNSS RTK Tablet",
-      "description": "6.3 İnçlik Telefon Boyutuyla cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Tablet.",
+      "name": "CHCNAV LT60H GNSS RTK Android Tablet",
+      "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
       "images": [
         "/marka-photos/chcnav/lt60h-0.png",
         "/marka-photos/chcnav/lt60h-1.png",
@@ -983,8 +983,8 @@
     },
     {
       "id": 42,
-      "name": "CHCNAV LT800H GNSS RTK Tablet",
-      "description": "8.1 İnçlik Boyutuyla cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Tablet.",
+      "name": "CHCNAV LT800H GNSS RTK Android Tablet",
+      "description": "8.1 İnçlik Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Android Tablet.",
       "images": [
         "/marka-photos/chcnav/lt800h-0.png",
         "/marka-photos/chcnav/lt800h-1.png",
@@ -1014,8 +1014,8 @@
     },
     {
       "id": 43,
-      "name": "CHCNAV HCE600 Dayanıklı Saha Kontrol Ünitesi",
-      "description": "Yüksek dayanıklılık ve hassasiyet sunan HCE600 saha kontrol cihazı.",
+      "name": "CHCNAV HCE600 Android Kontrol Ünitesi",
+      "description": "5.5 İnç, 500 Nit HD+ Ekranıyla, 14 Saat Çalışma Süresiyle HCE600 Android Kontrol Ünitesi.",
       "images": [
         "/marka-photos/chcnav/hce600-0.png",
         "/marka-photos/chcnav/hce600-1.png",
@@ -1042,8 +1042,8 @@
     },
     {
       "id": 45,
-      "name": "CHCNAV LT700H RTK Android Tablet",
-      "description": "Dayanıklı yapısı ve yüksek hassasiyetli GNSS desteği ile LT700H RTK tableti.",
+      "name": "CHCNAV LT700H GNSS RTK Android Tablet",
+      "description": "8 İnçlik Boyutuyla, 12 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT700H GNSS Akıllı Android Tablet.",
       "images": [
         "/marka-photos/chcnav/lt700h-0.png",
         "/marka-photos/chcnav/lt700h-1.png",
