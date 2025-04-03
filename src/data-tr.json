@@ -573,7 +573,7 @@
     },
     {
       "id": 22,
-      "name": "CHCNAV iBase GNSS Alıcısı",
+      "name": "CHCNAV iBase IMU CORS-GNSS Alıcısı",
       "description": "5 Watt Radyo Modem, 25 km Menzilli Yüksek Hassasiyet ve Dayanıklılık Sunan iBase GNSS Alıcısı.",
       "images": [
         "/marka-photos/chcnav/iBase-0.png",
@@ -602,7 +602,7 @@
     },
     {
       "id": 23,
-      "name": "CHCNAV i73+ IMU Kameralı GNSS Alıcısı",
+      "name": "CHCNAV i73+ IMU GNSS Alıcısı",
       "description": "Hafif Avuçiçi Boyutuyla, 1 W Radyo Modemli, IMU Kameralı, Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i73+-0.png",
