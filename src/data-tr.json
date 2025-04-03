@@ -876,7 +876,7 @@
     },
     {
       "id": 36,
-      "name": "CHCNAV P5U GNSS Referans Alıcısı",
+      "name": "CHCNAV P5U GNSS Referans CORS İstasyonu",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
       "images": [
         "/marka-photos/chcnav/p5-0.png",
@@ -887,7 +887,7 @@
       "type": "reference-station",
       "typeTitle": "Referans İstasyonları",
       "specs": [
-        "624 kanal desteği ile GPS, GLONASS, Galileo, BDS ve QZSS uydu sistemlerini aynı anda takip edebilir.",
+        "1408 kanal desteği ile GPS, GLONASS, Galileo, BDS ve QZSS uydu sistemlerini aynı anda takip edebilir.",
         "8 mm + 1 ppm yatay ve 15 mm + 1 ppm dikey RTK hassasiyeti.",
         "32 GB dahili depolama ve 1 TB'a kadar harici depolama desteği.",
         "24 saate kadar kesintisiz çalışma süresi sunan dahili lityum-iyon batarya.",
@@ -955,8 +955,8 @@
     },
     {
       "id": 41,
-      "name": "CHCNAV LT60H Dayanıklı GNSS Akıllı Telefon",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan LT60H GNSS akıllı telefon.",
+      "name": "CHCNAV LT60H GNSS RTK Tablet",
+      "description": "6.3 İnçlik Telefon Boyutuyla cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Tablet.",
       "images": [
         "/marka-photos/chcnav/lt60h-0.png",
         "/marka-photos/chcnav/lt60h-1.png",
@@ -983,8 +983,8 @@
     },
     {
       "id": 42,
-      "name": "CHCNAV LT800H GNSS Dayanıklı RTK Tablet",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan LT800H GNSS RTK tablet.",
+      "name": "CHCNAV LT800H GNSS RTK Tablet",
+      "description": "8.1 İnçlik Boyutuyla cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Tablet.",
       "images": [
         "/marka-photos/chcnav/lt800h-0.png",
         "/marka-photos/chcnav/lt800h-1.png",
