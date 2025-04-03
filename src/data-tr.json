@@ -368,7 +368,7 @@
     {
       "id": 13,
       "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
-      "description": "Açuç içi Boyutuyla 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
+      "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/se-lite.0.png",
         "/marka-photos/stec/se-lite.1.png",
@@ -379,6 +379,7 @@
       "specs": [
         "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
         "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
+               "İnsansız hava araçları için İHA sabit modu",
         "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
         "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
         "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
@@ -387,8 +388,7 @@
         "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
         "10200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
         "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
-        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
-        "İnsansız hava araçları için İHA sabit modu"
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
       ]
     },
     {
@@ -665,7 +665,7 @@
     {
       "id": 25,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
-      "description": "Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
+      "description": "Kamera ile Ölçüm-Aplikasyon, 3D Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
         "/marka-photos/chcnav/i93-1.png"
@@ -1064,10 +1064,10 @@
       "specs": [
         "Android 8.1 işletim sistemi ve 8 çekirdekli 2.2 GHz işlemci.",
         "4 GB RAM ve 64 GB dahili hafıza, 128 GB'a kadar Micro SD desteği.",
-        "GPS, GLONASS, BDS ve GALILEO uydu sistemleri ile 0.05 m HRMS doğruluk.",
+        "GPS, GLONASS, BDS ve GALILEO uydu sistemleri ile 5 cm HRMS doğruluk.",
         "IP67 su ve toz geçirmezlik sertifikası, 1.5 m sert zemine düşme dayanıklılığı.",
         "8 inç IPS ekran, 1920x1200 çözünürlük, su geçirmez ve eldiven destekli dokunmatik ekran.",
-        "8000 mAh batarya ile 12 saate kadar çalışma süresi ve 4 saat şarj süresi.",
+        "8000 mAh batarya ile 12 saate kadar çalışma süresi ve 5.5 saat şarj süresi.",
         "5 MP ön kamera, 16 MP arka kamera ve entegre flaş.",
         "Wi-Fi, Bluetooth 4.1, Type-C/OTG bağlantı desteği.",
         "NFC, G-sensör, ışık sensörü, mesafe sensörü, e-pusula ve jiroskop.",
@@ -1077,7 +1077,7 @@
     {
       "id": 50,
       "name": "CHCNAV CTS-A100 Android Total Station",
-      "description": "2'' Açı Hassasiyeti, 1300 m Reklektörsüz Okuma, Android İşletim Sistemli, Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
+      "description": "2'' Açı Hassasiyeti, 1500 m Reklektörsüz Okuma, Android İşletim Sistemli, Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
       "images": [
         "/marka-photos/chcnav/cts-a100-0.jpg",
         "/marka-photos/chcnav/cts-a100-1.jpg",
@@ -1088,14 +1088,14 @@
       "brand": "chcnav",
       "specs": [
         "Android işletim sistemi ve LandStar 8 yazılımı ile kullanıcı dostu arayüz.",
-        "Qualcomm octa-core işlemci, 3 GB RAM ve 32 GB ROM ile yüksek işlem gücü.",
+        "Qualcomm 8 çekirdek işlemci, 3 GB RAM ve 32 GB ROM ile yüksek işlem gücü.",
         "5000 m reklektörlü ve 1500 m reflektörsüz ölçüm menzili ile güçlü EDM sistemi.",
-        "2'' açısal hassasiyet ve çift eksenli elektronik kompansatör ile yüksek doğruluk.",
+        "2'' açı hassasiyeti ve çift eksenli elektronik kompansatör ile yüksek doğruluk.",
         "IP55 su ve toz geçirmezlik standardı ile zorlu saha koşullarında dayanıklılık.",
         "5.0 inç HD ekran ile güneş ışığında bile net görüntü.",
         "Wi-Fi ve 4G bağlantıları ile bulut servisleri üzerinden veri aktarımı.",
         "MetaCAD motoru ile CAD tabanlı işlemler ve hızlı ölçüm verisi işleme.",
-        "3 mm + 2 ppm hassasiyet ile reflektörsüz, 2 mm + 2 ppm hassasiyet ile prizmalı ölçüm.",
+        "Reflektörsüz 3 mm + 2 ppm hassasiyet, reflektörlü 2 mm + 2 ppm hassasiyet ile ölçüm.",
         "Otomatik sıcaklık ve basınç düzeltme sensörleri ile çevresel faktörlere karşı hassas ölçüm.",
         "27x büyütme ve 1.5 m - sonsuz arası netleme mesafesi ile detaylı gözlem.",
         "5000 mAh bataryayla ve 8 saat batarya süresi ile uzun saha çalışmaları.",
@@ -1134,7 +1134,7 @@
     {
       "id": 60,
       "name": "CHCNAV AA10 LiDAR Sistemi",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan AA10 LiDAR+RGB sistemi.",
+      "description": "2-5 cm Mutlak Hassasiyet, Saniyede 500.000 Nokta Tarama Kapasitesi ve 8 Hedef Yankı İmkan Sunan AA10 LiDAR+RGB Sistemi.",
       "images": [
         "/marka-photos/chcnav/aa10-0.png",
         "/marka-photos/chcnav/aa10-1.png",
@@ -1352,7 +1352,7 @@
     {
       "id": 70,
       "name": "CHCNAV X500 İnsansız Hava Aracı (İHA)",
-      "description": "Yüksek performans ve esneklik sunan X500 İHA, çok platformlu haritalama ve keşif çözümleri sunar.",
+      "description": "Yüksek Performans ve Esneklik Sunan X500 İHA, Çok Platformlu Haritalama ve Keşif Çözümleri",
       "images": [
         "/marka-photos/chcnav/x500-0.png",
         "/marka-photos/chcnav/x500-1.png",
@@ -1362,24 +1362,23 @@
       "category": "iha",
       "brand": "chcnav",
       "specs": [
-        "5 kg yük taşıma kapasitesi ve 58 dakikaya kadar uçuş süresi.",
+        "5 kg yük taşıma kapasitesi ve maksimum 58 dakikaya kadar uçuş süresi.",
         "IP55 su ve toz geçirmezlik ile zorlu koşullarda güvenilir kullanım.",
         "20 km'ye kadar menzil sunan CHCNAV video iletim sistemi.",
         "Millimetre dalga radarı ile 80 metreye kadar engel algılama.",
-        "Dual GNSS, triple IMU ve çift yedekli uçuş kontrolü ile güvenli operasyon.",
+        "Dual GNSS, üçlü IMU ve çift yedekli uçuş kontrolü ile güvenli operasyon.",
         "10.1 inç dokunmatik ekranlı uzaktan kumanda ile kolay kontrol.",
         "CHCNAV SmartGo yazılımı ile dikdörtgen, şerit, poligonal ve cephe rotaları desteği.",
         "45° tarama açısı ve 200 tarama/sn hız ile hızlı ve detaylı tarama.",
         "13.9 kg maksimum kalkış ağırlığı ve 5.0 kg taşıma kapasitesi.",
         "±0.5 m dikey ve ±1.5 m yatay GNSS hassasiyeti.",
-        "Skyport arayüzü ile DJI M300 ve M210 V2 UAV'lerle uyumlu.",
         "32 GB dahili depolama ve USB Type-C ile hızlı veri aktarımı."
       ]
     },
     {
       "id": 71,
-      "name": "CHCNAV C5 İnsansız Hava Aracı (İHA) Hava Haritalama Kamerası",
-      "description": "Hafif ve yüksek performanslı C5 kamera, hava haritalama ve fotogrametrik uygulamalar için tasarlanmıştır.",
+      "name": "CHCNAV C5 İHA Hava Haritalama Kamerası",
+      "description": "Hafif ve Yüksek Performanslı C5 Kamera, Hava Haritalama ve Fotogrametrik Uygulamalar İçin Tasarlanmıştır.",
       "images": [
         "/marka-photos/chcnav/c5-0.png",
         "/marka-photos/chcnav/c5-1.png",
@@ -1403,8 +1402,8 @@
     },
     {
       "id": 72,
-      "name": "CHCNAV C30 İnsansız Hava Aracı (İHA) Hava Haritalama Kamerası",
-      "description": "Profesyonel hava haritalama çözümleri sunan C30 kamera, yüksek çözünürlüklü ve hassas çekimler yapar.",
+      "name": "CHCNAV C30 İHA Hava Haritalama Kamerası",
+      "description": "Profesyonel Hava Haritalama Çözümleri Sunan C30 Oblik Kamera, Yüksek Çözünürlüklü ve Hassas Çekimler Yapar.",
       "images": [
         "/marka-photos/chcnav/c30-0.png",
         "/marka-photos/chcnav/c30-1.png",
@@ -1415,15 +1414,16 @@
       "type": "hava-haritalama-kameralari",
       "typeTitle": "Hava Haritalama Kameraları",
       "specs": [
-        "600 gram ağırlığı ve 110 x 108 x 85 mm boyutları ile kompakt ve dayanıklı.",
+        "605 gram ağırlığı ve 110 x 108 x 85 mm boyutları ile kompakt ve dayanıklı.",
         "640 GB harici hafıza kartı ve 300 Mb/s veri aktarım hızı.",
         "Oblik fotogrametri için optimize edilmiş yüksek performanslı sistem.",
         "CoPre yazılım desteği ile nokta bulutu renklendirme ve analiz.",
-        "IP64 su ve toz geçirmezlik ile zorlu çevre koşullarında çalışma.",
+        "Ayrıntılı 3D modelleme ve karmaşık haritalama projeleri için 45° ve 90°'de eğik görüntü yakalama.",
         "45 MP çözünürlük ve düşük distorsiyonlu lens.",
         "Skyport uyumluluğu ile DJI ve CHCNAV dronlarıyla entegrasyon.",
         "Saniyede 200.000 çekim kapasitesi ve 5 lense kadar destek.",
-        "Çalışma sıcaklığı: -20°C ile +50°C arası."
+        "Çalışma sıcaklığı: -20°C ile +50°C arası.",
+        "IP64 su ve toz geçirmezlik ile zorlu çevre koşullarında çalışma."
       ]
     },
     {
