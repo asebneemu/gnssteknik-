@@ -663,7 +663,7 @@
     },
     {
       "id": 25,
-      "name": "CHCNAV i93 IMU, KAMERALI, CORS-GNSS Alıcısı",
+      "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
@@ -697,8 +697,8 @@
     },
     {
       "id": 26,
-      "name": "CHCNAV i89 IMU Kameralı GNSS Alıcısı",
-      "description": "2 W Radyo Modemli, Kamera ile ALım-Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan i89 GNSS Alıcısı",
+      "name": "CHCNAV i89 IMU Kameralı CORS-GNSS Alıcısı",
+      "description": "Portatif, Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 1 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i89-0.png",
         "/marka-photos/chcnav/i89-1.png",
@@ -730,7 +730,7 @@
     },
     {
       "id": 27,
-      "name": "CHCNAV i76 GNSS IMU Kameralı GNSS Alıcısı",
+      "name": "CHCNAV i76 IMU Kameralı GNSS Alıcısı",
       "description": "Hafif Avuçiçi Boyutuyla, Cors-RTK gezici, Kameralı, Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
       "images": [
         "/marka-photos/chcnav/i76-0.png",
