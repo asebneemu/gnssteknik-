@@ -50,31 +50,22 @@ export default function Banner() {
         {newNavbar.map((item, index) => (
           <SwiperSlide key={index} className="h-full">
             <div
-              className="w-full h-full bg-cover bg-center flex items-center justify-center relative"
+              className="w-full h-full bg-cover bg-bottom flex items-end justify-center relative"
               style={{ backgroundImage: `url(${item["banner-photo"]})` }}
             >
               <div
-  className="bg-white bg-opacity-70 p-4 md:p-6 rounded-lg shadow-lg
-  lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
-  lg:w-4/5 lg:max-w-md lg:text-center lg:items-center
-
-  max-[1023px]:absolute
-  max-[1023px]:top-4
-  max-[1023px]:left-4
-  max-[1023px]:w-fit
-  max-[1023px]:max-w-[80%]
-  max-[1023px]:text-left
-  max-[1023px]:flex
-  max-[1023px]:flex-col
-  max-[1023px]:items-start
-  max-[1023px]:gap-1
-  flex flex-col items-start"
->
-
-                <h2 className="text-xl md:text-2xl font-bold text-gray-800">
+                className="bg-white bg-opacity-60 p-4 md:p-6 rounded-lg shadow-lg
+                lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
+                lg:w-auto lg:max-w-md lg:text-left lg:items-start
+                max-[1023px]:absolute max-[1023px]:top-4 max-[1023px]:left-4
+                max-[1023px]:w-fit max-[1023px]:max-w-[80%] max-[1023px]:text-left
+                max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:items-start
+                max-[1023px]:gap-1 flex flex-col items-start"
+              >
+                <h2 className="text-xl md:text-2xl font-bold text-gray-800 text-left w-full">
                   {item.name}
                 </h2>
-                <p className="text-gray-600 mt-2 hidden lg:block">
+                <p className="text-gray-600 mt-2 hidden lg:block text-left w-full">
                   {item["banner-description"]}
                 </p>
                 <a
@@ -82,7 +73,7 @@ export default function Banner() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="mt-3 md:mt-4 px-3 py-1.5 md:px-4 md:py-2 text-sm md:text-base bg-gray-600 text-white rounded-md">
+                  <button className="mt-3 md:mt-4 px-3 py-1.5 md:px-4 md:py-2 text-sm md:text-base bg-gray-600 text-white rounded-md text-left">
                     {language === "tr" ? "Hemen Keşfet" : "Discover Now"}
                   </button>
                 </a>
@@ -117,11 +108,11 @@ export default function Banner() {
         }
 
         .banner-slider .swiper-button-next {
-          right: 5%;
+          right: 10%;
         }
 
         .banner-slider .swiper-button-prev {
-          left: 5%;
+          left: 10%;
         }
 
         .banner-slider .swiper-pagination-bullet {

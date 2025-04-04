@@ -95,7 +95,7 @@
       "name": "CHCNAV",
       "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
-      "banner-photo": "marka-photos/chcnav-2.png",
+      "banner-photo": "marka-photos/chcnav-5.png",
       "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
@@ -114,7 +114,7 @@
       "name": "AUTEL",
       "icon": "marka-icons/autel.png",
       "path": "/autel",
-      "banner-photo": "marka-photos/autel-banner.jpg",
+      "banner-photo": "marka-photos/autel-banner-d1.png",
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
       "filter": ["/iha", "/yazilim", "/aksesuar"]
@@ -425,7 +425,7 @@
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkan ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
+      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkanı ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/sdi.0.png",
         "/marka-photos/stec/sdi.1.png",
