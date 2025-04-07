@@ -66,9 +66,10 @@ export default function NavbarSecondary() {
   }
 
   return (
-    <nav className="bg-[#f3f4f6] shadow-inner border-b border-gray-200 w-full font-medium">
+    <nav className="shadow-inner border-b border-gray-200 w-full font-medium bg-gradient-to-r from-[#f5f5f5] via-[#f0ead6] to-[#fce4e4]">
+      {/* LG ve üstü için grid düzeni */}
       <div
-        className="w-[80%] mx-auto hidden xl:grid py-2"
+        className="w-[80%] mx-auto hidden lg:grid py-2"
         style={{ gridTemplateColumns: `repeat(10, minmax(0, 1fr))` }}
       >
         {Array.from({ length: 10 }).map((_, index) => {
@@ -90,7 +91,7 @@ export default function NavbarSecondary() {
               name={item.name}
               path={`/category${activeMainPath}${item.path}`}
               onClick={() => handleSecondaryNavClick(item.path)}
-              className={`text-sm xl:text-base w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 transition-all duration-300 ${
+              className={`text-sm lg:text-base w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 transition-all duration-300 ${
                 isActive
                   ? "bg-yellow-50 text-yellow-600 border-2 border-yellow-400 shadow"
                   : "text-gray-700 hover:text-yellow-500 hover:bg-yellow-50"
@@ -100,7 +101,8 @@ export default function NavbarSecondary() {
         })}
       </div>
 
-      <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 md:hidden">
+      {/* SM ve altı için düğmeler */}
+      <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 lg:hidden">
         {filteredBrands.map((item, index) => (
           <button
             key={index}
