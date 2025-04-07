@@ -1112,8 +1112,7 @@
       "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
       "images": [
         "/marka-photos/chcnav/aa9-1.png",
-        "/marka-photos/chcnav/aa9-2.png",
-        "/marka-photos/chcnav/aa9-3.png"
+        "/marka-photos/chcnav/aa9-1.png"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -1222,12 +1221,11 @@
     },
     {
       "id": 63,
-      "name": "CHCNAV AlphaUni 300/900/1300 LiDAR Sistemi",
-      "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 300/900/1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
+      "name": "CHCNAV AlphaUni 1300 LiDAR Sistemi",
+      "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
       "images": [
-        "/marka-photos/chcnav/alphauni-1.png",
-        "/marka-photos/chcnav/alphauni-2.png",
-        "/marka-photos/chcnav/alphauni-3.png"
+        "/marka-photos/chcnav/alphauni-0.png",
+        "/marka-photos/chcnav/alphauni-1.png"
       ],
       "category": "lidar",
       "brand": "chcnav",

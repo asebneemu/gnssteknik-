@@ -19,16 +19,6 @@ export default function NavbarMain({ searching }) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  useEffect(() => {
-    const basePath = "/category";
-    if (!location.pathname.startsWith(basePath)) {
-      setActiveMainPath(null);
-      setActiveSecondaryPath(null);
-    }
-  }, [location.pathname, setActiveMainPath, setActiveSecondaryPath]);
-
-  if (!navbarsVisible) return null;
-
   const handleMainNavClick = (path) => {
     const basePath = "/category";
     const currentPath = location.pathname;
@@ -57,11 +47,12 @@ export default function NavbarMain({ searching }) {
     >
       {/* 🔥 XL ÜSTÜ: Grid olarak ikon üstte yazı altta */}
       <div
-        className="w-[80%] mx-auto hidden xl:grid py-0"
-        style={{
-          gridTemplateColumns: `repeat(${navbarItems.length}, minmax(0, 1fr))`,
-        }}
-      >
+  className="w-[80%] mx-auto hidden xl:grid py-2"
+  style={{
+    gridTemplateColumns: `repeat(${navbarItems.length}, minmax(0, 1fr))`,
+  }}
+>
+
         {navbarItems.map((item, index) => {
           const isActive = activeMainPath === item.path;
 
@@ -78,11 +69,11 @@ export default function NavbarMain({ searching }) {
               name={item.name}
               path={`/category${item.path}`}
               onClick={() => handleMainNavClick(item.path)}
-              className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center ${
+              className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 ${
                 isActive
-                  ? "border-2 border-orange-500 rounded-lg shadow-md"
-                  : "text-gray-700"
-              } hover:text-orange-500`}
+                  ? "bg-orange-50 text-orange-600 border-2 border-orange-400 shadow"
+                  : "text-gray-700 hover:text-orange-500 hover:bg-orange-50"
+              }`}
             />
           );
         })}
@@ -106,7 +97,7 @@ export default function NavbarMain({ searching }) {
             />
             <button
               onClick={() => handleMainNavClick(item.path)}
-              className="transition-all w-full hover:text-orange-500 text-lg md:text-base sm:text-sm"
+              className="transition-all w-full hover:text-orange-500 text-lg md:text-base sm:text-sm "
             >
               {item.name}
             </button>
