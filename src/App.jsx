@@ -22,6 +22,7 @@ import CompareButton from "./components/CompareButton";
 import CustomersPage from "./pages/CustomersPage";
 
 import { useState } from "react";
+import SenceiveSensorPage from "./pages/SenceiveSensorPage";
 
 function AppContent() {
   // 🔥 Arama aktifse navbar sabitliği iptal
@@ -51,7 +52,8 @@ function AppContent() {
         <Route path={productDetailPath} element={<ProductDetailPage />} />
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />
-      </Routes>
+        <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />
+              </Routes>
     </Router>
   );
 }

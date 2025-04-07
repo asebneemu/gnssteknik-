@@ -114,7 +114,7 @@
       "name": "AUTEL",
       "icon": "marka-icons/autel.png",
       "path": "/autel",
-      "banner-photo": "marka-photos/autel-banner-d1.png",
+      "banner-photo": "marka-photos/autel-banner-d4.png",
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
       "filter": ["/iha", "/yazilim", "/aksesuar"]
@@ -123,7 +123,7 @@
       "name": "DJI",
       "icon": "marka-icons/dji.png",
       "path": "/dji",
-      "banner-photo": "marka-photos/dji-banner.JPG",
+      "banner-photo": "marka-photos/dji-banner-d6.png",
       "banner-description": "DJI ile profesyonel drone çözümleri.",
       "banner-url": "https://www.dji.com",
       "filter": ["/iha", "/yazilim", "/aksesuar"]
@@ -166,7 +166,7 @@
       "name": "BENEWAKE",
       "icon": "marka-icons/benewake.png",
       "path": "/benewake",
-      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-photo": "marka-photos/benewake-banner.png",
       "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
       "banner-url": "https://www.benewake.com",
       "filter": ["/sensor", "/aksesuar"]
@@ -1165,7 +1165,7 @@
     {
       "id": 61,
       "name": "CHCNAV AA15 LiDAR Sistemi",
-      "description": "Yüksek hassasiyet ve hızlı veri toplama sunan AA15 LiDAR sistemi.",
+      "description": "Uzun Menzilli Taramalarda 15mm Hassasiyet, Saniyede 2 Milyon Lazer Tarama Hızı ve 600 Çizgi Taraması Sunan, Çeşitli Kamera Aksesuarlarını Destekleyen AA15 LiDAR KAMERA.",
       "images": [
         "/marka-photos/chcnav/aa15-0.png",
         "/marka-photos/chcnav/aa15-1.png",
@@ -1177,17 +1177,16 @@
       "type": "airborne-lidar",
       "typeTitle": "Airborne LiDAR Sistemleri",
       "specs": [
-        "15 mm doğruluk ve 2-5 cm mutlak hassasiyet ile yüksek doğrulukta ölçüm.",
-        "2 milyon pulse/saniye tarama hızı ve 600 tarama/saniye ile yüksek yoğunluklu nokta bulutları oluşturma.",
+        "150 metreye kadar uzun menzilli taramalarda 15 mm doğrusal hassasiyet sunar.",
+        "Saniyede 2 milyon lazer tarama hızı ve saniyede 600 çizgi taraması.",
         "150 metreye kadar uzun menzil tarama kapasitesi ve 16 hedef yankıya kadar çoklu hedef desteği.",
         "2.5 kg ağırlığı ile sınıfının en hafif LiDAR sistemlerinden biri.",
         "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
         "CHCNAV CoPre ve CoProcess yazılımları ile otomatik veri işleme ve özellik çıkarımı.",
         "DJI dronelar ve çeşitli hava platformları ile uyumlu.",
-        "45 MP ve 61 MP harici kamera destekleri ile yüksek çözünürlüklü görüntüleme.",
-        "247 mm × 126 mm × 156 mm boyutlarında kompakt tasarım.",
+        "CHCNAV'ın 45 veya 61 MP tam kare kalibre edilmiş kameraları ve 130 MP yarım kare eğik kameralar dahil olmak üzere çeşitli harici kamera aksesuarlarını destekler.",
+        "247 mm × 128 mm × 156 mm boyutlarında kompakt tasarım.",
         "512 GB dahili depolama ve 1 TB'a kadar genişletilebilir hafıza desteği.",
-        "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
         "0.032° lazer sapma açısı ve 75° görüş açısı ile hassas 3D modelleme."
       ]
     },

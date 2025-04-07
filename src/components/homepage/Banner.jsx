@@ -50,7 +50,7 @@ export default function Banner() {
         {newNavbar.map((item, index) => (
           <SwiperSlide key={index} className="h-full">
             <div
-              className="w-full h-full bg-cover bg-bottom flex items-end justify-center relative"
+              className="w-full h-full bg-cover bg-bottom flex items-center justify-center relative"
               style={{ backgroundImage: `url(${item["banner-photo"]})` }}
             >
               <div
