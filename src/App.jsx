@@ -48,11 +48,20 @@ function AppContent() {
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
-        <Route path={productListPath} element={<ProductListPage />} />
         <Route path={productDetailPath} element={<ProductDetailPage />} />
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />
+
+        {/* Özel sayfa (Senceive tanıtım) */}
         <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />
+
+        {/* Ürün listeleme (flatmesh/geowan tıklanınca) */}
+        <Route path="/products/senceive" element={<ProductListPage />} />
+
+        {/* Genel ürün listesi */}
+        <Route path={productListPath} element={<ProductListPage />} />
+   
+
               </Routes>
     </Router>
   );

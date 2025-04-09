@@ -20,6 +20,14 @@ export default function NavbarSecondary() {
   const { data } = useLanguage();
   const { newNavbar = [] } = data;
 
+  // Sayfa yüklendiğinde localStorage'dan aktif secondary path'i yükle
+  useEffect(() => {
+    const savedSecondaryPath = localStorage.getItem("activeSecondaryPath");
+    if (savedSecondaryPath) {
+      setActiveSecondaryPath(savedSecondaryPath);
+    }
+  }, [setActiveSecondaryPath]);
+
   useEffect(() => {
     const basePath = `/category${activeMainPath || ""}`;
     if (location.pathname === "/") {
@@ -51,8 +59,10 @@ export default function NavbarSecondary() {
       if (currentPath === targetPath) {
         navigate(`/category${activeMainPath}`);
         setActiveSecondaryPath(null);
+        localStorage.removeItem("activeSecondaryPath"); // Seçimi sıfırla
       } else {
         setActiveSecondaryPath(brandPath);
+        localStorage.setItem("activeSecondaryPath", brandPath); // Seçimi kaydet
         navigate(targetPath);
       }
 

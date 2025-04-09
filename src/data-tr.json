@@ -1135,7 +1135,7 @@
     {
       "id": 60,
       "name": "CHCNAV AA10 LiDAR Sistemi",
-      "description": "2-5 cm Mutlak Hassasiyet, Saniyede 500.000 Nokta Tarama Kapasitesi ve 8 Hedef Yankı İmkan Sunan AA10 LiDAR+RGB Sistemi.",
+      "description": "8 Geri Dönüş Özelliği, 800 Metreye Kadar Tarama Menzili ve Saniyede 500.000 Nokta Tarama Hızıyla Yüksek Hassasiyetli Veri Toplama İmkanı Sunan AA10 Lidar Kamera.",
       "images": [
         "/marka-photos/chcnav/aa10-0.png",
         "/marka-photos/chcnav/aa10-1.png",
@@ -2910,142 +2910,746 @@
     },
     {
       "id": 500,
-      "name": "Senceive Nano Triaxial Eğim Sensör Düğümü",
-      "title": "Nano Triaxial Tilt Sensör – Ultra Kompakt Eğim İzleme Çözümü",
-      "description": "Senceive Nano Triaxial Tilt Sensör, altyapı ve yapı projelerinde eğim değişikliklerini ultra hassasiyetle izlemek için tasarlanmış, IP68 korumalı, kablosuz bağlantılı ve 12 yıla kadar pil ömrü sunan kompakt bir sensördür.",
+      "name": "Senceive Nano Triaxial Tilt Sensor Node",
+      "title": "Nano Triaxial Tilt Sensor Node – Hassas ve Kompakt Eğilme Sensörü",
+      "description": "Senceive Nano Triaxial Tilt Sensor Node, tüneller, köprüler, binalar ve demiryolu hatları gibi yapılar için yüksek hassasiyetli eğim ölçümü sağlayan, kompakt ve dayanıklı bir kablosuz sensördür. IP68/IP69K koruma sınıfına sahip olup, zorlu çevre koşullarında uzun ömürlü performans sunar.",
       "images": [
-        "/marka-photos/senceive/nano-tilt-0.png",
-        "/marka-photos/senceive/nano-tilt-1.png",
-        "/marka-photos/senceive/nano-tilt-2.png"
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-0.png",
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-1.png",
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-2.png"
       ],
       "category": "sensor",
       "brand": "senceive",
       "type": "tilt-sensor",
-      "typeTitle": "Eğim Ölçüm Sensörleri",
+      "typeTitle": "Eğilme Sensörleri",
+      "technology": ["flatmesh"],
       "specs": [
-        "±15° ölçüm yapabilir.",
-        "0.0001° ultra hassasiyet sağlar.",
-        "12 yıla kadar kesintisiz çalışır.",
-        "-40°C ile +85°C arasında performans gösterir.",
-        "FlatMesh™ ve GeoWAN™ ile uyumludur.",
-        "IP68 suya ve toza dayanıklıdır.",
-        "63 mm x 38 mm x 33 mm ultra kompakt tasarım.",
-        "Hızlı ve ayarlanabilir montaj kolaylığı sağlar."
+        "±3° veya ±10° aralık seçenekleriyle eğim ölçümü yapabilir.",
+        "0.0001° (0.00175 mm/m) çözünürlük ve ±0.0005° (±0.0087 mm/m) tekrarlanabilirlik sunar.",
+        "IP68/IP69K sınıfı ile toz, su ve zorlu hava koşullarına karşı maksimum koruma sağlar.",
+        "NFC üzerinden saha konfigürasyonu mümkündür.",
+        "15 yıla kadar pil ömrü ile bakım gerektirmeden uzun süre çalışabilir.",
+        "Her yönde monte edilebilir ve kalibrasyon gerektirmez."
       ]
     },
     {
       "id": 501,
-      "name": "Senceive Triaxial Eğim Sensör Düğümü",
-      "title": "Triaxial Tilt Sensor – Üç Eksenli Yüksek Hassasiyetli Eğim Ölçüm Sensörü",
-      "description": "Senceive Triaxial Tilt Sensor Node, üç eksende ultra hassas eğim değişikliği ölçümü yapabilen, IP68 korumalı, kablosuz veri aktarımı sağlayan ve 12 yıla kadar pil ömrü sunan profesyonel yapısal izleme sensörüdür.",
+      "name": "Senceive Triaxial Tilt Sensor Node",
+      "title": "Triaxial Tilt Sensor Node – Üç Eksenli Kablosuz Eğilme Sensörü",
+      "description": "Senceive Triaxial Tilt Sensor Node, tünel deformasyonu, yapı hareketleri ve demiryolu hatlarındaki eğim değişimlerini izlemek için tasarlanmış, yüksek hassasiyetli üç eksenli kablosuz bir eğim ölçer sensördür. Değişken raporlama hızları ve sağlam tasarımıyla çeşitli uygulamalar için uygundur.",
       "images": [
-        "/marka-photos/senceive/triaxial-tilt-0.png",
-        "/marka-photos/senceive/triaxial-tilt-1.png"
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-0.png",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-1.png",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-2.png"
       ],
       "category": "sensor",
       "brand": "senceive",
       "type": "tilt-sensor",
-      "typeTitle": "Eğim Ölçüm Sensörleri",
+      "typeTitle": "Eğilme Sensörleri",
+      "technology": ["flatmesh", "geowan"],
       "specs": [
-        "±15° eğim ölçümü yapabilir.",
-        "0.0001° ölçüm doğruluğu sağlar.",
-        "12 yıla kadar kesintisiz kullanım imkanı sunar.",
-        "-40°C ile +85°C arasında çalışır.",
-        "FlatMesh™ ve GeoWAN™ platformlarıyla uyumludur.",
-        "IP68 suya ve toza karşı dayanıklıdır.",
-        "Sahada hızlı ve pratik montaj imkanı sunar."
+        "±3°, ±5° veya ±10° eğim aralığı opsiyonları sunar.",
+        "0.0001° (0.0018 mm/m) çözünürlük ve ±0.0005° tekrarlanabilirlik sağlar.",
+        "IP66/IP67/IP68 koruma sınıfına sahiptir.",
+        "12-15 yıla kadar batarya ömrü ile uzun vadeli izleme sağlar.",
+        "Sıcaklık sensörü entegredir, çevresel etkilerle birlikte veri sağlar.",
+        "FlatMesh™ ve GeoWAN™ kablosuz ağ protokolleriyle tam uyumludur."
       ]
     },
     {
       "id": 502,
       "name": "Senceive Tilt Beam",
-      "title": "Tilt Beam – Modüler Yüzey Deformasyon Ölçüm Sistemi",
-      "description": "Senceive Tilt Beam, yüzey ve yapı hareketlerini uzun mesafelerde hassas ölçümle izlemeye imkan tanıyan, kablosuz bağlantılı, modüler tasarımlı, IP68 korumalı ve 12 yıla kadar pil ömrü sunan gelişmiş izleme sensörüdür.",
+      "title": "Tilt Beam – Kablosuz Eğilme Işını",
+      "description": "Senceive Tilt Beam, Triaxial Tilt Sensor Node, NanoPlus veya NanoMacro ile birlikte kullanılan, hafif ve sağlam alüminyum bir ışındır. Herhangi bir yönde monte edilebilir ve tekli veya zincirleme yapılandırmalarda hızlıca kurulabilir.",
       "images": [
         "/marka-photos/senceive/tilt-beam-0.png",
-        "/marka-photos/senceive/tilt-beam-1.png",
-        "/marka-photos/senceive/tilt-beam-2.png",
-        "/marka-photos/senceive/tilt-beam-3.png"
+        "/marka-photos/senceive/tilt-beam-1.png"
       ],
       "category": "sensor",
       "brand": "senceive",
-      "type": "tilt-beam",
-      "typeTitle": "Eğim Kiriş Ölçüm Sistemleri",
+      "type": "tilt-sensor",
+      "typeTitle": "Eğilme Sensörleri",
+      "technology": ["flatmesh", "geowan"],
       "specs": [
-        "±15° eğim ölçüm kapasitesi sunar.",
-        "0.0001° ölçüm doğruluğu sağlar.",
-        "Bağlanabilir modüllerle uzun hat izleme imkanı sunar.",
-        "12 yıla kadar uzun süreli kullanım sağlar.",
-        "-40°C ile +85°C arasında çalışır.",
-        "FlatMesh™ ve GeoWAN™ platformlarıyla tam entegredir.",
-        "IP68 seviyesinde suya ve toza dayanıklıdır.",
-        "Kolayca sabitlenebilir ve genişletilebilir yapıdadır."
+        "Farklı uzunluklarda alüminyum gövde seçeneği mevcuttur.",
+        "Triaxial veya Nano Tilt Sensörlerle doğrudan uyumludur.",
+        "Zincirleme kurulum ile uzun yapılar boyunca eğim profili elde edilir.",
+        "Aletsiz montaj imkanı ile dakikalar içinde kurulum yapılabilir.",
+        "Seviye ayarı gerektirmeden herhangi bir yönde monte edilebilir.",
+        "Dış ortam koşullarına dayanıklı, bakım gerektirmeyen tasarım sunar."
       ]
-    },
+    }, 
     {
       "id": 503,
-      "name": "Senceive Optik Yer Değiştirme Sensör Düğümü",
-      "title": "Optical Displacement Sensör – Lazer Tabanlı Yüzey Hareket İzleme",
-      "description": "Senceive Optical Displacement Sensor, lazer tabanlı teknolojisiyle yapı yüzeylerindeki küçük yer değişimlerini milimetre seviyesinde izleyen, IP68 korumalı, kablosuz veri aktarımı ve 50 metreye kadar ölçüm kapasitesi sunan profesyonel bir sensördür.",
+      "name": "Senceive Optical Displacement Sensor Node",
+      "title": "Optical Displacement Sensor Node – Yapı Hareketlerini Yüksek Doğrulukla İzleme",
+      "description": "Senceive Optical Displacement Sensor Node, yapı ve altyapılarda yatay/düşey yer değiştirmeleri yüksek doğrulukla ölçmek için kullanılan optik bir sensördür. Kablosuz ve düşük bakım gereksinimiyle saha uygulamaları için idealdir.",
       "images": [
         "/marka-photos/senceive/ods-0.png",
-        "/marka-photos/senceive/ods-1.png",
-        "/marka-photos/senceive/ods-2.png"
+        "/marka-photos/senceive/ods-1.png"
       ],
       "category": "sensor",
       "brand": "senceive",
       "type": "displacement-sensor",
-      "typeTitle": "Yüzey Hareket Sensörleri",
+      "typeTitle": "Yer Değiştirme Sensörleri",
+      "technology": ["flatmesh", "geowan"],
       "specs": [
-        "0.2 ila 50 metre arasında yüzey hareketi ölçer.",
-        "±1 mm hassasiyet ile yüksek doğruluk sunar.",
-        "Entegre lazer tabanlı sensör sistemi kullanır.",
-        "5 yıla kadar uzun süreli çalışma imkanı sağlar.",
-        "-10°C ila +50°C arasında çalışır.",
-        "FlatMesh™ ve GeoWAN™ ağları ile uyumludur.",
-        "IP68 seviyesinde suya ve toza dayanıklıdır.",
-        "Duvar veya yüzey sabitlemesi ile hızlı kurulum yapılır."
+        "0.01 mm çözünürlükle yüksek hassasiyetli yer değiştirme ölçümü sağlar.",
+        "3 ila 8 metre arası ölçüm aralığına sahiptir.",
+        "Entegre lazer sensörü ile noktasal mesafe ölçümü yapar.",
+        "IP68 koruma sınıfı ile zorlu çevresel koşullara dayanıklıdır.",
+        "FlatMesh™ ve GeoWAN™ kablosuz iletişim platformlarıyla uyumludur.",
+        "5 ila 10 yıl arasında pil ömrü sunar (konfigürasyona göre)."
       ]
     },
     {
       "id": 504,
-      "name": "Senceive Dijital Arayüz Düğümü",
-      "title": "Digital Interface Node – Dijital Sensörleri Kablosuz Ağa Dahil Etme Çözümü",
-      "description": "Senceive Digital Interface Node, mevcut dijital sensörlerinizi kablosuz izleme ağlarına entegre edebilmenizi sağlayan, uzun pil ömürlü, düşük güç tüketimli, IP68 korumalı ve esnek kullanım imkanı sunan profesyonel bir bağlantı arayüz çözümüdür.",
+      "name": "Senceive Digital Interface Node",
+      "title": "Digital Interface Node – Dijital Veri Toplama ve Otomasyon Çözümü",
+      "description": "Senceive Digital Interface Node, dijital çıkışlı sensörleri kablosuz bir ağ üzerinden Senceive'in arka ve ön uç platformlarına bağlayan, IP66/IP67 korumalı, uzun pil ömrüne sahip, veri toplama ve otomasyon çözümüdür.",
       "images": [
-        "/marka-photos/senceive/digital-interface-0.png",
-        "/marka-photos/senceive/digital-interface-1.png",
-        "/marka-photos/senceive/digital-interface-2.png",
-        "/marka-photos/senceive/digital-interface-3.png"
+        "/marka-photos/senceive/digital-interface-node-0.png",
+        "/marka-photos/senceive/digital-interface-node-1.png"
       ],
-      "category": "sensor",
+      "category": "sensor-interface",
       "brand": "senceive",
-      "type": "interface-node",
-      "typeTitle": "Arayüz ve Entegrasyon Modülleri",
+      "type": "digital-interface",
+      "typeTitle": "Sensör Arayüzleri",
+      "technology": ["flatmesh", "geowan"],
       "specs": [
-        "Dijital giriş ve çıkışları destekler.",
-        "12 yıla kadar uzun süreli çalışma imkanı sunar.",
-        "-40°C ila +85°C arasında çalışabilir.",
-        "FlatMesh™ ve GeoWAN™ sistemleriyle uyumludur.",
-        "IP68 seviyesinde suya ve toza karşı dayanıklıdır.",
-        "Anlık ve periyodik veri aktarımı sağlar.",
-        "Düşük güç tüketimi ve otomatik uyku modu özelliği bulunur.",
-        "Kolay sabitleme ve saha kurulum desteği sunar."
+        "IP66/IP67 koruma sınıfı ile zorlu çevre koşullarına dayanıklıdır.",
+        "Dijital çıkışlı birçok sensörle uyumludur.",
+        "FlatMesh™ ve GeoWAN™ kablosuz iletişim platformlarıyla uyumludur.",
+        "Düşük güç tüketimi ile uzun pil ömrü sunar.",
+        "Harici DC güç kaynağı ve dahili pil arasında otomatik geçiş yapabilir.",
+        "Firmware, ağ geçidi üzerinden uzaktan güncellenebilir.",
+        "NFC uyumluluğu sayesinde yerinde ayarlamalar yapılabilir.",
+        "RS232, RS422, RS485, SDI-12, MODBUS ve CAN bağlantı protokollerini destekler."
       ]
     },
     {
       "id": 505,
       "name": "Senceive Crack Sensor Node",
+      "title": "Crack Sensor Node – Çatlak ve Yapısal Hareket İzleme Çözümü",
+      "description": "Senceive Crack Sensor Node, yapıdaki çatlak hareketlerini, genleşme derzi hareketlerini ve kazık ayrılmalarını izlemek için kullanılan, yüksek hassasiyetli, kablosuz bir sensördür. IP66/IP67/IP68 koruma sınıfına sahip olup, zorlu çevre koşullarında güvenilir performans sunar.",
+      "images": [
+        "/marka-photos/senceive/crack-sensor-node-0.png",
+        "/marka-photos/senceive/crack-sensor-node-0.png"
+      ],
+      "category": "sensor-interface",
+      "brand": "senceive",
+      "type": "crack-sensor",
+      "typeTitle": "Sensör Arayüzleri",
+      "technology": ["flatmesh", "geowan"],
+      "specs": [
+        "IP66/IP67/IP68 koruma sınıfı ile suya ve toza karşı dayanıklıdır.",
+        "Otomatik sensör tipi algılama özelliğine sahiptir.",
+        "16-bit çözünürlük (65,536 adım) ile yüksek hassasiyetli ölçüm yapar.",
+        "Dahili uzun ömürlü pil ile 12-15 yıla kadar çalışma süresi sunar.",
+        "Dahili sıcaklık sensörü bulunmaktadır.",
+        "Tek ve çift kanal seçenekleri mevcuttur.",
+        "Kolay kurulum için çeşitli montaj aksesuarlarıyla birlikte gelir."
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Senceive Vibrating Wire Sensor Node",
+      "title": "Vibrating Wire Sensor Node – Titreşim Telli Sensör Entegrasyon Çözümü",
+      "description": "Senceive Vibrating Wire Sensor Node, çeşitli titreşim telli sensörlerin kablosuz bir izleme sistemine entegre edilmesini sağlayan, yüksek hassasiyetli ve düşük güç tüketimli bir arayüz düğümüdür. Yapısal ve jeoteknik izleme uygulamaları için idealdir.",
+      "images": [
+        "/marka-photos/senceive/vibrating-wire-sensor-node-0.png",
+        "/marka-photos/senceive/vibrating-wire-sensor-node-0.png",
+        "/marka-photos/senceive/vibrating-wire-sensor-node-1.png"
+      ],
+      "category": "sensor-interface",
+      "brand": "senceive",
+      "type": "vibrating-wire-interface",
+      "typeTitle": "Sensör Arayüzleri",
+      "technology": ["flatmesh", "geowan"],
+      "specs": [
+        "IP66/IP67/IP68 koruma sınıfı ile zorlu çevre koşullarına dayanıklıdır.",
+        "Çok kanallı bağlantılar için yüksek performanslı, kolay bağlantı imkanı sunar.",
+        "0.001 Hz çözünürlük ve ±0.02 Hz tekrarlanabilirlik sağlar.",
+        "10-15 yıla kadar pil ömrü ile uzun süreli izleme imkanı sunar.",
+        "FlatMesh™ ve GeoWAN™ kablosuz iletişim platformlarıyla uyumludur.",
+        "Firmware, ağ geçidi üzerinden uzaktan güncellenebilir.",
+        "Kolay kurulum için su geçirmez, sağlam konektörlere sahiptir."
+      ]
+    }, 
+    {
+      "id": 507,
+      "name": "Senceive FlatMesh 4G Kamera",
+      "title": "FlatMesh 4G Kamera – Uzaktan Görüntüleme Çözümü",
+      "description": "Senceive FlatMesh 4G Kamera, uzak veya endüstriyel alanlarda statik görüntüleme için tasarlanmış, güneş enerjisiyle çalışan yüksek çözünürlüklü bir kameradır. Gece veya gündüz, harici aydınlatmaya ihtiyaç duymadan net ve kaliteli siyah-beyaz fotoğraflar çekebilir.",
+      "images": [
+        "/marka-photos/senceive/flatmesh-4g-kamera-0.png",
+        "/marka-photos/senceive/flatmesh-4g-kamera-1.png"
+      ],
+      "category": "camera",
+      "brand": "senceive",
+      "type": "flatmesh-4g-kamera",
+      "typeTitle": "Görüntüleme ve Kamera Sistemleri",
+      "technology": ["flatmesh"],
+      "specs": [
+        "Kullanıcı tarafından tanımlanan önceden ayarlanmış bir programda görüntü gönderimi yapabilir.",
+        "Üç eksenli eğim sensör düğümleri tarafından ani hareket algılandığında otomatik olarak tetiklenebilir veya Senceive WebMonitor üzerinden kullanıcı tarafından tetiklenebilir.",
+        "Değişken odaklama sağlayan sıvı lens ile farklı saha koşullarına uyum sağlar.",
+        "Gece çekimleri için harici aydınlatıcıya ihtiyaç duymaz.",
+        "Entegre sıcaklık sensörü ve batarya izleme özelliklerine sahiptir."
+      ]
+    },  
+    {
+      "id": 508,
+      "name": "Senceive InfraGuard",
+      "title": "InfraGuard – Akıllı Hareket Algılama ve Görüntüleme Sistemi",
+      "description": "Senceive InfraGuard, ani toprak hareketlerini, heyelanları ve altyapı bozulmalarını erken tespit edebilen, eğim sensörleri ile entegre çalışan akıllı bir kablosuz izleme ve alarm sistemidir. Entegre 4G kameraları sayesinde olay anında görsel kayıt alınmasını da sağlar.",
+      "images": [
+        "/marka-photos/senceive/infraguard-0.png",
+        "/marka-photos/senceive/infraguard-1.png"
+      ],
+      "category": "monitoring-system",
+      "brand": "senceive",
+      "type": "infraguard",
+      "typeTitle": "Akıllı İzleme Sistemleri",
+      "technology": ["flatmesh"],
+      "specs": [
+        "Eğim sensörlerinden gelen ani hareket verileriyle olayları otomatik olarak algılar.",
+        "Entegre FlatMesh 4G kameralar ile olay anında görüntü sağlar.",
+        "Alarm anında e-posta, SMS ve platform üzerinden bildirim gönderebilir.",
+        "WebMonitor arayüzü ile tam konfigürasyon ve uzaktan erişim imkanı sunar.",
+        "Kendi içinde bağımsız çalışan sistemdir, ek güç veya iletişim altyapısı gerektirmez.",
+        "Zorlu dış ortam koşullarında çalışabilecek şekilde IP66/IP68 korumalıdır."
+      ]
+    },
+    {
+      "id": 509,
+      "name": "Senceive FlatMesh 3G Ağ Geçidi",
+      "title": "FlatMesh 3G Ağ Geçidi – Uzaktan Kablosuz Ağ Yönetimi",
+      "description": "Senceive FlatMesh 3G Ağ Geçidi, uzak bölgelerde FlatMesh kablosuz sensör ağlarının yönetimi ve veri iletimi için entegre bir çözümdür. Hücresel ağ üzerinden WebMonitor yazılımına bağlanarak, sabit IP adresine ihtiyaç duymadan veri aktarımı sağlar.",
+      "images": [
+        "/marka-photos/senceive/flatmesh-3g-gateway-0.png",
+        "/marka-photos/senceive/flatmesh-3g-gateway-1.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "flatmesh-3g-ag-gecidi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["flatmesh"],
+      "specs": [
+        "Beş bantlı UMTS/HSPA+ ve dört bantlı GSM/GPRS/EDGE modem içerir.",
+        "Sabit IP gerekmeden 3G bağlantısı ile uzaktan erişim sağlar.",
+        "Dahili lityum iyon pil ve entegre güneş paneli şarj devresi mevcuttur.",
+        "Tam dolu batarya ile 3 haftaya kadar kesintisiz çalışma sağlar.",
+        "Su geçirmez bağlantı noktaları ile dış ortam kullanımına uygundur.",
+        "Mikro USB bağlantısı ile yerinde veri okuma ve yapılandırma yapılabilir.",
+        "Firmware güncellemeleri kablosuz olarak yapılabilir.",
+        "Geniş sıcaklık aralığına uygun batarya opsiyonları ile esneklik sunar."
+      ]
+    },
+    {
+      "id": 510,
+      "name": "Senceive FlatMesh 4G Ağ Geçidi",
+      "title": "FlatMesh 4G Ağ Geçidi – Gelişmiş Uzaktan Kablosuz Ağ Yönetimi",
+      "description": "Senceive FlatMesh 4G Ağ Geçidi, LTE bağlantısı üzerinden WebMonitor’a erişim sağlayan, uzak sahalarda veri aktarımı için optimize edilmiş bir ağ geçididir. Gelişmiş modem desteğiyle daha hızlı ve güvenli iletişim sunar.",
+      "images": [
+        "/marka-photos/senceive/flatmesh-4g-gateway-0.png",
+        "/marka-photos/senceive/flatmesh-4g-gateway-1.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "flatmesh-4g-ag-gecidi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["flatmesh"],
+      "specs": [
+        "On iki bantlı LTE, yedi bantlı UMTS ve dört bantlı GSM desteği sunar.",
+        "3G modeline göre daha hızlı veri iletimi sağlar.",
+        "Dahili solar şarj devresi ile güneş enerjisiyle çalışabilir.",
+        "Tam dolu batarya ile tipik kullanımda 3 haftaya kadar çalışır.",
+        "Dahili hafıza ile veri tamponlama özelliği vardır.",
+        "Mikro USB bağlantısı üzerinden yerel veri aktarımı yapılabilir.",
+        "Saha güncellemeleri için firmware OTA desteği sunar.",
+        "Zorlu çevresel koşullarda çalışmaya uygun IP67 koruma sunar."
+      ]
+    },
+    {
+      "id": 511,
+      "name": "Senceive FlatMesh RS232 Ağ Geçidi",
+      "title": "FlatMesh RS232 Ağ Geçidi – PC Tabanlı Kablosuz Ağ Yönetimi",
+      "description": "Senceive FlatMesh RS232 Ağ Geçidi, internet bağlantısına gerek kalmadan bir bilgisayar aracılığıyla FlatMesh sensör ağını yerel olarak yönetmenizi ve veri kaydı almanızı sağlar.",
+      "images": [
+        "/marka-photos/senceive/flatmesh-rs232-gateway-0.png",
+        "/marka-photos/senceive/flatmesh-rs232-gateway-0.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "flatmesh-rs232-ag-gecidi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["flatmesh"],
+      "specs": [
+        "RS232 bağlantısı ile veri iletimi sağlar.",
+        "WebMonitor gerektirmeden yerel veri kaydı yapılabilir.",
+        "FlatMesh Veri Kaydedici yazılımı ile tam uyumludur.",
+        "Endüstriyel flaş bellek ile güvenli veri yedekleme sağlar.",
+        "Basit kurulum ve saha uyumu için kompakt tasarıma sahiptir.",
+        "USB güç girişi üzerinden çalıştırılabilir.",
+        "Seri bağlantı noktasından doğrudan yapılandırılabilir."
+      ]
+    },
+    {
+      "id": 512,
+      "name": "Senceive FlatMesh USB Ağ Geçidi",
+      "title": "FlatMesh USB Ağ Geçidi – PC Tabanlı Kablosuz Ağ Yönetimi",
+      "description": "Senceive FlatMesh USB Ağ Geçidi, internet bağlantısına gerek kalmadan bir bilgisayar aracılığıyla FlatMesh sensör ağını USB üzerinden yönetmenizi ve veri kaydı almanızı sağlar.",
+      "images": [
+        "/marka-photos/senceive/flatmesh-usb-gateway-0.png",
+        "/marka-photos/senceive/flatmesh-usb-gateway-1.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "flatmesh-usb-ag-gecidi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["flatmesh"],
+      "specs": [
+        "USB bağlantısı ile hızlı ve kolay kurulum sağlar.",
+        "FlatMesh Veri Kaydedici yazılımı ile uyumludur.",
+        "WebMonitor kullanmadan yerel dosya sistemine veri aktarabilir.",
+        "Kompakt tasarımı ile mobil saha kullanımı için uygundur.",
+        "Güç kaynağı olarak USB üzerinden çalışır, harici besleme gerekmez.",
+        "Endüstriyel dayanıklılığa sahip konektörler kullanır.",
+        "Seri port üzerinden yapılandırma imkanı sunar."
+      ]
+    },
+    {
+      "id": 513,
+      "name": "Senceive GeoWAN 4G Ağ Geçidi",
+      "title": "GeoWAN 4G Ağ Geçidi – Düşük Güçlü Geniş Alan Kablosuz Ağ Erişimi",
+      "description": "Senceive GeoWAN Gateway, geniş alan kapsama ihtiyacı olan düşük bant genişlikli uygulamalarda sensör verilerini merkez sistemlere aktarmak için kullanılır. LoRa benzeri düşük güçlü ağlarla çalışır.",
+      "images": [
+        "/marka-photos/senceive/geowan-gateway-0.png",
+        "/marka-photos/senceive/geowan-gateway-1.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "geowan-ag-gecidi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["geowan"],
+      "specs": [
+        "GeoWAN protokolü üzerinden geniş alan kapsama sağlar.",
+        "LTE, 3G, 2G bağlantı opsiyonlarına sahiptir.",
+        "Solar panel ile beslenebilir, düşük enerji tüketimi sunar.",
+        "Harici anten bağlantısı ile sinyal kalitesi optimize edilir.",
+        "WebMonitor sistemine doğrudan bağlanabilir.",
+        "Yedekleme ve tampon belleği ile veri güvenliği sağlar.",
+        "IP67 muhafaza ile dış ortamlarda güvenli kullanım sunar."
+      ]
+    },
+    {
+      "id": 514,
+      "name": "Senceive GeoWAN Uydu İletişim Sistemi",
+      "title": "GeoWAN Uydu İletişim Sistemi – Uzak Bölgeler İçin Kablosuz Sensör Ağı Çözümü",
+      "description": "Senceive'in GeoWAN Uydu İletişim Sistemi, hücresel sinyalin olmadığı uzak bölgelerde kablosuz sensör ağlarının çalışmasını sağlayan bir çözümdür. Bu sistem, uydu terminali aracılığıyla 100 adede kadar uzak GeoWAN sensörünü destekleyen bir GeoWAN ağ geçidi sunar.",
+      "images": [
+        "/marka-photos/senceive/geowan-satellite-communications-0.png",
+        "/marka-photos/senceive/geowan-satellite-communications-0.png"
+      ],
+      "category": "veri-iletisim",
+      "brand": "senceive",
+      "type": "uydu-iletisim-sistemi",
+      "typeTitle": "Veri İletişim Cihazları",
+      "technology": ["geowan"],
+      "specs": [
+        "Hücresel sinyalin olmadığı uzak bölgelerde iletişim sağlar.",
+        "Uydu terminali aracılığıyla 100 adede kadar GeoWAN sensörünü destekler.",
+        "Düşük güç tüketimiyle tek bir güneş paneliyle sürekli çalışabilir.",
+        "Küresel kapsama alanı sayesinde dünya genelinde kesintisiz bağlantı sunar.",
+        "LoRaWAN protokolüyle uyumlu olup, mevcut IoT ağlarına kolay entegrasyon sağlar.",
+        "Zorlu çevre koşullarına dayanıklı, sağlam ve güvenilir tasarıma sahiptir."
+      ]
+    },  
+    {
+      "id": 515,
+      "name": "Senceive Veri Yönetim Sistemi (senceive.io)",
+      "title": "Senceive.io – Cihaz Yönetimi ve Veri Yönlendirme Platformu",
+      "description": "Senceive.io, saha cihazlarının güvenli şekilde yapılandırılması, yönetilmesi ve yönlendirilmesi için geliştirilmiş bulut tabanlı bir platformdur. Kullanıcılar verilerini WebMonitor’a veya kendi yazılımlarına entegre edebilir.",
+      "images": [
+        "/marka-photos/senceive/senceive-io-0.png",
+        "/marka-photos/senceive/senceive-io-1.png"
+      ],
+      "category": "yazilim",
+      "brand": "senceive",
+      "type": "veri-yonetim-sistemi",
+      "typeTitle": "Veri Görselleştirme ve Yönetimi",
+      "technology": ["flatmesh", "geowan"],
+      "specs": [
+        "Web tabanlı arayüz üzerinden cihaz konfigürasyonu sağlar.",
+        "Verilerinizi WebMonitor’a veya özel platformlara yönlendirme imkanı sunar.",
+        "Kullanıcı bazlı erişim kontrolü ve cihaz yönetimi yapabilirsiniz.",
+        "Şifreli bağlantılar ile güvenli veri aktarımı sağlar.",
+        "Gerçek zamanlı cihaz durumu ve bağlantı takibi yapabilirsiniz.",
+        "Kapsamlı sistem logları ile tam izlenebilirlik sunar.",
+        "Kendi yazılım altyapınıza entegre etmek için API desteği sağlar."
+      ]
+    },
+    {
+      "id": 516,
+      "name": "Senceive WebMonitor",
+      "title": "WebMonitor – Web Tabanlı Veri Görselleştirme Platformu",
+      "description": "WebMonitor, Senceive’in sensörlerinden gelen verileri görsel olarak sunan, kullanıcı dostu ve güçlü analiz yeteneklerine sahip bir platformdur. Harita, grafik ve alarm yönetimi gibi birçok fonksiyonu bir arada sunar.",
+      "images": [
+        "/marka-photos/senceive/webmonitor-0.png",
+        "/marka-photos/senceive/webmonitor-1.png"
+      ],
+      "category": "yazilim",
+      "brand": "senceive",
+      "type": "veri-gorsellestirme-platformu",
+      "typeTitle": "Veri Görselleştirme ve Yönetimi",
+      "technology": ["flatmesh", "geowan"],
+      "specs": [
+        "Gerçek zamanlı veri görselleştirme için web tabanlı arayüz sunar.",
+        "Çoklu grafik, tablo ve harita görünümleri ile analiz imkanı sağlar.",
+        "Alarm tanımlama ve bildirim sistemine sahiptir.",
+        "Veri geçmişine erişim ve karşılaştırmalı analiz yapılabilir.",
+        "Kullanıcı bazlı yetkilendirme ve erişim kontrolü sunar.",
+        "Mobil uyumlu arayüz ile her cihazdan erişim sağlar.",
+        "Gelişmiş veri filtreleme ve dışa aktarma seçenekleri sunar."
+      ]
+    },  
+    {
+      "id": 550,
+      "name": "Sokkia B40 Otomatik Nivo",
+      "title": "B40 Otomatik Nivo – Ekonomik ve Etkili Ölçüm Çözümü",
+      "description": "Sokkia B40, 24x büyütme ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için ekonomik ve güvenilir bir otomatik nivodur.",
+      "images": [
+        "/marka-photos/sokkia/b40-0.png",
+        "/marka-photos/sokkia/b40-1.png",
+        "/marka-photos/sokkia/b40-2.png"
+      ],
+      "category": "nivo",
+      "brand": "sokkia",
+      "type": "otomatik-nivo",
+      "typeTitle": "Otomatik Nivolar",
+      "specs": [
+        "24x büyütmeli teleskop ile yeterli görüntüleme kapasitesi sunar.",
+        "2.0 mm/km çift yol seviyelendirme hassasiyeti sağlar.",
+        "IPX6 su geçirmezlik derecesiyle zorlu çevre koşullarına dayanıklıdır.",
+        "30 cm'lik minimum odaklanma mesafesiyle dar alanlarda çalışmaya uygundur.",
+        "Manyetik sönümlemeli pandül kompansatör ile güvenilir dengeleme yapar.",
+        "Tek hızlı odaklama düğmesi ile pratik kullanım sunar.",
+        "Yatay açı ölçümleri için 1° veya 1gon birimlerinde okuma yapabilir."
+      ]
+    },  
+    {
+      "id": 553,
+      "name": "Sokkia FX-201 Manuel Total Station",
+      "title": "FX-201 Manuel Total Station – 1\" Açısal Hassasiyet ile Yüksek Doğruluk",
+      "description": "Sokkia FX-201, 1\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/fx-201-0.png",
+        "/marka-photos/sokkia/fx-200-1.png",
+        "/marka-photos/sokkia/fx-200-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "1\" (0.3 mgon) açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+        "IP65 toz ve suya karşı dayanıklılık derecesi."
+      ]
+    },
+    {
+      "id": 554,
+      "name": "Sokkia FX-203 Manuel Total Station",
+      "title": "FX-203 Manuel Total Station – 3\" Açısal Hassasiyet ile Güvenilir Performans",
+      "description": "Sokkia FX-203, 3\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/fx-203-0.png",
+        "/marka-photos/sokkia/fx-200-1.png",
+        "/marka-photos/sokkia/fx-200-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "3\" (1.0 mgon) açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+        "IP65 toz ve suya karşı dayanıklılık derecesi."
+      ]
+    },
+    {
+      "id": 555,
+      "name": "Sokkia FX-205 Manuel Total Station",
+      "title": "FX-205 Manuel Total Station – 5\" Açısal Hassasiyet ile Ekonomik Çözüm",
+      "description": "Sokkia FX-205, 5\" açısal hassasiyeti ve sağlam yapısıyla ekonomik ve etkili bir total station çözümüdür.",
+      "images": [
+        "/marka-photos/sokkia/fx-205-0.png",
+        "/marka-photos/sokkia/fx-200-1.png",
+        "/marka-photos/sokkia/fx-200-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "5\" (1.5 mgon) açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+        "IP65 toz ve suya karşı dayanıklılık derecesi."
+      ]
+    },  
+    {
+      "id": 560,
+      "name": "Sokkia iM-52 Manuel Total Station",
+      "title": "iM-52 Manuel Total Station – 2\" Açısal Hassasiyet ile Yüksek Doğruluk",
+      "description": "Sokkia iM-52, 2\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/im-52-0.png",
+        "/marka-photos/sokkia/im50-1.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "2\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı."
+      ]
+    },
+    {
+      "id": 561,
+      "name": "Sokkia iM-55 Manuel Total Station",
+      "title": "iM-55 Manuel Total Station – 5\" Açısal Hassasiyet ile Güvenilir Performans",
+      "description": "Sokkia iM-55, 5\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/im-55-0.png",
+        "/marka-photos/sokkia/im50-1.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "5\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı."
+      ]
+    },
+    {
+      "id": 570,
+      "name": "Sokkia iM-101 Manuel Total Station",
+      "title": "iM-101 Manuel Total Station – 1\" Açısal Hassasiyet ile Üstün Doğruluk",
+      "description": "Sokkia iM-101, 1\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/im-101-0.png",
+        "/marka-photos/sokkia/im-101-1.png",
+        "/marka-photos/sokkia/im-101-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "1\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+        "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+        "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+      ]
+    },
+    {
+      "id": 571,
+      "name": "Sokkia iM-102 Manuel Total Station",
+      "title": "iM-102 Manuel Total Station – 2\" Açısal Hassasiyet ile Güvenilir Performans",
+      "description": "Sokkia iM-102, 2\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/im-102-0.png",
+        "/marka-photos/sokkia/im-102-1.png",
+        "/marka-photos/sokkia/im-102-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "2\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+        "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+        "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+      ]
+    },
+    {
+      "id": 572,
+      "name": "Sokkia iM-103 Manuel Total Station",
+      "title": "iM-103 Manuel Total Station – 3\" Açısal Hassasiyet ile Etkili Ölçüm Çözümü",
+      "description": "Sokkia iM-103, 3\" açısal hassasiyeti ve sağlam yapısıyla ekonomik ve etkili bir total station çözümüdür.",
+      "images": [
+        "/marka-photos/sokkia/im-103-0.png",
+        "/marka-photos/sokkia/im-103-1.png",
+        "/marka-photos/sokkia/im-103-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "3\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+        "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+        "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+      ]
+    },
+    {
+      "id": 573,
+      "name": "Sokkia iM-105 Manuel Total Station",
+      "title": "iM-105 Manuel Total Station – 5\" Açısal Hassasiyet ile Ekonomik ve Güvenilir",
+      "description": "Sokkia iM-105, 5\" açısal hassasiyeti ve dayanıklı tasarımıyla ekonomik ve güvenilir bir total stationdır.",
+      "images": [
+        "/marka-photos/sokkia/im-105-0.png",
+        "/marka-photos/sokkia/im-105-1.png",
+        "/marka-photos/sokkia/im-105-2.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "manuel-total-station",
+      "typeTitle": "Manuel Total Stationlar",
+      "specs": [
+        "5\" açısal hassasiyet.",
+        "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+        "1.3 m minimum odaklanma mesafesi.",
+        "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+        "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+        "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+        "IP66 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+        "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+      ]
+    },
+    {
+      "id": 580,
+      "name": "Sokkia iX Serisi Robotik Total Station",
+      "title": "iX Serisi Robotik Total Station – Kompakt ve Yüksek Performanslı Ölçüm Çözümü",
+      "description": "Sokkia iX Serisi, tek operatörlü robotik sistemlerin verimliliğini, uzun menzilli reflektörsüz ölçüm yeteneklerini ve Hibrit Konumlandırma™ çözümünün esnekliğini kompakt bir tasarımda sunar.",
+      "images": [
+        "/marka-photos/sokkia/ix-series-0.png",
+        "/marka-photos/sokkia/ix-series-1.png"
+      ],
+      "category": "total-station",
+      "brand": "sokkia",
+      "type": "robotik-total-station",
+      "typeTitle": "Robotik Total Stationlar",
+      "specs": [
+        "UltraSonic motor teknolojisi ile 150°/saniye dönüş hızı.",
+        "Reflektörsüz modda 800 m'ye kadar, prizma ile 6,000 m'ye kadar mesafe ölçümü.",
+        "1\", 2\", 3\" ve 5\" açısal hassasiyet seçenekleri.",
+        "IP65 toz ve suya karşı dayanıklılık derecesi.",
+        "Entegre Bluetooth® ve gelişmiş LongLink™ iletişim teknolojisi.",
+        "4.3 inç renkli dokunmatik ekran.",
+        "MAGNET® Field yazılımı ile uyumluluk.",
+        "3 yıl enstrüman ve 5 yıl motor garantisi."
+      ]
+    },
+    {
+      "id": 590,
+      "name": "Sokkia SDL1X Dijital Nivo",
+      "title": "SDL1X Dijital Nivo – Üstün Hassasiyetli Otomatik Odaklamalı Seviye Cihazı",
+      "description": "Sokkia SDL1X, dijital seviye ölçümlerinde üstün hassasiyet ve verimlilik sağlayan, otomatik odaklamalı, kablosuz tetikleyicili ve geniş veri depolama kapasiteli profesyonel bir dijital nivodur.",
+      "images": [
+        "/marka-photos/sokkia/sdl1x-0.png",
+        "/marka-photos/sokkia/sdl1x-1.png",
+        "/marka-photos/sokkia/sdl1x-2.png"
+      ],
+      "category": "nivo",
+      "brand": "sokkia",
+      "type": "dijital-nivo",
+      "typeTitle": "Dijital Nivolar",
+      "technology": [],
+      "specs": [
+        "ISO 17123-2 standardına göre 1 km çift yön nivelmanda 0.2 mm hassasiyet sunar.",
+        "BIS30A mira ile 0.2 mm; BGS mira ile 1.0 mm yükseklik ölçüm doğruluğu sağlar.",
+        "Otomatik odaklama sistemiyle ölçüm süresini manuel sistemlere göre %40 azaltır.",
+        "Kablosuz tetikleyici sayesinde cihaz temasından kaynaklı hata payı ortadan kalkar.",
+        "Reflektörsüz mesafe ölçüm hassasiyeti: 10 m’ye kadar ±10 mm, 50 m’ye kadar ±0.1% x D.",
+        "32x büyütmeli optik teleskop ile net görüntüleme sağlar.",
+        "Çift eksenli sıvı tilt sensörü ile eğim düzeltmesi yapabilir.",
+        "10.000 kayıt kapasiteli dahili hafıza ve USB/SD kart desteğiyle geniş veri aktarımı sunar.",
+        "Bluetooth® uyumu sayesinde saha bilgisayarı ve veri toplayıcılarla kablosuz bağlantı kurar.",
+        "IP54 sertifikalı gövdesiyle toz ve su sıçramalarına karşı dayanıklıdır.",
+        "Çalışma sıcaklığı aralığı: -20°C ila +50°C'dir.",
+        "1.6 m - 100 m arası otomatik odaklama mesafesi aralığına sahiptir."
+      ]
+    }, 
+    {
+      "id": 600,
+      "name": "3Dsurvey Haritalama Yazılımı",
+      "title": "3Dsurvey – Drone Tabanlı Profesyonel Haritalama Yazılımı",
+      "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu arayüzüyle saha süresini azaltan, LIDAR uyumlu ve yüksek hassasiyetli sonuçlar üreten güçlü bir fotogrametri yazılımıdır.",
+      "images": [
+        "/marka-photos/3dsurvey/3dsurvey-0.png",
+        "/marka-photos/3dsurvey/3dsurvey-1.png"
+      ],
+      "category": "yazilim",
+      "brand": "3dsurvey",
+      "type": "fotogrametri-yazilimi",
+      "typeTitle": "Haritalama Yazılımları",
+      "specs": [
+        "Geleneksel ölçüme kıyasla saha süresini 10 kata kadar azaltır.",
+        "Karmaşık yazılımlar yerine sade ve öğrenmesi kolay bir arayüz sunar.",
+        "LIDAR verileriyle tamamen uyumlu çalışarak orman ve enerji projelerinde esneklik sağlar.",
+        "3Dsurvey Viewer ile dışa aktarım sonrası interaktif görselleştirme imkanı sunar.",
+        "Çoğu CAD ve GIS yazılımıyla (AutoCAD, Google Earth, vb.) uyumlu dosya formatları destekler.",
+        "Orta seviye bilgisayarlarda yüksek performanslı analiz ve işlem gücü sağlar.",
+        "Drone görüntülerinden cm düzeyinde hassasiyetle dijital arazi modelleri (DTM) ve ortofotolar oluşturur.",
+        "Hem sabit kanat hem de çok rotorlu dronlarla kullanılabilir.",
+        "Yalnızca 6 saatlik eğitimle kullanıcılar uzman seviyeye ulaşabilir.",
+        "Web sitesinden tam sürüm deneme versiyonu ücretsiz indirilebilir (kısıtlama yok)."
+      ]
+    },           
+    {
+      "id": 1000,
+      "name": "Senceive Crack Sensor Node",
       "title": "Crack Sensor Node – Çatlak Hareketlerini Hassas Takip Çözümü",
       "description": "Senceive Crack Sensor Node, yapı ve altyapılardaki çatlak hareketlerini 0.1 mm hassasiyetle izleyen, IP68 korumalı, kablosuz veri aktarımı ve 10 yıla kadar pil ömrü sunan, kritik yapılar için güvenilir çatlak takip çözümüdür.",
       "images": [
-        "/marka-photos/senceive/crack-sensor-0.png",
-        "/marka-photos/senceive/crack-sensor-0.png"
+        "/marka-photos/senceive/main.png"
       ],
       "category": "sensor",
       "brand": "senceive",
       "type": "crack-sensor",
       "typeTitle": "Çatlak Takip Sensörleri",
+      "technology": ["flatmesh", "geowan"],
       "specs": [
         "±20 mm çatlak hareketi ölçüm kapasitesine sahiptir.",
         "0.1 mm çözünürlükle mikro çatlakları algılar.",

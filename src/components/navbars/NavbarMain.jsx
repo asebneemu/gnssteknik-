@@ -19,6 +19,14 @@ export default function NavbarMain({ searching }) {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Sayfa yüklendiğinde localStorage'dan aktif yolu yükle
+  useEffect(() => {
+    const savedPath = localStorage.getItem("activeMainPath");
+    if (savedPath) {
+      setActiveMainPath(savedPath);
+    }
+  }, [setActiveMainPath]);
+
   const handleMainNavClick = (path) => {
     const basePath = "/category";
     const currentPath = location.pathname;
@@ -27,10 +35,12 @@ export default function NavbarMain({ searching }) {
       navigate(basePath);
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
+      localStorage.removeItem("activeMainPath"); // Seçimi sıfırla
     } else {
       navigate(`${basePath}${path}`);
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
+      localStorage.setItem("activeMainPath", path); // Seçimi kaydet
     }
 
     setFilteredProducts([]);
@@ -47,12 +57,11 @@ export default function NavbarMain({ searching }) {
     >
       {/* 🔥 XL ÜSTÜ: Grid olarak ikon üstte yazı altta */}
       <div
-  className="w-[80%] mx-auto hidden xl:grid py-2"
-  style={{
-    gridTemplateColumns: `repeat(${navbarItems.length}, minmax(0, 1fr))`,
-  }}
->
-
+        className="w-[80%] mx-auto hidden xl:grid py-2"
+        style={{
+          gridTemplateColumns: `repeat(${navbarItems.length}, minmax(0, 1fr))`,
+        }}
+      >
         {navbarItems.map((item, index) => {
           const isActive = activeMainPath === item.path;
 
