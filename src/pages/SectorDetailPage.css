@@ -1,0 +1,20 @@
+.light-orb {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 9999px;
+    box-shadow: 0 0 8px 4px rgba(0, 255, 150, 0.6);
+    animation: orbitBox 4s linear infinite;
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+  @keyframes orbitBox {
+    0%   { top: -7px; left: -7px; }
+    25%  { top: -7px; left: calc(100% - 7px); }
+    50%  { top: calc(100% - 7px); left: calc(100% - 7px); }
+    75%  { top: calc(100% - 7px); left: -7px; }
+    100% { top: -7px; left: -7px; }
+  }
+  

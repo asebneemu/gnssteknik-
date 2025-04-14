@@ -1147,18 +1147,16 @@
       "type": "airborne-lidar",
       "typeTitle": "Airborne LiDAR Sistemleri",
       "specs": [
-        "5 mm tekrarlanabilir mesafe doğruluğu ve 2-5 cm mutlak hassasiyet.",
-        "800 metreye kadar uzun menzil ölçümü ve saniyede 500.000 nokta tarama kapasitesi.",
-        "45 MP tam kare ortografik kamera ile yüksek çözünürlüklü görüntüleme.",
-        "8 hedef yankıya kadar çoklu hedef yeteneği ile yoğun bitki örtüsünde hassas veri toplama.",
-        "IMU ile GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
+        "8 geri dönüş yeteneği ile yoğun bitki örtüsünde hassas veri toplama yüksek doğruluklu 3D modelleme ve veri işleme desteği.",
+        "1.55 kg ağırlık ve kompakt tasarım, farklı İHA’larla uyumlu.",
+        "800 metreye kadar tarama menzili ve saniyede 500.000 nokta tarama hızıyla yüksek hassasiyetli veri toplama.",
+        "75°'lik geniş bir görüş açısı, 8 geri dönüş özelliği.",
+        "45 MP ortografik dahili kamera.",
         "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
         "CoPre ve CoProcess yazılımları ile gelişmiş veri işleme ve özellik çıkarımı.",
-        "1.55 kg ağırlık ve kompakt tasarım ile çeşitli UAV platformları ile uyumlu.",
-        "45 MP kamera ve sürekli dönen ayna ile yüksek kaliteli nokta bulutları oluşturma.",
-        "500 kHz lazer frekansı ve 0.032° tarama açısı ile hassas 3D modelleme.",
-        "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
-        "Gömülü CoPre yazılımı ile otomatik veri hizalama ve model oluşturma."
+        "IMU ile GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
+        "500 kHz lazer frekansı ve 0.032° tarama açısı ile hassas 3D modelleme",
+        "CoPre yazılımı ile otomatik veri hizalama ve doğru 3D model oluşturma."
       ]
     },
     {
@@ -4546,5 +4544,142 @@
         }
       ]
     }
+  },
+  "senceiveIntro": [
+  {
+    "title": "Senceive: Güvenilir ve Akıllı İzleme Teknolojilerinde Dünya Lideri",
+    "text": "GNSS Teknoloji olarak temsilciliğini üstlendiğimiz Senceive, inşaat mühendisliği, demiryolu ve madencilik sektörlerinin zorlu koşullarına özel geliştirdiği yüksek hassasiyetli, sağlam ve güvenilir uzaktan izleme çözümleriyle öne çıkıyor. Bu sistemler, altyapı inşaatı ve bakım faaliyetlerinden sorumlu ekiplerin doğru ve zamanında kararlar almasını sağlar."
+  },
+  {
+    "title": "Saha İzlemede Öncü Bir Marka",
+    "text": "2005’ten bu yana Senceive, kablosuz durum izleme teknolojilerini inşaat ve demiryolu sektörlerine entegre eden ilk firmalardan biri olarak sektörde öncü konumdadır. Uzun yıllara dayanan bu birikim, onu alanında en köklü ve güvenilir firmalardan biri hâline getirmiştir."
+  },
+  {
+    "title": "Müşteri Odaklı Ar-Ge Yaklaşımı",
+    "text": "University College London (UCL) araştırma laboratuvarlarında temelleri atılan Senceive, kuruluşundan bu yana müşteri ihtiyaçlarını merkeze alan bir anlayışla çalışmaktadır. Bu yaklaşım; ürün geliştirmeden teknik desteğe kadar, tüm süreçlere yansımaktadır."
+  },
+  {
+    "title": "Mühendislikle Güçlenen İnovasyon",
+    "text": "Senceive’in büyüme stratejisinin merkezinde mühendislik yer alır. Karmaşık saha koşullarında güvenilir performans sunan çözümler, sahada test edilmiş, pratik mühendislik deneyimiyle şekillenmektedir. Bu teknik yetkinlik, yenilikçi ürünlerin sürekliliğini sağlar."
+  },
+  {
+    "title": "Global Ölçekte Güvenilirlik",
+    "text": "Bugün Senceive, dünya genelinde 80.000’den fazla sensör kurulumuyla kablosuz uzaktan izleme teknolojilerinde küresel lider konumundadır. GNSS Teknoloji olarak bu güçlü markayı ülkemizde ve bölgemizde müşterilerimizle buluşturmaktan gurur duyuyoruz."
   }
+],
+"senceiveTechnologies": [
+  {
+    "id": "flatmesh",
+    "title": "FlatMesh",
+    "subTitle": "FlatMesh Nedir?",
+    "description": "FlatMesh, Senceive'in ilk nesil kablosuz izleme sistemidir. Esnek ve güvenilir altyapı sağlar.",
+    "details": "FlatMesh, çoklu sensörlerin entegre çalıştığı bir kablosuz izleme sistemidir. Yüksek doğrulukla veri toplar, kablolama ihtiyacını ortadan kaldırır. Özellikle dar alanlarda ve zorlu çevre koşullarında yüksek performans gösterir."
+  },
+  {
+    "id": "geowan",
+    "title": "GeoWAN (LoRa)",
+    "subTitle": "GeoWAN Nedir?",
+    "description": "GeoWAN, geniş alanlarda düşük güçle uzun menzilli veri iletimi sağlar.",
+    "details": "GeoWAN, LoRa protokolüyle çalışan uzun menzilli ve düşük güç tüketimli kablosuz izleme sistemidir. Büyük ölçekli projelerde güvenilir veri sağlar."
+  }
+],
+"senceiveLinks": [
+  {
+    "label": "SEKTÖRLER",
+    "path": "/sectors"
+  },
+  {
+    "label": "UYGULAMALAR",
+    "path": "/applications"
+  }
+],
+"nedenSenceiveImage": "/marka-photos/senceive/neden-senceive.png",
+"senceiveMainImage": "/marka-photos/senceive/main.png",
+"sectorDetails": [
+  {
+    "id": "rail",
+    "title": "Raylı Sistemler İzleme",
+    "heroImage": "/sectors/demiryoluHero.png",
+    "summary": "Raylı sistemler, modern ulaşımın temel taşıdır ve ulusal lojistik stratejilerinin omurgasını oluşturur. Yüksek hızlı tren hatlarından metro sistemlerine, hafif raylı ulaşımdan banliyö hatlarına kadar her düzeyde altyapı; güvenli, kesintisiz ve uzun ömürlü işletme ihtiyacıyla şekillenir. Bu altyapılar hem doğal etkenler (zemin hareketleri, yağış, sıcaklık değişimleri) hem de yapay etkiler (ağır trafik yükü, inşaat faaliyetleri, yaşlanan yapı elemanları) nedeniyle sürekli bir risk altındadır. Bu nedenle, raylı sistem altyapısının kapsamlı ve sürekli izlenmesi yalnızca bakım planlaması açısından değil; yolcu güvenliği, çevresel risk yönetimi ve yasal uyumluluk açısından da kritik önem taşır. Senceive’in sunduğu kablosuz sensör sistemleri, bu zorlukların üstesinden gelmek için geliştirilen son teknoloji çözümlerdir. Gerçek zamanlı izleme, otomatik alarm bildirimleri, uzaktan erişimle müdahale imkânı ve uzun vadeli veri arşivleme gibi özellikleriyle demiryolu mühendislerine sınırsız bir kontrol alanı sunar.",
+    "overview": "Raylı sistemlerin güvenliği ve performansı, yalnızca hat üzerinde değil; hattın çevresindeki yapılar, jeoteknik koşullar ve hatta mevsimsel değişkenlerle doğrudan ilişkilidir. Geleneksel izleme yöntemleri, genellikle anlık veri yerine periyodik ölçüm sağlar ve bu durum erken uyarı sistemlerini yetersiz bırakır. Oysa ray deformasyonları, tünel segment açıklıkları, makas sistemlerinde ani eğim değişiklikleri gibi durumlar, birkaç dakikalık gecikmelerde bile büyük risk oluşturabilir. Senceive bu noktada devreye girer: Düşük enerji tüketimli, kablosuz ve birbirine bağlı sensör düğümleri; eğim, yer değiştirme, sıcaklık ve gerinim gibi birçok parametreyi eşzamanlı olarak ölçerek ağ geçitleri üzerinden buluta aktarır. Bu sistem, metro tünellerinden yüksek hızlı tren hatlarına kadar her tür yapıda minimum insan müdahalesi ile maksimum veri erişimi sağlar. Kullanıcılar, gelişmiş görselleştirme arayüzleriyle ölçüm sonuçlarını analiz edebilir, eşik değerleri belirleyebilir, belirli senaryolara göre otomatik alarmlar tanımlayabilir. Böylece, sadece reaktif değil, proaktif bir bakım modeli kurulmuş olur. Ayrıca, SCADA sistemleri ve üçüncü parti yazılımlarla entegrasyon desteği sayesinde, mevcut altyapılarla da uyumlu şekilde çalışabilir. Yüksek nem, yoğun elektromanyetik alan, dar alan gibi zorlu ortamlarda bile güvenilir çalışması için IP68+ seviyesinde tasarlanmış bu sistem, raylı sistem mühendisliğinde yeni bir çağ başlatmaktadır.",
+    "howItWorks": {
+      "description": "Senceive’in raylı sistem çözümleri; çok katmanlı bir sensör ağı, enerji yönetimi altyapısı ve bulut tabanlı yazılım platformunun entegrasyonu ile çalışır. Her izleme noktasında kullanılan sensör düğümleri (tilt, displacement, temperature, strain) IP68 koruma standardına sahip olup, zorlu saha koşullarına uygundur. Bu sensörler, birkaç dakikalık kurulum süresiyle ray, travers, makas kutuları veya istinat duvarı gibi farklı yüzeylere sabitlenebilir. Sensörler, verilerini belirlenen frekansta (örneğin dakikada bir) toplar ve LoRa, GSM veya RF üzerinden ağ geçitlerine gönderir. Ağ geçitleri ise bu verileri 7/24 açık olan güvenli bulut sunucularına iletir. Kullanıcılar, bu verilere Senceive'in sunduğu Insight platformu aracılığıyla erişebilir. Platform, çoklu grafik görünümler, karşılaştırmalı analizler, eş zamanlı sensör takibi, e-posta/SMS ile alarm bildirimi gibi işlevler sunar. Ayrıca, belirli olaylara (örneğin bir sensör eşik değerini aştığında) otomatik veri paylaşımı, üçüncü parti sistem entegrasyonu (örneğin SCADA, GIS) veya video kaydı tetikleme gibi otomasyon adımları tanımlanabilir. Güneş panelli ağ geçitleri sayesinde sistem, enerji altyapısına ihtiyaç duymadan dağlık, kırsal veya tünel içi gibi yerlerde yıllarca kesintisiz çalışabilir. Pil ömrü, ölçüm frekansı ve çevresel koşullara bağlı olarak 8 ila 15 yıl arasında değişir. Kurulum sonrası bakım ihtiyacı minimum düzeydedir ve sistem, firmware güncellemeleri dahil olmak üzere uzaktan güncellenebilir. Bu sayede sahaya gitmeden yeni özellikler eklenebilir, mevcut ağ yönetimi optimize edilebilir.",
+      "image": "/sectors/demiryoluBir.png"
+    },
+    "benefits": [
+      "Gerçek zamanlı izleme ve otomatik alarm mekanizmaları sayesinde güvenlik açıkları oluşmadan tespit edilir, önleyici müdahale yapılabilir.",
+      "Kablo ve kazı gerektirmeyen kurulum yapısı sayesinde hem zamandan tasarruf sağlanır hem de var olan altyapıya zarar verilmez.",
+      "Dakikada bir gibi yüksek frekanslarda ölçüm yapılabilir, bu da özellikle hareketli yapıların anlık davranışlarını tespit etmede büyük avantaj sunar.",
+      "Uzun pil ömrü (15 yıla kadar), sistemin uzun vadeli projelerde bile sürekli çalışabilmesini sağlar, bakım maliyetlerini ciddi ölçüde düşürür.",
+      "Zorlu iklim ve çevre koşullarına dayanıklı endüstriyel tasarım sayesinde -40°C ile +85°C arası sıcaklıkta bile kesintisiz performans gösterir.",
+      "SCADA, GIS ve özel veri yönetim sistemleriyle entegre çalışabilme özelliği, sistemin tüm altyapı içinde tek merkezden kontrol edilmesine olanak tanır.",
+      "Gelişmiş yazılım arayüzleri sayesinde kullanıcılar verileri sadece analiz etmekle kalmaz, aynı zamanda görselleştirir, raporlar ve dışa aktarabilir.",
+      "Dünya genelinde 10.000'den fazla saha uygulamasında denenmiş ve onaylanmış teknoloji, ulusal demiryolu otoriteleri tarafından aktif olarak kullanılmaktadır."
+    ]
+  },  
+  {
+    "id": "construction",
+    "title": "İnşaat Şantiyesi İzleme",
+    "heroImage": "/sectors/insaatHero.png",
+    "summary": "İnşaat şantiyeleri, sürekli değişen yapısıyla yüksek risk barındıran çalışma ortamlarıdır. Gerek geçici yapılar gerekse kalıcı temeller üzerindeki yük değişimi, yeraltı hareketleri, kazı işlemleri ve ağır makine kullanımı; hem güvenlik riskleri hem de yapısal bozulma potansiyeli taşır. Senceive’in sunduğu kablosuz sensör ağları, şantiyenin her aşamasında gerçek zamanlı veri sağlar ve bu veriler sayesinde müteahhitler, mühendisler ve proje yöneticileri kararlarını daha hızlı, güvenli ve etkili şekilde alabilir. Bu sayede hem iş güvenliği sağlanır hem de olası yapısal riskler proaktif biçimde yönetilir.",
+    "overview": "Geleneksel yapı izleme yöntemleri genellikle manuel ölçümler, periyodik denetimler ve gecikmeli geri bildirimlere dayanır. Ancak modern inşaat şantiyelerinde dakikaların dahi kritik olduğu süreçlerde bu yaklaşımlar yetersiz kalmaktadır. Kazı destek sistemleri, geçici iskeleler, kazık yapıları ve üstyapı montaj alanları gibi dinamik bölgeler; sürekli izleme, anlık analiz ve otomatik uyarı sistemlerine ihtiyaç duyar. Senceive’in enerji verimli, IP68 standardına sahip kablosuz sensörleri (eğim, deplasman, sıcaklık, strain vb.) her türlü yüzeye (duvar, kazık başlığı, istinat yapısı) saniyeler içinde entegre edilebilir. Kurulum sonrası, LoRa, GSM veya RF teknolojisiyle veri ağ geçidine aktarılır, oradan da buluta gönderilir. Insight platformu, tüm bu verileri grafiksel, karşılaştırmalı ve coğrafi olarak sunar. Kullanıcılar belirli eşik değerlerine göre otomatik alarm tanımlayabilir, üçüncü parti sistemlerle entegrasyon kurabilir ve verileri eş zamanlı olarak paylaşabilir. Şehir içi projelerde, tünel delme operasyonlarında veya mega altyapı şantiyelerinde kesintisiz çalışabilen bu sistemler; sahaya fiziksel erişim gerekmeden dijital denetim sunar.",
+    "howItWorks": {
+      "description": "Senceive platformları, bir dizi kablosuz sensör düğümünden, enerji yönetimi sisteminden ve bulut tabanlı yazılım altyapısından oluşur. Her sensör (örneğin tiltmetre, strain gauge, sıcaklık sensörü) şantiyede riskli veya kritik noktalara (kazı duvarı, geçici iskele, vinç temeli, kazık başı) kolayca monte edilir. Bu sensörler belirli frekansta (örneğin dakikada bir) veri toplayarak yakındaki ağ geçidine kablosuz olarak iletir. Ağ geçidi, bu verileri GSM, LoRaWAN veya uydu bağlantısı üzerinden güvenli bulut sunucularına aktarır. Platformda kullanıcılar, bu verileri grafikler, karşılaştırmalı analizler ve jeolokasyon bazlı görselleştirmeler eşliğinde takip eder. Belirli eşik değerleri aşıldığında SMS/e-posta bildirimleri gönderilir ve SCADA gibi mevcut sistemlerle entegre otomasyon tetiklenebilir. Güneş enerjili ağ geçitleri sayesinde sahada enerji altyapısı gereksinimi olmadan da sistem çalışabilir. Pil ömrü ortalama 10–15 yıl arasında değişir. Firmware güncellemeleri dahil tüm sistem uzaktan yönetilebilir, böylece sahaya gitmeden cihazlar güncellenebilir ya da yeni özellikler eklenebilir.",
+      "image": "/sectors/insaat.png"
+    },
+    "benefits": [
+      "Kablo ve enerji altyapısı gerektirmeyen sensör yapısı sayesinde birkaç dakikada tam kurulum yapılabilir; bu da zaman ve maliyet tasarrufu sağlar.",
+      "Gerçek zamanlı veri akışı sayesinde kazı çökmeleri, ankraj gevşemesi veya istinat duvarı deformasyonu gibi yapısal riskler erken tespit edilerek önleyici müdahale yapılabilir.",
+      "Zorlu şantiye ortamlarına dayanıklı, IP68 sertifikalı sensör yapısı ile -40°C ile +85°C sıcaklık aralığında güvenilir veri alınabilir.",
+      "Alarm sistemi ve platform üzerinden gönderilen e-posta/SMS bildirimleri, şantiye dışındaki teknik ekibin de sürece anında dahil olmasını sağlar.",
+      "SCADA, BIM ve diğer yapı izleme platformlarıyla entegre çalışabilme özelliği sayesinde proje bazlı veriler merkezi sistemlerde arşivlenebilir ve analiz edilebilir.",
+      "Yapısal sağlığı sürekli olarak takip etmek, geçici yapıların güvenliğini değerlendirmek ve kalıcı yapıların temel oturmalarını analiz etmek için uygun çok yönlü sensör ağı sunar.",
+      "Elle yapılan ölçümleri ve tehlikeli saha gezilerini minimuma indirerek iş güvenliğini artırır, personel yükünü azaltır.",
+      "Küçük ölçekli konut projelerinden büyük otoyol köprü inşaatlarına kadar her tür şantiyeye kolayca uyarlanabilir, ölçeklenebilir yapıdadır."
+    ]
+  },  
+  {
+    "id": "mining",
+    "title": "Madencilik ve Taş Ocağı İzleme",
+    "heroImage": "/sectors/madenHero.png",
+    "summary": "Madencilik, hem yer üstü hem de yer altı kaynakların elde edilmesini kapsayan, büyük ölçekli ve yüksek risk barındıran endüstriyel bir faaliyettir. Bu faaliyetler sırasında yaşanan en büyük zorluklar arasında, zemin stabilitesinin bozulması, patlatma faaliyetlerinden kaynaklı ani deformasyonlar, tavan çökmeleri, toprak kaymaları, atık barajlarının zayıflaması ve yapısal hasarlar yer almaktadır. Senceive’in kablosuz izleme sistemleri, bu dinamik ve tehlikeli ortamlar için özel olarak tasarlanmıştır. Dayanıklı sensör düğümleri, maden sahasındaki kritik yapıların davranışlarını milimetrik hassasiyetle izler. Özellikle şev, galeri, kuyu ve baraj gibi yapılar üzerinde gerçek zamanlı veri toplar. Bu sayede, hem çalışan güvenliği artırılır hem de operasyonel verimlilik en üst düzeye taşınır. Saha verilerine uzaktan erişim sayesinde, mühendisler ve saha ekipleri arasında sürekli bir bilgi akışı sağlanır. Senceive çözümleri, bakım maliyetlerini azaltır, arıza sürelerini düşürür ve olası felaketlerin önüne geçer. Ayrıca, güneş enerjili ağ geçitleriyle enerji altyapısına gerek duymadan bile uzun süreli, güvenilir izleme yapılabilir.",
+    "overview": "Geleneksel madencilik izleme yöntemleri, genellikle periyodik ölçümler ve sınırlı manuel gözlemler ile gerçekleştirilir. Bu yaklaşım, ani gelişen olaylara karşı yetersiz kalır ve çoğu zaman yalnızca hasar gerçekleştikten sonra müdahale edilebilir. Oysa madencilik gibi sürekli değişim halinde olan alanlarda, yalnızca geçmişe dayalı veri değil, anlık ve sürekli bilgi gereklidir. Senceive’in sunduğu kablosuz ve enerji verimli sensör ağları, bu ihtiyaca eksiksiz yanıt verir. Şev stabilitesi, yüzey hareketleri, galeri deformasyonları, tünel yakınsama hareketleri, atık baraj basınç değişimleri gibi parametreleri eşzamanlı olarak izleyebilir. Üstelik bu sistemler, LoRa, RF ya da GSM bağlantılarıyla çalıştığı için büyük alanlara yayılan sahalarda bile kesintisiz iletişim sağlar. Insight platformu, bu sensörlerden gelen tüm verileri gerçek zamanlı olarak işleyerek anlamlı grafikler, karşılaştırmalı analizler ve uyarı sistemleri üretir. Ayrıca platform, alarm eşiği aşıldığında otomatik olarak SMS veya e-posta gönderimi yapabilir. Kameralarla entegre çalışan sistemler sayesinde, olay doğrulaması da mümkün hale gelir. Tüm bu özellikler, maden mühendislerinin sadece mevcut durumu izlemekle kalmayıp, aynı zamanda riskleri önceden öngörebilmesini sağlar. Böylece yalnızca reaktif değil, proaktif bir izleme modeli mümkün olur.",
+    "howItWorks": {
+      "description": "Senceive’in madencilik çözümleri; sensör, geçit ve platform üçlüsünden oluşan entegre bir izleme sistemine dayanır. Her bir sensör düğümü; eğim, deplasman, sıcaklık, strain gibi kritik parametreleri ölçebilen yüksek hassasiyetli donanımlarla donatılmıştır. Bu sensörler, IP68 standardında üretilmiş olup, zorlu saha koşullarında bile yıllarca çalışacak şekilde tasarlanmıştır. Sahada önceden belirlenen bölgelere (örneğin açık ocak şevleri, kuyular, atık baraj kenarları, tünel açıklıkları) dakikalar içinde monte edilebilir. Kurulum sonrası sensörler, belirlenen frekansa göre (örneğin her dakika) veri toplayarak yakındaki geçit cihazına kablosuz olarak iletir. Bu geçitler genellikle güneş enerjisiyle çalışır ve veri iletimini LoRaWAN, GSM veya RF bağlantısı ile bulut tabanlı Insight platformuna aktarır. Platform, bu verileri zamansal grafiklerle görselleştirir, anomali tespiti yapar ve gerektiğinde uyarı üretir. Kullanıcılar eşik değerlerini belirleyebilir, SCADA veya 3. parti sistemlere otomatik entegrasyon tanımlayabilir. Ayrıca sistem uzaktan güncellenebilir, böylece yeni sensör türleri veya veri algoritmaları saha cihazlarına fiziksel müdahale olmadan tanıtılabilir. Minimum bakım ihtiyacı ile 10 yılı aşkın süre kesintisiz çalışabilir.",
+      "image": "/sectors/maden.png"
+    },
+    "benefits": [
+      "Senceive’in IP68 korumalı dayanıklı sensörleri, yüksek sıcaklık, nem, toz ve patlayıcı gaz gibi zorlu madencilik koşullarında dahi kesintisiz çalışarak saha güvenliğini garanti altına alır.",
+      "Yüksek riskli açık ocak ve yer altı alanlarında 7 gün 24 saat boyunca veri toplayan sistem, olası çökme, deformasyon veya zemin kaymalarına karşı anlık uyarılarla proaktif önlem alınmasını sağlar.",
+      "Sahadaki sensörler belirlenen eşik değerlerine ulaştığında otomatik olarak alarm üreterek hem saha içi ekipleri hem de uzaktaki yöneticileri bilgilendirir, böylece hızlı müdahale ve risk azaltımı mümkün olur.",
+      "Kablosuz iletişim altyapısı sayesinde sensörlerin kurulumu sırasında kablo döşemeye gerek kalmaz; bu da hem zaman tasarrufu sağlar hem de zorlu arazi koşullarında kurulum kolaylığı sunar.",
+      "Güneş enerjili veya pille çalışan sistemler, enerji altyapısının olmadığı uzak bölgelerde bile uzun süreli ve kesintisiz veri toplama imkanı sunar.",
+      "Merkezi izleme platformu, farklı maden sahalarındaki verileri tek bir arayüzde toplayarak yöneticilere kapsamlı analiz ve karşılaştırma yapma olanağı tanır.",
+      "Kamera entegrasyonu ve özel panellerle uyumlu çalışan sistem, görsel doğrulama ve detaylı raporlama özellikleriyle olayların daha iyi anlaşılmasını sağlar.",
+      "Uzun ömürlü ve bakım gerektirmeyen sensör yapısı, işletme maliyetlerini düşürürken sistemin güvenilirliğini artırır."
+    ]
+  },   
+  {
+    "id": "infrastructure",
+    "title": "Altyapı ve Kritik Yapı İzleme",
+    "heroImage": "/sectors/altyapiHero.png",
+    "summary": "Köprüler, tüneller, barajlar, su yolları, boru hatları ve enerji altyapıları gibi kritik yapılar, zamanla çevresel etkiler, yapısal yorgunluk ve beklenmedik olaylar nedeniyle risk altına girebilir. Bu tür yapılar, hem kamu güvenliği hem de ekonomik süreklilik açısından hayati öneme sahiptir. Senceive’in kablosuz izleme çözümleri, bu yapıların uzun vadeli sağlığını ve performansını izlemek için tasarlanmıştır. Gerçek zamanlı veri toplama, anlık uyarılar ve uzun ömürlü sensör teknolojisi sayesinde, altyapı sahipleri ve yöneticileri, potansiyel sorunları önceden tespit ederek proaktif önlemler alabilir, bakım maliyetlerini azaltabilir ve yapıların hizmet ömrünü uzatabilir.",
+    "overview": "Geleneksel altyapı izleme yöntemleri, genellikle periyodik manuel kontroller ve sınırlı veri toplama ile sınırlıdır. Bu yaklaşım, ani gelişen olaylara karşı yetersiz kalabilir ve çoğu zaman sorunlar fark edildiğinde müdahale etmek için geç olabilir. Senceive’in sunduğu kablosuz izleme sistemleri, bu eksiklikleri gidererek sürekli, güvenilir ve detaylı veri sağlar. Sistem, eğim, deplasman, sıcaklık, strain gibi parametreleri izleyerek yapısal davranışları anlamaya yardımcı olur. LoRa, RF veya GSM bağlantılarıyla çalışan bu sistemler, geniş alanlara yayılan altyapılarda bile kesintisiz iletişim sağlar. Insight platformu, sensörlerden gelen verileri gerçek zamanlı olarak işleyerek anlamlı grafikler, karşılaştırmalı analizler ve uyarı sistemleri üretir. Bu sayede, altyapı yöneticileri, yapıların performansını sürekli olarak izleyebilir, bakım ihtiyaçlarını önceden belirleyebilir ve olası arızaları önleyebilir.",
+    "howItWorks": {
+      "description": "Senceive’in altyapı izleme çözümleri, sensör düğümleri, geçit cihazları ve veri yönetim platformundan oluşan entegre bir sistemdir. Her bir sensör düğümü, eğim, deplasman, sıcaklık, strain gibi parametreleri ölçebilen yüksek hassasiyetli donanımlarla donatılmıştır. Bu sensörler, IP68 standardında üretilmiş olup, zorlu saha koşullarında bile yıllarca çalışacak şekilde tasarlanmıştır. Sahada önceden belirlenen bölgelere (örneğin köprü ayakları, tünel duvarları, baraj yüzeyleri) dakikalar içinde monte edilebilir. Kurulum sonrası sensörler, belirlenen frekansa göre veri toplayarak yakındaki geçit cihazına kablosuz olarak iletir. Bu geçitler genellikle güneş enerjisiyle çalışır ve veri iletimini LoRaWAN, GSM veya RF bağlantısı ile bulut tabanlı Insight platformuna aktarır. Platform, bu verileri zamansal grafiklerle görselleştirir, anomali tespiti yapar ve gerektiğinde uyarı üretir. Kullanıcılar eşik değerlerini belirleyebilir, SCADA veya diğer sistemlere otomatik entegrasyon tanımlayabilir. Ayrıca sistem uzaktan güncellenebilir, böylece yeni sensör türleri veya veri algoritmaları saha cihazlarına fiziksel müdahale olmadan tanıtılabilir. Minimum bakım ihtiyacı ile 10 yılı aşkın süre kesintisiz çalışabilir.",
+      "image": "/sectors/altyapi.png"
+    },
+    "benefits": [
+      "Senceive’in IP68 korumalı dayanıklı sensörleri, yüksek sıcaklık, nem, toz ve diğer zorlu çevresel koşullarda dahi kesintisiz çalışarak altyapı güvenliğini garanti altına alır.",
+      "Kritik altyapı alanlarında 7 gün 24 saat boyunca veri toplayan sistem, olası deformasyon veya yapısal bozulmalara karşı anlık uyarılarla proaktif önlem alınmasını sağlar.",
+      "Sahadaki sensörler belirlenen eşik değerlerine ulaştığında otomatik olarak alarm üreterek hem saha içi ekipleri hem de uzaktaki yöneticileri bilgilendirir, böylece hızlı müdahale ve risk azaltımı mümkün olur.",
+      "Kablosuz iletişim altyapısı sayesinde sensörlerin kurulumu sırasında kablo döşemeye gerek kalmaz; bu da hem zaman tasarrufu sağlar hem de zorlu arazi koşullarında kurulum kolaylığı sunar.",
+      "Güneş enerjili veya pille çalışan sistemler, enerji altyapısının olmadığı uzak bölgelerde bile uzun süreli ve kesintisiz veri toplama imkanı sunar.",
+      "Merkezi izleme platformu, farklı altyapı sahalarındaki verileri tek bir arayüzde toplayarak yöneticilere kapsamlı analiz ve karşılaştırma yapma olanağı tanır.",
+      "Kamera entegrasyonu ve özel panellerle uyumlu çalışan sistem, görsel doğrulama ve detaylı raporlama özellikleriyle olayların daha iyi anlaşılmasını sağlar.",
+      "Uzun ömürlü ve bakım gerektirmeyen sensör yapısı, işletme maliyetlerini düşürürken sistemin güvenilirliğini artırır."
+    ]
+  }  
+]
+
 }

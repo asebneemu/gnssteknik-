@@ -3930,5 +3930,153 @@
         }
       ]
     }
-  }
+  },
+  "senceiveIntro": [
+    {
+      "title": "Senceive: Global Leader in Reliable and Smart Monitoring Technology",
+      "text": "Represented by GNSS Teknoloji, Senceive stands out with its high-precision, robust and reliable remote monitoring solutions developed specifically for the demanding conditions of civil engineering, railways and mining. These systems support infrastructure teams to make timely and accurate decisions during construction and maintenance activities."
+    },
+    {
+      "title": "A Pioneer Brand in Field Monitoring",
+      "text": "Since 2005, Senceive has been one of the first companies to integrate wireless condition monitoring technologies into the construction and railway industries. This long-standing experience has made it one of the most trusted and established firms in the sector."
+    },
+    {
+      "title": "Customer-Focused R&D Approach",
+      "text": "Founded in University College London (UCL) research labs, Senceive has operated with a customer-oriented mindset from the beginning. This approach is reflected in all processes, from product development to technical support."
+    },
+    {
+      "title": "Innovation Driven by Engineering",
+      "text": "Engineering lies at the heart of Senceive’s growth strategy. The solutions are shaped by real-world engineering experience and field-tested performance. This technical competency ensures the continuity of innovative products."
+    },
+    {
+      "title": "Global Scale Reliability",
+      "text": "Today, Senceive is a global leader in wireless remote monitoring with more than 80,000 sensor deployments worldwide. As GNSS Teknoloji, we are proud to represent this powerful brand across Turkey and the region."
+    }
+  ],
+  "senceiveTechnologies": [
+    {
+      "id": "flatmesh",
+      "title": "FlatMesh",
+      "subTitle": "What is FlatMesh?",
+      "description": "FlatMesh is Senceive’s first-generation wireless monitoring system. It offers flexible and robust infrastructure.",
+      "details": "FlatMesh is a wireless monitoring system integrating multiple sensors. It collects data with high accuracy and eliminates the need for wiring. It performs exceptionally well in confined and harsh environments."
+    },
+    {
+      "id": "geowan",
+      "title": "GeoWAN (LoRa)",
+      "subTitle": "What is GeoWAN?",
+      "description": "GeoWAN provides long-range data transmission with low power consumption in wide areas.",
+      "details": "GeoWAN is a long-range and low-power wireless monitoring system operating on the LoRa protocol. It ensures reliable data transmission for large-scale projects."
+    }
+  ],
+  "senceiveLinks": [
+    {
+      "label": "SECTORS",
+      "path": "/sectors"
+    },
+    {
+      "label": "APPLICATIONS",
+      "path": "/applications"
+    }
+  ],
+  "nedenSenceiveImage": "/marka-photos/senceive/why.png",
+  "senceiveMainImage": "/marka-photos/senceive/main-e.png",
+  "sectorsDetail": [
+    {
+      "id": "demiryolu",
+      "name": "railway",
+      "title": "Railway Monitoring",
+      "heroImage": "/images/sectors/railway/hero.jpg",
+      "summary": "Real-time monitoring solutions for track gaps, tunnels and railway infrastructure.",
+      "overview": "Senceive’s wireless monitoring systems provide real-time insights into railway infrastructure. From track alignment to tunnel deformation, risks can be detected and acted upon early.",
+      "applications": [
+        "Tunnel deformation tracking",
+        "Track alignment and gauge monitoring",
+        "Bridge and viaduct movement analysis",
+        "Landslide and settlement detection"
+      ],
+      "howItWorks": {
+        "description": "Wireless sensors are positioned along the tracks. These detect structural changes and transmit data via gateway devices to the cloud, enabling 24/7 monitoring.",
+        "image": "/images/sectors/railway/how-it-works.jpg"
+      },
+      "benefits": [
+        "Real-time alerts for early warnings",
+        "Improved operational safety",
+        "Low maintenance cost",
+        "Remote access and fast analysis"
+      ]
+    },
+    {
+      "id": "altyapi",
+      "name": "infrastructure",
+      "title": "Infrastructure Monitoring",
+      "heroImage": "/images/sectors/infrastructure/hero.jpg",
+      "summary": "Long-term monitoring solutions for bridges, tunnels and highways.",
+      "overview": "Senceive supports infrastructure projects with long-term monitoring, enabling risk mitigation and structural health maintenance even in harsh conditions.",
+      "applications": [
+        "Structural monitoring of bridges and viaducts",
+        "Tunnel segment settlement tracking",
+        "Landslide detection near roads",
+        "Urban infrastructure movement analysis"
+      ],
+      "howItWorks": {
+        "description": "Sensors integrated into structures collect data like vibration, tilt, and humidity. Data is sent to a central platform where it is analyzed for early warnings.",
+        "image": "/images/sectors/infrastructure/how-it-works.jpg"
+      },
+      "benefits": [
+        "Structural health assurance",
+        "Reduced maintenance costs",
+        "Long-term safety verification",
+        "Multi-point monitoring capabilities"
+      ]
+    },
+    {
+      "id": "insaat",
+      "name": "construction",
+      "title": "Construction Monitoring",
+      "heroImage": "/images/sectors/construction/hero.jpg",
+      "summary": "Temporary and permanent structure monitoring solutions during construction projects.",
+      "overview": "Senceive enables safe tracking of structures during construction, minimizing risks to third-party buildings and increasing on-site safety.",
+      "applications": [
+        "Excavation site monitoring",
+        "Temporary support structure analysis",
+        "Environmental impact detection",
+        "Crack and tilt monitoring"
+      ],
+      "howItWorks": {
+        "description": "Wireless sensors are placed across the site to monitor structural movements. Data is transmitted via gateways and accessed via mobile or desktop devices.",
+        "image": "/images/sectors/construction/how-it-works.jpg"
+      },
+      "benefits": [
+        "Increased site safety",
+        "Early detection of external risks",
+        "Easy installation and removal",
+        "Minimal maintenance required"
+      ]
+    },
+    {
+      "id": "madencilik",
+      "name": "mining",
+      "title": "Mining Monitoring",
+      "heroImage": "/images/sectors/mining/hero.jpg",
+      "summary": "Monitoring systems for both surface and underground mining operations.",
+      "overview": "Senceive delivers reliable data transmission in open-pit and underground mining, enhancing worker safety and improving productivity in hazardous environments.",
+      "applications": [
+        "Open-pit movement tracking",
+        "Underground tunnel stability monitoring",
+        "Deformation control in dams and embankments",
+        "Vibration and seismic activity monitoring"
+      ],
+      "howItWorks": {
+        "description": "Sensors placed in harsh environments gather geotechnical and structural data. This data is transmitted via radio networks to a central system for continuous analysis.",
+        "image": "/images/sectors/mining/how-it-works.jpg"
+      },
+      "benefits": [
+        "Enhanced operator safety",
+        "Predictive maintenance opportunities",
+        "Minimized operational downtime",
+        "Highly flexible system design"
+      ]
+    }
+  ]
 }

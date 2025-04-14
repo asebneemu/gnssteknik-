@@ -23,6 +23,9 @@ import CustomersPage from "./pages/CustomersPage";
 
 import { useState } from "react";
 import SenceiveSensorPage from "./pages/SenceiveSensorPage";
+import SectorsPage from "./pages/SectorsPage";
+import ApplicationsPage from "./pages/ApplicationsPage";
+import SectorDetailPage from "./pages/SectorDetailPage";
 
 function AppContent() {
   // 🔥 Arama aktifse navbar sabitliği iptal
@@ -60,6 +63,9 @@ function AppContent() {
 
         {/* Genel ürün listesi */}
         <Route path={productListPath} element={<ProductListPage />} />
+        <Route path="/sectors" element={<SectorsPage />} />
+        <Route path="/applications" element={<ApplicationsPage />} />
+        <Route path="/sector/:id" element={<SectorDetailPage />} />
    
 
               </Routes>
