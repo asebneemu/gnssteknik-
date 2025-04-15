@@ -6,7 +6,7 @@ import { useLanguage } from "../context/LanguageContext";
 
 export default function SectorDetailPage() {
   const { id } = useParams();
-  const { data } = useLanguage();
+  const { data, language } = useLanguage();
   const [sector, setSector] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -24,7 +24,8 @@ export default function SectorDetailPage() {
     return () => clearInterval(timer);
   }, [sector]);
 
-  if (!sector) return <div className="text-center py-10 text-xl">Yükleniyor...</div>;
+  if (!sector)
+    return <div className="text-center py-10 text-xl">Yükleniyor...</div>;
 
   return (
     <motion.div
@@ -89,7 +90,9 @@ export default function SectorDetailPage() {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        Senceive ile Sahada Her Şey Kontrol Altında
+        {language === "tr"
+          ? "Senceive ile Sahada Her Şey Kontrol Altında"
+          : "Everything Is Under Control in the Field with Senceive"}
       </motion.h2>
 
       {/* FAYDALAR LİSTESİ */}
@@ -98,10 +101,16 @@ export default function SectorDetailPage() {
           <motion.li
             key={i}
             className={`flex items-start gap-3 p-4 rounded-xl border border-gray-200 shadow-sm transition-all duration-500
-              ${i === activeIndex ? "ring-2 ring-green-500 bg-green-50 scale-[1.02]" : "bg-white"}`}
+              ${
+                i === activeIndex
+                  ? "ring-2 ring-green-500 bg-green-50 scale-[1.02]"
+                  : "bg-white"
+              }`}
           >
             <CheckCircle className="text-green-600 shrink-0 mt-1" size={22} />
-            <span className="text-gray-800 font-medium leading-relaxed">{b}</span>
+            <span className="text-gray-800 font-medium leading-relaxed">
+              {b}
+            </span>
           </motion.li>
         ))}
       </ul>

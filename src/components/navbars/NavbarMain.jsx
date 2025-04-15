@@ -1,8 +1,8 @@
+import { useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useActiveNav } from "../../context/ActiveNavContext";
 import { useLanguage } from "../../context/LanguageContext";
-import { useNavigate, useLocation } from "react-router-dom";
 import NavbarLink from "./NavbarLink";
-import { useEffect } from "react";
 
 export default function NavbarMain({ searching }) {
   const { language, data } = useLanguage();
@@ -26,6 +26,16 @@ export default function NavbarMain({ searching }) {
       setActiveMainPath(savedPath);
     }
   }, [setActiveMainPath]);
+
+  // Başka bir sayfaya gidildiğinde seçimleri sıfırla
+  useEffect(() => {
+    if (!location.pathname.startsWith("/category")) {
+      setActiveMainPath(null);
+      setActiveSecondaryPath(null);
+      localStorage.removeItem("activeMainPath");
+      localStorage.removeItem("activeSecondaryPath");
+    }
+  }, [location.pathname, setActiveMainPath, setActiveSecondaryPath]);
 
   const handleMainNavClick = (path) => {
     const basePath = "/category";

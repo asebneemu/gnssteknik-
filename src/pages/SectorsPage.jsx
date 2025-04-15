@@ -3,7 +3,7 @@ import SectorCard from "../components/sectorspage/SectorCard";
 import { motion } from "framer-motion";
 
 export default function SectorsPage() {
-  const { data } = useLanguage();
+  const { data, language } = useLanguage();
 
   return (
     <motion.div
@@ -14,8 +14,9 @@ export default function SectorsPage() {
     >
       <div className="w-[80%] max-w-7xl">
         <h1 className="text-3xl md:text-5xl font-bold text-orange-600 mb-10 text-center">
-          Sektörler
+          {language === "tr" ? "Sektörler" : "Sectors"}
         </h1>
+
         <div className="grid grid-cols-1 gap-10">
           {data?.sectorDetails?.map((s, i) => (
             <SectorCard

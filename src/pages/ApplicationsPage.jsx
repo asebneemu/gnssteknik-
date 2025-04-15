@@ -39,9 +39,16 @@ export default function ApplicationsPage() {
               <p className="text-sm text-gray-600 leading-relaxed text-justify z-10">
                 {app.description}
               </p>
-              <button className="mt-2 text-orange-600 text-sm font-medium hover:underline z-10">
-                Daha Fazla Bilgi →
-              </button>
+              {app.link && (
+                <a
+                  href={app.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 text-orange-600 text-sm font-medium hover:underline z-10"
+                >
+                  Daha Fazla Bilgi →
+                </a>
+              )}
             </motion.div>
           ))}
         </div>

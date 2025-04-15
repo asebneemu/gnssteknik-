@@ -26,6 +26,9 @@ import SenceiveSensorPage from "./pages/SenceiveSensorPage";
 import SectorsPage from "./pages/SectorsPage";
 import ApplicationsPage from "./pages/ApplicationsPage";
 import SectorDetailPage from "./pages/SectorDetailPage";
+import SensorBenewakePage from "./pages/SensorBenewakePage";
+
+import ScrollToTop from "./components/ScrollToTop";
 
 function AppContent() {
   // 🔥 Arama aktifse navbar sabitliği iptal
@@ -39,12 +42,14 @@ function AppContent() {
 
   return (
     <Router>
+      <ScrollToTop />
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
       <HeaderBar />
       <TopBar setSearching={setSearching} /> {/* 🔥 props olarak gönder */}
       <NavbarMain searching={searching} />    {/* 🔥 arama varsa sabitlik iptal */}
       <NavbarSecondary />
       <CompareButton />
+
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -57,9 +62,11 @@ function AppContent() {
 
         {/* Özel sayfa (Senceive tanıtım) */}
         <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />
+        <Route path="/category/sensor/benewake" element={<SensorBenewakePage />} />
 
         {/* Ürün listeleme (flatmesh/geowan tıklanınca) */}
         <Route path="/products/senceive" element={<ProductListPage />} />
+        <Route path="/products/benewake" element={<ProductListPage />} />
 
         {/* Genel ürün listesi */}
         <Route path={productListPath} element={<ProductListPage />} />

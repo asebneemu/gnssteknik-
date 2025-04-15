@@ -1127,16 +1127,15 @@
       "name": "CHCNAV AA15 LiDAR System",
       "description": "High accuracy and fast data collection with the AA15 LiDAR system.",
       "images": [
-  "/marka-photos/chcnav/aa15-0.png",
-  "/marka-photos/chcnav/aa15-1.png",
-  "/marka-photos/chcnav/aa15-2.png",
-  "/marka-photos/chcnav/aa15-3.png"
-],
-"category": "lidar",
-"brand": "chcnav",
-"type": "airborne-lidar",
-"typeTitle": "Airborne LiDAR Systems"
-,
+        "/marka-photos/chcnav/aa15-0.png",
+        "/marka-photos/chcnav/aa15-1.png",
+        "/marka-photos/chcnav/aa15-2.png",
+        "/marka-photos/chcnav/aa15-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Systems",
       "specs": [
         "15 mm accuracy and 2-5 cm absolute precision for high-accuracy measurement.",
         "2 million pulses per second scanning speed and 600 scans per second for dense point clouds.",
@@ -1157,17 +1156,16 @@
       "name": "CHCNAV AA450 LiDAR System",
       "description": "Lightweight and high-performance AA450 LiDAR system, providing UAV-based precision mapping solutions.",
       "images": [
-  "/marka-photos/chcnav/aa450-0.png",
-  "/marka-photos/chcnav/aa450-1.png",
-  "/marka-photos/chcnav/aa450-2.png",
-  "/marka-photos/chcnav/aa450-3.png",
-  "/marka-photos/chcnav/aa450-4.png"
-],
-"category": "lidar",
-"brand": "chcnav",
-"type": "airborne-lidar",
-"typeTitle": "Airborne LiDAR Systems"
-,
+        "/marka-photos/chcnav/aa450-0.png",
+        "/marka-photos/chcnav/aa450-1.png",
+        "/marka-photos/chcnav/aa450-2.png",
+        "/marka-photos/chcnav/aa450-3.png",
+        "/marka-photos/chcnav/aa450-4.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Systems",
       "specs": [
         "Long-range scanning capability up to 450 meters.",
         "Integrated 26 MP professional industrial camera for high-resolution imaging.",
@@ -1814,7 +1812,7 @@
         "/marka-photos/dji/m350-0.png",
         "/marka-photos/dji/m350-1.png"
       ],
-    "category": "uav",
+      "category": "uav",
       "brand": "dji",
       "type": "rtk-drone",
       "typeTitle": "RTK Drone",
@@ -1839,7 +1837,7 @@
         "/marka-photos/dji/h20-2.png",
         "/marka-photos/dji/h20seri.png"
       ],
-    "category": "uav",
+      "category": "uav",
       "brand": "dji",
       "type": "multi-sensor-camera",
       "typeTitle": "Multi-Sensor Camera",
@@ -3929,7 +3927,128 @@
           "url": "https://4bharita.com.tr/"
         }
       ]
-    }
+    },
+    
+      "bankInfo": {
+        "title": "Bank Information",
+        "ibanTable": [
+          {
+            "banka": "AKBANK",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "sube": "NECATİBEY CAD.",
+            "subeKodu": "241",
+            "tlIban": "TR06 0004 6002 4188 8000 1254 31",
+            "usdIban": "TR27 0004 6002 4100 1000 1254 32",
+            "eurIban": "TR74 0004 6002 4103 6000 1254 33",
+            "usdSwift": "AKBKTRIS",
+            "eurSwift": "AKBKTRIS"
+          },
+          {
+            "banka": "GARANTİ",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "sube": "EMEK",
+            "subeKodu": "778",
+            "tlIban": "TR24 0006 2000 7780 0006 2977 13",
+            "usdIban": "TR71 0006 2000 7780 0009 0916 31",
+            "eurIban": "TR44 0006 2000 7780 0009 0916 32",
+            "usdSwift": "",
+            "eurSwift": ""
+          },
+          {
+            "banka": "FİNANSBANK",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "sube": "ÇETİN EMEÇ",
+            "subeKodu": "nan",
+            "tlIban": "TR50 0011 1000 0000 0056 3321 64",
+            "usdIban": "TR87 0011 1000 0000 0105 4205 79",
+            "eurIban": "-",
+            "usdSwift": "",
+            "eurSwift": ""
+          },
+          {
+            "banka": "İŞ BANKASI",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "sube": "YENİŞEHİR",
+            "subeKodu": "4218",
+            "tlIban": "TR91 0006 4000 0014 2185 6128 94",
+            "usdIban": "TR95 0006 4000 0024 2187 1788 82",
+            "eurIban": "-",
+            "usdSwift": "ISBKTRIS",
+            "eurSwift": ""
+          },
+          {
+            "banka": "ZİRAAT KATILIM",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "sube": "BALGAT",
+            "subeKodu": "37",
+            "tlIban": "TR42 0020 9000 0076 2977 0000 01",
+            "usdIban": "TR15 0020 9000 0076 2977 0000 02",
+            "eurIban": "-",
+            "usdSwift": "",
+            "eurSwift": ""
+          }
+        ],
+        "swiftTable": [
+          {
+            "banka": "AKBANK",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR27 0004 6002 4100 1000 1254 32",
+            "usdSwift": "AKBKTRIS",
+            "eurIban": "TR74 0004 6002 4103 6000 1254 33",
+            "eurSwift": "AKBKTRIS"
+          },
+          {
+            "banka": "GARANTİ",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR71 0006 2000 7780 0009 0916 31",
+            "usdSwift": "TGBATRISXXX",
+            "eurIban": "TR44 0006 2000 7780 0009 0916 32",
+            "eurSwift": "TGBATRISXXX"
+          },
+          {
+            "banka": "ZİRAAT KATILIM",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR15 0020 9000 0076 2977 0000 02",
+            "usdSwift": "ZKBATRIS",
+            "eurIban": "-",
+            "eurSwift": "-"
+          },
+          {
+            "banka": "İŞ BANKASI",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR95 0006 4000 0024 2187 1788 82",
+            "usdSwift": "ISBKTRIS",
+            "eurIban": "-",
+            "eurSwift": "-"
+          },
+          {
+            "banka": "FİNANSBANK",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR87 0011 1000 0000 0105 4205 79",
+            "usdSwift": "FNNBTRIS",
+            "eurIban": "-",
+            "eurSwift": "-"
+          },
+          {
+            "banka": "VAKIFBANK",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR35 0001 5001 5800 7290 6002 15",
+            "usdSwift": "TVBATR2A",
+            "eurIban": "-",
+            "eurSwift": "-"
+          },
+          {
+            "banka": "YAPI KREDİ",
+            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+            "usdIban": "TR73 0006 7010 0000 0043 2348 08",
+            "usdSwift": "YAPITRISFEX",
+            "eurIban": "-",
+            "eurSwift": "-"
+          }
+        ]
+      }
+    
+    
   },
   "senceiveIntro": [
     {
@@ -3981,102 +4100,202 @@
   ],
   "nedenSenceiveImage": "/marka-photos/senceive/why.png",
   "senceiveMainImage": "/marka-photos/senceive/main-e.png",
-  "sectorsDetail": [
+  "sectorDetails": [
     {
-      "id": "demiryolu",
-      "name": "railway",
-      "title": "Railway Monitoring",
-      "heroImage": "/images/sectors/railway/hero.jpg",
-      "summary": "Real-time monitoring solutions for track gaps, tunnels and railway infrastructure.",
-      "overview": "Senceive’s wireless monitoring systems provide real-time insights into railway infrastructure. From track alignment to tunnel deformation, risks can be detected and acted upon early.",
-      "applications": [
-        "Tunnel deformation tracking",
-        "Track alignment and gauge monitoring",
-        "Bridge and viaduct movement analysis",
-        "Landslide and settlement detection"
-      ],
+      "id": "rail",
+      "title": "Railway Systems Monitoring",
+      "heroImage": "/sectors/demiryoluHero.png",
+      "summary": "Railway systems are the cornerstone of modern transportation and the backbone of national logistics strategies. From high-speed rail lines to metro systems, light rail to commuter lines, every level of infrastructure is shaped by the need for safe, uninterrupted, and long-term operation. These infrastructures are constantly at risk due to both natural factors (ground movement, precipitation, temperature changes) and artificial effects (heavy traffic loads, construction activities, aging structural elements). Therefore, comprehensive and continuous monitoring of railway infrastructure is critical not only for maintenance planning, but also for passenger safety, environmental risk management, and legal compliance. Senceive’s wireless sensor systems are state-of-the-art solutions developed to meet these challenges. With real-time monitoring, automatic alarm notifications, remote access for intervention, and long-term data archiving capabilities, they offer railway engineers unlimited control.",
+      "overview": "The safety and performance of rail systems are not only related to the track itself but also to surrounding structures, geotechnical conditions, and even seasonal variations. Traditional monitoring methods usually provide periodic measurements instead of real-time data, making early warning systems insufficient. Yet, issues like track deformation, tunnel segment separation, or sudden slope changes in switch systems can pose major risks even with a few minutes of delay. This is where Senceive steps in: low-power wireless sensor nodes, connected to each other, measure parameters such as tilt, displacement, temperature, and strain simultaneously and transmit them to the cloud via gateways. The system provides maximum data access with minimal human intervention across all types of rail structures, from metro tunnels to high-speed lines. Users can analyze measurement results through advanced visualization interfaces, define threshold values, and set up automatic alarms based on specific scenarios. This creates a proactive rather than reactive maintenance model. Moreover, the system is compatible with existing infrastructure through integration with SCADA systems and third-party software. Designed to operate reliably even in harsh environments such as high humidity, intense electromagnetic fields, or narrow spaces, the system has an IP68+ protection rating and marks a new era in railway engineering.",
       "howItWorks": {
-        "description": "Wireless sensors are positioned along the tracks. These detect structural changes and transmit data via gateway devices to the cloud, enabling 24/7 monitoring.",
-        "image": "/images/sectors/railway/how-it-works.jpg"
+        "description": "Senceive’s rail monitoring solutions operate through the integration of a multi-layer sensor network, energy management infrastructure, and a cloud-based software platform. Each monitoring point features sensor nodes (tilt, displacement, temperature, strain) with IP68-rated enclosures suitable for harsh field conditions. These sensors can be installed on rails, sleepers, switch boxes, or retaining walls within minutes. They collect data at defined intervals (e.g., every minute) and transmit it via LoRa, GSM, or RF to gateways. The gateways then send the data to secure, always-on cloud servers. Users access this data through Senceive's Insight platform, which provides multi-graph views, comparative analytics, real-time sensor tracking, and alarm notifications via email/SMS. Automated actions can also be defined for specific events (e.g., when a sensor threshold is exceeded), such as data sharing, third-party system integration (e.g., SCADA, GIS), or triggering video recording. Thanks to solar-powered gateways, the system can operate continuously for years in mountainous, rural, or tunnel environments without the need for external power. Depending on measurement frequency and environmental conditions, battery life ranges from 8 to 15 years. Maintenance needs are minimal, and the system can be updated remotely, including firmware updates. This allows new features to be added or network management to be optimized without going on-site.",
+        "image": "/sectors/demiryoluBir.png"
       },
       "benefits": [
-        "Real-time alerts for early warnings",
-        "Improved operational safety",
-        "Low maintenance cost",
-        "Remote access and fast analysis"
+        "Thanks to real-time monitoring and automatic alarm mechanisms, safety issues can be detected before they arise, enabling preventive intervention.",
+        "Installation does not require cables or excavation, saving time and avoiding damage to existing infrastructure.",
+        "High-frequency measurements (e.g., every minute) provide a major advantage in detecting the real-time behavior of dynamic structures.",
+        "Long battery life (up to 15 years) ensures uninterrupted operation in long-term projects, significantly reducing maintenance costs.",
+        "The industrial-grade design withstands harsh climate and environmental conditions, operating continuously from -40°C to +85°C.",
+        "Integration with SCADA, GIS, and proprietary data management systems enables centralized control across the entire infrastructure.",
+        "Advanced software interfaces allow users not only to analyze but also to visualize, report, and export data.",
+        "Proven and certified technology used in over 10,000 field applications worldwide, actively deployed by national rail authorities."
       ]
     },
     {
-      "id": "altyapi",
-      "name": "infrastructure",
-      "title": "Infrastructure Monitoring",
-      "heroImage": "/images/sectors/infrastructure/hero.jpg",
-      "summary": "Long-term monitoring solutions for bridges, tunnels and highways.",
-      "overview": "Senceive supports infrastructure projects with long-term monitoring, enabling risk mitigation and structural health maintenance even in harsh conditions.",
-      "applications": [
-        "Structural monitoring of bridges and viaducts",
-        "Tunnel segment settlement tracking",
-        "Landslide detection near roads",
-        "Urban infrastructure movement analysis"
-      ],
+      "id": "construction",
+      "title": "Construction Site Monitoring",
+      "heroImage": "/sectors/insaatHero.png",
+      "summary": "Construction sites are high-risk environments with constantly changing conditions. Both temporary structures and permanent foundations are affected by load shifts, underground movements, excavation operations, and heavy machinery—all of which pose safety and structural risks. Senceive’s wireless sensor networks provide real-time data at every stage of construction, enabling contractors, engineers, and project managers to make faster, safer, and more effective decisions. This ensures both worker safety and proactive management of structural risks.",
+      "overview": "Traditional monitoring methods often rely on manual measurements, periodic inspections, and delayed feedback. However, in modern construction sites where even minutes are critical, these approaches fall short. Dynamic zones such as excavation support systems, temporary scaffolding, piling structures, and superstructure assemblies require continuous monitoring, instant analysis, and automatic alert systems. Senceive’s energy-efficient, IP68-rated wireless sensors (tilt, displacement, temperature, strain, etc.) can be integrated within seconds onto any surface (wall, pile head, retaining structure). After installation, data is transmitted wirelessly to a gateway via LoRa, GSM, or RF technology, then sent to the cloud. The Insight platform presents this data in graphical, comparative, and geolocation-based formats. Users can define automatic alarms based on threshold values, integrate with third-party systems, and share data in real-time. These systems can operate continuously in urban projects, tunnel boring operations, or mega infrastructure sites—offering digital oversight without requiring physical site access.",
       "howItWorks": {
-        "description": "Sensors integrated into structures collect data like vibration, tilt, and humidity. Data is sent to a central platform where it is analyzed for early warnings.",
-        "image": "/images/sectors/infrastructure/how-it-works.jpg"
+        "description": "Senceive platforms consist of a series of wireless sensor nodes, energy management systems, and a cloud-based software infrastructure. Each sensor (e.g., tiltmeters, strain gauges, temperature sensors) can be easily mounted to critical or risky areas of the site (excavation walls, temporary scaffolds, crane foundations, pile heads). These sensors collect data at defined intervals (e.g., once per minute) and wirelessly transmit it to a nearby gateway. The gateway then relays the data to secure cloud servers via GSM, LoRaWAN, or satellite connection. On the platform, users monitor this data using graphs, comparative analytics, and geolocation-based visualizations. SMS/email alerts are sent when threshold values are exceeded, and SCADA or other existing systems can trigger automated responses. Thanks to solar-powered gateways, the system can operate without any need for field-based energy infrastructure. Battery life ranges from 10 to 15 years on average. The entire system, including firmware updates, can be managed remotely, enabling updates or new features without on-site intervention.",
+        "image": "/sectors/insaat.png"
       },
       "benefits": [
-        "Structural health assurance",
-        "Reduced maintenance costs",
-        "Long-term safety verification",
-        "Multi-point monitoring capabilities"
+        "Sensor structure requires no cabling or energy infrastructure, allowing full setup within minutes—saving both time and cost.",
+        "Real-time data flow enables early detection and preventive action for risks like excavation collapse, anchor loosening, or wall deformation.",
+        "Durable, IP68-certified sensor design ensures reliable data from -40°C to +85°C in harsh site conditions.",
+        "Alarm system and email/SMS notifications allow technical teams off-site to be instantly informed and involved.",
+        "Integration with SCADA, BIM, and other monitoring platforms enables centralized archiving and analysis of project data.",
+        "Provides a versatile sensor network suitable for monitoring structural health, evaluating temporary structures, and analyzing foundation settlements.",
+        "Minimizes manual measurements and hazardous site visits, enhancing safety and reducing workforce burden.",
+        "Scalable and easily adaptable to all types of sites, from small-scale housing projects to large-scale highway bridge constructions."
       ]
     },
     {
-      "id": "insaat",
-      "name": "construction",
-      "title": "Construction Monitoring",
-      "heroImage": "/images/sectors/construction/hero.jpg",
-      "summary": "Temporary and permanent structure monitoring solutions during construction projects.",
-      "overview": "Senceive enables safe tracking of structures during construction, minimizing risks to third-party buildings and increasing on-site safety.",
-      "applications": [
-        "Excavation site monitoring",
-        "Temporary support structure analysis",
-        "Environmental impact detection",
-        "Crack and tilt monitoring"
-      ],
+      "id": "mining",
+      "title": "Mining and Quarry Monitoring",
+      "heroImage": "/sectors/madenHero.png",
+      "summary": "Mining is a large-scale, high-risk industrial activity that involves the extraction of both surface and underground resources. Among the greatest challenges faced during these operations are ground instability, sudden deformations from blasting activities, roof collapses, landslides, weakening of tailings dams, and structural damage. Senceive’s wireless monitoring systems are specifically designed for these dynamic and hazardous environments. Robust sensor nodes monitor the behavior of critical structures in mining sites with millimetric precision. They collect real-time data particularly from slopes, tunnels, shafts, and dams. This enhances worker safety and maximizes operational efficiency. Thanks to remote access to field data, a continuous flow of information is maintained between engineers and field teams. Senceive solutions reduce maintenance costs, minimize downtime, and help prevent potential disasters. Moreover, with solar-powered gateways, reliable long-term monitoring is possible even without energy infrastructure.",
+      "overview": "Traditional mining monitoring methods typically rely on periodic measurements and limited manual observations. This approach is insufficient for sudden events and often only allows intervention after damage has occurred. However, in mining—an ever-changing environment—real-time, continuous information is essential, not just historical data. Senceive’s wireless and energy-efficient sensor networks perfectly meet this need. They can simultaneously monitor parameters such as slope stability, surface movements, tunnel deformations, convergence movements, and tailings dam pressure variations. Moreover, since these systems operate over LoRa, RF, or GSM connections, they provide uninterrupted communication even in sites spanning large areas. The Insight platform processes all incoming data in real time, generating meaningful graphs, comparative analyses, and alert systems. It can also automatically send SMS or email notifications when thresholds are exceeded. With camera integration, event verification becomes possible. All these features enable mining engineers not only to monitor the current state but also to foresee potential risks—creating a proactive, not just reactive, monitoring model.",
       "howItWorks": {
-        "description": "Wireless sensors are placed across the site to monitor structural movements. Data is transmitted via gateways and accessed via mobile or desktop devices.",
-        "image": "/images/sectors/construction/how-it-works.jpg"
+        "description": "Senceive’s mining solutions are based on an integrated monitoring system composed of sensors, gateways, and a platform. Each sensor node is equipped with high-precision hardware capable of measuring critical parameters such as tilt, displacement, temperature, and strain. Manufactured to IP68 standards, these sensors are designed to operate for years under harsh field conditions. They can be installed in predefined areas (e.g., open-pit slopes, shafts, tailings dam edges, tunnel openings) within minutes. Once installed, the sensors collect data at the configured frequency (e.g., every minute) and transmit it wirelessly to a nearby gateway. These gateways typically operate on solar power and transmit the data to the cloud-based Insight platform via LoRaWAN, GSM, or RF communication. The platform visualizes this data through time-based graphs, detects anomalies, and generates alerts when necessary. Users can define threshold values and set up automatic integration with SCADA or third-party systems. The system can also be updated remotely, allowing the deployment of new sensor types or data algorithms without physical intervention. With minimal maintenance requirements, it can operate continuously for over 10 years.",
+        "image": "/sectors/maden.png"
       },
       "benefits": [
-        "Increased site safety",
-        "Early detection of external risks",
-        "Easy installation and removal",
-        "Minimal maintenance required"
+        "Senceive’s robust IP68-rated sensors ensure uninterrupted operation even in challenging mining conditions such as high temperatures, humidity, dust, and explosive gases—guaranteeing field safety.",
+        "In high-risk open-pit and underground areas, the system collects data 24/7, providing instant alerts against collapses, deformations, or ground shifts for proactive intervention.",
+        "When sensors in the field reach predefined threshold values, automatic alarms are triggered to inform both onsite teams and remote managers—enabling fast response and risk reduction.",
+        "Thanks to the wireless communication infrastructure, there is no need to lay cables during installation—saving time and enabling easy deployment in rugged terrain.",
+        "Solar or battery-powered systems enable long-term, uninterrupted data collection even in remote areas without existing energy infrastructure.",
+        "The central monitoring platform aggregates data from multiple mining sites into a single interface, allowing comprehensive analysis and comparison for management teams.",
+        "With camera integration and compatibility with custom panels, the system supports visual verification and detailed reporting to improve understanding of events.",
+        "Long-lasting, maintenance-free sensor architecture reduces operating costs while increasing system reliability."
       ]
     },
     {
-      "id": "madencilik",
-      "name": "mining",
-      "title": "Mining Monitoring",
-      "heroImage": "/images/sectors/mining/hero.jpg",
-      "summary": "Monitoring systems for both surface and underground mining operations.",
-      "overview": "Senceive delivers reliable data transmission in open-pit and underground mining, enhancing worker safety and improving productivity in hazardous environments.",
-      "applications": [
-        "Open-pit movement tracking",
-        "Underground tunnel stability monitoring",
-        "Deformation control in dams and embankments",
-        "Vibration and seismic activity monitoring"
-      ],
+      "id": "infrastructure",
+      "title": "Infrastructure and Critical Structure Monitoring",
+      "heroImage": "/sectors/altyapiHero.png",
+      "summary": "Critical structures such as bridges, tunnels, dams, waterways, pipelines, and energy infrastructures can become vulnerable over time due to environmental impacts, structural fatigue, and unforeseen events. These structures are vital for both public safety and economic continuity. Senceive’s wireless monitoring solutions are designed to track the long-term health and performance of such infrastructure. With real-time data collection, instant alerts, and long-lasting sensor technology, infrastructure owners and managers can detect potential issues early, take proactive measures, reduce maintenance costs, and extend the service life of their assets.",
+      "overview": "Traditional infrastructure monitoring methods often rely on periodic manual inspections and limited data collection. This approach may fall short when it comes to sudden events, often making it too late to act once problems are noticed. Senceive’s wireless monitoring systems overcome these shortcomings by providing continuous, reliable, and detailed data. The system helps understand structural behavior by tracking parameters such as tilt, displacement, temperature, and strain. Operating over LoRa, RF, or GSM connections, these systems provide uninterrupted communication even across widespread infrastructure. The Insight platform processes data from sensors in real time, generating meaningful graphs, comparative analyses, and alert systems. This allows infrastructure managers to continuously monitor performance, anticipate maintenance needs, and prevent potential failures.",
       "howItWorks": {
-        "description": "Sensors placed in harsh environments gather geotechnical and structural data. This data is transmitted via radio networks to a central system for continuous analysis.",
-        "image": "/images/sectors/mining/how-it-works.jpg"
+        "description": "Senceive’s infrastructure monitoring solutions are based on an integrated system consisting of sensor nodes, gateway devices, and a data management platform. Each sensor node is equipped with high-precision hardware capable of measuring parameters such as tilt, displacement, temperature, and strain. Manufactured to IP68 standards, these sensors are built to function for years even in harsh field conditions. They can be installed within minutes in predefined areas (e.g., bridge piers, tunnel walls, dam faces). Once installed, the sensors collect data at set intervals and wirelessly transmit it to the nearest gateway. These gateways typically operate on solar power and transmit the data to the cloud-based Insight platform via LoRaWAN, GSM, or RF communication. The platform visualizes this data through time-based graphs, detects anomalies, and generates alerts when necessary. Users can define threshold values and set up automatic integration with SCADA or other systems. The system can also be updated remotely, allowing new sensor types or data algorithms to be introduced without physical site intervention. With minimal maintenance requirements, the system can operate continuously for over 10 years.",
+        "image": "/sectors/altyapi.png"
       },
       "benefits": [
-        "Enhanced operator safety",
-        "Predictive maintenance opportunities",
-        "Minimized operational downtime",
-        "Highly flexible system design"
+        "Senceive’s robust IP68-rated sensors ensure uninterrupted operation even in extreme environmental conditions such as high temperature, humidity, dust, and more—guaranteeing infrastructure safety.",
+        "The system collects data 24/7 in critical infrastructure areas, enabling proactive response through instant alerts against potential deformation or structural degradation.",
+        "When sensors in the field reach predefined thresholds, automatic alarms are triggered to inform both on-site teams and remote managers, allowing for rapid intervention and risk reduction.",
+        "The wireless communication infrastructure eliminates the need for cable installation during setup, saving time and enabling easier deployment in difficult terrain.",
+        "Solar- or battery-powered systems enable long-term, uninterrupted data collection even in remote areas without existing energy infrastructure.",
+        "The central monitoring platform aggregates data from various infrastructure sites into a single interface, providing managers with comprehensive analysis and comparisons.",
+        "With camera integration and compatibility with specialized panels, the system supports visual verification and detailed reporting, improving understanding of incidents.",
+        "Long-lasting, maintenance-free sensor design lowers operating costs while enhancing system reliability."
       ]
     }
-  ]
+  ],
+  "applications": [
+    {
+      "id": "railways",
+      "title": "Rail Tracks",
+      "icon": "icons/1.png",
+      "description": "Rail systems are infrastructures that must be constantly monitored due to high-frequency vibrations, dynamic load variations, and ground settlement. Senceive sensors detect problems such as rail deformation, track settlement, and sleeper displacement in real-time. With this system, track closure time is reduced, maintenance planning is optimized, and passenger safety is enhanced.",
+      "link": "https://www.senceive.com/applications/rail-track"
+    },
+    {
+      "id": "rockfalls",
+      "title": "Rockfalls",
+      "icon": "icons/2.png",
+      "description": "In mountainous or sloped terrains, the risk of rockfall poses a serious structural and life safety threat. Senceive's wireless tilt sensors and movement monitors detect micro-movements to provide early warning of potential falls. This enables protection of roads, tunnels, or structures and allows safety measures to be taken in advance.",
+      "link": "https://www.senceive.com/applications/rockfall"
+    },
+    {
+      "id": "tunnels",
+      "title": "Tunnels",
+      "icon": "icons/3.png",
+      "description": "Deformations, convergence, segment gaps, and pressure changes occurring in underground tunnels threaten structural integrity. Senceive systems monitor these changes with millimetric precision. Thanks to alarm mechanisms integrated with SCADA systems, critical situations are instantly reported and operators can intervene quickly.",
+      "link": "https://www.senceive.com/applications/tunnels"
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency Monitoring",
+      "icon": "icons/4.png",
+      "description": "In emergencies such as earthquakes, landslides, and dam failures, monitoring the behavior of infrastructures is vital. Senceive enables the tracking of structural risks in emergency scenarios through real-time sensor data. With automatic alert generation and camera integration, instant decisions can be made and intervention teams directed.",
+      "link": "https://www.senceive.com/emergency-response-monitoring"
+    },
+    {
+      "id": "slopes",
+      "title": "Slopes",
+      "icon": "icons/5.png",
+      "description": "Slopes, hillsides, and soft ground areas are highly susceptible to landslides and soil slips. With Senceive inclinometers and remote monitoring systems, such movements are detected at an early stage. Long-term slope change analysis guides project design and reinforcement efforts.",
+      "link": "https://www.senceive.com/applications/slopes"
+    },
+    {
+      "id": "bridges",
+      "title": "Bridges",
+      "icon": "icons/6.png",
+      "description": "Bridge structures are constantly subject to effects such as thermal expansion, load changes, ground settlement, and vibrations. Senceive systems provide real-time data from bridge piers, decks, and suspension points, enabling structural health assessment. Long-term monitoring supports data-driven maintenance decisions.",
+      "link": "https://www.senceive.com/applications/bridges"
+    },
+    {
+      "id": "pipelines",
+      "title": "Pipelines",
+      "icon": "icons/7.png",
+      "description": "Displacement, bending, deformation, or leaks in underground and surface pipelines pose serious environmental and financial threats. Senceive systems monitor structural behavior along the pipeline using strategically placed sensors, providing instant alerts when alarm thresholds are exceeded.",
+      "link": "https://www.senceive.com/applications/pipelines"
+    },
+    {
+      "id": "drainage",
+      "title": "Drainage Systems",
+      "icon": "icons/8.png",
+      "description": "Due to heavy rainfall, channel blockages, or infrastructure weaknesses, drainage systems can pose a flood risk. Senceive's wireless monitoring solutions continuously track water level, flow rate, and pressure, providing municipalities and technical teams with real-time data. Thanks to alerts, preventive measures can be taken to avoid infrastructure damage.",
+      "link": "https://www.senceive.com/applications/drainage"
+    }
+  ],
+
+  "benewakeDetails": {
+    "title": "BENEWAKE - SENSOR",
+    "subtitle": "High-Precision Smart Sensor Systems",
+    "intro": [
+      {
+        "title": "Global Technology Leader",
+        "text": "Founded in 2015 in Beijing, Benewake quickly gained worldwide recognition in the lidar sensor industry. It operates across a wide range of fields from smart city applications to autonomous systems. Today, it exports to over 80 countries and is a trusted partner in both industrial and academic projects. With strong R&D capabilities and international collaborations, it leads the evolution of sensor technology."
+      },
+      {
+        "title": "Wide Product Range",
+        "text": "Benewake's product portfolio is diversified to meet varying range and precision needs. It offers numerous models from compact options like TF-Luna to long-range solutions like TF350. Each product is equipped with advantages such as IP protection, multiple interfaces (UART, CAN, RS485), and low power consumption. This flexibility allows easy integration across a wide range of industries."
+      },
+      {
+        "title": "Innovative R&D and Patents",
+        "text": "To date, Benewake has filed over 300 national and international patents, establishing itself as a tech pioneer. It continuously advances in signal processing algorithms, optical structure optimization, and hardware development. In addition to its headquarters in China, it actively contributes to the global innovation cycle through partners in Europe and the United States. Its R&D budget forms a significant portion of its total revenue."
+      },
+      {
+        "title": "Reliability and Durability",
+        "text": "With IP65 and IP67 protection class models, Benewake sensors offer reliable performance in harsh field conditions. They can operate in temperatures from -20°C to +70°C and are resistant to impacts and electromagnetic interference. During production, sensors undergo numerous environmental tests to ensure durability. These features provide long-lasting, low-maintenance solutions."
+      },
+      {
+        "title": "Versatile Application Areas",
+        "text": "Benewake sensors are used for drone navigation, obstacle detection, in-vehicle safety systems, factory automation, agricultural robots, and more. The TF-Luna model stands out in fixed height control, while the TF02-Pro is prominent in obstacle detection. With high frequency and low power consumption, they ensure energy efficiency in all these applications. Thanks to their modular design, they can be easily integrated into both embedded systems and standalone solutions."
+      }
+    ],
+    "visualBlock": {
+      "image": "/marka-photos/benewake/bHero.png",
+      "alt": "Benewake Drone with Sensor",
+      "title": "How Do Benewake Sensors Work?",
+      "paragraphs": [
+        "Benewake sensors are high-precision distance measurement systems that operate using ToF (Time-of-Flight) technology. The sensor emits an infrared laser beam toward a target; the beam reflects off the target surface and returns, and the round-trip time is measured to calculate the distance with millimeter-level precision.",
+        "This principle enables the sensors to perform tasks with high accuracy such as fixed height tracking, terrain monitoring, and landing-takeoff control in drone systems. In robotic platforms, they provide direct input for obstacle detection and navigation. In autonomous vehicles, they contribute to collision avoidance and object recognition. In building automation, they are used for floor positioning, vehicle presence, and human motion detection.",
+        "Benewake sensors, with their compact design, low power consumption, IP protection rating, and various communication interfaces (UART, CAN, RS485), can be easily integrated into different systems. This makes them an ideal and long-lasting solution for applications ranging from mobile platforms to industrial automation."
+      ]
+    },
+    "productButtons": [
+      {
+        "id": "single-point",
+        "title": "Single Point Series",
+        "text": "One-way distance measurement sensors for fast, lightweight, and cost-effective applications."
+      },
+      {
+        "id": "2d",
+        "title": "2D Series",
+        "text": "Offers two-dimensional measurement capabilities for surface scanning and wide-area analysis."
+      },
+      {
+        "id": "3d",
+        "title": "3D Series",
+        "text": "Ideal volumetric detection solutions for complex object recognition and environmental mapping applications."
+      }
+    ]
+  }
 }
