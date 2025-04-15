@@ -4,7 +4,7 @@
       "name": "GNSS",
       "title": "GNSS Teknolojisi: Hassas Konumlandırma",
       "icon": "navbar-icons/gnss-icon.png",
-      "photo": "/navbar-photos/gnsst.jpeg",
+      "photo": "/navbar-photos/gnss0.png",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme sistemlerinin genel adıdır. GPS, GLONASS, Galileo ve BeiDou gibi uydu sistemlerinin birlikte çalışmasıyla, dünya üzerinde her noktada, her an kesin konum belirlemesi yapılabilir. Özellikle RTK ve PPP teknolojileri sayesinde santimetre düzeyinde doğruluk sağlanabilir. GNSS, inşaat, haritacılık, tarım, madencilik, denizcilik, ulaşım, akıllı şehir uygulamaları ve otonom sistemlerde kritik bir rol oynar. GNSS alıcıları, zorlu saha koşullarında bile güvenilir veri sunar. Gerçek zamanlı veri iletimi, yüksek uydu takip kapasitesi ve dayanıklı gövde yapılarıyla hem mobil hem sabit uygulamalarda kullanılır. Büyük ölçekli altyapı projeleri, metro ve tünel çalışmaları, arazi düzenlemeleri ve jeodezik ölçümlerde yüksek doğruluk ve verimlilik sağlar."
     },
@@ -12,7 +12,7 @@
       "name": "TOTAL STATION",
       "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
       "icon": "navbar-icons/tstation.png",
-      "photo": "/navbar-photos/totalstation.webp",
+      "photo": "/navbar-photos/totals.png",
       "path": "/total-station",
       "description": "Total Station; lazer, elektronik açı ve mesafe ölçüm cihazlarını bir araya getiren, sahada hızlı ve yüksek doğrulukla veri toplayabilen gelişmiş ölçüm sistemidir. Otomatik hedef tanıma, prizma takibi ve uzaktan veri aktarımı gibi özellikleri sayesinde büyük inşaat projelerinde ve mühendislik uygulamalarında kritik rol oynar. CAD ve BIM sistemlerine kolay veri aktarımı, sahada hatasız ölçüm, hızlı veri kaydı ve gerçek zamanlı doğrulama imkanı sunar. Total Station cihazları, köprü inşaatları, otoyol çalışmaları, tünel kazıları ve baraj projelerinde santimetre altı hassasiyet sağlar. Dayanıklı ve ergonomik tasarımlarıyla her türlü hava ve saha koşulunda kullanılabilir. Entegre yazılımları ile rapor üretimi ve veri analizi süreçlerini hızlandırır."
     },
@@ -20,7 +20,7 @@
       "name": "İHA",
       "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
       "icon": "navbar-icons/iha.png",
-      "photo": "/navbar-photos/iha.webp",
+      "photo": "/navbar-photos/iha.png",
       "path": "/iha",
       "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
     },
@@ -28,7 +28,7 @@
       "name": "LİDAR",
       "title": "Lidar Teknolojisi: Yüksek Hassasiyetli 3D Tarama",
       "icon": "navbar-icons/lidar.png",
-      "photo": "/navbar-photos/lidar.webp",
+      "photo": "/navbar-photos/lidar4.png  ",
       "path": "/lidar",
       "description": "Lidar (Light Detection and Ranging), lazer ışınlarıyla yüzeyleri tarayarak üç boyutlu nokta bulutları oluşturan ileri seviye bir teknolojidir. Hava ve kara araçlarına monte edilerek geniş alanlarda milimetrik doğrulukta veri toplanabilir. Özellikle orman envanteri, yol projeleri, altyapı planlaması, şehir modellemesi ve madencilik sektörlerinde tercih edilir. Karmaşık arazi yapılarının detaylı analizi, bitki örtüsü altındaki yüzey haritalamaları ve hacim hesapları için ideal bir çözümdür. Toplanan veriler, CAD, GIS ve mühendislik yazılımlarına entegre edilerek 3D analiz ve modelleme süreçlerine katkı sağlar. Hız, doğruluk ve detay seviyesi açısından benzersiz avantajlar sunar."
     },
@@ -36,7 +36,7 @@
       "name": "NİVO",
       "title": "Nivo Teknolojisi: Hassas Kot ve Yükseklik Ölçüm Cihazları",
       "icon": "navbar-icons/nivo.png",
-      "photo": "/navbar-photos/nivo.webp",
+      "photo": "/navbar-photos/nivo.png",
       "path": "/nivo",
       "description": "Nivo, inşaat, altyapı ve mühendislik projelerinde yükseklik farklarını ve kot ölçümlerini hassas şekilde belirlemek için kullanılan profesyonel cihazlardır. Optik ve dijital versiyonları ile farklı kullanıcı ihtiyaçlarına hitap eder. Dijital nivolar, ölçüm sonuçlarını otomatik hesaplar ve anlık ekranda görüntüler. Şantiye uygulamalarında; zemin düzlemesi, şev ölçümü, yol ve köprü eğim kontrolleri gibi kritik alanlarda kullanılır. Titreşim sönümleyici sistemleri ve IP66 koruma sınıfı gövdeleriyle zorlu saha koşullarında uzun süreli dayanıklılık sağlar. Hafif ve taşınabilir yapıları sayesinde sahada hızlı kurulum ve rahat kullanım imkanı sunar."
     },
@@ -44,7 +44,7 @@
       "name": "BATİMETRİ",
       "title": "Batimetri Teknolojisi: Su Altı Haritalama ve Derinlik Ölçümü",
       "icon": "navbar-icons/batimetri.png",
-      "photo": "/navbar-photos/batimetri.webp",
+      "photo": "/navbar-photos/batimetri.png",
       "path": "/batimetri",
       "description": "Batimetri, su altı yüzeylerinin derinliklerini ölçmek ve topografik haritalarını çıkarmak için kullanılan ileri seviye bir tekniktir. Tek ışınlı ve çok ışınlı sonar sistemleri ile donatılmış batimetri sistemleri; baraj gölleri, limanlar, nehir yatakları ve deniz alanlarında kullanılır. GNSS entegrasyonu ile birlikte çalışan bu sistemler, koordinatlı derinlik verisi sağlayarak mühendislik projeleri, taşkın analizi, kanal ve liman tasarımları için kritik bilgiler üretir. Canlı veri aktarımı, anlık ekran görüntüleme ve detaylı hacim hesaplama özellikleri sayesinde projelerde zaman kazandırır. Mobil kullanılabilen versiyonları, zorlu deniz koşullarında bile güvenilir sonuçlar sunar."
     },
@@ -52,7 +52,7 @@
       "name": "MAKİNE KONTROL",
       "title": "Makine Kontrol Teknolojisi: Şantiye Otomasyonu ve Hassas Kazı",
       "icon": "navbar-icons/mk.png",
-      "photo": "/navbar-photos/mk.webp",
+      "photo": "/navbar-photos/mk.png",
       "path": "/makine-kontrol",
       "description": "Makine kontrol sistemleri; ekskavatör, dozer ve greyder gibi ağır inşaat makinelerinde kullanılan, otomatik kazı ve dolgu işlemlerini milimetrik hassasiyetle gerçekleştiren sistemlerdir. GNSS ve sensörlerle entegre çalışan bu teknolojiler, 3D proje verileriyle sahaya doğrudan uygulama yapma imkanı sunar. Operasyonlarda hata oranını minimize eder, işçilik maliyetlerinden tasarruf sağlar ve proje süresini kısaltır. Şantiyelerde zaman yönetimini optimize eden makine kontrol sistemleri, canlı ilerleme takibi ve veri kayıt özellikleri ile tüm süreçleri dijital ortamda izlenebilir hale getirir."
     },
@@ -60,7 +60,7 @@
       "name": "SENSÖR",
       "title": "Sensör Teknolojisi: Akıllı İzleme ve Veri Toplama Sistemleri",
       "icon": "navbar-icons/sensor.png",
-      "photo": "/navbar-photos/sensor.webp",
+      "photo": "/navbar-photos/sensor.png",
       "path": "/sensor",
       "description": "Sensör sistemleri; sıcaklık, nem, basınç, eğim, hareket ve titreşim gibi çevresel ve yapısal verileri anlık olarak toplayan ve işleyen akıllı cihazlardır. IoT altyapısı ile kablosuz veri iletimi yaparak uzaktan izleme imkanı sağlar. Özellikle yapı sağlığı izleme, jeoteknik gözlem, çevresel analizler, tarım ve endüstri sektörlerinde yaygın olarak kullanılır. Uzun pil ömrü, düşük enerji tüketimi ve zorlu saha koşullarına dayanıklı yapıları ile güvenilir veri toplama süreçleri sağlar. Gelişmiş sensör ağları, anlık uyarılar ve otomatik raporlama özellikleriyle projelerin kontrol altında tutulmasına olanak tanır."
     },
@@ -1776,10 +1776,8 @@
       "name": "CHCNAV TX63",
       "description": "Yüksek hassasiyetli makine kontrol sistemi.",
       "images": [
-        "/marka-photos/chcnav/tx63-0.png",
         "/marka-photos/chcnav/tx63-1.png",
-        "/marka-photos/chcnav/tx63-2.png",
-        "/marka-photos/chcnav/tx63-3.png"
+        "/marka-photos/chcnav/tx63-1.png"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -1799,8 +1797,7 @@
       "description": "Motor greyderler için 3D otomatik seviye kontrol sistemi.",
       "images": [
         "/marka-photos/chcnav/tg63-1.png",
-        "/marka-photos/chcnav/tg63-2.jpg",
-        "/marka-photos/chcnav/tg63-3.jpg"
+        "/marka-photos/chcnav/tg63-2.png"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -1819,10 +1816,8 @@
       "name": "CHCNAV TD63 PRO",
       "description": "Dozerler için 3D otomatik kontrol sistemi.",
       "images": [
-        "/marka-photos/chcnav/td63pro-0.png",
-        "/marka-photos/chcnav/td63pro-1.png",
-        "/marka-photos/chcnav/td63pro-2.png",
-        "/marka-photos/chcnav/td63pro-3.png"
+        "/marka-photos/chcnav/td63-1.png",
+        "/marka-photos/chcnav/td63-2.png"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -4680,6 +4675,58 @@
       "Uzun ömürlü ve bakım gerektirmeyen sensör yapısı, işletme maliyetlerini düşürürken sistemin güvenilirliğini artırır."
     ]
   }  
+],
+"applications": [
+  {
+    "id": "railways",
+    "title": "Ray Hatları",
+    "icon": "icons/1.png",
+    "description": "Raylı sistemler, yüksek frekanslı titreşimler, dinamik yük değişimleri ve zemin oturmaları nedeniyle sürekli izlenmesi gereken altyapılardır. Senceive sensörleri, ray deformasyonu, hat oturması, travers kaymaları gibi sorunları gerçek zamanlı olarak tespit eder. Bu sistem sayesinde hat kapatma süresi azalır, bakım planlaması optimize edilir ve yolcu güvenliği üst seviyeye çıkarılır."
+  },
+  {
+    "id": "rockfalls",
+    "title": "Kaya Düşmeleri",
+    "icon": "icons/2.png",
+    "description": "Dağlık veya eğimli arazilerde kaya düşmesi riski ciddi yapısal ve can güvenliği tehdidi oluşturur. Senceive’in kablosuz eğim sensörleri ve hareket izleyicileri, mikro hareketleri tespit ederek potansiyel düşmeleri önceden haber verir. Bu sayede yol, tünel veya yapıların korunması mümkün olur ve güvenlik önlemleri önceden alınabilir."
+  },
+  {
+    "id": "tunnels",
+    "title": "Tüneller",
+    "icon": "icons/3.png",
+    "description": "Yer altı tünellerinde meydana gelen deformasyonlar, yakınsama, segman açıklıkları ve basınç değişimleri yapısal bütünlüğü riske atar. Senceive sistemleri bu değişimleri milimetrik hassasiyetle izler. SCADA sistemleriyle entegre çalışan alarm mekanizmaları sayesinde kritik durumlar anında bildirilir ve operatörler hızlıca müdahale edebilir."
+  },
+  {
+    "id": "emergency",
+    "title": "Acil Durum İzleme",
+    "icon": "icons/4.png",
+    "description": "Deprem, toprak kayması, baraj yıkımı gibi acil durumlarda altyapıların davranışı hayati önem taşır. Senceive, gerçek zamanlı sensör verileri ile acil durum senaryolarında yapısal risklerin takibini mümkün kılar. Otomatik alarm üretimi ve kamera entegrasyonu sayesinde anlık kararlar alınabilir, müdahale ekipleri yönlendirilir."
+  },
+  {
+    "id": "slopes",
+    "title": "Eğim Alanları",
+    "icon": "icons/5.png",
+    "description": "Şevler, yamaçlar ve yumuşak zeminli bölgeler, heyelan ve toprak kaymasına karşı en hassas alanlardır. Senceive eğimölçerler ve uzaktan izleme sistemleri ile bu hareketler erken evrede tespit edilir. Uzun süreli eğim değişimi analizi, projelendirme ve güçlendirme çalışmalarına yön verir."
+  },
+  {
+    "id": "bridges",
+    "title": "Köprüler",
+    "icon": "icons/6.png",
+    "description": "Köprü yapıları; termal genleşme, yük değişimi, yer oturması ve titreşim gibi etkiler altında sürekli olarak çalışır. Senceive sistemleri, köprü ayakları, tabliyeler ve askı noktalarında gerçek zamanlı veri sağlayarak yapısal sağlık değerlendirmesine olanak tanır. Uzun vadeli izleme sayesinde bakım kararları veriye dayalı alınır."
+  },
+  {
+    "id": "pipelines",
+    "title": "Boru Hatları",
+    "icon": "icons/7.png",
+    "description": "Yer altı ve yüzey boru hatlarında oluşabilecek yer değiştirme, eğilme, deformasyon veya sızıntılar ciddi çevresel ve finansal tehditler oluşturur. Senceive sistemleri, bu hatlar boyunca yerleştirilen sensörlerle yapısal davranışı izler, alarm eşikleri aşıldığında anında bilgilendirme sağlar."
+  },
+  {
+    "id": "drainage",
+    "title": "Drenaj Sistemleri",
+    "icon": "icons/8.png",
+    "description": "Yoğun yağış, kanal tıkanıklığı veya altyapı zafiyetleri nedeniyle drenaj sistemlerinde taşkın riski oluşabilir. Senceive’in kablosuz izleme çözümleri su seviyesini, akış hızını ve basıncı sürekli takip ederek belediyelere ve teknik ekiplere anlık veri sağlar. Uyarılar sayesinde önlem alınarak altyapı hasarları önlenir."
+  }
 ]
+
+
 
 }
