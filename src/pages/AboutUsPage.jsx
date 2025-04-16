@@ -100,17 +100,13 @@ export default function AboutUsPage() {
           { label: "Banka", accessor: "banka" },
           { label: "Şube", accessor: "sube" },
           { label: "Şube Kodu", accessor: "subeKodu" },
-          { label: "TL IBAN", accessor: "tlIban" },
-          { label: "USD IBAN", accessor: "usdIban" },
-          { label: "EUR IBAN", accessor: "eurIban" }
+          { label: "TL IBAN", accessor: "tlIban" }
         ]
       : [
           { label: "Bank", accessor: "banka" },
           { label: "Branch", accessor: "sube" },
           { label: "Branch Code", accessor: "subeKodu" },
-          { label: "TL IBAN", accessor: "tlIban" },
-          { label: "USD IBAN", accessor: "usdIban" },
-          { label: "EUR IBAN", accessor: "eurIban" }
+          { label: "TL IBAN", accessor: "tlIban" }
         ];
 
   const swiftColumns =

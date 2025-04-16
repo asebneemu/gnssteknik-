@@ -3937,55 +3937,35 @@
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
             "sube": "NECATİBEY CAD.",
             "subeKodu": "241",
-            "tlIban": "TR06 0004 6002 4188 8000 1254 31",
-            "usdIban": "TR27 0004 6002 4100 1000 1254 32",
-            "eurIban": "TR74 0004 6002 4103 6000 1254 33",
-            "usdSwift": "AKBKTRIS",
-            "eurSwift": "AKBKTRIS"
+            "tlIban": "TR06 0004 6002 4188 8000 1254 31"
           },
           {
             "banka": "GARANTİ",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
             "sube": "EMEK",
             "subeKodu": "778",
-            "tlIban": "TR24 0006 2000 7780 0006 2977 13",
-            "usdIban": "TR71 0006 2000 7780 0009 0916 31",
-            "eurIban": "TR44 0006 2000 7780 0009 0916 32",
-            "usdSwift": "",
-            "eurSwift": ""
+            "tlIban": "TR24 0006 2000 7780 0006 2977 13"
           },
           {
             "banka": "FİNANSBANK",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
             "sube": "ÇETİN EMEÇ",
-            "subeKodu": "nan",
-            "tlIban": "TR50 0011 1000 0000 0056 3321 64",
-            "usdIban": "TR87 0011 1000 0000 0105 4205 79",
-            "eurIban": "-",
-            "usdSwift": "",
-            "eurSwift": ""
+            "subeKodu": "-",
+            "tlIban": "TR50 0011 1000 0000 0056 3321 64"
           },
           {
             "banka": "İŞ BANKASI",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
             "sube": "YENİŞEHİR",
             "subeKodu": "4218",
-            "tlIban": "TR91 0006 4000 0014 2185 6128 94",
-            "usdIban": "TR95 0006 4000 0024 2187 1788 82",
-            "eurIban": "-",
-            "usdSwift": "ISBKTRIS",
-            "eurSwift": ""
+            "tlIban": "TR91 0006 4000 0014 2185 6128 94"
           },
           {
             "banka": "ZİRAAT KATILIM",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
             "sube": "BALGAT",
             "subeKodu": "37",
-            "tlIban": "TR42 0020 9000 0076 2977 0000 01",
-            "usdIban": "TR15 0020 9000 0076 2977 0000 02",
-            "eurIban": "-",
-            "usdSwift": "",
-            "eurSwift": ""
+            "tlIban": "TR42 0020 9000 0076 2977 0000 01"
           }
         ],
         "swiftTable": [
@@ -4006,10 +3986,10 @@
             "eurSwift": "TGBATRISXXX"
           },
           {
-            "banka": "ZİRAAT KATILIM",
+            "banka": "FİNANSBANK",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
-            "usdIban": "TR15 0020 9000 0076 2977 0000 02",
-            "usdSwift": "ZKBATRIS",
+            "usdIban": "TR87 0011 1000 0000 0105 4205 79",
+            "usdSwift": "FNNBTRIS",
             "eurIban": "-",
             "eurSwift": "-"
           },
@@ -4022,10 +4002,10 @@
             "eurSwift": "-"
           },
           {
-            "banka": "FİNANSBANK",
+            "banka": "ZİRAAT KATILIM",
             "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
-            "usdIban": "TR87 0011 1000 0000 0105 4205 79",
-            "usdSwift": "FNNBTRIS",
+            "usdIban": "TR15 0020 9000 0076 2977 0000 02",
+            "usdSwift": "ZKBATRIS",
             "eurIban": "-",
             "eurSwift": "-"
           }
