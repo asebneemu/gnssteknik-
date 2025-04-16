@@ -53,3 +53,26 @@
       "Tilt kompansasyonu ve yüksek doğruluk sağlayan ZENITH algoritması."
     ]
   },
+  {
+    "id": 1000,
+    "name": "Senceive Crack Sensor Node",
+    "title": "Crack Sensor Node – Çatlak Hareketlerini Hassas Takip Çözümü",
+    "description": "Senceive Crack Sensor Node, yapı ve altyapılardaki çatlak hareketlerini 0.1 mm hassasiyetle izleyen, IP68 korumalı, kablosuz veri aktarımı ve 10 yıla kadar pil ömrü sunan, kritik yapılar için güvenilir çatlak takip çözümüdür.",
+    "images": ["/marka-photos/senceive/main.png"],
+    "category": "sensor",
+    "brand": "senceive",
+    "type": "crack-sensor",
+    "typeTitle": "Çatlak Takip Sensörleri",
+    "technology": ["flatmesh", "geowan"],
+    "specs": [
+      "±20 mm çatlak hareketi ölçüm kapasitesine sahiptir.",
+      "0.1 mm çözünürlükle mikro çatlakları algılar.",
+      "10 yıla kadar uzun süreli çalışma sağlar.",
+      "-20°C ila +60°C arasında stabil performans sunar.",
+      "FlatMesh™ ve GeoWAN™ platformlarıyla uyumludur.",
+      "IP68 suya ve toza karşı üstün dayanıklılık sağlar.",
+      "Duvar, kolon veya yüzey sabitlemesi ile hızlı kurulum imkanı sunar.",
+      "Çevresel değişimlere karşı otomatik sıcaklık kompansasyonu sağlar."
+    ],
+    "compatibleProducts": [301, 302, 401]
+  }

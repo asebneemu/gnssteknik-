@@ -508,10 +508,7 @@
       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
       "images": [
         "/marka-photos/stec/liscan100.0.png",
-        "/marka-photos/stec/liscan100.1.png",
-        "/marka-photos/stec/liscan100.2.png",
-        "/marka-photos/stec/liscan100.3.png",
-        "/marka-photos/stec/liscan100.4.png"
+        "/marka-photos/stec/liscan100.1.png"
       ],
       "category": "lidar",
       "brand": "stec",
@@ -1692,9 +1689,8 @@
       "name": "CHCNAV CGI-830 GNSS ve IMU Sensörü",
       "description": "Gelişmiş GNSS ve IMU özellikli hassas konumlandırma ve yön bulma sensörü.",
       "images": [
-        "/marka-photos/chcnav/cgi-830-1.png",
-        "/marka-photos/chcnav/cgi-830-2.png",
-        "/marka-photos/chcnav/cgi-830-3.png"
+        "/marka-photos/chcnav/cgi-830-0.png",
+        "/marka-photos/chcnav/cgi-830-1.png"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -1767,8 +1763,7 @@
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
       "images": [
         "/marka-photos/chcnav/cgi-230-1.png",
-        "/marka-photos/chcnav/cgi-230-2.png",
-        "/marka-photos/chcnav/cgi-230-3.png"
+        "/marka-photos/chcnav/cgi-230-2.png"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -3186,7 +3181,7 @@
       "description": "Senceive InfraGuard, ani toprak hareketlerini, heyelanları ve altyapı bozulmalarını erken tespit edebilen, eğim sensörleri ile entegre çalışan akıllı bir kablosuz izleme ve alarm sistemidir. Entegre 4G kameraları sayesinde olay anında görsel kayıt alınmasını da sağlar.",
       "images": [
         "/marka-photos/senceive/infraguard-0.png",
-        "/marka-photos/senceive/infraguard-1.png"
+        "/marka-photos/senceive/infraguard-0.png"
       ],
       "category": "monitoring-system",
       "brand": "senceive",
@@ -3354,7 +3349,7 @@
       "description": "Senceive.io, saha cihazlarının güvenli şekilde yapılandırılması, yönetilmesi ve yönlendirilmesi için geliştirilmiş bulut tabanlı bir platformdur. Kullanıcılar verilerini WebMonitor’a veya kendi yazılımlarına entegre edebilir.",
       "images": [
         "/marka-photos/senceive/senceive-io-0.png",
-        "/marka-photos/senceive/senceive-io-1.png"
+        "/marka-photos/senceive/senceive-io-0.png"
       ],
       "category": "yazilim",
       "brand": "senceive",
@@ -3378,7 +3373,7 @@
       "description": "WebMonitor, Senceive’in sensörlerinden gelen verileri görsel olarak sunan, kullanıcı dostu ve güçlü analiz yeteneklerine sahip bir platformdur. Harita, grafik ve alarm yönetimi gibi birçok fonksiyonu bir arada sunar.",
       "images": [
         "/marka-photos/senceive/webmonitor-0.png",
-        "/marka-photos/senceive/webmonitor-1.png"
+        "/marka-photos/senceive/webmonitor-0.png"
       ],
       "category": "yazilim",
       "brand": "senceive",
@@ -3717,29 +3712,6 @@
         "Yalnızca 6 saatlik eğitimle kullanıcılar uzman seviyeye ulaşabilir.",
         "Web sitesinden tam sürüm deneme versiyonu ücretsiz indirilebilir (kısıtlama yok)."
       ]
-    },
-    {
-      "id": 1000,
-      "name": "Senceive Crack Sensor Node",
-      "title": "Crack Sensor Node – Çatlak Hareketlerini Hassas Takip Çözümü",
-      "description": "Senceive Crack Sensor Node, yapı ve altyapılardaki çatlak hareketlerini 0.1 mm hassasiyetle izleyen, IP68 korumalı, kablosuz veri aktarımı ve 10 yıla kadar pil ömrü sunan, kritik yapılar için güvenilir çatlak takip çözümüdür.",
-      "images": ["/marka-photos/senceive/main.png"],
-      "category": "sensor",
-      "brand": "senceive",
-      "type": "crack-sensor",
-      "typeTitle": "Çatlak Takip Sensörleri",
-      "technology": ["flatmesh", "geowan"],
-      "specs": [
-        "±20 mm çatlak hareketi ölçüm kapasitesine sahiptir.",
-        "0.1 mm çözünürlükle mikro çatlakları algılar.",
-        "10 yıla kadar uzun süreli çalışma sağlar.",
-        "-20°C ila +60°C arasında stabil performans sunar.",
-        "FlatMesh™ ve GeoWAN™ platformlarıyla uyumludur.",
-        "IP68 suya ve toza karşı üstün dayanıklılık sağlar.",
-        "Duvar, kolon veya yüzey sabitlemesi ile hızlı kurulum imkanı sunar.",
-        "Çevresel değişimlere karşı otomatik sıcaklık kompansasyonu sağlar."
-      ],
-      "compatibleProducts": [301, 302, 401]
     }
   ],
   "infoCards": [

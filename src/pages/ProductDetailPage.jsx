@@ -91,8 +91,8 @@ export default function ProductDetailPage() {
             <img
               src={mainImage}
               alt={product.name}
-              className="object-cover w-full h-full cursor-pointer transition-transform duration-300"
-              onClick={() => setIsModalOpen(true)}
+              className="object-cover w-full h-full cursor-default transition-transform duration-300"
+              // onClick kaldırıldı
             />
           </div>
         </div>
