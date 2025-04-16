@@ -4882,6 +4882,89 @@
       "text": "Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için ideal hacimsel algılama çözümleri."
     }
   ]
+},
+"kvkk": {
+  "title": "KVKK Aydınlatma Metni",
+  "subtitle": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+  "text": [
+    {
+      "type": "title",
+      "content": "İNTERNET SİTESİ ÇEREZ KULLANIMI HAKKINDA BİLGİLENDİRME METNİ"
+    },
+    {
+      "type": "paragraph",
+      "content": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş. (GNSS) olarak, siz www.gnssteknik.com.tr (İnternet Sitesi) ziyaretçilerimize ait kişisel verilerin 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ikincil düzenlemelerine (KVK Mevzuatı) uygun olarak işlenmesi ve korunması için azami hassasiyeti göstermekteyiz.\n\nGNSS olarak, Kişisel Verilerin Korunması mevzuatından doğan aydınlatma yükümlülüğü kapsamında sizleri, işbu “İnternet Sitesi Çerez Kullanımı Hakkında Bilgilendirme Metni” ile internet sitemiz tarafından kullanılan çerezler ve bu vasıtayla işlenen kişisel verileriniz hakkında bilgilendirmek isteriz."
+    },
+    {
+      "type": "title",
+      "content": "Hangi Çerez Türlerini Kullanmaktayız?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Çerezler (cookies)  bir internet sitesi tarafından cihazınızda oluşturulan ve isim-değer formatında veri barındıran küçük metin dosyalarıdır. Dolayısıyla, Sitemizi ziyaret etmenizle kullandığımız çerezler cihazınızda site ziyaretinize ilişkin bilgi saklanmasını ve bu bilgilerin sonraki ziyaretleriniz sırasında kullanılmasını mümkün kılmaktadır.\n\nSitemiz tarafından oluşturulan ve sadece Sitemiz tarafından okunabilen çerezler birincil çerezlerdir.\n\nSitemizde sunulan içerik, erişim adresindeki alan adı dışında başka alan adları üzerinden de sağlanmaktadır. Bu gibi durumda her bir alan adı kendine münhasır üçüncü taraf çerezler yaratmaktadır.\n\nSitemizde kullandığımız çerez türleri ile bu çerezleri kullanım amaçlarımız aşağıdaki gibidir:"
+    },
+    {
+      "type": "table",
+      "headers": ["Nu.", "Çerez Türü", "Kullanım Amaçları"],
+      "rows": [
+        ["1", "Oturum Çerezleri", "Oturum çerezleri, İnternet Sitesini kullanımınız sırasında geçerli olan çerezler olup internet tarayıcınızı kapatıncaya kadar geçerliliklerini korurlar."],
+        ["2", "Kalıcı Çerezler", "Bu çerezler tarayıcınızda saklanan ve tarafınızca silininceye dek veya son kullanım tarihine kadar geçerliliğini koruyan çerezlerdir."],
+        ["3", "Zorunlu Çerezler", "İnternet Sitesinin düzgün bir şekilde çalışabilmesi, özelliklerinden ve sunulan hizmetlerden yararlanabilmeniz için kullanımı mecburi olan çerezlerdir."],
+        ["4", "İşlevsel ve Analitik Çerezler", "Sitemizi ziyaretiniz sırasındaki davranış ve tercihlerinizin hatırlanması, Sitemizin etkin bir şekilde kullanılması, Sitemizin isteklerinize cevap verecek şekilde optimize edilmesi gibi amaçlarla kullanılan ve siteyi nasıl kullandığınız hakkında verileri içeren çerezlerdir. Nitelikleri gereği bu türdeki çerezler kişisel verilerinizi içerebilir. Bu çerezler vasıtasıyla örneğin Sitemizin görüntülenme dil tercihiniz işlenir."]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sitemizde kullandığımız üçüncü taraf çerezler ile sizlere daha verimli ve işlevsel bir internet deneyimi sunmayı amaçlamaktayız.  Bu üçüncü kişi hizmet sağlayıcılar ile GNSS arasında KVK mevzuatı uyarınca KVK Gizlilik Sözleşmesi akdedilmiş olup bu kişiler tarafından GNSS adına elde edilen kişisel verilerinizin güvenliği garanti altına alınmıştır."
+    },
+    {
+      "type": "title",
+      "content": "Çerezlerin Saklanması ve Erişilmesi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sitemiz tarafından oluşturulan çerezler Sitemize erişim için kullandığınız internet sitesi tarayıcınız tarafından bilgisayarınızda saklanmaktadır. Bu çerezlerin içerdiği bilgilere sadece çerezi oluşturan alan adı www.gnssteknik.com.tr altında sunulan Sitemiz tarafından ve aynı tarayıcıyı kullandığınız takdirde uzaktan erişim mümkündür."
+    },
+    {
+      "type": "title",
+      "content": "Çerezleri Kabul Etmek Sizin Elinizde"
+    },
+    {
+      "type": "paragraph",
+      "content": "Internet tarayıcılarınız genellikle ziyaret ettiğiniz sitelerde kullanılan çerezleri otomatik olarak kabul etmektedir. Internet Sitemizi kullanabilmek için çerez kullanımı zorunlu değildir, fakat tarayıcınızı tüm çerezleri engelleyecek şekilde ayarlamanız halinde kullanıcı deneyiminizin kalitesi düşebilir ve Sitemize erişim sağlamanızı ya da Sitemizin çeşitli işlevlerinden yararlanmanızı engelleyebilir.\n\nTarayıcınızı çerezleri tüm siteler veya belirli siteler için engelleyecek, çerez oluşturulduğunda uyarı verecek, üçüncü taraf çerezleri engelleyecek veya tüm çerezleri oturum çerezi gibi sayacak şekilde yapılandırabilirsiniz.\n\nDiğer yandan, tarayıcınız üzerinden cihazınızda kaydedilen çerezleri silebilir veya bu çerezlerin listesini ve değerlerini görebilir ve takip edebilirsiniz. Aşağıda listelenen tarayıcılardan kullanmakta olduğunuza tıklayarak çerez yönetimlerine ilişkin detaylı bilgi alabilirsiniz.\n\nÇerezler hakkında daha fazla bilgi almak isterseniz www.aboutcookies.org ile www.youronlinechoices.eu adreslerini tıklayabilirsiniz. Site içerikleri İngilizcedir."
+    },
+    {
+      "type": "title",
+      "content": "Kişisel Verilerinizin Güvenliği"
+    },
+    {
+      "type": "paragraph",
+      "content": "Çerezler işbu Çerez Bilgilendirme Metni’nde belirtilen amaçlar dışında kullanılmamakta olup tüm ilgili işlemler KVK mevzuatına uygun olarak yürütülmektedir. Çerezler vasıtasıyla elde edilen kişisel verileriniz GNSS tarafından KVK mevzuatına uygun olarak işlenmekte, saklanmakta ve güvenliği sağlanmaktadır."
+    },
+    {
+      "type": "title",
+      "content": "Bilgi Edinme Hakkınız"
+    },
+    {
+      "type": "paragraph",
+      "content": "KVK Kanunu’nun 11. maddesi kapsamında, GNSS’ye başvurarak kişisel verilerinizin aşağıdaki haklara sahip olduğunu bildiririz:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+        "Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme",
+        "Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
+        "Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme",
+        "Kişisel verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
+        "Kanun’un 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme",
+        "Kanun’un 11. maddesinin (d) ve (e) bentleri uyarınca yapılan işlemlerin, kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme",
+        "İşlenen verilerinizin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kendiniz aleyhine bir sonucun ortaya çıkmasına itiraz etme",
+        "Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme"
+      ]
+    }
+    
+  ]
 }
 
   

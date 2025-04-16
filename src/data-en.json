@@ -4261,5 +4261,87 @@
         "text": "Ideal volumetric detection solutions for complex object recognition and environmental mapping applications."
       }
     ]
+  },
+  "kvkk": {
+    "title": "Privacy Notice Under the Personal Data Protection Law (KVKK)",
+    "subtitle": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+    "text": [
+      {
+        "type": "title",
+        "content": "INFORMATION NOTICE ON WEBSITE COOKIE USAGE"
+      },
+      {
+        "type": "paragraph",
+        "content": "As GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş. (GNSS), we show utmost sensitivity regarding the processing and protection of personal data belonging to visitors of www.gnssteknik.com.tr (the \"Website\") in accordance with Law No. 6698 on the Protection of Personal Data (\"KVKK\") and its secondary legislation.\n\nWithin the scope of our obligation to inform under the personal data protection legislation, we hereby present this “Information Notice on Website Cookie Usage” to inform you about the cookies used by our website and the personal data processed through them."
+      },
+      {
+        "type": "title",
+        "content": "What Types of Cookies Do We Use?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Cookies are small text files created on your device by a website, containing data in name-value format. The cookies we use during your visit enable the storage of visit-related information on your device and allow us to access this information during your next visits.\n\nCookies created by our website and only readable by us are first-party cookies.\n\nContent offered on our site may also be provided through domain names other than the access domain. In such cases, each domain name may generate its own third-party cookies.\n\nThe types of cookies we use and their intended purposes are listed below:"
+      },
+      {
+        "type": "table",
+        "headers": ["No.", "Cookie Type", "Purpose of Use"],
+        "rows": [
+          ["1", "Session Cookies", "These cookies are valid only during your use of the Website and remain active until you close your internet browser."],
+          ["2", "Persistent Cookies", "These cookies are stored in your browser and remain valid until you delete them or until their expiration date."],
+          ["3", "Mandatory Cookies", "These cookies are required for the Website to function properly and to use its features and services."],
+          ["4", "Functional and Analytical Cookies", "These cookies are used to remember your behavior and preferences during your visit, ensure effective use of the Website, and optimize it to respond to your requests. These cookies may contain personal data depending on their nature. For example, your language preference for viewing the Website is processed via these cookies."]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "We aim to provide a more efficient and functional online experience with third-party cookies used on our Website. Personal data obtained by these service providers on behalf of GNSS is protected under the Data Privacy Agreement concluded between GNSS and the providers, in accordance with KVKK."
+      },
+      {
+        "type": "title",
+        "content": "Storage and Access to Cookies"
+      },
+      {
+        "type": "paragraph",
+        "content": "Cookies created by our site are stored on your computer by the web browser you use to access the Website. The information contained in these cookies can only be accessed remotely by the Website under the domain name www.gnssteknik.com.tr, and only if you use the same browser."
+      },
+      {
+        "type": "title",
+        "content": "Accepting Cookies Is Your Choice"
+      },
+      {
+        "type": "paragraph",
+        "content": "Your web browser generally accepts cookies automatically. Cookie usage is not mandatory to use our Website; however, if you configure your browser to block all cookies, the quality of your user experience may decrease, and you may not be able to access or benefit from certain features of our Website.\n\nYou can configure your browser to block cookies for all or certain websites, notify you when a cookie is created, block third-party cookies, or treat all cookies as session cookies.\n\nYou can also delete cookies stored on your device through your browser, view the list and values of these cookies, and track them. For more information about cookie management, please visit the links below for your browser:\n\nGoogle Chrome\n\nMozilla Firefox\n\nSafari\n\nMicrosoft Edge\n\nFor more information about cookies, you may visit www.aboutcookies.org and www.youronlinechoices.eu. These websites are in English."
+      },
+      {
+        "type": "title",
+        "content": "Security of Your Personal Data"
+      },
+      {
+        "type": "paragraph",
+        "content": "Cookies are not used for purposes other than those specified in this Cookie Notice, and all relevant transactions are carried out in accordance with the KVKK. Personal data obtained through cookies is processed, stored, and secured by GNSS in accordance with KVKK."
+      },
+      {
+        "type": "title",
+        "content": "Your Right to Information"
+      },
+      {
+        "type": "paragraph",
+        "content": "Within the scope of Article 11 of the KVKK, you may contact GNSS and exercise your rights listed below:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "To learn whether your personal data is being processed",
+          "To request information if your personal data has been processed",
+          "To learn the purpose of the processing and whether it is used in accordance with that purpose",
+          "To know the third parties to whom your personal data has been transferred domestically or abroad",
+          "To request the correction of personal data if it is incomplete or incorrectly processed",
+          "To request the deletion or destruction of personal data within the framework of the conditions set forth in Article 7",
+          "To request that third parties to whom the personal data has been transferred are notified of the corrections or deletions made under subparagraphs (d) and (e)",
+          "To object to a result that is against you, arising from the analysis of the processed data exclusively through automated systems",
+          "To demand compensation if you suffer damages due to the unlawful processing of personal data"
+        ]
+      }
+    ]
   }
 }

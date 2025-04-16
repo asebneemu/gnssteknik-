@@ -4,9 +4,9 @@ import {
   faPhone,
   faBook,
   faHome,
-  faUserFriends,
   faGlobe,
   faEnvelope,
+  faShieldHalved // KVKK için ikon
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -60,6 +60,14 @@ export default function HeaderBar() {
             <span className="hidden md:inline">
               {language === "tr" ? "Hakkımızda" : "About Us"}
             </span>
+          </NavLink>
+
+          <NavLink
+            to="/kvkk"
+            className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
+          >
+            <FontAwesomeIcon className="text-xl md:text-base" icon={faShieldHalved} />
+            <span className="hidden md:inline">KVKK</span>
           </NavLink>
         </div>
 

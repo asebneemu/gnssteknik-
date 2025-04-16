@@ -29,6 +29,8 @@ import SectorDetailPage from "./pages/SectorDetailPage";
 import SensorBenewakePage from "./pages/SensorBenewakePage";
 
 import ScrollToTop from "./components/ScrollToTop";
+import KvkkPage from "./pages/KvkkPage"; // 👈 KVKK sayfanı içe aktar
+
 
 function AppContent() {
   // 🔥 Arama aktifse navbar sabitliği iptal
@@ -54,6 +56,8 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
+        <Route path="/kvkk" element={<KvkkPage />} /> {/* 👈 KVKK route'u burada */}
+        
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
         <Route path={productDetailPath} element={<ProductDetailPage />} />
