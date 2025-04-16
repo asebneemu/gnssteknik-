@@ -20,7 +20,7 @@
       "name": "İHA",
       "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
       "icon": "navbar-icons/iha.png",
-      "photo": "/navbar-photos/iha.png",
+      "photo": "/navbar-photos/iha.jpeg",
       "path": "/iha",
       "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
     },
@@ -2964,6 +2964,32 @@
       ]
     },
     {
+      "id": 337,
+      "name": "Benewake TFA1200",
+      "title": "TFA1200 Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
+      "description": "1200 metreye kadar menzil sunan, 1550nm dalga boyuna sahip, yüksek hassasiyetli ve göz güvenliğine uygun lazer teknolojisi ile donatılmış uzun menzilli LiDAR sensörüdür. Trafik izleme, çevre güvenliği ve geniş alan haritalama gibi zorlu uygulamalar için idealdir.",
+      "images": [
+        "/marka-photos/benewake/tfa1200.png",
+        "/marka-photos/benewake/tfa1200.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "kilometer-level-sensor",
+      "typeTitle": "Kilometre Seviyesinde Lidar Sensörleri",
+      "technology": ["single-point"],
+      "specs": [
+        "Güneş ışığı altında dahi 1200 metreye kadar uzun menzilli algılama yapabilir.",
+        "1550nm dalga boyu sayesinde yüksek göz güvenliği ve atmosferik geçirgenlik sağlar.",
+        "Santimetre seviyesinde mesafe hassasiyeti sunarak geniş alanlarda bile güvenilir sonuçlar üretir.",
+        "Ethernet tabanlı iletişim protokolü ile hızlı ve kararlı veri iletimi sağlar.",
+        "-20°C ile +60°C sıcaklık aralığında güvenle çalışabilir.",
+        "Tozlu, yağışlı ve parlak ortamlarda düşük sinyal kaybı ile çalışacak şekilde optimize edilmiştir.",
+        "Sabit sistemlere ve mobil platformlara kolayca entegre edilebilir modüler yapıya sahiptir.",
+        "Sınıf 1 lazer güvenlik standardına uygundur, endüstriyel uygulamalarda yasal kullanıma hazırdır.",
+        "Geniş alan izleme, otoyol trafik denetimi, çevre güvenliği ve İHA altimetresi gibi uygulamalarda idealdir."
+      ]
+    },    
+    {
       "id": 500,
       "name": "Senceive Nano Triaxial Tilt Sensor Node",
       "title": "Nano Triaxial Tilt Sensor Node – Hassas ve Kompakt Eğilme Sensörü",
@@ -3944,12 +3970,12 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Yüksek hassasiyet, altyapı projeleri ve hassas ölçüm gerektiren uygulamalarda kritik avantaj sağlar.",
           "sectors": ["İnşaat", "Jeodezi", "Altyapı Projeleri", "Maden Arama"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kesintisiz çalışma, uzun süreli saha görevlerinde ve veri akışının kritik olduğu alanlarda güven sağlar.",
           "sectors": [
             "Madencilik",
@@ -3959,12 +3985,12 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Hızlı sabitlenme, zamana karşı yarışılan projelerde ve anlık veri ihtiyacının olduğu uygulamalarda büyük kolaylık sunar.",
           "sectors": ["Haritacılık", "Saha Ölçümleri", "Acil Müdahale", "Tarım"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kolay taşınabilirlik, sürekli saha değişimi ve mobil çalışma gerektiren projelerde maksimum esneklik sağlar.",
           "sectors": [
             "Altyapı Projeleri",
@@ -3973,12 +3999,12 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Uzun pil ömrü, kesintisiz veri toplamanın önemli olduğu büyük ölçekli projelerde avantaj sağlar.",
           "sectors": ["Jeodezi", "Maden Keşifleri", "Altyapı İnşaatları"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kolay entegrasyon, veri yönetimi ve çoklu sistem kullanımının gerektiği kompleks projelerde öne çıkar.",
           "sectors": ["Şehir Planlama", "BIM Projeleri", "Arazi Yönetimi"]
         }
@@ -4015,22 +4041,22 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Milimetre hassasiyeti, altyapı inşaatları ve büyük mühendislik projelerinde kritik avantaj sunar.",
           "sectors": ["İnşaat", "Altyapı", "Jeodezi"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Otomatik hedef takibi, dinamik ölçüm ve hareketli saha çalışmalarında operatöre hız kazandırır.",
           "sectors": ["Maden Sahaları", "Baraj İnşaatları", "Yol Projeleri"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Uzun menzilli ölçüm yeteneği, büyük arazilerde ve zorlu topoğrafik alanlarda vazgeçilmezdir.",
           "sectors": ["Arazi Etütleri", "Büyük Alan Haritalamaları", "Tarım"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kolay veri transferi, hızlı proje teslimleri ve sahada mobil çalışma gerektiren projeler için avantaj sağlar.",
           "sectors": [
             "Şantiye Yönetimi",
@@ -4039,7 +4065,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Dayanıklılık, zorlu saha koşullarında uzun süreli güvenilir kullanım sağlar.",
           "sectors": [
             "Baraj Projeleri",
@@ -4080,12 +4106,12 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Yüksek çözünürlüklü görüntüleme, tarım alanlarından inşaat projelerine kadar geniş kullanım sağlar.",
           "sectors": ["Tarım", "İnşaat", "Haritacılık", "Enerji"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Lidar entegrasyonu, zorlu arazi yapılarında detaylı modelleme ve haritalama ihtiyaçlarını karşılar.",
           "sectors": [
             "Jeoloji",
@@ -4095,7 +4121,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Uzun uçuş süresi, geniş alanları kısa sürede tarayarak zamandan tasarruf sağlar.",
           "sectors": [
             "Altyapı İnşaatları",
@@ -4104,12 +4130,12 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Otomatik uçuş planlaması, tekrarlı görevlerde ve yüksek hassasiyet isteyen çalışmalarda verimliliği artırır.",
           "sectors": ["Haritalama", "Arazi İzleme", "Mimari Projeler"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Dayanıklı gövde yapısı, zorlu hava koşullarında sürekli görev yapmayı mümkün kılar.",
           "sectors": [
             "Afet Yönetimi",
@@ -4150,17 +4176,17 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "3D yüzey modelleme, arazi etüdü, şehir planlama ve inşaat projelerinde kritik öneme sahiptir.",
           "sectors": ["Şehir Planlama", "Altyapı", "Madencilik", "Jeoloji"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Hızlı veri toplama özelliği, büyük alanların kısa sürede analiz edilmesi gereken projelerde avantaj sağlar.",
           "sectors": ["Orman Yönetimi", "Arazi Haritalama", "Afet Analizleri"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Uzun menzil kapasitesi, geniş arazilerde ve açık alanlarda tarama gerektiren projelerde tercih edilir.",
           "sectors": [
             "Büyük Alan Haritalama",
@@ -4169,7 +4195,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Platform esnekliği, farklı kullanım alanlarında aynı cihazı rahatlıkla kullanabilmeyi sağlar.",
           "sectors": [
             "İHA Haritalama",
@@ -4178,7 +4204,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Dayanıklılık, dış etkenlerin yoğun olduğu zorlu saha koşullarında güvenilir kullanım sunar.",
           "sectors": [
             "Madencilik",
@@ -4214,17 +4240,17 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Milimetrik hassasiyet, kot farkı ölçümleri ve hassas seviyelendirme gerektiren tüm projelerde kritik öneme sahiptir.",
           "sectors": ["İnşaat", "Altyapı", "Mühendislik"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kolay kullanım ve hızlı kurulum, zaman kazandırır ve saha ölçümlerinde pratiklik sağlar.",
           "sectors": ["Şantiye Çalışmaları", "Arazi Planlaması", "Yol İnşaatı"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Manyetik sönümleyici, dış etkenlerden kaynaklı hataları en aza indirir ve stabil ölçümler sağlar.",
           "sectors": [
             "Büyük İnşaat Projeleri",
@@ -4233,7 +4259,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Zorlu koşullara dayanıklılık, açık arazi, şantiyeler ve zorlu hava koşullarında güvenilir ölçüm sağlar.",
           "sectors": [
             "Açık Arazi Çalışmaları",
@@ -4279,17 +4305,17 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Yüksek çözünürlüklü su altı haritalama, baraj güvenliği, kıyı mühendisliği ve çevresel etütlerde kullanılır.",
           "sectors": ["Baraj Yönetimi", "Kıyı Mühendisliği", "Çevresel Etütler"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Derinlik ve hacim hesaplamaları, su rezervleri yönetimi ve taşkın analizlerinde kritik öneme sahiptir.",
           "sectors": ["Su Yönetimi", "Taşkın Analizi", "Balıkçılık"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Gerçek zamanlı izleme, anlık veri gerektiren liman operasyonları ve altyapı çalışmalarında tercih edilir.",
           "sectors": [
             "Liman İşletmeleri",
@@ -4298,7 +4324,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Çoklu sensör desteği, karmaşık su alanlarında daha güvenilir veri toplamak için avantaj sağlar.",
           "sectors": [
             "Kıyı Erozyon Takibi",
@@ -4307,7 +4333,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Taşınabilirlik ve kolay kurulum, saha personeline hızlı uygulama ve mobil çalışma imkanı sağlar.",
           "sectors": [
             "Acil Müdahale",
@@ -4316,7 +4342,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Zorlu su koşullarına dayanıklılık, açık deniz araştırmaları ve uzun süreli saha çalışmaları için kritik öneme sahiptir.",
           "sectors": [
             "Açık Deniz Çalışmaları",
@@ -4362,12 +4388,12 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Hassas kazı ve dolgu, büyük altyapı projeleri ve baraj inşaatlarında kritik öneme sahiptir.",
           "sectors": ["Baraj İnşaatı", "Altyapı Projeleri", "Yol Yapımı"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Otomatik eğim ve seviye takibi, yol ve havaalanı inşaatlarında hatasız uygulama sağlar.",
           "sectors": [
             "Havaalanı İnşaatları",
@@ -4376,22 +4402,22 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "3D model entegrasyonu, karmaşık mühendislik projelerinde birebir saha uygulaması sağlar.",
           "sectors": ["BIM Projeleri", "Maden Sahaları", "Endüstriyel Tesisler"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Gerçek zamanlı konum takibi, anlık izleme ve veri raporlaması gerektiren projelerde tercih edilir.",
           "sectors": ["Liman İnşaatları", "Tünel Kazıları", "Otoyol Yapımları"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Operatör dostu arayüz, saha personelinin kolayca adapte olması için büyük avantaj sağlar.",
           "sectors": ["Şantiye Ekipleri", "Eğitim Projeleri", "Arazi Şefliği"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Dayanıklı yapısı, çetin saha koşullarında uzun süreli kullanım sağlar.",
           "sectors": [
             "Madencilik",
@@ -4437,12 +4463,12 @@
       ],
       "right": [
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Gerçek zamanlı veri izleme, sürekli ölçüm ve kontrol gerektiren mühendislik ve çevre projelerinde kullanılır.",
           "sectors": ["Altyapı İzleme", "Yapı Sağlığı", "Tarım", "Sanayi"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kablosuz iletim, uzak bölgelerde ve altyapı sistemlerinde veri transferi için avantaj sağlar.",
           "sectors": [
             "Afet Yönetimi",
@@ -4451,7 +4477,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Uzun pil ömrü, bakım maliyetlerinin düşürülmesini ve kesintisiz çalışmayı sağlar.",
           "sectors": [
             "Maden Saha İzlemesi",
@@ -4460,12 +4486,12 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Otomatik kompansasyon, sıcaklık ve basınç değişimlerinin olduğu sahalarda hatasız veri toplamak için vazgeçilmezdir.",
           "sectors": ["Köprü İzleme", "Baraj Yapıları", "Yüksek Katlı Binalar"]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Kolay kurulum ve modüler yapı, zaman kaybını önleyerek hızlı saha kurulumları sağlar.",
           "sectors": [
             "Geoteknik İzleme",
@@ -4474,7 +4500,7 @@
           ]
         },
         {
-          "title": "Öne Çıkan Alanlar",
+          "title": "Kullanım Alanları",
           "text": "Zorlu çevre koşullarına dayanıklılık, dış ortamda yıllarca sürecek projelerde güvenli kullanım sunar.",
           "sectors": [
             "Çöl Projeleri",
