@@ -4028,22 +4028,6 @@
             "usdSwift": "FNNBTRIS",
             "eurIban": "-",
             "eurSwift": "-"
-          },
-          {
-            "banka": "VAKIFBANK",
-            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
-            "usdIban": "TR35 0001 5001 5800 7290 6002 15",
-            "usdSwift": "TVBATR2A",
-            "eurIban": "-",
-            "eurSwift": "-"
-          },
-          {
-            "banka": "YAPI KREDİ",
-            "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
-            "usdIban": "TR73 0006 7010 0000 0043 2348 08",
-            "usdSwift": "YAPITRISFEX",
-            "eurIban": "-",
-            "eurSwift": "-"
           }
         ]
       }
