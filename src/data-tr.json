@@ -206,110 +206,35 @@
   ],
   "products": [
     {
-      "id": 1,
-      "name": "STEC AXIS-1 Total Station",
-      "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
+      "id": 5,
+      "name": "STEC AXIS-10 Robotik Android Total Station",
+      "description": "0.5\"/1\" Açı Hassasiyeti, Android İşletim Sistemi, Otomatik Takip Ve Hedef Kilitleme İmkanı Sunan Yüksek Performanslı AXIS 10 Serisi Robotic Total Station.",
       "images": [
-        "/marka-photos/stec/axis-1.0.png",
-        "/marka-photos/stec/axis-1.1.png",
-        "/marka-photos/stec/axis-1.2.png",
-        "/marka-photos/stec/axis-1.3.png"
+        "/marka-photos/stec/axis-10.0.png",
+        "/marka-photos/stec/axis-10.1.png",
+        "/marka-photos/stec/axis-10.2.png"
       ],
       "category": "total-station",
       "brand": "stec",
+      "type": "android-totalstation",
+      "typeTitle": "Android Tabanlı Total Station",
       "specs": [
-        "1,5-2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
-        "4' eğim telafisi sayesinde eğimli yüzeylerde bile 2 mm + 2 ppm hassasiyetle doğru mesafe ölçümleri sağlar.",
-        "0,3 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunarak uzun saha çalışmalarında verimliliği artırır.",
-        "IP67 suya ve toza dayanıklı gövdesi ile zorlu çevre koşullarında bile güvenilir ölçümler sağlar.",
-        "3.1\" geniş ve net ekranı ile ölçüm verilerini kolayca görüntülemeye imkan tanır.",
-        "Hızlı ölçüm butonu ve kılavuz ışığı ile kullanıcı dostu bir deneyim sunar.",
-        "Aplikasyon, açı offseti ve yol modülü gibi gelişmiş programlar ile ölçüm işlemlerini hızlandırır.",
-        "-20°C ile +50°C arasında sorunsuz çalışır.",
-        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
-        "USB ve bluetooth ile veri transfer kolaylığı sağlar."
+        "180°/s Tork Sürücüsü Ve 1000 M Prizma Tanıma Kapasitesi Ve Oto Takip İle Hızlı Ve Geniş Menzil Sunar.",
+        "300 M Prizma Arama Kapasitesi (360°) Ve 20°/s Takip Hızı İle Dinamik Ölçüm Yapabilir.",
+        "0.5\" Ve 1\" Açı Hassasiyeti Ve 1+1 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "600 M Uzaktan Kontrol Menziline Sahip Olup 6\" Dokunmatik Ekran İle Kolay Kullanım Sunar.",
+        "xTrak Teknolojisi İle Prizmayı Sürekli Olarak Takip Eder Ve Hızlı Hedefleme Sağlar.",
+        "Android 9 İşletim Sistemi İle Açık Bağlantı Ve Gerçek Zamanlı Veri Yönetimi İmkanı Tanır.",
+        "xTrak Teknolojisi Sayesinde Ağaçlar Veya Arabalar Tarafından Kısa Süreliğine Engellense Bile Prizmayı Sürekli Olarak Takip Eder.",
+        "Üstün Kamerası İle Ekrana Tıklayarak Hedef Almanızı Kolaylıkla Sağlar.",
+        "Cad Aplikasyonu, Yol Modülü, Grafik Alım Gibi Gelişmiş Ölçüm Programlarını Sunar.",
+        "IP65 Korumasıyla -20°C To +50°C Zorlu Şartlarda Çalışma İmkanı Sunar.",
+        "6400 mAh Bataryası İle 10 Saat Çalışma İmkanı Tanır.",
+        "Yanında Ekstra 8 İnç Ekranı, 8000 mAh Bataryası, Android 10 İşlemcisi, 4 GB RAM 64 GB Hafızası Ve Dokunmatik Tableti İle İşlerinizi Hızlıca Gerçekleştirebilir, Uzaktan Komut Verebilirsiniz."
       ]
     },
     {
-      "id": 2,
-      "name": "STEC AXIS-2 Total Station",
-      "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
-      "images": [
-        "/marka-photos/stec/axis-2.0.png",
-        "/marka-photos/stec/axis-2.1.png",
-        "/marka-photos/stec/axis-2.2.png"
-      ],
-      "category": "total-station",
-      "brand": "stec",
-      "specs": [
-        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
-        "5' eğim telafisi sayesinde eğimli yüzeylerde 1 mm + 1 ppm hassasiyet sağlar.",
-        "0,2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunar.",
-        "IP68 suya ve toza dayanıklı gövdesi ile en zorlu çevre koşullarında bile güvenilir.",
-        "USB ve bluetooth ile veri transfer kolaylığı sağlar.",
-        "-20°C ile +50°C arasında sorunsuz çalışır.",
-        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
-        "3D projeksiyon ve otomatik hedef tanıma sistemi."
-      ]
-    },
-    {
-      "id": 3,
-      "name": "STEC AXIS-3 Total Station",
-      "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-3 Total Station.",
-      "images": [
-        "/marka-photos/stec/axis-3.0.png",
-        "/marka-photos/stec/axis-3.1.png",
-        "/marka-photos/stec/axis-3.2.png",
-        "/marka-photos/stec/axis-3.3.png",
-        "/marka-photos/stec/axis-3.4.png"
-      ],
-      "category": "total-station",
-      "brand": "stec",
-      "specs": [
-        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
-        "4' eğim telafisi ve 2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
-        "0.2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 12 saatten fazla çalışma süresi sunar.",
-        "Çift taraflı renkli dokunmatik ekran ve kullanıcı dostu arayüz ile kolay kullanım sunar.",
-        "AutoHI plummet lazer ile tek tuşla alet yüksekliği otomatik ölçülmektedir.",
-        "Kılavuz ışığı ile aplikasyon işlemlerini kolaylaştırır ve hızlı hedefleme sağlar.",
-        "Pratik onboard programlar ile COGO, kesişim, offset ve yol projeksiyonu gibi işlemler yapılabilir.",
-        "Bluetooth, USB ve WLAN bağlantı seçenekleri ile geniş veri aktarım imkanı tanır.",
-        "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
-      ]
-    },
-    {
-      "id": 4,
-      "name": "STEC AXIS-4 Total Station Serisi",
-      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
-      "images": [
-        "/marka-photos/stec/axis-4.0.png",
-        "/marka-photos/stec/axis-4.1.png",
-        "/marka-photos/stec/axis-4.2.png",
-        "/marka-photos/stec/axis-4.3.png",
-        "/marka-photos/stec/axis-4.4.png"
-      ],
-      "category": "total-station",
-      "brand": "stec",
-      "specs": [
-        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
-        "AXIS 4:1500m Reflektörülü 5000m Reflektörlü / 2\" Açı Hassasiyeti",
-        "AXIS 4L:2000m Reflektörülü 5000m Reflektörlü/  2\" Açı Hassasiyeti",
-        "AXIS 4P:1000m Reflektörülü 5000m Reflektörlü / 1\" Açı Hassasiyeti",
-        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
-        "3900 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
-        "4\" LCD Renkli Dokunmatik Ekran Ve Kullanıcı Dostu Grafik Arayüz İçerir.",
-        "Cad Aplikasyonu, Grafik Ölçüm Ve Yol Modülü Gibi Gelişmiş Ölçüm Programları İle Donatılmıştır.",
-        "Bluetooth, USB Ve WLAN İle Kablosuz Veri Aktarımı Yapabilir.",
-        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
-        "Yenilenen İkon Tabanlı Arayüz İle Daha Kolay Kullanım Sağlar.",
-        "Her Ölçüm Sonrası Grafiklerle Sonuçları Gösterir Ve Ekranda Gösterir.",
-        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
-        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar.",
-        "-20°C To 50°C Çalışma Şartlarına Uygundur."
-      ]
-    },
-    {
-      "id": 9,
+      "id": 6,
       "name": "STEC AXIS-9 Android Total Station Serisi",
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
       "images": [
@@ -320,6 +245,8 @@
       ],
       "category": "total-station",
       "brand": "stec",
+      "type": "android-totalstation",
+      "typeTitle": "Android Tabanlı Total Station",
       "specs": [
         "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
         "AXIS 9:1500m Reflektörsüz 5000m Reflektörlü / 2\" Açı Hassasiyeti",
@@ -340,55 +267,148 @@
       ]
     },
     {
-      "id": 10,
-      "name": "STEC AXIS-10 Robotik Android Total Station",
-      "description": "0.5\"/1\" Açı Hassasiyeti, Android İşletim Sistemi, Otomatik Takip Ve Hedef Kilitleme İmkanı Sunan Yüksek Performanslı AXIS 10 Serisi Robotic Total Station.",
+      "id": 7,
+      "name": "STEC AXIS-4 Total Station Serisi",
+      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
       "images": [
-        "/marka-photos/stec/axis-10.0.png",
-        "/marka-photos/stec/axis-10.1.png",
-        "/marka-photos/stec/axis-10.2.png"
+        "/marka-photos/stec/axis-4.0.png",
+        "/marka-photos/stec/axis-4.1.png",
+        "/marka-photos/stec/axis-4.2.png",
+        "/marka-photos/stec/axis-4.3.png",
+        "/marka-photos/stec/axis-4.4.png"
       ],
       "category": "total-station",
       "brand": "stec",
+      "type": "manuel-totalstation",
+      "typeTitle": "Manuel Total Station",
       "specs": [
-        "180°/s Tork Sürücüsü Ve 1000 M Prizma Tanıma Kapasitesi Ve Oto Takip İle Hızlı Ve Geniş Menzil Sunar.",
-        "300 M Prizma Arama Kapasitesi (360°) Ve 20°/s Takip Hızı İle Dinamik Ölçüm Yapabilir.",
-        "0.5\" Ve 1\" Açı Hassasiyeti Ve 1+1 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
-        "600 M Uzaktan Kontrol Menziline Sahip Olup 6\" Dokunmatik Ekran İle Kolay Kullanım Sunar.",
-        "xTrak Teknolojisi İle Prizmayı Sürekli Olarak Takip Eder Ve Hızlı Hedefleme Sağlar.",
-        "Android 9 İşletim Sistemi İle Açık Bağlantı Ve Gerçek Zamanlı Veri Yönetimi İmkanı Tanır.",
-        "xTrak Teknolojisi Sayesinde Ağaçlar Veya Arabalar Tarafından Kısa Süreliğine Engellense Bile Prizmayı Sürekli Olarak Takip Eder.",
-        "Üstün Kamerası İle Ekrana Tıklayarak Hedef Almanızı Kolaylıkla Sağlar.",
-        "Cad Aplikasyonu, Yol Modülü, Grafik Alım Gibi Gelişmiş Ölçüm Programlarını Sunar.",
-        "IP65 Korumasıyla -20°C To +50°C Zorlu Şartlarda Çalışma İmkanı Sunar.",
-        "6400 mAh Bataryası İle 10 Saat Çalışma İmkanı Tanır.",
-        "Yanında Ekstra 8 İnç Ekranı, 8000 mAh Bataryası, Android 10 İşlemcisi, 4 GB RAM 64 GB Hafızası Ve Dokunmatik Tableti İle İşlerinizi Hızlıca Gerçekleştirebilir, Uzaktan Komut Verebilirsiniz."
+        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
+        "AXIS 4:1500m Reflektörülü 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 4L:2000m Reflektörülü 5000m Reflektörlü/  2\" Açı Hassasiyeti",
+        "AXIS 4P:1000m Reflektörülü 5000m Reflektörlü / 1\" Açı Hassasiyeti",
+        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "3900 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
+        "4\" LCD Renkli Dokunmatik Ekran Ve Kullanıcı Dostu Grafik Arayüz İçerir.",
+        "Cad Aplikasyonu, Grafik Ölçüm Ve Yol Modülü Gibi Gelişmiş Ölçüm Programları İle Donatılmıştır.",
+        "Bluetooth, USB Ve WLAN İle Kablosuz Veri Aktarımı Yapabilir.",
+        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
+        "Yenilenen İkon Tabanlı Arayüz İle Daha Kolay Kullanım Sağlar.",
+        "Her Ölçüm Sonrası Grafiklerle Sonuçları Gösterir Ve Ekranda Gösterir.",
+        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
+        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar.",
+        "-20°C To 50°C Çalışma Şartlarına Uygundur."
       ]
     },
     {
-      "id": 13,
-      "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
-      "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
+      "id": 8,
+      "name": "STEC AXIS-3 Total Station",
+      "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-3 Total Station.",
       "images": [
-        "/marka-photos/stec/se-lite.0.png",
-        "/marka-photos/stec/se-lite.1.png",
-        "/marka-photos/stec/se-lite.2.png"
+        "/marka-photos/stec/axis-3.0.png",
+        "/marka-photos/stec/axis-3.1.png",
+        "/marka-photos/stec/axis-3.2.png",
+        "/marka-photos/stec/axis-3.3.png",
+        "/marka-photos/stec/axis-3.4.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "type": "manuel-totalstation",
+      "typeTitle": "Manuel Total Station",
+      "specs": [
+        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
+        "4' eğim telafisi ve 2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
+        "0.2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 12 saatten fazla çalışma süresi sunar.",
+        "Çift taraflı renkli dokunmatik ekran ve kullanıcı dostu arayüz ile kolay kullanım sunar.",
+        "AutoHI plummet lazer ile tek tuşla alet yüksekliği otomatik ölçülmektedir.",
+        "Kılavuz ışığı ile aplikasyon işlemlerini kolaylaştırır ve hızlı hedefleme sağlar.",
+        "Pratik onboard programlar ile COGO, kesişim, offset ve yol projeksiyonu gibi işlemler yapılabilir.",
+        "Bluetooth, USB ve WLAN bağlantı seçenekleri ile geniş veri aktarım imkanı tanır.",
+        "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "STEC AXIS-2 Total Station",
+      "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
+      "images": [
+        "/marka-photos/stec/axis-2.0.png",
+        "/marka-photos/stec/axis-2.1.png",
+        "/marka-photos/stec/axis-2.2.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "type": "manuel-totalstation",
+      "typeTitle": "Manuel Total Station",
+      "specs": [
+        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
+        "5' eğim telafisi sayesinde eğimli yüzeylerde 1 mm + 1 ppm hassasiyet sağlar.",
+        "0,2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunar.",
+        "IP68 suya ve toza dayanıklı gövdesi ile en zorlu çevre koşullarında bile güvenilir.",
+        "USB ve bluetooth ile veri transfer kolaylığı sağlar.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
+        "3D projeksiyon ve otomatik hedef tanıma sistemi."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "STEC AXIS-1 Total Station",
+      "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
+      "images": [
+        "/marka-photos/stec/axis-1.0.png",
+        "/marka-photos/stec/axis-1.1.png",
+        "/marka-photos/stec/axis-1.2.png",
+        "/marka-photos/stec/axis-1.3.png"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "type": "manuel-totalstation",
+      "typeTitle": "Manuel Total Station",
+      "specs": [
+        "1,5-2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
+        "4' eğim telafisi sayesinde eğimli yüzeylerde bile 2 mm + 2 ppm hassasiyetle doğru mesafe ölçümleri sağlar.",
+        "0,3 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunarak uzun saha çalışmalarında verimliliği artırır.",
+        "IP67 suya ve toza dayanıklı gövdesi ile zorlu çevre koşullarında bile güvenilir ölçümler sağlar.",
+        "3.1\" geniş ve net ekranı ile ölçüm verilerini kolayca görüntülemeye imkan tanır.",
+        "Hızlı ölçüm butonu ve kılavuz ışığı ile kullanıcı dostu bir deneyim sunar.",
+        "Aplikasyon, açı offseti ve yol modülü gibi gelişmiş programlar ile ölçüm işlemlerini hızlandırır.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
+        "USB ve bluetooth ile veri transfer kolaylığı sağlar."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
+      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkanı ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
+      "images": [
+        "/marka-photos/stec/sdi.0.png",
+        "/marka-photos/stec/sdi.1.png",
+        "/marka-photos/stec/sdi.2.png",
+        "/marka-photos/stec/sdi.3.png",
+        "/marka-photos/stec/sdi.4.png"
       ],
       "category": "gnss",
       "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
-        "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
-        "İnsansız hava araçları için İHA sabit modu",
-        "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
-        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
-        "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
-        "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
-        "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
-        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
-        "10.200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
-        "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
-        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
+        "1,408 kanal desteği ile tüm küresel GNSS sistemlerini destekler.",
+        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
+        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
+        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
+        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet sunar.",
+        "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
+        "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
+        "2 W Radyo Modemi ile 15 km'ye kadar veri iletimi yapabilir.",
+        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RINEX VE NMEA mesajlarını kaydetme.",
+        "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
+        "Magnezyum alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
+        "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
+        "NFC özelliği ile hızlı bağlantı kurulabilir.",
+        "13.600 mAh batarya ile 15 saat çalışma süresi sunar.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -403,6 +423,8 @@
       ],
       "category": "gnss",
       "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
         "1,408 kanal ve 21 frekans desteği ile tüm uydu sistemlerini takip edebilir.",
         "8 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
@@ -423,35 +445,31 @@
       ]
     },
     {
-      "id": 11,
-      "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkanı ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
+      "id": 13,
+      "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
+      "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
-        "/marka-photos/stec/sdi.0.png",
-        "/marka-photos/stec/sdi.1.png",
-        "/marka-photos/stec/sdi.2.png",
-        "/marka-photos/stec/sdi.3.png",
-        "/marka-photos/stec/sdi.4.png"
+        "/marka-photos/stec/se-lite.0.png",
+        "/marka-photos/stec/se-lite.1.png",
+        "/marka-photos/stec/se-lite.2.png"
       ],
       "category": "gnss",
       "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ile tüm küresel GNSS sistemlerini destekler.",
-        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
-        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
-        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
-        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet sunar.",
-        "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
-        "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
-        "2 W Radyo Modemi ile 15 km'ye kadar veri iletimi yapabilir.",
-        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
-        "RINEX VE NMEA mesajlarını kaydetme.",
-        "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
-        "Magnezyum alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
-        "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
-        "NFC özelliği ile hızlı bağlantı kurulabilir.",
-        "13.600 mAh batarya ile 15 saat çalışma süresi sunar.",
-        "İnsansız hava araçları için İHA sabit modu"
+        "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
+        "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
+        "İnsansız hava araçları için İHA sabit modu",
+        "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
+        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+        "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
+        "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
+        "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
+        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
+        "10.200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
+        "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
       ]
     },
     {
@@ -574,98 +592,34 @@
       ]
     },
     {
-      "id": 22,
-      "name": "CHCNAV iBase IMU CORS-GNSS Alıcısı",
-      "description": "5 W Radyo Modem, 25 km Menzilli Yüksek Hassasiyet ve Dayanıklılık Sunan iBase GNSS Alıcısı.",
+      "id": 18,
+      "name": "STEC SPOD Akıllı GNSS Sensör",
+      "description": "Ultra kompakt, IMU destekli, 2W radyo modemli, yüksek çözünürlüklü kamera özellikli GNSS çözümü: SPOD.",
       "images": [
-        "/marka-photos/chcnav/iBase-0.png",
-        "/marka-photos/chcnav/iBase-1.png",
-        "/marka-photos/chcnav/iBase-0.png"
+        "/marka-photos/stec/spod-0.png",
+        "/marka-photos/stec/spod-1.png"
       ],
       "category": "gnss",
-      "brand": "chcnav",
-      "type": "akilli-gnss",
-      "typeTitle": "Akıllı GNSS Alıcıları",
+      "brand": "stec",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
       "specs": [
-        "1,408 kanal desteği ve GPS, GLONASS, Galileo, BeiDou uydu sistemlerini takip edebilme.",
-        "25 km'ye kadar RTK kapsama alanı ve 5 watt radyo modemi ile geniş iletişim imkanı.",
-        "IP67 su ve toz geçirmezlik standardı ve IK08 darbe koruması ile zorlu koşullarda dayanıklılık.",
-        "4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleriyle NTRİP ağ RTK yayını.",
-        "İki adet çıkarılabilir 7,000 mAh lityum-iyon batarya ile 12 saate kadar çalışma süresi.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğim ölçümü.",
-        "RTCM 3.x, RINEX, NMEA 0183 ve HCN gibi veri formatları ile geniş uyumluluk.",
-        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
-        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet sunar.",
-        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı.",
-        "İnsansız hava araçları için İHA sabit modu"
+        "1,500+ kanal desteği ile tüm GNSS uydu sistemlerini eş zamanlı takip eder.",
+        "Gelişmiş IMU sensörü ile eğimli ölçümlerde otomatik düzeltme sağlar.",
+        "Ultra yüksek çözünürlüklü kamera ile fotogrametrik aplikasyonlara olanak tanır.",
+        "IP68 koruma sınıfı ile zorlu saha koşullarında maksimum dayanıklılık sağlar.",
+        "15 saate kadar kesintisiz çalışma süresi sunan 10.800 mAh batarya kapasitesine sahiptir.",
+        "S-Link Pro ile 20 km’ye kadar RTK yayını desteği sunar.",
+        "EZtilt 2.0 özelliği ile 60° eğime kadar kalibrasyon gerektirmeden ölçüm yapılabilir.",
+        "Yalnızca 950 gr ağırlığı ile sahada maksimum taşınabilirlik sunar.",
+        "5G modem ve e-SIM desteği ile küresel bağlantı uyumluluğu sağlar.",
+        "8 GB dahili hafıza ve 128 GB’a kadar microSD kart desteği ile veri depolama kapasitesi genişletilebilir.",
+        "Android, iOS ve Windows platformlarıyla tam uyumludur.",
+        "Yüksek çözünürlüklü kamera verileriyle harici fotogrametri yazılımlarına doğrudan entegre olabilir."
       ]
     },
     {
-      "id": 23,
-      "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
-      "description": "Portatif, Fiyat/Performans, 1 W Radyo Modemli, 60° Eğim Ölçüm (IMU), Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
-      "images": [
-        "/marka-photos/chcnav/i73+-0.png",
-        "/marka-photos/chcnav/i73+-1.png",
-        "/marka-photos/chcnav/i73+-2.png"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "akilli-gnss",
-      "typeTitle": "Akıllı GNSS Alıcıları",
-      "specs": [
-        "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümler sunar.",
-        "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
-        "1 watt radyo modemi ile 3-8 km'ye kadar RTK kapsama alanı.",
-        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
-        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
-        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
-        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
-        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
-        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
-        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
-        "İnsansız hava araçları için İHA sabit modu"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "CHCNAV i83 IMU CORS-GNSS Alıcısı",
-      "description": "2 W Radyo Modem, 15 Km RTK Yayını, 34 Saat Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
-      "images": [
-        "/marka-photos/chcnav/i83-0.png",
-        "/marka-photos/chcnav/i83-1.png",
-        "/marka-photos/chcnav/i83-2.png",
-        "/marka-photos/chcnav/i83-3.png"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "akilli-gnss",
-      "typeTitle": "Akıllı GNSS Alıcıları",
-      "specs": [
-        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
-        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
-        "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
-        "2 W radyo modem ile 15 km'ye kadar RTK yayını.",
-        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
-        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
-        "İnsansız hava araçları için İHA sabit modu.",
-        "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
-        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
-        "4G GSM modem ile NTRIP ağ RTK yayını.",
-        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
-        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet",
-        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
-        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
-        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
-        "Magnezyum alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
-      ]
-    },
-    {
-      "id": 25,
+      "id": 20,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Kamera ile Ölçüm-Aplikasyon, 3D Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
@@ -700,7 +654,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 21,
       "name": "CHCNAV i89 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Portatif, Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 1 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i89 GNSS Alıcısı",
       "images": [
@@ -733,7 +687,40 @@
       ]
     },
     {
-      "id": 27,
+      "id": 22,
+      "name": "CHCNAV i83 IMU CORS-GNSS Alıcısı",
+      "description": "2 W Radyo Modem, 15 Km RTK Yayını, 34 Saat Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i83-0.png",
+        "/marka-photos/chcnav/i83-1.png",
+        "/marka-photos/chcnav/i83-2.png",
+        "/marka-photos/chcnav/i83-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
+        "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
+        "2 W radyo modem ile 15 km'ye kadar RTK yayını.",
+        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "İnsansız hava araçları için İHA sabit modu.",
+        "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "4G GSM modem ile NTRIP ağ RTK yayını.",
+        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Magnezyum alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
+      ]
+    },
+    {
+      "id": 23,
       "name": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Portatif, Fiyat/Performans, Cors-RTK Gezici, Kameralı Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
       "images": [
@@ -794,6 +781,64 @@
         "Birden fazla dil desteği ve yerelleştirilmiş video eğitimleri.",
         "WMS/WFS ve CAD haritaları ile uyumlu katman yönetimi.",
         "Uzaktan destek ve yazılım güncellemeleri ile sürekli destek."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
+      "description": "Portatif, Fiyat/Performans, 1 W Radyo Modemli, 60° Eğim Ölçüm (IMU), Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
+      "images": [
+        "/marka-photos/chcnav/i73+-0.png",
+        "/marka-photos/chcnav/i73+-1.png",
+        "/marka-photos/chcnav/i73+-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümler sunar.",
+        "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
+        "1 watt radyo modemi ile 3-8 km'ye kadar RTK kapsama alanı.",
+        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
+        "İnsansız hava araçları için İHA sabit modu"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CHCNAV iBase IMU CORS-GNSS Alıcısı",
+      "description": "5 W Radyo Modem, 25 km Menzilli Yüksek Hassasiyet ve Dayanıklılık Sunan iBase GNSS Alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/iBase-0.png",
+        "/marka-photos/chcnav/iBase-1.png",
+        "/marka-photos/chcnav/iBase-0.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ve GPS, GLONASS, Galileo, BeiDou uydu sistemlerini takip edebilme.",
+        "25 km'ye kadar RTK kapsama alanı ve 5 watt radyo modemi ile geniş iletişim imkanı.",
+        "IP67 su ve toz geçirmezlik standardı ve IK08 darbe koruması ile zorlu koşullarda dayanıklılık.",
+        "4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleriyle NTRİP ağ RTK yayını.",
+        "İki adet çıkarılabilir 7,000 mAh lityum-iyon batarya ile 12 saate kadar çalışma süresi.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğim ölçümü.",
+        "RTCM 3.x, RINEX, NMEA 0183 ve HCN gibi veri formatları ile geniş uyumluluk.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet sunar.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı.",
+        "İnsansız hava araçları için İHA sabit modu"
       ]
     },
     {
@@ -958,36 +1003,36 @@
       ]
     },
     {
-      "id": 41,
-      "name": "CHCNAV LT60H GNSS RTK Android Tablet",
-      "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
+      "id": 40,
+      "name": "CHCNAV HCE600 Android Kontrol Ünitesi",
+      "description": "5.5 İnç, 500 Nit HD+ Ekranıyla, 14 Saat Çalışma Süresiyle HCE600 Android Kontrol Ünitesi.",
       "images": [
-        "/marka-photos/chcnav/lt60h-0.png",
-        "/marka-photos/chcnav/lt60h-1.png",
-        "/marka-photos/chcnav/lt60h-2.png"
+        "/marka-photos/chcnav/hce600-0.png",
+        "/marka-photos/chcnav/hce600-1.png",
+        "/marka-photos/chcnav/hce600-2.png"
       ],
       "category": "gnss",
       "brand": "chcnav",
       "type": "control-unit-tablet",
       "typeTitle": "Kontrol Üniteleri ve Tabletler",
       "specs": [
-        "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
-        "2.0 GHz Qualcomm Snapdragon 8 çekirdek işlemci ve DDR3 bellek ile yüksek performans.",
-        "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
-        "Android 12 İşletim Sistemli.",
-        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
-        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık.",
-        "8000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "5.5 inç DragonTrail™ HD+ ekran ile güneş ışığında okunabilir IPS panel.",
+        "2.0 GHz Helio MTK 6762 8 çekirdek işlemci ile yüksek performans.",
+        "3 GB RAM ve 32 GB dahili hafıza, 128 GB'a kadar MicroSD desteği.",
+        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu.",
         "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
-        "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
-        "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
-        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "IP67 ve MIL-STD-810H sertifikaları ile su, toz ve darbeye karşı dayanıklılık.",
+        "Bluetooth 5.0, 4G modem ve çift bant Wi-Fi ile kesintisiz bağlantı.",
+        "6240 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
+        "Alfanumerik tuş takımı ve özelleştirilebilir kısayol tuşları ile kolay kullanım.",
+        "500 nit parlaklık ile zorlu ışık koşullarında yüksek görünürlük.",
         "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
-        "Dual SIM 4G modem ile kesintisiz internet bağlantısı."
+        "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
+        "345 g ağırlığı ile ergonomik kullanım ve taşınabilirlik."
       ]
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "CHCNAV LT800H GNSS RTK Android Tablet",
       "description": "8.1 İnçlik Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Android Tablet.",
       "images": [
@@ -1019,36 +1064,7 @@
       ]
     },
     {
-      "id": 43,
-      "name": "CHCNAV HCE600 Android Kontrol Ünitesi",
-      "description": "5.5 İnç, 500 Nit HD+ Ekranıyla, 14 Saat Çalışma Süresiyle HCE600 Android Kontrol Ünitesi.",
-      "images": [
-        "/marka-photos/chcnav/hce600-0.png",
-        "/marka-photos/chcnav/hce600-1.png",
-        "/marka-photos/chcnav/hce600-2.png"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "control-unit-tablet",
-      "typeTitle": "Kontrol Üniteleri ve Tabletler",
-      "specs": [
-        "5.5 inç DragonTrail™ HD+ ekran ile güneş ışığında okunabilir IPS panel.",
-        "2.0 GHz Helio MTK 6762 8 çekirdek işlemci ile yüksek performans.",
-        "3 GB RAM ve 32 GB dahili hafıza, 128 GB'a kadar MicroSD desteği.",
-        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu.",
-        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
-        "IP67 ve MIL-STD-810H sertifikaları ile su, toz ve darbeye karşı dayanıklılık.",
-        "Bluetooth 5.0, 4G modem ve çift bant Wi-Fi ile kesintisiz bağlantı.",
-        "6240 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
-        "Alfanumerik tuş takımı ve özelleştirilebilir kısayol tuşları ile kolay kullanım.",
-        "500 nit parlaklık ile zorlu ışık koşullarında yüksek görünürlük.",
-        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
-        "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
-        "345 g ağırlığı ile ergonomik kullanım ve taşınabilirlik."
-      ]
-    },
-    {
-      "id": 45,
+      "id": 42,
       "name": "CHCNAV LT700H GNSS RTK Android Tablet",
       "description": "8 İnçlik Boyutuyla, 12 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT700H GNSS Akıllı Android Tablet.",
       "images": [
@@ -1073,6 +1089,35 @@
         "Wi-Fi, Bluetooth 4.1, Type-C/OTG bağlantı desteği.",
         "NFC, G-sensör, ışık sensörü, mesafe sensörü, e-pusula ve jiroskop.",
         "Kompakt ve dayanıklı tasarım: 240 x 151 x 32 mm boyutlar ve 675 g ağırlık."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "CHCNAV LT60H GNSS RTK Android Tablet",
+      "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt60h-0.png",
+        "/marka-photos/chcnav/lt60h-1.png",
+        "/marka-photos/chcnav/lt60h-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
+        "2.0 GHz Qualcomm Snapdragon 8 çekirdek işlemci ve DDR3 bellek ile yüksek performans.",
+        "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "Android 12 İşletim Sistemli.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
+        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık.",
+        "8000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
+        "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
+        "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
+        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
+        "Dual SIM 4G modem ile kesintisiz internet bağlantısı."
       ]
     },
     {
@@ -1840,8 +1885,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "rtk-drone",
-      "typeTitle": "RTK Drone",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice Serisi Dronlar",
       "specs": [
         "55 Dakika Maksimum Uçuş Süresi: Uzun süreli operasyonlar için kesintisiz performans.",
         "IP55 Koruma Seviyesi: Zorlu hava koşullarında bile güvenli uçuş.",
@@ -1855,6 +1900,89 @@
       ]
     },
     {
+      "id": 205,
+      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
+      "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
+      "images": [
+        "/marka-photos/dji/m3e-0.png",
+        "/marka-photos/dji/m3e-1.png",
+        "/marka-photos/dji/m3e-2.png",
+        "/marka-photos/dji/m3e-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
+      "specs": [
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
+        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "DJI Mavic 3 Thermal (M3T RTK)",
+      "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m3t-0.png",
+        "/marka-photos/dji/m3t-1.png",
+        "/marka-photos/dji/m3t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
+      "specs": [
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "DJI Mavic 3 Multispectral (M3M)",
+      "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
+      "images": [
+        "/marka-photos/dji/m3m-0.png",
+        "/marka-photos/dji/m3m-1.png",
+        "/marka-photos/dji/m3m-2.png",
+        "/marka-photos/dji/m3m-3.png",
+        "/marka-photos/dji/m3m-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
+      "specs": [
+        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
+        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
+        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
+        "Uçuş Süresi: 43 dakikaya kadar",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
+        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
+        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
+        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
+      ]
+    },
+    {
       "id": 209,
       "name": "DJI Zenmuse H20",
       "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
@@ -1865,8 +1993,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "multi-sensor-camera",
-      "typeTitle": "Çok Sensörlü Kamera",
+  "type": "zenmuse-serisi",
+  "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera",
         "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
@@ -1890,8 +2018,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "multi-sensor-camera",
-      "typeTitle": "Çok Sensörlü Kamera",
+  "type": "zenmuse-serisi",
+  "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
         "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
@@ -1919,8 +2047,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "multi-sensor-camera",
-      "typeTitle": "Çok Sensörlü Kamera",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Starlight Geniş Açılı Kamera: 1/2.7” CMOS, 2 MP çözünürlük",
         "Starlight Zoom Kamera: 1/1.8” CMOS, 4 MP çözünürlük, 20× hibrit optik zoom, 128× maksimum zoom",
@@ -1947,8 +2075,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "rtk-drone",
-      "typeTitle": "RTK Drone",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice Serisi Dronlar",
       "specs": [
         "Maksimum Uçuş Süresi: 41 dakika",
         "İletim Mesafesi: 15 km (OcuSync 3 Enterprise)",
@@ -1973,8 +2101,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "rtk-drone",
-      "typeTitle": "RTK Drone",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice Serisi Dronlar",
       "specs": [
         "Maksimum Uçuş Süresi: 50 dakika",
         "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
@@ -2000,8 +2128,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "rtk-drone",
-      "typeTitle": "RTK Drone",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice Serisi Dronlar",
       "specs": [
         "Maksimum Uçuş Süresi: 50 dakika",
         "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
@@ -2015,89 +2143,7 @@
         "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
       ]
     },
-    {
-      "id": 217,
-      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
-      "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
-      "images": [
-        "/marka-photos/dji/m3e-0.png",
-        "/marka-photos/dji/m3e-1.png",
-        "/marka-photos/dji/m3e-2.png",
-        "/marka-photos/dji/m3e-3.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "rtk-drone",
-      "typeTitle": "RTK Drone",
-      "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
-        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
-      ]
-    },
-    {
-      "id": 218,
-      "name": "DJI Mavic 3 Thermal (M3T RTK)",
-      "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
-      "images": [
-        "/marka-photos/dji/m3t-0.png",
-        "/marka-photos/dji/m3t-1.png",
-        "/marka-photos/dji/m3t-2.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "thermal-rtk-drone",
-      "typeTitle": "Termal RTK Drone",
-      "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
-      ]
-    },
-    {
-      "id": 220,
-      "name": "DJI Mavic 3 Multispectral (M3M)",
-      "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
-      "images": [
-        "/marka-photos/dji/m3m-0.png",
-        "/marka-photos/dji/m3m-1.png",
-        "/marka-photos/dji/m3m-2.png",
-        "/marka-photos/dji/m3m-3.png",
-        "/marka-photos/dji/m3m-4.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "multispectral-drone",
-      "typeTitle": "Multispektral Drone",
-      "specs": [
-        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
-        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
-        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
-        "Uçuş Süresi: 43 dakikaya kadar",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
-        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
-        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
-        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
-      ]
-    },
+
     {
       "id": 221,
       "name": "DJI U10 Lazer Gaz Kaçak Tespit Sistemi",
@@ -2138,8 +2184,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "lidar-camera",
-      "typeTitle": "Havadan Lidar Kamera",
+  "type": "zenmuse-serisi",
+  "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar",
         "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar",
@@ -2166,8 +2212,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "lidar-camera",
-      "typeTitle": "Havadan Lidar Kamera",
+  "type": "zenmuse-serisi",
+  "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü",
         "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera",
@@ -2193,8 +2239,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "photogrammetry-camera",
-      "typeTitle": "Fotogrametri Kamerası",
+  "type": "zenmuse-serisi",
+  "typeTitle": "Zenmuse Serisi Kameralar",
       "specs": [
         "Sensör: Full-frame 45 MP CMOS sensör",
         "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
@@ -2211,63 +2257,95 @@
     },
     {
       "id": 300,
-      "name": "Autel Dragonfish Lite",
-      "title": "Dragonfish Lite",
-      "description": "Endüstriyel uygulamalar için uzun uçuş süresi ve yüksek hassasiyet sunan hibrit sabit kanat drone.",
+      "name": "Autel EVO Max 4N",
+      "title": "EVO Max 4N",
+      "description": "Gece görüş, termal görüntüleme ve düşük ışıkta yüksek hassasiyet sunan profesyonel keşif drone’u.",
       "images": [
-        "/marka-photos/autel/dragonfish-lite-0.png",
-        "/marka-photos/autel/dragonfish-lite-1.png",
-        "/marka-photos/autel/dragonfish-lite-2.png",
-        "/marka-photos/autel/dragonfish-lite-3.png"
+        "/marka-photos/autel/evo-max-4n-0.png",
+        "/marka-photos/autel/evo-max-4n-1.png",
+        "/marka-photos/autel/evo-max-4n-2.png",
+        "/marka-photos/autel/evo-max-4n-3.png"
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "sabit-kanat-iha",
-      "typeTitle": "Sabit Kanatlı İHA",
+      "type": "evo-max-serisi",
+      "typeTitle": "EVO Max Serisi Akıllı Dronlar",
       "specs": [
-        "Maksimum 75 dakika uçuş süresi ile uzun süreli görevlerde kesintisiz çalışma sağlar.",
-        "30 m/s yatay uçuş hızı ile hızlı görev tamamlamaya olanak tanır.",
-        "5.5 kg maksimum kalkış ağırlığı sayesinde geniş yük taşıma kapasitesi sunar.",
-        "GNSS (GPS, GLONASS, BeiDou, Galileo) ve RTK ile santimetre seviyesinde hassas konumlandırma sağlar.",
-        "30 km görüntü aktarım mesafesi ile uzak mesafelerden kesintisiz veri iletimi yapar.",
-        "IP43 su ve toz koruma seviyesi ile zorlu hava koşullarında sorunsuz çalışır.",
-        "Akıllı izleme, arazi takip, otomatik dönüş ve hassas iniş gibi akıllı uçuş özelliklerine sahiptir.",
-        "9.7 inç yer kontrol ekranı ve 4.5 saatlik batarya süresi ile uzun süreli operasyonlarda kolay kontrol imkanı sağlar.",
-        "Rüzgarsız ortamda sabit kanat uçuşunda 15 m/s, dikey kalkışta 12 m/s rüzgar dayanımı sunar.",
-        "Çalışma sıcaklığı aralığı -20°C ile +50°C arasındadır."
+        "Ultra düşük ışıkta net görüntüleme sağlayan gece görüş kamerası içerir.",
+        "640×512 çözünürlüğe sahip termal sensör ile hassas sıcaklık ölçümleri yapar.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
+        "Maksimum 42 dakika havada kalabilir.",
+        "50 km’ye kadar kesintisiz veri aktarımı yapabilir.",
+        "25 m/s maksimum yatay uçuş hızına sahiptir.",
+        "12 m/s rüzgar hızına kadar stabil uçuş sağlar.",
+        "IP43 sertifikası ile suya ve toza karşı dayanıklıdır.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle yüksek hassasiyet sunar.",
+        "Akıllı takip, bölgesel tarama, haritalama ve arazi takip özellikleri içerir.",
+        "-20°C ile +50°C arasında çalışabilir."
       ]
     },
     {
       "id": 301,
-      "name": "Autel Dragonfish Standard",
-      "description": "Uzun uçuş süresi, yüksek taşıma kapasitesi ve hassas konumlandırma özelliklerine sahip profesyonel sabit kanatlı İHA.",
+      "name": "Autel EVO Max 4T",
+      "title": "EVO Max 4T",
+      "description": "Zoom, geniş açı, termal kamera ve lazer mesafe ölçer entegreli profesyonel görev dronu.",
       "images": [
-        "/marka-photos/autel/dragonfish-standart-0.png",
-        "/marka-photos/autel/dragonfish-standart-1.png",
-        "/marka-photos/autel/dragonfish-standart-2.png",
-        "/marka-photos/autel/dragonfish-standart-3.png"
+        "/marka-photos/autel/evo-max-4t-0.png",
+        "/marka-photos/autel/evo-max-4t-1.png",
+        "/marka-photos/autel/evo-max-4t-2.png",
+        "/marka-photos/autel/evo-max-4t-3.png"
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "sabit-kanat-iha",
-      "typeTitle": "Sabit Kanatlı İHA",
+      "type": "evo-max-serisi",
+      "typeTitle": "EVO Max Serisi Akıllı Dronlar",
       "specs": [
-        "120 dakika uçuş süresi ile uzun operasyonel görevlerde maksimum verimlilik sağlar.",
-        "30 m/s yatay uçuş hızı ile geniş alanları kısa sürede tarayabilir.",
-        "9 kg maksimum kalkış ağırlığı ile 1.5 kg’a kadar faydalı yük taşıyabilir.",
-        "30 km menzilde yüksek hızlı çift frekanslı görüntü ve veri aktarımı yapabilir.",
-        "Sabit kanat uçuşunda 15 m/s, dikey kalkış modunda 12 m/s rüzgar direncine sahiptir.",
-        "IP43 koruma seviyesi ile suya ve toza karşı dayanıklıdır.",
-        "RTK modunda 1 cm + 1 ppm yatay ve 1.5 cm + 1 ppm dikey doğruluk sağlar.",
-        "-20°C ile +50°C arasında sorunsuz çalışır.",
-        "GPS, GLONASS, BeiDou ve Galileo sistemlerini destekler.",
-        "9.7 inç 2048x1536 çözünürlüklü ekran ve 4.5 saate kadar çalışma süresine sahiptir.",
-        "3 dakikada kurulum ve 5 saniyede sistem kontrolü ile zamandan tasarruf sağlar.",
-        "Akıllı takip, otomatik görev uçuşları, arazi takip ve hassas iniş özellikleri bulunur."
+        "48 MP sensör, 10× optik zoom, 160× dijital zoom desteği sunar.",
+        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
+        "640×512 çözünürlük, 30Hz yenileme hızı ve sıcaklık izleme desteği içerir.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
+        "Maksimum 42 dakika havada kalabilir.",
+        "50 km’ye kadar yüksek güvenilirlikte veri iletimi sağlar.",
+        "25 m/s yatay hız kapasitesine sahiptir.",
+        "12 m/s seviyesine kadar rüzgar dayanımı gösterir.",
+        "IP43 sertifikalı koruma sunar.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle desteklenir.",
+        "-20°C ile +50°C arasında stabil performans sunar.",
+        "Otomatik rota planlama, nesne takibi, sıcaklık analizi ve akıllı hedef belirleme içerir."
       ]
     },
     {
       "id": 302,
+      "name": "Autel EVO Max 4T XE",
+      "title": "EVO Max 4T XE",
+      "description": "Profesyonel güvenlik ve keşif görevleri için geliştirilen, çoklu sensörlü üst düzey keşif İHA’sı.",
+      "images": [
+        "/marka-photos/autel/evo-max-4t-xe-0.png",
+        "/marka-photos/autel/evo-max-4t-xe-1.png",
+        "/marka-photos/autel/evo-max-4t-xe-2.png",
+        "/marka-photos/autel/evo-max-4t-xe-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "evo-max-serisi",
+      "typeTitle": "EVO Max Serisi Akıllı Dronlar",
+      "specs": [
+        "48 MP sensör, 10× optik zoom ve 160× dijital zoom desteği sunar.",
+        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
+        "640×512 çözünürlükte, 30Hz yenileme hızı ile sıcaklık ölçümü yapar.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü gerçekleştirir.",
+        "Maksimum 42 dakika uçuş kapasitesine sahiptir.",
+        "50 km'ye kadar kesintisiz veri aktarımı sunar.",
+        "25 m/s yatay uçuş hızına sahiptir.",
+        "12 m/s seviyesine kadar dayanıklılık sağlar.",
+        "IP43 sertifikası ile zorlu hava koşullarına karşı koruma sağlar.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleri ile santimetre seviyesinde hassas konumlandırma sağlar.",
+        "-20°C ile +50°C arasında güvenli şekilde çalışır.",
+        "Akıllı rota planlama, otomatik hedef takibi, sıcaklık analizi ve bölgesel tarama özellikleri mevcuttur."
+      ]
+    },
+    {
+      "id": 303,
       "name": "Autel Dragonfish Pro",
       "description": "180 dakika uçuş süresi ve 30 km iletim menzili sunan profesyonel endüstriyel İHA.",
       "images": [
@@ -2278,8 +2356,8 @@
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "sabit-kanat-iha",
-      "typeTitle": "Sabit Kanatlı İHA",
+      "type": "dragonfish-serisi",
+      "typeTitle": "Dragonfish Serisi İHA Sistemleri",
       "specs": [
         "Maksimum Uçuş Süresi: Rüzgarsız ortamda 180 dakika.",
         "İletim Menzili: 30 km'ye kadar HD görüntü aktarımı.",
@@ -2296,7 +2374,64 @@
       ]
     },
     {
-      "id": 303,
+      "id": 304,
+      "name": "Autel Dragonfish Standard",
+      "description": "Uzun uçuş süresi, yüksek taşıma kapasitesi ve hassas konumlandırma özelliklerine sahip profesyonel sabit kanatlı İHA.",
+      "images": [
+        "/marka-photos/autel/dragonfish-standart-0.png",
+        "/marka-photos/autel/dragonfish-standart-1.png",
+        "/marka-photos/autel/dragonfish-standart-2.png",
+        "/marka-photos/autel/dragonfish-standart-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "dragonfish-serisi",
+      "typeTitle": "Dragonfish Serisi İHA Sistemleri",
+      "specs": [
+        "120 dakika uçuş süresi ile uzun operasyonel görevlerde maksimum verimlilik sağlar.",
+        "30 m/s yatay uçuş hızı ile geniş alanları kısa sürede tarayabilir.",
+        "9 kg maksimum kalkış ağırlığı ile 1.5 kg’a kadar faydalı yük taşıyabilir.",
+        "30 km menzilde yüksek hızlı çift frekanslı görüntü ve veri aktarımı yapabilir.",
+        "Sabit kanat uçuşunda 15 m/s, dikey kalkış modunda 12 m/s rüzgar direncine sahiptir.",
+        "IP43 koruma seviyesi ile suya ve toza karşı dayanıklıdır.",
+        "RTK modunda 1 cm + 1 ppm yatay ve 1.5 cm + 1 ppm dikey doğruluk sağlar.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemlerini destekler.",
+        "9.7 inç 2048x1536 çözünürlüklü ekran ve 4.5 saate kadar çalışma süresine sahiptir.",
+        "3 dakikada kurulum ve 5 saniyede sistem kontrolü ile zamandan tasarruf sağlar.",
+        "Akıllı takip, otomatik görev uçuşları, arazi takip ve hassas iniş özellikleri bulunur."
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Autel Dragonfish Lite",
+      "title": "Dragonfish Lite",
+      "description": "Endüstriyel uygulamalar için uzun uçuş süresi ve yüksek hassasiyet sunan hibrit sabit kanat drone.",
+      "images": [
+        "/marka-photos/autel/dragonfish-lite-0.png",
+        "/marka-photos/autel/dragonfish-lite-1.png",
+        "/marka-photos/autel/dragonfish-lite-2.png",
+        "/marka-photos/autel/dragonfish-lite-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "dragonfish-serisi",
+      "typeTitle": "Dragonfish Serisi İHA Sistemleri",
+      "specs": [
+        "Maksimum 75 dakika uçuş süresi ile uzun süreli görevlerde kesintisiz çalışma sağlar.",
+        "30 m/s yatay uçuş hızı ile hızlı görev tamamlamaya olanak tanır.",
+        "5.5 kg maksimum kalkış ağırlığı sayesinde geniş yük taşıma kapasitesi sunar.",
+        "GNSS (GPS, GLONASS, BeiDou, Galileo) ve RTK ile santimetre seviyesinde hassas konumlandırma sağlar.",
+        "30 km görüntü aktarım mesafesi ile uzak mesafelerden kesintisiz veri iletimi yapar.",
+        "IP43 su ve toz koruma seviyesi ile zorlu hava koşullarında sorunsuz çalışır.",
+        "Akıllı izleme, arazi takip, otomatik dönüş ve hassas iniş gibi akıllı uçuş özelliklerine sahiptir.",
+        "9.7 inç yer kontrol ekranı ve 4.5 saatlik batarya süresi ile uzun süreli operasyonlarda kolay kontrol imkanı sağlar.",
+        "Rüzgarsız ortamda sabit kanat uçuşunda 15 m/s, dikey kalkışta 12 m/s rüzgar dayanımı sunar.",
+        "Çalışma sıcaklığı aralığı -20°C ile +50°C arasındadır."
+      ]
+    },
+    {
+      "id": 306,
       "name": "Autel Alpha",
       "title": "Alpha",
       "description": "Yüksek taşıma kapasitesi ve uzun uçuş süresi sunan, profesyonel endüstriyel çok rotorlu İHA.",
@@ -2326,7 +2461,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": 307,
       "name": "Autel Titan",
       "title": "Titan",
       "description": "Ağır yük taşıma ve uzun mesafeli görevler için 10 kg taşıma kapasitesi ve 55 dakika uçuş süresine sahip profesyonel çok rotorlu İHA.",
@@ -2353,95 +2488,6 @@
         "A-Mesh ağı desteği ile çoklu cihaz iletişimi ve master-slave kontrol seçenekleri sunar.",
         "Boyutları: 1879×1866×584 mm (pervane dahil), katlı durumda 752×328×526 mm.",
         "Ağırlığı: Gimbal ve batarya dahil toplam 23 kg’dır."
-      ]
-    },
-    {
-      "id": 304,
-      "name": "Autel EVO Max 4N",
-      "title": "EVO Max 4N",
-      "description": "Gece görüş, termal görüntüleme ve düşük ışıkta yüksek hassasiyet sunan profesyonel keşif drone’u.",
-      "images": [
-        "/marka-photos/autel/evo-max-4n-0.png",
-        "/marka-photos/autel/evo-max-4n-1.png",
-        "/marka-photos/autel/evo-max-4n-2.png",
-        "/marka-photos/autel/evo-max-4n-3.png"
-      ],
-      "category": "iha",
-      "brand": "autel",
-      "type": "multi-sensor-iha",
-      "typeTitle": "Çok Sensörlü İHA'lar",
-      "specs": [
-        "Ultra düşük ışıkta net görüntüleme sağlayan gece görüş kamerası içerir.",
-        "640×512 çözünürlüğe sahip termal sensör ile hassas sıcaklık ölçümleri yapar.",
-        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
-        "Maksimum 42 dakika havada kalabilir.",
-        "50 km’ye kadar kesintisiz veri aktarımı yapabilir.",
-        "25 m/s maksimum yatay uçuş hızına sahiptir.",
-        "12 m/s rüzgar hızına kadar stabil uçuş sağlar.",
-        "IP43 sertifikası ile suya ve toza karşı dayanıklıdır.",
-        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle yüksek hassasiyet sunar.",
-        "Akıllı takip, bölgesel tarama, haritalama ve arazi takip özellikleri içerir.",
-        "-20°C ile +50°C arasında çalışabilir."
-      ]
-    },
-    {
-      "id": 305,
-      "name": "Autel EVO Max 4T",
-      "title": "EVO Max 4T",
-      "description": "Zoom, geniş açı, termal kamera ve lazer mesafe ölçer entegreli profesyonel görev dronu.",
-      "images": [
-        "/marka-photos/autel/evo-max-4t-0.png",
-        "/marka-photos/autel/evo-max-4t-1.png",
-        "/marka-photos/autel/evo-max-4t-2.png",
-        "/marka-photos/autel/evo-max-4t-3.png"
-      ],
-      "category": "iha",
-      "brand": "autel",
-      "type": "multi-sensor-iha",
-      "typeTitle": "Çok Sensörlü İHA'lar",
-      "specs": [
-        "48 MP sensör, 10× optik zoom, 160× dijital zoom desteği sunar.",
-        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
-        "640×512 çözünürlük, 30Hz yenileme hızı ve sıcaklık izleme desteği içerir.",
-        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
-        "Maksimum 42 dakika havada kalabilir.",
-        "50 km’ye kadar yüksek güvenilirlikte veri iletimi sağlar.",
-        "25 m/s yatay hız kapasitesine sahiptir.",
-        "12 m/s seviyesine kadar rüzgar dayanımı gösterir.",
-        "IP43 sertifikalı koruma sunar.",
-        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle desteklenir.",
-        "-20°C ile +50°C arasında stabil performans sunar.",
-        "Otomatik rota planlama, nesne takibi, sıcaklık analizi ve akıllı hedef belirleme içerir."
-      ]
-    },
-    {
-      "id": 306,
-      "name": "Autel EVO Max 4T XE",
-      "title": "EVO Max 4T XE",
-      "description": "Profesyonel güvenlik ve keşif görevleri için geliştirilen, çoklu sensörlü üst düzey keşif İHA’sı.",
-      "images": [
-        "/marka-photos/autel/evo-max-4t-xe-0.png",
-        "/marka-photos/autel/evo-max-4t-xe-1.png",
-        "/marka-photos/autel/evo-max-4t-xe-2.png",
-        "/marka-photos/autel/evo-max-4t-xe-3.png"
-      ],
-      "category": "iha",
-      "brand": "autel",
-      "type": "multi-sensor-iha",
-      "typeTitle": "Çok Sensörlü İHA'lar",
-      "specs": [
-        "48 MP sensör, 10× optik zoom ve 160× dijital zoom desteği sunar.",
-        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
-        "640×512 çözünürlükte, 30Hz yenileme hızı ile sıcaklık ölçümü yapar.",
-        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü gerçekleştirir.",
-        "Maksimum 42 dakika uçuş kapasitesine sahiptir.",
-        "50 km'ye kadar kesintisiz veri aktarımı sunar.",
-        "25 m/s yatay uçuş hızına sahiptir.",
-        "12 m/s seviyesine kadar dayanıklılık sağlar.",
-        "IP43 sertifikası ile zorlu hava koşullarına karşı koruma sağlar.",
-        "GPS, GLONASS, BeiDou ve Galileo sistemleri ile santimetre seviyesinde hassas konumlandırma sağlar.",
-        "-20°C ile +50°C arasında güvenli şekilde çalışır.",
-        "Akıllı rota planlama, otomatik hedef takibi, sıcaklık analizi ve bölgesel tarama özellikleri mevcuttur."
       ]
     },
     {
@@ -4831,141 +4877,154 @@
     }
   ],
   "benewakeDetails": {
-  "title": "BENEWAKE - SENSOR",
-  "subtitle": "Yüksek Hassasiyetli Akıllı Sensör Sistemleri",
-  "intro": [
-    {
-      "title": "Küresel Teknoloji Lideri",
-      "text": "Benewake, 2015 yılında Pekin’de kurulmuş ve kısa sürede lidar sensör alanında dünya çapında bilinirliğe ulaşmıştır. Akıllı şehir uygulamalarından otonom sistemlere kadar geniş bir alanda faaliyet gösterir. Bugün 80’den fazla ülkeye ihracat yaparak hem endüstriyel hem de akademik projelerde güvenilir çözüm ortağı konumundadır. Ar-Ge gücü ve uluslararası iş birlikleriyle sensör teknolojisinin evrimini yönlendirmektedir."
+    "title": "BENEWAKE - SENSOR",
+    "subtitle": "Yüksek Hassasiyetli Akıllı Sensör Sistemleri",
+    "intro": [
+      {
+        "title": "Küresel Teknoloji Lideri",
+        "text": "Benewake, 2015 yılında Pekin’de kurulmuş ve kısa sürede lidar sensör alanında dünya çapında bilinirliğe ulaşmıştır. Akıllı şehir uygulamalarından otonom sistemlere kadar geniş bir alanda faaliyet gösterir. Bugün 80’den fazla ülkeye ihracat yaparak hem endüstriyel hem de akademik projelerde güvenilir çözüm ortağı konumundadır. Ar-Ge gücü ve uluslararası iş birlikleriyle sensör teknolojisinin evrimini yönlendirmektedir."
+      },
+      {
+        "title": "Geniş Ürün Yelpazesi",
+        "text": "Benewake’in ürün portföyü, farklı menzil ve hassasiyet ihtiyaçlarına uygun olarak çeşitlendirilmiştir. TF-Luna gibi kompakt modellerden TF350 gibi uzun menzilli çözümlere kadar birçok model sunar. Her bir ürün, IP koruması, çoklu arayüz (UART, CAN, RS485) ve düşük güç tüketimi gibi avantajlarla donatılmıştır. Bu esneklik, farklı sektörlerdeki uygulamalarda entegrasyon kolaylığı sağlar."
+      },
+      {
+        "title": "Yenilikçi Ar-Ge ve Patentler",
+        "text": "Benewake, bugüne dek 300’den fazla ulusal ve uluslararası patent başvurusunda bulunarak teknolojiye yön veren bir yapı kurmuştur. Sinyal işleme algoritmaları, optik yapı optimizasyonları ve donanım geliştirme süreçlerinde sürekli ilerleme sağlar. Çin’deki merkez ofisi dışında Avrupa ve Amerika’daki iş ortaklarıyla küresel inovasyon döngüsüne aktif katkı sunar. Ar-Ge bütçesi, toplam gelirinin önemli bir kısmını oluşturur."
+      },
+      {
+        "title": "Güvenilirlik ve Dayanıklılık",
+        "text": "IP65 ve IP67 sınıfı koruma seviyelerine sahip modelleriyle Benewake sensörleri, zorlu saha koşullarında güvenilir performans sunar. -20°C ile +70°C sıcaklık aralığında çalışabilir, darbelere ve elektromanyetik parazitlere karşı dirençlidir. Sensörler, üretim aşamasında çok sayıda çevresel testten geçirilerek dayanıklılığı garanti altına alınır. Bu özellikler sayesinde uzun ömürlü ve bakım gerektirmeyen çözümler sağlar."
+      },
+      {
+        "title": "Çok Yönlü Uygulama Alanları",
+        "text": "Benewake sensörleri; drone navigasyonu, engel algılama, araç içi güvenlik sistemleri, fabrika otomasyonu, tarım robotları ve daha fazlası için kullanılır. TF-Luna modeli sabit yükseklik kontrolünde, TF02-Pro engel algılamada öne çıkar. Yüksek frekans ve düşük güç tüketimi ile tüm bu uygulamalarda enerji verimliliği sağlar. Modüler yapısıyla hem gömülü sistemlere hem de bağımsız çözümlere kolayca entegre edilir."
+      }
+    ],
+    "visualBlock": {
+      "image": "/marka-photos/benewake/bHero.png",
+      "alt": "Benewake Sensörlü Drone",
+      "title": "Benewake Sensörleri Nasıl Çalışır?",
+      "paragraphs": [
+        "Benewake sensörleri, ToF (Time-of-Flight) teknolojisiyle çalışan yüksek hassasiyetli mesafe ölçüm sistemleridir. Sensör, bir hedefe kızılötesi lazer ışını gönderir; bu ışık hedef yüzeyden yansıyıp geri dönerken, ışığın gidiş-dönüş süresi ölçülerek hedefe olan mesafe milimetre seviyesinde hesaplanır.",
+        "Bu prensip sayesinde, sensörler drone sistemlerinde sabit yükseklik takibi, arazi yüzeyi izleme, iniş-yükselme kontrolü gibi görevleri yüksek doğrulukla yerine getirir. Robotik platformlarda engel tespiti ve yön değiştirme, otonom araçlarda çarpışma önleme ve nesne algılama gibi karar süreçlerine doğrudan veri sağlar. Bina otomasyonlarında da kat konumu, araç varlığı veya insan hareketi algılamada kullanılır.",
+        "Benewake sensörleri; kompakt tasarımı, düşük güç tüketimi, IP koruma sınıfı ve çeşitli haberleşme arayüzleri (UART, CAN, RS485) ile farklı sistemlere kolayca entegre edilebilir. Bu da onları mobil sistemlerden endüstriyel otomasyonlara kadar birçok alanda ideal ve uzun ömürlü bir çözüm hâline getirir."
+      ]
     },
-    {
-      "title": "Geniş Ürün Yelpazesi",
-      "text": "Benewake’in ürün portföyü, farklı menzil ve hassasiyet ihtiyaçlarına uygun olarak çeşitlendirilmiştir. TF-Luna gibi kompakt modellerden TF350 gibi uzun menzilli çözümlere kadar birçok model sunar. Her bir ürün, IP koruması, çoklu arayüz (UART, CAN, RS485) ve düşük güç tüketimi gibi avantajlarla donatılmıştır. Bu esneklik, farklı sektörlerdeki uygulamalarda entegrasyon kolaylığı sağlar."
-    },
-    {
-      "title": "Yenilikçi Ar-Ge ve Patentler",
-      "text": "Benewake, bugüne dek 300’den fazla ulusal ve uluslararası patent başvurusunda bulunarak teknolojiye yön veren bir yapı kurmuştur. Sinyal işleme algoritmaları, optik yapı optimizasyonları ve donanım geliştirme süreçlerinde sürekli ilerleme sağlar. Çin’deki merkez ofisi dışında Avrupa ve Amerika’daki iş ortaklarıyla küresel inovasyon döngüsüne aktif katkı sunar. Ar-Ge bütçesi, toplam gelirinin önemli bir kısmını oluşturur."
-    },
-    {
-      "title": "Güvenilirlik ve Dayanıklılık",
-      "text": "IP65 ve IP67 sınıfı koruma seviyelerine sahip modelleriyle Benewake sensörleri, zorlu saha koşullarında güvenilir performans sunar. -20°C ile +70°C sıcaklık aralığında çalışabilir, darbelere ve elektromanyetik parazitlere karşı dirençlidir. Sensörler, üretim aşamasında çok sayıda çevresel testten geçirilerek dayanıklılığı garanti altına alınır. Bu özellikler sayesinde uzun ömürlü ve bakım gerektirmeyen çözümler sağlar."
-    },
-    {
-      "title": "Çok Yönlü Uygulama Alanları",
-      "text": "Benewake sensörleri; drone navigasyonu, engel algılama, araç içi güvenlik sistemleri, fabrika otomasyonu, tarım robotları ve daha fazlası için kullanılır. TF-Luna modeli sabit yükseklik kontrolünde, TF02-Pro engel algılamada öne çıkar. Yüksek frekans ve düşük güç tüketimi ile tüm bu uygulamalarda enerji verimliliği sağlar. Modüler yapısıyla hem gömülü sistemlere hem de bağımsız çözümlere kolayca entegre edilir."
-    }
-  ],
-  "visualBlock": {
-    "image": "/marka-photos/benewake/bHero.png",
-    "alt": "Benewake Sensörlü Drone",
-    "title": "Benewake Sensörleri Nasıl Çalışır?",
-    "paragraphs": [
-      "Benewake sensörleri, ToF (Time-of-Flight) teknolojisiyle çalışan yüksek hassasiyetli mesafe ölçüm sistemleridir. Sensör, bir hedefe kızılötesi lazer ışını gönderir; bu ışık hedef yüzeyden yansıyıp geri dönerken, ışığın gidiş-dönüş süresi ölçülerek hedefe olan mesafe milimetre seviyesinde hesaplanır.",
-      "Bu prensip sayesinde, sensörler drone sistemlerinde sabit yükseklik takibi, arazi yüzeyi izleme, iniş-yükselme kontrolü gibi görevleri yüksek doğrulukla yerine getirir. Robotik platformlarda engel tespiti ve yön değiştirme, otonom araçlarda çarpışma önleme ve nesne algılama gibi karar süreçlerine doğrudan veri sağlar. Bina otomasyonlarında da kat konumu, araç varlığı veya insan hareketi algılamada kullanılır.",
-      "Benewake sensörleri; kompakt tasarımı, düşük güç tüketimi, IP koruma sınıfı ve çeşitli haberleşme arayüzleri (UART, CAN, RS485) ile farklı sistemlere kolayca entegre edilebilir. Bu da onları mobil sistemlerden endüstriyel otomasyonlara kadar birçok alanda ideal ve uzun ömürlü bir çözüm hâline getirir."
+    "productButtons": [
+      {
+        "id": "single-point",
+        "title": "Single Point Serisi",
+        "text": "Hızlı, hafif ve düşük maliyetli uygulamalar için tek yönlü mesafe algılama sensörleri."
+      },
+      {
+        "id": "2d",
+        "title": "2D Serisi",
+        "text": "Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm imkanı sunar."
+      },
+      {
+        "id": "3d",
+        "title": "3D Serisi",
+        "text": "Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için ideal hacimsel algılama çözümleri."
+      }
     ]
   },
-  "productButtons": [
-    {
-      "id": "single-point",
-      "title": "Single Point Serisi",
-      "text": "Hızlı, hafif ve düşük maliyetli uygulamalar için tek yönlü mesafe algılama sensörleri."
-    },
-    {
-      "id": "2d",
-      "title": "2D Serisi",
-      "text": "Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm imkanı sunar."
-    },
-    {
-      "id": "3d",
-      "title": "3D Serisi",
-      "text": "Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için ideal hacimsel algılama çözümleri."
-    }
-  ]
-},
-"kvkk": {
-  "title": "KVKK Aydınlatma Metni",
-  "subtitle": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
-  "text": [
-    {
-      "type": "title",
-      "content": "İNTERNET SİTESİ ÇEREZ KULLANIMI HAKKINDA BİLGİLENDİRME METNİ"
-    },
-    {
-      "type": "paragraph",
-      "content": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş. (GNSS) olarak, siz www.gnssteknik.com.tr (İnternet Sitesi) ziyaretçilerimize ait kişisel verilerin 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ikincil düzenlemelerine (KVK Mevzuatı) uygun olarak işlenmesi ve korunması için azami hassasiyeti göstermekteyiz.\n\nGNSS olarak, Kişisel Verilerin Korunması mevzuatından doğan aydınlatma yükümlülüğü kapsamında sizleri, işbu “İnternet Sitesi Çerez Kullanımı Hakkında Bilgilendirme Metni” ile internet sitemiz tarafından kullanılan çerezler ve bu vasıtayla işlenen kişisel verileriniz hakkında bilgilendirmek isteriz."
-    },
-    {
-      "type": "title",
-      "content": "Hangi Çerez Türlerini Kullanmaktayız?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Çerezler (cookies)  bir internet sitesi tarafından cihazınızda oluşturulan ve isim-değer formatında veri barındıran küçük metin dosyalarıdır. Dolayısıyla, Sitemizi ziyaret etmenizle kullandığımız çerezler cihazınızda site ziyaretinize ilişkin bilgi saklanmasını ve bu bilgilerin sonraki ziyaretleriniz sırasında kullanılmasını mümkün kılmaktadır.\n\nSitemiz tarafından oluşturulan ve sadece Sitemiz tarafından okunabilen çerezler birincil çerezlerdir.\n\nSitemizde sunulan içerik, erişim adresindeki alan adı dışında başka alan adları üzerinden de sağlanmaktadır. Bu gibi durumda her bir alan adı kendine münhasır üçüncü taraf çerezler yaratmaktadır.\n\nSitemizde kullandığımız çerez türleri ile bu çerezleri kullanım amaçlarımız aşağıdaki gibidir:"
-    },
-    {
-      "type": "table",
-      "headers": ["Nu.", "Çerez Türü", "Kullanım Amaçları"],
-      "rows": [
-        ["1", "Oturum Çerezleri", "Oturum çerezleri, İnternet Sitesini kullanımınız sırasında geçerli olan çerezler olup internet tarayıcınızı kapatıncaya kadar geçerliliklerini korurlar."],
-        ["2", "Kalıcı Çerezler", "Bu çerezler tarayıcınızda saklanan ve tarafınızca silininceye dek veya son kullanım tarihine kadar geçerliliğini koruyan çerezlerdir."],
-        ["3", "Zorunlu Çerezler", "İnternet Sitesinin düzgün bir şekilde çalışabilmesi, özelliklerinden ve sunulan hizmetlerden yararlanabilmeniz için kullanımı mecburi olan çerezlerdir."],
-        ["4", "İşlevsel ve Analitik Çerezler", "Sitemizi ziyaretiniz sırasındaki davranış ve tercihlerinizin hatırlanması, Sitemizin etkin bir şekilde kullanılması, Sitemizin isteklerinize cevap verecek şekilde optimize edilmesi gibi amaçlarla kullanılan ve siteyi nasıl kullandığınız hakkında verileri içeren çerezlerdir. Nitelikleri gereği bu türdeki çerezler kişisel verilerinizi içerebilir. Bu çerezler vasıtasıyla örneğin Sitemizin görüntülenme dil tercihiniz işlenir."]
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": "Sitemizde kullandığımız üçüncü taraf çerezler ile sizlere daha verimli ve işlevsel bir internet deneyimi sunmayı amaçlamaktayız.  Bu üçüncü kişi hizmet sağlayıcılar ile GNSS arasında KVK mevzuatı uyarınca KVK Gizlilik Sözleşmesi akdedilmiş olup bu kişiler tarafından GNSS adına elde edilen kişisel verilerinizin güvenliği garanti altına alınmıştır."
-    },
-    {
-      "type": "title",
-      "content": "Çerezlerin Saklanması ve Erişilmesi"
-    },
-    {
-      "type": "paragraph",
-      "content": "Sitemiz tarafından oluşturulan çerezler Sitemize erişim için kullandığınız internet sitesi tarayıcınız tarafından bilgisayarınızda saklanmaktadır. Bu çerezlerin içerdiği bilgilere sadece çerezi oluşturan alan adı www.gnssteknik.com.tr altında sunulan Sitemiz tarafından ve aynı tarayıcıyı kullandığınız takdirde uzaktan erişim mümkündür."
-    },
-    {
-      "type": "title",
-      "content": "Çerezleri Kabul Etmek Sizin Elinizde"
-    },
-    {
-      "type": "paragraph",
-      "content": "Internet tarayıcılarınız genellikle ziyaret ettiğiniz sitelerde kullanılan çerezleri otomatik olarak kabul etmektedir. Internet Sitemizi kullanabilmek için çerez kullanımı zorunlu değildir, fakat tarayıcınızı tüm çerezleri engelleyecek şekilde ayarlamanız halinde kullanıcı deneyiminizin kalitesi düşebilir ve Sitemize erişim sağlamanızı ya da Sitemizin çeşitli işlevlerinden yararlanmanızı engelleyebilir.\n\nTarayıcınızı çerezleri tüm siteler veya belirli siteler için engelleyecek, çerez oluşturulduğunda uyarı verecek, üçüncü taraf çerezleri engelleyecek veya tüm çerezleri oturum çerezi gibi sayacak şekilde yapılandırabilirsiniz.\n\nDiğer yandan, tarayıcınız üzerinden cihazınızda kaydedilen çerezleri silebilir veya bu çerezlerin listesini ve değerlerini görebilir ve takip edebilirsiniz. Aşağıda listelenen tarayıcılardan kullanmakta olduğunuza tıklayarak çerez yönetimlerine ilişkin detaylı bilgi alabilirsiniz.\n\nÇerezler hakkında daha fazla bilgi almak isterseniz www.aboutcookies.org ile www.youronlinechoices.eu adreslerini tıklayabilirsiniz. Site içerikleri İngilizcedir."
-    },
-    {
-      "type": "title",
-      "content": "Kişisel Verilerinizin Güvenliği"
-    },
-    {
-      "type": "paragraph",
-      "content": "Çerezler işbu Çerez Bilgilendirme Metni’nde belirtilen amaçlar dışında kullanılmamakta olup tüm ilgili işlemler KVK mevzuatına uygun olarak yürütülmektedir. Çerezler vasıtasıyla elde edilen kişisel verileriniz GNSS tarafından KVK mevzuatına uygun olarak işlenmekte, saklanmakta ve güvenliği sağlanmaktadır."
-    },
-    {
-      "type": "title",
-      "content": "Bilgi Edinme Hakkınız"
-    },
-    {
-      "type": "paragraph",
-      "content": "KVK Kanunu’nun 11. maddesi kapsamında, GNSS’ye başvurarak kişisel verilerinizin aşağıdaki haklara sahip olduğunu bildiririz:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
-        "Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme",
-        "Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
-        "Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme",
-        "Kişisel verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
-        "Kanun’un 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme",
-        "Kanun’un 11. maddesinin (d) ve (e) bentleri uyarınca yapılan işlemlerin, kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme",
-        "İşlenen verilerinizin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kendiniz aleyhine bir sonucun ortaya çıkmasına itiraz etme",
-        "Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme"
-      ]
-    }
-    
-  ]
-}
-
-  
+  "kvkk": {
+    "title": "KVKK Aydınlatma Metni",
+    "subtitle": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+    "text": [
+      {
+        "type": "title",
+        "content": "İNTERNET SİTESİ ÇEREZ KULLANIMI HAKKINDA BİLGİLENDİRME METNİ"
+      },
+      {
+        "type": "paragraph",
+        "content": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş. (GNSS) olarak, siz www.gnssteknik.com.tr (İnternet Sitesi) ziyaretçilerimize ait kişisel verilerin 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ikincil düzenlemelerine (KVK Mevzuatı) uygun olarak işlenmesi ve korunması için azami hassasiyeti göstermekteyiz.\n\nGNSS olarak, Kişisel Verilerin Korunması mevzuatından doğan aydınlatma yükümlülüğü kapsamında sizleri, işbu “İnternet Sitesi Çerez Kullanımı Hakkında Bilgilendirme Metni” ile internet sitemiz tarafından kullanılan çerezler ve bu vasıtayla işlenen kişisel verileriniz hakkında bilgilendirmek isteriz."
+      },
+      {
+        "type": "title",
+        "content": "Hangi Çerez Türlerini Kullanmaktayız?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Çerezler (cookies)  bir internet sitesi tarafından cihazınızda oluşturulan ve isim-değer formatında veri barındıran küçük metin dosyalarıdır. Dolayısıyla, Sitemizi ziyaret etmenizle kullandığımız çerezler cihazınızda site ziyaretinize ilişkin bilgi saklanmasını ve bu bilgilerin sonraki ziyaretleriniz sırasında kullanılmasını mümkün kılmaktadır.\n\nSitemiz tarafından oluşturulan ve sadece Sitemiz tarafından okunabilen çerezler birincil çerezlerdir.\n\nSitemizde sunulan içerik, erişim adresindeki alan adı dışında başka alan adları üzerinden de sağlanmaktadır. Bu gibi durumda her bir alan adı kendine münhasır üçüncü taraf çerezler yaratmaktadır.\n\nSitemizde kullandığımız çerez türleri ile bu çerezleri kullanım amaçlarımız aşağıdaki gibidir:"
+      },
+      {
+        "type": "table",
+        "headers": ["Nu.", "Çerez Türü", "Kullanım Amaçları"],
+        "rows": [
+          [
+            "1",
+            "Oturum Çerezleri",
+            "Oturum çerezleri, İnternet Sitesini kullanımınız sırasında geçerli olan çerezler olup internet tarayıcınızı kapatıncaya kadar geçerliliklerini korurlar."
+          ],
+          [
+            "2",
+            "Kalıcı Çerezler",
+            "Bu çerezler tarayıcınızda saklanan ve tarafınızca silininceye dek veya son kullanım tarihine kadar geçerliliğini koruyan çerezlerdir."
+          ],
+          [
+            "3",
+            "Zorunlu Çerezler",
+            "İnternet Sitesinin düzgün bir şekilde çalışabilmesi, özelliklerinden ve sunulan hizmetlerden yararlanabilmeniz için kullanımı mecburi olan çerezlerdir."
+          ],
+          [
+            "4",
+            "İşlevsel ve Analitik Çerezler",
+            "Sitemizi ziyaretiniz sırasındaki davranış ve tercihlerinizin hatırlanması, Sitemizin etkin bir şekilde kullanılması, Sitemizin isteklerinize cevap verecek şekilde optimize edilmesi gibi amaçlarla kullanılan ve siteyi nasıl kullandığınız hakkında verileri içeren çerezlerdir. Nitelikleri gereği bu türdeki çerezler kişisel verilerinizi içerebilir. Bu çerezler vasıtasıyla örneğin Sitemizin görüntülenme dil tercihiniz işlenir."
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Sitemizde kullandığımız üçüncü taraf çerezler ile sizlere daha verimli ve işlevsel bir internet deneyimi sunmayı amaçlamaktayız.  Bu üçüncü kişi hizmet sağlayıcılar ile GNSS arasında KVK mevzuatı uyarınca KVK Gizlilik Sözleşmesi akdedilmiş olup bu kişiler tarafından GNSS adına elde edilen kişisel verilerinizin güvenliği garanti altına alınmıştır."
+      },
+      {
+        "type": "title",
+        "content": "Çerezlerin Saklanması ve Erişilmesi"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sitemiz tarafından oluşturulan çerezler Sitemize erişim için kullandığınız internet sitesi tarayıcınız tarafından bilgisayarınızda saklanmaktadır. Bu çerezlerin içerdiği bilgilere sadece çerezi oluşturan alan adı www.gnssteknik.com.tr altında sunulan Sitemiz tarafından ve aynı tarayıcıyı kullandığınız takdirde uzaktan erişim mümkündür."
+      },
+      {
+        "type": "title",
+        "content": "Çerezleri Kabul Etmek Sizin Elinizde"
+      },
+      {
+        "type": "paragraph",
+        "content": "Internet tarayıcılarınız genellikle ziyaret ettiğiniz sitelerde kullanılan çerezleri otomatik olarak kabul etmektedir. Internet Sitemizi kullanabilmek için çerez kullanımı zorunlu değildir, fakat tarayıcınızı tüm çerezleri engelleyecek şekilde ayarlamanız halinde kullanıcı deneyiminizin kalitesi düşebilir ve Sitemize erişim sağlamanızı ya da Sitemizin çeşitli işlevlerinden yararlanmanızı engelleyebilir.\n\nTarayıcınızı çerezleri tüm siteler veya belirli siteler için engelleyecek, çerez oluşturulduğunda uyarı verecek, üçüncü taraf çerezleri engelleyecek veya tüm çerezleri oturum çerezi gibi sayacak şekilde yapılandırabilirsiniz.\n\nDiğer yandan, tarayıcınız üzerinden cihazınızda kaydedilen çerezleri silebilir veya bu çerezlerin listesini ve değerlerini görebilir ve takip edebilirsiniz. Aşağıda listelenen tarayıcılardan kullanmakta olduğunuza tıklayarak çerez yönetimlerine ilişkin detaylı bilgi alabilirsiniz.\n\nÇerezler hakkında daha fazla bilgi almak isterseniz www.aboutcookies.org ile www.youronlinechoices.eu adreslerini tıklayabilirsiniz. Site içerikleri İngilizcedir."
+      },
+      {
+        "type": "title",
+        "content": "Kişisel Verilerinizin Güvenliği"
+      },
+      {
+        "type": "paragraph",
+        "content": "Çerezler işbu Çerez Bilgilendirme Metni’nde belirtilen amaçlar dışında kullanılmamakta olup tüm ilgili işlemler KVK mevzuatına uygun olarak yürütülmektedir. Çerezler vasıtasıyla elde edilen kişisel verileriniz GNSS tarafından KVK mevzuatına uygun olarak işlenmekte, saklanmakta ve güvenliği sağlanmaktadır."
+      },
+      {
+        "type": "title",
+        "content": "Bilgi Edinme Hakkınız"
+      },
+      {
+        "type": "paragraph",
+        "content": "KVK Kanunu’nun 11. maddesi kapsamında, GNSS’ye başvurarak kişisel verilerinizin aşağıdaki haklara sahip olduğunu bildiririz:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+          "Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme",
+          "Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
+          "Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme",
+          "Kişisel verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
+          "Kanun’un 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme",
+          "Kanun’un 11. maddesinin (d) ve (e) bentleri uyarınca yapılan işlemlerin, kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme",
+          "İşlenen verilerinizin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kendiniz aleyhine bir sonucun ortaya çıkmasına itiraz etme",
+          "Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme"
+        ]
+      }
+    ]
+  }
 }

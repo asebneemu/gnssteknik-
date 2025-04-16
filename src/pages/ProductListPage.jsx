@@ -58,7 +58,7 @@ const ProductListPage = () => {
   }
 
   const groupedProducts = filteredProducts.reduce((acc, product) => {
-    const type = product.typeTitle || "Genel";
+    const type = product.typeTitle || "";
     if (!acc[type]) acc[type] = [];
     acc[type].push(product);
     return acc;
