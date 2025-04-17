@@ -1886,7 +1886,112 @@
       ]
     },
     {
-      "id": 201,
+      "id": 150,
+      "name": "DJI Matrice 4T RTK",
+      "description": "Termal görüntüleme, zoom kamera ve lazer mesafe ölçer ile donatılmış, kompakt ve dayanıklı endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m4t-0.png",
+        "/marka-photos/dji/m4t-1.png",
+        "/marka-photos/dji/m4t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice 4 Serisi",
+      "specs": [
+        "Maksimum Uçuş Süresi: 50 dakika",
+        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
+        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "DJI Matrice 4E RTK",
+      "description": "Gelişmiş RTK desteği, zoom kamera ve lazer mesafe ölçer ile donatılmış kompakt ve dayanıklı endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m4e-0.png",
+        "/marka-photos/dji/m4e-1.png",
+        "/marka-photos/dji/m4e-2.png",
+        "/marka-photos/dji/m4e-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-serisi",
+      "typeTitle": "Matrice 4 Serisi",
+      "specs": [
+        "Maksimum Uçuş Süresi: 50 dakika",
+        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
+        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera",
+        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "DJI Matrice 30 Endüstriyel Drone",
+      "title": "Kompakt ve Güçlü Endüstriyel Drone Çözümü",
+      "description": "DJI Matrice 30, taşınabilir gövdesi, gelişmiş uçuş güvenliği ve optik sensör sistemleriyle profesyonel görevlerde yüksek verimlilik sunan yeni nesil endüstriyel dronedur.",
+      "images": [
+        "/marka-photos/dji/m30-0.png",
+        "/marka-photos/dji/m30-1.png",
+        "/marka-photos/dji/m30-2.png",
+        "/marka-photos/dji/m30-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-30-serisi",
+      "typeTitle": "Matrice 30 Serisi",
+      "specs": [
+        "48 MP zoom kamera (5x–16x optik), 12 MP geniş açı kamera, lazer mesafe ölçer ve düşük ışık FPV kamera içerir.",
+        "Azami uçuş süresi 41 dakika, azami uçuş hızı 23 m/s ve azami kalkış irtifası 7000 m'dir.",
+        "IP55 hava koşullarına dayanıklılık ve -20°C ile +50°C çalışma sıcaklığı sayesinde zorlu ortamlarda çalışabilir.",
+        "DJI RC Plus kontrol cihazı ile IP54 korumalı, geniş ekranlı ve 6 saat kesintisiz saha kullanımı sağlar.",
+        "6 yönlü engel algılama sensörleri ile tam çevresel farkındalık ve uçuş güvenliği sunar.",
+        "OcuSync 3 Enterprise ile uzun menzilli, 4 antenli bağlantı sunar, DJI Cellular modülü desteklenir.",
+        "DJI Dock uyumluluğu ile otomatik görev planlaması ve uzaktan operasyon imkanı sağlar.",
+        "DJI FlightHub 2 ile bulut üzerinden canlı izleme, haritalama ve filo yönetimi desteklenir."
+      ]
+    }, 
+    {
+      "id": 161,
+      "name": "DJI Matrice 30T Termal Drone",
+      "title": "Entegre Termal Kameralı Gelişmiş Endüstriyel Drone",
+      "description": "DJI Matrice 30T, M30 modelinin termal kamera ile zenginleştirilmiş versiyonudur. Termal görüntüleme kabiliyeti ile arama kurtarma, denetim ve güvenlik uygulamalarında ideal çözümler sunar.",
+      "images": [
+        "/marka-photos/dji/m30t-0.png",
+        "/marka-photos/dji/m30t-1.png",
+        "/marka-photos/dji/m30t-2.png",
+        "/marka-photos/dji/m30t-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-30-serisi",
+      "typeTitle": "Matrice 30 Serisi",
+      "specs": [
+        "640x512 çözünürlüklü termal kamera; ±2°C veya ±2% sıcaklık ölçüm hassasiyeti sunar.",
+        "48 MP zoom kamera, 12 MP geniş açı kamera, lazer mesafe ölçer ve FPV kamera ile çok yönlü görüntüleme yapılabilir.",
+        "41 dakikaya kadar uçuş süresi ve IP55 seviyesi ile zorlu koşullarda güvenli görev yapabilir.",
+        "-20°C ile +50°C arasında çalışma sıcaklığına dayanıklıdır.",
+        "DJI RC Plus kontrol ünitesi ile entegre kullanım, 6 saat kesintisiz saha operasyonu sağlar.",
+        "6 yönlü çarpışma önleyici sensörler ve yüksek stabilite ile karmaşık alanlarda güvenli uçuş yapılabilir.",
+        "DJI Pilot 2 yazılımı ile termal paletler, spot ölçüm ve sıcaklık analizi gibi termal özellikler aktif kullanılır.",
+        "DJI Dock uyumluluğu sayesinde tam otomatik görev planlaması ve merkezi yönetim sağlanır."
+      ]
+    }, 
+    {
+      "id": 170,
       "name": "DJI Matrice 350 RTK",
       "description": "Üst düzey güvenlik ve gelişmiş otonom uçuş özellikleri sunan endüstriyel drone.",
       "images": [
@@ -1895,8 +2000,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "matrice-serisi",
-      "typeTitle": "Matrice Serisi Dronlar",
+      "type": "matrice-350-serisi",
+      "typeTitle": "Matrice 350 Serisi",
       "specs": [
         "55 Dakika Maksimum Uçuş Süresi: Uzun süreli operasyonlar için kesintisiz performans.",
         "IP55 Koruma Seviyesi: Zorlu hava koşullarında bile güvenli uçuş.",
@@ -1908,92 +2013,94 @@
         "Yeni GNSS & RTK Modülü: GPS, GLONASS, BeiDou ve Galileo desteği ile daha hızlı RTK sabitleme.",
         "2.7 kg Maksimum Taşıma Kapasitesi: Çift gimbal bağlantı noktası ile çoklu sensör desteği."
       ]
-    },
+    },  
     {
-      "id": 205,
-      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
-      "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
+      "id": 180,
+      "name": "DJI Zenmuse P1",
+      "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
       "images": [
-        "/marka-photos/dji/m3e-0.png",
-        "/marka-photos/dji/m3e-1.png",
-        "/marka-photos/dji/m3e-2.png",
-        "/marka-photos/dji/m3e-3.png"
+        "/marka-photos/dji/p1-0.png",
+        "/marka-photos/dji/p1-1.png",
+        "/marka-photos/dji/p1-2.png",
+        "/marka-photos/dji/p1-3.png"
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "mavic-serisi",
-      "typeTitle": "Mavic Serisi Dronlar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
-        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Sensör: Full-frame 45 MP CMOS sensör",
+        "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
+        "Lens Uyumluluğu: 24 mm, 35 mm ve 50 mm değiştirilebilir lens seçenekleri",
+        "RTK Modülü: Santimetre seviyesinde hassasiyet sağlayan dahili RTK desteği",
+        "Haritalama Verimliliği: DJI Smart Oblique Capture ile daha geniş kapsama alanı",
+        "Zaman Senkronizasyonu: TimeSync 2.0 ile IMU, RTK ve kamera verileri senkronize edilir",
+        "Görüntü Formatları: JPEG ve RAW DNG desteği",
+        "Video Kaydı: 8K çözünürlüğünde video kaydı",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Su ve Toz Dayanıklılığı: IP4X sertifikası",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
+      ]
+    },  
+    {
+      "id": 190,
+      "name": "DJI Zenmuse L1",
+      "description": "LiDAR modülü, 20 MP RGB kamera ve yüksek doğruluklu IMU ile entegre edilmiş, profesyonel hava haritalama ve 3D modelleme çözümü.",
+      "images": [
+        "/marka-photos/dji/l1-0.png",
+        "/marka-photos/dji/l1-1.png",
+        "/marka-photos/dji/l1-2.png",
+        "/marka-photos/dji/l1-3.png",
+        "/marka-photos/dji/l1-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar",
+        "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar",
+        "IMU Doğruluğu: 0.025° roll/pitch ve 0.15° yaw hassasiyeti",
+        "Algılama Menzili: 450 m (80% yansıtıcılık), 190 m (10% yansıtıcılık)",
+        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme özelliği ile saha doğrulaması sağlar",
+        "Taramalar: Tekli ve çoklu dönüş desteği ile 480.000 nokta/saniye veri toplar",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası ile zorlu çevre koşullarına uyumlu",
+        "Gimbal Stabilizasyonu: 3 eksenli gimbal sistemi",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+      ]
+    },
+    
+    {
+      "id": 191,
+      "name": "DJI Zenmuse L2",
+      "description": "Yüksek hassasiyetli LiDAR modülü, 20 MP RGB kamera ve IMU ile entegre edilmiş, profesyonel hava haritalama çözümü.",
+      "images": [
+        "/marka-photos/dji/l2-0.png",
+        "/marka-photos/dji/l2-1.png",
+        "/marka-photos/dji/l2-2.png",
+        "/marka-photos/dji/l2-3.png",
+        "/marka-photos/dji/l2-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü",
+        "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera",
+        "IMU Doğruluğu: 0.02° roll/pitch ve 0.05° yaw hassasiyeti",
+        "Algılama Menzili: 450 m (80% yansıtıcılık), 250 m (10% yansıtıcılık)",
+        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme ve saha doğrulama imkanı",
+        "Çoklu Tarama Desteği: Tekli ve çoklu dönüş desteği ile karmaşık alanlarda veri kalitesi artırılır",
+        "Çalışma Sıcaklığı: -20°C ile +50°C arasında",
         "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
+        "Gimbal Yapısı: 3 eksenli gimbal stabilizasyonu",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
       ]
-    },
+    },  
     {
-      "id": 206,
-      "name": "DJI Mavic 3 Thermal (M3T RTK)",
-      "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
-      "images": [
-        "/marka-photos/dji/m3t-0.png",
-        "/marka-photos/dji/m3t-1.png",
-        "/marka-photos/dji/m3t-2.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "mavic-serisi",
-      "typeTitle": "Mavic Serisi Dronlar",
-      "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
-      ]
-    },
-    {
-      "id": 207,
-      "name": "DJI Mavic 3 Multispectral (M3M)",
-      "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
-      "images": [
-        "/marka-photos/dji/m3m-0.png",
-        "/marka-photos/dji/m3m-1.png",
-        "/marka-photos/dji/m3m-2.png",
-        "/marka-photos/dji/m3m-3.png",
-        "/marka-photos/dji/m3m-4.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "mavic-serisi",
-      "typeTitle": "Mavic Serisi Dronlar",
-      "specs": [
-        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
-        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
-        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
-        "Uçuş Süresi: 43 dakikaya kadar",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
-        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
-        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
-        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
-      ]
-    },
-    {
-      "id": 209,
+      "id": 200,
       "name": "DJI Zenmuse H20",
       "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
       "images": [
@@ -2017,7 +2124,7 @@
       ]
     },
     {
-      "id": 210,
+      "id": 201,
       "name": "DJI Zenmuse H20T",
       "description": "Termal kamera, yüksek çözünürlüklü zoom, geniş açılı kamera ve lazer mesafe ölçer kombinasyonuna sahip hibrit hava görüntüleme sistemi.",
       "images": [
@@ -2046,7 +2153,7 @@
       ]
     },
     {
-      "id": 211,
+      "id": 202,
       "name": "DJI Zenmuse H20N",
       "description": "Gece görüş ve termal görüntüleme özellikleriyle donatılmış, düşük ışık koşullarında üstün performans sunan hibrit drone kamerası.",
       "images": [
@@ -2074,86 +2181,88 @@
       ]
     },
     {
-      "id": 214,
-      "name": "DJI Matrice 30T RTK",
-      "description": "Termal kamera ve gelişmiş uçuş sistemleriyle donatılmış kompakt ve taşınabilir endüstriyel drone.",
+      "id": 210,
+      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
+      "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
       "images": [
-        "/marka-photos/dji/m30t-0.png",
-        "/marka-photos/dji/m30t-1.png",
-        "/marka-photos/dji/m30t-2.png",
-        "/marka-photos/dji/m30t-3.png"
+        "/marka-photos/dji/m3e-0.png",
+        "/marka-photos/dji/m3e-1.png",
+        "/marka-photos/dji/m3e-2.png",
+        "/marka-photos/dji/m3e-3.png"
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "matrice-serisi",
-      "typeTitle": "Matrice Serisi Dronlar",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
       "specs": [
-        "Maksimum Uçuş Süresi: 41 dakika",
-        "İletim Mesafesi: 15 km (OcuSync 3 Enterprise)",
-        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
+        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
         "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 16× optik zoom, 200× maksimum dijital zoom",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "DJI Mavic 3 Thermal (M3T RTK)",
+      "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m3t-0.png",
+        "/marka-photos/dji/m3t-1.png",
+        "/marka-photos/dji/m3t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
+      "specs": [
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
         "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
         "Gimbal Yapısı: 3 eksenli gimbal",
         "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
       ]
     },
     {
-      "id": 215,
-      "name": "DJI Matrice 4T RTK",
-      "description": "Termal görüntüleme, zoom kamera ve lazer mesafe ölçer ile donatılmış, kompakt ve dayanıklı endüstriyel drone.",
+      "id": 212,
+      "name": "DJI Mavic 3 Multispectral (M3M)",
+      "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
       "images": [
-        "/marka-photos/dji/m4t-0.png",
-        "/marka-photos/dji/m4t-1.png",
-        "/marka-photos/dji/m4t-2.png"
+        "/marka-photos/dji/m3m-0.png",
+        "/marka-photos/dji/m3m-1.png",
+        "/marka-photos/dji/m3m-2.png",
+        "/marka-photos/dji/m3m-3.png",
+        "/marka-photos/dji/m3m-4.png"
       ],
       "category": "iha",
       "brand": "dji",
-      "type": "matrice-serisi",
-      "typeTitle": "Matrice Serisi Dronlar",
+      "type": "mavic-serisi",
+      "typeTitle": "Mavic Serisi Dronlar",
       "specs": [
-        "Maksimum Uçuş Süresi: 50 dakika",
-        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
-        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
+        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
+        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
+        "Uçuş Süresi: 43 dakikaya kadar",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
+        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
+        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
+        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
       ]
     },
-    {
-      "id": 216,
-      "name": "DJI Matrice 4E RTK",
-      "description": "Gelişmiş RTK desteği, zoom kamera ve lazer mesafe ölçer ile donatılmış kompakt ve dayanıklı endüstriyel drone.",
-      "images": [
-        "/marka-photos/dji/m4e-0.png",
-        "/marka-photos/dji/m4e-1.png",
-        "/marka-photos/dji/m4e-2.png",
-        "/marka-photos/dji/m4e-3.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "matrice-serisi",
-      "typeTitle": "Matrice Serisi Dronlar",
-      "specs": [
-        "Maksimum Uçuş Süresi: 50 dakika",
-        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
-        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera",
-        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
-      ]
-    },
-
     {
       "id": 221,
       "name": "DJI U10 Lazer Gaz Kaçak Tespit Sistemi",
@@ -2179,90 +2288,6 @@
         "UAV Entegrasyonu: DJI Matrice 200, 300 RTK ile uyumludur",
         "Veri Çıkışı: Anlık veri kaydı, analiz ve 3D haritalama entegrasyonu",
         "Ağırlık: ≤1 kg"
-      ]
-    },
-    {
-      "id": 222,
-      "name": "DJI Zenmuse L1",
-      "description": "LiDAR modülü, 20 MP RGB kamera ve yüksek doğruluklu IMU ile entegre edilmiş, profesyonel hava haritalama ve 3D modelleme çözümü.",
-      "images": [
-        "/marka-photos/dji/l1-0.png",
-        "/marka-photos/dji/l1-1.png",
-        "/marka-photos/dji/l1-2.png",
-        "/marka-photos/dji/l1-3.png",
-        "/marka-photos/dji/l1-4.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "zenmuse-serisi",
-      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
-      "specs": [
-        "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar",
-        "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar",
-        "IMU Doğruluğu: 0.025° roll/pitch ve 0.15° yaw hassasiyeti",
-        "Algılama Menzili: 450 m (80% yansıtıcılık), 190 m (10% yansıtıcılık)",
-        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme özelliği ile saha doğrulaması sağlar",
-        "Taramalar: Tekli ve çoklu dönüş desteği ile 480.000 nokta/saniye veri toplar",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası ile zorlu çevre koşullarına uyumlu",
-        "Gimbal Stabilizasyonu: 3 eksenli gimbal sistemi",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK"
-      ]
-    },
-    {
-      "id": 223,
-      "name": "DJI Zenmuse L2",
-      "description": "Yüksek hassasiyetli LiDAR modülü, 20 MP RGB kamera ve IMU ile entegre edilmiş, profesyonel hava haritalama çözümü.",
-      "images": [
-        "/marka-photos/dji/l2-0.png",
-        "/marka-photos/dji/l2-1.png",
-        "/marka-photos/dji/l2-2.png",
-        "/marka-photos/dji/l2-3.png",
-        "/marka-photos/dji/l2-4.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "zenmuse-serisi",
-      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
-      "specs": [
-        "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü",
-        "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera",
-        "IMU Doğruluğu: 0.02° roll/pitch ve 0.05° yaw hassasiyeti",
-        "Algılama Menzili: 450 m (80% yansıtıcılık), 250 m (10% yansıtıcılık)",
-        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme ve saha doğrulama imkanı",
-        "Çoklu Tarama Desteği: Tekli ve çoklu dönüş desteği ile karmaşık alanlarda veri kalitesi artırılır",
-        "Çalışma Sıcaklığı: -20°C ile +50°C arasında",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Gimbal Yapısı: 3 eksenli gimbal stabilizasyonu",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
-      ]
-    },
-    {
-      "id": 224,
-      "name": "DJI Zenmuse P1",
-      "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
-      "images": [
-        "/marka-photos/dji/p1-0.png",
-        "/marka-photos/dji/p1-1.png",
-        "/marka-photos/dji/p1-2.png",
-        "/marka-photos/dji/p1-3.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "zenmuse-serisi",
-      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
-      "specs": [
-        "Sensör: Full-frame 45 MP CMOS sensör",
-        "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
-        "Lens Uyumluluğu: 24 mm, 35 mm ve 50 mm değiştirilebilir lens seçenekleri",
-        "RTK Modülü: Santimetre seviyesinde hassasiyet sağlayan dahili RTK desteği",
-        "Haritalama Verimliliği: DJI Smart Oblique Capture ile daha geniş kapsama alanı",
-        "Zaman Senkronizasyonu: TimeSync 2.0 ile IMU, RTK ve kamera verileri senkronize edilir",
-        "Görüntü Formatları: JPEG ve RAW DNG desteği",
-        "Video Kaydı: 8K çözünürlüğünde video kaydı",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Su ve Toz Dayanıklılığı: IP4X sertifikası",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
       ]
     },
     {
