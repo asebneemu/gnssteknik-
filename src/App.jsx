@@ -30,6 +30,7 @@ import SensorBenewakePage from "./pages/SensorBenewakePage";
 
 import ScrollToTop from "./components/ScrollToTop";
 import KvkkPage from "./pages/KvkkPage"; // 👈 KVKK sayfanı içe aktar
+import BenewakeApplicationsPage from "./pages/BenewakeApplicationsPage";
 
 
 function AppContent() {
@@ -57,7 +58,7 @@ function AppContent() {
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/kvkk" element={<KvkkPage />} /> {/* 👈 KVKK route'u burada */}
-        
+
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
         <Route path={productDetailPath} element={<ProductDetailPage />} />
@@ -76,6 +77,7 @@ function AppContent() {
         <Route path={productListPath} element={<ProductListPage />} />
         <Route path="/sectors" element={<SectorsPage />} />
         <Route path="/applications" element={<ApplicationsPage />} />
+        <Route path="/benewake-applications" element={<BenewakeApplicationsPage />} />
         <Route path="/sector/:id" element={<SectorDetailPage />} />
    
 

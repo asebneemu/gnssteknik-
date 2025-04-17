@@ -135,41 +135,50 @@ const SensorBenewakePage = () => {
       </div>
 
       {/* Üçlü Kutu Serisi - Buton Yapısı */}
-<div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
-  <div
-    onClick={() => navigate("/products/benewake?tech=single-point")}
-    className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
-  >
-    <h3 className="text-2xl font-bold text-orange-600 mb-2">
-      Single Point Serisi
-    </h3>
-    <p>
-      Hızlı, hafif ve düşük maliyetli uygulamalar için tek yönlü mesafe
-      algılama sensörleri.
-    </p>
-  </div>
+      <div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
+        <div
+          onClick={() => navigate("/products/benewake?tech=single-point")}
+          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
+        >
+          <h3 className="text-2xl font-bold text-orange-600 mb-2">
+            Single Point Serisi
+          </h3>
+          <p>
+            Hızlı, hafif ve düşük maliyetli uygulamalar için tek yönlü mesafe
+            algılama sensörleri.
+          </p>
+        </div>
 
-  <div
-    onClick={() => navigate("/products/benewake?tech=2d")}
-    className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
-  >
-    <h3 className="text-2xl font-bold text-orange-600 mb-2">2D Serisi</h3>
-    <p>
-      Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm
-      imkanı sunar.
-    </p>
-  </div>
+        <div
+          onClick={() => navigate("/products/benewake?tech=2d")}
+          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
+        >
+          <h3 className="text-2xl font-bold text-orange-600 mb-2">2D Serisi</h3>
+          <p>
+            Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm
+            imkanı sunar.
+          </p>
+        </div>
 
-  <div
-    onClick={() => navigate("/products/benewake?tech=3d")}
-    className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
+        <div
+          onClick={() => navigate("/products/benewake?tech=3d")}
+          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
+        >
+          <h3 className="text-2xl font-bold text-orange-600 mb-2">3D Serisi</h3>
+          <p>
+            Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için
+            ideal hacimsel algılama çözümleri.
+          </p>
+        </div>
+      </div>
+      {/* Uygulama Alanları Butonu */}
+<div className="flex justify-center mt-20">
+  <button
+    onClick={() => navigate("/benewake-applications")}
+    className="px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg shadow hover:bg-orange-700 transition"
   >
-    <h3 className="text-2xl font-bold text-orange-600 mb-2">3D Serisi</h3>
-    <p>
-      Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için
-      ideal hacimsel algılama çözümleri.
-    </p>
-  </div>
+    {language === "tr" ? "Uygulama Alanları" : "Application Areas"}
+  </button>
 </div>
 
     </div>

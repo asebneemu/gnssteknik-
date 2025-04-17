@@ -1268,6 +1268,8 @@
       ],
       "category": "lidar",
       "brand": "chcnav",
+      "type": "mobil-haritalama",
+      "typeTitle": "Mobil Haritalama",
       "specs": [
         "330 metreye kadar menzil ve saniyede 1.2 milyon nokta tarama kapasitesi.",
         "0.010 m RMS yatay ve 0.010 m RMS dikey doğruluk ile yüksek hassasiyet.",
@@ -1294,6 +1296,8 @@
       ],
       "category": "lidar",
       "brand": "chcnav",
+      "type": "mobil-haritalama",
+      "typeTitle": "Mobil Haritalama",
       "specs": [
         "1450 metreye kadar menzil ve saniyede 2 milyon nokta tarama kapasitesi.",
         "2-5 cm mutlak doğruluk ve 15 mm hassasiyet ile yüksek doğrulukta ölçüm.",
@@ -1323,6 +1327,8 @@
       ],
       "category": "lidar",
       "brand": "chcnav",
+      "type": "slam-rtk-tarayicilar",
+      "typeTitle": "SLAM RTK Tarayıcılar",
       "specs": [
         "GNSS RTK, Lidar ve SLAM teknolojilerini bir arada sunar.",
         "RTK ve SLAM birleşimi ile 5 cm mutlak ölçüm hassasiyeti sağlar.",
@@ -1475,6 +1481,8 @@
       ],
       "category": "batimetri",
       "brand": "chcnav",
+      "type": "usv-cozumleri",
+      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "Entegre GNSS ve IMU ile hassas konumlandırma.",
         "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
@@ -1497,6 +1505,8 @@
       ],
       "category": "batimetri",
       "brand": "chcnav",
+      "type": "usv-cozumleri",
+      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
         "8 saat pil ömrü ve maksimum 5 m/s hız.",
@@ -1519,6 +1529,8 @@
       ],
       "category": "batimetri",
       "brand": "chcnav",
+      "type": "usv-cozumleri",
+      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "Entegre GNSS+IMU ile doğru konumlandırma ve yönlendirme.",
         "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
@@ -1541,6 +1553,8 @@
       ],
       "category": "batimetri",
       "brand": "chcnav",
+      "type": "usv-cozumleri",
+      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
         "6 saat pil ömrü ve maksimum 5 m/s hız.",
@@ -1564,7 +1578,7 @@
       "category": "batimetri",
       "brand": "chcnav",
       "type": "hydrographic-system",
-      "typeTitle": "Hidrografik Sistemler",
+      "typeTitle": "Hidrografik Sensörler",
       "specs": [
         "200 kHz ve 450 kHz tek ve çok ışınlı eko sondaj desteği.",
         "8 saat pil ömrü ve IP67 su ve toz geçirmezlik standardı.",
@@ -1586,7 +1600,7 @@
       "category": "batimetri",
       "brand": "chcnav",
       "type": "hydrographic-system",
-      "typeTitle": "Hidrografik Sistemler",
+      "typeTitle": "Hidrografik Sensörler",
       "specs": [
         "500 kHz çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü veri toplama.",
         "10 saat pil ömrü ve IP67 su ve toz geçirmezlik standardı.",
@@ -1606,7 +1620,7 @@
       "category": "batimetri",
       "brand": "chcnav",
       "type": "hydrographic-system",
-      "typeTitle": "Hidrografik Sistemler",
+      "typeTitle": "Hidrografik Sensörler",
       "specs": [
         "300 kHz ADCP desteği ile hassas akım profili ölçümü.",
         "IP68 su geçirmezlik ve 15 saat pil ömrü.",
@@ -1627,7 +1641,7 @@
       "category": "batimetri",
       "brand": "chcnav",
       "type": "hydrographic-system",
-      "typeTitle": "Hidrografik Sistemler",
+      "typeTitle": "Hidrografik Sensörler",
       "specs": [
         "600 kHz ADCP desteği ile yüksek çözünürlüklü akım profili ölçümü.",
         "IP68 su geçirmezlik ve 20 saat pil ömrü.",
@@ -1650,7 +1664,7 @@
       "category": "batimetri",
       "brand": "chcnav",
       "type": "hydrographic-system",
-      "typeTitle": "Hidrografik Sistemler",
+      "typeTitle": "Hidrografik Sensörler",
       "specs": [
         "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlük.",
         "IP67 su ve toz geçirmezlik standardı.",
@@ -1661,7 +1675,7 @@
     },
     {
       "id": 100,
-      "name": "CHCNAV PS-2000 Sensör",
+      "name": "CHCNAV PS-2000 SAR Sistemi",
       "description": "Yüksek hassasiyetli ve temassız deformasyon izleme sistemi.",
       "images": [
         "/marka-photos/chcnav/ps2000-0.png",
@@ -1671,6 +1685,8 @@
       ],
       "category": "sensor",
       "brand": "chcnav",
+      "type": "deformasyon-izleme-sensorleri",
+      "typeTitle": "Deformasyon ve İzleme Sensörleri",
       "specs": [
         "0.1 mm hassasiyetle temassız deformasyon ölçümü.",
         "360° izleme açısı ve özelleştirilebilir tarama aralığı.",
@@ -1694,8 +1710,8 @@
       ],
       "category": "sensor",
       "brand": "chcnav",
-      "type": "gnss-sensor",
-      "typeTitle": "GNSS ve IMU Sensörler",
+      "type": "gnss-ins-sensorleri",
+      "typeTitle": "GNSS-INS Sensörleri",
       "specs": [
         "624 kanal desteği ile çoklu GNSS sistemlerini aynı anda takip edebilir.",
         "IMU-RTK teknolojisi ile eğimden etkilenmeyen hassas konumlandırma.",
@@ -1718,36 +1734,10 @@
       ],
       "category": "sensor",
       "brand": "chcnav",
-      "type": "gnss-sensor",
-      "typeTitle": "GNSS ve IMU Sensörler",
+      "type": "gnss-ins-sensorleri",
+      "typeTitle": "GNSS-INS Sensörleri",
       "specs": [
         "624 kanal desteği ile tüm GNSS uydu sistemlerini destekler.",
-        "IMU-RTK entegrasyonu ile eğim ve hareketten etkilenmeyen hassas konumlandırma.",
-        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
-        "IP68 su ve toz geçirmezlik ve dayanıklı gövde.",
-        "Bluetooth, Wi-Fi, 4G ve Ethernet bağlantı seçenekleri.",
-        "Dahili batarya ile 20 saate kadar kesintisiz çalışma süresi.",
-        "Çalışma sıcaklığı: -40°C ile +65°C arası.",
-        "32 GB dahili hafıza ve harici USB desteği."
-      ]
-    },
-    {
-      "id": 103,
-      "name": "CHCNAV P2 GNSS ve IMU Sensörü",
-      "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
-      "images": [
-        "/marka-photos/chcnav/p2-0.png",
-        "/marka-photos/chcnav/p2-1.png",
-        "/marka-photos/chcnav/p2-2.png",
-        "/marka-photos/chcnav/p2-3.png",
-        "/marka-photos/chcnav/p2-4.png"
-      ],
-      "category": "sensor",
-      "brand": "chcnav",
-      "type": "gnss-sensor",
-      "typeTitle": "GNSS ve IMU Sensörler",
-      "specs": [
-        "624 kanal desteği ile tüm GNSS sistemlerini destekler.",
         "IMU-RTK entegrasyonu ile eğim ve hareketten etkilenmeyen hassas konumlandırma.",
         "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
         "IP68 su ve toz geçirmezlik ve dayanıklı gövde.",
@@ -1767,8 +1757,8 @@
       ],
       "category": "sensor",
       "brand": "chcnav",
-      "type": "gnss-sensor",
-      "typeTitle": "GNSS ve IMU Sensörler",
+      "type": "gnss-ins-sensorleri",
+      "typeTitle": "GNSS-INS Sensörleri",
       "specs": [
         "GPS, GLONASS, Galileo, BDS ve QZSS dahil olmak üzere çoklu GNSS desteği.",
         "624 kanal kapasitesi ile aynı anda birden fazla uydu sistemi izleyebilme.",
@@ -1794,8 +1784,8 @@
       ],
       "category": "sensor",
       "brand": "chcnav",
-      "type": "gnss-sensor",
-      "typeTitle": "GNSS Sensörleri",
+      "type": "deformasyon-izleme-sensorleri",
+      "typeTitle": "Deformasyon ve İzleme Sensörleri",
       "specs": [
         "1408 kanal desteği ile GPS, GLONASS, BeiDou, Galileo ve QZSS uydu sistemlerini destekler.",
         "Yüksek hassasiyetli GNSS ve MEMS sensör entegrasyonu ile güvenilir konumlandırma.",
@@ -1808,6 +1798,31 @@
         "Entegre anten ve kompakt tasarımı ile kolay kurulum ve kullanım.",
         "Çalışma sıcaklığı: -40°C ile +65°C arasında.",
         "Darbe dayanıklılığı: 1 metre yükseklikten düşmeye karşı koruma."
+      ]
+    },
+    {
+      "id": 99,
+      "name": "CHCNAV CI-710 GNSS ve IMU Sensörü",
+      "title": "CI-710 GNSS + INS Tümleşik Navigasyon Modülü",
+      "description": "Yüksek hassasiyetli konumlandırma, yön tayini ve navigasyon çözümleri için GNSS ve IMU'yu bir araya getiren profesyonel sensör modülüdür.",
+      "images": [
+        "/marka-photos/chcnav/ci-710-0.png",
+        "/marka-photos/chcnav/ci-710-1.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "imu-sensorleri",
+      "typeTitle": "IMU Sensörleri",
+      "specs": [
+        "Çift antenli GNSS + INS teknolojisi ile anlık hassas yön tayini yapılabilir.",
+        "RTK destekli GNSS modülü ile santimetre seviyesinde konum doğruluğu sunar.",
+        "MEMS tabanlı IMU, 3 eksenli jiroskop ve ivmeölçer içerir.",
+        "GNSS sistem desteği: GPS, GLONASS, Galileo, BeiDou ve QZSS uyumludur.",
+        "Yüksek veri çıkış frekansı: 100 Hz'e kadar IMU verisi ve 20 Hz GNSS konumu sağlar.",
+        "Endüstriyel standartlara uygun IP67 koruma seviyesi ile suya ve toza dayanıklıdır.",
+        "RS232, CAN, Ethernet ve PPS gibi çoklu arayüz desteği sunar.",
+        "Gelişmiş PPK (Post Processed Kinematik) ve RTK düzeltme seçenekleri mevcuttur.",
+        "İHA, otonom araçlar, robotik sistemler ve denizcilik uygulamaları için idealdir."
       ]
     },
     {
@@ -1988,8 +2003,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-  "type": "zenmuse-serisi",
-  "typeTitle": "Zenmuse Serisi Kameralar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera",
         "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
@@ -2013,8 +2028,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-  "type": "zenmuse-serisi",
-  "typeTitle": "Zenmuse Serisi Kameralar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
         "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
@@ -2043,7 +2058,7 @@
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
-      "typeTitle": "Zenmuse Serisi Kameralar",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Starlight Geniş Açılı Kamera: 1/2.7” CMOS, 2 MP çözünürlük",
         "Starlight Zoom Kamera: 1/1.8” CMOS, 4 MP çözünürlük, 20× hibrit optik zoom, 128× maksimum zoom",
@@ -2179,8 +2194,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-  "type": "zenmuse-serisi",
-  "typeTitle": "Zenmuse Serisi Kameralar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar",
         "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar",
@@ -2207,8 +2222,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-  "type": "zenmuse-serisi",
-  "typeTitle": "Zenmuse Serisi Kameralar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü",
         "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera",
@@ -2234,8 +2249,8 @@
       ],
       "category": "iha",
       "brand": "dji",
-  "type": "zenmuse-serisi",
-  "typeTitle": "Zenmuse Serisi Kameralar",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
         "Sensör: Full-frame 45 MP CMOS sensör",
         "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
@@ -2250,6 +2265,109 @@
         "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
       ]
     },
+    {
+      "id": 296,
+      "name": "Autel EVO II Dual 640T V3",
+      "title": "Termal ve 8K Görüntüleme Özellikli Gelişmiş Drone",
+      "description": "Termal kamera ve 8K görsel kamera ile donatılan EVO II Dual 640T V3, profesyonel havadan görüntüleme ve endüstriyel görevlerde yüksek hassasiyet ve uçuş kararlılığı sunar.",
+      "images": [
+        "/marka-photos/autel/evo2dual640t-v3-0.png",
+        "/marka-photos/autel/evo2dual640t-v3-1.png",
+        "/marka-photos/autel/evo2dual640t-v3-2.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "evo-ii-serisi",
+      "typeTitle": "EVO II Serisi",
+      "specs": [
+        "Termal kamera çözünürlüğü 640x512 piksel olup 16x dijital yakınlaştırma desteği sunar.",
+        "8K çözünürlükte video ve 50 MP görsel çekim imkânı ile üst düzey görüntü kalitesi sağlar.",
+        "Maksimum uçuş süresi 38 dakika, maksimum uçuş hızı 20 m/s seviyesindedir.",
+        "15 km’ye kadar video aktarım menzili ve yüksek parlaklığa sahip 7.9 inç yer kontrol ekranı ile donatılmıştır.",
+        "360° çarpışma önleyici sensörlerle tam yönlü engel algılama ve güvenli uçuş imkânı sunar.",
+        "±0.1 m dikey ve ±0.3 m yatay hassasiyet ile yüksek konum doğruluğu sağlar.",
+        "-10°C ile +40°C arasında çalışma sıcaklığına sahiptir ve IP43 koruma standardı ile dayanıklıdır.",
+        "Yapay zekâ destekli akıllı takip, görev planlama ve otomatik kalkış/iniş gibi uçuş destek özellikleriyle donatılmıştır.",
+        "Termal algılama sıcaklık aralığı -20°C ila +550°C olup ±3°C hassasiyetle sıcaklık ölçümü sağlar."
+      ]
+    },
+    {
+      "id": 297,
+      "name": "Autel EVO II Enterprise V3",
+      "title": "Modüler Aksesuarlarla Donatılmış Profesyonel Drone",
+      "description": "EVO II Enterprise V3; arama kurtarma, denetim, haritalama ve güvenlik operasyonlarında üstün performans sunan, uzun menzilli ve modüler yapılı profesyonel bir drone sistemidir.",
+      "images": [
+        "/marka-photos/autel/evo2-enterprise-v3-0.png",
+        "/marka-photos/autel/evo2-enterprise-v3-1.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "evo-ii-serisi",
+      "typeTitle": "EVO II Serisi",
+      "specs": [
+        "42 dakikaya kadar maksimum uçuş süresi ve 15 km’ye kadar video aktarım menzili sağlar.",
+        "Yüksek parlaklığa sahip 7.9 inç kontrol ekranı ile güneş ışığında net görüntüleme sunar.",
+        "Termal (640x512) ve 4K kamera ile eş zamanlı görüntüleme ve 'picture-in-picture' modu desteklenir.",
+        "Gimbal, 3 eksenli sabitleme ile titreşimsiz görüntüler elde edilmesini sağlar.",
+        "Tüm yönlerde (ön, arka, yanlar, üst, alt) çiftli görsel sensörlerle donatılmış çarpışma önleyici sistem içerir.",
+        "Loudspeaker, strobe, spotlight ve RTK gibi modüler aksesuarlar hızlıca entegre edilebilir yapıdadır.",
+        "IP43 koruma seviyesi sayesinde toz ve hafif yağmura karşı dirençlidir.",
+        "20 m/s maksimum hız ve seviye 8 rüzgar dayanımı ile zorlu koşullarda güvenli uçuş sağlar.",
+        "Görev planlama modları: Waypoint, dikdörtgen, poligon, eğik uçuş, hassas iniş ve güvenli iniş gibi gelişmiş özellikler içerir."
+      ]
+    },
+    {
+      "id": 298,
+      "name": "Autel EVO II Pro V3",
+      "title": "6K Görüntüleme ve Gelişmiş Uçuş Özellikli Profesyonel Drone",
+      "description": "Autel EVO II Pro V3, 1 inçlik CMOS sensörü, 6K video kayıt desteği ve 40 dakikaya kadar uçuş süresiyle profesyonel görüntüleme ve endüstriyel görevlerde üst düzey performans sunan bir hava platformudur.",
+      "images": [
+        "/marka-photos/autel/evo2-pro-v3-0.png",
+        "/marka-photos/autel/evo2-pro-v3-1.png",
+        "/marka-photos/autel/evo2-pro-v3-2.png",
+        "/marka-photos/autel/evo2-pro-v3-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "evo-ii-serisi",
+      "typeTitle": "EVO II Serisi",
+      "specs": [
+        "1 inç CMOS sensörü ile 20 MP fotoğraf ve 6K video çekimi sağlar.",
+        "5472x3076 P30, 3840x2160 P60 ve daha birçok çözünürlük desteğiyle yüksek kaliteli video kaydı yapılabilir.",
+        "f/2.8 – f/11 arasında değişen ayarlanabilir diyafram açıklığı sayesinde düşük ışık koşullarında üstün performans sergiler.",
+        "40 dakikaya kadar maksimum uçuş süresi ve 15 km’ye kadar (FCC) görüntü aktarımı sağlar.",
+        "Omnidirectional sensör sistemi sayesinde 6 yönlü çarpışma önleme ve hassas konumlandırma yapılabilir.",
+        "±0.1 m dikey, ±0.3 m yatay konum hassasiyeti ile yüksek stabilite sunar.",
+        "Hız: 20 m/s maksimum uçuş hızı, 8 m/s tırmanma, 4 m/s alçalma (Ludicrous modunda).",
+        "Akıllı görev planlama: waypoint, dikdörtgen, poligon, eğik çekim gibi uçuş modları desteklenir.",
+        "Hava şartlarına dayanıklı tasarımı sayesinde -10°C ile +40°C arasında güvenli kullanım sağlar."
+      ]
+    },
+    {
+      "id": 299,
+      "name": "Autel EVO II RTK V3",
+      "title": "RTK Destekli Hassas Konumlandırma Drone'u",
+      "description": "EVO II RTK V3, santimetre seviyesinde konum doğruluğu sağlayan gelişmiş RTK modülü, uzun uçuş süresi ve çok yönlü görev modları ile haritalama, ölçüm ve endüstriyel analizlerde üst düzey performans sunar.",
+      "images": [
+        "/marka-photos/autel/evo2-rtk-v3-0.png",
+        "/marka-photos/autel/evo2-rtk-v3-1.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "evo-ii-serisi",
+      "typeTitle": "EVO II Serisi",
+      "specs": [
+        "RTK modülü ile gerçek zamanlı santimetre seviyesinde konumlama ve yön tayini sağlar.",
+        "Maksimum 36 dakikalık uçuş süresi ve 15 km’ye kadar HD video aktarım menzili sunar.",
+        "GNSS sistem desteği: GPS, GLONASS, BeiDou ve Galileo ile çoklu frekans desteği (L1/L2).",
+        "1 inç sensörlü 20 MP görsel kamera veya 640x512 çözünürlüklü termal kamera seçenekleriyle sunulur.",
+        "±0.1 m yatay ve ±0.1 m dikey konum hassasiyeti ile yüksek stabilite ve güvenli veri sağlar.",
+        "6 yönlü engel algılama sistemine sahip, 12 sensörlü çarpışma önleyici yapı bulunur.",
+        "Omnidirectional görüş ve Starpoint sistemleri sayesinde GPS sinyalinin zayıf olduğu bölgelerde bile stabil uçuş sağlanır.",
+        "Autel Explorer uygulaması ile waypoint, dikdörtgen, poligon ve eğik görev planlama desteklenir.",
+        "RTK servisleri NTRIP protokolü ile harici ağ tabanlı servislerle uyumlu şekilde çalışabilir."
+      ]
+    },                
     {
       "id": 300,
       "name": "Autel EVO Max 4N",
@@ -2983,7 +3101,7 @@
         "Sınıf 1 lazer güvenlik standardına uygundur, endüstriyel uygulamalarda yasal kullanıma hazırdır.",
         "Geniş alan izleme, otoyol trafik denetimi, çevre güvenliği ve İHA altimetresi gibi uygulamalarda idealdir."
       ]
-    },    
+    },
     {
       "id": 500,
       "name": "Senceive Nano Triaxial Tilt Sensor Node",
@@ -5024,5 +5142,49 @@
         ]
       }
     ]
-  }
+  },
+  "benewakeApplications": [
+    {
+      "id": 1,
+      "title": "Drone Navigasyonu",
+      "description": "Yükseklik kontrolü, engel algılama ve iniş-yükselme stabilitesi için kullanılan LiDAR çözümleri, drone sistemlerinde güvenli uçuş sağlar.",
+      "icon": "icons/101.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#drone"
+    },
+    {
+      "id": 2,
+      "title": "Fabrika Otomasyonu",
+      "description": "Endüstriyel otomasyon sistemlerinde nesne tespiti, konum belirleme ve süreç kontrolü gibi görevlerde yüksek hassasiyetli lidar çözümleri sunar.",
+      "icon": "icons/102.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#industry"
+    },
+    {
+      "id": 3,
+      "title": "Trafik ve Akıllı Ulaşım",
+      "description": "Araç tespiti, hız ölçümü ve yol güvenliği izleme gibi uygulamalarda güvenilir ve uzun menzilli lidar destekli çözümler sağlar.",
+      "icon": "icons/103.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#traffic"
+    },
+    {
+      "id": 4,
+      "title": "Araç İçi Güvenlik",
+      "description": "Koltuk doluluğu, engel uyarısı ve park destek sistemlerinde kısa menzilli ve kompakt lidar sensörler kullanılır.",
+      "icon": "icons/104.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#automotive"
+    },
+    {
+      "id": 5,
+      "title": "Akıllı Tarım",
+      "description": "Tarım robotlarında, mahsul yüksekliği ölçümünde ve alan haritalamada lidar teknolojisi enerji verimli çözümler sunar.",
+      "icon": "icons/105.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#agriculture"
+    },
+    {
+      "id": 6,
+      "title": "Akıllı Bina ve IoT",
+      "description": "Yükseklik kontrolü, kişi varlığı ve hareket algılama gibi bina içi otomasyon sistemlerinde LiDAR destekli uygulamalar geliştirilir.",
+      "icon": "icons/106.png",
+      "link": "https://en.benewake.com/ApplicationCenter/index.html#iot"
+    }
+  ]
 }

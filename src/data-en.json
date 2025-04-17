@@ -4343,5 +4343,50 @@
         ]
       }
     ]
+  },
+  "benewakeApplications": [
+  {
+    "id": 1,
+    "title": "Drone Navigation",
+    "description": "LiDAR sensors enable precise altitude control, obstacle detection, and takeoff/landing stability for safe drone operations.",
+    "icon": "icons/101.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#drone"
+  },
+  {
+    "id": 2,
+    "title": "Factory Automation",
+    "description": "Used for object detection, positioning, and industrial process control, Benewake LiDAR ensures high precision in automation systems.",
+    "icon": "icons/102.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#industry"
+  },
+  {
+    "id": 3,
+    "title": "Traffic & Intelligent Transportation",
+    "description": "Reliable long-range LiDAR solutions for vehicle detection, speed measurement, and road safety monitoring applications.",
+    "icon": "icons/103.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#traffic"
+  },
+  {
+    "id": 4,
+    "title": "In-Vehicle Safety",
+    "description": "Short-range compact LiDAR sensors for seat occupancy, collision warning, and intelligent parking assistance.",
+    "icon": "icons/104.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#automotive"
+  },
+  {
+    "id": 5,
+    "title": "Smart Agriculture",
+    "description": "LiDAR-based solutions for crop height monitoring, agricultural robotics, and land mapping with high energy efficiency.",
+    "icon": "icons/105.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#agriculture"
+  },
+  {
+    "id": 6,
+    "title": "Smart Buildings & IoT",
+    "description": "Used in building automation systems for person presence detection, floor level sensing, and motion detection with LiDAR sensors.",
+    "icon": "icons/106.png",
+    "link": "https://en.benewake.com/ApplicationCenter/index.html#iot"
   }
+]
+
 }

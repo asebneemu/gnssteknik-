@@ -2,8 +2,13 @@ import { useLanguage } from "../context/LanguageContext";
 import { motion } from "framer-motion";
 
 export default function ApplicationsPage() {
-  const { data } = useLanguage();
+  const { data, language } = useLanguage(); // Dil bilgisi alınıyor
   const applications = data.applications;
+
+  // Başlık ve buton metni dil koduna göre ayarlanıyor
+  const applicationsTitle =
+    language === "tr" ? "Uygulama Alanları" : "Application Areas";
+  const moreInfoText = language === "tr" ? "Daha Fazla Bilgi →" : "Learn More →";
 
   return (
     <motion.div
@@ -13,7 +18,7 @@ export default function ApplicationsPage() {
       transition={{ duration: 0.5 }}
     >
       <h1 className="text-3xl md:text-4xl font-bold text-center text-orange-600 mb-12">
-        Uygulama Alanları
+        {applicationsTitle}
       </h1>
 
       <div className="w-full flex justify-center">
@@ -46,7 +51,7 @@ export default function ApplicationsPage() {
                   rel="noopener noreferrer"
                   className="mt-2 text-orange-600 text-sm font-medium hover:underline z-10"
                 >
-                  Daha Fazla Bilgi →
+                  {moreInfoText}
                 </a>
               )}
             </motion.div>
