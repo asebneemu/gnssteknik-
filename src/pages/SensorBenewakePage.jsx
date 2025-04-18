@@ -1,10 +1,27 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
+import ProductCard from "../components/product/ProductCard";
 
 const SensorBenewakePage = () => {
   const navigate = useNavigate();
-  const { language } = useLanguage();
+  const { language, data } = useLanguage();
+
+  // 3D ürünleri filtrele
+  const filtered3D = data.products.filter(
+    (item) =>
+      item.brand === "benewake" &&
+      item.category === "sensor" &&
+      item.technology?.includes("3d")
+  );
+
+  // typeTitle'a göre gruplama
+  const grouped = filtered3D.reduce((acc, item) => {
+    const group = item.typeTitle || "Diğer";
+    if (!acc[group]) acc[group] = [];
+    acc[group].push(item);
+    return acc;
+  }, {});
 
   return (
     <div className="w-11/12 md:w-10/12 mx-auto py-10 space-y-16">
@@ -134,8 +151,38 @@ const SensorBenewakePage = () => {
         </div>
       </div>
 
-      {/* Üçlü Kutu Serisi - Buton Yapısı */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
+      {/* 3D Serisi Ürünleri */}
+      <div className="space-y-12 pt-20">
+        {/* 3D Serisi Başlığı */}
+        <h2 className="text-3xl font-bold text-orange-600 text-center mb-8">
+          3D SERİSİ
+        </h2>
+        {Object.entries(grouped).map(([title, items], index) => (
+          <div key={index}>
+            {/* typeTitle Başlığı */}
+            <h3 className="text-2xl font-bold text-center mb-6">{title}</h3>
+            {/* Ürünler */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {items.map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* 2D ve Single Point Butonları */}
+      <div className="flex flex-col md:flex-row justify-center gap-6 mt-20 text-center">
+        <div
+          onClick={() => navigate("/products/benewake?tech=2d")}
+          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
+        >
+          <h3 className="text-2xl font-bold text-orange-600 mb-2">2D Serisi</h3>
+          <p>
+            Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm
+            imkanı sunar.
+          </p>
+        </div>
         <div
           onClick={() => navigate("/products/benewake?tech=single-point")}
           className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
@@ -148,38 +195,17 @@ const SensorBenewakePage = () => {
             algılama sensörleri.
           </p>
         </div>
-
-        <div
-          onClick={() => navigate("/products/benewake?tech=2d")}
-          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
-        >
-          <h3 className="text-2xl font-bold text-orange-600 mb-2">2D Serisi</h3>
-          <p>
-            Yüzey taraması ve geniş alan analizleri için çift boyutlu ölçüm
-            imkanı sunar.
-          </p>
-        </div>
-
-        <div
-          onClick={() => navigate("/products/benewake?tech=3d")}
-          className="border rounded-xl shadow p-6 hover:shadow-lg cursor-pointer"
-        >
-          <h3 className="text-2xl font-bold text-orange-600 mb-2">3D Serisi</h3>
-          <p>
-            Karmaşık nesne tanımlama ve çevresel haritalama uygulamaları için
-            ideal hacimsel algılama çözümleri.
-          </p>
-        </div>
       </div>
+
       {/* Uygulama Alanları Butonu */}
-<div className="flex justify-center mt-20">
-  <button
-    onClick={() => navigate("/benewake-applications")}
-    className="px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg shadow hover:bg-orange-700 transition"
-  >
-    {language === "tr" ? "Uygulama Alanları" : "Application Areas"}
-  </button>
-</div>
+      <div className="flex justify-center mt-20">
+        <button
+          onClick={() => navigate("/benewake-applications")}
+          className="px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg shadow hover:bg-orange-700 transition"
+        >
+          {language === "tr" ? "Uygulama Alanları" : "Application Areas"}
+        </button>
+      </div>
 
     </div>
   );

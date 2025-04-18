@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ProductCard from "./product/ProductCard";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 const ZenmuseSlider = ({ products }) => {
   const [current, setCurrent] = useState(0);
@@ -14,31 +13,27 @@ const ZenmuseSlider = ({ products }) => {
   };
 
   return (
-    <div className="lg:hidden flex flex-col items-center mt-8">
+    <div className="w-full flex flex-col items-center mt-10">
       <div className="relative w-full flex justify-center items-center">
-        {/* Sol ok */}
         <button
           onClick={prevSlide}
-          className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10"
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-300 text-2xl font-bold text-black rounded-full w-9 h-9 flex items-center justify-center z-10"
         >
-          <ChevronLeftIcon className="w-8 h-8 text-gray-600 hover:text-orange-500 transition" />
+          ←
         </button>
 
-        {/* Kart */}
-        <div className="w-[80%] sm:w-[60%] md:w-[50%]">
+        <div className="w-[90%]">
           <ProductCard product={products[current]} />
         </div>
 
-        {/* Sağ ok */}
         <button
           onClick={nextSlide}
-          className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10"
+          className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-300 text-2xl font-bold text-black rounded-full w-9 h-9 flex items-center justify-center z-10"
         >
-          <ChevronRightIcon className="w-8 h-8 text-gray-600 hover:text-orange-500 transition" />
+          →
         </button>
       </div>
 
-      {/* Noktalar */}
       <div className="mt-4 flex gap-2">
         {products.map((_, i) => (
           <div

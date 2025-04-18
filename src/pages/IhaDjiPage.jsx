@@ -1,17 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import ProductCard from "../components/product/ProductCard";
-import ZenmuseSlider from "../components/ZemuseSlider";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // React Icons'dan ikonlar
+
+const ZenmuseSlider = ({ products }) => {
+  const [current, setCurrent] = useState(0);
+
+  const prevSlide = () => {
+    setCurrent((prev) => (prev === 0 ? products.length - 1 : prev - 1));
+  };
+
+  const nextSlide = () => {
+    setCurrent((prev) => (prev === products.length - 1 ? 0 : prev + 1));
+  };
+
+  return (
+    <div className="w-full flex flex-col items-center mt-10">
+      <div className="relative w-full flex justify-center items-center">
+        {/* Sol Ok */}
+        <button
+          onClick={prevSlide}
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-400"
+        >
+          <FaChevronLeft className="text-xl" />
+        </button>
+
+        {/* Ürün Kartı */}
+        <div className="w-[90%]">
+          <ProductCard product={products[current]} />
+        </div>
+
+        {/* Sağ Ok */}
+        <button
+          onClick={nextSlide}
+          className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-400"
+        >
+          <FaChevronRight className="text-xl" />
+        </button>
+      </div>
+
+      {/* Slider Göstergeleri */}
+      <div className="mt-4 flex gap-2">
+        {products.map((_, i) => (
+          <div
+            key={i}
+            className={`w-2 h-2 rounded-full ${
+              i === current ? "bg-orange-500" : "bg-gray-300"
+            }`}
+          ></div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 const IhaDjiPage = () => {
   const { data } = useLanguage();
 
-  const matrice4List = [200, 201, 202];
-  const matrice30List = [190, 191];
+  const matrice350List = [200, 201, 202, 190, 191, 180];
 
   const typeGroups = {
-    "Matrice 4 Serisi": matrice4List,
-    "Matrice 30 Serisi": matrice30List,
+    "Matrice 350": matrice350List,
   };
 
   const getProductsByIds = (ids) =>
@@ -20,30 +69,8 @@ const IhaDjiPage = () => {
   const getProductsByTypeTitle = (title) =>
     data.products.filter((item) => item.typeTitle === title);
 
-  const sliderSettings = {
-    dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1.2,
-    slidesToScroll: 1,
-    arrows: false,
-  };
-
   return (
-    <div className="w-[80%] mx-auto py-10">
-      <h1 className="text-4xl font-bold text-center mb-6">DJI - IHA</h1>
-
-      <h2 className="text-2xl font-semibold text-left mb-2">DJI KİMDİR</h2>
-      <p className="text-left text-gray-700 mb-6">
-        DJI, dünya çapında havadan görüntüleme sistemleri ve drone teknolojisi
-        konusunda lider bir markadır. Özellikle haritalama, tarım, inşaat ve
-        güvenlik gibi sektörlerde profesyonel çözümler sunar. İleri düzey kamera
-        sistemleri, uzun menzilli iletişim özellikleri ve entegre yazılım
-        altyapısı ile DJI İHA’ları sahada verimliliği ve güvenliği artırır.
-      </p>
-
-      <div className="h-[4px] w-full bg-gradient-to-r from-gray-400 to-orange-500 mb-10"></div>
-
+    <div className="mx-auto py-10">
       {Object.entries(typeGroups).map(([droneTitle, payloadIds], index) => {
         const droneProducts = getProductsByTypeTitle(droneTitle);
         const payloadProducts = getProductsByIds(payloadIds);
@@ -57,13 +84,14 @@ const IhaDjiPage = () => {
 
         return (
           <div key={index} className="mb-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2">
-              {/* Sol - Drone ürünleri */}
-              <div>
-                <h1 className="text-xl font-semibold text-left mb-4">
-                  {droneTitle}
-                </h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+            <h2 className="text-3xl font-bold text-center mb-6 text-black">
+              {droneTitle}
+            </h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              {/* Sol: Drone Ürünleri */}
+              <div className="flex items-center justify-center">
+                <div className="grid grid-cols-1 gap-10">
                   {droneProducts.map((product) => (
                     <div className="origin-left" key={product.id}>
                       <ProductCard product={product} />
@@ -72,29 +100,16 @@ const IhaDjiPage = () => {
                 </div>
               </div>
 
-              {/* Sağ - Kamera/Yük ürünleri */}
+              {/* Sağ: Payloadlar (Slider veya sabit) */}
               <div>
-                <h1 className="text-xl font-semibold text-right mb-4">
-                  {rightTitle}
-                </h1>
-
-                {/* Mobilde Custom Slider */}
-                <div className="lg:hidden">
+                {/* Slider (xl altında) */}
+                <div className="">
                   <ZenmuseSlider products={payloadProducts} />
-                </div>
-
-                {/* Masaüstü için klasik düzen */}
-                <div className="hidden lg:flex flex-row-reverse flex-wrap gap-2">
-                  {payloadProducts.map((product) => (
-                    <div className="w-[30%] origin-top" key={product.id}>
-                      <ProductCard product={product} />
-                    </div>
-                  ))}
                 </div>
               </div>
             </div>
 
-            {/* Açıklama cümlesi */}
+            {/* Açıklama */}
             <div className="mt-8 text-gray-700 text-lg text-center">
               <p>
                 {droneTitle}, {joinedNames} adlı {rightTitle} ile birlikte
@@ -102,7 +117,6 @@ const IhaDjiPage = () => {
               </p>
             </div>
 
-            {/* Alt çizgi */}
             <div className="h-[3px] w-full bg-gradient-to-r from-gray-400 to-orange-500 mt-6"></div>
           </div>
         );

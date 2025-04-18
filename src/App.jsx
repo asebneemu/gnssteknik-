@@ -32,6 +32,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import KvkkPage from "./pages/KvkkPage"; // 👈 KVKK sayfanı içe aktar
 import BenewakeApplicationsPage from "./pages/BenewakeApplicationsPage";
 import IhaDjiPage from "./pages/IhaDjiPage";
+import DjiMainPage from "./pages/DjiMainPage";
 
 
 
@@ -70,7 +71,7 @@ function AppContent() {
         {/* Özel sayfa (Senceive tanıtım) */}
         <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />
         <Route path="/category/sensor/benewake" element={<SensorBenewakePage />} />
-        <Route path="/category/iha/dji" element={<IhaDjiPage />} />
+        <Route path="/category/iha/dji" element={<DjiMainPage />} />
 
         {/* Ürün listeleme (flatmesh/geowan tıklanınca) */}
         <Route path="/products/senceive" element={<ProductListPage />} />

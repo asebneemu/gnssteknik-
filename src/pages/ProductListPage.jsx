@@ -90,6 +90,7 @@ const ProductListPage = () => {
           </p>
         )}
       </div>
+      
 
       {Object.entries(groupedProducts).map(([typeTitle, products]) => (
         <div key={typeTitle} className="mb-10">
@@ -99,8 +100,16 @@ const ProductListPage = () => {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
+          {/* Çizgi */}
+          <div
+            className="h-[3px] bg-gradient-to-r from-gray-400 to-orange-500 mt-6"
+            style={{
+              width: `${(products.length % 4 || 4) * (100 / 4)}%`, // Son satırdaki ürünlerin genişliği
+            }}
+          ></div>
         </div>
       ))}
+      
     </div>
   );
 };

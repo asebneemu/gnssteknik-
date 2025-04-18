@@ -106,7 +106,6 @@
         "/batimetri",
         "/makine-kontrol",
         "/aksesuar",
-        "/yazilim",
         "/sensor"
       ]
     },
@@ -117,7 +116,7 @@
       "banner-photo": "marka-photos/autel-banner-d4.png",
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
-      "filter": ["/iha", "/yazilim", "/aksesuar"]
+      "filter": ["/iha", "/aksesuar"]
     },
     {
       "name": "DJI",
@@ -126,7 +125,7 @@
       "banner-photo": "marka-photos/dji-banner-d6.png",
       "banner-description": "DJI ile profesyonel drone çözümleri.",
       "banner-url": "https://www.dji.com",
-      "filter": ["/iha", "/yazilim", "/aksesuar"]
+      "filter": ["/iha","/aksesuar"]
     },
     {
       "name": "SOKKIA",
@@ -149,7 +148,6 @@
         "/total-station",
         "/nivo",
         "/lidar",
-        "/yazilim",
         "/aksesuar"
       ]
     },
@@ -598,8 +596,8 @@
       ],
       "category": "gnss",
       "brand": "stec",
-      "type": "control-unit-tablet",
-      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "type": "control-unit-software",
+      "typeTitle": "Kontrol Üniteleri ve Yazılımlar",
       "specs": [
         "1,500+ kanal desteği ile tüm GNSS uydu sistemlerini eş zamanlı takip eder.",
         "Gelişmiş IMU sensörü ile eğimli ölçümlerde otomatik düzeltme sağlar.",
@@ -749,37 +747,7 @@
         "İnsansız hava araçları için İHA sabit modu"
       ]
     },
-    {
-      "id": 30,
-      "name": "CHCNAV LandStar 8 Yazılımı",
-      "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
-      "images": [
-        "/marka-photos/chcnav/landstar8-0.png",
-        "/marka-photos/chcnav/landstar8-1.png",
-        "/marka-photos/chcnav/landstar8-2.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "mapping-software",
-      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
-      "specs": [
-        "Android işletim sistemi ile uyumlu ve kullanıcı dostu arayüz.",
-        "MetaCAD grafik motoru ile %50'ye kadar daha hızlı CAD dosyası açma ve işleme.",
-        "200 MB'a kadar DXF dosyalarını hızlıca görüntüleme ve düzenleme.",
-        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
-        "Quick Code özelliği ile tek tıkla çizgi ve detay ekleme.",
-        "CAD tabanlı harita düzenleme ve alan hesaplama özellikleri.",
-        "Gelişmiş proje yönetimi: QR kod ile koordinat ve proje aktarma.",
-        "NTRIP, APIS ve TCP destekli GNSS verisi aktarımı.",
-        "IP68 sertifikalı cihazlarla uyumlu ve zorlu saha koşullarında dayanıklı.",
-        "Kolaylaştırılmış site kalibrasyon sihirbazı ile hızlı kalibrasyon.",
-        "Anlık konum ve ölçüm verilerini gösteren 3D harita desteği.",
-        "RINEX, CSV ve NMEA formatlarında veri aktarım desteği.",
-        "Birden fazla dil desteği ve yerelleştirilmiş video eğitimleri.",
-        "WMS/WFS ve CAD haritaları ile uyumlu katman yönetimi.",
-        "Uzaktan destek ve yazılım güncellemeleri ile sürekli destek."
-      ]
-    },
+  
     {
       "id": 24,
       "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
@@ -836,88 +804,6 @@
         "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
         "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı.",
         "İnsansız hava araçları için İHA sabit modu"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "CHCNAV CGO 2.0 Yazılımı",
-      "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
-      "images": [
-        "/marka-photos/chcnav/cgo2-0.png",
-        "/marka-photos/chcnav/cgo2-1.png",
-        "/marka-photos/chcnav/cgo2-2.png",
-        "/marka-photos/chcnav/cgo2-3.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "mapping-software",
-      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
-      "specs": [
-        "GNSS, RTK, ROAD ve UAV modülleri ile tam entegre çözüm.",
-        "Static, PPK ve PPP algoritmaları ile hassas GNSS veri işleme.",
-        "MetaCAD motoru ile CAD tabanlı işlemler ve hızlı veri analizi.",
-        "RINEX, NMEA ve CSV formatlarında veri aktarım desteği.",
-        "GNSS ham verilerini işlemek için gelişmiş hata düzeltme algoritmaları.",
-        "Post-processing kinematik (PPK) desteği ile yüksek hassasiyet.",
-        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
-        "Koordinat dönüştürme ve TIFF sıkıştırma gibi gelişmiş jeodezik araçlar.",
-        "Anlık konum verileri ile 3D haritalama ve UAV trajektografi.",
-        "Otomatik CORS referans verisi indirme ve entegrasyon.",
-        "Yüksek hacimli saha verilerini hızlı işlemek için optimizasyon.",
-        "Kolay öğrenim eğrisi ve kullanıcı dostu arayüz.",
-        "NTRIP ve APIS destekli GNSS verisi aktarımı.",
-        "Çoklu dil desteği ve yerelleştirilmiş yardım dokümanları.",
-        "Windows 7, 8, 10 (32-bit ve 64-bit) ile uyumlu."
-      ]
-    },
-    {
-      "id": 32,
-      "name": "CHCNAV MapCloud 2.0",
-      "description": "Güçlü haritalama motoru ve bulut tabanlı entegrasyon sunan GIS veri toplama ve haritalama uygulaması.",
-      "images": [
-        "/marka-photos/chcnav/mapcloud-0.png",
-        "/marka-photos/chcnav/mapcloud-0.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "mapping-software",
-      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
-      "specs": [
-        "SHAPES, DWG, DXF, SHP, KML, GPX, TIF, IMG gibi popüler GIS formatlarını destekler.",
-        "Google, Bing, WMS ve WFS gibi çevrimiçi taban haritalarıyla sorunsuz entegrasyon.",
-        "GB sınıfı SHP dosyalarını hızlıca yükler ve TB sınıfı TIF dosyalarını sorunsuzca işler.",
-        "Saha ve ofis arasında veri paylaşımı için paylaşım kodu ile bulut tabanlı bağlantı.",
-        "Özelleştirilebilir katman şablonları ve tematik haritalar ile kullanıcı dostu arayüz.",
-        "GNSS RTK alıcılarla uyumlu veri toplama desteği ve yüksek doğrulukta konumlandırma.",
-        "Sesli ve görsel bildirimlerle saha operasyonlarında kullanım kolaylığı.",
-        "Koordinat tahsisi, iz kaydı, uzunluk ve alan ölçümleri gibi işlevler sunar.",
-        "İkincil geliştirme desteği ile GNSS verisi elde etmek için genişletilebilir.",
-        "Android 7.0.1 ve üzeri işletim sistemi desteği ile CHCNAV kontrol üniteleriyle uyumlu."
-      ]
-    },
-    {
-      "id": 33,
-      "name": "CHCNAV MAS",
-      "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
-      "images": [
-        "/marka-photos/chcnav/mas-0.png",
-        "/marka-photos/chcnav/mas-1.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "monitoring-alarm-system",
-      "typeTitle": "İzleme ve Alarm Sistemleri",
-      "specs": [
-        "İnternet, IoT ve büyük veri entegrasyonu ile uzaktan izleme ve alarm yönetimi.",
-        "DEM, GIS haritaları, uydu ve radar görüntüleri ile 3D sahne oluşturma desteği.",
-        "Radar ve çoklu sensör verilerini tek ekranda izleme ve etkileşimli grafiklerle analiz.",
-        "Dört seviyeli özelleştirilebilir alarm sistemi ile SMS, e-posta ve doğrudan uyarılar.",
-        "Gerçek zamanlı meteorolojik bilgiler, sensör verileri ve video izleme desteği.",
-        "Web, uygulama ve H5 arayüzleri ile esnek erişim ve uzaktan yönetim.",
-        "Otomatik raporlama sistemi ile özelleştirilebilir format ve sıklıkta rapor oluşturma.",
-        "Windows Server 2019 ve üzeri ile Ubuntu desteği.",
-        "MySQL 5.7.24 ve üzeri veri tabanı desteği.",
-        "Intel Core i7 ve üzeri işlemci önerisi ile GTX 1060 ve üzeri grafik kartı desteği."
       ]
     },
     {
@@ -1328,7 +1214,7 @@
       "category": "lidar",
       "brand": "chcnav",
       "type": "slam-rtk-tarayicilar",
-      "typeTitle": "SLAM RTK Tarayıcılar",
+      "typeTitle": "El Tipi (SLAM) RTK Tarayıcılar",
       "specs": [
         "GNSS RTK, Lidar ve SLAM teknolojilerini bir arada sunar.",
         "RTK ve SLAM birleşimi ile 5 cm mutlak ölçüm hassasiyeti sağlar.",
@@ -1342,55 +1228,6 @@
         "Hot-swappable batarya ile 60 dakika kesintisiz kullanım.",
         "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
         "CoProcess yazılımı ile otomatik çizim çıkarma ve işleme desteği."
-      ]
-    },
-    {
-      "id": 68,
-      "name": "CHCNAV CoProcess LiDAR İşleme Yazılımı",
-      "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
-      "images": [
-        "/marka-photos/chcnav/copre-1.png",
-        "/marka-photos/chcnav/copre-2.png",
-        "/marka-photos/chcnav/copre-3.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "lidar-yazilimlari",
-      "typeTitle": "LiDAR Yazılımları",
-      "specs": [
-        "Otomatik DEM ve DSM oluşturma ile hassas arazi modelleme.",
-        "Toplu nokta bulutu sınıflandırma ve özellik çıkarımı.",
-        "Yol özellikleri için otomatik ve manuel çıkarım desteği.",
-        "Yoğun veri sınıflandırması ve gelişmiş algoritmalar.",
-        "Ölçüm araçları ile hacim hesaplama ve analiz.",
-        "CoData formatı ile büyük verilerde yüksek performans.",
-        "Kullanıcı dostu arayüz ve modüler tasarım.",
-        "IP67 su ve toz geçirmezlik ile dayanıklı yapı.",
-        "DXF ve DAT formatında dışa aktarma desteği."
-      ]
-    },
-    {
-      "id": 69,
-      "name": "CHCNAV CoPre LiDAR İşleme Yazılımı",
-      "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
-      "images": [
-        "/marka-photos/chcnav/copre-1.png",
-        "/marka-photos/chcnav/copre-2.png",
-        "/marka-photos/chcnav/copre-3.png"
-      ],
-      "category": "yazilim",
-      "brand": "chcnav",
-      "type": "lidar-yazilimlari",
-      "typeTitle": "LiDAR Yazılımları",
-      "specs": [
-        "Otomatik yörünge işleme ve nokta bulutu renk eşleştirme.",
-        "Yüksek doğruluklu DOM ve 3D model oluşturma.",
-        "Gelişmiş katman kontrolü ve nokta bulutu temizleme.",
-        "Veri doğruluğu kontrolü ve ayrıntılı raporlama.",
-        "Tek tıkla otomatik işlem ve dışa aktarma seçenekleri.",
-        "DXF ve LAS formatlarında veri çıkışı.",
-        "Büyük veri setleri için hızlı işlem kapasitesi.",
-        "POS ve SLAM verileri ile uyumlu iş akışı."
       ]
     },
     {
@@ -2001,7 +1838,7 @@
       "category": "iha",
       "brand": "dji",
       "type": "matrice-350-serisi",
-      "typeTitle": "Matrice 350 Serisi",
+      "typeTitle": "Matrice 350",
       "specs": [
         "55 Dakika Maksimum Uçuş Süresi: Uzun süreli operasyonlar için kesintisiz performans.",
         "IP55 Koruma Seviyesi: Zorlu hava koşullarında bile güvenli uçuş.",
@@ -2483,7 +2320,37 @@
       ]
     },
     {
-      "id": 303,
+      "id": 305,
+      "name": "Autel Alpha",
+      "title": "Alpha",
+      "description": "Yüksek taşıma kapasitesi ve uzun uçuş süresi sunan, profesyonel endüstriyel çok rotorlu İHA.",
+      "images": [
+        "/marka-photos/autel/alpha-0.png",
+        "/marka-photos/autel/alpha-1.png",
+        "/marka-photos/autel/alpha-2.png",
+        "/marka-photos/autel/alpha-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "autel-alpha",
+      "typeTitle": "Autel Alpha Serisi İHA Sistemleri",
+      "specs": [
+        "40 dakikaya kadar uçuş süresi ile uzun süreli görevlerde kullanım sağlar.",
+        "10 kg’a kadar faydalı yük taşıyabilir.",
+        "35 kg’a kadar maksimum kalkış ağırlığını destekler.",
+        "22 m/s yatay uçuş hızı sunar.",
+        "20 m/s’ye kadar rüzgar dayanımı ile zorlu hava koşullarına uygundur.",
+        "GPS, GLONASS, BeiDou ve Galileo desteği ile yüksek hassasiyet sağlar.",
+        "Santimetre seviyesinde RTK konum doğruluğu sağlar.",
+        "-20°C ile +50°C arasında çalışma sıcaklığı aralığı sunar.",
+        "IP55 toz ve suya karşı dayanıklılık sertifikasına sahiptir.",
+        "12S akıllı lityum batarya ile 45 dakika şarj süresine sahiptir.",
+        "10.1 inç ekranlı kontrol cihazı ile 20 km iletim menzili sunar.",
+        "Otomatik kalkış, iniş, akıllı takip, uçuş planlama ve arazi takip özelliklerine sahiptir."
+      ]
+    },
+    {
+      "id": 308,
       "name": "Autel Dragonfish Pro",
       "description": "180 dakika uçuş süresi ve 30 km iletim menzili sunan profesyonel endüstriyel İHA.",
       "images": [
@@ -2512,7 +2379,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": 309,
       "name": "Autel Dragonfish Standard",
       "description": "Uzun uçuş süresi, yüksek taşıma kapasitesi ve hassas konumlandırma özelliklerine sahip profesyonel sabit kanatlı İHA.",
       "images": [
@@ -2541,7 +2408,7 @@
       ]
     },
     {
-      "id": 305,
+      "id": 310,
       "name": "Autel Dragonfish Lite",
       "title": "Dragonfish Lite",
       "description": "Endüstriyel uygulamalar için uzun uçuş süresi ve yüksek hassasiyet sunan hibrit sabit kanat drone.",
@@ -2569,37 +2436,7 @@
       ]
     },
     {
-      "id": 306,
-      "name": "Autel Alpha",
-      "title": "Alpha",
-      "description": "Yüksek taşıma kapasitesi ve uzun uçuş süresi sunan, profesyonel endüstriyel çok rotorlu İHA.",
-      "images": [
-        "/marka-photos/autel/alpha-0.png",
-        "/marka-photos/autel/alpha-1.png",
-        "/marka-photos/autel/alpha-2.png",
-        "/marka-photos/autel/alpha-3.png"
-      ],
-      "category": "iha",
-      "brand": "autel",
-      "type": "endustriyel-iha",
-      "typeTitle": "Endüstriyel Ağır Yük İHA'ları",
-      "specs": [
-        "40 dakikaya kadar uçuş süresi ile uzun süreli görevlerde kullanım sağlar.",
-        "10 kg’a kadar faydalı yük taşıyabilir.",
-        "35 kg’a kadar maksimum kalkış ağırlığını destekler.",
-        "22 m/s yatay uçuş hızı sunar.",
-        "20 m/s’ye kadar rüzgar dayanımı ile zorlu hava koşullarına uygundur.",
-        "GPS, GLONASS, BeiDou ve Galileo desteği ile yüksek hassasiyet sağlar.",
-        "Santimetre seviyesinde RTK konum doğruluğu sağlar.",
-        "-20°C ile +50°C arasında çalışma sıcaklığı aralığı sunar.",
-        "IP55 toz ve suya karşı dayanıklılık sertifikasına sahiptir.",
-        "12S akıllı lityum batarya ile 45 dakika şarj süresine sahiptir.",
-        "10.1 inç ekranlı kontrol cihazı ile 20 km iletim menzili sunar.",
-        "Otomatik kalkış, iniş, akıllı takip, uçuş planlama ve arazi takip özelliklerine sahiptir."
-      ]
-    },
-    {
-      "id": 307,
+      "id": 315,
       "name": "Autel Titan",
       "title": "Titan",
       "description": "Ağır yük taşıma ve uzun mesafeli görevler için 10 kg taşıma kapasitesi ve 55 dakika uçuş süresine sahip profesyonel çok rotorlu İHA.",
@@ -2611,8 +2448,8 @@
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "endustriyel-iha",
-      "typeTitle": "Endüstriyel Ağır Yük İHA'ları",
+      "type": "autel-titan",
+      "typeTitle": "Ağır Yük Taşıma İHA'ları",
       "specs": [
         "55 dakikaya kadar rüzgarsız ortamda kesintisiz uçuş süresi sunar.",
         "10 kg’a kadar yük taşıma kapasitesi sağlar.",
@@ -3837,12 +3674,12 @@
       "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu arayüzüyle saha süresini azaltan, LIDAR uyumlu ve yüksek hassasiyetli sonuçlar üreten güçlü bir fotogrametri yazılımıdır.",
       "images": [
         "/marka-photos/3dsurvey/3dsurvey-0.png",
-        "/marka-photos/3dsurvey/3dsurvey-1.png"
+        "/marka-photos/3dsurvey/3dsurvey-1.png",
+        "/marka-photos/3dsurvey/3dsurvey-2.png",
+        "/marka-photos/3dsurvey/3dsurvey-3.png"
       ],
       "category": "yazilim",
       "brand": "3dsurvey",
-      "type": "fotogrametri-yazilimi",
-      "typeTitle": "Haritalama Yazılımları",
       "specs": [
         "Geleneksel ölçüme kıyasla saha süresini 10 kata kadar azaltır.",
         "Karmaşık yazılımlar yerine sade ve öğrenmesi kolay bir arayüz sunar.",
@@ -3854,6 +3691,306 @@
         "Hem sabit kanat hem de çok rotorlu dronlarla kullanılabilir.",
         "Yalnızca 6 saatlik eğitimle kullanıcılar uzman seviyeye ulaşabilir.",
         "Web sitesinden tam sürüm deneme versiyonu ücretsiz indirilebilir (kısıtlama yok)."
+      ]
+    },
+    {
+      "id": 989,
+      "name": "STEC FieldMaster Alan Veri Toplama Yazılımı",
+      "title": "FieldMaster",
+      "description": "STEC FieldMaster, GNSS ve lazer tabanlı ölçüm cihazlarıyla entegre çalışan, CAD destekli harita çizimi, artırılmış gerçeklikli aplikasyon ve saha odaklı veri toplama işlemlerini kolaylaştıran bir mobil yazılımdır.",
+      "images": [
+        "/marka-photos/stec/fieldmaster-1.png",
+        "/marka-photos/stec/fieldmaster-2.png",
+        "/marka-photos/stec/fieldmaster-3.png"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "type": "control-unit-software",
+      "typeTitle": "Kontrol Üniteleri ve Yazılımlar",
+      "specs": [
+        "SDi ve SV1 gibi GNSS/lazer cihazlarıyla entegre çalışarak lazer mesafesiyle nokta toplama işlemi sağlar.",
+        "Gerçek zamanlı görüntüleme ve artırılmış gerçeklik (AR) ile aplikasyon deneyimi sunar.",
+        "CAD dosyalarını arka plan katmanı olarak kullanarak doğrudan nokta toplama, aplikasyon, düzenleme ve hesaplama imkanı tanır.",
+        "Hazır kod ve giriş sistemi ile harita çizimini basit ve verimli hale getirir.",
+        "Kullanıcı dostu arayüzü sayesinde saha operasyonlarını kolaylaştırır."
+      ]
+    },    
+    {
+      "id": 990,
+      "name": "DJI FlightHub 2 Komuta ve Görev Yönetim Yazılımı",
+      "title": "DJI FlightHub 2",
+      "description": "DJI FlightHub 2, bulut tabanlı altyapısıyla İHA görev planlama, filo denetimi ve veri yönetimini tek bir platformda birleştiren gelişmiş bir operasyon yönetim sistemidir. Gerçek zamanlı durum farkındalığı ve görev takibi ile saha ve merkez arasındaki eş zamanlı koordinasyonu sağlar.",
+      "images": [
+        "/marka-photos/dji/flighthub2-1.png",
+        "/marka-photos/dji/flighthub2-2.png",
+        "/marka-photos/dji/flighthub2-3.png",
+        "/marka-photos/dji/flighthub2-4.png",
+        "/marka-photos/dji/flighthub2-5.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "dji-yazilim",
+      "typeTitle": "DJI Yazılım",
+      "specs": [
+        "Bulut tabanlı altyapı ile görev planlama, canlı izleme ve medya yönetimi imkanı sunar.",
+        "2.5D Base Map özelliği ile arazi farkındalığını artırarak rota güvenliği sağlar.",
+        "Çoklu kullanıcıya eş zamanlı düşük gecikmeli canlı yayın desteği verir.",
+        "Görev rotaları bilgisayardan oluşturulabilir ve pilotlarla anlık senkronize edilebilir.",
+        "Panorama senkronizasyonu ile 360° görüntüler tek tıkla buluta yüklenebilir.",
+        "Canlı açıklama (annotation) araçları ile işaretleme yapılıp ekiplerle paylaşılabilir.",
+        "Fotoğraf, video ve panorama içerikleri koordinatlarıyla birlikte harita üzerinde görüntülenebilir.",
+        "RGB veya termal ortomozaikler talep üzerine bulutta oluşturulabilir.",
+        "Ekip konumu, drone durumu ve görev bilgileri gerçek zamanlı olarak paylaşılır.",
+        "DJI Dock entegrasyonu sayesinde otomatik drone görevleri uzaktan planlanabilir ve yönetilebilir."
+      ]
+    },    
+    {
+      "id": 991,
+      "name": "DJI Terra Haritalama ve Modelleme Yazılımı",
+      "title": "DJI Terra",
+      "description": "DJI Terra, DJI Enterprise drone’larıyla tam entegre çalışan, güçlü fotogrametri motoru sayesinde 2D/3D haritalama, LiDAR veri işleme ve çoklu spektrum analizi yapabilen gelişmiş bir yazılımdır.",
+      "images": [
+        "/marka-photos/dji/terra-1.png",
+        "/marka-photos/dji/terra-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "dji-yazilim",
+      "typeTitle": "DJI Yazılım",
+      "specs": [
+        "Gerçek zamanlı 2D ortomozaik ve 3D model oluşturma desteği sunar.",
+        "DJI Modify ile tam entegre çalışarak tek tıkla model düzenleme süreci başlatılabilir.",
+        "Fotoğraflardan yüksek hassasiyetli nokta bulutu ve yüzey modelleri üretir.",
+        "DJI LiDAR verileriyle DEM ve kontur çizgileri üretimi yapılabilir.",
+        "Mavic 3 Multispectral ile alınan verilerle NDVI ve NDRE gibi bitki indeks haritaları oluşturulabilir.",
+        "Gerçek zamanlı 3D modelleme ile kaza sahası, inşaat, enerji hattı incelemeleri yapılabilir.",
+        "POS verisi, GCP (yer kontrol noktası) ve koordinat dönüşümleri desteklenir.",
+        "Multi-GPU desteğiyle büyük verilerde hızlı yeniden yapılandırma sağlar.",
+        "Detaylı denetim görevleri için model veya nokta bulutu üzerinden rota planlama yapılabilir.",
+        "Çeşitli çıktılar desteklenir: TDOM, DSM, DEM, kontur, nokta ağı, TIN, vb.",
+        "8500+ koordinat sistemi desteklenir ve yedi parametreli dönüşümler uygulanabilir.",
+        "Windows 10+ (64 bit), 32GB RAM ve en az 4GB NVIDIA ekran kartı gereksinimi vardır."
+      ]
+    },    
+    {
+      "id": 992,
+      "name": "DJI Modify 3D Model Düzenleme Yazılımı",
+      "title": "DJI Modify",
+      "description": "DJI Modify, DJI Terra ile tam entegre çalışan, hızlı ve sezgisel 3D model düzenleme işlemleri sunan akıllı bir yazılımdır. Haritalama, yangınla mücadele, acil durum müdahalesi ve ulaşım gibi alanlarda operasyonel ihtiyaçlara yönelik uçtan uca çözüm sunar.",
+      "images": [
+        "/marka-photos/dji/modify-1.png",
+        "/marka-photos/dji/modify-2.png",
+        "/marka-photos/dji/modify-3.png",
+        "/marka-photos/dji/modify-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "dji-yazilim",
+      "typeTitle": "DJI Yazılım",
+      "specs": [
+        "DJI Terra ile entegre tek tıklamayla model düzenleme başlatılabilir.",
+        "Otomatik DJI Modify dosya üretimi sayesinde nesne ön tanımlamaları ile çalışma yapılabilir.",
+        "Model düzenleme sürecini sadeleştiren, kolay kullanılabilir arayüz ve araçlar sunar.",
+        "ply, obj ve b3dm gibi formatlarda hızlı içe/dışa aktarım imkanı tanır.",
+        "Yüksek ve düşük kalite modeller arasında senkronize düzenleme yapılabilir.",
+        "Yüzen parçalar otomatik olarak seçilebilir ve tek tıklamayla kaldırılabilir.",
+        "Çokgen çizim ile bölge seçimi ve tek tıkla yüzey düzleştirme desteği sunar.",
+        "Araçlar gibi nesneler otomatik algılanır ve kolayca düzleştirilebilir.",
+        "Otomatik delik tespiti ve bir tıkla kapatma özelliğiyle zaman kazandırır.",
+        "Doku silme ve klonlama araçları ile manuel veya otomatik bölge düzeltme yapılabilir.",
+        "İşlenmiş modeller bağlantı yoluyla bulut ortamında paylaşılabilir.",
+        "Minimum sistem gereksinimleri: Windows 10+, 32 GB RAM, 4 GB VRAM, GTX 1050Ti veya üzeri ekran kartı."
+      ]
+    },    
+    {
+      "id": 993,
+      "name": "Autel Entegre Komuta ve Kontrol Sistemi (AICS)",
+      "description": "Autel Entegre Komuta ve Kontrol Sistemi (Autel Integrated Command System (AICS)), çok rotorlu ve eVTOL insansız hava araçlarının görev planlama, canlı izleme, organizasyonel yönetim ve veri analizini tek bir bulut tabanlı platformda sunan kapsamlı bir UAV yönetim sistemidir.",
+      "images": [
+        "/marka-photos/autel/aics-1.png",
+        "/marka-photos/autel/aics-2.png",
+        "/marka-photos/autel/aics-3.png",
+        "/marka-photos/autel/aics-4.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "haritalama-yazilimlari",
+      "typeTitle": "AICS Komuta ve Kontrol Sistemleri ve Mapper Haritalama Yazılımları",
+      "specs": [
+        "Görev planlama, rota oluşturma ve uçuş yönetimi modülleri içerir.",
+        "Çoklu kullanıcı rol ve izin sistemiyle kurumsal organizasyon desteği sunar.",
+        "EVO Max, Dragonfish gibi Autel İHA modelleriyle tam uyumlu çalışır.",
+        "Canlı cihaz takibi, uyarı sistemleri ve uzaktan kontrol özellikleri sağlar.",
+        "Harita tabanlı 2D/3D arayüz üzerinden gerçek zamanlı durum görüntüleme.",
+        "Görev kayıtları, medya dosyaları ve olay geçmişi detaylı olarak saklanabilir ve dışa aktarılabilir.",
+        "Kamuya açık ve özel sunucu kurulum desteğiyle esnek altyapı çözümü sunar.",
+        "AI destekli hedef tanıma, canlı akış takibi ve sensör kontrol özelliklerine sahiptir.",
+        "Mobil ve masaüstü tarayıcılar üzerinden erişilebilir; yüksek bant genişliği önerilir."
+      ]
+    },    
+    {
+      "id": 994,
+      "name": "Autel Mapper Haritalama Yazılımı",
+      "description": "Autel Mapper, dronlardan elde edilen görüntüleri analiz ederek yüksek hassasiyetli haritalar ve modeller oluşturmanızı sağlayan profesyonel bir haritalama yazılımıdır.",
+      "images": [
+        "/marka-photos/autel/mapper-1.png",
+        "/marka-photos/autel/mapper-2.png",
+        "/marka-photos/autel/mapper-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "haritalama-yazilimlari",
+      "typeTitle": "AICS Komuta ve Kontrol Sistemleri ve Mapper Haritalama Yazılımları",
+      "specs": [
+        "Drone görüntülerinden otomatik ortomozaik ve DSM üretimi.",
+        "GNSS verileriyle senkronize hassas 3D modelleme.",
+        "Yüksek çözünürlüklü harita çıktısı ve CAD formatı desteği.",
+        "Toplu veri işleme ve otomatik hizalama algoritması.",
+        "Bulut bazlı veri yedekleme ve paylaşım altyapısı.",
+        "Yüzey analizi, hacim hesaplama ve kontur çizimi özellikleri.",
+        "Kullanıcı dostu arayüz ve kolay işlem adımları.",
+        "Gerçek zamanlı ön izleme ve kalite kontrol araçları.",
+        "PDF, TIFF, OBJ, LAS gibi çoklu format desteği."
+      ]
+    },    
+    {
+      "id": 995,
+      "name": "CHCNAV CoProcess LiDAR İşleme Yazılımı",
+      "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
+      "images": [
+        "/marka-photos/chcnav/copro-1.png",
+        "/marka-photos/chcnav/copro-2.png",
+        "/marka-photos/chcnav/copro-3.png",
+        "/marka-photos/chcnav/copro-4.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "lidar-yazilimlari",
+      "typeTitle": "LiDAR Yazılımları",
+      "specs": [
+        "Otomatik DEM ve DSM oluşturma ile hassas arazi modelleme.",
+        "Toplu nokta bulutu sınıflandırma ve özellik çıkarımı.",
+        "Yol özellikleri için otomatik ve manuel çıkarım desteği.",
+        "Yoğun veri sınıflandırması ve gelişmiş algoritmalar.",
+        "Ölçüm araçları ile hacim hesaplama ve analiz.",
+        "CoData formatı ile büyük verilerde yüksek performans.",
+        "Kullanıcı dostu arayüz ve modüler tasarım.",
+        "IP67 su ve toz geçirmezlik ile dayanıklı yapı.",
+        "DXF ve DAT formatında dışa aktarma desteği."
+      ]
+    },
+    {
+      "id": 996,
+      "name": "CHCNAV CoPre LiDAR İşleme Yazılımı",
+      "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
+      "images": [
+        "/marka-photos/chcnav/copre-1.png",
+        "/marka-photos/chcnav/copre-2.png",
+        "/marka-photos/chcnav/copre-3.png",
+        "/marka-photos/chcnav/copre-4.png",
+        "/marka-photos/chcnav/copre-5.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "lidar-yazilimlari",
+      "typeTitle": "LiDAR Yazılımları",
+      "specs": [
+        "Otomatik yörünge işleme ve nokta bulutu renk eşleştirme.",
+        "Yüksek doğruluklu DOM ve 3D model oluşturma.",
+        "Gelişmiş katman kontrolü ve nokta bulutu temizleme.",
+        "Veri doğruluğu kontrolü ve ayrıntılı raporlama.",
+        "Tek tıkla otomatik işlem ve dışa aktarma seçenekleri.",
+        "DXF ve LAS formatlarında veri çıkışı.",
+        "Büyük veri setleri için hızlı işlem kapasitesi.",
+        "POS ve SLAM verileri ile uyumlu iş akışı."
+      ]
+    },
+    {
+      "id": 997,
+      "name": "CHCNAV MAS",
+      "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
+      "images": [
+        "/marka-photos/chcnav/mas-0.png",
+        "/marka-photos/chcnav/mas-1.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "monitoring-alarm-system",
+      "typeTitle": "İzleme ve Alarm Sistemleri Yazılımı",
+      "specs": [
+        "İnternet, IoT ve büyük veri entegrasyonu ile uzaktan izleme ve alarm yönetimi.",
+        "DEM, GIS haritaları, uydu ve radar görüntüleri ile 3D sahne oluşturma desteği.",
+        "Radar ve çoklu sensör verilerini tek ekranda izleme ve etkileşimli grafiklerle analiz.",
+        "Dört seviyeli özelleştirilebilir alarm sistemi ile SMS, e-posta ve doğrudan uyarılar.",
+        "Gerçek zamanlı meteorolojik bilgiler, sensör verileri ve video izleme desteği.",
+        "Web, uygulama ve H5 arayüzleri ile esnek erişim ve uzaktan yönetim.",
+        "Otomatik raporlama sistemi ile özelleştirilebilir format ve sıklıkta rapor oluşturma.",
+        "Windows Server 2019 ve üzeri ile Ubuntu desteği.",
+        "MySQL 5.7.24 ve üzeri veri tabanı desteği.",
+        "Intel Core i7 ve üzeri işlemci önerisi ile GTX 1060 ve üzeri grafik kartı desteği."
+      ]
+    },
+    {
+      "id": 998,
+      "name": "CHCNAV LandStar 8 Yazılımı",
+      "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
+      "images": [
+        "/marka-photos/chcnav/landstar8-0.png",
+        "/marka-photos/chcnav/landstar8-1.png",
+        "/marka-photos/chcnav/landstar8-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "gnss-software",
+      "typeTitle": "GNSS Ölçüm ve Haritalama Yazılımları",
+      "specs": [
+        "Android işletim sistemi ile uyumlu ve kullanıcı dostu arayüz.",
+        "MetaCAD grafik motoru ile %50'ye kadar daha hızlı CAD dosyası açma ve işleme.",
+        "200 MB'a kadar DXF dosyalarını hızlıca görüntüleme ve düzenleme.",
+        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
+        "Quick Code özelliği ile tek tıkla çizgi ve detay ekleme.",
+        "CAD tabanlı harita düzenleme ve alan hesaplama özellikleri.",
+        "Gelişmiş proje yönetimi: QR kod ile koordinat ve proje aktarma.",
+        "NTRIP, APIS ve TCP destekli GNSS verisi aktarımı.",
+        "IP68 sertifikalı cihazlarla uyumlu ve zorlu saha koşullarında dayanıklı.",
+        "Kolaylaştırılmış site kalibrasyon sihirbazı ile hızlı kalibrasyon.",
+        "Anlık konum ve ölçüm verilerini gösteren 3D harita desteği.",
+        "RINEX, CSV ve NMEA formatlarında veri aktarım desteği.",
+        "Birden fazla dil desteği ve yerelleştirilmiş video eğitimleri.",
+        "WMS/WFS ve CAD haritaları ile uyumlu katman yönetimi.",
+        "Uzaktan destek ve yazılım güncellemeleri ile sürekli destek."
+      ]
+    },
+    {
+      "id": 999,
+      "name": "CHCNAV CGO 2.0 Yazılımı",
+      "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
+      "images": [
+        "/marka-photos/chcnav/cgo2-0.png",
+        "/marka-photos/chcnav/cgo2-1.png",
+        "/marka-photos/chcnav/cgo2-2.png",
+        "/marka-photos/chcnav/cgo2-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "gnss-software",
+      "typeTitle": "GNSS Ölçüm ve Haritalama Yazılımları",
+      "specs": [
+        "GNSS, RTK, ROAD ve UAV modülleri ile tam entegre çözüm.",
+        "Static, PPK ve PPP algoritmaları ile hassas GNSS veri işleme.",
+        "MetaCAD motoru ile CAD tabanlı işlemler ve hızlı veri analizi.",
+        "RINEX, NMEA ve CSV formatlarında veri aktarım desteği.",
+        "GNSS ham verilerini işlemek için gelişmiş hata düzeltme algoritmaları.",
+        "Post-processing kinematik (PPK) desteği ile yüksek hassasiyet.",
+        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
+        "Koordinat dönüştürme ve TIFF sıkıştırma gibi gelişmiş jeodezik araçlar.",
+        "Anlık konum verileri ile 3D haritalama ve UAV trajektografi.",
+        "Otomatik CORS referans verisi indirme ve entegrasyon.",
+        "Yüksek hacimli saha verilerini hızlı işlemek için optimizasyon.",
+        "Kolay öğrenim eğrisi ve kullanıcı dostu arayüz.",
+        "NTRIP ve APIS destekli GNSS verisi aktarımı.",
+        "Çoklu dil desteği ve yerelleştirilmiş yardım dokümanları.",
+        "Windows 7, 8, 10 (32-bit ve 64-bit) ile uyumlu."
       ]
     }
   ],
