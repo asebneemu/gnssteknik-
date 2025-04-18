@@ -1,27 +1,25 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useCompare } from "../../context/CompareContext";
-import { useLanguage } from "../../context/LanguageContext"; // useLanguage kullanıyoruz
+import { useLanguage } from "../../context/LanguageContext";
 
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
   const { compareList, toggleCompare, isInCompare } = useCompare();
-  const { language } = useLanguage(); // Dil seçimini alıyoruz
+  const { language } = useLanguage();
 
-  if (!product) {
-    return null;
-  }
+  if (!product) return null;
 
   const isCompared = isInCompare(product.id);
   const mainImage = product.images?.[0] || product.image;
 
-  // Dil seçimine göre metinleri ayarlıyoruz
   const moreInfoText = language === "tr" ? "Daha Fazla Bilgi" : "More Info";
   const compareText = language === "tr" ? "Karşılaştır" : "Compare";
   const removeText = language === "tr" ? "Kaldır" : "Remove";
 
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[580px] p-5 relative transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden p-5 relative transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col h-full">
+      {/* Görsel */}
       <div className="relative w-full h-56 overflow-hidden">
         <img
           src={mainImage}
@@ -31,15 +29,23 @@ const ProductCard = ({ product }) => {
         />
       </div>
 
-      <div className="flex flex-col flex-grow p-4">
-        <h3 className="text-lg font-semibold text-gray-900">{product.name}</h3>
-        <p className="text-sm text-gray-600 mt-4 mb-4 line-clamp-3">{product.description}</p>
+      {/* İçerik */}
+      <div className="flex flex-col flex-grow mt-4">
+        <h3 className="text-lg font-semibold text-gray-900">
+          {product.name}
+        </h3>
+        <p className="text-sm text-gray-600 mt-2 mb-3 line-clamp-3">
+          {product.description}
+        </p>
         <p className="text-xs text-gray-500 mb-4">{product.typeTitle}</p>
-        
-        <div className="mt-auto flex flex-col gap-4">
+
+        {/* Butonlar: Sabit altta durur */}
+        <div className="mt-auto flex flex-col gap-3 pt-2">
           <button
             onClick={() =>
-              navigate(`/category/${product.category}/${product.brand}/${product.id}`)
+              navigate(
+                `/category/${product.category}/${product.brand}/${product.id}`
+              )
             }
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"
           >

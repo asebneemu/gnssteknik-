@@ -1,6 +1,7 @@
 import React from "react";
 import { useLanguage } from "../context/LanguageContext";
 import ProductCard from "../components/product/ProductCard";
+import ZenmuseSlider from "../components/ZemuseSlider";
 
 const IhaDjiPage = () => {
   const { data } = useLanguage();
@@ -18,6 +19,15 @@ const IhaDjiPage = () => {
 
   const getProductsByTypeTitle = (title) =>
     data.products.filter((item) => item.typeTitle === title);
+
+  const sliderSettings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1.2,
+    slidesToScroll: 1,
+    arrows: false,
+  };
 
   return (
     <div className="w-[80%] mx-auto py-10">
@@ -39,7 +49,6 @@ const IhaDjiPage = () => {
         const payloadProducts = getProductsByIds(payloadIds);
         const rightTitle = payloadProducts[0]?.typeTitle;
 
-        // Kullanılacak açıklama cümlesini üret
         const rightNames = payloadProducts.map((p) => p.name);
         const joinedNames =
           rightNames.length > 1
@@ -48,7 +57,7 @@ const IhaDjiPage = () => {
 
         return (
           <div key={index} className="mb-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
               {/* Sol - Drone ürünleri */}
               <div>
                 <h1 className="text-xl font-semibold text-left mb-4">
@@ -68,12 +77,16 @@ const IhaDjiPage = () => {
                 <h1 className="text-xl font-semibold text-right mb-4">
                   {rightTitle}
                 </h1>
-                <div className="flex flex-row-reverse flex-wrap gap-2">
+
+                {/* Mobilde Custom Slider */}
+                <div className="lg:hidden">
+                  <ZenmuseSlider products={payloadProducts} />
+                </div>
+
+                {/* Masaüstü için klasik düzen */}
+                <div className="hidden lg:flex flex-row-reverse flex-wrap gap-2">
                   {payloadProducts.map((product) => (
-                    <div
-                      className="w-[30%] origin-top"
-                      key={product.id}
-                    >
+                    <div className="w-[30%] origin-top" key={product.id}>
                       <ProductCard product={product} />
                     </div>
                   ))}
