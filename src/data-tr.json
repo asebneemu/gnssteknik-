@@ -1723,6 +1723,36 @@
       ]
     },
     {
+      "id": 149,
+      "name": "DJI Dock 3 Otomatik İstasyon Ünitesi",
+      "title": "Gelişmiş Otomasyon, Mobilite ve Uçtan Uca Uyumlu Drone Yer İstasyonu",
+      "description": "DJI Dock 3, zorlu çevre koşullarında otomatik drone kalkış, iniş ve şarj işlemleri gerçekleştirebilen, mobil kullanım için optimize edilmiş yeni nesil drone yer istasyonudur. Yüksek rüzgar dayanımı, geniş sıcaklık aralığı ve akıllı görev yönetimi ile kritik endüstriyel uygulamalar için mükemmel bir çözümdür.",
+      "images": [
+        "/marka-photos/dji/dock3-1.png",
+        "/marka-photos/dji/dock3-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "dock3",
+      "typeTitle": "Dock 3 Çözümü",
+      "specs": [
+        "12 m/s rüzgar dayanımı ve -30°C ila 50°C çalışma sıcaklığı ile zorlu hava koşullarına uygundur.",
+        "10 saniyede kalkışa hazır hale gelen hızlı kendini kontrol mekanizması içerir.",
+        "GNSS modülü her zaman açık modda çalışır; acil görevler için anında yanıt verir.",
+        "IP56 koruma seviyesi ile toz ve su sıçramalarına karşı üstün dayanıklılık sunar.",
+        "Harici D-RTK 3 modülü sayesinde 2 dB sinyal kazancı ile yüksek konum hassasiyeti sağlar.",
+        "Titreşim engelleyici iç yapısı sayesinde mobil kullanımlarda sistem kararlılığı artırılmıştır.",
+        "DJI FlightHub 2 ile entegre çalışarak gerçek zamanlı eğim, RTK kalibrasyon ve görev planlaması sağlar.",
+        "Yatay eğim tespiti: 3° uyarı, >5° ise kalkış önlenir.",
+        "Android cihazla doğrudan bağlantı destekler, kontrol cihazı gerekmeden dağıtım yapılabilir.",
+        "Mobil kullanımda araç hareket ederken iniş yapılmasını engelleyen güvenlik önlemleri mevcuttur.",
+        "Çift istasyon kurulumu ile biri şarj olurken diğeri görev yapabilir; kesintisiz çalışma desteklenir.",
+        "Yapay zeka ile insan, araç ve tekne tanıma; akıllı takip ve alarm bildirim özellikleri desteklenir.",
+        "FlightHub 2 ile 3. parti sunucu entegrasyonu ve canlı video analizi yapılabilir.",
+        "Gelişmiş bakım arayüzü ile hava durumu, bağlantı ve sistem durumları izlenebilir."
+      ]
+    },    
+    {
       "id": 150,
       "name": "DJI Matrice 4T RTK",
       "description": "Termal görüntüleme, zoom kamera ve lazer mesafe ölçer ile donatılmış, kompakt ve dayanıklı endüstriyel drone.",
@@ -1937,6 +1967,83 @@
       ]
     },  
     {
+      "id": 197,
+      "name": "DJI Zenmuse H30",
+      "title": "Gündüz-Gece Hibrit Görüntüleme Yükü",
+      "description": "Zenmuse H30 modeli, geniş açılı kamera, yüksek çözünürlüklü zoom kamera, lazer mesafe ölçer ve NIR yardımcı ışık modülü ile donatılmış çoklu sensörlü hibrit gözlem ünitesidir. Termal kamera içermez. Gündüz ve düşük ışık koşullarında üstün performans sunar.",
+      "images": [
+        "/marka-photos/dji/h30-1.png",
+        "/marka-photos/dji/h30-2.png",
+        "/marka-photos/dji/h30-3.png",
+        "/marka-photos/dji/h30-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "Geniş açılı kamera: 1/1.3” CMOS, 48MP, 24mm eşdeğer odak uzaklığı, gece modu destekli.",
+        "Zoom kamera: 1/1.8” CMOS, 40MP, 34x optik zoom, 400x dijital zoom, elektronik görüntü sabitleme desteği.",
+        "Lazer mesafe ölçer: 3m – 3000m aralığında, 500m altı ±(0.2m + %0.15), üstü ±1m doğruluk.",
+        "NIR yardımcı ışık: 850nm dalga boyunda, görünmeyen kızılötesi aydınlatma sağlar, 100m'de ~8m çaplı alanı aydınlatır.",
+        "Gece görüntüleme modları: Renkli gece görüş, siyah-beyaz IR filtreli mod, lazer destekli netleme.",
+        "Akıllı izleme, Pin-Point hedefleme, panorama ve yüksek çözünürlüklü grid fotoğraf gibi gelişmiş kamera modları.",
+        "Uyumluluk: Matrice 300 RTK (yalnızca DJI RC Plus ile), Matrice 350 RTK.",
+        "IP54 koruma sınıfı, -20°C ila 50°C arası çalışma sıcaklığına dayanıklıdır."
+      ]
+    },    
+    {
+      "id": 198,
+      "name": "DJI Zenmuse H30T",
+      "title": "Termal Kameralı Hibrit Yük Sistemi",
+      "description": "Zenmuse H30T modeli; termal kamera, zoom kamera, geniş açılı kamera, lazer mesafe ölçer ve NIR yardımcı ışık ile donatılmıştır. Yüksek çözünürlüklü termal gözlem, gündüz-gece renkli ve IR destekli görüntüleme ile entegre görev yetenekleri sunar.",
+      "images": [
+        "/marka-photos/dji/h30t-1.png",
+        "/marka-photos/dji/h30t-2.png",
+        "/marka-photos/dji/h30t-3.png",
+        "/marka-photos/dji/h30t-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "Termal kamera: 1280×1024 çözünürlük, 32x dijital zoom, -20°C ila 1600°C ölçüm aralığı (IR filtre ile), yüksek-gain ve düşük-gain modları.",
+        "Zoom kamera: 40MP, 34x optik, 400x dijital zoom, gelişmiş gece görüş destekli.",
+        "Geniş açılı kamera: 48MP, gece modu destekli, panorama ve HDR destekli.",
+        "Lazer mesafe ölçer: 3m – 3000m, 500m altında ±0.2m hassasiyet.",
+        "Gece görüş: Renkli ve siyah-beyaz IR destekli modlar, NIR yardımcı ışık ile birlikte çalışır.",
+        "Elektronik sis giderme, akıllı takip, Pin-Point hedefleme, video ön kayıt, veri güvenliği özellikleri.",
+        "Uyumluluk: DJI Matrice 350 RTK, M300 RTK (DJI RC Plus gereklidir).",
+        "IP54 koruma, -20°C ~ 50°C sıcaklık aralığı, 920g ağırlık."
+      ]
+    },   
+    {
+      "id": 199,
+      "name": "DJI Zenmuse H30N",
+      "title": "Gelişmiş Gece Görüş Odaklı Kamera Sistemi",
+      "description": "Zenmuse H30N, H20N’in gece görüş avantajlarını temel alarak gece operasyonları için optimize edilmiş sensörlerle donatılmıştır. Termal görüntüleme, zoom, geniş açı, lazer ve NIR aydınlatma özellikleri ile düşük ışık koşullarında üstün performans sunar.",
+      "images": [
+        "/marka-photos/dji/h30n-1.png",
+        "/marka-photos/dji/h30n-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "Termal kamera: 1280×1024 çözünürlük, ultra HD, 32x dijital zoom, geniş sıcaklık ölçüm aralığı, yüksek ve düşük gain modları.",
+        "Gece görüş: Gelişmiş IR filtre sistemleri, siyah-beyaz ve renkli modlar, NIR yardımcı ışık ve lazer destekli odaklama.",
+        "Zoom kamera: 40MP sensör, 34x optik ve 400x dijital zoom kapasitesi.",
+        "Geniş açılı kamera: 48MP CMOS, gece ve gündüz çekim uyumluluğu.",
+        "Lazer mesafe ölçer: 3000m menzil, yüksek hassasiyet.",
+        "Gece görevleri için elektronik gürültü azaltma, video stabilizasyonu, akıllı kayıt ve Pin-Point hedefleme özellikleri.",
+        "Uyumluluk: DJI M300 RTK ve Matrice 350 RTK sistemleri ile tam entegrasyon.",
+        "IP54 sertifikalı yapı, -20°C ila 50°C ortam koşullarına uygundur."
+      ]
+    },    
+ 
+    {
       "id": 200,
       "name": "DJI Zenmuse H20",
       "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
@@ -2017,6 +2124,84 @@
         "Desteklenen Drone Modelleri: DJI Matrice 300 RTK"
       ]
     },
+    {
+      "id": 203,
+      "name": "DJI U10 Laser Metan Kaçak Tespit Sistemi",
+      "title": "Havadan Lazer Metan Gazı Dedektörü",
+      "description": "DJI U10, metan gazı kaçaklarının hassas, temassız ve güvenli şekilde tespiti için geliştirilen lazer tabanlı bir sensör sistemidir. DJI drone platformlarına entegre olarak enerji tesisleri, boru hatları, endüstriyel alanlar ve yerleşim bölgelerinde yüksek hassasiyetli gaz izleme ve denetim çözümü sunar.",
+      "images": [
+        "/marka-photos/dji/u10-1.png",
+        "/marka-photos/dji/u10-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "u10",
+      "typeTitle": "Metan Gaz Tespit Serisi",
+      "specs": [
+        "Tespit aralığı: 0 – 100 metre, statik tespit limiti: 5 ppm·m @15m mesafede.",
+        "Yanıt süresi: 25 ms – son derece hızlı ve dinamik ölçüm kapasitesi.",
+        "Tespit metodu: TDLAS – Tunable Diode Laser Absorption Spectroscopy teknolojisi kullanır.",
+        "Hedef gaz: Yalnızca CH₄ (metan) – diğer gazları algılamaz.",
+        "Uyumluluk: DJI M300 RTK, M210 serisi ile tam uyumlu (SkyPort bağlantı ile).",
+        "Desteklenen ikinci yükler: Zenmuse H20T, Z30, XT2 gibi ikincil kameralar ile birlikte çalışabilir.",
+        "Gimbal: Üç eksenli stabilizasyonlu gimbal, platform titreşimlerinden etkilenmeyen hassas görüntüleme sağlar.",
+        "Hizalama kamerası: 720p çözünürlükte SONY IMX290 CMOS sensörlü yardımcı kamera.",
+        "Kapsama ve planlama: Waypoint uçuşları, alan taramaları ve KML ile görev tanımlama desteği.",
+        "Uygulama entegrasyonu: Alpha ONE iOS uygulaması ile gerçek zamanlı ölçüm, grafik ve raporlama.",
+        "Raporlama: Otomatik denetim raporu oluşturma, CSV dışa aktarma ve GIS harita kaydı imkanı.",
+        "Uygulama alanları: Rafineriler, doğal gaz istasyonları, viyadük hatları, şehir içi binalar, dağlık alanlar ve kırsal gaz şebekeleri.",
+        "Operasyonel avantajlar: Zorlu ve insan erişimine kapalı bölgelerde temassız ve yüksek frekanslı tarama imkanı."
+      ]
+    },    
+    {
+      "id": 204,
+      "name": "DJI Zenmuse S1 Aydınlatma Ünitesi (Spotlight)",
+      "title": "Gece Aydınlatma ve Acil Durum Arama Projeksiyon Sistemi",
+      "description": "DJI Zenmuse S1, düşük enerji tüketimiyle yüksek parlaklık sunan ve farklı modlarda aydınlatma sağlayan güçlü bir arama spot ışığıdır. Gece görevlerinde, acil müdahalelerde ve altyapı denetimlerinde mükemmel performans gösterir.",
+      "images": [
+        "/marka-photos/dji/s1-1.png",
+        "/marka-photos/dji/s1-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "100m'de 30 lux merkezi aydınlatma ile endüstri lideri performans sunar.",
+        "Enerji tüketimi benzer modellere göre %50 daha düşüktür.",
+        "Low Beam: 15° görüş açısıyla 150m’ye kadar kısa menzilli aydınlatma sağlar.",
+        "High Beam: LEP teknolojisi ile 4° FOV ve 300m üzeri uzun mesafe ışık penetrasyonu sunar.",
+        "Strobe Mode: 5Hz flaşlı uyarı modu ile arama kurtarma ve güvenlik senaryoları için uygundur.",
+        "Otomatik %40 parlaklık düşürme özelliği ile göz koruması sağlar.",
+        "Aşırı ısınma, akım ve güç korumaları ile donatılmıştır.",
+        "Tüm DJI M300/M350 gimballerine uyumludur; üst-alt, tekli-çiftli kurulum destekler.",
+        "Diğer yüklerle birlikte çalışabilir, H30 serisi ile aynı anda açısal kontrol mümkündür."
+      ]
+    }, 
+    {
+      "id": 205,
+      "name": "DJI Zenmuse V1 Ses Yayın Ünitesi (Voice Speaker)",
+      "title": "Hedeflenmiş Yüksek Sesli Yayın Sistemi",
+      "description": "Zenmuse V1, DJI drone platformları için geliştirilmiş, yüksek ses gücüne ve çok yönlü yayın modlarına sahip, hedeflenmiş sesli yayın sistemi sunan güçlü bir hoparlör modülüdür. Kalabalık yönetimi, kamu güvenliği bilgilendirmesi ve acil müdahale senaryoları için tasarlanmıştır.",
+      "images": [
+        "/marka-photos/dji/v1-1.png",
+        "/marka-photos/dji/v1-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "zenmuse-serisi",
+      "typeTitle": "Zenmuse Serisi Faydalı Yükler",
+      "specs": [
+        "127 dB maksimum ses şiddeti ile 500m’ye kadar etkili ses yayını sağlar.",
+        "Anlık sesli mesaj kaydı ve DJI Pilot 2 uygulaması üzerinden canlı yayın desteği sunar.",
+        "Metin-sese dönüşüm ile farklı ton ve hızda otomatik sesli komut yayını yapılabilir.",
+        "MP3 veya diğer ses dosyaları yüklenerek doğrudan hoparlör üzerinden oynatılabilir.",
+        "Ses yönlendirme özelliği sayesinde ses doğrudan hedefe yönlendirilebilir.",
+        "Gelişmiş çevresel gürültü azaltma ile net kayıt ve yayın sağlar.",
+        "Aşırı sıcaklık, akım ve enerji koruma sistemleri ile uzun ömürlü kullanım sunar.",
+        "DJI RC Plus ile tam entegre çalışır, pitch (eğim) açısı ile diğer yüklerle senkronize olabilir."
+      ]
+    },       
     {
       "id": 210,
       "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",

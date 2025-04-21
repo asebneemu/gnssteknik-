@@ -33,6 +33,8 @@ import KvkkPage from "./pages/KvkkPage"; // 👈 KVKK sayfanı içe aktar
 import BenewakeApplicationsPage from "./pages/BenewakeApplicationsPage";
 import IhaDjiPage from "./pages/IhaDjiPage";
 import DjiMainPage from "./pages/DjiMainPage";
+import ThreeDSurveyPage from "./pages/ThreeDSurveyPage";
+
 
 
 
@@ -61,6 +63,9 @@ function AppContent() {
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/kvkk" element={<KvkkPage />} /> {/* 👈 KVKK route'u burada */}
+
+        <Route path="/category/yazilim/3DSurvey" element={<ThreeDSurveyPage />} />
+        
 
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
