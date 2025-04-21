@@ -72,7 +72,7 @@ export default function HeaderBar() {
         </div>
 
         <div className="flex items-center space-x-6">
-          <div
+          {/* <div
             onClick={toggleLanguage}
             className="flex items-center space-x-1 cursor-pointer hover:text-blue-300 transition"
             title="Change Language"
@@ -81,7 +81,7 @@ export default function HeaderBar() {
             <span className="text-white text-sm">
               {language === "tr" ? "TR" : "EN"}
             </span>
-          </div>
+          </div> */}
 
           <HashLink smooth to="/#contact-form" className="flex items-center space-x-2 hover:opacity-80 focus:outline-none cursor-pointer">
             <FontAwesomeIcon icon={faEnvelope} className="text-xl md:text-base" />
