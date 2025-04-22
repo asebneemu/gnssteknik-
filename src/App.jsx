@@ -3,6 +3,7 @@ import { ActiveNavProvider } from "./context/ActiveNavContext";
 import { CompareProvider } from "./context/CompareContext";
 import { ThemeProvider } from "./context/ThemeContext";
 import { LanguageProvider } from "./context/LanguageContext";
+import { HelmetProvider } from "react-helmet-async";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -31,22 +32,19 @@ import SensorBenewakePage from "./pages/SensorBenewakePage";
 import ScrollToTop from "./components/ScrollToTop";
 import KvkkPage from "./pages/KvkkPage"; // 👈 KVKK sayfanı içe aktar
 import BenewakeApplicationsPage from "./pages/BenewakeApplicationsPage";
-import IhaDjiPage from "./pages/IhaDjiPage";
 import DjiMainPage from "./pages/DjiMainPage";
 import ThreeDSurveyPage from "./pages/ThreeDSurveyPage";
-
-
 
 
 function AppContent() {
   // 🔥 Arama aktifse navbar sabitliği iptal
   const [searching, setSearching] = useState(false);
 
-  // Path'leri sabit tutuyoruz
+  // SEO dostu URL'ler için düzenlemeler
   const categoryPath = "/category";
-  const categoryWithParamPath = `${categoryPath}/:category`;
-  const productListPath = `${categoryPath}/:category/:brand`;
-  const productDetailPath = `${categoryPath}/:category/:brand/:productId`;
+  const categoryWithParamPath = `${categoryPath}/:category`;  // Kategori URL'si
+  const productListPath = `${categoryPath}/:category/:brand`;  // Marka URL'si
+  const productDetailPath = `${categoryPath}/:category/:brand/:productName`;  // Ürün URL'si ismiyle düzenlendi
 
   return (
     <Router>
@@ -58,18 +56,18 @@ function AppContent() {
       <NavbarSecondary />
       <CompareButton />
 
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/kvkk" element={<KvkkPage />} /> {/* 👈 KVKK route'u burada */}
 
-        <Route path="/category/yazilim/3DSurvey" element={<ThreeDSurveyPage />} />
-        
+        {/* SEO Dostu URL'ler Eklenmiştir */}
+        <Route path="/category/yazilim/3dsurvey" element={<ThreeDSurveyPage />} /> {/* SEO dostu URL, boşluk yerine "-" kullanıldı */}
 
+        {/* Kategori sayfası URL'si */}
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
-        <Route path={productDetailPath} element={<ProductDetailPage />} />
+        <Route path={productDetailPath} element={<ProductDetailPage />} />  {/* Ürün ID yerine ürün ismiyle düzenlendi */}
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />
 
@@ -88,23 +86,23 @@ function AppContent() {
         <Route path="/applications" element={<ApplicationsPage />} />
         <Route path="/benewake-applications" element={<BenewakeApplicationsPage />} />
         <Route path="/sector/:id" element={<SectorDetailPage />} />
-   
-
-              </Routes>
+      </Routes>
     </Router>
   );
 }
 
 export default function App() {
   return (
-    <LanguageProvider>
-      <ActiveNavProvider>
-        <CompareProvider>
-          <ThemeProvider>
-            <AppContent />
-          </ThemeProvider>
-        </CompareProvider>
-      </ActiveNavProvider>
-    </LanguageProvider>
+    <HelmetProvider>
+      <LanguageProvider>
+        <ActiveNavProvider>
+          <CompareProvider>
+            <ThemeProvider>
+              <AppContent />
+            </ThemeProvider>
+          </CompareProvider>
+        </ActiveNavProvider>
+      </LanguageProvider>
+    </HelmetProvider>
   );
 }

@@ -18,7 +18,7 @@ const SenceiveSensorPage = () => {
       {/* Başlık */}
       <div className="text-center">
         <h1 className="text-4xl font-bold text-orange-600 mb-2">SENCEIVE - SENSOR</h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-4xl font-bold text-gray-700 mt-4">
           {language === "tr"
             ? "Yapı Sağlığı İzleme Sistemleri"
             : "Structural Health Monitoring Systems"}

@@ -44,7 +44,7 @@ const ProductCard = ({ product }) => {
           <button
             onClick={() =>
               navigate(
-                `/category/${product.category}/${product.brand}/${product.id}`
+                `/category/${product.category}/${product.brand}/${product.name.toLowerCase().replace(/\s+/g, '-')}`
               )
             }
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"

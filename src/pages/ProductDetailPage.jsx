@@ -2,8 +2,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
-export default function ProductDetailPage() {
-  const { category, brand, productId } = useParams();
+const ProductDetailPage = () => {
+  const { category, brand, productName } = useParams(); // URL parametrelerini alıyoruz
   const navigate = useNavigate();
   const { data } = useLanguage();
 
@@ -11,7 +11,7 @@ export default function ProductDetailPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0); // Sayfa yüklendiğinde en üste kaydır
   }, []);
 
   if (!data || !data.products) {
@@ -28,15 +28,12 @@ export default function ProductDetailPage() {
     );
   }
 
-  const normalizedCategory = category?.replace("/", "").toLowerCase() || "";
-  const normalizedBrand = brand?.replace("/", "").toLowerCase() || "";
-  const normalizedProductId = productId?.toString() || "";
-
+  // Ürünü bulmak için `name`, `category` ve `brand` değerlerini eşleştiriyoruz
   const product = data.products.find(
     (item) =>
-      item.id.toString() === normalizedProductId &&
-      item.category?.toLowerCase() === normalizedCategory &&
-      item.brand?.toLowerCase() === normalizedBrand
+      item.name.toLowerCase().replace(/\s+/g, '-') === productName &&
+      item.category.toLowerCase() === category.toLowerCase() &&
+      item.brand.toLowerCase() === brand.toLowerCase()
   );
 
   if (!product) {
@@ -109,10 +106,17 @@ export default function ProductDetailPage() {
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
             Teknik Özellikler
           </h2>
-          <ul className="space-y-2 text-sm text-gray-700">
-            {product.specs?.map((spec, i) => (
-              <li key={i}>✅ {spec}</li>
-            ))}
+          <ul className="space-y-2">
+            {product.specs && product.specs.length > 0 ? (
+              product.specs.map((spec, index) => (
+                <li key={index} className="text-gray-700 flex items-center">
+                  <span className="text-orange-500 mr-2">→</span> {/* Sağ ok simgesi */}
+                  {spec}
+                </li>
+              ))
+            ) : (
+              <li className="text-gray-500">Teknik özellikler mevcut değil.</li>
+            )}
           </ul>
         </div>
       </div>
@@ -135,4 +139,6 @@ export default function ProductDetailPage() {
       )}
     </div>
   );
-}
+};
+
+export default ProductDetailPage;

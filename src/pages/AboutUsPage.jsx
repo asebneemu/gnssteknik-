@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { useLanguage } from "../context/LanguageContext";
 
 const AboutUsSection = ({ title, paragraphs }) => (
@@ -128,6 +129,23 @@ export default function AboutUsPage() {
 
   return (
     <div className="py-10">
+      {/* SEO Meta Etiketleri */}
+      <Helmet>
+        <title>{language === "tr" ? "Hakkımızda - Şirketimiz" : "About Us - Our Company"}</title>
+        <meta
+          name="description"
+          content={
+            language === "tr"
+              ? "Şirketimiz hakkında bilgi edinin. Misyonumuz, vizyonumuz ve değerlerimiz hakkında daha fazla bilgiye ulaşın."
+              : "Learn about our company. Discover our mission, vision, and values."
+          }
+        />
+        <meta name="keywords" content="Hakkımızda, Şirketimiz, Misyon, Vizyon, Değerler, Ortaklar" />
+        <meta name="author" content="Şirket Adı" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+      {/* Sayfa İçeriği */}
       <AboutUsSection title={aboutUs.title} paragraphs={aboutUs.paragraphs} />
       <AboutUsSection title={vision.title} paragraphs={vision.paragraphs} />
       <AboutUsSection title={mission.title} paragraphs={mission.paragraphs} />

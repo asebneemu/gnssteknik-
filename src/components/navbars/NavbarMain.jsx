@@ -41,13 +41,16 @@ export default function NavbarMain({ searching }) {
     const basePath = "/category";
     const currentPath = location.pathname;
 
+    // URL'yi oluştururken `activeMainPath`'i tekrar etmiyoruz
+    const updatedPath = `${basePath}${path}`;
+
     if (activeMainPath === path) {
       navigate(basePath);
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
       localStorage.removeItem("activeMainPath"); // Seçimi sıfırla
     } else {
-      navigate(`${basePath}${path}`);
+      navigate(updatedPath);  // Sadece `path` ile yönlendir
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
       localStorage.setItem("activeMainPath", path); // Seçimi kaydet
@@ -86,8 +89,8 @@ export default function NavbarMain({ searching }) {
                 />
               }
               name={item.name}
-              path={`/category${item.path}`}
-              onClick={() => handleMainNavClick(item.path)}
+              path={`/category${item.path}`}  // Path'i SEO dostu hale getirdim
+              onClick={() => handleMainNavClick(item.path)}  // Buradaki path'i doğru şekilde yönlendiriyoruz
               className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 ${
                 isActive
                   ? "bg-orange-50 text-orange-600 border-2 border-orange-400 shadow"

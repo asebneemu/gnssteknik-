@@ -30,7 +30,7 @@ const SensorBenewakePage = () => {
         <h1 className="text-4xl font-bold text-orange-600 mb-2">
           BENEWAKE - SENSOR
         </h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-4xl font-bold text-gray-700">
           Yüksek Hassasiyetli Akıllı Sensör Sistemleri
         </p>
       </div>

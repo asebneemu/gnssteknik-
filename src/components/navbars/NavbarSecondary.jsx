@@ -51,11 +51,19 @@ export default function NavbarSecondary() {
     }
   }, [activeMainPath, newNavbar]);
 
-  const handleSecondaryNavClick = (brandPath) => {
+  const handleSecondaryNavClick = (brandPath, brandName) => {
     if (activeMainPath) {
-      const targetPath = `/category${activeMainPath}${brandPath}`;
+      // SEO dostu URL yapısı: Eğer activeMainPath zaten brandPath içinde varsa, activeMainPath'i tekrar etmiyoruz
+      let targetPath = `/category${activeMainPath}/${brandName.toLowerCase().replace(/\s+/g, '-')}`;
+
+      // Eğer activeMainPath, brandPath içinde varsa, targetPath'i yalnızca brandPath ile oluşturuyoruz
+      if (brandPath.includes(activeMainPath)) {
+        targetPath = `/category${brandPath}/${brandName.toLowerCase().replace(/\s+/g, '-')}`;
+      }
+
       const currentPath = location.pathname;
 
+      // URL'yi kontrol ediyoruz, eğer aynıysa, secondary path'i sıfırlıyoruz
       if (currentPath === targetPath) {
         navigate(`/category${activeMainPath}`);
         setActiveSecondaryPath(null);
@@ -63,7 +71,7 @@ export default function NavbarSecondary() {
       } else {
         setActiveSecondaryPath(brandPath);
         localStorage.setItem("activeSecondaryPath", brandPath); // Seçimi kaydet
-        navigate(targetPath);
+        navigate(targetPath);  // SEO dostu name ile yönlendir
       }
 
       setFilteredProducts([]);
@@ -99,8 +107,8 @@ export default function NavbarSecondary() {
                 />
               }
               name={item.name}
-              path={`/category${activeMainPath}${item.path}`}
-              onClick={() => handleSecondaryNavClick(item.path)}
+              path={`/category${activeMainPath}${item.path}`} // Path'i SEO dostu hale getirdim
+              onClick={() => handleSecondaryNavClick(item.path, item.name)} // `item.name` parametre olarak eklendi
               className={`text-sm lg:text-base w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 transition-all duration-300 ${
                 isActive
                   ? "bg-yellow-50 text-yellow-600 border-2 border-yellow-400 shadow"
@@ -116,7 +124,7 @@ export default function NavbarSecondary() {
         {filteredBrands.map((item, index) => (
           <button
             key={index}
-            onClick={() => handleSecondaryNavClick(item.path)}
+            onClick={() => handleSecondaryNavClick(item.path, item.name)} // `item.name` parametre olarak eklendi
             className={`text-xs text-center py-2 px-1 rounded-md border border-gray-200 ${
               activeSecondaryPath === item.path
                 ? "bg-yellow-100 text-yellow-600"

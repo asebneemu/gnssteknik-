@@ -1,5 +1,6 @@
 import { useLanguage } from "../context/LanguageContext";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async"; // React Helmet'ı içeri aktarın
 
 export default function ApplicationsPage() {
   const { data, language } = useLanguage(); // Dil bilgisi alınıyor
@@ -10,6 +11,17 @@ export default function ApplicationsPage() {
     language === "tr" ? "Uygulama Alanları" : "Application Areas";
   const moreInfoText = language === "tr" ? "Daha Fazla Bilgi →" : "Learn More →";
 
+  // SEO için meta açıklama ve anahtar kelimeler
+  const metaDescription =
+    language === "tr"
+      ? "GNSS Teknik'in uygulama alanlarını keşfedin. İnşaat, haritacılık, mühendislik ve daha birçok sektördeki çözümlerimiz hakkında bilgi alın."
+      : "Discover GNSS Teknik's application areas. Learn about our solutions in construction, surveying, engineering, and many other industries.";
+
+  const metaKeywords =
+    language === "tr"
+      ? "Uygulama Alanları, GNSS, Haritacılık, İnşaat, Mühendislik, Teknoloji"
+      : "Application Areas, GNSS, Surveying, Construction, Engineering, Technology";
+
   return (
     <motion.div
       className="max-w-7xl mx-auto px-4 md:px-10 pb-20 pt-10"
@@ -17,10 +29,25 @@ export default function ApplicationsPage() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
+      {/* ✅ SEO Meta Etiketleri */}
+      <Helmet>
+        <title>
+          {language === "tr"
+            ? "Uygulama Alanları - GNSS Teknik"
+            : "Application Areas - GNSS Teknik"}
+        </title>
+        <meta name="description" content={metaDescription} />
+        <meta name="keywords" content={metaKeywords} />
+        <meta name="author" content="GNSS Teknik" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+      {/* Başlık */}
       <h1 className="text-3xl md:text-4xl font-bold text-center text-orange-600 mb-12">
         {applicationsTitle}
       </h1>
 
+      {/* Uygulama Alanları */}
       <div className="w-full flex justify-center">
         <div className="w-[90%] grid grid-cols-1 md:grid-cols-2 gap-8">
           {applications.map((app, i) => (

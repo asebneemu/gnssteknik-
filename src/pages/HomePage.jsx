@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async"; // React Helmet'ı içeri aktarın
 import Banner from "../components/homepage/Banner";
 import Slider from "../components/homepage/Slider";
 import ContactSection from "../components/homepage/ContactSection";
@@ -24,6 +25,7 @@ export default function HomePage() {
   const brands = newNavbar.map((brand) => ({
     name: brand.name,
     logo: brand.icon,
+    path: `/brands/${brand.name.toLowerCase().replace(/\s+/g, '-')}`, // SEO dostu URL'ler eklenmiştir
   }));
 
   // ✅ Spesifik içerikleri çek
@@ -33,6 +35,19 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* ✅ SEO Başlık ve Meta Açıklama Eklenmiştir */}
+      <Helmet>
+        <title>GNSS Teknik | GNSS, Total Station, Lidar ve İHA Çözümleri</title>
+        <meta
+          name="description"
+          content="GNSS Teknik, profesyonel GNSS, Total Station, Lidar, İHA çözümleri sunar. İnşaat, haritacılık, mühendislik ve daha pek çok alanda yüksek hassasiyetli teknolojilerle veri toplama çözümleri."
+        />
+        <meta name="keywords" content="GNSS, Total Station, Lidar, İHA, Haritacılık, Mühendislik, Teknoloji" />
+        <meta name="author" content="GNSS Teknik" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+      {/* ✅ Banner */}
       <Banner />
 
       {/* ✅ Marketing Section */}
@@ -77,8 +92,6 @@ export default function HomePage() {
         photos={brands}
       />
 
-      {/*<InfoCards items={infoCards} />*/}
-
       {/* ✅ Kategoriler için MiddleSection */}
       {categoriesSection && (
         <MiddleSection
@@ -94,8 +107,7 @@ export default function HomePage() {
         />
       )}
 
-      {/*<TeamCards team={teamCards} />*/}
-      {/*<TestimonialSlider testimonials={testimonials} />*/}
+      {/* ✅ İletişim ve Sosyal Medya */}
       <ContactSection />
       <SocialSidebar socialLinks={socialLinks} />
     </div>
