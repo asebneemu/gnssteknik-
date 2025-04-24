@@ -20,14 +20,7 @@ export default function NavbarSecondary() {
   const { data } = useLanguage();
   const { newNavbar = [] } = data;
 
-  // Sayfa yüklendiğinde localStorage'dan aktif secondary path'i yükle
-  useEffect(() => {
-    const savedSecondaryPath = localStorage.getItem("activeSecondaryPath");
-    if (savedSecondaryPath) {
-      setActiveSecondaryPath(savedSecondaryPath);
-    }
-  }, [setActiveSecondaryPath]);
-
+  // URL değiştiğinde activeMainPath ve activeSecondaryPath'i ayarla
   useEffect(() => {
     const basePath = `/category${activeMainPath || ""}`;
     if (location.pathname === "/") {
@@ -39,8 +32,9 @@ export default function NavbarSecondary() {
       const secondary = pathParts.length > 0 ? `/${pathParts[0]}` : null;
       setActiveSecondaryPath(secondary);
     }
-  }, [location.pathname]);
+  }, [location.pathname, activeMainPath, setActiveMainPath, setActiveSecondaryPath]);
 
+  // activeMainPath değiştiğinde markaları filtrele
   useEffect(() => {
     if (activeMainPath) {
       setFilteredBrands(
@@ -53,25 +47,23 @@ export default function NavbarSecondary() {
 
   const handleSecondaryNavClick = (brandPath, brandName) => {
     if (activeMainPath) {
-      // SEO dostu URL yapısı: Eğer activeMainPath zaten brandPath içinde varsa, activeMainPath'i tekrar etmiyoruz
+      // SEO dostu URL yapısı
       let targetPath = `/category${activeMainPath}/${brandName.toLowerCase().replace(/\s+/g, '-')}`;
 
-      // Eğer activeMainPath, brandPath içinde varsa, targetPath'i yalnızca brandPath ile oluşturuyoruz
       if (brandPath.includes(activeMainPath)) {
         targetPath = `/category${brandPath}/${brandName.toLowerCase().replace(/\s+/g, '-')}`;
       }
 
       const currentPath = location.pathname;
 
-      // URL'yi kontrol ediyoruz, eğer aynıysa, secondary path'i sıfırlıyoruz
       if (currentPath === targetPath) {
         navigate(`/category${activeMainPath}`);
         setActiveSecondaryPath(null);
-        localStorage.removeItem("activeSecondaryPath"); // Seçimi sıfırla
+        sessionStorage.removeItem("activeSecondaryPath"); // Seçimi sıfırla
       } else {
         setActiveSecondaryPath(brandPath);
-        localStorage.setItem("activeSecondaryPath", brandPath); // Seçimi kaydet
-        navigate(targetPath);  // SEO dostu name ile yönlendir
+        sessionStorage.setItem("activeSecondaryPath", brandPath); // Seçimi kaydet
+        navigate(targetPath);
       }
 
       setFilteredProducts([]);
@@ -107,8 +99,8 @@ export default function NavbarSecondary() {
                 />
               }
               name={item.name}
-              path={`/category${activeMainPath}${item.path}`} // Path'i SEO dostu hale getirdim
-              onClick={() => handleSecondaryNavClick(item.path, item.name)} // `item.name` parametre olarak eklendi
+              path={`/category${activeMainPath}${item.path}`}
+              onClick={() => handleSecondaryNavClick(item.path, item.name)}
               className={`text-sm lg:text-base w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 transition-all duration-300 ${
                 isActive
                   ? "bg-yellow-50 text-yellow-600 border-2 border-yellow-400 shadow"
@@ -124,7 +116,7 @@ export default function NavbarSecondary() {
         {filteredBrands.map((item, index) => (
           <button
             key={index}
-            onClick={() => handleSecondaryNavClick(item.path, item.name)} // `item.name` parametre olarak eklendi
+            onClick={() => handleSecondaryNavClick(item.path, item.name)}
             className={`text-xs text-center py-2 px-1 rounded-md border border-gray-200 ${
               activeSecondaryPath === item.path
                 ? "bg-yellow-100 text-yellow-600"

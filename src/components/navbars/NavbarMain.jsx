@@ -19,41 +19,42 @@ export default function NavbarMain({ searching }) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Sayfa yüklendiğinde localStorage'dan aktif yolu yükle
+  // Sayfa yüklendiğinde veya URL değiştiğinde activeMainPath'i ayarla
   useEffect(() => {
-    const savedPath = localStorage.getItem("activeMainPath");
-    if (savedPath) {
-      setActiveMainPath(savedPath);
+    const pathParts = location.pathname.split("/").filter(Boolean); // URL'yi parçala
+    if (pathParts[1]) {
+      setActiveMainPath(`/${pathParts[1]}`); // Main path'i ayarla
+    } else {
+      setActiveMainPath(null); // Eğer main path yoksa sıfırla
     }
-  }, [setActiveMainPath]);
+  }, [location.pathname, setActiveMainPath]);
 
   // Başka bir sayfaya gidildiğinde seçimleri sıfırla
   useEffect(() => {
     if (!location.pathname.startsWith("/category")) {
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
-      localStorage.removeItem("activeMainPath");
-      localStorage.removeItem("activeSecondaryPath");
+      sessionStorage.removeItem("activeMainPath");
+      sessionStorage.removeItem("activeSecondaryPath");
     }
   }, [location.pathname, setActiveMainPath, setActiveSecondaryPath]);
 
   const handleMainNavClick = (path) => {
     const basePath = "/category";
-    const currentPath = location.pathname;
-
-    // URL'yi oluştururken `activeMainPath`'i tekrar etmiyoruz
     const updatedPath = `${basePath}${path}`;
 
     if (activeMainPath === path) {
+      // Eğer aynı path'e tıklanırsa seçimleri sıfırla
       navigate(basePath);
       setActiveMainPath(null);
       setActiveSecondaryPath(null);
-      localStorage.removeItem("activeMainPath"); // Seçimi sıfırla
+      sessionStorage.removeItem("activeMainPath"); // Seçimi sıfırla
     } else {
-      navigate(updatedPath);  // Sadece `path` ile yönlendir
+      // Yeni bir path seçildiğinde secondaryNavbar'ı güncelle
+      navigate(updatedPath);
       setActiveMainPath(path);
       setActiveSecondaryPath(null);
-      localStorage.setItem("activeMainPath", path); // Seçimi kaydet
+      sessionStorage.setItem("activeMainPath", path); // Seçimi kaydet
     }
 
     setFilteredProducts([]);
@@ -89,8 +90,8 @@ export default function NavbarMain({ searching }) {
                 />
               }
               name={item.name}
-              path={`/category${item.path}`}  // Path'i SEO dostu hale getirdim
-              onClick={() => handleMainNavClick(item.path)}  // Buradaki path'i doğru şekilde yönlendiriyoruz
+              path={`/category${item.path}`} // Path'i SEO dostu hale getirdim
+              onClick={() => handleMainNavClick(item.path)} // Buradaki path'i doğru şekilde yönlendiriyoruz
               className={`text-sm xl:text-lg transition-all w-full h-full flex flex-col items-center justify-center rounded-xl px-4 py-3 ${
                 isActive
                   ? "bg-orange-50 text-orange-600 border-2 border-orange-400 shadow"

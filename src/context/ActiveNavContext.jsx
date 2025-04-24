@@ -1,12 +1,36 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 const ActiveNavContext = createContext();
 
 export const ActiveNavProvider = ({ children }) => {
   const [activeMainPath, setActiveMainPath] = useState(null);
   const [activeSecondaryPath, setActiveSecondaryPath] = useState(null);
-  const [navbarsVisible, setNavbarsVisible] = useState(true); // 🔥 Yeni state
-  const [filteredProducts, setFilteredProducts] = useState([]); // 🔥 Yeni state
+  const [navbarsVisible, setNavbarsVisible] = useState(true);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+
+  // Sayfa yüklendiğinde seçimleri sessionStorage'dan al
+  useEffect(() => {
+    const savedMainPath = sessionStorage.getItem("activeMainPath");
+    const savedSecondaryPath = sessionStorage.getItem("activeSecondaryPath");
+
+    if (savedMainPath) setActiveMainPath(savedMainPath);
+    if (savedSecondaryPath) setActiveSecondaryPath(savedSecondaryPath);
+  }, []);
+
+  // Seçimler değiştiğinde sessionStorage'a kaydet
+  useEffect(() => {
+    if (activeMainPath) {
+      sessionStorage.setItem("activeMainPath", activeMainPath);
+    } else {
+      sessionStorage.removeItem("activeMainPath");
+    }
+
+    if (activeSecondaryPath) {
+      sessionStorage.setItem("activeSecondaryPath", activeSecondaryPath);
+    } else {
+      sessionStorage.removeItem("activeSecondaryPath");
+    }
+  }, [activeMainPath, activeSecondaryPath]);
 
   return (
     <ActiveNavContext.Provider
@@ -16,9 +40,9 @@ export const ActiveNavProvider = ({ children }) => {
         activeSecondaryPath,
         setActiveSecondaryPath,
         navbarsVisible,
-        setNavbarsVisible, // ✅ Navbarları yönetmek için
-        filteredProducts, // ✅ Yeni state
-        setFilteredProducts, // ✅ Güncelleme fonksiyonu
+        setNavbarsVisible,
+        filteredProducts,
+        setFilteredProducts,
       }}
     >
       {children}

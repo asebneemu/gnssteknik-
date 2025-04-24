@@ -1,6 +1,7 @@
 import React from "react";
 import { useLanguage } from "../context/LanguageContext";
 import IhaDjiPage from "./IhaDjiPage";
+import IhaDjiPage2 from "./IhaDjiPage2"; // IhaDjiPage2 dosyasını ekliyoruz
 import ProductCard from "../components/product/ProductCard";
 
 const DjiMainPage = () => {
@@ -13,7 +14,7 @@ const DjiMainPage = () => {
     (item) =>
       item.category?.toLowerCase() === "iha" &&
       item.brand?.toLowerCase() === "dji" &&
-      item.id !== 149 // Dock 3'ü hariç tut
+      (item.id !== 149 && item.id !== 209 && item.id !== 208) // Dock 3'ü hariç tut
   );
 
   if (filtered.length === 0) return null;
@@ -69,22 +70,31 @@ const DjiMainPage = () => {
         renderedTypeTitles.add(product.typeTitle);
 
         return (
-          <div key={product.typeTitle} className="mb-10">
-            <h2 className="text-3xl font-bold text-center">
-              {product.typeTitle}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-              {groupItems.map((item) => (
-                <ProductCard key={item.id} product={item} />
-              ))}
+          <React.Fragment key={product.typeTitle}>
+            <div className="mb-10">
+              <h2 className="text-3xl font-bold text-center mb-10">
+                {product.typeTitle}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                {groupItems.map((item) => (
+                  <ProductCard key={item.id} product={item} />
+                ))}
+              </div>
+              <div
+                className="h-[3px] bg-gradient-to-r from-gray-400 to-orange-500 mt-6"
+                style={{
+                  width: `${(groupItems.length % 4 || 4) * (100 / 4)}%`,
+                }}
+              ></div>
             </div>
-            <div
-              className="h-[3px] bg-gradient-to-r from-gray-400 to-orange-500 mt-6"
-              style={{
-                width: `${(groupItems.length % 4 || 4) * (100 / 4)}%`,
-              }}
-            ></div>
-          </div>
+
+            {/* IhaDjiPage2, sadece "Metan Gaz Tespit Serisi" için */}
+            {product.typeTitle === "Metan Gaz Tespit Serisi" && (
+              <div className="mb-16">
+                <IhaDjiPage2 />
+              </div>
+            )}
+          </React.Fragment>
         );
       })}
     </div>

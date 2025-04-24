@@ -1863,7 +1863,9 @@
       "description": "Üst düzey güvenlik ve gelişmiş otonom uçuş özellikleri sunan endüstriyel drone.",
       "images": [
         "/marka-photos/dji/m350-0.png",
-        "/marka-photos/dji/m350-1.png"
+        "/marka-photos/dji/m350-1.png",
+        "/marka-photos/dji/m350-2.png",
+        "/marka-photos/dji/m350-3.png"
       ],
       "category": "iha",
       "brand": "dji",
@@ -2201,7 +2203,68 @@
         "Aşırı sıcaklık, akım ve enerji koruma sistemleri ile uzun ömürlü kullanım sunar.",
         "DJI RC Plus ile tam entegre çalışır, pitch (eğim) açısı ile diğer yüklerle senkronize olabilir."
       ]
-    },       
+    },
+    {
+      "id": 208,
+      "name": "Matrice 4D",
+      "description": "Matrice 4D, zorlu hava koşullarında ve karmaşık görevlerde yüksek hassasiyetle çalışan, güçlü sensör entegrasyonu ve gelişmiş uçuş sistemleriyle donatılmış profesyonel bir drone çözümüdür.",
+      "images": [
+        "/marka-photos/dji/matrice4d-1.png",
+        "/marka-photos/dji/matrice4d-2.png",
+        "/marka-photos/dji/matrice4d-3.png",
+        "/marka-photos/dji/matrice4d-4.png",
+        "/marka-photos/dji/matrice4d-5.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "drone-solution",
+      "typeTitle": "Matrice 4D Serisi",
+      "specs": [
+        "Ağırlık: 185 kg (pil ve yedek bataryalar dahil), güçlü yapısı ile zorlu hava koşullarına dayanıklıdır.",
+        "Maksimum uçuş süresi: 6 saat, uzun süreli operasyonlar için üstün batarya performansı sunar.",
+        "Maksimum irtifa: 3000 m, yüksek irtifalarda bile stabil uçuş sağlamak için tasarlanmıştır.",
+        "Yük kapasitesi: 10 kg'a kadar taşıma kapasitesine sahip, ağır yüklerle çalışabilmek için mükemmeldir.",
+        "Gelişmiş sensör entegrasyonu ile hava-harita uyumluluğu sağlar, böylece hassas veri toplama işlemleri mümkündür.",
+        "Yüksek çözünürlüklü kamera ve lidar sistemi entegrasyonu sayesinde detaylı 3D haritalama yapılabilir.",
+        "Otomatik engel algılama ve otonom uçuş planlaması özellikleri ile riskli uçuşlar güvenli hale getirilir.",
+        "Veri aktarımı için 10 Mbps hızında yüksek hızlı veri aktarım desteği ile hızlı veri toplama yapılır.",
+        "Çift GPS sistemli uçuş kontrolü ve hassas konum belirleme teknolojileri ile her zaman doğru uçuş verisi sağlanır.",
+        "IP67 su ve toz geçirmezlik sertifikasına sahip, bu da cihazın tozlu ve yağmurlu ortamlarda bile güvenle çalışmasını sağlar.",
+        "AES-256 şifreleme desteği ile verilerin güvenliği sağlanır ve veri kaybı riskleri ortadan kaldırılır.",
+        "Çift batarya sistemi ile uzun menzil uçuşları gerçekleştirilirken, her batarya değişiminden sonra hızlı şekilde operasyonlara geri dönülür.",
+        "Otomatik yazılım güncellemeleri ve sürekli algoritma geliştirmeleri ile her zaman en yeni teknolojilere sahip olursunuz.",
+        "Yüksek güvenlik önlemleri ile donatılmış uçuş sistemleri, her uçuşu güvenli ve verimli hale getirir.",
+        "Hızlı şarj özelliği ile 1 saat içerisinde %80 şarj kapasitesine ulaşılabilir, bu sayede kesintisiz operasyon sağlanır."
+      ]
+    }, 
+    {
+      "id": 209,
+      "name": "Matrice 4DT",
+      "description": "Matrice 4DT, lidar ve yüksek çözünürlüklü kamera entegrasyonu ile güçlü veri toplama ve analiz kapasitesine sahip, profesyonel bir drone çözümüdür.",
+      "images": [
+        "/marka-photos/dji/matrice4dt-1.png",
+        "/marka-photos/dji/matrice4dt-2.png",
+        "/marka-photos/dji/matrice4dt-3.png",
+        "/marka-photos/dji/matrice4dt-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "drone-solution",
+      "typeTitle": "Matrice 4D Serisi",
+      "specs": [
+        "Lidar ve yüksek çözünürlüklü kamera entegrasyonu sayesinde hassas 3D haritalama ve modelleme yapılabilir.",
+        "3D veri toplama ve analiz süreçleri için güçlü yazılım desteği ile maksimum verim elde edilir.",
+        "Maksimum uçuş süresi: 6 saat, uzun süreli veri toplama ve analiz için idealdir.",
+        "Çift batarya sistemi sayesinde kesintisiz veri toplama ve güvenli uçuş sağlanır.",
+        "Yüksek doğrulukla 3D veri toplama kapasitesine sahip olup, bu veriler harita yapımı ve modelleme işlemlerinde kullanılabilir.",
+        "Veri aktarımında şifreleme ve yüksek güvenlik standartları ile tüm veriler güvenli bir şekilde aktarılır.",
+        "Çift GPS sistemi ile yüksek hassasiyetli uçuş kontrolü sağlanır ve veri kaybı yaşanmaz.",
+        "Otomatik uçuş planlama ve engel algılama teknolojileri sayesinde riskli ortamlar güvenle geçilir.",
+        "Çoklu sensörler ile paralel veri toplama kapasitesine sahip, böylece farklı türdeki veriler aynı anda işlenebilir.",
+        "Hızlı veri işleme ve bulut tabanlı depolama entegrasyonu ile veriler her zaman erişilebilir ve güvenli olur.",
+        "Hızlı şarj özelliği ile batarya yeniden doldurulabilir ve operasyonlara hızla geri dönülür."
+      ]
+    },           
     {
       "id": 210,
       "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
