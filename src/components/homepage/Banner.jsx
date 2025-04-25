@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useState, useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,26 +11,43 @@ export default function Banner() {
   const { data, language } = useLanguage();
   const { newNavbar = [] } = data;
   const [swiperHeight, setSwiperHeight] = useState("auto");
+  const [isCalculating, setIsCalculating] = useState(true); // Yükseklik hesaplanıyor mu?
   const bannerRef = useRef(null);
+  const location = useLocation(); // Sayfa değişikliklerini dinlemek için
+
+  const calculateHeight = () => {
+    if (bannerRef.current) {
+      setIsCalculating(true); // Hesaplama başlıyor
+      const offset = bannerRef.current.offsetTop; // Banner'ın üstten uzaklığı
+      const height = window.innerHeight - offset; // Ekranın kalan yüksekliği
+      setSwiperHeight(`${height}px`);
+      setTimeout(() => setIsCalculating(false), 50); // Hesaplama tamamlandı
+    }
+  };
 
   useEffect(() => {
-    const handleResize = () => {
-      if (bannerRef.current) {
-        const offset = bannerRef.current.offsetTop; // banner yukarıdan kaç px aşağıda başlıyorsa
-        const height = window.innerHeight - offset; // ekranın kalan yüksekliği
-        setSwiperHeight(`${height}px`);
-      }
-    };
+    // İlk yüklemede ve pencere boyutu değiştiğinde banner yüksekliğini hesapla
+    calculateHeight();
+    window.addEventListener("resize", calculateHeight);
 
-    handleResize(); // ilk yüklemede
-    window.addEventListener("resize", handleResize); // pencere değişirse
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", calculateHeight);
   }, []);
+
+  useEffect(() => {
+    // Sayfa değiştiğinde banner yüksekliğini yeniden hesapla
+    setTimeout(() => {
+      calculateHeight();
+    }, 10); // DOM'un güncellenmesini beklemek için küçük bir gecikme ekledik
+  }, [location.pathname]); // location.pathname değiştiğinde çalıştır
 
   return (
     <div
       className="w-full overflow-hidden relative banner-slider"
       ref={bannerRef}
+      style={{
+        transition: "opacity 0.3s ease-in-out, height 0.3s ease-in-out",
+        opacity: isCalculating ? 0 : 1, // Yükseklik hesaplanırken görünmez yap
+      }}
     >
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

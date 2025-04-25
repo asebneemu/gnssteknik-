@@ -588,8 +588,8 @@
     },
     {
       "id": 18,
-      "name": "STEC SPOD Akıllı GNSS Sensör",
-      "description": "Ultra kompakt, IMU destekli, 2W radyo modemli, yüksek çözünürlüklü kamera özellikli GNSS çözümü: SPOD.",
+      "name": "STEC S POD Akıllı GNSS Kontrol Ünitesi",
+      "description": "STEC S POD, ultra kompakt tasarımı ve gelişmiş özellikleri ile sahada veri toplama ve kontrol ünitesi olarak kullanılan bir cihazdır.",
       "images": [
         "/marka-photos/stec/spod-0.png",
         "/marka-photos/stec/spod-1.png"
@@ -599,20 +599,30 @@
       "type": "control-unit-software",
       "typeTitle": "Kontrol Üniteleri ve Yazılımlar",
       "specs": [
-        "1,500+ kanal desteği ile tüm GNSS uydu sistemlerini eş zamanlı takip eder.",
-        "Gelişmiş IMU sensörü ile eğimli ölçümlerde otomatik düzeltme sağlar.",
-        "Ultra yüksek çözünürlüklü kamera ile fotogrametrik aplikasyonlara olanak tanır.",
-        "IP68 koruma sınıfı ile zorlu saha koşullarında maksimum dayanıklılık sağlar.",
-        "15 saate kadar kesintisiz çalışma süresi sunan 10.800 mAh batarya kapasitesine sahiptir.",
-        "S-Link Pro ile 20 km’ye kadar RTK yayını desteği sunar.",
-        "EZtilt 2.0 özelliği ile 60° eğime kadar kalibrasyon gerektirmeden ölçüm yapılabilir.",
-        "Yalnızca 950 gr ağırlığı ile sahada maksimum taşınabilirlik sunar.",
-        "5G modem ve e-SIM desteği ile küresel bağlantı uyumluluğu sağlar.",
-        "8 GB dahili hafıza ve 128 GB’a kadar microSD kart desteği ile veri depolama kapasitesi genişletilebilir.",
-        "Android, iOS ve Windows platformlarıyla tam uyumludur.",
-        "Yüksek çözünürlüklü kamera verileriyle harici fotogrametri yazılımlarına doğrudan entegre olabilir."
+        "İşlemci: MT8768, 8 çekirdekli 2.0 GHz",
+        "İşletim Sistemi: Android 11",
+        "RAM: 4GB",
+        "ROM: 64GB",
+        "Ekran: 5.5” Corning Gorilla Glass 3, 1080*1920 çözünürlük",
+        "Arka Kamera: 13MP, Otomatik Odaklama, LED Flaş",
+        "Batarya: Li-on, 9000mAh, 3.85V",
+        "Çalışma Süresi: 17 saat",
+        "Şarj Süresi: <5 saat",
+        "Wi-Fi: 2.4G/5G, 802.11 a/b/g/n/ac",
+        "Bluetooth: 2.1+EDR/3.0/4.1LE/4.2/5.0 BLE",
+        "SD Kart: Maksimum 512GB",
+        "USB: Type C",
+        "Boyutlar: 225mm*86mm*22.5mm",
+        "Ağırlık: 440g",
+        "Çalışma Sıcaklığı: -30°C - +65°C",
+        "Depolama Sıcaklığı: -49°C - +80°C",
+        "Su ve Toz Geçirmezlik: IP67",
+        "Şok Dayanıklılığı: 1.5m yüksekliğinden beton zemine düşmeye dayanıklı",
+        "Nem: %5-%95, yoğuşmasız",
+        "GNSS Takibi: GPS, GLONASS, BEIDOU uydu sistemi",
+        "Takip Hassasiyeti: 1-3m"
       ]
-    },
+    },    
     {
       "id": 20,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
@@ -3960,9 +3970,14 @@
         "Gerçek zamanlı görüntüleme ve artırılmış gerçeklik (AR) ile aplikasyon deneyimi sunar.",
         "CAD dosyalarını arka plan katmanı olarak kullanarak doğrudan nokta toplama, aplikasyon, düzenleme ve hesaplama imkanı tanır.",
         "Hazır kod ve giriş sistemi ile harita çizimini basit ve verimli hale getirir.",
-        "Kullanıcı dostu arayüzü sayesinde saha operasyonlarını kolaylaştırır."
+        "Kullanıcı dostu arayüzü sayesinde saha operasyonlarını kolaylaştırır.",
+        "Android işletim sistemi ile uyumlu çalışır.",
+        "Çeşitli dosya formatlarını destekler.",
+        "Veri yönetimi ve raporlama özellikleri sunar.",
+        "Saha koşullarına dayanıklı tasarım.",
+        "Çoklu dil desteği ile geniş kullanıcı kitlesine hitap eder."
       ]
-    },    
+    },      
     {
       "id": 990,
       "name": "DJI FlightHub 2 Komuta ve Görev Yönetim Yazılımı",
