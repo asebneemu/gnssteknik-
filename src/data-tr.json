@@ -3259,7 +3259,7 @@
       "category": "sensor",
       "brand": "senceive",
       "type": "tilt-sensor",
-      "typeTitle": "Eğilme Sensörleri",
+      "typeTitle": "3 Eksenli Hareket Sensörleri",
       "technology": ["flatmesh"],
       "specs": [
         "±3° veya ±10° aralık seçenekleriyle eğim ölçümü yapabilir.",
@@ -3283,7 +3283,7 @@
       "category": "sensor",
       "brand": "senceive",
       "type": "tilt-sensor",
-      "typeTitle": "Eğilme Sensörleri",
+      "typeTitle": "3 Eksenli Hareket Sensörleri",
       "technology": ["flatmesh", "geowan"],
       "specs": [
         "±3°, ±5° veya ±10° eğim aralığı opsiyonları sunar.",
@@ -3306,7 +3306,7 @@
       "category": "sensor",
       "brand": "senceive",
       "type": "tilt-sensor",
-      "typeTitle": "Eğilme Sensörleri",
+      "typeTitle": "3 Eksenli Hareket Sensörleri",
       "technology": ["flatmesh", "geowan"],
       "specs": [
         "Farklı uzunluklarda alüminyum gövde seçeneği mevcuttur.",
@@ -3328,8 +3328,8 @@
       ],
       "category": "sensor",
       "brand": "senceive",
-      "type": "displacement-sensor",
-      "typeTitle": "Yer Değiştirme Sensörleri",
+      "type": "tilt-sensor",
+      "typeTitle": "3 Eksenli Hareket Sensörleri",
       "technology": ["flatmesh", "geowan"],
       "specs": [
         "0.01 mm çözünürlükle yüksek hassasiyetli yer değiştirme ölçümü sağlar.",
