@@ -1673,6 +1673,30 @@
       ]
     },
     {
+      "id": 109,
+      "name": "CHCNAV TX73 3D Kepçe Rehberlik Sistemi",
+      "title": "TX73",
+      "description": "CHCNAV TX73, yüksek hassasiyetli GNSS alıcıları ve dayanıklı IMU sensörleriyle donatılmış, kepçe ucu pozisyonunu doğru bir şekilde belirleyerek doğrudan hedef yüzeylere kazı yapmayı sağlayan gelişmiş bir 3D rehberlik sistemidir.",
+      "images": [
+        "/marka-photos/chcnav/tx73-1.png",
+        "/marka-photos/chcnav/tx73-2.png"
+      ],
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "Kepçe ucu pozisyonunu hassas bir şekilde belirlemek için yüksek hassasiyetli GNSS alıcıları ve dayanıklı IMU sensörleri kullanır.",
+        "CAD destekli 3D görselleştirme ile projelerinizi gerçek zamanlı olarak izleyebilirsiniz.",
+        "Engcon ve Steelwrist tiltrotatorlar gibi çeşitli ek parçalarla entegrasyon sağlar.",
+        "Kullanıcı dostu arayüz ve hızlı kurulum sihirbazları sayesinde kolay kullanım sunar.",
+        "Sistem, Satel dış radyo modülü ve TT450S gibi çeşitli radyo protokollerini destekler.",
+        "Farklı dosya formatlarını (.dc, .cal, .jxl, .lok, .loc) ve küresel koordinat sistemlerini destekler.",
+        "IP68 sınıfı metal tabanlı GNSS anteni, IP69K sınıfı IMU sensörü ve IP65 sınıfı 10.1\" dokunmatik ekranlı Android tablet içerir.",
+        "MC300 alıcı ve IS300 IMU sensörü, endüstriyel sınıf dayanıklılığa sahiptir.",
+        "OTA (Over-the-Air) güncellemeleri ile sistem yazılımını uzaktan güncelleyebilirsiniz.",
+        "MCSite bulut platformu üzerinden uzaktan sorun giderme ve veri senkronizasyonu yapılabilir."
+      ]
+    },
+    {
       "id": 110,
       "name": "CHCNAV TX63",
       "description": "Yüksek hassasiyetli makine kontrol sistemi.",
