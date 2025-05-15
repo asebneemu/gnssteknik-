@@ -86,7 +86,11 @@
       "name": "3DSurvey",
       "icon": "marka-icons/3DSURVEY.png",
       "path": "/3dsurvey",
-      "banner-photo": "marka-photos/3DSurvey-banner.png",
+      "bannerphotos": [
+      { "type": "video", "src": "marka-photos/3DSurvey-video-1.mp4", "duration": 6 },
+      { "type": "video", "src": "marka-photos/3DSurvey-video-2.mp4", "duration": 16 }
+      ],
+    
       "banner-description": "3DSurvey ile yüzey tarama çözümleri.",
       "banner-url": "https://www.3DSurvey.com",
       "filter": ["/yazilim"]
@@ -95,7 +99,9 @@
       "name": "CHCNAV",
       "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
-      "banner-photo": "marka-photos/chcnav-6.png",
+      "bannerphotos": [
+      { "type": "image", "src": "marka-photos/chcnav-6.png" }
+    ],
       "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
@@ -113,7 +119,12 @@
       "name": "AUTEL",
       "icon": "marka-icons/autel.png",
       "path": "/autel",
-      "banner-photo": "marka-photos/autel-banner-d4.png",
+      "bannerphotos": [
+      { "type": "image", "src": "marka-photos/autel-banner-1.webp" },
+      { "type": "image", "src": "marka-photos/autel-banner-2.webp" },
+      { "type": "image", "src": "marka-photos/autel-banner-3.webp" },
+      { "type": "image", "src": "marka-photos/autel-banner-4.webp" }
+    ],
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
       "filter": ["/iha", "/aksesuar"]
@@ -122,7 +133,12 @@
       "name": "DJI",
       "icon": "marka-icons/dji.png",
       "path": "/dji",
-      "banner-photo": "marka-photos/dji-banner-d6.png",
+      "bannerphotos": [
+      { "type": "video", "src": "marka-photos/dji-banner-1.mp4", "duration": 10 },
+      { "type": "video", "src": "marka-photos/dji-banner-2.mp4", "duration": 6 },
+      { "type": "video", "src": "marka-photos/dji-banner-3.mp4", "duration": 13 }
+
+    ],
       "banner-description": "DJI ile profesyonel drone çözümleri.",
       "banner-url": "https://www.dji.com",
       "filter": ["/iha","/aksesuar"]
@@ -131,7 +147,10 @@
       "name": "SOKKIA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
-      "banner-photo": "marka-photos/sokkia-banner.png",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/sokkia-banner.mp4", "duration": 57 }
+  
+      ],
       "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
       "banner-url": "https://www.sokkia.com",
       "filter": ["/total-station", "/nivo", "/aksesuar"]
@@ -140,7 +159,9 @@
       "name": "STEC",
       "icon": "marka-icons/stec.png",
       "path": "/stec",
-      "banner-photo": "marka-photos/stec-banner.png",
+      "bannerphotos": [
+      { "type": "image", "src": "marka-photos/stec-banner.jpg" }
+    ],
       "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
       "banner-url": "https://www.stec.com",
       "filter": [
@@ -155,7 +176,11 @@
       "name": "SENCEIVE",
       "icon": "marka-icons/senceive.png",
       "path": "/senceive",
-      "banner-photo": "marka-photos/senceive-banner.png",
+      "bannerphotos": [
+        { "type": "image", "src": "marka-photos/senceive-banner-1.jpeg" },
+        { "type": "image", "src": "marka-photos/senceive-banner-2.jpeg" },
+        { "type": "image", "src": "marka-photos/senceive-banner-3.jpg" }
+      ],
       "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
       "banner-url": "https://www.senceive.com",
       "filter": ["/sensor", "/aksesuar"]
@@ -164,18 +189,18 @@
       "name": "BENEWAKE",
       "icon": "marka-icons/benewake.png",
       "path": "/benewake",
-      "banner-photo": "marka-photos/benewake-banner.png",
+      "bannerphotos": [
+        { "type": "image", "src": "marka-photos/benewake-banner-1.jpg" },
+        { "type": "image", "src": "marka-photos/benewake-banner-2.jpg" },
+        { "type": "image", "src": "marka-photos/benewake-banner-3.jpg" }
+      ],
       "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
       "banner-url": "https://www.benewake.com",
       "filter": ["/sensor", "/aksesuar"]
     }
   ],
   "socialLinks": [
-    {
-      "name": "Twitter",
-      "icon": "FaTwitter",
-      "url": "https://x.com/gnssteknik"
-    },
+
     {
       "name": "Instagram",
       "icon": "FaInstagram",
@@ -186,15 +211,21 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/company/gnss-teknik/"
     },
+    
+    {
+      "name": "YouTube",
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/user/gnssteknik"
+    },
     {
       "name": "Facebook",
       "icon": "FaFacebook",
       "url": "https://www.facebook.com/Gnssteknik"
     },
     {
-      "name": "YouTube",
-      "icon": "FaYoutube",
-      "url": "https://www.youtube.com/user/gnssteknik"
+      "name": "Twitter",
+      "icon": "FaTwitter",
+      "url": "https://x.com/gnssteknik"
     },
     {
       "name": "WhatsApp",
@@ -1319,36 +1350,13 @@
     },
     {
       "id": 80,
-      "name": "CHCNAV APACHE 3 Batimetri Cihazı",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiştir.",
+      "name": "CHCNAV APACHE 6 Batimetri Cihazı",
+      "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
       "images": [
-        "/marka-photos/chcnav/apache3-0.png",
-        "/marka-photos/chcnav/apache3-1.png",
-        "/marka-photos/chcnav/apache3-2.png"
-      ],
-      "category": "batimetri",
-      "brand": "chcnav",
-      "type": "usv-cozumleri",
-      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
-      "specs": [
-        "Entegre GNSS ve IMU ile hassas konumlandırma.",
-        "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
-        "IP67 su ve toz geçirmezlik standardı.",
-        "35 kg taşıma kapasitesi ve 6 saat pil ömrü.",
-        "200 kHz tek ışınlı eko sondaj desteği.",
-        "Macromolecule polyester karbon fiber gövde.",
-        "Android tabanlı kontrol sistemi ve 4G bağlantı."
-      ]
-    },
-    {
-      "id": 81,
-      "name": "CHCNAV APACHE 3 PRO Batimetri Cihazı",
-      "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için idealdir.",
-      "images": [
-        "/marka-photos/chcnav/apache3pro-0.png",
-        "/marka-photos/chcnav/apache3pro-1.png",
-        "/marka-photos/chcnav/apache3pro-2.png",
-        "/marka-photos/chcnav/apache3pro-3.png"
+        "/marka-photos/chcnav/apache6-0.png",
+        "/marka-photos/chcnav/apache6-1.png",
+        "/marka-photos/chcnav/apache6-2.png",
+        "/marka-photos/chcnav/apache6-3.png"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -1356,16 +1364,16 @@
       "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
-        "8 saat pil ömrü ve maksimum 5 m/s hız.",
-        "IP67 su ve toz geçirmezlik standardı.",
-        "35 kg taşıma kapasitesi ve 360° video desteği.",
-        "Macromolecule polyester karbon fiber gövde.",
-        "Entegre GNSS+IMU ile hassas konumlandırma.",
-        "Android tabanlı kontrol ve 4G bağlantı."
+        "6 saat pil ömrü ve maksimum 5 m/s hız.",
+        "IP65 su ve toz geçirmezlik standardı.",
+        "Android tabanlı kontrol ve 4G bağlantı.",
+        "15 kg ağırlık ve 60 kg taşıma kapasitesi.",
+        "Macromolecule polyester karbon fiber gövde ve üçlü gövde tasarımı.",
+        "Otomatik rota planlama ve veri işleme desteği."
       ]
     },
     {
-      "id": 82,
+      "id": 81,
       "name": "CHCNAV APACHE 4 Batimetri Cihazı",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 4, hidroğrafik ölçümler için optimize edilmiştir.",
       "images": [
@@ -1389,14 +1397,14 @@
       ]
     },
     {
-      "id": 83,
-      "name": "CHCNAV APACHE 6 Batimetri Cihazı",
-      "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
+      "id": 82,
+      "name": "CHCNAV APACHE 3 PRO Batimetri Cihazı",
+      "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için idealdir.",
       "images": [
-        "/marka-photos/chcnav/apache6-0.png",
-        "/marka-photos/chcnav/apache6-1.png",
-        "/marka-photos/chcnav/apache6-2.png",
-        "/marka-photos/chcnav/apache6-3.png"
+        "/marka-photos/chcnav/apache3pro-0.png",
+        "/marka-photos/chcnav/apache3pro-1.png",
+        "/marka-photos/chcnav/apache3pro-2.png",
+        "/marka-photos/chcnav/apache3pro-3.png"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -1404,12 +1412,35 @@
       "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
       "specs": [
         "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
-        "6 saat pil ömrü ve maksimum 5 m/s hız.",
-        "IP65 su ve toz geçirmezlik standardı.",
-        "Android tabanlı kontrol ve 4G bağlantı.",
-        "15 kg ağırlık ve 60 kg taşıma kapasitesi.",
-        "Macromolecule polyester karbon fiber gövde ve üçlü gövde tasarımı.",
-        "Otomatik rota planlama ve veri işleme desteği."
+        "8 saat pil ömrü ve maksimum 5 m/s hız.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "35 kg taşıma kapasitesi ve 360° video desteği.",
+        "Macromolecule polyester karbon fiber gövde.",
+        "Entegre GNSS+IMU ile hassas konumlandırma.",
+        "Android tabanlı kontrol ve 4G bağlantı."
+      ]
+    },
+    {
+      "id": 83,
+      "name": "CHCNAV APACHE 3 Batimetri Cihazı",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiştir.",
+      "images": [
+        "/marka-photos/chcnav/apache3-0.png",
+        "/marka-photos/chcnav/apache3-1.png",
+        "/marka-photos/chcnav/apache3-2.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "usv-cozumleri",
+      "typeTitle": "İnsansız Deniz Araçları (USV) Çözümleri",
+      "specs": [
+        "Entegre GNSS ve IMU ile hassas konumlandırma.",
+        "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "35 kg taşıma kapasitesi ve 6 saat pil ömrü.",
+        "200 kHz tek ışınlı eko sondaj desteği.",
+        "Macromolecule polyester karbon fiber gövde.",
+        "Android tabanlı kontrol sistemi ve 4G bağlantı."
       ]
     },
     {
@@ -1838,58 +1869,6 @@
         "Gimbal Yapısı: 3 eksenli gimbal",
         "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
       ]
-    },
-    {
-      "id": 160,
-      "name": "DJI Matrice 30 Endüstriyel Drone",
-      "title": "Kompakt ve Güçlü Endüstriyel Drone Çözümü",
-      "description": "DJI Matrice 30, taşınabilir gövdesi, gelişmiş uçuş güvenliği ve optik sensör sistemleriyle profesyonel görevlerde yüksek verimlilik sunan yeni nesil endüstriyel dronedur.",
-      "images": [
-        "/marka-photos/dji/m30-0.png",
-        "/marka-photos/dji/m30-1.png",
-        "/marka-photos/dji/m30-2.png",
-        "/marka-photos/dji/m30-3.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "matrice-30-serisi",
-      "typeTitle": "Matrice 30 Serisi",
-      "specs": [
-        "48 MP zoom kamera (5x–16x optik), 12 MP geniş açı kamera, lazer mesafe ölçer ve düşük ışık FPV kamera içerir.",
-        "Azami uçuş süresi 41 dakika, azami uçuş hızı 23 m/s ve azami kalkış irtifası 7000 m'dir.",
-        "IP55 hava koşullarına dayanıklılık ve -20°C ile +50°C çalışma sıcaklığı sayesinde zorlu ortamlarda çalışabilir.",
-        "DJI RC Plus kontrol cihazı ile IP54 korumalı, geniş ekranlı ve 6 saat kesintisiz saha kullanımı sağlar.",
-        "6 yönlü engel algılama sensörleri ile tam çevresel farkındalık ve uçuş güvenliği sunar.",
-        "OcuSync 3 Enterprise ile uzun menzilli, 4 antenli bağlantı sunar, DJI Cellular modülü desteklenir.",
-        "DJI Dock uyumluluğu ile otomatik görev planlaması ve uzaktan operasyon imkanı sağlar.",
-        "DJI FlightHub 2 ile bulut üzerinden canlı izleme, haritalama ve filo yönetimi desteklenir."
-      ]
-    }, 
-    {
-      "id": 161,
-      "name": "DJI Matrice 30T Termal Drone",
-      "title": "Entegre Termal Kameralı Gelişmiş Endüstriyel Drone",
-      "description": "DJI Matrice 30T, M30 modelinin termal kamera ile zenginleştirilmiş versiyonudur. Termal görüntüleme kabiliyeti ile arama kurtarma, denetim ve güvenlik uygulamalarında ideal çözümler sunar.",
-      "images": [
-        "/marka-photos/dji/m30t-0.png",
-        "/marka-photos/dji/m30t-1.png",
-        "/marka-photos/dji/m30t-2.png",
-        "/marka-photos/dji/m30t-3.png"
-      ],
-      "category": "iha",
-      "brand": "dji",
-      "type": "matrice-30-serisi",
-      "typeTitle": "Matrice 30 Serisi",
-      "specs": [
-        "640x512 çözünürlüklü termal kamera; ±2°C veya ±2% sıcaklık ölçüm hassasiyeti sunar.",
-        "48 MP zoom kamera, 12 MP geniş açı kamera, lazer mesafe ölçer ve FPV kamera ile çok yönlü görüntüleme yapılabilir.",
-        "41 dakikaya kadar uçuş süresi ve IP55 seviyesi ile zorlu koşullarda güvenli görev yapabilir.",
-        "-20°C ile +50°C arasında çalışma sıcaklığına dayanıklıdır.",
-        "DJI RC Plus kontrol ünitesi ile entegre kullanım, 6 saat kesintisiz saha operasyonu sağlar.",
-        "6 yönlü çarpışma önleyici sensörler ve yüksek stabilite ile karmaşık alanlarda güvenli uçuş yapılabilir.",
-        "DJI Pilot 2 yazılımı ile termal paletler, spot ölçüm ve sıcaklık analizi gibi termal özellikler aktif kullanılır.",
-        "DJI Dock uyumluluğu sayesinde tam otomatik görev planlaması ve merkezi yönetim sağlanır."
-      ]
     }, 
     {
       "id": 170,
@@ -2236,6 +2215,58 @@
         "Gelişmiş çevresel gürültü azaltma ile net kayıt ve yayın sağlar.",
         "Aşırı sıcaklık, akım ve enerji koruma sistemleri ile uzun ömürlü kullanım sunar.",
         "DJI RC Plus ile tam entegre çalışır, pitch (eğim) açısı ile diğer yüklerle senkronize olabilir."
+      ]
+    },
+    {
+      "id": 206,
+      "name": "DJI Matrice 30 Endüstriyel Drone",
+      "title": "Kompakt ve Güçlü Endüstriyel Drone Çözümü",
+      "description": "DJI Matrice 30, taşınabilir gövdesi, gelişmiş uçuş güvenliği ve optik sensör sistemleriyle profesyonel görevlerde yüksek verimlilik sunan yeni nesil endüstriyel dronedur.",
+      "images": [
+        "/marka-photos/dji/m30-0.png",
+        "/marka-photos/dji/m30-1.png",
+        "/marka-photos/dji/m30-2.png",
+        "/marka-photos/dji/m30-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-30-serisi",
+      "typeTitle": "Matrice 30 Serisi",
+      "specs": [
+        "48 MP zoom kamera (5x–16x optik), 12 MP geniş açı kamera, lazer mesafe ölçer ve düşük ışık FPV kamera içerir.",
+        "Azami uçuş süresi 41 dakika, azami uçuş hızı 23 m/s ve azami kalkış irtifası 7000 m'dir.",
+        "IP55 hava koşullarına dayanıklılık ve -20°C ile +50°C çalışma sıcaklığı sayesinde zorlu ortamlarda çalışabilir.",
+        "DJI RC Plus kontrol cihazı ile IP54 korumalı, geniş ekranlı ve 6 saat kesintisiz saha kullanımı sağlar.",
+        "6 yönlü engel algılama sensörleri ile tam çevresel farkındalık ve uçuş güvenliği sunar.",
+        "OcuSync 3 Enterprise ile uzun menzilli, 4 antenli bağlantı sunar, DJI Cellular modülü desteklenir.",
+        "DJI Dock uyumluluğu ile otomatik görev planlaması ve uzaktan operasyon imkanı sağlar.",
+        "DJI FlightHub 2 ile bulut üzerinden canlı izleme, haritalama ve filo yönetimi desteklenir."
+      ]
+    }, 
+    {
+      "id": 207,
+      "name": "DJI Matrice 30T Termal Drone",
+      "title": "Entegre Termal Kameralı Gelişmiş Endüstriyel Drone",
+      "description": "DJI Matrice 30T, M30 modelinin termal kamera ile zenginleştirilmiş versiyonudur. Termal görüntüleme kabiliyeti ile arama kurtarma, denetim ve güvenlik uygulamalarında ideal çözümler sunar.",
+      "images": [
+        "/marka-photos/dji/m30t-0.png",
+        "/marka-photos/dji/m30t-1.png",
+        "/marka-photos/dji/m30t-2.png",
+        "/marka-photos/dji/m30t-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "matrice-30-serisi",
+      "typeTitle": "Matrice 30 Serisi",
+      "specs": [
+        "640x512 çözünürlüklü termal kamera; ±2°C veya ±2% sıcaklık ölçüm hassasiyeti sunar.",
+        "48 MP zoom kamera, 12 MP geniş açı kamera, lazer mesafe ölçer ve FPV kamera ile çok yönlü görüntüleme yapılabilir.",
+        "41 dakikaya kadar uçuş süresi ve IP55 seviyesi ile zorlu koşullarda güvenli görev yapabilir.",
+        "-20°C ile +50°C arasında çalışma sıcaklığına dayanıklıdır.",
+        "DJI RC Plus kontrol ünitesi ile entegre kullanım, 6 saat kesintisiz saha operasyonu sağlar.",
+        "6 yönlü çarpışma önleyici sensörler ve yüksek stabilite ile karmaşık alanlarda güvenli uçuş yapılabilir.",
+        "DJI Pilot 2 yazılımı ile termal paletler, spot ölçüm ve sıcaklık analizi gibi termal özellikler aktif kullanılır.",
+        "DJI Dock uyumluluğu sayesinde tam otomatik görev planlaması ve merkezi yönetim sağlanır."
       ]
     },
     {
@@ -4095,9 +4126,7 @@
       "description": "Autel Entegre Komuta ve Kontrol Sistemi (Autel Integrated Command System (AICS)), çok rotorlu ve eVTOL insansız hava araçlarının görev planlama, canlı izleme, organizasyonel yönetim ve veri analizini tek bir bulut tabanlı platformda sunan kapsamlı bir UAV yönetim sistemidir.",
       "images": [
         "/marka-photos/autel/aics-1.png",
-        "/marka-photos/autel/aics-2.png",
-        "/marka-photos/autel/aics-3.png",
-        "/marka-photos/autel/aics-4.png"
+        "/marka-photos/autel/aics-2.png"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4122,7 +4151,8 @@
       "images": [
         "/marka-photos/autel/mapper-1.png",
         "/marka-photos/autel/mapper-2.png",
-        "/marka-photos/autel/mapper-3.png"
+        "/marka-photos/autel/mapper-3.png",
+        "/marka-photos/autel/mapper-4.png"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4147,8 +4177,7 @@
       "images": [
         "/marka-photos/chcnav/copro-1.png",
         "/marka-photos/chcnav/copro-2.png",
-        "/marka-photos/chcnav/copro-3.png",
-        "/marka-photos/chcnav/copro-4.png"
+        "/marka-photos/chcnav/copro-3.png"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -4174,8 +4203,7 @@
         "/marka-photos/chcnav/copre-1.png",
         "/marka-photos/chcnav/copre-2.png",
         "/marka-photos/chcnav/copre-3.png",
-        "/marka-photos/chcnav/copre-4.png",
-        "/marka-photos/chcnav/copre-5.png"
+        "/marka-photos/chcnav/copre-4.png"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -4223,8 +4251,8 @@
       "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
       "images": [
         "/marka-photos/chcnav/landstar8-0.png",
-        "/marka-photos/chcnav/landstar8-1.png",
-        "/marka-photos/chcnav/landstar8-2.png"
+        "/marka-photos/chcnav/landstar8-0.png",
+        "/marka-photos/chcnav/landstar8-1.png"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -4255,8 +4283,7 @@
       "images": [
         "/marka-photos/chcnav/cgo2-0.png",
         "/marka-photos/chcnav/cgo2-1.png",
-        "/marka-photos/chcnav/cgo2-2.png",
-        "/marka-photos/chcnav/cgo2-3.png"
+        "/marka-photos/chcnav/cgo2-2.png"
       ],
       "category": "gnss",
       "brand": "chcnav",

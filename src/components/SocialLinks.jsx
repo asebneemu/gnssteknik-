@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaWhatsapp, FaGlobe, FaFacebook } from "react-icons/fa";
-import data from "../data.json";
+import data from "../data-tr.json";
 
 const iconMap = {
   FaGlobe: FaGlobe,
@@ -34,7 +34,9 @@ const SocialSidebar = () => {
             className="relative group flex items-center"
           >
             {/* Açılan kutu - Normalde görünmez, hover ile açılır */}
-            <span className="absolute right-12 opacity-0 bg-gray-800 text-white text-sm px-3 py-1 rounded-lg shadow-lg transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-[-10px]">
+            <span
+              className="absolute right-12 bg-gray-800 text-white text-sm px-3 py-1 rounded-lg shadow-lg transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-[-10px] opacity-0 pointer-events-none"
+            >
               {link.name}
             </span>
 
