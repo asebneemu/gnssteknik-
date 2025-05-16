@@ -12,6 +12,7 @@ export default function Banner() {
   const { newNavbar = [] } = data;
   const [swiperHeight, setSwiperHeight] = useState("auto");
   const [isCalculating, setIsCalculating] = useState(true);
+  const [scrolled, setScrolled] = useState(false);
   const bannerRef = useRef(null);
   const location = useLocation();
 
@@ -19,7 +20,10 @@ export default function Banner() {
     if (bannerRef.current) {
       setIsCalculating(true);
       const offset = bannerRef.current.offsetTop;
-      const height = window.innerHeight - offset;
+      let height = window.innerHeight - offset;
+      if (scrolled) {
+        height = Math.min(height + 100, window.innerHeight);
+      }
       setSwiperHeight(`${height}px`);
       setTimeout(() => setIsCalculating(false), 50);
     }
@@ -28,30 +32,44 @@ export default function Banner() {
   useEffect(() => {
     calculateHeight();
     window.addEventListener("resize", calculateHeight);
-    return () => window.removeEventListener("resize", calculateHeight);
-  }, []);
+
+    const onScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 10 && !scrolled) {
+        setScrolled(true);
+      } else if (scrollTop <= 10 && scrolled) {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("resize", calculateHeight);
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, [scrolled]);
 
   useEffect(() => {
     setTimeout(() => {
       calculateHeight();
     }, 10);
-  }, [location.pathname]);
+  }, [location.pathname, scrolled]);
 
   return (
     <div
       className="w-full overflow-hidden relative banner-slider"
       ref={bannerRef}
       style={{
-        transition: "opacity 0.3s ease-in-out, height 0.3s ease-in-out",
+        transition: "opacity 0.3s ease-in-out, height 0.5s ease-in-out",
         opacity: isCalculating ? 0 : 1,
+        height: swiperHeight,
       }}
     >
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
-        style={{ height: swiperHeight }}
-        className="w-full"
+        className="w-full h-full"
         navigation={window.innerWidth >= 1024}
         pagination={{ clickable: true }}
         autoplay={
@@ -100,28 +118,6 @@ export default function Banner() {
         .banner-slider .swiper-button-prev {
           left: 10%;
         }
-
-        .banner-slider .swiper-pagination-bullet {
-          width: 20px;
-          height: 4px;
-          border-radius: 0;
-          background: gray;
-          transition: all 0.3s ease;
-        }
-
-        .banner-slider .swiper-pagination-bullet-active {
-          width: 40px;
-          background: black;
-        }
-
-        .media-fade {
-          opacity: 0;
-          transition: opacity 0.8s ease-in-out;
-        }
-
-        .media-show {
-          opacity: 1;
-        }
       `}</style>
     </div>
   );
@@ -130,6 +126,7 @@ export default function Banner() {
 function BrandBanner({ item }) {
   const { language } = useLanguage();
   const [mediaIndex, setMediaIndex] = useState(0);
+  const [previousMedia, setPreviousMedia] = useState(null);
   const [isFading, setIsFading] = useState(false);
   const mediaList = item.bannerphotos || [];
 
@@ -139,9 +136,10 @@ function BrandBanner({ item }) {
     const duration = current.type === "video" ? (current.duration || 10) * 1000 : 4000;
 
     setIsFading(true);
-    const fadeTimeout = setTimeout(() => setIsFading(false), 500);
+    const fadeTimeout = setTimeout(() => setIsFading(false), 1000);
 
     const timer = setTimeout(() => {
+      setPreviousMedia(current);
       setMediaIndex((prev) => (prev + 1) % mediaList.length);
     }, duration);
 
@@ -153,24 +151,30 @@ function BrandBanner({ item }) {
 
   const currentMedia = mediaList[mediaIndex];
 
+  const renderMedia = (media, zIndex, extraClass = "") => {
+    if (!media) return null;
+    return media.type === "video" ? (
+      <video
+        key={media.src + zIndex}
+        src={media.src}
+        className={`absolute inset-0 w-full h-full object-cover z-${zIndex} ${extraClass}`}
+        autoPlay
+        muted
+        playsInline
+      />
+    ) : (
+      <div
+        key={media.src + zIndex}
+        className={`absolute inset-0 w-full h-full bg-cover bg-center z-${zIndex} ${extraClass}`}
+        style={{ backgroundImage: `url(${media.src})` }}
+      />
+    );
+  };
+
   return (
-    <div className="w-full h-full bg-black relative flex items-center justify-center">
-      {currentMedia?.type === "video" ? (
-        <video
-          key={currentMedia.src}
-          src={currentMedia.src}
-          className={`w-full h-full object-cover absolute inset-0 media-fade ${!isFading ? "media-show" : ""}`}
-          autoPlay
-          muted
-          playsInline
-        />
-      ) : (
-        <div
-          key={currentMedia?.src}
-          className={`w-full h-full bg-cover bg-center absolute inset-0 media-fade ${!isFading ? "media-show" : ""}`}
-          style={{ backgroundImage: `url(${currentMedia?.src})` }}
-        />
-      )}
+    <div className="w-full h-full bg-black relative flex items-center justify-center overflow-hidden">
+      {renderMedia(previousMedia, 0)}
+      {renderMedia(currentMedia, 10, `${isFading ? "opacity-0" : "opacity-100"} transition-opacity duration-1000`)}
 
       <div
         className="bg-white bg-opacity-60 p-4 md:p-6 rounded-lg shadow-lg
@@ -179,7 +183,7 @@ function BrandBanner({ item }) {
         max-[1023px]:absolute max-[1023px]:top-4 max-[1023px]:left-4
         max-[1023px]:w-fit max-[1023px]:max-w-[80%] max-[1023px]:text-left
         max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:items-start
-        max-[1023px]:gap-1 flex flex-col items-start"
+        max-[1023px]:gap-1 flex flex-col items-start z-20"
       >
         <h2 className="text-xl md:text-2xl font-bold text-gray-800 text-left w-full">
           {item.name}

@@ -87,10 +87,18 @@
       "icon": "marka-icons/3DSURVEY.png",
       "path": "/3dsurvey",
       "bannerphotos": [
-      { "type": "video", "src": "marka-photos/3DSurvey-video-1.mp4", "duration": 6 },
-      { "type": "video", "src": "marka-photos/3DSurvey-video-2.mp4", "duration": 16 }
+        {
+          "type": "video",
+          "src": "marka-photos/3DSurvey-video-1.mp4",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/3DSurvey-video-2.mp4",
+          "duration": 16
+        }
       ],
-    
+
       "banner-description": "3DSurvey ile yüzey tarama çözümleri.",
       "banner-url": "https://www.3DSurvey.com",
       "filter": ["/yazilim"]
@@ -100,8 +108,27 @@
       "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
       "bannerphotos": [
-      { "type": "image", "src": "marka-photos/chcnav-6.png" }
-    ],
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v1.mp4",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v2.mp4",
+          "duration": 4
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v3.mp4",
+          "duration": 4
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v4.mp4",
+          "duration": 12
+        }
+      ],
       "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
@@ -120,11 +147,11 @@
       "icon": "marka-icons/autel.png",
       "path": "/autel",
       "bannerphotos": [
-      { "type": "image", "src": "marka-photos/autel-banner-1.webp" },
-      { "type": "image", "src": "marka-photos/autel-banner-2.webp" },
-      { "type": "image", "src": "marka-photos/autel-banner-3.webp" },
-      { "type": "image", "src": "marka-photos/autel-banner-4.webp" }
-    ],
+        { "type": "image", "src": "marka-photos/autel-banner-1.webp" },
+        { "type": "image", "src": "marka-photos/autel-banner-2.webp" },
+        { "type": "image", "src": "marka-photos/autel-banner-3.webp" },
+        { "type": "image", "src": "marka-photos/autel-banner-4.webp" }
+      ],
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
       "filter": ["/iha", "/aksesuar"]
@@ -134,22 +161,36 @@
       "icon": "marka-icons/dji.png",
       "path": "/dji",
       "bannerphotos": [
-      { "type": "video", "src": "marka-photos/dji-banner-1.mp4", "duration": 10 },
-      { "type": "video", "src": "marka-photos/dji-banner-2.mp4", "duration": 6 },
-      { "type": "video", "src": "marka-photos/dji-banner-3.mp4", "duration": 13 }
-
-    ],
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-1.mp4",
+          "duration": 10
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-2.mp4",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-3.mp4",
+          "duration": 13
+        }
+      ],
       "banner-description": "DJI ile profesyonel drone çözümleri.",
       "banner-url": "https://www.dji.com",
-      "filter": ["/iha","/aksesuar"]
+      "filter": ["/iha", "/aksesuar"]
     },
     {
       "name": "SOKKIA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/sokkia-banner.mp4", "duration": 57 }
-  
+        {
+          "type": "video",
+          "src": "marka-photos/sokkia-banner-1.mp4",
+          "duration": 57
+        }
       ],
       "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
       "banner-url": "https://www.sokkia.com",
@@ -160,17 +201,15 @@
       "icon": "marka-icons/stec.png",
       "path": "/stec",
       "bannerphotos": [
-      { "type": "image", "src": "marka-photos/stec-banner.jpg" }
-    ],
+        { "type": "image", "src": "marka-photos/stec-banner-p.jpg" },
+        { "type": "image", "src": "marka-photos/stec-banner-p1.JPG" },
+        { "type": "image", "src": "marka-photos/stec-banner.jpg" },
+        { "type": "image", "src": "marka-photos/stec-banner-p2.JPG" },
+        { "type": "image", "src": "marka-photos/stec-banner-p3.JPG" }
+      ],
       "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
       "banner-url": "https://www.stec.com",
-      "filter": [
-        "/gnss",
-        "/total-station",
-        "/nivo",
-        "/lidar",
-        "/aksesuar"
-      ]
+      "filter": ["/gnss", "/total-station", "/nivo", "/lidar", "/aksesuar"]
     },
     {
       "name": "SENCEIVE",
@@ -178,8 +217,11 @@
       "path": "/senceive",
       "bannerphotos": [
         { "type": "image", "src": "marka-photos/senceive-banner-1.jpeg" },
-        { "type": "image", "src": "marka-photos/senceive-banner-2.jpeg" },
-        { "type": "image", "src": "marka-photos/senceive-banner-3.jpg" }
+        {
+          "type": "video",
+          "src": "marka-photos/senceive-banner-v1.mp4",
+          "duration": 48
+        }
       ],
       "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
       "banner-url": "https://www.senceive.com",
@@ -190,9 +232,12 @@
       "icon": "marka-icons/benewake.png",
       "path": "/benewake",
       "bannerphotos": [
-        { "type": "image", "src": "marka-photos/benewake-banner-1.jpg" },
-        { "type": "image", "src": "marka-photos/benewake-banner-2.jpg" },
-        { "type": "image", "src": "marka-photos/benewake-banner-3.jpg" }
+        {
+          "type": "video",
+          "src": "marka-photos/benewake-banner-1.mp4",
+          "duration": 22
+        }
+
       ],
       "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
       "banner-url": "https://www.benewake.com",
@@ -200,7 +245,6 @@
     }
   ],
   "socialLinks": [
-
     {
       "name": "Instagram",
       "icon": "FaInstagram",
@@ -211,7 +255,7 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/company/gnss-teknik/"
     },
-    
+
     {
       "name": "YouTube",
       "icon": "FaYoutube",
@@ -653,7 +697,7 @@
         "GNSS Takibi: GPS, GLONASS, BEIDOU uydu sistemi",
         "Takip Hassasiyeti: 1-3m"
       ]
-    },    
+    },
     {
       "id": 20,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
@@ -788,7 +832,7 @@
         "İnsansız hava araçları için İHA sabit modu"
       ]
     },
-  
+
     {
       "id": 24,
       "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
@@ -1816,7 +1860,7 @@
         "FlightHub 2 ile 3. parti sunucu entegrasyonu ve canlı video analizi yapılabilir.",
         "Gelişmiş bakım arayüzü ile hava durumu, bağlantı ve sistem durumları izlenebilir."
       ]
-    },    
+    },
     {
       "id": 150,
       "name": "DJI Matrice 4T RTK",
@@ -1869,7 +1913,7 @@
         "Gimbal Yapısı: 3 eksenli gimbal",
         "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
       ]
-    }, 
+    },
     {
       "id": 170,
       "name": "DJI Matrice 350 RTK",
@@ -1895,7 +1939,7 @@
         "Yeni GNSS & RTK Modülü: GPS, GLONASS, BeiDou ve Galileo desteği ile daha hızlı RTK sabitleme.",
         "2.7 kg Maksimum Taşıma Kapasitesi: Çift gimbal bağlantı noktası ile çoklu sensör desteği."
       ]
-    },  
+    },
     {
       "id": 180,
       "name": "DJI Zenmuse P1",
@@ -1923,7 +1967,7 @@
         "Su ve Toz Dayanıklılığı: IP4X sertifikası",
         "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
       ]
-    },  
+    },
     {
       "id": 190,
       "name": "DJI Zenmuse L1",
@@ -1952,7 +1996,7 @@
         "Platform Uyumluluğu: DJI Matrice 300 RTK"
       ]
     },
-    
+
     {
       "id": 191,
       "name": "DJI Zenmuse L2",
@@ -1980,7 +2024,7 @@
         "Gimbal Yapısı: 3 eksenli gimbal stabilizasyonu",
         "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
       ]
-    },  
+    },
     {
       "id": 197,
       "name": "DJI Zenmuse H30",
@@ -2006,7 +2050,7 @@
         "Uyumluluk: Matrice 300 RTK (yalnızca DJI RC Plus ile), Matrice 350 RTK.",
         "IP54 koruma sınıfı, -20°C ila 50°C arası çalışma sıcaklığına dayanıklıdır."
       ]
-    },    
+    },
     {
       "id": 198,
       "name": "DJI Zenmuse H30T",
@@ -2032,7 +2076,7 @@
         "Uyumluluk: DJI Matrice 350 RTK, M300 RTK (DJI RC Plus gereklidir).",
         "IP54 koruma, -20°C ~ 50°C sıcaklık aralığı, 920g ağırlık."
       ]
-    },   
+    },
     {
       "id": 199,
       "name": "DJI Zenmuse H30N",
@@ -2056,8 +2100,8 @@
         "Uyumluluk: DJI M300 RTK ve Matrice 350 RTK sistemleri ile tam entegrasyon.",
         "IP54 sertifikalı yapı, -20°C ila 50°C ortam koşullarına uygundur."
       ]
-    },    
- 
+    },
+
     {
       "id": 200,
       "name": "DJI Zenmuse H20",
@@ -2144,10 +2188,7 @@
       "name": "DJI U10 Laser Metan Kaçak Tespit Sistemi",
       "title": "Havadan Lazer Metan Gazı Dedektörü",
       "description": "DJI U10, metan gazı kaçaklarının hassas, temassız ve güvenli şekilde tespiti için geliştirilen lazer tabanlı bir sensör sistemidir. DJI drone platformlarına entegre olarak enerji tesisleri, boru hatları, endüstriyel alanlar ve yerleşim bölgelerinde yüksek hassasiyetli gaz izleme ve denetim çözümü sunar.",
-      "images": [
-        "/marka-photos/dji/u10-1.png",
-        "/marka-photos/dji/u10-2.png"
-      ],
+      "images": ["/marka-photos/dji/u10-1.png", "/marka-photos/dji/u10-2.png"],
       "category": "iha",
       "brand": "dji",
       "type": "u10",
@@ -2167,16 +2208,13 @@
         "Uygulama alanları: Rafineriler, doğal gaz istasyonları, viyadük hatları, şehir içi binalar, dağlık alanlar ve kırsal gaz şebekeleri.",
         "Operasyonel avantajlar: Zorlu ve insan erişimine kapalı bölgelerde temassız ve yüksek frekanslı tarama imkanı."
       ]
-    },    
+    },
     {
       "id": 204,
       "name": "DJI Zenmuse S1 Aydınlatma Ünitesi (Spotlight)",
       "title": "Gece Aydınlatma ve Acil Durum Arama Projeksiyon Sistemi",
       "description": "DJI Zenmuse S1, düşük enerji tüketimiyle yüksek parlaklık sunan ve farklı modlarda aydınlatma sağlayan güçlü bir arama spot ışığıdır. Gece görevlerinde, acil müdahalelerde ve altyapı denetimlerinde mükemmel performans gösterir.",
-      "images": [
-        "/marka-photos/dji/s1-1.png",
-        "/marka-photos/dji/s1-2.png"
-      ],
+      "images": ["/marka-photos/dji/s1-1.png", "/marka-photos/dji/s1-2.png"],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
@@ -2192,16 +2230,13 @@
         "Tüm DJI M300/M350 gimballerine uyumludur; üst-alt, tekli-çiftli kurulum destekler.",
         "Diğer yüklerle birlikte çalışabilir, H30 serisi ile aynı anda açısal kontrol mümkündür."
       ]
-    }, 
+    },
     {
       "id": 205,
       "name": "DJI Zenmuse V1 Ses Yayın Ünitesi (Voice Speaker)",
       "title": "Hedeflenmiş Yüksek Sesli Yayın Sistemi",
       "description": "Zenmuse V1, DJI drone platformları için geliştirilmiş, yüksek ses gücüne ve çok yönlü yayın modlarına sahip, hedeflenmiş sesli yayın sistemi sunan güçlü bir hoparlör modülüdür. Kalabalık yönetimi, kamu güvenliği bilgilendirmesi ve acil müdahale senaryoları için tasarlanmıştır.",
-      "images": [
-        "/marka-photos/dji/v1-1.png",
-        "/marka-photos/dji/v1-2.png"
-      ],
+      "images": ["/marka-photos/dji/v1-1.png", "/marka-photos/dji/v1-2.png"],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
@@ -2242,7 +2277,7 @@
         "DJI Dock uyumluluğu ile otomatik görev planlaması ve uzaktan operasyon imkanı sağlar.",
         "DJI FlightHub 2 ile bulut üzerinden canlı izleme, haritalama ve filo yönetimi desteklenir."
       ]
-    }, 
+    },
     {
       "id": 207,
       "name": "DJI Matrice 30T Termal Drone",
@@ -2301,7 +2336,7 @@
         "Yüksek güvenlik önlemleri ile donatılmış uçuş sistemleri, her uçuşu güvenli ve verimli hale getirir.",
         "Hızlı şarj özelliği ile 1 saat içerisinde %80 şarj kapasitesine ulaşılabilir, bu sayede kesintisiz operasyon sağlanır."
       ]
-    }, 
+    },
     {
       "id": 209,
       "name": "Matrice 4DT",
@@ -2329,7 +2364,7 @@
         "Hızlı veri işleme ve bulut tabanlı depolama entegrasyonu ile veriler her zaman erişilebilir ve güvenli olur.",
         "Hızlı şarj özelliği ile batarya yeniden doldurulabilir ve operasyonlara hızla geri dönülür."
       ]
-    },           
+    },
     {
       "id": 210,
       "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
@@ -2542,7 +2577,7 @@
         "Autel Explorer uygulaması ile waypoint, dikdörtgen, poligon ve eğik görev planlama desteklenir.",
         "RTK servisleri NTRIP protokolü ile harici ağ tabanlı servislerle uyumlu şekilde çalışabilir."
       ]
-    },                
+    },
     {
       "id": 300,
       "name": "Autel EVO Max 4N",
@@ -4032,7 +4067,7 @@
         "Saha koşullarına dayanıklı tasarım.",
         "Çoklu dil desteği ile geniş kullanıcı kitlesine hitap eder."
       ]
-    },      
+    },
     {
       "id": 990,
       "name": "DJI FlightHub 2 Komuta ve Görev Yönetim Yazılımı",
@@ -4061,7 +4096,7 @@
         "Ekip konumu, drone durumu ve görev bilgileri gerçek zamanlı olarak paylaşılır.",
         "DJI Dock entegrasyonu sayesinde otomatik drone görevleri uzaktan planlanabilir ve yönetilebilir."
       ]
-    },    
+    },
     {
       "id": 991,
       "name": "DJI Terra Haritalama ve Modelleme Yazılımı",
@@ -4089,7 +4124,7 @@
         "8500+ koordinat sistemi desteklenir ve yedi parametreli dönüşümler uygulanabilir.",
         "Windows 10+ (64 bit), 32GB RAM ve en az 4GB NVIDIA ekran kartı gereksinimi vardır."
       ]
-    },    
+    },
     {
       "id": 992,
       "name": "DJI Modify 3D Model Düzenleme Yazılımı",
@@ -4119,7 +4154,7 @@
         "İşlenmiş modeller bağlantı yoluyla bulut ortamında paylaşılabilir.",
         "Minimum sistem gereksinimleri: Windows 10+, 32 GB RAM, 4 GB VRAM, GTX 1050Ti veya üzeri ekran kartı."
       ]
-    },    
+    },
     {
       "id": 993,
       "name": "Autel Entegre Komuta ve Kontrol Sistemi (AICS)",
@@ -4143,7 +4178,7 @@
         "AI destekli hedef tanıma, canlı akış takibi ve sensör kontrol özelliklerine sahiptir.",
         "Mobil ve masaüstü tarayıcılar üzerinden erişilebilir; yüksek bant genişliği önerilir."
       ]
-    },    
+    },
     {
       "id": 994,
       "name": "Autel Mapper Haritalama Yazılımı",
@@ -4169,7 +4204,7 @@
         "Gerçek zamanlı ön izleme ve kalite kontrol araçları.",
         "PDF, TIFF, OBJ, LAS gibi çoklu format desteği."
       ]
-    },    
+    },
     {
       "id": 995,
       "name": "CHCNAV CoProcess LiDAR İşleme Yazılımı",
