@@ -99,7 +99,7 @@
         }
       ],
 
-      "banner-description": "Gözle görülmeyeni görünür kılan, karmaşık arazileri anlamlandıran, her santimi dijital zekâyla çözümleyen bir teknolojiyle tanışın!",
+      "banner-description": "Görüntü İşleme ve Haritalama Yazılımı",
       "banner-url": "https://www.3DSurvey.com",
       "filter": ["/yazilim"]
     },
@@ -129,7 +129,7 @@
           "duration": 12
         }
       ],
-      "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
+      "banner-description": "Hassas Konumlandırma Çözümleri.",
       "banner-url": "https://www.chcnav.com",
       "filter": [
         "/gnss",
@@ -152,7 +152,7 @@
         { "type": "image", "src": "marka-photos/autel-banner-3.webp" },
         { "type": "image", "src": "marka-photos/autel-banner-4.webp" }
       ],
-      "banner-description": "Autel ile gelişmiş hava haritalama.",
+      "banner-description": "Sınırların Ötesinde Çözümler",
       "banner-url": "https://www.autel.com",
       "filter": ["/iha", "/aksesuar"]
     },
@@ -177,7 +177,7 @@
           "duration": 13
         }
       ],
-      "banner-description": "DJI ile profesyonel drone çözümleri.",
+      "banner-description": "Profesyonel Hava Aracı Çözümleri",
       "banner-url": "https://www.dji.com",
       "filter": ["/iha", "/aksesuar"]
     },
@@ -192,7 +192,7 @@
           "duration": 57
         }
       ],
-      "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
+      "banner-description": "Ölçüm Ekipmanları ve Çözümleri",
       "banner-url": "https://www.sokkia.com",
       "filter": ["/total-station", "/nivo", "/aksesuar"]
     },
@@ -207,7 +207,7 @@
         { "type": "image", "src": "marka-photos/stec-banner-p2.JPG" },
         { "type": "image", "src": "marka-photos/stec-banner-p3.JPG" }
       ],
-      "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
+      "banner-description": "İleri Teknoloji Çözümler",
       "banner-url": "https://www.stec.com",
       "filter": ["/gnss", "/total-station", "/nivo", "/lidar", "/aksesuar"]
     },
@@ -223,7 +223,7 @@
           "duration": 48
         }
       ],
-      "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
+      "banner-description": "Kablosuz Akıllı Sensör Çözümleri",
       "banner-url": "https://www.senceive.com",
       "filter": ["/sensor", "/aksesuar"]
     },
@@ -239,7 +239,7 @@
         }
 
       ],
-      "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
+      "banner-description": "Lidar Sensör Çözümleri",
       "banner-url": "https://www.benewake.com",
       "filter": ["/sensor", "/aksesuar"]
     }
