@@ -75,4 +75,325 @@
       "Çevresel değişimlere karşı otomatik sıcaklık kompansasyonu sağlar."
     ],
     "compatibleProducts": [301, 302, 401]
-  }
+  },
+  // sokkia yı kaldırdık. 
+  {
+    "name": "SOKKIA",
+    "icon": "marka-icons/sokkia.png",
+    "path": "/sokkia",
+    "bannerphotos": [
+      {
+        "type": "video",
+        "src": "marka-photos/sokkia-banner-1.mp4",
+        "duration": 57
+      }
+    ],
+    "banner-description": "Ölçüm Ekipmanları ve Çözümleri",
+    "banner-url": "https://www.sokkia.com",
+    "filter": ["/total-station", "/nivo", "/aksesuar"]
+  },
+  "id": 550,
+  "name": "Sokkia B40 Otomatik Nivo",
+  "title": "B40 Otomatik Nivo – Ekonomik ve Etkili Ölçüm Çözümü",
+  "description": "Sokkia B40, 24x büyütme ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için ekonomik ve güvenilir bir otomatik nivodur.",
+  "images": [
+    "/marka-photos/sokkia/b40-0.png",
+    "/marka-photos/sokkia/b40-1.png",
+    "/marka-photos/sokkia/b40-2.png"
+  ],
+  "category": "nivo",
+  "brand": "sokkia",
+  "type": "otomatik-nivo",
+  "typeTitle": "Otomatik Nivolar",
+  "specs": [
+    "24x büyütmeli teleskop ile yeterli görüntüleme kapasitesi sunar.",
+    "2.0 mm/km çift yol seviyelendirme hassasiyeti sağlar.",
+    "IPX6 su geçirmezlik derecesiyle zorlu çevre koşullarına dayanıklıdır.",
+    "30 cm'lik minimum odaklanma mesafesiyle dar alanlarda çalışmaya uygundur.",
+    "Manyetik sönümlemeli pandül kompansatör ile güvenilir dengeleme yapar.",
+    "Tek hızlı odaklama düğmesi ile pratik kullanım sunar.",
+    "Yatay açı ölçümleri için 1° veya 1gon birimlerinde okuma yapabilir."
+  ]
+},
+{
+  "id": 553,
+  "name": "Sokkia FX-201 Manuel Total Station",
+  "title": "FX-201 Manuel Total Station – 1\" Açısal Hassasiyet ile Yüksek Doğruluk",
+  "description": "Sokkia FX-201, 1\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/fx-201-0.png",
+    "/marka-photos/sokkia/fx-200-1.png",
+    "/marka-photos/sokkia/fx-200-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "1\" (0.3 mgon) açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+    "IP65 toz ve suya karşı dayanıklılık derecesi."
+  ]
+},
+{
+  "id": 554,
+  "name": "Sokkia FX-203 Manuel Total Station",
+  "title": "FX-203 Manuel Total Station – 3\" Açısal Hassasiyet ile Güvenilir Performans",
+  "description": "Sokkia FX-203, 3\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/fx-203-0.png",
+    "/marka-photos/sokkia/fx-200-1.png",
+    "/marka-photos/sokkia/fx-200-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "3\" (1.0 mgon) açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+    "IP65 toz ve suya karşı dayanıklılık derecesi."
+  ]
+},
+{
+  "id": 555,
+  "name": "Sokkia FX-205 Manuel Total Station",
+  "title": "FX-205 Manuel Total Station – 5\" Açısal Hassasiyet ile Ekonomik Çözüm",
+  "description": "Sokkia FX-205, 5\" açısal hassasiyeti ve sağlam yapısıyla ekonomik ve etkili bir total station çözümüdür.",
+  "images": [
+    "/marka-photos/sokkia/fx-205-0.png",
+    "/marka-photos/sokkia/fx-200-1.png",
+    "/marka-photos/sokkia/fx-200-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "5\" (1.5 mgon) açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' (±111 mgon) çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+    "IP65 toz ve suya karşı dayanıklılık derecesi."
+  ]
+},
+{
+  "id": 560,
+  "name": "Sokkia iM-52 Manuel Total Station",
+  "title": "iM-52 Manuel Total Station – 2\" Açısal Hassasiyet ile Yüksek Doğruluk",
+  "description": "Sokkia iM-52, 2\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/im-52-0.png",
+    "/marka-photos/sokkia/im50-1.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "2\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı."
+  ]
+},
+{
+  "id": 561,
+  "name": "Sokkia iM-55 Manuel Total Station",
+  "title": "iM-55 Manuel Total Station – 5\" Açısal Hassasiyet ile Güvenilir Performans",
+  "description": "Sokkia iM-55, 5\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/im-55-0.png",
+    "/marka-photos/sokkia/im50-1.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "5\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 500 m arasında mesafe ölçümü.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı."
+  ]
+},
+{
+  "id": 570,
+  "name": "Sokkia iM-101 Manuel Total Station",
+  "title": "iM-101 Manuel Total Station – 1\" Açısal Hassasiyet ile Üstün Doğruluk",
+  "description": "Sokkia iM-101, 1\" açısal hassasiyeti ve gelişmiş özellikleriyle hassas ölçüm gereksinimleri için ideal bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/im-101-0.png",
+    "/marka-photos/sokkia/im-101-1.png",
+    "/marka-photos/sokkia/im-101-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "1\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+    "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+    "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+  ]
+},
+{
+  "id": 571,
+  "name": "Sokkia iM-102 Manuel Total Station",
+  "title": "iM-102 Manuel Total Station – 2\" Açısal Hassasiyet ile Güvenilir Performans",
+  "description": "Sokkia iM-102, 2\" açısal hassasiyeti ve kullanıcı dostu özellikleriyle genel ölçüm uygulamaları için güvenilir bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/im-102-0.png",
+    "/marka-photos/sokkia/im-102-1.png",
+    "/marka-photos/sokkia/im-102-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "2\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+    "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+    "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+  ]
+},
+{
+  "id": 572,
+  "name": "Sokkia iM-103 Manuel Total Station",
+  "title": "iM-103 Manuel Total Station – 3\" Açısal Hassasiyet ile Etkili Ölçüm Çözümü",
+  "description": "Sokkia iM-103, 3\" açısal hassasiyeti ve sağlam yapısıyla ekonomik ve etkili bir total station çözümüdür.",
+  "images": [
+    "/marka-photos/sokkia/im-103-0.png",
+    "/marka-photos/sokkia/im-103-1.png",
+    "/marka-photos/sokkia/im-103-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "3\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+    "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+    "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+  ]
+},
+{
+  "id": 573,
+  "name": "Sokkia iM-105 Manuel Total Station",
+  "title": "iM-105 Manuel Total Station – 5\" Açısal Hassasiyet ile Ekonomik ve Güvenilir",
+  "description": "Sokkia iM-105, 5\" açısal hassasiyeti ve dayanıklı tasarımıyla ekonomik ve güvenilir bir total stationdır.",
+  "images": [
+    "/marka-photos/sokkia/im-105-0.png",
+    "/marka-photos/sokkia/im-105-1.png",
+    "/marka-photos/sokkia/im-105-2.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "manuel-total-station",
+  "typeTitle": "Manuel Total Stationlar",
+  "specs": [
+    "5\" açısal hassasiyet.",
+    "30x büyütmeli teleskop ve 2.5\" çözünürlük.",
+    "1.3 m minimum odaklanma mesafesi.",
+    "±6' çalışma aralığına sahip çift eksenli sıvı tilt sensörü.",
+    "Reflektörsüz modda 0.3 m ile 800 m arasında mesafe ölçümü.",
+    "Prizma ile 5,000 m'ye kadar ölçüm kapasitesi.",
+    "IP66 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® özelliği ile kablosuz veri aktarımı.",
+    "Yaklaşık 28 saate kadar pil ömrü (Eco modunda)."
+  ]
+},
+{
+  "id": 580,
+  "name": "Sokkia iX Serisi Robotik Total Station",
+  "title": "iX Serisi Robotik Total Station – Kompakt ve Yüksek Performanslı Ölçüm Çözümü",
+  "description": "Sokkia iX Serisi, tek operatörlü robotik sistemlerin verimliliğini, uzun menzilli reflektörsüz ölçüm yeteneklerini ve Hibrit Konumlandırma™ çözümünün esnekliğini kompakt bir tasarımda sunar.",
+  "images": [
+    "/marka-photos/sokkia/ix-series-0.png",
+    "/marka-photos/sokkia/ix-series-1.png"
+  ],
+  "category": "total-station",
+  "brand": "sokkia",
+  "type": "robotik-total-station",
+  "typeTitle": "Robotik Total Stationlar",
+  "specs": [
+    "UltraSonic motor teknolojisi ile 150°/saniye dönüş hızı.",
+    "Reflektörsüz modda 800 m'ye kadar, prizma ile 6,000 m'ye kadar mesafe ölçümü.",
+    "1\", 2\", 3\" ve 5\" açısal hassasiyet seçenekleri.",
+    "IP65 toz ve suya karşı dayanıklılık derecesi.",
+    "Entegre Bluetooth® ve gelişmiş LongLink™ iletişim teknolojisi.",
+    "4.3 inç renkli dokunmatik ekran.",
+    "MAGNET® Field yazılımı ile uyumluluk.",
+    "3 yıl enstrüman ve 5 yıl motor garantisi."
+  ]
+},
+{
+  "id": 590,
+  "name": "Sokkia SDL1X Dijital Nivo",
+  "title": "SDL1X Dijital Nivo – Üstün Hassasiyetli Otomatik Odaklamalı Seviye Cihazı",
+  "description": "Sokkia SDL1X, dijital seviye ölçümlerinde üstün hassasiyet ve verimlilik sağlayan, otomatik odaklamalı, kablosuz tetikleyicili ve geniş veri depolama kapasiteli profesyonel bir dijital nivodur.",
+  "images": [
+    "/marka-photos/sokkia/sdl1x-0.png",
+    "/marka-photos/sokkia/sdl1x-1.png",
+    "/marka-photos/sokkia/sdl1x-2.png"
+  ],
+  "category": "nivo",
+  "brand": "sokkia",
+  "type": "dijital-nivo",
+  "typeTitle": "Dijital Nivolar",
+  "technology": [],
+  "specs": [
+    "ISO 17123-2 standardına göre 1 km çift yön nivelmanda 0.2 mm hassasiyet sunar.",
+    "BIS30A mira ile 0.2 mm; BGS mira ile 1.0 mm yükseklik ölçüm doğruluğu sağlar.",
+    "Otomatik odaklama sistemiyle ölçüm süresini manuel sistemlere göre %40 azaltır.",
+    "Kablosuz tetikleyici sayesinde cihaz temasından kaynaklı hata payı ortadan kalkar.",
+    "Reflektörsüz mesafe ölçüm hassasiyeti: 10 m’ye kadar ±10 mm, 50 m’ye kadar ±0.1% x D.",
+    "32x büyütmeli optik teleskop ile net görüntüleme sağlar.",
+    "Çift eksenli sıvı tilt sensörü ile eğim düzeltmesi yapabilir.",
+    "10.000 kayıt kapasiteli dahili hafıza ve USB/SD kart desteğiyle geniş veri aktarımı sunar.",
+    "Bluetooth® uyumu sayesinde saha bilgisayarı ve veri toplayıcılarla kablosuz bağlantı kurar.",
+    "IP54 sertifikalı gövdesiyle toz ve su sıçramalarına karşı dayanıklıdır.",
+    "Çalışma sıcaklığı aralığı: -20°C ila +50°C'dir.",
+    "1.6 m - 100 m arası otomatik odaklama mesafesi aralığına sahiptir."
+  ]
+},
+
+
+
+
+
+
+
+
+

@@ -25,7 +25,7 @@ export default function Slider({ title = "Slider Başlığı", photos = [] }) {
 
   // ✅ Ekran boyutuna göre gösterilecek slide sayısı
   let visibleCount = 3;
-  if (width >= 1024) visibleCount = 8;
+  if (width >= 1024) visibleCount = 7;
   else if (width >= 768) visibleCount = 5;
 
   // ✅ Oklar sadece görünür öğe sayısından fazlaysa gösterilir
@@ -67,7 +67,7 @@ export default function Slider({ title = "Slider Başlığı", photos = [] }) {
         breakpoints={{
           640: { slidesPerView: 3 },
           768: { slidesPerView: 5 },
-          1024: { slidesPerView: 8 },
+          1024: { slidesPerView: 7 },
         }}
         className="rounded-lg"
       >
