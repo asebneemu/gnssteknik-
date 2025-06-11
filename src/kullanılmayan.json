@@ -388,6 +388,21 @@
     "1.6 m - 100 m arası otomatik odaklama mesafesi aralığına sahiptir."
   ]
 },
+"partners": {
+  "title": "Çözüm Ortaklarımız",
+  "logos": [
+    {
+      "src": "/logos/paksoy.png",
+      "alt": "PAKSOY Logo",
+      "url": "https://paksoyteknik.com.tr/"
+    },
+    {
+      "src": "/logos/3bharita.webp",
+      "alt": "3B HARİTA Logo",
+      "url": "https://4bharita.com.tr/"
+    }
+  ]
+},
 
 
 

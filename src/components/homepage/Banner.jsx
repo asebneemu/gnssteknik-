@@ -97,26 +97,32 @@ export default function Banner() {
 
         .banner-slider .swiper-button-next,
         .banner-slider .swiper-button-prev {
-          width: 80px;
-          height: 80px;
-          background: rgba(0, 0, 0, 0.7);
+          width: 70px;
+          height: 70px;
+          backdrop-filter: blur(12px);
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
           color: white;
           border-radius: 50%;
-          transition: all 0.3s ease;
+          transition: transform 0.3s ease, background 0.3s ease;
         }
 
-        .banner-slider .swiper-button-next:hover,
+        /* Sol ok hover animasyonu */
         .banner-slider .swiper-button-prev:hover {
-          background: white;
-          color: black;
+          transform: translateX(-5px); /* Sol tarafa 5px hareket */
+        }
+
+        /* Sağ ok hover animasyonu */
+        .banner-slider .swiper-button-next:hover {
+          transform: translateX(5px); /* Sağ tarafa 5px hareket */
         }
 
         .banner-slider .swiper-button-next {
-          right: 10%;
+          right: 10%; /* Sağ okun mevcut konumu */
         }
 
         .banner-slider .swiper-button-prev {
-          left: 10%;
+          left: 10%; /* Sol okun mevcut konumu */
         }
       `}</style>
     </div>
@@ -126,7 +132,6 @@ export default function Banner() {
 function BrandBanner({ item }) {
   const { language } = useLanguage();
   const [mediaIndex, setMediaIndex] = useState(0);
-  const [previousMedia, setPreviousMedia] = useState(null);
   const [isFading, setIsFading] = useState(false);
   const mediaList = item.bannerphotos || [];
 
@@ -139,7 +144,6 @@ function BrandBanner({ item }) {
     const fadeTimeout = setTimeout(() => setIsFading(false), 1000);
 
     const timer = setTimeout(() => {
-      setPreviousMedia(current);
       setMediaIndex((prev) => (prev + 1) % mediaList.length);
     }, duration);
 
@@ -149,23 +153,26 @@ function BrandBanner({ item }) {
     };
   }, [mediaIndex, mediaList]);
 
-  const currentMedia = mediaList[mediaIndex];
-
-  const renderMedia = (media, zIndex, extraClass = "") => {
+  const renderMedia = (media, isVisible) => {
     if (!media) return null;
     return media.type === "video" ? (
       <video
-        key={media.src + zIndex}
+        key={media.src}
         src={media.src}
-        className={`absolute inset-0 w-full h-full object-cover z-${zIndex} ${extraClass}`}
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
+        }`}
         autoPlay
         muted
         playsInline
+        loop
       />
     ) : (
       <div
-        key={media.src + zIndex}
-        className={`absolute inset-0 w-full h-full bg-cover bg-center z-${zIndex} ${extraClass}`}
+        key={media.src}
+        className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+          isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
+        }`}
         style={{ backgroundImage: `url(${media.src})` }}
       />
     );
@@ -173,26 +180,26 @@ function BrandBanner({ item }) {
 
   return (
     <div className="w-full h-full bg-black relative flex items-center justify-center overflow-hidden">
-      {renderMedia(previousMedia, 0)}
-      {renderMedia(currentMedia, 10, `${isFading ? "opacity-0" : "opacity-100"} transition-opacity duration-1000`)}
+      {mediaList.map((media, index) => renderMedia(media, index === mediaIndex))}
 
       <div
-        className="bg-white bg-opacity-60 p-4 md:p-6 rounded-lg shadow-lg
+        className="backdrop-blur-md bg-white/10 border border-white/30 shadow-xl
+        p-4 md:p-6 rounded-xl text-white
         lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
-        lg:w-auto lg:max-w-md lg:text-left lg:items-start
+        lg:w-auto lg:max-w-md lg:text-left
         max-[1023px]:absolute max-[1023px]:top-4 max-[1023px]:left-4
-        max-[1023px]:w-fit max-[1023px]:max-w-[80%] max-[1023px]:text-left
+        max-[1023px]:w-fit max-[1023px]:max-w-[80%]
         max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:items-start
         max-[1023px]:gap-1 flex flex-col items-start z-20"
       >
-        <h2 className="text-xl md:text-2xl font-bold text-gray-800 text-left w-full">
+        <h2 className="text-xl md:text-2xl font-bold text-white drop-shadow-md">
           {item.name}
         </h2>
-        <p className="text-gray-600 mt-2 hidden lg:block text-left w-full">
+        <p className="mt-2 hidden lg:block text-white/90 drop-shadow-sm leading-relaxed">
           {item["banner-description"]}
         </p>
         <a href={item["banner-url"]} target="_blank" rel="noopener noreferrer">
-          <button className="mt-3 md:mt-4 px-3 py-1.5 md:px-4 md:py-2 text-sm md:text-base bg-gray-600 text-white rounded-md text-left">
+          <button className="mt-3 md:mt-4 px-4 py-2 text-sm md:text-base bg-white/80 text-black font-semibold rounded-md hover:bg-white transition">
             {language === "tr" ? "Hemen Keşfet" : "Discover Now"}
           </button>
         </a>

@@ -17,7 +17,7 @@ const AboutUsSection = ({ title, paragraphs }) => (
   </div>
 );
 
-const PartnersSection = ({ logos, title }) => (
+/*const PartnersSection = ({ logos, title }) => (
   <div className="w-[80%] mx-auto mb-16">
     <h2 className="text-4xl font-bold mb-8 text-left">{title}</h2>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
@@ -38,7 +38,7 @@ const PartnersSection = ({ logos, title }) => (
       ))}
     </div>
   </div>
-);
+);*/
 
 const StyledTable = ({ title, columns, rows, theme }) => {
   const borderMap = {
@@ -150,7 +150,7 @@ export default function AboutUsPage() {
       <AboutUsSection title={vision.title} paragraphs={vision.paragraphs} />
       <AboutUsSection title={mission.title} paragraphs={mission.paragraphs} />
       <AboutUsSection title={values.title} paragraphs={values.paragraphs} />
-      <PartnersSection title={partners.title} logos={partners.logos} />
+      {/*<PartnersSection title={partners.title} logos={partners.logos} />*/}
 
       <StyledTable
         title={language === "tr" ? bankInfo.title : "Bank Information"}
