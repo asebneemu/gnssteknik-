@@ -1,26 +1,24 @@
-import { useParams, useNavigate, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import ProductDetailPage from "../../pages/ProductDetailPage";
 import StecProductDetailPage from "../../pages/StecProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
-import { Navigate, useSearchParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 export default function ProductDetailRouter() {
   const { idSlug } = useParams();
   const { data } = useLanguage();
 
   const pureId = idSlug.split("-")[0];
-  const product = data.products.find((p) => p.id === Number(pureId));
+  const product = data.products.find((p) => String(p.id) === pureId); // ✅ kritik düzeltme
 
   if (!product) {
     return <div>Ürün bulunamadı kankam.</div>;
   }
 
-  // STec için özel sayfa
   if (product.brand.toLowerCase() === "stec") {
     return <StecProductDetailPage product={product} />;
   }
 
-  // Diğer ürünler için yönlendirme: useParams ile çalışacak formatta URL üret
   const slugify = (str) =>
     str
       .toLowerCase()
