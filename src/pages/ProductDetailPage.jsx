@@ -144,7 +144,7 @@ const ProductDetailPage = () => {
             </p>
 
             {/* Ürün Broşürü sol alt köşede, açıklamadan 2 parmak aşağıda */}
-            <a
+            {/*<a
               href={brochureLink}
               download
               target="_blank"
@@ -167,7 +167,7 @@ const ProductDetailPage = () => {
                 />
               </svg>
               <span>Ürün Broşürü</span>
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>

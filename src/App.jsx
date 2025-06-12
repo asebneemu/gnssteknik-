@@ -40,7 +40,7 @@ function AppContent() {
   const categoryPath = "/category";
   const categoryWithParamPath = `${categoryPath}/:category`;
   const productListPath = `${categoryPath}/:category/:brand`;
-  const productDetailPath = `${categoryPath}/:category/:brand/:productName`;
+  const productDetailPath = `${categoryPath}/:category/:brand/:id`;
 
   return (
     <Router>
@@ -60,7 +60,9 @@ function AppContent() {
         <Route path="/category/yazilim/3dsurvey" element={<ThreeDSurveyPage />} />
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
-        <Route path={productDetailPath} element={<ProductDetailRouter />} /> {/* 🔁 yönlendirme */}
+        <Route path="/urun-detay/:category/:brand/:idSlug" element={<ProductDetailRouter />} />
+        <Route path="/:category/:brand/:productName" element={<ProductDetailPage />} />
+
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />
         <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />

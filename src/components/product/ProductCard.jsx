@@ -52,9 +52,9 @@ const ProductCard = ({ product }) => {
           <button
             onClick={() =>
               navigate(
-                `/category/${toSlug(product.category)}/${toSlug(
+                `/urun-detay/${toSlug(product.category)}/${toSlug(
                   product.brand
-                )}/${toSlug(product.name)}`
+                )}/${product.id}-${toSlug(product.name)}`
               )
             }
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"

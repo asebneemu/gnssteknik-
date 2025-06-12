@@ -89,12 +89,12 @@
       "bannerphotos": [
         {
           "type": "video",
-          "src": "marka-photos/3DSurvey-video-1.mp4",
+          "src": "marka-photos/3DSurvey-video-1.webm",
           "duration": 6
         },
         {
           "type": "video",
-          "src": "marka-photos/3DSurvey-video-2.mp4",
+          "src": "marka-photos/3DSurvey-video-2.webm",
           "duration": 16
         }
       ],
@@ -110,22 +110,22 @@
       "bannerphotos": [
         {
           "type": "video",
-          "src": "marka-photos/chcnav-banner-v1.mp4",
+          "src": "marka-photos/chcnav-banner-v1.webm",
           "duration": 6
         },
         {
           "type": "video",
-          "src": "marka-photos/chcnav-banner-v2.mp4",
+          "src": "marka-photos/chcnav-banner-v2.webm",
           "duration": 4
         },
         {
           "type": "video",
-          "src": "marka-photos/chcnav-banner-v3.mp4",
+          "src": "marka-photos/chcnav-banner-v3.webm",
           "duration": 4
         },
         {
           "type": "video",
-          "src": "marka-photos/chcnav-banner-v4.mp4",
+          "src": "marka-photos/chcnav-banner-v4.webm",
           "duration": 12
         }
       ],
@@ -149,12 +149,12 @@
       "bannerphotos": [
         {
           "type": "video",
-          "src": "marka-photos/autel-alpha.mp4",
+          "src": "marka-photos/autel-alpha.webm",
           "duration": 5
         },
         {
           "type": "video",
-          "src": "marka-photos/autel-evomax.mp4",
+          "src": "marka-photos/autel-evomax.webm",
           "duration": 12
         }
       ],
@@ -169,17 +169,17 @@
       "bannerphotos": [
         {
           "type": "video",
-          "src": "marka-photos/dji-banner-1.mp4",
+          "src": "marka-photos/dji-banner-1.webm",
           "duration": 10
         },
         {
           "type": "video",
-          "src": "marka-photos/dji-banner-2.mp4",
+          "src": "marka-photos/dji-banner-2.webm",
           "duration": 6
         },
         {
           "type": "video",
-          "src": "marka-photos/dji-banner-3.mp4",
+          "src": "marka-photos/dji-banner-3.webm",
           "duration": 13
         }
       ],
@@ -193,8 +193,9 @@
       "icon": "marka-icons/stec.png",
       "path": "/stec",
       "bannerphotos": [
-        { "type": "image", "src": "marka-photos/stec-banner-p.jpg" },
+        
         { "type": "image", "src": "marka-photos/stec-banner-p1.JPG" },
+        { "type": "image", "src": "marka-photos/stec-banner-p.jpg" },
         { "type": "image", "src": "marka-photos/stec-banner.jpg" },
         { "type": "image", "src": "marka-photos/stec-banner-p2.JPG" },
         { "type": "image", "src": "marka-photos/stec-banner-p3.JPG" }
@@ -285,9 +286,6 @@
         "/marka-photos/stec/axis-10-camera.png",
         "/marka-photos/stec/axis-10-3.mp4",
         "/marka-photos/stec/axis-10-4.mp4"
-
-
-       
       ],
       "category": "total-station",
       "brand": "stec",
@@ -332,9 +330,16 @@
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-9.0.png",
-        "/marka-photos/stec/axis-9.1.png",
-        "/marka-photos/stec/axis-9.2.png",
-        "/marka-photos/stec/axis-9.3.png"
+        "/marka-photos/stec/axis-9-logo.png",
+        "/marka-photos/stec/axis-9-1.jpg",
+        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-9-2.jpg",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-9-3.jpg",
+        "/marka-photos/stec/axis-9-5.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -383,10 +388,16 @@
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-4.0.png",
-        "/marka-photos/stec/axis-4.1.png",
-        "/marka-photos/stec/axis-4.2.png",
-        "/marka-photos/stec/axis-4.3.png",
-        "/marka-photos/stec/axis-4.4.png"
+        "/marka-photos/stec/axis-4-logo.png",
+        "/marka-photos/stec/axis-4-1.png",
+        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-4-3.MP4",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-4-2.png",
+        "/marka-photos/stec/axis-4-4.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -434,10 +445,16 @@
       "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-3 Total Station.",
       "images": [
         "/marka-photos/stec/axis-3.0.png",
-        "/marka-photos/stec/axis-3.1.png",
-        "/marka-photos/stec/axis-3.2.png",
-        "/marka-photos/stec/axis-3.3.png",
-        "/marka-photos/stec/axis-3.4.png"
+        "/marka-photos/stec/axis-3-logo.png",
+        "/marka-photos/stec/axis-3-1.jpg",
+        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-3-2.jpg",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-3-3.jpg",
+        "/marka-photos/stec/axis-3-4.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -479,8 +496,16 @@
       "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
         "/marka-photos/stec/axis-2.0.png",
-        "/marka-photos/stec/axis-2.1.png",
-        "/marka-photos/stec/axis-2.2.png"
+        "/marka-photos/stec/axis-2-logo.png",
+        "/marka-photos/stec/axis-2-1.png",
+        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-2-2.jpg",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png", 
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-2-3.mp4",
+        "/marka-photos/stec/axis-2-4.jpg"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -521,9 +546,16 @@
       "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
       "images": [
         "/marka-photos/stec/axis-1.0.png",
-        "/marka-photos/stec/axis-1.1.png",
-        "/marka-photos/stec/axis-1.2.png",
-        "/marka-photos/stec/axis-1.3.png"
+        "/marka-photos/stec/axis-1-logo.png",
+        "/marka-photos/stec/axis-1-1.png",
+        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-1-2.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",   
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-1-3.mp4",
+        "/marka-photos/stec/axis-1-4.mp4"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -563,64 +595,81 @@
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
-      "description": "Lazerle Ölçüm ve Aplikasyon, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü, AR Destekli Aplikasyon İmkanı ve Üstün Dayanıklılık Sunan SDi GNSS Alıcısı.",
+      "description": "Gelişmiş lazerli aplikasyon, yüksek güçlü 2 W radyo modem, IMU-RTK eğim telafisi, artırılmış gerçeklik (AR) destekli kamera teknolojisi ve ekstrem saha şartlarına karşı üstün dayanıklılığı bir arada sunan STEC SDi GNSS alıcısı, akıllı haritalama çözümlerinde profesyonellerin yeni gözdesidir.",
       "images": [
-        "/marka-photos/stec/sdi.0.png",
-        "/marka-photos/stec/sdi.1.png",
-        "/marka-photos/stec/sdi.2.png",
-        "/marka-photos/stec/sdi.3.png",
-        "/marka-photos/stec/sdi.4.png"
+        "/marka-photos/stec/sdi-.png",
+        "/marka-photos/stec/sdi-logo.png",
+        "/marka-photos/stec/sdi-0.jpg",
+        "/marka-photos/stec/laserfix.png",
+        "/marka-photos/stec/sdi-1-v4.mp4",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/sdi--.jpg",
+        "/marka-photos/stec/sdi-4.mp4"
       ],
       "category": "gnss",
       "brand": "stec",
       "type": "akilli-gnss",
       "typeTitle": "Akıllı GNSS Alıcıları",
       "specs": [
-        "1,408 kanal desteği ile tüm küresel GNSS sistemlerini destekler.",
-        "Total station EDM destekli lazeri ile 70 m kadar koordinat ölçümü yapabilir.",
-        "Sınıf 2 kırmızı lazer ile 120°'ye kadar lazerli aplikasyon yapabilir.",
-        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde aplikasyon yapabilir.",
-        "RTK tilt kompansasyonu ile yatayda 8 mm, düşeyde 15 mm hassasiyet sunar.",
-        "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
-        "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
-        "2 W Radyo Modemi ile 15 km'ye kadar veri iletimi yapabilir.",
-        "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
-        "RINEX VE NMEA mesajlarını kaydetme.",
-        "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
-        "Magnezyum alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
-        "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
-        "NFC özelliği ile hızlı bağlantı kurulabilir.",
-        "13.600 mAh batarya ile 15 saat çalışma süresi sunar.",
-        "İnsansız hava araçları için İHA sabit modu"
+        "1.408 kanallı mimarisi ile GPS, GLONASS, Galileo, BeiDou dahil tüm GNSS sistemlerini tam kapsamlı olarak destekler.",
+        "Total station uyumlu EDM destekli lazeri ile 70 metreye kadar yüksek doğrulukla noktasal koordinat ölçümü gerçekleştirir.",
+        "Sınıf 2 kırmızı lazeri sayesinde 120° görüş alanına kadar etkili lazerli aplikasyon olanağı sunar.",
+        "HDR destekli CMOS kamera ile artırılmış gerçeklik (AR) üzerinden görsel aplikasyon yapılabilir, sahada anında ve doğru hedefleme sağlanır.",
+        "RTK destekli tilt kompansatör sayesinde yatayda 8 mm, düşeyde 15 mm hassasiyetle eğim telafili ölçüm yapılabilir.",
+        "IMU tabanlı dinamik ölçüm sistemiyle 60°'ye kadar kalibrasyon gerektirmeyen eğimli ölçümler desteklenir.",
+        "L-Band ve PPP (Precise Point Positioning) teknolojileri sayesinde internet bağlantısı olmadan da yüksek doğrulukta pozisyonlama sağlar.",
+        "2 Watt gücündeki entegre radyo modem ile açık arazide 15 kilometreye kadar güvenilir ve kesintisiz veri iletimi sunar.",
+        "USB Type-C ve Bluetooth 4.0 bağlantı seçenekleri ile hızlı veri aktarımı ve modern şarj altyapısı sunar.",
+        "RINEX ve NMEA veri formatlarında kayıt yapabilme özelliği ile gelişmiş veri toplama ve dışa aktarım imkânı sağlar.",
+        "IP68 koruma standardı ile suya, toza ve zorlu çevre koşullarına karşı tam dayanıklılık gösterir; -30°C ile +65°C arası çalışma garantisi sunar.",
+        "890 gramlık magnezyum alaşımlı gövdesi hem ultra hafiflik hem de maksimum darbe direnci sağlar.",
+        "USB Type-C portu üzerinden yüksek hızlı şarj ve veri aktarımı desteklenir, saha süresi kesintisiz devam eder.",
+        "NFC özelliği ile cihazlar arasında saniyeler içinde kolay eşleşme ve hızlı bağlantı kurulur.",
+        "13.600 mAh kapasiteli bataryası ile 15 saat kesintisiz çalışma süresi sunarak tüm gün boyunca görevde kalır.",
+        "İHA sabit modu sayesinde insansız hava araçlarıyla entegrasyon sağlayarak GNSS sistemini havadan destekler."
       ],
       "meta": {
-        "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR ve IMU Ölçümü",
-        "description": "STEC SDi, 1,408 kanal desteği, lazerli aplikasyon, HDR CMOS kamera ve AR destekli aplikasyon özellikleri ile üstün hassasiyetli GNSS ölçümleri sunar. IP68 dayanıklılığı, 15 saat batarya süresi ve gelişmiş bağlantı seçenekleri ile zorlu saha koşullarına uygundur.",
+        "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, IMU ve Lazerli Ölçüm",
+        "description": "STEC SDi GNSS alıcısı, lazer tabanlı EDM ölçümü, AR destekli HDR kamera, IMU-RTK eğim düzeltmesi ve 1.408 kanal desteği ile sektörde yeni bir standart belirliyor. IP68 dayanıklılığı, 15 saatlik batarya süresi ve ileri bağlantı özellikleri sayesinde her türlü zorlu saha koşulunda en yüksek performansı sunar.",
         "keywords": [
           "STEC SDi",
           "akıllı GNSS alıcısı",
           "lazerli GNSS",
           "kameralı GNSS",
-          "IMU RTK eğim ölçümü",
           "AR destekli aplikasyon",
+          "IMU RTK eğim ölçümü",
+          "HDR CMOS kamera",
           "IP68 dayanıklılık",
           "15 saat batarya",
           "NFC bağlantı",
-          "RTK hassasiyet",
-          "GNSS saha ekipmanları",
+          "Bluetooth 4.0",
+          "USB-C veri aktarımı",
+          "PPP L-Band",
+          "RINEX NMEA kayıt",
+          "GNSS drone modu",
           "uzun menzilli radyo modem"
         ]
       }
-    },
+    },    
     {
       "id": 12,
       "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
       "description": "2 W Radyo Modem, 15 km RTK Yayını, 15 Saat Yüksek Batarya Ömrüyle SV1 GNSS Alıcısı",
       "images": [
         "/marka-photos/stec/sv1.0.png",
-        "/marka-photos/stec/sv1.1.png",
-        "/marka-photos/stec/sv1.2.png",
-        "/marka-photos/stec/sv1.3.png"
+        "/marka-photos/stec/sv1-logo.avif",
+        "/marka-photos/stec/sv1-1.JPG",
+        "/marka-photos/stec/sv1-3.png",
+        "/marka-photos/stec/sv1-2.JPG",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/sv1-4.jpg",
+        "/marka-photos/stec/sv1-5.mp4"
       ],
       "category": "gnss",
       "brand": "stec",
