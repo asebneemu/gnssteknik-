@@ -100,7 +100,7 @@
       ],
 
       "banner-description": "Görüntü İşleme ve Haritalama Yazılımı",
-      "banner-url": "https://www.3DSurvey.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/3dsurvey",
       "filter": ["/yazilim"]
     },
     {
@@ -130,7 +130,7 @@
         }
       ],
       "banner-description": "Hassas Konumlandırma Çözümleri.",
-      "banner-url": "https://www.chcnav.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/chcnav",
       "filter": [
         "/gnss",
         "/total-station",
@@ -159,7 +159,7 @@
         }
       ],
       "banner-description": "Sınırların Ötesinde Çözümler",
-      "banner-url": "https://www.autel.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/autel",
       "filter": ["/iha", "/aksesuar"]
     },
     {
@@ -184,7 +184,7 @@
         }
       ],
       "banner-description": "Profesyonel Hava Aracı Çözümleri",
-      "banner-url": "https://www.dji.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/dji",
       "filter": ["/iha", "/aksesuar"]
     },
 
@@ -201,7 +201,7 @@
         { "type": "image", "src": "marka-photos/stec-banner-p3.JPG" }
       ],
       "banner-description": "İleri Teknoloji Çözümler",
-      "banner-url": "https://www.stec.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/stec",
       "filter": ["/gnss", "/total-station", "/nivo", "/lidar", "/aksesuar"]
     },
     {
@@ -217,7 +217,7 @@
         }
       ],
       "banner-description": "Kablosuz Akıllı Sensör Çözümleri",
-      "banner-url": "https://www.senceive.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/senceive",
       "filter": ["/sensor", "/aksesuar"]
     },
     {
@@ -232,7 +232,7 @@
         }
       ],
       "banner-description": "Lidar Sensör Çözümleri",
-      "banner-url": "https://www.benewake.com",
+      "banner-url": "https://www.gnssmarketim.com/marka/benewake",
       "filter": ["/sensor", "/aksesuar"]
     }
   ],
@@ -279,13 +279,13 @@
         "/marka-photos/stec/axis-10-logo.png",
         "/marka-photos/stec/axis-10-1.png",
         "/marka-photos/stec/axis-10-xtrak.png",
-        "/marka-photos/stec/total-s-10-1.mp4",
+        "/marka-photos/stec/total-s-10-1.webm",
         "/marka-photos/stec/axis-10-xtrak.png",
         "/marka-photos/stec/axis-10-android9.png",
         "/marka-photos/stec/axis-10-2.png",
         "/marka-photos/stec/axis-10-camera.png",
-        "/marka-photos/stec/axis-10-3.mp4",
-        "/marka-photos/stec/axis-10-4.mp4"
+        "/marka-photos/stec/axis-10-3.webm",
+        "/marka-photos/stec/axis-10-4.webm"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -391,7 +391,7 @@
         "/marka-photos/stec/axis-4-logo.png",
         "/marka-photos/stec/axis-4-1.png",
         "/marka-photos/stec/total-s-ikon.png",
-        "/marka-photos/stec/axis-4-3.MP4",
+        "/marka-photos/stec/axis-4-3.webm",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
@@ -504,7 +504,7 @@
         "/marka-photos/stec/bos.png", 
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/axis-2-3.mp4",
+        "/marka-photos/stec/axis-2-3.webm",
         "/marka-photos/stec/axis-2-4.jpg"
       ],
       "category": "total-station",
@@ -554,8 +554,8 @@
         "/marka-photos/stec/bos.png",   
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/axis-1-3.mp4",
-        "/marka-photos/stec/axis-1-4.mp4"
+        "/marka-photos/stec/axis-1-3.webm",
+        "/marka-photos/stec/axis-1-4.webm"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -601,13 +601,13 @@
         "/marka-photos/stec/sdi-logo.png",
         "/marka-photos/stec/sdi-0.jpg",
         "/marka-photos/stec/laserfix.png",
-        "/marka-photos/stec/sdi-1-v4.mp4",
+        "/marka-photos/stec/sdi-1-v4.webm",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/sdi--.jpg",
-        "/marka-photos/stec/sdi-4.mp4"
+        "/marka-photos/stec/sdi-4.webm"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -669,7 +669,7 @@
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/sv1-4.jpg",
-        "/marka-photos/stec/sv1-5.mp4"
+        "/marka-photos/stec/sv1-5.webm"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -718,14 +718,14 @@
       "images": [
         "/marka-photos/stec/se-lite.0.png",
         "/marka-photos/stec/se-lite.avif",
-        "/marka-photos/stec/se-lite-1.mp4",
+        "/marka-photos/stec/se-lite-1.webm",
         "/marka-photos/stec/fusionar.png",
         "/marka-photos/stec/se-lite-1.JPG",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/se-lite-2.mp4",
+        "/marka-photos/stec/se-lite-2.webm",
         "/marka-photos/stec/se-lite-3.jpg"
 
       ],
@@ -827,7 +827,7 @@
       "images": [
         "/marka-photos/stec/liscan100.0.png",
         "/marka-photos/stec/liscan100-logo.avif",
-        "/marka-photos/stec/liscan100-1.mp4",
+        "/marka-photos/stec/liscan100-1.webm",
         "/marka-photos/stec/stec.avif",
         "/marka-photos/stec/liscan100-2.png",
         "/marka-photos/stec/bos.png",
@@ -987,35 +987,44 @@
       "description": "STEC S POD, ultra kompakt tasarımı ve gelişmiş özellikleri ile sahada veri toplama ve kontrol ünitesi olarak kullanılan bir cihazdır.",
       "images": [
         "/marka-photos/stec/spod-0.png",
-        "/marka-photos/stec/spod-1.png"
+        "/marka-photos/stec/s-pod-logo.avif",
+        "/marka-photos/stec/s-pod-1.jpg",
+        "/marka-photos/stec/s-pod-2.png",
+        "/marka-photos/stec/s-pod-3.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/s-pod-4.avif",
+        "/marka-photos/stec/s-pod-5.avif"
       ],
       "category": "gnss",
       "brand": "stec",
       "type": "control-unit-software",
       "typeTitle": "Kontrol Üniteleri ve Yazılımlar",
       "specs": [
-        "İşlemci: MT8768, 8 çekirdekli 2.0 GHz",
-        "İşletim Sistemi: Android 11",
-        "RAM: 4GB",
-        "ROM: 64GB",
-        "Ekran: 5.5” Corning Gorilla Glass 3, 1080*1920 çözünürlük",
-        "Arka Kamera: 13MP, Otomatik Odaklama, LED Flaş",
-        "Batarya: Li-on, 9000mAh, 3.85V",
-        "Çalışma Süresi: 17 saat",
-        "Şarj Süresi: <5 saat",
-        "Wi-Fi: 2.4G/5G, 802.11 a/b/g/n/ac",
-        "Bluetooth: 2.1+EDR/3.0/4.1LE/4.2/5.0 BLE",
-        "SD Kart: Maksimum 512GB",
-        "USB: Type C",
-        "Boyutlar: 225mm*86mm*22.5mm",
-        "Ağırlık: 440g",
-        "Çalışma Sıcaklığı: -30°C - +65°C",
-        "Depolama Sıcaklığı: -49°C - +80°C",
-        "Su ve Toz Geçirmezlik: IP67",
-        "Şok Dayanıklılığı: 1.5m yüksekliğinden beton zemine düşmeye dayanıklı",
-        "Nem: %5-%95, yoğuşmasız",
-        "GNSS Takibi: GPS, GLONASS, BEIDOU uydu sistemi",
-        "Takip Hassasiyeti: 1-3m"
+        "Cihaz, 8 çekirdekli ve 2.0 GHz hızında çalışan MT8768 işlemciye sahiptir.",
+        "Android 11 işletim sistemi ile modern ve uyumlu bir kullanıcı deneyimi sunar.",
+        "4 GB RAM kapasitesi sayesinde uygulamalar hızlı ve kesintisiz çalışır.",
+        "64 GB dahili depolama alanı, geniş veri tutma kapasitesi sağlar.",
+        "5.5 inç boyutundaki ekran, Corning Gorilla Glass 3 ile korunmakta ve 1080x1920 çözünürlük sunmaktadır.",
+        "13 megapiksel çözünürlüklü arka kamera, otomatik odaklama ve LED flaş ile saha belgeleri için idealdir.",
+        "9000 mAh kapasiteli Li-ion batarya ile donatılmış olan cihaz, uzun süreli saha kullanımlarına uygundur.",
+        "Tam dolu batarya ile yaklaşık 17 saate kadar kesintisiz çalışma sağlar.",
+        "Batarya tam şarj seviyesine 5 saatten kısa sürede ulaşmaktadır.",
+        "Çift bantlı Wi-Fi desteği ile 2.4 GHz ve 5 GHz bağlantıları sorunsuz şekilde desteklenmektedir.",
+        "Bluetooth 2.1, 3.0, 4.1LE, 4.2 ve 5.0 BLE teknolojileri ile çok yönlü bağlantı seçenekleri sunar.",
+        "512 GB’a kadar microSD kart desteği sayesinde depolama kapasitesi artırılabilir.",
+        "Cihazda modern ve hızlı veri aktarımı sağlayan Type-C USB bağlantı noktası mevcuttur.",
+        "225 mm uzunluk, 86 mm genişlik ve 22.5 mm kalınlık ölçülerine sahiptir.",
+        "Toplam ağırlığı yalnızca 440 gram olup taşıması son derece kolaydır.",
+        "Çalışma sıcaklığı aralığı -30°C ila +65°C arasındadır ve zorlu saha koşullarına dayanıklıdır.",
+        "Depolama sıcaklığı -49°C ila +80°C arasında olup uzun süreli saklamalarda bile güvenli kalır.",
+        "IP67 sertifikası sayesinde toza ve suya karşı tam koruma sağlar.",
+        "1.5 metre yükseklikten beton zemine düşmeye karşı dayanıklıdır.",
+        "Cihaz %5 ile %95 oranındaki nemli ortamlarda yoğuşmasız şekilde sorunsuz çalışabilir.",
+        "GNSS takibi için GPS, GLONASS ve BEIDOU uydu sistemlerini destekler.",
+        "1 ila 3 metre arasında yüksek hassasiyetli konum belirleme yeteneğine sahiptir."
       ],
       "meta": {
         "title": "STEC S POD Akıllı GNSS Kontrol Ünitesi | Kompakt ve Dayanıklı Veri Toplama Cihazı",
@@ -1035,7 +1044,7 @@
           "field data collection"
         ]
       }
-    },
+    },    
     {
       "id": 20,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
@@ -6775,8 +6784,17 @@
       "description": "STEC FieldMaster, GNSS ve lazer tabanlı ölçüm cihazlarıyla entegre çalışan, CAD destekli harita çizimi, artırılmış gerçeklikli aplikasyon ve saha odaklı veri toplama işlemlerini kolaylaştıran bir mobil yazılımdır.",
       "images": [
         "/marka-photos/stec/fieldmaster-1.png",
-        "/marka-photos/stec/fieldmaster-2.png",
-        "/marka-photos/stec/fieldmaster-3.png"
+        "/marka-photos/stec/fm-logo.png",
+        "/marka-photos/stec/fm-1.webp",
+        "/marka-photos/stec/stec-sag.avif",
+        "https://static.wixstatic.com/media/b54b30_0183e07069184eae90ff18c13cfb9cbc~mv2.gif",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/fieldmaster-1.png"
+
+        
       ],
       "category": "gnss",
       "brand": "stec",
@@ -8142,7 +8160,7 @@
       "imageLeft": "/resimler/market2.jpg",
       "imageRight": "",
       "buttonText": "Marketing Sitemizi İnceleyin",
-      "buttonLink": "/marketing",
+      "buttonLink": "https://www.gnssmarketim.com/",
       "layout": "right"
     }
   ],
