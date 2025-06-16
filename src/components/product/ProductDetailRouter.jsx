@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import ProductDetailPage from "../../pages/ProductDetailPage";
 import StecProductDetailPage from "../../pages/StecProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
 import { Navigate } from "react-router-dom";

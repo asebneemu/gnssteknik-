@@ -212,7 +212,7 @@
         { "type": "image", "src": "marka-photos/senceive-banner-1.jpeg" },
         {
           "type": "video",
-          "src": "marka-photos/senceive-banner-v1.mp4",
+          "src": "marka-photos/senceive-banner-v1.webm",
           "duration": 48
         }
       ],
@@ -227,7 +227,7 @@
       "bannerphotos": [
         {
           "type": "video",
-          "src": "marka-photos/benewake-banner-1.mp4",
+          "src": "marka-photos/benewake-banner-1.webm",
           "duration": 22
         }
       ],
@@ -661,7 +661,7 @@
       "images": [
         "/marka-photos/stec/sv1.0.png",
         "/marka-photos/stec/sv1-logo.avif",
-        "/marka-photos/stec/sv1-1.JPG",
+        "/marka-photos/stec/sv1-model.png",
         "/marka-photos/stec/sv1-3.png",
         "/marka-photos/stec/sv1-2.JPG",
         "/marka-photos/stec/bos.png",
@@ -717,8 +717,17 @@
       "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
         "/marka-photos/stec/se-lite.0.png",
-        "/marka-photos/stec/se-lite.1.png",
-        "/marka-photos/stec/se-lite.2.png"
+        "/marka-photos/stec/se-lite.avif",
+        "/marka-photos/stec/se-lite-1.mp4",
+        "/marka-photos/stec/fusionar.png",
+        "/marka-photos/stec/se-lite-1.JPG",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/se-lite-2.mp4",
+        "/marka-photos/stec/se-lite-3.jpg"
+
       ],
       "category": "gnss",
       "brand": "stec",
@@ -763,10 +772,16 @@
       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
       "images": [
         "/marka-photos/stec/liscan50.0.png",
-        "/marka-photos/stec/liscan50.1.png",
-        "/marka-photos/stec/liscan50.2.png",
-        "/marka-photos/stec/liscan50.3.png",
-        "/marka-photos/stec/liscan50.4.png"
+        "/marka-photos/stec/liscan50-logo.png",
+        "/marka-photos/stec/liscan50--1.png",
+        "/marka-photos/stec/360.png",
+        "/marka-photos/stec/liscan50--2.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/liscan50--3.png",
+        "/marka-photos/stec/liscan50--4.JPG"
       ],
       "category": "lidar",
       "brand": "stec",
@@ -811,7 +826,16 @@
       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
       "images": [
         "/marka-photos/stec/liscan100.0.png",
-        "/marka-photos/stec/liscan100.1.png"
+        "/marka-photos/stec/liscan100-logo.avif",
+        "/marka-photos/stec/liscan100-1.mp4",
+        "/marka-photos/stec/stec.avif",
+        "/marka-photos/stec/liscan100-2.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/liscan100-3.jpg",
+        "/marka-photos/stec/liscan100-4.jpg"
       ],
       "category": "lidar",
       "brand": "stec",
@@ -857,10 +881,16 @@
       "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
       "images": [
         "/marka-photos/stec/dls-1507.0.png",
-        "/marka-photos/stec/dls-1507.1.png",
-        "/marka-photos/stec/dls-1507.2.png",
-        "/marka-photos/stec/dls-1507.3.png",
-        "/marka-photos/stec/dls-1507.4.png"
+        "/marka-photos/stec/dls15-logo.png",
+        "/marka-photos/stec/dls15-1.jpg",
+        "/marka-photos/stec/stec.avif",
+        "/marka-photos/stec/dls15-2.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/dls15-3.png",
+        "/marka-photos/stec/dls15-4.jpg"
       ],
       "category": "nivo",
       "brand": "stec",
@@ -903,11 +933,17 @@
       "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
       "images": [
         "/marka-photos/stec/dls03.0.png",
-        "/marka-photos/stec/dls03.1.png",
-        "/marka-photos/stec/dls03.2.png",
-        "/marka-photos/stec/dls03.3.png",
-        "/marka-photos/stec/dls03.4.png",
-        "/marka-photos/stec/dls03.5.png"
+        "/marka-photos/stec/dls03-logo.png",
+        "/marka-photos/stec/dls03-2.jpg",
+        "/marka-photos/stec/stec.avif",
+        "/marka-photos/stec/dls03-logo.jpg",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/dls03-3.jpg",
+        "/marka-photos/stec/dls03-4.jpg"
+
       ],
       "category": "nivo",
       "brand": "stec",
