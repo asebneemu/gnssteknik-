@@ -135,10 +135,15 @@ function BrandBanner({ item }) {
   const [isFading, setIsFading] = useState(false);
   const mediaList = item.bannerphotos || [];
 
+  const activeMedia = mediaList[mediaIndex];
+
   useEffect(() => {
-    if (mediaList.length === 0) return;
-    const current = mediaList[mediaIndex];
-    const duration = current.type === "video" ? (current.duration || 10) * 1000 : 4000;
+    if (!activeMedia) return;
+
+    const duration =
+      activeMedia.type === "video"
+        ? (activeMedia.duration || 10) * 1000
+        : 4000;
 
     setIsFading(true);
     const fadeTimeout = setTimeout(() => setIsFading(false), 1000);
@@ -151,36 +156,44 @@ function BrandBanner({ item }) {
       clearTimeout(timer);
       clearTimeout(fadeTimeout);
     };
-  }, [mediaIndex, mediaList]);
+  }, [mediaIndex, activeMedia]);
 
   const renderMedia = (media, isVisible) => {
     if (!media) return null;
-    return media.type === "video" ? (
-      <video
-        key={media.src}
-        src={media.src}
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-          isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
-        }`}
-        autoPlay
-        muted
-        playsInline
-        loop
-      />
-    ) : (
-      <div
-        key={media.src}
-        className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-          isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
-        }`}
-        style={{ backgroundImage: `url(${media.src})` }}
-      />
-    );
+
+    if (media.type === "video") {
+      return (
+        <video
+          key={media.src}
+          src={media.src}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
+          }`}
+          autoPlay
+          muted
+          playsInline
+          loop
+          preload="none"
+        />
+      );
+    } else {
+      return (
+        <div
+          key={media.src}
+          className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+            isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
+          }`}
+          style={{
+            backgroundImage: isVisible ? `url(${media.src})` : "none",
+          }}
+        />
+      );
+    }
   };
 
   return (
     <div className="w-full h-full bg-black relative flex items-center justify-center overflow-hidden">
-      {mediaList.map((media, index) => renderMedia(media, index === mediaIndex))}
+      {renderMedia(activeMedia, true)}
 
       <div
         className="backdrop-blur-md bg-white/10 border border-white/30 shadow-xl
@@ -207,3 +220,4 @@ function BrandBanner({ item }) {
     </div>
   );
 }
+

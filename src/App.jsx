@@ -60,8 +60,8 @@ function AppContent() {
         <Route path="/category/yazilim/3dsurvey" element={<ThreeDSurveyPage />} />
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
-        <Route path="/urun-detay/:category/:brand/:idSlug" element={<ProductDetailRouter />} />
-        <Route path="/:category/:brand/:productName" element={<ProductDetailPage />} />
+        <Route path="/:category/:brand/:slug" element={<ProductDetailRouter />} />
+        <Route path="/category/:category/:brand/:slug" element={<ProductDetailRouter />} />
 
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useCompare } from "../../context/CompareContext";
 import { useLanguage } from "../../context/LanguageContext";
 
-// Türkçe karakterleri silip SEO dostu URL üret
+// SEO uyumlu slug
 const toSlug = (str) =>
   str
     .toLowerCase()
@@ -30,6 +30,18 @@ const ProductCard = ({ product }) => {
   const compareText = language === "tr" ? "Karşılaştır" : "Compare";
   const removeText = language === "tr" ? "Kaldır" : "Remove";
 
+  // ✅ STEC markası kontrolü
+  const isStec = toSlug(product.brand) === "stec";
+
+  // ✅ Rota yolu markaya göre belirleniyor
+  const productUrl = isStec
+    ? `/${toSlug(product.category)}/${toSlug(product.brand)}/${toSlug(
+        product.name
+      )}`
+    : `/category/${toSlug(product.category)}/${toSlug(product.brand)}/${toSlug(
+        product.name
+      )}`;
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden p-5 relative transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col h-full">
       <div className="relative w-full h-56 overflow-hidden">
@@ -50,16 +62,16 @@ const ProductCard = ({ product }) => {
 
         <div className="mt-auto flex flex-col gap-3 pt-2">
           <button
-            onClick={() =>
-              navigate(
-                `/urun-detay/${toSlug(product.category)}/${toSlug(
-                  product.brand
-                )}/${product.id}-${toSlug(product.name)}`
-              )
-            }
+            onClick={() => navigate(productUrl)}
             className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 transition"
           >
             {moreInfoText}
+          </button>
+          <button
+            onClick={() => window.open(product.buyUrl, "_blank")}
+            className="bg-red-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-red-700 transition"
+          >
+            Satın Al
           </button>
 
           <button

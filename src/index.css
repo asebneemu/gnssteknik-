@@ -22,3 +22,25 @@ body {
     color: black;
   }
   
+
+/* index.css */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease;
+}
+.fade-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.7s ease;
+}
+.fade-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 0.7s ease;
+}
+.show {
+  opacity: 1;
+  transform: translate(0, 0);
+}

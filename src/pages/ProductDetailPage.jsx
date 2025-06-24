@@ -16,7 +16,7 @@ const toSlug = (str) =>
     .replace(/[^\w-]+/g, "");
 
 const ProductDetailPage = () => {
-  const { category, brand, productName } = useParams();
+  const { category, brand, slug } = useParams(); // 🔧 düzeltildi
   const navigate = useNavigate();
   const { data } = useLanguage();
 
@@ -28,31 +28,20 @@ const ProductDetailPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  useEffect(() => {
-    if (!data?.products) return;
-    const product = data.products.find(
-      (item) =>
-        toSlug(item.name) === productName &&
-        toSlug(item.category) === category &&
-        toSlug(item.brand) === brand
-    );
-    if (!product?.specs?.length) return;
-
-    const interval = setInterval(() => {
-      setHighlightIndex(Math.floor(Math.random() * product.specs.length));
-    }, 2500);
-
-    return () => clearInterval(interval);
-  }, [data, category, brand, productName]);
-
-  if (!data || !data.products) return null;
-
-  const product = data.products.find(
+  const product = data?.products?.find(
     (item) =>
-      toSlug(item.name) === productName &&
+      toSlug(item.name) === slug &&
       toSlug(item.category) === category &&
       toSlug(item.brand) === brand
   );
+
+  useEffect(() => {
+    if (!product?.specs?.length) return;
+    const interval = setInterval(() => {
+      setHighlightIndex(Math.floor(Math.random() * product.specs.length));
+    }, 2500);
+    return () => clearInterval(interval);
+  }, [product]);
 
   if (!product) return null;
 
@@ -79,6 +68,17 @@ const ProductDetailPage = () => {
         <p className="text-xl opacity-90 max-w-4xl mx-auto">
           {product.meta?.description || product.description}
         </p>
+        {/* 📌 Satın Al Butonu */}
+  {product.buyUrl && (
+    <div className="mt-10 flex justify-center">
+      <button
+        onClick={() => window.open(product.buyUrl, "_blank")}
+        className="bg-red-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-red-700 transition"
+      >
+        Satın Al
+      </button>
+    </div>
+  )}
       </section>
 
       {/* Galeri + Teknik Özellikler */}
@@ -107,6 +107,7 @@ const ProductDetailPage = () => {
               onClick={() => setIsModalOpen(true)}
               className="w-full h-auto object-contain rounded-md cursor-pointer"
               alt={product.name}
+              loading="lazy"
             />
             <div className="flex gap-2 mt-4 flex-wrap justify-center">
               {product.images?.slice(1).map((img, i) => (
@@ -118,22 +119,10 @@ const ProductDetailPage = () => {
                     img === mainImage ? "opacity-100" : "opacity-50 hover:opacity-90"
                   }`}
                   alt={`thumb-${i}`}
+                  loading="lazy"
                 />
               ))}
             </div>
-
-            {/* Broşür bağlantısı — gizli */}
-            {/*
-            <a
-              href={brochureLink}
-              download
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-orange-600 mt-4 hover:text-orange-800 font-medium"
-            >
-              Ürün Broşürü
-            </a>
-            */}
           </div>
 
           {/* Sağ Özellikler */}
@@ -167,11 +156,12 @@ const ProductDetailPage = () => {
             src={mainImage}
             alt="Tam Ekran"
             className="object-contain max-h-full max-w-full rounded-lg"
+            loading="lazy"
           />
         </div>
       )}
 
-      {/* Geri Dön Butonu - Sağ Altta Sabit */}
+      {/* Geri Dön Butonu */}
       <button
         onClick={() => navigate(-1)}
         className="fixed bottom-5 right-5 z-50 bg-white/30 backdrop-blur-md border border-white/40 text-gray-900 py-2 px-6 rounded-md hover:bg-white/50 transition"

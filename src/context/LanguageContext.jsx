@@ -33,4 +33,4 @@ export const LanguageProvider = ({ children }) => {
 export const useLanguage = () => {
   return useContext(LanguageContext);
 };
-
+export { LanguageContext }; // bunu mutlaka ekle

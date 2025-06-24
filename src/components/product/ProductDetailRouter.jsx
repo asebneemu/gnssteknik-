@@ -1,38 +1,53 @@
 import { useParams } from "react-router-dom";
 import StecProductDetailPage from "../../pages/StecProductDetailPage";
+import DjiProductDetailPage from "../../pages/DjiProductDetailPage";
+import ProductDetailPage from "../../pages/ProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
-import { Navigate } from "react-router-dom";
+
+const slugify = (str) =>
+  str
+    ?.toString()
+    .toLowerCase()
+    .replace(/ç/g, "c")
+    .replace(/ğ/g, "g")
+    .replace(/ı/g, "i")
+    .replace(/ö/g, "o")
+    .replace(/ş/g, "s")
+    .replace(/ü/g, "u")
+    .replace(/\s+/g, "-")
+    .replace(/[^\w-]+/g, "");
 
 export default function ProductDetailRouter() {
-  const { idSlug } = useParams();
+  const { category, brand, slug } = useParams();
   const { data } = useLanguage();
 
-  const pureId = idSlug.split("-")[0];
-  const product = data.products.find((p) => String(p.id) === pureId); // ✅ kritik düzeltme
+  if (!data?.products?.length) return null;
+
+  const product = data.products.find((p) => {
+    return (
+      slugify(p.category) === slugify(category) &&
+      slugify(p.brand) === slugify(brand) &&
+      slugify(p.name) === slugify(slug)
+    );
+  });
 
   if (!product) {
-    return <div>Ürün bulunamadı kankam.</div>;
+    return (
+      <div className="w-10/12 mx-auto py-10 text-center text-red-600 text-xl">
+        Ürün bulunamadı. URL'yi kontrol edin.
+      </div>
+    );
   }
 
-  if (product.brand.toLowerCase() === "stec") {
+  const brandSlug = slugify(product.brand);
+
+  if (brandSlug === "stec") {
     return <StecProductDetailPage product={product} />;
   }
 
-  const slugify = (str) =>
-    str
-      .toLowerCase()
-      .replace(/ç/g, "c")
-      .replace(/ğ/g, "g")
-      .replace(/ı/g, "i")
-      .replace(/ö/g, "o")
-      .replace(/ş/g, "s")
-      .replace(/ü/g, "u")
-      .replace(/\s+/g, "-")
-      .replace(/[^\w-]+/g, "");
+  if (brandSlug === "dji") {
+    return <DjiProductDetailPage product={product} />;
+  }
 
-  const category = slugify(product.category);
-  const brand = slugify(product.brand);
-  const name = slugify(product.name);
-
-  return <Navigate to={`/${category}/${brand}/${name}`} replace />;
+  return <ProductDetailPage product={product} />;
 }

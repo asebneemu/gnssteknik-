@@ -38,6 +38,7 @@ export default function CategoryPage() {
               title={item.title}
               description={item.description}
               photo={item.photo}
+              lazy={true} // ✅ Lazy yükleme bilgisi geçildi
             />
           ))}
         </div>
@@ -62,6 +63,7 @@ export default function CategoryPage() {
           title={info.title}
           description={info.description}
           photo={info.photo}
+          lazy={true} // ✅ Lazy yükleme bilgisi geçildi
         />
 
         <SideBySideCards />

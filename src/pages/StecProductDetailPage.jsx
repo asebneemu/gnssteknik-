@@ -17,7 +17,7 @@ export default function StecProductDetailPage({ product }) {
     if (!src) return null;
     const ext = src.split(".").pop().toLowerCase();
     const isVideo = ["mp4", "webm", "mov", "mkv"].includes(ext);
-
+  
     return isVideo ? (
       <motion.video
         src={src}
@@ -26,6 +26,7 @@ export default function StecProductDetailPage({ product }) {
         loop
         muted
         playsInline
+        preload="none" // Lazy load için önemli
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -35,12 +36,14 @@ export default function StecProductDetailPage({ product }) {
         src={src}
         alt={alt}
         className={className}
+        loading="lazy" // Resim için lazy yükleme
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       />
     );
   };
+  
 
   return (
     <div className="bg-black min-h-screen text-white flex flex-col items-center gap-20 py-20">
@@ -52,7 +55,15 @@ export default function StecProductDetailPage({ product }) {
         <div className="w-1/2 flex flex-col justify-center items-start pl-10">
           <h1 className="text-2xl font-bold mb-2">{name}</h1>
           <p className="text-md max-w-[90%]">{mainDescription}</p>
+          <button
+  onClick={() => window.open(product.buyUrl, "_blank")}
+  className="mt-4 px-6 py-2 bg-white/20 backdrop-blur-md text-white rounded-md border border-white/30 shadow-sm transition-colors duration-300 hover:bg-red-600 hover:border-red-600 hover:scale-105"
+>
+  Satın Al
+</button>
+
         </div>
+        
       </div>
 
       {/* 2. Div */}

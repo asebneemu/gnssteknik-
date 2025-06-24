@@ -193,7 +193,6 @@
       "icon": "marka-icons/stec.png",
       "path": "/stec",
       "bannerphotos": [
-        
         { "type": "image", "src": "marka-photos/stec-banner-p1.JPG" },
         { "type": "image", "src": "marka-photos/stec-banner-p.jpg" },
         { "type": "image", "src": "marka-photos/stec-banner.jpg" },
@@ -234,6 +233,26 @@
       "banner-description": "Lidar Sensör Çözümleri",
       "banner-url": "https://www.gnssmarketim.com/marka/benewake",
       "filter": ["/sensor", "/aksesuar"]
+    },
+    {
+      "name": "GEOSUN",
+      "icon": "marka-icons/GEOSUN.png",
+      "path": "/geosun",
+      "bannerphotos": [
+        {
+          "type": "video",
+          "src": "marka-photos/geosun-banner-1.webm",
+          "duration": 11
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/geosun-banner-2.mp4",
+          "duration": 17
+        }
+      ],
+      "banner-description": "Lidar Sensör Çözümleri",
+      "banner-url": "https://www.gnssmarketim.com/marka/benewake",
+      "filter": ["/lidar"]
     }
   ],
   "socialLinks": [
@@ -305,6 +324,7 @@
         "6400 mAh Bataryası İle 10 Saat Çalışma İmkanı Tanır.",
         "Yanında Ekstra 8 İnç Ekranı, 8000 mAh Bataryası, Android 10 İşlemcisi, 4 GB RAM 64 GB Hafızası Ve Dokunmatik Tableti İle İşlerinizi Hızlıca Gerçekleştirebilir, Uzaktan Komut Verebilirsiniz."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-10-robotic-total-station-guc-performans-uretkenlik",
       "meta": {
         "title": "STEC AXIS-10 Robotik Android Total Station | Yüksek Hassasiyetli Otomatik Takip Total Station",
         "description": "STEC AXIS-10, 0.5\" ve 1\" açı hassasiyeti ile yüksek doğrulukta ölçümler sunar. Android işletim sistemi sayesinde sezgisel ve hızlı veri yönetimi sağlar. 1000 metre prizma tanıma kapasitesi ve xTrak otomatik takip teknolojisiyle zorlu saha koşullarında bile güvenilir sonuçlar üretir. 600 metre uzaktan kontrol menzili ve 6 inç dokunmatik ekran ile kullanım kolaylığı sağlar. IP65 sertifikası sayesinde -20°C’den +50°C’ye kadar dayanıklılık gösterir. 6400 mAh bataryası ile uzun süre çalışma imkanı sunar. CAD aplikasyonları, yol modülü ve gelişmiş grafik alımı gibi profesyonel ölçüm programları ile desteklenir. STEC AXIS-10, inşaat ve haritacılık sektörlerinde üstün performans ve verimlilik için ideal çözümdür.",
@@ -323,7 +343,7 @@
           "otomatik hedef kilitleme"
         ]
       }
-    },    
+    },
     {
       "id": 6,
       "name": "STEC AXIS-9 Android Total Station Serisi",
@@ -363,6 +383,7 @@
         "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
         "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-9-robotik-total-station-yuksek-hassasiyet",
       "meta": {
         "title": "STEC AXIS-9 Android Total Station | Yüksek Hassasiyetli 2\" Açı ve Uzun Menzilli Total Station",
         "description": "STEC AXIS-9, 2\" açı hassasiyeti, 1.5-2 km prizmasız ölçüm ve Android işletim sistemi ile hızlı ve hassas saha ölçümleri sunan robotik total station serisidir. IP66 koruması ve gelişmiş bağlantı seçenekleri ile zorlu koşullarda üstün performans sağlar.",
@@ -420,6 +441,7 @@
         "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar.",
         "-20°C To 50°C Çalışma Şartlarına Uygundur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-4-total-station-yuksek-hassasiyet-esneklik",
       "meta": {
         "title": "STEC AXIS-4 Manuel Total Station | Hassas ve Esnek 2\" Açı Ölçümü",
         "description": "STEC AXIS-4, 2\" açı hassasiyeti, prizmasız 1.5-2 km ölçüm kabiliyeti ve otomatik yükseklik ölçümü özellikleri ile yüksek hassasiyetli manuel total station çözümüdür. IP66 dayanıklılığı ve gelişmiş veri aktarım seçenekleri ile sahada güvenle kullanılır.",
@@ -471,6 +493,7 @@
         "Bluetooth, USB ve WLAN bağlantı seçenekleri ile geniş veri aktarım imkanı tanır.",
         "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-3-yuksek-hassasiyet-gelistirilmis-total-station",
       "meta": {
         "title": "STEC AXIS-3 Manuel Total Station | 2'' Açı Hassasiyeti ve 2000m Reflektörsüz Ölçüm",
         "description": "STEC AXIS-3, renkli ve dokunmatik ekranı ile kolay kullanım sağlayan, 2'' açı hassasiyetine ve 2000m reflektörsüz ölçüm kapasitesine sahip manuel total station modelidir. Geniş bağlantı seçenekleri ve uzun batarya ömrü ile saha çalışmalarında yüksek performans sunar.",
@@ -501,7 +524,7 @@
         "/marka-photos/stec/total-s-ikon.png",
         "/marka-photos/stec/axis-2-2.jpg",
         "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png", 
+        "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/axis-2-3.webm",
@@ -521,6 +544,7 @@
         "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
         "3D projeksiyon ve otomatik hedef tanıma sistemi."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-2-ustun-hassasiyet-gelistirilmis-total-station",
       "meta": {
         "title": "STEC AXIS-2 Manuel Total Station | 2'' Açı Hassasiyeti ve IP68 Dayanıklılık",
         "description": "STEC AXIS-2, 2'' açı hassasiyeti, 2000m reflektörsüz ölçüm kapasitesi ve IP68 sertifikalı dayanıklılığı ile en zorlu saha koşullarında üstün performans sağlar. Ergonomik tasarımı ve hızlı veri aktarımı ile manuel ölçümlerde yüksek verimlilik sunar.",
@@ -551,7 +575,7 @@
         "/marka-photos/stec/total-s-ikon.png",
         "/marka-photos/stec/axis-1-2.png",
         "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",   
+        "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/axis-1-3.webm",
@@ -573,6 +597,7 @@
         "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
         "USB ve bluetooth ile veri transfer kolaylığı sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-1-hassasiyet-dayaniklilik-verimlilik-total-station",
       "meta": {
         "title": "STEC AXIS-1 Manuel Total Station | 2'' Açı Hassasiyeti ve Geniş 3.1 İnç Ekran",
         "description": "STEC AXIS-1, 2'' açı hassasiyeti ve 1500m reflektörsüz ölçüm kapasitesi ile sahada hassas ve hızlı ölçümler sağlar. IP67 dayanıklılık sertifikası ve kullanıcı dostu geniş ekranı ile uzun süreli saha çalışmaları için idealdir.",
@@ -602,10 +627,10 @@
         "/marka-photos/stec/sdi-0.jpg",
         "/marka-photos/stec/laserfix.png",
         "/marka-photos/stec/sdi-1-v4.webm",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/sdi-ikon-1.avif",
+        "/marka-photos/stec/sdi-ikon-2.avif",
+        "/marka-photos/stec/sdi-ikon-3.avif",
+        "/marka-photos/stec/sdi-ikon-4.avif",
         "/marka-photos/stec/sdi--.jpg",
         "/marka-photos/stec/sdi-4.webm"
       ],
@@ -631,6 +656,7 @@
         "13.600 mAh kapasiteli bataryası ile 15 saat kesintisiz çalışma süresi sunarak tüm gün boyunca görevde kalır.",
         "İHA sabit modu sayesinde insansız hava araçlarıyla entegrasyon sağlayarak GNSS sistemini havadan destekler."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-sdi-imu-rtk-gnss-alicisi-ar-destekli",
       "meta": {
         "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, IMU ve Lazerli Ölçüm",
         "description": "STEC SDi GNSS alıcısı, lazer tabanlı EDM ölçümü, AR destekli HDR kamera, IMU-RTK eğim düzeltmesi ve 1.408 kanal desteği ile sektörde yeni bir standart belirliyor. IP68 dayanıklılığı, 15 saatlik batarya süresi ve ileri bağlantı özellikleri sayesinde her türlü zorlu saha koşulunda en yüksek performansı sunar.",
@@ -653,7 +679,7 @@
           "uzun menzilli radyo modem"
         ]
       }
-    },    
+    },
     {
       "id": 12,
       "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
@@ -664,10 +690,10 @@
         "/marka-photos/stec/sv1-model.png",
         "/marka-photos/stec/sv1-3.png",
         "/marka-photos/stec/sv1-2.JPG",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/sv1-ikon-1.avif",
+        "/marka-photos/stec/sv1-ikon-2.avif",
+        "/marka-photos/stec/sv1-ikon-3.avif",
+        "/marka-photos/stec/sv1-ikon-4.avif",
         "/marka-photos/stec/sv1-4.jpg",
         "/marka-photos/stec/sv1-5.webm"
       ],
@@ -692,6 +718,7 @@
         "USB Type-C ve Bluetooth 4.0 ile hızlı veri aktarımı ve şarj desteği.",
         "RINEX VE NMEA mesajlarını kaydetme."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-sv1-hassas-gnss-alicisi-dayanikli",
       "meta": {
         "title": "STEC SV1 IMU Kameralı Akıllı GNSS Alıcısı | 15 km RTK Yayını ve Yüksek Hassasiyet",
         "description": "STEC SV1, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti, EZtilt kalibrasyonsuz eğim ölçümü ve IP68 dayanıklılığı ile güvenilir saha ölçümleri sağlar. 15 km radyo modem yayını ve gelişmiş AR aplikasyon özellikleri ile sahada üstün performans sunar.",
@@ -721,13 +748,12 @@
         "/marka-photos/stec/se-lite-1.webm",
         "/marka-photos/stec/fusionar.png",
         "/marka-photos/stec/se-lite-1.JPG",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/se-lite-ikon-1.avif",
+        "/marka-photos/stec/se-lite-ikon-2.avif",
+        "/marka-photos/stec/se-lite-ikon-3.avif",
+        "/marka-photos/stec/se-lite-ikon-4.avif",
         "/marka-photos/stec/se-lite-2.webm",
         "/marka-photos/stec/se-lite-3.jpg"
-
       ],
       "category": "gnss",
       "brand": "stec",
@@ -747,6 +773,7 @@
         "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-se-lite-gnss-alicisi-kompakt-tasarimda-ustun-performans",
       "meta": {
         "title": "STEC SE Lite IMU Kameralı GNSS Alıcısı | Kompakt ve Yüksek Performanslı Akıllı GNSS",
         "description": "STEC SE Lite, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti ve kompakt tasarımı ile fiyat/performans dengesi sunan GNSS alıcısıdır. IP68 dayanıklılığı, 15 saat batarya ömrü ve AR aplikasyon özellikleri ile saha çalışmalarında yüksek verimlilik sağlar.",
@@ -801,6 +828,7 @@
         "USB Type-C üzerinden şarj ve veri aktarımı",
         "SLAM teknolojisi ile hareket halinde veri kaydı"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-liscan50-hafif-yuksek-hassasiyetli-lidar-tarayici",
       "meta": {
         "title": "STEC LiScan50 El Tipi Lazer Tarayıcı | Yüksek Hassasiyetli Kablosuz LiDAR",
         "description": "STEC LiScan50, 70m ölçüm menzili, 200,000 nokta/saniye ölçüm hızı ve 18 MP panoramik kamera ile yüksek doğrulukta kablosuz LiDAR taraması sunar. Ergonomik tasarımı ve SLAM teknolojisi ile hareket halindeyken güvenilir veri kaydı sağlar.",
@@ -856,6 +884,7 @@
         "GNSS modülü ile CORS bağlantısı ve gerçek zamanlı kinematik konumlandırma",
         "Uygulama üzerinden gerçek zamanlı tarama izleme ve nokta bulutu önizlemesi"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-liscan100-el-tipi-lidar-tarayici",
       "meta": {
         "title": "STEC LiScan100 El Tipi Lazer Tarayıcı | Yüksek Hassasiyetli Kablosuz LiDAR Çözümü",
         "description": "STEC LiScan100, 120m/300m ölçüm menzili, 320,000 nokta/saniye hızı ve 72 MP panoramik kamera ile yüksek doğruluklu LiDAR taraması sunar. GNSS modülü ve gerçek zamanlı önizleme özellikleriyle saha uygulamalarında üstün performans sağlar.",
@@ -908,6 +937,7 @@
         "-20℃ ile +50℃ çalışma sıcaklık aralığı",
         "230mm x 150mm x 210mm boyutlarında, 2.5kg ağırlık"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-dls-15-hassas-dijital-nivo-cozumu",
       "meta": {
         "title": "STEC DLS-15 Dijital Nivelman Cihazı | Yüksek Doğruluklu Hassas Seviye Ölçümü",
         "description": "STEC DLS-15, 1.5mm dijital ve 2.0mm optik yükseklik doğruluğu sunan dijital nivelman cihazıdır. 100m ölçüm mesafesi, manyetik kompansatör ve aydınlatmalı LCD ekranıyla hassas saha ölçümleri için idealdir.",
@@ -943,7 +973,6 @@
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/dls03-3.jpg",
         "/marka-photos/stec/dls03-4.jpg"
-
       ],
       "category": "nivo",
       "brand": "stec",
@@ -962,6 +991,7 @@
         "230mm x 225mm x 203mm boyutlarında, 3.1kg ağırlık",
         "IP65 su ve toz geçirmezlik sertifikası"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-dls-03-profesyonel-hassas-yukseklik-olcumu",
       "meta": {
         "title": "STEC DLS-03 Dijital Nivelman Cihazı | Yüksek Hassasiyetli Hassas Seviye Ölçümü",
         "description": "STEC DLS-03, 0.3mm dijital ve 2.0mm optik yükseklik doğruluğu ile hassas dijital nivelman sağlar. Geniş ölçüm mesafesi, IP65 sertifikası ve yüksek veri depolama kapasitesi ile güvenilir saha ölçümleri için ideal cihazdır.",
@@ -1026,6 +1056,7 @@
         "GNSS takibi için GPS, GLONASS ve BEIDOU uydu sistemlerini destekler.",
         "1 ila 3 metre arasında yüksek hassasiyetli konum belirleme yeteneğine sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-s-pod-akilli-gnss-kontrol-unitesi",
       "meta": {
         "title": "STEC S POD Akıllı GNSS Kontrol Ünitesi | Kompakt ve Dayanıklı Veri Toplama Cihazı",
         "description": "STEC S POD, güçlü işlemcisi, Android 11 işletim sistemi ve IP67 sertifikası ile saha veri toplama için tasarlanmış ultra kompakt GNSS kontrol ünitesidir. 17 saat çalışma süresi ve gelişmiş bağlantı seçenekleri ile yüksek performans sunar.",
@@ -1044,7 +1075,7 @@
           "field data collection"
         ]
       }
-    },    
+    },
     {
       "id": 20,
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
@@ -1078,6 +1109,7 @@
         "200 Hz IMU güncelleme hızı ile otomatik IMU başlatma ve yüksek hassasiyetli eğim ölçümü.",
         "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i93-gelismis-gorsel-ve-imu-destekli-gnss-alicisi",
       "meta": {
         "title": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı | Yüksek Hassasiyetli 3D Modelleme ve RTK Ölçümü",
         "description": "CHCNAV i93, 1,408 kanal desteği, kamera tabanlı 3D modelleme ve AR aplikasyonu ile üstün saha ölçümleri sağlar. 34 saat batarya, IP68 dayanıklılık ve 15 km radyo modem kapsaması ile zorlu saha koşullarına uygundur.",
@@ -1129,6 +1161,8 @@
         "NTRIP, RTCM ve RINEX veri formatlarını destekleyen geniş uyumluluk.",
         "İnsansız hava araçları için İHA sabit modu"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i89-hafif-akilli-ve-imu-rtk-destekli-gnss-alicisi",
+
       "meta": {
         "title": "CHCNAV i89 IMU Kameralı CORS-GNSS Alıcısı | Kompakt, Yüksek Hassasiyetli 3B Modelleme",
         "description": "CHCNAV i89, 1,408 kanal ve gelişmiş iyonosfer azaltma teknolojisi ile yüksek doğrulukta GNSS ölçümleri yapar. 16.5 saat batarya, IP68 dayanıklılığı ve 3-8 km radyo modem kapsaması ile sahada güvenilir performans sağlar.",
@@ -1180,6 +1214,8 @@
         "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
         "Magnezyum alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i83-akilli-ve-cok-yonlu-imu-rtk-gnss-alicisi",
+
       "meta": {
         "title": "CHCNAV i83 IMU CORS-GNSS Alıcısı | Uzun Batarya Ömrü ve Yüksek Hassasiyetli RTK Ölçümler",
         "description": "CHCNAV i83, 1,408 kanal desteği, 34 saat çalışma süresi ve 15 km radyo modem kapsaması ile dayanıklı ve yüksek performanslı GNSS ölçümleri sağlar. IP67 sertifikası ve geniş bağlantı seçenekleri ile zorlu saha koşullarına uygundur.",
@@ -1231,6 +1267,7 @@
         "CAD+AR ile %40 daha hızlı kamera aplikasyonu imkanı",
         "İnsansız hava araçları için İHA sabit modu"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i76-hafif-guclu-ve-imu-rtk-destekli-gnss-alicisi",
       "meta": {
         "title": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı | Yüksek Performans ve Kompakt Tasarım",
         "description": "CHCNAV i76, 1,408 kanal ve 5. Nesil Ultra-IMU teknolojisi ile yüksek hassasiyetli GNSS ölçümleri sunar. 17 saat batarya ömrü, IP68 dayanıklılık ve hızlı veri aktarımı ile saha çalışmalarında verimlilik sağlar.",
@@ -1278,6 +1315,8 @@
         "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
         "İnsansız hava araçları için İHA sabit modu"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i73-plus-hafif-guclu-imu-destekli-gnss-alicisi",
+
       "meta": {
         "title": "CHCNAV i73+ IMU CORS-GNSS Alıcısı | Kompakt ve Yüksek Performanslı GNSS",
         "description": "CHCNAV i73+, 1,408 kanal ve IMU-RTK eğim ölçümü teknolojisi ile 24 saat batarya ömrü sunan, dayanıklı ve yüksek hassasiyetli portatif GNSS alıcısıdır. IP67 sertifikası ve geniş bağlantı seçenekleri ile sahada güvenilir veri toplar.",
@@ -1325,6 +1364,8 @@
         "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı.",
         "İnsansız hava araçları için İHA sabit modu"
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-ibase-guclu-entegre-gnss-taban-istasyonu",
+
       "meta": {
         "title": "CHCNAV iBase IMU CORS-GNSS Alıcısı | Uzun Menzilli Yüksek Performanslı GNSS",
         "description": "CHCNAV iBase, 25 km menzilli 5 W radyo modemi, IP67 sertifikası ve IK08 darbe koruması ile zorlu saha koşullarına dayanıklı, yüksek hassasiyetli GNSS alıcısıdır. 12 saat çalışma süresi ve geniş bağlantı seçenekleri sunar.",
@@ -1370,6 +1411,7 @@
         "GNSS sinyallerinde < 1 mm hassasiyetle taşıyıcı faz ölçümü.",
         "Kompakt ve dayanıklı tasarımı ile mobil ve sabit baz istasyonu olarak kullanılabilme."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5u-guclu-ve-entegre-gnss-referans-istasyonu",
       "meta": {
         "title": "CHCNAV P5U GNSS Referans CORS İstasyonu | Yüksek Hassasiyetli ve Dayanıklı GNSS Baz İstasyonu",
         "description": "CHCNAV P5U, 1408 kanal çoklu uydu sistemi takibi ve <1 mm taşıyıcı faz hassasiyetiyle zorlu saha koşullarında üstün performans sunar. IP67 sertifikalı su ve toz geçirmez gövdesi, uzun pil ömrü ve gelişmiş bağlantı seçenekleri ile hem mobil hem sabit referans istasyonu uygulamaları için ideal çözümdür.",
@@ -1423,6 +1465,7 @@
         "FTP push ve çevrimiçi indirme desteği ile veri aktarımı.",
         "Çalışma sıcaklığı: -40°C ile +65°C arası."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5e-net-yuksek-performansli-gnss-referans-istasyonu",
       "meta": {
         "title": "CHCNAV P5E-Net Referans CORS İstasyonu | Dayanıklı ve Gelişmiş Bağlantılı GNSS Baz İstasyonu",
         "description": "CHCNAV P5E-Net, 624 kanal uydu takibi, gelişmiş işlemci ve IP67 sertifikasıyla dayanıklı GNSS referans istasyonu sunar. Bluetooth, Wi-Fi ve 4G modem entegrasyonu ile kesintisiz bağlantı ve uzun pil ömrü sağlayarak profesyonel saha uygulamalarında yüksek güvenilirlik sunar.",
@@ -1473,6 +1516,7 @@
         "±1ppm frekans kararlılığı ile güvenilir iletişim.",
         "Transceiver, sadece gönderme ve sadece alma modları."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-dl8-uzun-mesafe-gnss-rtk-uhf-modem",
       "meta": {
         "title": "CHCNAV DL8 Datalink | Uzun Menzilli Güvenilir UHF Radyo Modem ile GNSS RTK Veri İletimi",
         "description": "CHCNAV DL8, 410-470 MHz frekans bandında çalışan, 5-28W çıkış gücü sunan IP67 sertifikalı dayanıklı UHF radyo modemdir. Bluetooth destekli kolay yapılandırma, yüksek frekans stabilitesi ve GMSK & 4FSK modülasyon teknolojisi ile uzun mesafede GNSS RTK veri iletimi sağlar.",
@@ -1534,6 +1578,7 @@
         "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
         "345 g ağırlığı ile ergonomik kullanım ve taşınabilirlik."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-hce600-gnss-destekli-dayanikli-saha-kontrol-cihazi",
       "meta": {
         "title": "CHCNAV HCE600 Android Kontrol Ünitesi | Dayanıklı ve Yüksek Performanslı GNSS Tablet",
         "description": "CHCNAV HCE600, 5.5 inç HD+ ekranı, güçlü 8 çekirdek Helio MTK işlemcisi ve 14 saat pil ömrü ile profesyonel GNSS saha çalışmaları için dayanıklı Android kontrol ünitesidir. IP67 ve MIL-STD-810H sertifikaları ile zorlu saha koşullarına uygundur.",
@@ -1598,6 +1643,7 @@
         "IP67 standartlarına göre 1.2 metreye kadar düşmelere karşı dayanıklılık.",
         "Santimetre hassasiyet sunan RTK teknolojisi."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt800h-gnss-rtk-destekli-profesyonel-tablet",
       "meta": {
         "title": "CHCNAV LT800H GNSS RTK Android Tablet | Geniş Ekranlı Yüksek Performanslı Saha Tableti",
         "description": "CHCNAV LT800H, 8.1 inç IPS ekranı, güçlü 8 çekirdek işlemcisi ve RTK destekli GNSS modülü ile profesyonel saha ölçümleri için ideal dayanıklı Android tablettir. IP67 sertifikası ve uzun pil ömrüyle zorlu koşullarda üstün performans sağlar.",
@@ -1658,6 +1704,7 @@
         "NFC, G-sensör, ışık sensörü, mesafe sensörü, e-pusula ve jiroskop.",
         "Kompakt ve dayanıklı tasarım: 240 x 151 x 32 mm boyutlar ve 675 g ağırlık."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt700h-gnss-rtk-destekli-dayanikli-tablet",
       "meta": {
         "title": "CHCNAV LT700H GNSS RTK Android Tablet | Dayanıklı 8 İnç Saha Tableti",
         "description": "CHCNAV LT700H, 8 inç yüksek çözünürlüklü IPS ekranı, 8 çekirdek 2.2 GHz işlemcisi ve 12 saat pil ömrü ile profesyonel RTK GNSS saha ölçümleri için ideal dayanıklı Android tablettir. IP67 sertifikalı su ve toz geçirmezlik ile zorlu çalışma koşullarına uygundur.",
@@ -1719,6 +1766,7 @@
         "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
         "Dual SIM 4G modem ile kesintisiz internet bağlantısı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt60h-gnss-destekli-akilli-telefon-hassas-konumlandirma",
       "meta": {
         "title": "CHCNAV LT60H GNSS RTK Android Tablet | Kompakt 6.3 İnç RTK Destekli Saha Tableti",
         "description": "CHCNAV LT60H, kompakt 6.3 inç IPS ekranı, Qualcomm Snapdragon 8 çekirdek işlemcisi ve 8 saat pil ömrü ile profesyonel RTK GNSS ölçümleri için tasarlanmış dayanıklı Android tablettir. IP67 sertifikalı dayanıklılığı ve yüksek performansı ile zorlu saha koşullarına uygundur.",
@@ -1782,6 +1830,7 @@
         "802.11 b/g Wi-Fi ve Bluetooth 4.2 ile kablosuz iletişim seçenekleri.",
         "Txt, dwg gibi format destekli, cad aplikasyonları ile uyumlu veri aktarımı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-cts-a100-total-station",
       "meta": {
         "title": "CHCNAV CTS-A100 Android Total Station | Yüksek Hassasiyetli 2'' Açı ve EDM",
         "description": "CHCNAV CTS-A100, 2'' açı hassasiyeti, 1500 m reflektörsüz okuma kapasitesi ve Android işletim sistemi ile yüksek performanslı, dayanıklı total station çözümüdür. IP55 sertifikalı su ve toz dayanıklılığı, 5 inç HD ekran ve güçlü EDM sistemi ile profesyonel saha ölçümlerinde güvenilir performans sağlar.",
@@ -1834,6 +1883,7 @@
         "250 tarama/sn hızında sürekli dönen ayna ile geniş görüş açısı.",
         "Alphaport arayüzü ile hızlı kurulum ve bağlantı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-aa9-havadan-3d-haritalama-sistemi",
       "meta": {
         "title": "CHCNAV AA9 Havadan LiDAR + RGB Sistemi | Hassas 3D Haritalama ve Drone Entegrasyonu",
         "description": "CHCNAV AA9, yüksek hassasiyetli LiDAR ve RGB kamera teknolojisiyle hızlı, doğru ve detaylı 3D hava haritalama sağlar. Kompakt ve hafif tasarımı sayesinde drone entegrasyonuna uygundur. IP64 sertifikalı dayanıklılığı ile zorlu hava koşullarında çalışabilir.",
@@ -1890,6 +1940,7 @@
         "500 kHz lazer frekansı ve 0.032° tarama açısı ile hassas 3D modelleme",
         "CoPre yazılımı ile otomatik veri hizalama ve doğru 3D model oluşturma."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-aa10-hassas-hava-haritalama-lidar-rgb-cozumu",
       "meta": {
         "title": "CHCNAV AA10 LiDAR Sistemi | Yüksek Hassasiyetli 8 Geri Dönüşlü Hava LiDAR Kamerası",
         "description": "CHCNAV AA10, 8 geri dönüş yeteneği, 800 m tarama menzili ve saniyede 500.000 nokta hızı ile yüksek hassasiyetli hava LiDAR sistemidir. Kompakt ve hafif tasarımı, IP64 sertifikası ve gelişmiş veri işleme yazılımları ile drone entegrasyonu ve profesyonel 3D modelleme için uygundur.",
@@ -1944,6 +1995,7 @@
         "512 GB dahili depolama ve 1 TB'a kadar genişletilebilir hafıza desteği.",
         "0.032° lazer sapma açısı ve 75° görüş açısı ile hassas 3D modelleme."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-aa15-yuksek-yogunluklu-lidar-verisi-cozumu",
       "meta": {
         "title": "CHCNAV AA15 LiDAR Sistemi | Uzun Menzilli, Yüksek Hızlı ve Hassas Hava LiDAR",
         "description": "CHCNAV AA15, 15 mm hassasiyet, saniyede 2 milyon lazer tarama hızı ve 600 çizgi taraması ile uzun menzilli hava LiDAR sistemidir. DJI drone uyumluluğu, IP64 sertifikası ve gelişmiş veri işleme özellikleri ile profesyonel 3D haritalama çözümleri sunar.",
@@ -2000,6 +2052,7 @@
         "GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
         "20°C ile +50°C arasında geniş çalışma sıcaklık aralığı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-aa450-yuksek-performansli-hafif-lidar-sistemi",
       "meta": {
         "title": "CHCNAV AA450 LiDAR Sistemi | Hafif UAV Tabanlı Hassas Haritalama",
         "description": "CHCNAV AA450, 450 metre tarama menzili, 720.000 nokta/saniye tarama hızı ve 26 MP profesyonel kamera ile hassas UAV tabanlı LiDAR haritalama sağlar. IP64 sertifikalı dayanıklılığı ve DJI uyumlu Skyport arayüzü ile gelişmiş veri işleme özelliklerine sahiptir.",
@@ -2053,6 +2106,7 @@
         "Multi-platform desteği: UAV, araç, tren ve sırt çantası montajı.",
         "Endüstriyel dayanıklılık ve geniş sıcaklık aralığında çalışma (-20°C ile +50°C)."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-alphauni-1300-lidar-haritalama-sistemi",
       "meta": {
         "title": "CHCNAV AlphaUni 1300 LiDAR Sistemi | Çok Platformlu Yüksek Hassasiyetli Mobil Haritalama",
         "description": "CHCNAV AlphaUni 1300, saniyede 1.2 milyon nokta tarama kapasitesi ve 0.010 m RMS doğruluk ile çok platformlu LiDAR haritalama çözümleri sunar. IP64 sertifikalı dayanıklılığı, gelişmiş CHC CoPre yazılımı ve kablosuz kontrol özellikleri ile profesyonel mobil haritalama için uygundur.",
@@ -2107,6 +2161,7 @@
         "GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
         "Endüstriyel dayanıklılık ve geniş sıcaklık aralığında çalışma (-20°C ile +50°C)."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-au20-cok-platformlu-hassas-lidar-haritalama",
       "meta": {
         "title": "CHCNAV AU20 LiDAR Sistemi | Çok Platformlu Yüksek Performanslı Mobil Haritalama",
         "description": "CHCNAV AU20 LiDAR sistemi, 1450 m menzil, saniyede 2 milyon nokta tarama, 2-5 cm mutlak doğruluk ve IP64 sertifikasıyla zorlu koşullarda çok platformlu haritalama çözümleri sunar. CHC CoPre ve CoProcess yazılımı, yüksek çözünürlüklü 45 MP kamera ve geniş sıcaklık aralığı ile profesyonel kullanım için idealdir.",
@@ -2164,6 +2219,7 @@
         "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
         "CoProcess yazılımı ile otomatik çizim çıkarma ve işleme desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-rs10-gnss-rtk-slam-tabanli-tasinabilir-lidar",
       "meta": {
         "title": "CHCNAV RS10 Lidar | Taşınabilir Yüksek Hassasiyetli 3D SLAM RTK Tarayıcı",
         "description": "CHCNAV RS10, GNSS RTK, Lidar ve SLAM teknolojilerini bir arada sunan taşınabilir 3D tarama çözümüdür. 5 cm mutlak hassasiyet, geniş görüş açısı, 640.000 nokta/sn tarama hızı ve IP64 sertifikasıyla iç/dış mekanlarda profesyonel kullanım sağlar.",
@@ -2216,6 +2272,7 @@
         "±0.5 m dikey ve ±1.5 m yatay GNSS hassasiyeti.",
         "32 GB dahili depolama ve USB Type-C ile hızlı veri aktarımı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-x500-profesyonel-haritalama-ve-kesif-icin-guclu-iha",
       "meta": {
         "title": "CHCNAV X500 İnsansız Hava Aracı (İHA) | Yüksek Performanslı Çok Platformlu Haritalama Drone",
         "description": "CHCNAV X500 İnsansız Hava Aracı, 5 kg yük taşıma kapasitesi ve 58 dakika uçuş süresi ile yüksek performans ve esneklik sunar. IP55 sertifikalı dayanıklılık, gelişmiş video iletim sistemi, milimetre dalga radarı ve çift yedekli uçuş kontrolü ile güvenilir operasyon sağlar.",
@@ -2238,7 +2295,7 @@
           "profesyonel keşif drone"
         ]
       }
-    },    
+    },
     {
       "id": 71,
       "name": "CHCNAV C5 İHA Hava Haritalama Kamerası",
@@ -2263,6 +2320,7 @@
         "Çalışma sıcaklığı: -20°C ile +50°C arası.",
         "Saniyede 300 Mb/s kopyalama hızında harici hafıza kartı desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-c5-hafif-ve-hassas-hava-haritalama-kamerasi",
       "meta": {
         "title": "CHCNAV C5 İHA Hava Haritalama Kamerası | Hafif ve Yüksek Performanslı Fotogrametri Kamerası",
         "description": "CHCNAV C5, hafif ve kompakt tasarımıyla hava haritalama ve fotogrametrik uygulamalar için ideal bir kamera çözümüdür. 130 MP yüksek çözünürlük, IP64 sertifikası ve hızlı veri aktarımı özellikleriyle profesyonel haritalama projelerinde üstün performans sağlar.",
@@ -2287,7 +2345,7 @@
           "yüksek performans kamera"
         ]
       }
-    },    
+    },
     {
       "id": 72,
       "name": "CHCNAV C30 İHA Hava Haritalama Kamerası",
@@ -2313,6 +2371,7 @@
         "Çalışma sıcaklığı: -20°C ile +50°C arası.",
         "IP64 su ve toz geçirmezlik ile zorlu çevre koşullarında çalışma."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-c30-yuksek-cozunurluklu-oblik-fotogrametri-kamerasi",
       "meta": {
         "title": "CHCNAV C30 İHA Hava Haritalama Kamerası | Profesyonel Oblik Kamera ile Yüksek Hassasiyetli Hava Haritalama",
         "description": "CHCNAV C30, kompakt ve dayanıklı tasarımıyla profesyonel hava haritalama projeleri için ideal bir oblik kamera çözümüdür. 45 MP çözünürlük, yüksek veri aktarım hızı ve DJI ile CHCNAV drone uyumluluğu ile hassas ve detaylı görüntüleme sağlar.",
@@ -2337,7 +2396,7 @@
           "drone entegrasyonu"
         ]
       }
-    },    
+    },
     {
       "id": 80,
       "name": "CHCNAV APACHE 6 Batimetri Cihazı",
@@ -2361,6 +2420,7 @@
         "Macromolecule polyester karbon fiber gövde ve üçlü gövde tasarımı.",
         "Otomatik rota planlama ve veri işleme desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-apache-6-profesyonel-cok-isinli-batimetrik-olcum-sistemi",
       "meta": {
         "title": "CHCNAV APACHE 6 Batimetri Cihazı | Çok Işınlı Eko Sondaj ile Kapsamlı Denizcilik Ölçümleri",
         "description": "CHCNAV APACHE 6, NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü denizcilik ölçümleri sunar. 6 saat pil ömrü, IP65 sertifikası ve 60 kg taşıma kapasitesi ile profesyonel su altı haritalama çözümlerinde öncü cihazdır.",
@@ -2382,7 +2442,7 @@
           "deniz haritalama cihazı"
         ]
       }
-    },    
+    },
     {
       "id": 81,
       "name": "CHCNAV APACHE 4 Batimetri Cihazı",
@@ -2406,6 +2466,7 @@
         "360° video desteği ve 200 kHz eko sondaj frekansı.",
         "Macromolecule polyester karbon fiber gövde ile dayanıklılık."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-apache-4-profesyonel-cok-isinli-batimetrik-usv",
       "meta": {
         "title": "CHCNAV APACHE 4 Batimetri Cihazı | Hidroğrafik Ölçümler için Yüksek Hassasiyetli USV Çözümü",
         "description": "CHCNAV APACHE 4, entegre GNSS+IMU ve ADCP uyumluluğu ile hidroğrafik ölçümlerde yüksek doğruluk ve dayanıklılık sunar. IP67 sertifikalı gövdesi, Android kontrol sistemi ve 8 saat pil ömrü ile denizcilik uygulamalarında ideal cihazdır.",
@@ -2427,7 +2488,7 @@
           "su derinliği ölçümü"
         ]
       }
-    },    
+    },
     {
       "id": 82,
       "name": "CHCNAV APACHE 3 PRO Batimetri Cihazı",
@@ -2452,6 +2513,7 @@
         "Entegre GNSS+IMU teknolojisi ile hassas konumlandırma ve yönlendirme.",
         "Android tabanlı kontrol sistemi ve 4G bağlantı desteği ile kolay operasyon."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-apache-3-pro-profesyonel-cok-isinli-batimetrik-usv",
       "meta": {
         "title": "CHCNAV APACHE 3 PRO Batimetri Cihazı | Profesyonel Hidrografik Ölçüm ve USV Çözümü",
         "description": "CHCNAV APACHE 3 PRO, NORBIT çok ışınlı eko sondaj sistemi ve GNSS+IMU entegrasyonu ile profesyonel batimetri ve hidroğrafik ölçümlerde yüksek performans sunar. IP67 sertifikalı, dayanıklı karbon fiber gövdesi ve uzun pil ömrü ile zorlu deniz koşullarında güvenilir kullanım sağlar.",
@@ -2475,7 +2537,7 @@
           "profesyonel hidroğrafi cihaz"
         ]
       }
-    },    
+    },
     {
       "id": 83,
       "name": "CHCNAV APACHE 3 Batimetri Cihazı",
@@ -2498,6 +2560,7 @@
         "Macromolecule polyester karbon fiber gövde ile hafif ve dayanıklı yapı sunar.",
         "Android tabanlı kontrol sistemi ve 4G bağlantı ile kolay ve hızlı yönetim sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-apache-3-hassas-kompakt-batimetri-platformu",
       "meta": {
         "title": "CHCNAV APACHE 3 Batimetri Cihazı | Yüksek Hassasiyetli USV Batimetri Çözümü",
         "description": "CHCNAV APACHE 3, entegre GNSS ve IMU sistemleriyle donatılmış, ADCP uyumlu ve IP67 sertifikalı profesyonel batimetri cihazıdır. 200 kHz eko sondaj ve uzun pil ömrü ile denizcilik ölçümlerinde güvenilirlik sağlar.",
@@ -2519,7 +2582,7 @@
           "profesyonel hidroğrafi cihaz"
         ]
       }
-    },    
+    },
     {
       "id": 90,
       "name": "CHCNAV D270 Hidrografik Sistem",
@@ -2541,6 +2604,7 @@
         "Android tabanlı kontrol sistemi ve 4G bağlantı ile esnek kullanım ve hızlı veri transferi.",
         "Maksimum 10 m/s hız ve 35 kg taşıma kapasitesi ile güçlü performans."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-d270-hassas-batimetrik-eko-sondaj-sistemi",
       "meta": {
         "title": "CHCNAV D270 Hidrografik Sistem | Hassas Batimetrik Ölçüm ve Deniz Tabanı Haritalama",
         "description": "CHCNAV D270, tek ve çok ışınlı eko sondaj desteği, entegre GNSS+IMU, IP67 koruma ve uzun pil ömrüyle profesyonel hidrografik ölçümler ve deniz tabanı haritalaması için ideal sistemdir.",
@@ -2584,6 +2648,7 @@
         "Ethernet ve USB üzerinden hızlı veri aktarımı imkanı.",
         "Android tabanlı kontrol sistemi ve 4G bağlantı ile kolay yönetim."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-d390-cok-isinli-batimetrik-eko-sondaj-sistemi",
       "meta": {
         "title": "CHCNAV D390 Hidrografik Sistem | Profesyonel Batimetrik Ölçüm ve Denizcilik Uygulamaları",
         "description": "CHCNAV D390, 500 kHz çok ışınlı eko sondaj sistemi, entegre GNSS+IMU, ADCP desteği ve IP67 koruma ile yüksek çözünürlüklü ve hassas batimetrik ölçümler için tasarlanmıştır.",
@@ -2603,7 +2668,7 @@
           "uzun pil ömürlü hidrografik cihaz"
         ]
       }
-    },    
+    },
     {
       "id": 92,
       "name": "CHCNAV RS600 Hidrografik Sistem",
@@ -2624,6 +2689,7 @@
         "Entegre GNSS teknolojisi sayesinde yüksek hassasiyetli konumlandırma.",
         "Çalışma sıcaklığı aralığı: -20°C ile +50°C."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-rs600-akustik-doppler-akim-profilleyici-adcp",
       "meta": {
         "title": "CHCNAV RS600 Hidrografik Sistem | Hassas Akustik Doppler Akım Profili Ölçümü",
         "description": "CHCNAV RS600, 300 kHz ADCP, IP68 koruma, uzun pil ömrü, kablosuz ve hızlı bağlantı seçenekleri ile hassas akım profili ölçümleri için ideal hidrografik sistemdir.",
@@ -2665,6 +2731,7 @@
         "Ethernet ve USB bağlantı portları ile hızlı ve güvenilir veri aktarımı.",
         "Çalışma sıcaklığı aralığı: -20°C ile +60°C."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-rs1200-akustik-doppler-akim-profilleyici-adcp",
       "meta": {
         "title": "CHCNAV RS1200 Hidrografik Sistem | Yüksek Çözünürlüklü Akustik Doppler Ölçümü",
         "description": "CHCNAV RS1200, 600 kHz ADCP, IP68 koruma, uzun pil ömrü, GNSS+IMU entegrasyonu ve gelişmiş veri formatlarıyla profesyonel akım profili ölçümleri için üst düzey hidrografik sistemdir.",
@@ -2685,7 +2752,7 @@
           "profesyonel batimetrik ölçüm"
         ]
       }
-    },    
+    },
     {
       "id": 94,
       "name": "CHCNAV HQ-400 Hidrografik Sistem",
@@ -2708,6 +2775,7 @@
         "Entegre GNSS ve IMU teknolojileri ile yüksek doğrulukta konumlandırma.",
         "Ethernet ve USB bağlantı seçenekleri ile hızlı veri aktarımı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-hq-400-cok-isinli-batimetri-eko-sondaj-sistemi",
       "meta": {
         "title": "CHCNAV HQ-400 Hidrografik Sistem | Çok Işınlı Eko Sondaj ve Hassas Batimetrik Ölçüm",
         "description": "CHCNAV HQ-400, NORBIT çok ışınlı eko sondaj sistemi, IP67 koruma, uzun pil ömrü ve entegre GNSS+IMU ile profesyonel hidrografik batimetrik ölçümler için üstün çözümdür.",
@@ -2753,6 +2821,7 @@
         "Gelişmiş PPK (Post Processed Kinematik) ve RTK düzeltme seçenekleri mevcuttur.",
         "İnsansız hava araçları (İHA), otonom araçlar, robotik sistemler ve denizcilik uygulamaları için ideal çözüm."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-ci-710-gnss-imu-navigasyon-modulu",
       "meta": {
         "title": "CHCNAV CI-710 GNSS ve IMU Sensörü | Hassas Navigasyon ve Konumlandırma Modülü",
         "description": "CHCNAV CI-710, çift antenli GNSS + INS teknolojisi ile santimetre seviyesinde hassas konumlandırma ve yön tayini sağlayan, IP67 korumalı, çoklu arayüz destekli profesyonel IMU sensörüdür. Otonom sistemler ve zorlu saha koşulları için tasarlanmıştır.",
@@ -2773,7 +2842,7 @@
           "hassas yön tayini"
         ]
       }
-    },    
+    },
     {
       "id": 100,
       "name": "CHCNAV PS-2000 SAR Sistemi",
@@ -2800,6 +2869,7 @@
         "LAN bağlantısı ve düşük güç tüketimi (≤50 W) ile enerji verimliliği.",
         "Çalışma sıcaklığı aralığı: -35°C ile +55°C."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-ps-2000-yuksek-hassasiyetli-temassiz-deformasyon-izleme",
       "meta": {
         "title": "CHCNAV PS-2000 SAR Sistemi | Yüksek Hassasiyetli Temassız Deformasyon İzleme",
         "description": "CHCNAV PS-2000, 0.1 mm hassasiyet, 360° izleme, diferansiyel interferometri ve Ku bandı teknolojisi ile profesyonel deformasyon izleme için güvenilir SAR sistemidir.",
@@ -2821,7 +2891,7 @@
           "gerçek zamanlı veri"
         ]
       }
-    },    
+    },
     {
       "id": 101,
       "name": "CHCNAV CGI-830 GNSS ve IMU Sensörü",
@@ -2844,6 +2914,7 @@
         "Çalışma sıcaklığı aralığı -40°C ile +65°C, geniş iklim koşullarına uyumlu.",
         "Dahili batarya ile 24 saate kadar kesintisiz, sahada uzun süreli operasyon imkanı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-cgi-830-gnss-imu-konumlandirma-modulu",
       "meta": {
         "title": "CHCNAV CGI-830 GNSS ve IMU Sensörü | Yüksek Hassasiyetli GNSS-INS Konumlandırma Sensörü",
         "description": "CHCNAV CGI-830, 624 kanallı gelişmiş GNSS ve IMU entegrasyonuyla eğim ve titreşimden etkilenmeyen yüksek hassasiyetli konumlandırma sağlar. IP68 sertifikalı, uzun batarya ömrü ve geniş bağlantı seçenekleriyle sahada üstün performans sunar.",
@@ -2889,6 +2960,7 @@
         "Çalışma sıcaklığı -40°C ile +65°C arasında, geniş çevresel dayanıklılık.",
         "32 GB dahili hafıza ve harici USB desteği ile kapsamlı veri depolama."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-cgi-610-hassas-gnss-imu-entegrasyonlu-konumlandirma",
       "meta": {
         "title": "CHCNAV CGI-610 GNSS ve IMU Sensörü | Yüksek Hassasiyetli GNSS-INS Konumlandırma ve İzleme",
         "description": "CHCNAV CGI-610, 624 kanallı gelişmiş GNSS ve IMU-RTK entegrasyonu ile zorlu koşullarda yüksek hassasiyetli konumlandırma sağlar. IP68 korumalı, geniş bağlantı seçenekleri ve uzun batarya ömrü ile saha uygulamalarında üstün performans sunar.",
@@ -2910,7 +2982,7 @@
           "çoklu iletişim destekli sensör"
         ]
       }
-    },    
+    },
     {
       "id": 104,
       "name": "CHCNAV CGI-230 GNSS ve IMU Sensörü",
@@ -2935,6 +3007,7 @@
         "32 GB dahili hafıza ve harici USB desteği ile geniş veri depolama kapasitesi sunar.",
         "HTTP ve FTP protokolleri ile uzaktan yapılandırma ve hızlı veri aktarımı sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-cgi-230-gnss-imu-entegrasyonlu-hassas-konumlandirma",
       "meta": {
         "title": "CHCNAV CGI-230 GNSS ve IMU Sensörü | Çoklu GNSS ve IMU ile Hassas Konumlandırma Sensörü",
         "description": "CHCNAV CGI-230, GPS, GLONASS, Galileo, BeiDou ve QZSS desteğiyle çoklu uydu takibi yapabilen, IMU-RTK teknolojisiyle eğim etkisini ortadan kaldıran, IP68 sertifikalı yüksek hassasiyetli GNSS-INS sensörüdür. Uzun batarya ömrü ve çoklu bağlantı seçenekleriyle zorlu saha koşullarında ideal çözüm.",
@@ -2984,6 +3057,7 @@
         "Çalışma sıcaklığı -40°C ile +65°C arasında, geniş çevresel dayanıklılık gösterir.",
         "Darbe dayanıklılığı: 1 metre yükseklikten düşmeye karşı korumalıdır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-h3-gnss-izleme-alicisi",
       "meta": {
         "title": "CHCNAV H3 GNSS İzleme Alıcısı | Gelişmiş Deformasyon ve Konum İzleme Cihazı",
         "description": "CHCNAV H3, 1408 kanallı GPS, GLONASS, BeiDou, Galileo ve QZSS uydu takibi, MEMS sensör entegrasyonu ve iSTAR algoritmasıyla zorlu saha koşullarında yüksek hassasiyetli deformasyon ve konum izleme sağlar. IP67 koruma, düşük güç tüketimi ve çoklu kablosuz bağlantı ile profesyonel kullanım için idealdir.",
@@ -3005,7 +3079,7 @@
           "entegre antenli GNSS"
         ]
       }
-    },    
+    },
     {
       "id": 109,
       "name": "CHCNAV TX73 3D Kepçe Rehberlik Sistemi",
@@ -3029,6 +3103,7 @@
         "OTA (Over-the-Air) güncellemeleri ile sistem yazılımını uzaktan güncelleyebilirsiniz.",
         "MCSite bulut platformu üzerinden uzaktan sorun giderme ve veri senkronizasyonu yapılabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-tx73-akilli-3d-kazi-rehberlik-sistemi",
       "meta": {
         "title": "CHCNAV TX73 3D Kepçe Rehberlik Sistemi | Hassas GNSS ve IMU Destekli Kazı Kontrol",
         "description": "CHCNAV TX73, yüksek hassasiyetli GNSS alıcıları ve dayanıklı IMU sensörleriyle donatılmış gelişmiş 3D kepçe rehberlik sistemidir. CAD destekli 3D görselleştirme, radyo modülleri ve bulut tabanlı uzaktan yönetim özellikleri ile kazı projelerinde maksimum doğruluk sağlar.",
@@ -3053,7 +3128,7 @@
           "Steelwrist tiltrotator"
         ]
       }
-    },    
+    },
     {
       "id": 111,
       "name": "CHCNAV TG63",
@@ -3073,6 +3148,7 @@
         "±2 cm yükseklik hassasiyeti.",
         "Hidrolik kontrol sistemi ile yüksek doğruluk."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-tg63-3d-greyder-seviye-kontrol-sistemi",
       "meta": {
         "title": "CHCNAV TG63 | Motor Greyderler için 3D Otomatik Seviye Kontrol Sistemi",
         "description": "CHCNAV TG63, motor greyderler için yüksek hassasiyetli 3D otomatik seviye kontrol sistemi sunar. Çift GNSS ve 100 Hz IMU teknolojisi, IP67/IP68 sertifikalı dayanıklı tasarımı ve 10.1 inç dokunmatik ekranı ile kolay ve etkili kontrol sağlar.",
@@ -3113,6 +3189,7 @@
         "Endüstriyel anten ve sağlam kablo yapısı.",
         "-40°C ile +85°C arasında çalışma sıcaklığı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-td63-pro-3d-otomatik-dozer-seviye-kontrol-sistemi",
       "meta": {
         "title": "CHCNAV TD63 PRO | Dozerler için 3D Otomatik Kontrol Sistemi",
         "description": "CHCNAV TD63 PRO, dozerler için gelişmiş 3D otomatik kontrol sistemi sunar. Çift GNSS ve 100 Hz IMU teknolojisi ile yüksek hassasiyet, IP67/IP68 dayanıklılık, 10.1 inç dokunmatik ekran ve MCNAV yazılımı ile üstün performans sağlar.",
@@ -3133,7 +3210,7 @@
           "makine kontrol"
         ]
       }
-    },    
+    },
     {
       "id": 149,
       "name": "DJI Dock 3 Otomatik İstasyon Ünitesi",
@@ -3141,7 +3218,13 @@
       "description": "DJI Dock 3, zorlu çevre koşullarında otomatik drone kalkış, iniş ve şarj işlemleri gerçekleştirebilen, mobil kullanım için optimize edilmiş yeni nesil drone yer istasyonudur. Yüksek rüzgar dayanımı, geniş sıcaklık aralığı ve akıllı görev yönetimi ile kritik endüstriyel uygulamalar için mükemmel bir çözümdür.",
       "images": [
         "/marka-photos/dji/dock3-1.png",
-        "/marka-photos/dji/dock3-2.png"
+        "/marka-photos/dji/dock3-0.webm",
+        "/marka-photos/dji/dock3-1.jpg",
+        "/marka-photos/dji/dock3-2.jpg",
+        "/marka-photos/dji/dock3-3.jpg",
+        "/marka-photos/dji/dock3-4.jpg",
+        "/marka-photos/dji/dock3-5.jpg",
+        "/marka-photos/dji/dock3-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3163,6 +3246,7 @@
         "FlightHub 2 ile 3. parti sunucu entegrasyonu ve canlı video analizi yapılabilir.",
         "Gelişmiş bakım arayüzü ile hava durumu, bağlantı ve sistem durumları izlenebilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-dock-3-otomatik-drone-istasyonu",
       "meta": {
         "title": "DJI Dock 3 | Otomatik Drone Yer İstasyonu, Yüksek Rüzgar Dayanımı, Akıllı Görev Yönetimi",
         "description": "DJI Dock 3, otomatik drone kalkış, iniş ve şarj işlemleri ile zorlu koşullarda mobil kullanım sunan drone yer istasyonudur. IP56 koruma, D-RTK 3 modülü, yapay zeka destekli tanıma ve DJI FlightHub 2 entegrasyonu ile endüstriyel uygulamalara uygundur.",
@@ -3188,104 +3272,118 @@
     {
       "id": 150,
       "name": "DJI Matrice 4T RTK",
-      "description": "Termal görüntüleme, zoom kamera ve lazer mesafe ölçer ile donatılmış, kompakt ve dayanıklı endüstriyel drone.",
+      "description": "Acil durum müdahalesi, kamu güvenliği ve altyapı denetimi için tasarlanan, termal kamera, yüksek çözünürlüklü zoom sistemleri ve lazer ölçüm birimiyle donatılmış profesyonel çok sensörlü drone.",
       "images": [
         "/marka-photos/dji/m4t-0.png",
-        "/marka-photos/dji/m4t-1.png",
-        "/marka-photos/dji/m4t-2.png"
+        "/marka-photos/dji/m4t-0.webm",
+        "/marka-photos/dji/m4t-1.jpg",
+        "/marka-photos/dji/m4t-2.jpg",
+        "/marka-photos/dji/m4t-3.jpg",
+        "/marka-photos/dji/m4t-4.jpg",
+        "/marka-photos/dji/m4t-5.jpg",
+        "/marka-photos/dji/m4t-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "matrice-serisi",
       "typeTitle": "Matrice 4 Serisi",
       "specs": [
-        "Maksimum Uçuş Süresi: 50 dakika",
-        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
-        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+        "DJI Matrice 4T RTK, çoklu sensörlü yapısı ile hem gündüz hem de gece görevleri için üstün performans sunar.",
+        "Geniş açılı kamerası, 1/1.3” CMOS sensör ile 48 MP çözünürlükte görüntü alır ve 24 mm format eşdeğeri sunar.",
+        "Orta telefoto kamerası, 48 MP çözünürlüğe ve 70 mm eşdeğer odak uzaklığına sahiptir.",
+        "Telefoto kamerası, 1/1.5” CMOS sensörle 48 MP çözünürlükte, 168 mm odak eşdeğerliği sağlar.",
+        "Termal kamera 640×512 piksel çözünürlüğe sahiptir ve yüksek hassasiyetli sıcaklık ölçümleri ile arama–kurtarma ve yangın tespiti gibi görevlerde kritik rol oynar.",
+        "Gelişmiş gece görüş teknolojileri: gece modu, akıllı düşük ışık fotoğraf, NIR yardımcı ışık ve düşük ışıklı balıkgözü sensör desteği.",
+        "Lazer mesafe ölçüm sistemi 1800 m menzile kadar ±(0.2 + 0.0015×D) doğrulukla çalışır ve hızlı koordinat tespiti sağlar.",
+        "DJI O4 Enterprise ile 20 km’ye kadar kesintisiz bağlantı ve yüksek sinyal güvenliği sunar.",
+        "IP55 seviyesinde koruma ile zorlu dış ortam koşullarına karşı yüksek dayanıklılık sağlar.",
+        "50 dakikaya kadar uçuş süresi sunan TB40 batarya sistemiyle kesintisiz görev planlamaları yapılabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-4t-termal-ve-ai-destekli-endustriyel-drone",
       "meta": {
-        "title": "DJI Matrice 4T RTK | Endüstriyel Termal ve Zoom Kameralı Drone",
-        "description": "DJI Matrice 4T RTK, termal görüntüleme, yüksek çözünürlüklü zoom kamera ve lazer mesafe ölçer ile donatılmış kompakt, dayanıklı endüstriyel drone modelidir. 50 dakika uçuş süresi ve AI destekli akıllı uçuş özellikleri sunar.",
+        "title": "DJI Matrice 4T RTK | Termal ve Çoklu Kamera Sistemli Endüstriyel Drone",
+        "description": "DJI Matrice 4T RTK, termal görüntüleme, 48 MP’lik zoom kameralar, lazer mesafe ölçüm ve düşük ışık koşulları için optimize edilmiş çoklu sensör sistemleriyle donatılmış, kamu güvenliği ve acil durum operasyonları için ideal endüstriyel dronedur.",
         "keywords": [
           "DJI Matrice 4T",
-          "endüstriyel drone",
           "termal kamera drone",
-          "zoom kamera",
-          "lazer mesafe ölçer",
-          "RTK drone",
+          "RTK destekli drone",
+          "gece görüşlü drone",
+          "çoklu sensör drone",
+          "lazer mesafe ölçüm",
+          "DJI O4 Enterprise",
+          "acil durum dronu",
+          "kamu güvenliği",
+          "arama kurtarma",
+          "yüksek zoom kapasitesi",
           "TB40 batarya",
-          "IP55 sertifikası",
-          "AI nesne tanıma",
-          "otomatik rota planlama",
-          "dayanıklı drone",
-          "uzun uçuş süresi",
-          "3 eksenli gimbal",
-          "yüksek çözünürlüklü kamera"
+          "IP55 drone"
         ]
       }
-    },    
+    },
     {
       "id": 151,
       "name": "DJI Matrice 4E RTK",
-      "description": "Gelişmiş RTK desteği, zoom kamera ve lazer mesafe ölçer ile donatılmış kompakt ve dayanıklı endüstriyel drone.",
+      "description": "Haritalama, inşaat ve madencilik uygulamaları için optimize edilen, gelişmiş RTK desteği, mekanik global obtüratörlü geniş açılı kamera ve yüksek doğrulukta lazer mesafe ölçüm sistemine sahip endüstriyel dron.",
       "images": [
         "/marka-photos/dji/m4e-0.png",
-        "/marka-photos/dji/m4e-1.png",
-        "/marka-photos/dji/m4e-2.png",
-        "/marka-photos/dji/m4e-3.png"
+        "/marka-photos/dji/m4e-0.webm",
+        "/marka-photos/dji/m4e-1.jpg",
+        "/marka-photos/dji/m4e-2.jpg",
+        "/marka-photos/dji/m4e-3.jpg",
+        "/marka-photos/dji/m4e-4.jpg",
+        "/marka-photos/dji/m4e-5.jpg",
+        "/marka-photos/dji/m4e-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "matrice-serisi",
       "typeTitle": "Matrice 4 Serisi",
       "specs": [
-        "Maksimum Uçuş Süresi: 50 dakika",
-        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
-        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera",
-        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+        "DJI Matrice 4E RTK, entegre RTK modülüyle santimetre düzeyinde konumlama doğruluğu sağlar.",
+        "Geniş açılı kamerası, 4/3 CMOS sensörle 20 MP çözünürlükte görüntü yakalayabilir ve mekanik shutter ile haritalama görevlerinde bozulmasız veri sunar.",
+        "Orta telefoto kamerası, 1/1.3'' CMOS ve 48 MP ile 70 mm odak uzaklığına eşdeğer optik kapasite sunar.",
+        "Telefoto kamerası, 1/1.5'' CMOS sensörle 48 MP çözünürlüğe sahiptir ve 168 mm odak eşdeğerliği ile uzaktaki detayları yakalar.",
+        "Lazer mesafe ölçer, 1800 m’ye kadar olan cisimleri ±(0.2 + 0.0015×D) doğrulukla ölçebilir ve dar açılı ölçüm hassasiyetine sahiptir.",
+        "DJI O4 Enterprise ile 20 km’ye kadar kesintisiz, düşük gecikmeli ve güvenli iletim sunar.",
+        "Yüksek verimli haritalama ve koordinat tabanlı ölçümleme görevleri için özel olarak optimize edilmiştir.",
+        "IP55 seviyesinde toz ve suya karşı koruma sunan gövde yapısı ile zorlu ortamlarda kullanılabilir.",
+        "TB40 akıllı batarya sistemi ile 50 dakikaya kadar uçuş süresi ve kesintisiz görev dönüşümü sağlar.",
+        "GNSS + RTK + IMU entegrasyonu ile ultra hassas yön bulma ve stabil uçuş kontrolü gerçekleştirir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-4e-rtk-endustriyel-haritalama-ve-gozlem-dronu",
       "meta": {
-        "title": "DJI Matrice 4E RTK | Gelişmiş Zoom Kamera ve Lazer Mesafe Ölçer ile Endüstriyel Drone",
-        "description": "DJI Matrice 4E RTK, gelişmiş RTK desteği, yüksek çözünürlüklü zoom kamera ve lazer mesafe ölçer ile donatılmış dayanıklı endüstriyel drone modelidir. 50 dakika uçuş süresi ve AI destekli akıllı uçuş özellikleri sunar.",
+        "title": "DJI Matrice 4E RTK | Haritalama ve Endüstriyel Ölçümleme için RTK Destekli Drone",
+        "description": "DJI Matrice 4E RTK, 20 MP mekanik shutter’lı kamera, orta ve uzun menzilli zoom destekli optikler ve yüksek hassasiyetli lazer ölçüm sistemi ile haritalama, inşaat ve madencilik gibi uygulamalara özel geliştirilmiş RTK destekli endüstriyel dronedur.",
         "keywords": [
           "DJI Matrice 4E",
-          "endüstriyel drone",
+          "haritalama dronu",
           "RTK drone",
-          "zoom kamera",
           "lazer mesafe ölçer",
+          "DJI O4 Enterprise",
+          "zoom kamera",
+          "mekanik shutter",
+          "yüksek doğruluk",
+          "inşaat drone",
+          "madencilik drone",
+          "endüstriyel drone",
           "TB40 batarya",
-          "IP55 sertifikası",
-          "AI nesne tanıma",
-          "otomatik rota planlama",
-          "3 eksenli gimbal",
-          "dayanıklı drone",
-          "uzun uçuş süresi",
-          "yüksek çözünürlüklü kamera"
+          "GNSS IMU RTK"
         ]
       }
-    },    
+    },
     {
       "id": 170,
       "name": "DJI Matrice 350 RTK",
       "description": "Üst düzey güvenlik ve gelişmiş otonom uçuş özellikleri sunan endüstriyel drone.",
       "images": [
         "/marka-photos/dji/m350-0.png",
-        "/marka-photos/dji/m350-1.png",
-        "/marka-photos/dji/m350-2.png",
-        "/marka-photos/dji/m350-3.png"
+        "/marka-photos/dji/m350-0.webm",
+        "/marka-photos/dji/m350-0.jpg",
+        "/marka-photos/dji/m350-1.jpg",
+        "/marka-photos/dji/m350-2.jpg",
+        "/marka-photos/dji/m350-3.jpg",
+        "/marka-photos/dji/m350-4.jpg",
+        "/marka-photos/dji/m350-5.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3302,6 +3400,7 @@
         "Yeni GNSS & RTK Modülü: GPS, GLONASS, BeiDou ve Galileo desteği ile daha hızlı RTK sabitleme.",
         "2.7 kg Maksimum Taşıma Kapasitesi: Çift gimbal bağlantı noktası ile çoklu sensör desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-350-rtk-endustriyel-drone-platformu",
       "meta": {
         "title": "DJI Matrice 350 RTK | Endüstriyel Drone, Otonom Uçuş ve Gelişmiş Güvenlik",
         "description": "DJI Matrice 350 RTK, gelişmiş otonom uçuş, üstün güvenlik özellikleri, uzun uçuş süresi ve yüksek performanslı sensörlerle donatılmış endüstriyel drone modelidir. 20 km menzil, gece görüş kamerası ve çoklu sensör desteği ile zorlu görevlerde ideal çözümdür.",
@@ -3332,27 +3431,32 @@
       "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
       "images": [
         "/marka-photos/dji/p1-0.png",
-        "/marka-photos/dji/p1-1.png",
-        "/marka-photos/dji/p1-2.png",
-        "/marka-photos/dji/p1-3.png"
+        "/marka-photos/dji/p1-0.jpg",
+        "/marka-photos/dji/p1-1.jpg",
+        "/marka-photos/dji/p1-2.jpg",
+        "/marka-photos/dji/p1-3.jpg",
+        "/marka-photos/dji/p1-4.jpg",
+        "/marka-photos/dji/p1-5.jpg",
+        "/marka-photos/dji/p1-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Sensör: Full-frame 45 MP CMOS sensör",
-        "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
-        "Lens Uyumluluğu: 24 mm, 35 mm ve 50 mm değiştirilebilir lens seçenekleri",
-        "RTK Modülü: Santimetre seviyesinde hassasiyet sağlayan dahili RTK desteği",
-        "Haritalama Verimliliği: DJI Smart Oblique Capture ile daha geniş kapsama alanı",
-        "Zaman Senkronizasyonu: TimeSync 2.0 ile IMU, RTK ve kamera verileri senkronize edilir",
-        "Görüntü Formatları: JPEG ve RAW DNG desteği",
-        "Video Kaydı: 8K çözünürlüğünde video kaydı",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Su ve Toz Dayanıklılığı: IP4X sertifikası",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
+        "DJI Zenmuse P1, 45 megapiksel çözünürlüğe sahip full-frame CMOS sensörle donatılmıştır.",
+        "1/2000 saniyelik mekanik global deklanşör sayesinde hareketli çekimlerde netlik sağlar.",
+        "Kamera, 24 mm, 35 mm ve 50 mm olmak üzere değiştirilebilir lens seçeneklerini destekler.",
+        "Dahili RTK modülü sayesinde santimetre düzeyinde konumlama hassasiyeti elde edilir.",
+        "DJI Smart Oblique Capture özelliğiyle haritalama işlemlerinde daha geniş alanlar kapsanabilir.",
+        "TimeSync 2.0 teknolojisi sayesinde IMU, RTK ve kamera verileri yüksek doğrulukla senkronize edilir.",
+        "Görüntüler JPEG ve RAW DNG formatlarında kaydedilerek profesyonel iş akışlarına uygun hale getirilir.",
+        "Kamera, 8K çözünürlüğe kadar video kaydı yapabilir, böylece yüksek kaliteli hava görüntüleri sağlanır.",
+        "Cihaz, -20°C ile +50°C arasında geniş bir çalışma sıcaklığı aralığında güvenle kullanılabilir.",
+        "IP4X sertifikası sayesinde suya ve toza karşı dayanıklılık sunar.",
+        "DJI Zenmuse P1, DJI Matrice 300 RTK ve Matrice 350 RTK drone platformlarıyla tam uyumludur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-p1-full-frame-fotogrametri-kamerasi",
       "meta": {
         "title": "DJI Zenmuse P1 | 45 MP Full-Frame RTK Kamera, Hava Fotogrametrisi",
         "description": "DJI Zenmuse P1, full-frame 45 MP sensör, mekanik global deklanşör ve RTK modülü ile profesyonel hava fotogrametri uygulamaları için yüksek hassasiyet ve verimlilik sunar. 8K video kaydı ve çoklu lens seçenekleriyle geniş kapsamlı haritalama sağlar.",
@@ -3375,34 +3479,38 @@
           "JPEG görüntü formatı"
         ]
       }
-    },    
+    },
     {
       "id": 190,
       "name": "DJI Zenmuse L1",
       "description": "LiDAR modülü, 20 MP RGB kamera ve yüksek doğruluklu IMU ile entegre edilmiş, profesyonel hava haritalama ve 3D modelleme çözümü.",
       "images": [
         "/marka-photos/dji/l1-0.png",
-        "/marka-photos/dji/l1-1.png",
-        "/marka-photos/dji/l1-2.png",
-        "/marka-photos/dji/l1-3.png",
-        "/marka-photos/dji/l1-4.png"
+        "/marka-photos/dji/l1-0.jpg",
+        "/marka-photos/dji/l1-1.jpg",
+        "/marka-photos/dji/l1-2.jpg",
+        "/marka-photos/dji/l1-3.jpg",
+        "/marka-photos/dji/l1-4.jpg",
+        "/marka-photos/dji/l1-5.jpg",
+        "/marka-photos/dji/l1-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar.",
-        "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar.",
-        "IMU Doğruluğu: 0.025° roll/pitch ve 0.15° yaw hassasiyeti.",
-        "Algılama Menzili: 450 m (80% yansıtıcılık), 190 m (10% yansıtıcılık).",
-        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme özelliği ile saha doğrulaması sağlar.",
-        "Taramalar: Tekli ve çoklu dönüş desteği ile 480.000 nokta/saniye veri toplar.",
-        "Çalışma Sıcaklığı: -20°C ile +50°C.",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası ile zorlu çevre koşullarına uyumlu.",
-        "Gimbal Stabilizasyonu: 3 eksenli gimbal sistemi.",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK."
+        "DJI Zenmuse L1, Livox LiDAR modülü ile 450 metreye kadar algılama menzili ve saniyede 240.000 nokta tarama kapasitesi sunar.",
+        "1 inç CMOS sensöre sahip 20 megapiksel RGB kamera, mekanik deklanşör ile yüksek netlikte görüntüler yakalayabilir.",
+        "0.025° roll/pitch ve 0.15° yaw hassasiyetine sahip IMU ünitesi, son derece doğru konumsal veriler sağlar.",
+        "LiDAR modülü, %80 yansıtıcılıkta 450 metre ve %10 yansıtıcılıkta 190 metreye kadar etkili algılama yapabilir.",
+        "Gerçek zamanlı nokta bulutu izleme özelliği sayesinde kullanıcılar sahada anlık veri doğrulaması gerçekleştirebilir.",
+        "Tekli ve çoklu dönüş tarama modları sayesinde saniyede 480.000 noktaya kadar yoğun veri toplanabilir.",
+        "Cihaz, -20°C ile +50°C aralığındaki zorlu sıcaklık koşullarında güvenle çalışabilir.",
+        "IP54 sertifikası sayesinde su sıçramalarına ve tozlu ortamlara karşı dayanıklılık gösterir.",
+        "3 eksenli gimbal sistemi, titreşimleri minimuma indirerek stabil ve net görüntü alınmasını sağlar.",
+        "DJI Zenmuse L1, DJI Matrice 300 RTK drone platformu ile tam uyumlu şekilde çalışmaktadır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-l1-lidar-ve-rgb-kamerali-haritalama-modulu",
       "meta": {
         "title": "DJI Zenmuse L1 | LiDAR Modülü, 20 MP RGB Kamera ve Yüksek Doğruluklu IMU",
         "description": "DJI Zenmuse L1, Livox LiDAR modülü, 20 MP RGB kamera ve yüksek hassasiyetli IMU ile profesyonel hava haritalama ve 3D modelleme için ideal çözümdür. 450 metre algılama menzili ve gerçek zamanlı nokta bulutu izleme özellikleri sunar.",
@@ -3431,27 +3539,31 @@
       "description": "Yüksek hassasiyetli LiDAR modülü, 20 MP RGB kamera ve IMU ile entegre edilmiş, profesyonel hava haritalama çözümü.",
       "images": [
         "/marka-photos/dji/l2-0.png",
-        "/marka-photos/dji/l2-1.png",
-        "/marka-photos/dji/l2-2.png",
-        "/marka-photos/dji/l2-3.png",
-        "/marka-photos/dji/l2-4.png"
+        "/marka-photos/dji/l2-0.webm",
+        "/marka-photos/dji/l2-1.jpg",
+        "/marka-photos/dji/l2-2.jpg",
+        "/marka-photos/dji/l2-3.jpg",
+        "/marka-photos/dji/l2-4.jpg",
+        "/marka-photos/dji/l2-5.jpg",
+        "/marka-photos/dji/l2-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü.",
-        "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera.",
-        "IMU Doğruluğu: 0.02° roll/pitch ve 0.05° yaw hassasiyeti.",
-        "Algılama Menzili: 450 m (80% yansıtıcılık), 250 m (10% yansıtıcılık).",
-        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme ve saha doğrulama imkanı.",
-        "Çoklu Tarama Desteği: Tekli ve çoklu dönüş desteği ile karmaşık alanlarda veri kalitesi artırılır.",
-        "Çalışma Sıcaklığı: -20°C ile +50°C arasında.",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası.",
-        "Gimbal Yapısı: 3 eksenli gimbal stabilizasyonu.",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK."
+        "DJI Zenmuse L2, 450 metreye kadar algılama menziline ve saniyede 240.000 nokta tarama hızına sahip Livox LiDAR modülü ile donatılmıştır.",
+        "20 megapiksel çözünürlüğe sahip 4/3 inç CMOS sensörlü RGB kamera, yüksek kaliteli görsel veri toplama imkânı sunar.",
+        "0.02° roll/pitch ve 0.05° yaw hassasiyetine sahip IMU sistemi, uçuş sırasında yüksek konumsal doğruluk sağlar.",
+        "LiDAR sensörü, %80 yansıtıcılıkta 450 metreye, %10 yansıtıcılıkta ise 250 metreye kadar verimli tarama gerçekleştirebilir.",
+        "Gerçek zamanlı nokta bulutu izleme özelliği ile saha doğrulama süreçleri hızlı ve etkili şekilde yapılabilir.",
+        "Tekli ve çoklu dönüş tarama desteği, karmaşık arazi ve yapıların detaylı şekilde modellenmesini sağlar.",
+        "Cihaz, -20°C ile +50°C arasında değişen sıcaklıklarda kararlı ve güvenilir şekilde çalışabilir.",
+        "IP54 sertifikası sayesinde tozlu ve nemli ortamlarda dayanıklılık göstererek zorlu koşullara uyum sağlar.",
+        "3 eksenli gimbal yapısı, titreşimleri absorbe ederek net ve stabil veri elde edilmesini mümkün kılar.",
+        "DJI Zenmuse L2, DJI Matrice 300 RTK ve Matrice 350 RTK platformları ile tam uyumludur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-l2-lidar-ve-rgb-kamerali-3d-haritalama-modulu",
       "meta": {
         "title": "DJI Zenmuse L2 | Yüksek Hassasiyetli LiDAR ve RGB Kamera Entegrasyonu",
         "description": "DJI Zenmuse L2, Livox LiDAR modülü ve yüksek çözünürlüklü 20 MP RGB kamera ile profesyonel hava haritalama için geliştirilmiş bir çözümdür. Gerçek zamanlı nokta bulutu izleme ve çoklu tarama özellikleriyle veri kalitesini artırır.",
@@ -3472,7 +3584,7 @@
           "yüksek doğruluklu drone"
         ]
       }
-    },    
+    },
     {
       "id": 197,
       "name": "DJI Zenmuse H30",
@@ -3480,24 +3592,29 @@
       "description": "Zenmuse H30 modeli, geniş açılı kamera, yüksek çözünürlüklü zoom kamera, lazer mesafe ölçer ve NIR yardımcı ışık modülü ile donatılmış çoklu sensörlü hibrit gözlem ünitesidir. Termal kamera içermez. Gündüz ve düşük ışık koşullarında üstün performans sunar.",
       "images": [
         "/marka-photos/dji/h30-1.png",
-        "/marka-photos/dji/h30-2.png",
-        "/marka-photos/dji/h30-3.png",
-        "/marka-photos/dji/h30-4.png"
+        "/marka-photos/dji/h30-0.webm",
+        "/marka-photos/dji/h30-1.jpg",
+        "/marka-photos/dji/h30-2.jpg",
+        "/marka-photos/dji/h30-3.jpg",
+        "/marka-photos/dji/h30-4.jpg",
+        "/marka-photos/dji/h30-5.jpg",
+        "/marka-photos/dji/h30-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Geniş açılı kamera: 1/1.3” CMOS, 48MP, 24mm eşdeğer odak uzaklığı, gece modu destekli.",
-        "Zoom kamera: 1/1.8” CMOS, 40MP, 34x optik zoom, 400x dijital zoom, elektronik görüntü sabitleme desteği.",
-        "Lazer mesafe ölçer: 3m – 3000m aralığında, 500m altı ±(0.2m + %0.15), üstü ±1m doğruluk.",
-        "NIR yardımcı ışık: 850nm dalga boyunda, görünmeyen kızılötesi aydınlatma sağlar, 100m'de ~8m çaplı alanı aydınlatır.",
-        "Gece görüntüleme modları: Renkli gece görüş, siyah-beyaz IR filtreli mod, lazer destekli netleme.",
-        "Akıllı izleme, Pin-Point hedefleme, panorama ve yüksek çözünürlüklü grid fotoğraf gibi gelişmiş kamera modları.",
-        "Uyumluluk: Matrice 300 RTK (yalnızca DJI RC Plus ile), Matrice 350 RTK.",
-        "IP54 koruma sınıfı, -20°C ila 50°C arası çalışma sıcaklığına dayanıklıdır."
+        "DJI Zenmuse H30, 1/1.3 inç CMOS sensöre sahip 48 megapiksellik geniş açılı kamerası ile gece modu desteği sunar ve 24 mm eşdeğer odak uzaklığı ile geniş görüş sağlar.",
+        "Zoom kamerası, 1/1.8 inç CMOS sensör ve 40 megapiksel çözünürlüğe sahiptir; 34x optik zoom ve 400x dijital zoom yetenekleri ile donatılmıştır, ayrıca elektronik görüntü sabitleme desteği sağlar.",
+        "Entegre lazer mesafe ölçer, 3 ila 3000 metre aralığında çalışır ve 500 metreye kadar ±(0.2 m + %0.15), 500 metrenin üzerinde ise ±1 m doğrulukla ölçüm yapar.",
+        "850 nm dalga boyunda çalışan NIR yardımcı ışık, görünmeyen kızılötesi aydınlatma sunar ve 100 metre mesafede yaklaşık 8 metrelik alanı aydınlatabilir.",
+        "Cihazda, renkli gece görüş modu, siyah-beyaz IR filtreli mod ve lazer destekli netleme gibi çoklu gece görüntüleme modları bulunmaktadır.",
+        "Akıllı izleme, Pin-Point hedefleme, panorama çekimi ve yüksek çözünürlüklü grid fotoğraf gibi gelişmiş kamera işlevleri profesyonel operasyonlara destek olur.",
+        "DJI Zenmuse H30, DJI RC Plus kumandasıyla birlikte yalnızca Matrice 300 RTK ile uyumlu olarak çalışır; ayrıca Matrice 350 RTK platformu ile de tam uyumludur.",
+        "IP54 koruma sınıfına sahip olan ürün, -20°C ile +50°C arasındaki sıcaklıklarda güvenli şekilde kullanılabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h30-gunduz-gece-hibrit-gozlem",
       "meta": {
         "title": "DJI Zenmuse H30 | Gündüz-Gece Hibrit Çoklu Sensörlü Kamera Sistemi",
         "description": "DJI Zenmuse H30, 48MP geniş açılı kamera, 40MP zoom kamera, lazer mesafe ölçer ve NIR ışık modülüyle hibrit gözlem sağlar. Gündüz ve gece performansı, gelişmiş izleme ve hedefleme özellikleri ile profesyonel drone operasyonları için ideal.",
@@ -3527,24 +3644,29 @@
       "description": "Zenmuse H30T modeli; termal kamera, zoom kamera, geniş açılı kamera, lazer mesafe ölçer ve NIR yardımcı ışık ile donatılmıştır. Yüksek çözünürlüklü termal gözlem, gündüz-gece renkli ve IR destekli görüntüleme ile entegre görev yetenekleri sunar.",
       "images": [
         "/marka-photos/dji/h30t-1.png",
-        "/marka-photos/dji/h30t-2.png",
-        "/marka-photos/dji/h30t-3.png",
-        "/marka-photos/dji/h30t-4.png"
+        "/marka-photos/dji/h30-0.webm",
+        "/marka-photos/dji/h30t-1.jpg",
+        "/marka-photos/dji/h30t-2.jpg",
+        "/marka-photos/dji/h30t-3.jpg",
+        "/marka-photos/dji/h30t-4.jpg",
+        "/marka-photos/dji/h30t-5.jpg",
+        "/marka-photos/dji/h30t-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Termal kamera: 1280×1024 çözünürlük, 32x dijital zoom, -20°C ila 1600°C ölçüm aralığı (IR filtre ile), yüksek-gain ve düşük-gain modları.",
-        "Zoom kamera: 40MP, 34x optik, 400x dijital zoom, gelişmiş gece görüş destekli.",
-        "Geniş açılı kamera: 48MP, gece modu destekli, panorama ve HDR destekli.",
-        "Lazer mesafe ölçer: 3m – 3000m, 500m altında ±0.2m hassasiyet.",
-        "Gece görüş: Renkli ve siyah-beyaz IR destekli modlar, NIR yardımcı ışık ile birlikte çalışır.",
-        "Elektronik sis giderme, akıllı takip, Pin-Point hedefleme, video ön kayıt, veri güvenliği özellikleri.",
-        "Uyumluluk: DJI Matrice 350 RTK, M300 RTK (DJI RC Plus gereklidir).",
-        "IP54 koruma, -20°C ~ 50°C sıcaklık aralığı, 920g ağırlık."
+        "DJI Zenmuse H30T, 1280×1024 piksel çözünürlüğe sahip termal kamerasıyla yüksek hassasiyetli ısı ölçümleri yapabilir; 32x dijital zoom ve -20°C ila 1600°C arası sıcaklık ölçüm aralığına sahiptir ve hem yüksek-gain hem de düşük-gain modlarını destekler.",
+        "40 megapiksel çözünürlüğe sahip zoom kamerası, 34x optik ve 400x dijital yakınlaştırma sunar; gelişmiş gece görüş modları sayesinde düşük ışık koşullarında üstün performans sağlar.",
+        "Geniş açılı kamera, 48 megapiksel çözünürlük ve gece görüş desteğiyle donatılmıştır; HDR ve panorama çekim modlarını da destekler.",
+        "Lazer mesafe ölçer sistemi, 3 ila 3000 metre arasında mesafe ölçebilir; 500 metrenin altındaki ölçümlerde ±0.2 metre hassasiyet sunar.",
+        "Gece görüş işlevi, renkli ve siyah-beyaz IR filtreli modlarla çalışır ve görünmeyen NIR yardımcı ışık ile desteklenerek gece operasyonlarında net görüntüler elde edilmesini sağlar.",
+        "Elektronik sis giderme, akıllı nesne takibi, Pin-Point hedef belirleme, video ön kayıt ve gelişmiş veri güvenliği gibi entegre görev yetenekleriyle profesyonel görev performansı sunar.",
+        "DJI Zenmuse H30T, yalnızca DJI RC Plus kontrol cihazı ile kullanılmak üzere DJI Matrice 300 RTK ve Matrice 350 RTK platformlarıyla tam uyumludur.",
+        "IP54 koruma sınıfına sahip olan bu yük sistemi, -20°C ile +50°C sıcaklık aralığında güvenli şekilde çalışabilir ve yaklaşık 920 gram ağırlığındadır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h30t-termal-optik-hibrit-kamera",
       "meta": {
         "title": "DJI Zenmuse H30T | Termal Kameralı Hibrit Drone Yük Sistemi",
         "description": "DJI Zenmuse H30T, yüksek çözünürlüklü termal kamera, 40MP zoom kamera ve lazer mesafe ölçer ile entegre hibrit gözlem ünitesidir. Gündüz-gece renkli ve IR görüntüleme, akıllı takip ve güvenlik özellikleri sunar.",
@@ -3566,7 +3688,7 @@
           "IP54 koruma sınıfı"
         ]
       }
-    },    
+    },
     {
       "id": 199,
       "name": "DJI Zenmuse H30N",
@@ -3574,22 +3696,29 @@
       "description": "Zenmuse H30N, H20N’in gece görüş avantajlarını temel alarak gece operasyonları için optimize edilmiş sensörlerle donatılmıştır. Termal görüntüleme, zoom, geniş açı, lazer ve NIR aydınlatma özellikleri ile düşük ışık koşullarında üstün performans sunar.",
       "images": [
         "/marka-photos/dji/h30n-1.png",
-        "/marka-photos/dji/h30n-2.png"
+        "/marka-photos/dji/h30-0.webm",
+        "/marka-photos/dji/h30n-1.jpg",
+        "/marka-photos/dji/h30n-2.jpg",
+        "/marka-photos/dji/h30n-3.jpg",
+        "/marka-photos/dji/h30n-4.jpg",
+        "/marka-photos/dji/h30n-5.jpg",
+        "/marka-photos/dji/h30n-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Termal kamera: 1280×1024 çözünürlük, ultra HD, 32x dijital zoom, geniş sıcaklık ölçüm aralığı, yüksek ve düşük gain modları.",
-        "Gece görüş: Gelişmiş IR filtre sistemleri, siyah-beyaz ve renkli modlar, NIR yardımcı ışık ve lazer destekli odaklama.",
-        "Zoom kamera: 40MP sensör, 34x optik ve 400x dijital zoom kapasitesi.",
-        "Geniş açılı kamera: 48MP CMOS, gece ve gündüz çekim uyumluluğu.",
-        "Lazer mesafe ölçer: 3000m menzil, yüksek hassasiyet.",
-        "Gece görevleri için elektronik gürültü azaltma, video stabilizasyonu, akıllı kayıt ve Pin-Point hedefleme özellikleri.",
-        "Uyumluluk: DJI M300 RTK ve Matrice 350 RTK sistemleri ile tam entegrasyon.",
-        "IP54 sertifikalı yapı, -20°C ila 50°C ortam koşullarına uygundur."
+        "DJI Zenmuse H30N, 1280×1024 çözünürlükte ultra HD termal kamerası ile yüksek ayrıntılı sıcaklık görüntüleri sunar; 32x dijital yakınlaştırma, geniş sıcaklık aralığı ve yüksek/düşük gain modları ile donatılmıştır.",
+        "Gelişmiş gece görüş özellikleri arasında IR filtre sistemleri, siyah-beyaz ve renkli modlar ile birlikte NIR yardımcı ışık ve lazer destekli otomatik odaklama yer alır.",
+        "Zoom kamerası, 40 megapiksel çözünürlük, 34x optik ve 400x dijital zoom kapasitesi ile uzak nesneleri net şekilde görüntülemeye olanak tanır.",
+        "48 megapiksel CMOS sensöre sahip geniş açılı kamerası, gündüz ve gece koşullarında etkili görüntüleme sağlar.",
+        "Entegre lazer mesafe ölçer, 3000 metreye kadar menzil sunar ve yüksek hassasiyetli mesafe tespiti yapabilir.",
+        "Gece görevleri için elektronik gürültü azaltma, gelişmiş video stabilizasyonu, akıllı video ön kayıt ve Pin-Point hedefleme özellikleri sunar.",
+        "DJI Zenmuse H30N, DJI Matrice 300 RTK ve Matrice 350 RTK drone sistemleri ile tam uyumlu olarak çalışır.",
+        "IP54 koruma sınıfına sahip yapısı sayesinde zorlu çevre koşullarına dayanıklıdır ve -20°C ila +50°C sıcaklık aralığında sorunsuz performans gösterir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h30n-gece-gorus-hibrit-kamera",
       "meta": {
         "title": "DJI Zenmuse H30N | Gelişmiş Gece Görüşlü Çoklu Sensör Kamera Sistemi",
         "description": "DJI Zenmuse H30N, yüksek çözünürlüklü termal kamera, 40MP zoom ve 48MP geniş açılı kamera ile düşük ışıkta üstün performans sağlar. Lazer mesafe ölçer ve NIR ışık ile gece görevleri için optimize edilmiştir.",
@@ -3618,23 +3747,29 @@
       "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
       "images": [
         "/marka-photos/dji/h20-0.png",
-        "/marka-photos/dji/h20-2.png",
-        "/marka-photos/dji/h20seri.png"
+        "/marka-photos/dji/h20-0.jpg",
+        "/marka-photos/dji/h20-1.jpg",
+        "/marka-photos/dji/h20-2.jpg",
+        "/marka-photos/dji/h20-3.jpg",
+        "/marka-photos/dji/h20-4.jpg",
+        "/marka-photos/dji/h20-5.jpg",
+        "/marka-photos/dji/h20-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera",
-        "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
-        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2 m hassasiyet",
-        "Video Çözünürlüğü: 4K/30 fps",
-        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
-        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+        "DJI Zenmuse H20, 20 megapiksel çözünürlüğe sahip zoom kamerası ve 12 megapiksellik geniş açılı kamerası ile çoklu sensörlü görüntüleme imkânı sunar.",
+        "23 kat hibrit optik zoom özelliği ile birlikte toplamda 200 kata kadar dijital yakınlaştırma yapabilir.",
+        "Entegre lazer mesafe ölçer, 3 metreden 1200 metreye kadar olan mesafeleri ±0.2 metre hassasiyetle tespit edebilir.",
+        "Kamera sistemi 4K çözünürlükte 30 fps video kaydı yaparak yüksek kaliteli görüntüler elde edilmesini sağlar.",
+        "3 eksenli gimbal yapısı sayesinde titreşimler minimize edilir ve görüntü sabitliği en üst düzeye çıkarılır.",
+        "IP44 sertifikasına sahip yapısı, su sıçramalarına ve tozlu ortamlara karşı dayanıklılık sağlar.",
+        "Zenmuse H20, -20°C ile +50°C arasındaki sıcaklıklarda güvenle çalışacak şekilde tasarlanmıştır.",
+        "Bu kamera modülü DJI Matrice 300 RTK drone platformu ile tam uyumlu olarak kullanılabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h20-cok-sensorlu-endustriyel-gozlem-kamerasi",
       "meta": {
         "title": "DJI Zenmuse H20 | Çok Sensörlü Profesyonel Drone Kamerası",
         "description": "DJI Zenmuse H20, 20 MP zoom ve 12 MP geniş açılı kameralar, 23× hibrit optik zoom ve lazer mesafe ölçer ile donatılmış profesyonel drone kamerasıdır. 4K video ve 3 eksenli gimbal stabilizasyon sağlar.",
@@ -3656,35 +3791,39 @@
           "uzaktan kumanda kamera"
         ]
       }
-    },    
+    },
     {
       "id": 201,
       "name": "DJI Zenmuse H20T",
       "description": "Termal kamera, yüksek çözünürlüklü zoom, geniş açılı kamera ve lazer mesafe ölçer kombinasyonuna sahip hibrit hava görüntüleme sistemi.",
       "images": [
         "/marka-photos/dji/h20t-0.png",
-        "/marka-photos/dji/h20t-1.png",
-        "/marka-photos/dji/h20t-2.png",
-        "/marka-photos/dji/h20seri.png"
+        "/marka-photos/dji/h20-0.jpg",
+        "/marka-photos/dji/h20-1.jpg",
+        "/marka-photos/dji/h20-2.jpg",
+        "/marka-photos/dji/h20-3.jpg",
+        "/marka-photos/dji/h20-4.jpg",
+        "/marka-photos/dji/h20-5.jpg",
+        "/marka-photos/dji/h20-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
-        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2 m hassasiyet",
-        "Video Çözünürlüğü: 4K/30 fps",
-        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı",
-        "Isı Ölçüm Hassasiyeti: ±2°C veya ±%2",
-        "Isı Ölçüm Modları: Noktasal sıcaklık ölçümü, alan sıcaklık analizi, izoterm belirleme",
-        "Alarm Sistemi: Belirlenen sıcaklık eşiklerini aşan nesneler için alarm bildirimi",
-        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
-        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+        "DJI Zenmuse H20T, 20 megapiksellik zoom kamera, 12 megapiksel geniş açılı kamera ve 640×512 çözünürlüğe sahip termal kamera ile çok sensörlü hibrit bir görüntüleme sistemidir.",
+        "23 kat hibrit optik zoom ve toplamda 200 kata kadar dijital zoom kapasitesiyle uzaktaki nesneler detaylı şekilde incelenebilir.",
+        "Lazer mesafe ölçer sistemi, 3 ile 1200 metre arasındaki mesafelerde ±0.2 metre hassasiyetle ölçüm yapabilir.",
+        "Tüm kameralar 4K çözünürlükte 30 kare/saniye hızında video kaydı yaparak yüksek görüntü kalitesi sunar.",
+        "Termal kamera, 640×512 piksel çözünürlük ve 30 Hz yenileme hızıyla sıcaklık farklılıklarını hassas şekilde tespit eder.",
+        "Cihaz, ±2°C ya da ±%2 hassasiyetle sıcaklık ölçümü yapabilir ve hem noktasal hem de alan bazlı sıcaklık analizi gerçekleştirebilir.",
+        "İzoterm belirleme ve belirlenen sıcaklık eşiklerinin aşılması durumunda alarm bildirimi sağlayan gelişmiş ısı analizi modları desteklenmektedir.",
+        "3 eksenli gimbal yapısı sayesinde tüm sensörler titreşimden arındırılmış şekilde dengeli görüntüleme sunar.",
+        "IP44 koruma sınıfı, cihazı su sıçramalarına ve tozlu ortamlara karşı dayanıklı hale getirir.",
+        "DJI Zenmuse H20T, -20°C ile +50°C arasındaki sıcaklık koşullarında güvenle çalışacak şekilde tasarlanmıştır.",
+        "Bu hibrit kamera sistemi, DJI Matrice 300 RTK drone platformu ile tam uyumludur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h20t-termal-ve-optik-kamerali-gozlem-modulu",
       "meta": {
         "title": "DJI Zenmuse H20T | Termal ve Çoklu Sensörlü Hibrit Hava Görüntüleme Sistemi",
         "description": "DJI Zenmuse H20T, termal kamera, 20MP zoom, 12MP geniş açılı kamera ve lazer mesafe ölçer ile donatılmış hibrit hava görüntüleme sistemidir. 4K video, yüksek hassasiyetli ısı ölçümü ve IP44 dayanıklılık sağlar.",
@@ -3714,27 +3853,32 @@
       "description": "Gece görüş ve termal görüntüleme özellikleriyle donatılmış, düşük ışık koşullarında üstün performans sunan hibrit drone kamerası.",
       "images": [
         "/marka-photos/dji/h20n-0.png",
-        "/marka-photos/dji/h20n-1.png",
-        "/marka-photos/dji/h20n-2.png",
-        "/marka-photos/dji/h20n-3.png"
+        "/marka-photos/dji/h20-0.jpg",
+        "/marka-photos/dji/h20-1.jpg",
+        "/marka-photos/dji/h20-2.jpg",
+        "/marka-photos/dji/h20-3.jpg",
+        "/marka-photos/dji/h20-4.jpg",
+        "/marka-photos/dji/h20-5.jpg",
+        "/marka-photos/dji/h20-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "Starlight Geniş Açılı Kamera: 1/2.7” CMOS, 2 MP çözünürlük",
-        "Starlight Zoom Kamera: 1/1.8” CMOS, 4 MP çözünürlük, 20× hibrit optik zoom, 128× maksimum zoom",
-        "Çift Termal Kamera: 640×512 @30Hz, 53mm ve 196mm odak uzunluğu",
-        "Termal Zoom: 2× ve 8× optik zoom, 32× maksimum zoom",
-        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2m hassasiyet",
-        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
-        "Gece Görüş Modu: Düşük ışıkta renkli ve net görüntüleme",
-        "Akıllı Uçuş Özellikleri: Nesne takibi, otomatik sıcaklık analizi, hedef belirleme, bölgesel analiz",
-        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "Desteklenen Drone Modelleri: DJI Matrice 300 RTK"
+        "DJI Zenmuse H20N, 1/2.7 inç CMOS sensöre sahip 2 megapiksel çözünürlüklü Starlight geniş açılı kamerasıyla düşük ışıkta net ve renkli görüntüler sunar.",
+        "1/1.8 inç CMOS sensöre sahip 4 megapiksellik Starlight zoom kamerası, 20 kata kadar hibrit optik ve 128 kata kadar toplam yakınlaştırma imkânı sağlar.",
+        "Cihaz, 53 mm ve 196 mm odak uzunluklarına sahip iki adet 640×512 çözünürlükte termal kamerayla donatılmıştır ve 30 Hz yenileme hızında termal görüntüleme yapar.",
+        "Termal modül, 2x ve 8x optik yakınlaştırma ile birlikte toplamda 32 kata kadar termal zoom özelliği sunar.",
+        "Lazer mesafe ölçer, 3 ila 1200 metre aralığında ±0.2 metre hassasiyetle mesafe tespiti gerçekleştirebilir.",
+        "3 eksenli gimbal stabilizasyon sistemi, tüm görüntüleme modüllerinde titreşimi azaltarak net ve sabit çekim yapılmasını mümkün kılar.",
+        "Gece görüş modu, düşük ışık koşullarında dahi renkli ve detaylı görüntüler elde etmeyi sağlar.",
+        "Akıllı uçuş özellikleri arasında nesne takibi, otomatik sıcaklık analizi, hedef işaretleme ve belirli bölgelerde analiz yapma gibi işlevler yer alır.",
+        "IP44 koruma sınıfına sahip olan H20N, su sıçramalarına ve toz girişine karşı dayanıklılık gösterir.",
+        "Cihaz, -20°C ile +50°C arasındaki çalışma sıcaklıklarında güvenilir şekilde görev yapacak şekilde tasarlanmıştır.",
+        "DJI Zenmuse H20N, DJI Matrice 300 RTK drone platformuyla tam uyumlu olarak çalışır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-h20n-gece-gorus-ve-termal-kamera-modulu",
       "meta": {
         "title": "DJI Zenmuse H20N | Gece Görüş ve Termal Hibrit Drone Kamerası",
         "description": "DJI Zenmuse H20N, düşük ışıkta üstün performans için gece görüş, çift termal kamera ve hibrit zoom özellikleri sunar. 3 eksenli gimbal, lazer mesafe ölçer ve IP44 dayanıklılık ile profesyonel drone görüntüleme sistemi.",
@@ -3756,7 +3900,7 @@
           "sıcaklık analizi"
         ]
       }
-    },    
+    },
     {
       "id": 203,
       "name": "DJI U10 Laser Metan Kaçak Tespit Sistemi",
@@ -3764,27 +3908,34 @@
       "description": "DJI U10, metan gazı kaçaklarının temassız, hızlı ve yüksek hassasiyetle tespit edilmesini sağlayan ileri lazer sensör sistemidir. DJI drone platformlarıyla tam entegrasyon sayesinde enerji tesisleri, boru hatları, endüstriyel ve yerleşim alanlarında güvenli gaz izleme ve analiz sunar.",
       "images": [
         "/marka-photos/dji/u10-1.png",
-        "/marka-photos/dji/u10-2.png"
+        "/marka-photos/dji/u10-0.webp",
+        "/marka-photos/dji/u10-1.webp",
+        "/marka-photos/dji/u10-2.jpg",
+        "/marka-photos/dji/u10-3.jpg",
+        "/marka-photos/dji/u10-4.jpg",
+        "/marka-photos/dji/u10-5.jpg",
+        "/marka-photos/dji/u10-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "u10",
       "typeTitle": "Metan Gaz Tespit Serisi",
       "specs": [
-        "Tespit aralığı: 0–100 metre, statik tespit limiti: 5 ppm·m @15m mesafede yüksek hassasiyetle ölçüm.",
-        "Yanıt süresi: 25 ms, gerçek zamanlı dinamik gaz kaçak tespiti.",
-        "Tespit Metodu: TDLAS (Tunable Diode Laser Absorption Spectroscopy) ile kesin ve güvenilir sonuçlar.",
-        "Hedef Gaz: CH₄ (Metan) spesifik algılama, diğer gazlara karşı yüksek seçicilik.",
-        "Uyumluluk: DJI M300 RTK ve M210 serisi ile entegre SkyPort bağlantısı.",
-        "İkincil Yük Desteği: Zenmuse H20T, Z30, XT2 gibi çoklu sensör entegrasyonu.",
-        "Stabilizasyon: Üç eksenli gimbal ile titreşimden etkilenmeyen hassas sensör görüntülemesi.",
-        "Hizalama Kamerası: 720p çözünürlüklü SONY IMX290 CMOS sensörlü yardımcı kamera ile kolay hizalama.",
-        "Görev Planlama: Waypoint uçuşları, alan taramaları ve KML dosyaları ile kapsamlı görev tanımlama.",
-        "Uygulama Desteği: Alpha ONE iOS uygulaması üzerinden canlı ölçüm, grafik ve detaylı raporlama.",
-        "Raporlama: Otomatik denetim raporu oluşturma, CSV dışa aktarımı ve GIS harita entegrasyonu.",
-        "Kullanım Alanları: Rafineriler, doğal gaz tesisleri, viyadük hatları, kentsel alanlar ve kırsal gaz şebekeleri için ideal.",
-        "Operasyon Avantajları: İnsan erişimi zor veya tehlikeli bölgelerde temassız, hızlı ve güvenli tarama imkanı."
+        "DJI U10, 0 ile 100 metre arasında temassız gaz tespiti yapabilir; 15 metre mesafede 5 ppm·m statik tespit limitiyle yüksek hassasiyetli ölçüm sunar.",
+        "25 milisaniyelik hızlı yanıt süresi sayesinde gerçek zamanlı ve dinamik metan gazı kaçaklarını anında algılayabilir.",
+        "TDLAS (Tunable Diode Laser Absorption Spectroscopy) teknolojisini kullanarak doğru, kararlı ve güvenilir gaz ölçümü gerçekleştirir.",
+        "Sadece CH₄ (metan) gazını algılamak üzere optimize edilmiştir ve diğer gazlara karşı yüksek seçicilik gösterir.",
+        "DJI Matrice 300 RTK ve Matrice 210 serisi drone platformlarıyla SkyPort bağlantısı üzerinden tam entegre şekilde çalışır.",
+        "Zenmuse H20T, Z30 ve XT2 gibi ikincil yüklerle birlikte kullanılabilir; çoklu sensör entegrasyonu desteklenir.",
+        "Üç eksenli gimbal yapısı sayesinde uçuş sırasında oluşabilecek titreşimlerden etkilenmeden stabil ve hassas görüntüleme yapılabilir.",
+        "Hizalama için kullanılan yardımcı kamera, 720p çözünürlükte SONY IMX290 CMOS sensöre sahiptir ve kolay hedefleme sağlar.",
+        "Görev planlaması; waypoint uçuşları, alan tarama görevleri ve KML dosyaları üzerinden detaylı şekilde yapılabilir.",
+        "Alpha ONE iOS uygulaması aracılığıyla canlı gaz ölçümleri yapılabilir, veriler grafiksel olarak görüntülenebilir ve analiz edilebilir.",
+        "Otomatik denetim raporları oluşturulabilir, ölçüm sonuçları CSV formatında dışa aktarılabilir ve GIS haritalama sistemleriyle entegre edilebilir.",
+        "Rafineriler, doğal gaz üretim ve dağıtım tesisleri, boru hatları, viyadükler, kentsel altyapılar ve kırsal gaz ağlarında kullanıma uygundur.",
+        "İnsanların erişiminin zor veya tehlikeli olduğu alanlarda temassız ve güvenli gaz taraması yapılmasını mümkün kılar, operasyon güvenliğini artırır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-u10-metan-gazi-tespit-sensoru",
       "meta": {
         "title": "DJI U10 | Lazer Metan Kaçak Tespit Sistemi - Hassas Gaz İzleme",
         "description": "DJI U10, metan gazı kaçaklarının lazer tabanlı, temassız ve hızlı tespiti için geliştirilmiş ileri teknoloji sensör sistemidir. Enerji tesisleri ve endüstriyel alanlarda yüksek hassasiyetli gaz izleme ve analiz sağlar.",
@@ -3814,23 +3965,30 @@
       "description": "DJI Zenmuse S1, düşük enerji tüketimiyle maksimum parlaklık sağlayan ve çeşitli modlarda aydınlatma imkanı sunan güçlü bir arama spot ışığıdır. Gece operasyonları, acil müdahaleler ve altyapı denetimlerinde üstün performans ve esneklik sunar.",
       "images": [
         "/marka-photos/dji/s1-1.png",
-        "/marka-photos/dji/s1-2.png"
+        "/marka-photos/dji/v1-s1-0.jpg",
+        "/marka-photos/dji/s1-1.jpg",
+        "/marka-photos/dji/v1-s1-2.jpg",
+        "/marka-photos/dji/s1-3.jpg",
+        "/marka-photos/dji/s1-4.jpg",
+        "/marka-photos/dji/s1-5.jpg",
+        "/marka-photos/dji/s1-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "100m mesafede 30 lux merkezi aydınlatma ile güçlü ve etkili aydınlatma performansı.",
-        "Enerji tüketimi %50 daha az, verimli düşük güç kullanımı.",
-        "Low Beam Modu: 15° görüş açısı ile 150 metreye kadar kısa mesafeli aydınlatma sağlar.",
-        "High Beam Modu: LEP teknolojisiyle 4° FOV ve 300 metre üzeri uzun mesafe ışık penetrasyonu.",
-        "Strobe Modu: 5 Hz flaşlı uyarı ışığı ile arama kurtarma ve güvenlik uygulamaları için ideal.",
-        "Göz koruma için otomatik %40 parlaklık düşürme özelliği entegre edilmiştir.",
-        "Aşırı ısınma, aşırı akım ve güç koruma devreleriyle donatılmıştır.",
-        "DJI M300 ve M350 serisi gimballerle tam uyumlu; tekli veya çiftli kurulum opsiyonları mevcut.",
-        "H30 serisi faydalı yüklerle eş zamanlı çalışabilme yeteneği."
+        "DJI Zenmuse S1, 100 metre mesafede 30 lux merkez aydınlatma sağlayarak güçlü ve hedefe yönelik ışık yayılımı sunar.",
+        "Yüksek verimlilikle çalışan sistem, benzer aydınlatmalara göre %50 daha az enerji tüketir ve operasyon süresini uzatır.",
+        "Low Beam modu, 15° görüş açısıyla 150 metreye kadar olan alanlarda kısa mesafeli geniş açılı aydınlatma sağlar.",
+        "High Beam modu, LEP (Laser Excited Phosphor) teknolojisi sayesinde yalnızca 4° görüş alanıyla 300 metrenin üzerinde uzun menzilli, odaklanmış ışık sağlar.",
+        "Strobe modu, 5 Hz frekansta flaş atarak arama kurtarma operasyonları ve güvenlik uygulamaları için dikkat çekici uyarı ışığı sağlar.",
+        "Göz sağlığını korumak amacıyla, belirli koşullarda otomatik olarak %40 oranında parlaklık azaltımı yapan güvenlik sistemi entegre edilmiştir.",
+        "Aşırı ısınma, aşırı akım ve güç yüklenmesine karşı özel koruma devreleri sayesinde güvenli ve uzun ömürlü kullanım sunar.",
+        "DJI Matrice 300 RTK ve Matrice 350 RTK platformlarına tam uyumlu olarak çalışır; gimbal bağlantısı üzerinden tekli ya da çiftli kurulum opsiyonları desteklenir.",
+        "Zenmuse H30 serisi faydalı yüklerle senkronize şekilde eş zamanlı çalışarak aynı görev sırasında çoklu sensörlü operasyon imkânı tanır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-s1-aydinlatma-projeksiyon-sistemi",
       "meta": {
         "title": "DJI Zenmuse S1 | Güçlü Gece Aydınlatma ve Acil Durum Spot Işığı",
         "description": "DJI Zenmuse S1, düşük enerji tüketimi ile yüksek parlaklık sunan, çeşitli modlarda çalışan endüstriyel aydınlatma spotudur. Gece görevleri ve acil durumlarda üstün performans sağlar.",
@@ -3852,7 +4010,7 @@
           "acil müdahale aydınlatma"
         ]
       }
-    },    
+    },
     {
       "id": 205,
       "name": "DJI Zenmuse V1 Ses Yayın Ünitesi (Voice Speaker)",
@@ -3860,22 +4018,29 @@
       "description": "Zenmuse V1, DJI drone platformları için geliştirilmiş, yüksek ses gücüne ve çok yönlü yayın modlarına sahip, hedeflenmiş sesli yayın sistemi sunan güçlü bir hoparlör modülüdür. Kalabalık yönetimi, kamu güvenliği bilgilendirmesi ve acil müdahale senaryoları için tasarlanmıştır.",
       "images": [
         "/marka-photos/dji/v1-1.png",
-        "/marka-photos/dji/v1-2.png"
+        "/marka-photos/dji/v1-s1-0.jpg",
+        "/marka-photos/dji/v1-1.jpg",
+        "/marka-photos/dji/v1-s1-2.jpg",
+        "/marka-photos/dji/v1-3.jpg",
+        "/marka-photos/dji/v1-4.jpg",
+        "/marka-photos/dji/v1-5.jpeg",
+        "/marka-photos/dji/v1-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "zenmuse-serisi",
       "typeTitle": "Zenmuse Serisi Faydalı Yükler",
       "specs": [
-        "127 dB maksimum ses şiddeti ile 500m’ye kadar etkili ses yayını sağlar.",
-        "Anlık sesli mesaj kaydı ve DJI Pilot 2 uygulaması üzerinden canlı yayın desteği sunar.",
-        "Metin-sese dönüşüm ile farklı ton ve hızda otomatik sesli komut yayını yapılabilir.",
-        "MP3 veya diğer ses dosyaları yüklenerek doğrudan hoparlör üzerinden oynatılabilir.",
-        "Ses yönlendirme özelliği sayesinde ses doğrudan hedefe yönlendirilebilir.",
-        "Gelişmiş çevresel gürültü azaltma ile net kayıt ve yayın sağlar.",
-        "Aşırı sıcaklık, akım ve enerji koruma sistemleri ile uzun ömürlü kullanım sunar.",
-        "DJI RC Plus ile tam entegre çalışır, pitch (eğim) açısı ile diğer yüklerle senkronize olabilir."
+        "DJI Zenmuse V1, 127 dB maksimum ses şiddetiyle 500 metreye kadar etkili ses yayını yapabilen güçlü bir hoparlör sistemidir.",
+        "Kullanıcılar DJI Pilot 2 uygulaması üzerinden anlık sesli mesaj kaydı yapabilir veya canlı ses yayını gerçekleştirebilir.",
+        "Metin-sese dönüştürme teknolojisi sayesinde farklı tonlama ve hızlarda otomatik sesli komutlar yayınlanabilir.",
+        "MP3 veya benzeri formatlardaki ses dosyaları doğrudan hoparlöre yüklenerek sesli yayın gerçekleştirilebilir.",
+        "Ses yönlendirme özelliği sayesinde ses, belirli bir hedefe doğrudan yönlendirilerek etkili ve odaklanmış iletişim sağlanır.",
+        "Gelişmiş çevresel gürültü azaltma teknolojisi sayesinde dış seslerden arındırılmış net ve temiz yayın kalitesi elde edilir.",
+        "Aşırı sıcaklık, akım ve enerji yüklenmelerine karşı koruma sistemleriyle donatılmıştır; bu sayede güvenli ve uzun ömürlü kullanım sunar.",
+        "DJI RC Plus ile tam uyumlu çalışır ve pitch (eğim) açısı kontrolü sayesinde diğer faydalı yüklerle eş zamanlı görev gerçekleştirebilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-zenmuse-v1-ses-yayin-sistemi",
       "meta": {
         "title": "DJI Zenmuse V1 | Yüksek Sesli Hedeflenmiş Drone Hoparlörü",
         "description": "DJI Zenmuse V1, yüksek ses gücü ve çoklu yayın modları ile kalabalık yönetimi ve acil durumlarda hedefe yönelik ses yayını sağlayan gelişmiş drone hoparlör sistemidir.",
@@ -3905,9 +4070,13 @@
       "description": "DJI Matrice 30, taşınabilir gövdesi, gelişmiş uçuş güvenliği ve optik sensör sistemleriyle profesyonel görevlerde yüksek verimlilik sunan yeni nesil endüstriyel dronedur.",
       "images": [
         "/marka-photos/dji/m30-0.png",
-        "/marka-photos/dji/m30-1.png",
-        "/marka-photos/dji/m30-2.png",
-        "/marka-photos/dji/m30-3.png"
+        "/marka-photos/dji/m30-0.webm",
+        "/marka-photos/dji/m30-1.jpg",
+        "/marka-photos/dji/m30-2.jpg",
+        "/marka-photos/dji/m30-3.jpg",
+        "/marka-photos/dji/m30-4.jpg",
+        "/marka-photos/dji/m30-5.jpg",
+        "/marka-photos/dji/m30-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3923,6 +4092,7 @@
         "DJI Dock uyumluluğu ile otomatik görev planlaması ve uzaktan operasyon imkanı sağlar.",
         "DJI FlightHub 2 ile bulut üzerinden canlı izleme, haritalama ve filo yönetimi desteklenir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-30-endustriyel-drone-cozumu",
       "meta": {
         "title": "DJI Matrice 30 | Kompakt ve Güçlü Endüstriyel Drone",
         "description": "DJI Matrice 30, gelişmiş sensörler, uzun uçuş süresi ve üstün uçuş güvenliği ile profesyonel endüstriyel drone görevlerinde yüksek performans sunar.",
@@ -3944,7 +4114,7 @@
           "DJI FlightHub entegrasyonu"
         ]
       }
-    },    
+    },
     {
       "id": 207,
       "name": "DJI Matrice 30T Termal Drone",
@@ -3952,9 +4122,13 @@
       "description": "DJI Matrice 30T, M30 modelinin termal kamera ile zenginleştirilmiş versiyonudur. Termal görüntüleme kabiliyeti ile arama kurtarma, denetim ve güvenlik uygulamalarında ideal çözümler sunar.",
       "images": [
         "/marka-photos/dji/m30t-0.png",
-        "/marka-photos/dji/m30t-1.png",
-        "/marka-photos/dji/m30t-2.png",
-        "/marka-photos/dji/m30t-3.png"
+        "/marka-photos/dji/m30-0.webm",
+        "/marka-photos/dji/m30t-1.jpg",
+        "/marka-photos/dji/m30t-2.jpg",
+        "/marka-photos/dji/m30t-3.jpg",
+        "/marka-photos/dji/m30t-4.jpg",
+        "/marka-photos/dji/m30t-5.jpg",
+        "/marka-photos/dji/m30t-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3970,6 +4144,7 @@
         "DJI Pilot 2 yazılımı ile termal paletler, spot ölçüm ve sıcaklık analizi gibi termal özellikler aktif kullanılır.",
         "DJI Dock uyumluluğu sayesinde tam otomatik görev planlaması ve merkezi yönetim sağlanır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-30t-termal-kamerali-endustriyel-drone",
       "meta": {
         "title": "DJI Matrice 30T | Entegre Termal Kameralı Endüstriyel Drone",
         "description": "DJI Matrice 30T, gelişmiş termal görüntüleme ve çoklu sensörlerle donatılmış, zorlu koşullarda arama kurtarma ve denetim uygulamalarına yönelik yüksek performanslı endüstriyel dronedur.",
@@ -3997,10 +4172,13 @@
       "description": "Matrice 4D, zorlu hava koşullarında ve karmaşık görevlerde yüksek hassasiyetle çalışan, güçlü sensör entegrasyonu ve gelişmiş uçuş sistemleriyle donatılmış profesyonel bir drone çözümüdür.",
       "images": [
         "/marka-photos/dji/matrice4d-1.png",
-        "/marka-photos/dji/matrice4d-2.png",
-        "/marka-photos/dji/matrice4d-3.png",
-        "/marka-photos/dji/matrice4d-4.png",
-        "/marka-photos/dji/matrice4d-5.png"
+        "/marka-photos/dji/m4d-0.webp",
+        "/marka-photos/dji/m4d-1.webp",
+        "/marka-photos/dji/m4d-2.webp",
+        "/marka-photos/dji/m4d-3.webp",
+        "/marka-photos/dji/m4d-4.webp",
+        "/marka-photos/dji/m4d-5.webp",
+        "/marka-photos/dji/m4d-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4023,6 +4201,7 @@
         "Yüksek güvenlik önlemleri ile donatılmış uçuş sistemleri, her uçuşu güvenli ve verimli hale getirir.",
         "Hızlı şarj özelliği ile 1 saat içerisinde %80 şarj kapasitesine ulaşılabilir, bu sayede kesintisiz operasyon sağlanır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-4d-endustriyel-drone-sistemi",
       "meta": {
         "title": "Matrice 4D | Gelişmiş Endüstriyel Drone Çözümü",
         "description": "Matrice 4D, zorlu koşullarda yüksek performans, gelişmiş sensör entegrasyonu ve uzun uçuş süresiyle profesyonel drone uygulamalarında öne çıkar.",
@@ -4043,16 +4222,20 @@
           "profesyonel drone çözümü"
         ]
       }
-    },    
+    },
     {
       "id": 209,
-      "name": "Matrice 4DT",
-      "description": "Matrice 4DT, lidar ve yüksek çözünürlüklü kamera entegrasyonu ile güçlü veri toplama ve analiz kapasitesine sahip, profesyonel bir drone çözümüdür.",
+      "name": "Matrice 4TD",
+      "description": "Matrice 4TD, lidar ve yüksek çözünürlüklü kamera entegrasyonu ile güçlü veri toplama ve analiz kapasitesine sahip, profesyonel bir drone çözümüdür.",
       "images": [
         "/marka-photos/dji/matrice4dt-1.png",
-        "/marka-photos/dji/matrice4dt-2.png",
-        "/marka-photos/dji/matrice4dt-3.png",
-        "/marka-photos/dji/matrice4dt-4.png"
+        "/marka-photos/dji/m4dt-0.webp",
+        "/marka-photos/dji/m4dt-1.webp",
+        "/marka-photos/dji/m4dt-2.webp",
+        "/marka-photos/dji/m4dt-3.webp",
+        "/marka-photos/dji/m4dt-4.webp",
+        "/marka-photos/dji/m4dt-5.webp",
+        "/marka-photos/dji/m4dt-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4071,11 +4254,12 @@
         "Hızlı veri işleme ve bulut tabanlı depolama entegrasyonu ile veriler her zaman erişilebilir ve güvenli olur.",
         "Hızlı şarj özelliği ile batarya yeniden doldurulabilir ve operasyonlara hızla geri dönülür."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-matrice-4dt-lidar-ve-haritalama-odakli-profesyonel-drone",
       "meta": {
-        "title": "Matrice 4DT | Lidar ve Yüksek Çözünürlüklü Kamera Entegreli Profesyonel Drone",
-        "description": "Matrice 4DT, güçlü lidar ve yüksek çözünürlüklü kamera sistemi ile 3D haritalama, veri toplama ve analizde üstün performans sağlayan gelişmiş profesyonel drone çözümüdür.",
+        "title": "Matrice 4TD | Lidar ve Yüksek Çözünürlüklü Kamera Entegreli Profesyonel Drone",
+        "description": "Matrice 4TD, güçlü lidar ve yüksek çözünürlüklü kamera sistemi ile 3D haritalama, veri toplama ve analizde üstün performans sağlayan gelişmiş profesyonel drone çözümüdür.",
         "keywords": [
-          "Matrice 4DT",
+          "Matrice 4TD",
           "lidar drone",
           "yüksek çözünürlüklü kamera",
           "3D haritalama drone",
@@ -4099,26 +4283,31 @@
       "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
       "images": [
         "/marka-photos/dji/m3e-0.png",
-        "/marka-photos/dji/m3e-1.png",
-        "/marka-photos/dji/m3e-2.png",
-        "/marka-photos/dji/m3e-3.png"
+        "/marka-photos/dji/m3e-0.webm",
+        "/marka-photos/dji/m3e-1.jpg",
+        "/marka-photos/dji/m3e-2.jpg",
+        "/marka-photos/dji/m3e-3.png",
+        "/marka-photos/dji/m3e-4.png",
+        "/marka-photos/dji/m3e-5.png",
+        "/marka-photos/dji/m3e-6.png"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "mavic-serisi",
       "typeTitle": "Mavic Serisi Dronlar",
       "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
-        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
+        "DJI Mavic 3 Enterprise RTK, ideal koşullarda 45 dakikaya kadar kesintisiz uçuş süresi sunar.",
+        "DJI O3 Enterprise ile donatılmış iletim sistemi, 15 kilometreye kadar güvenli ve kesintisiz bağlantı sağlar.",
+        "20 megapiksel çözünürlüklü 4/3 inç CMOS sensöre sahip mekanik deklanşörlü kamerası ile net ve doğru görsel veriler üretilir.",
+        "RTK (Real-Time Kinematic) desteği sayesinde santimetre seviyesinde konumlandırma hassasiyeti elde edilir.",
+        "56 kata kadar dijital yakınlaştırma ve 7 kata kadar optik zoom özelliğiyle detaylı inceleme ve hedefleme yapılabilir.",
+        "DJI TB30 akıllı batarya sistemi, hızlı değişim desteği sayesinde kesintisiz saha operasyonlarına olanak tanır.",
+        "IP54 sertifikası ile su sıçramalarına ve toza karşı korumalı yapısıyla zorlu çevre koşullarına dayanıklıdır.",
+        "Cihaz, -10°C ile +40°C arasındaki geniş çalışma sıcaklık aralığında güvenli şekilde kullanılabilir.",
+        "3 eksenli gimbal sistemi, titreşimi minimize ederek sabit ve net görüntüler sağlar.",
+        "Yapay zekâ destekli akıllı uçuş özellikleri; otomatik haritalama görevleri, nesne takibi ve planlı uçuş rotaları oluşturma gibi ileri seviye görev yönetimi sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-mavic-3-enterprise-rtk-haritalama-ve-fotogrametri-dronu",
       "meta": {
         "title": "DJI Mavic 3 Enterprise RTK | Kompakt RTK Destekli Hassas Haritalama Drone",
         "description": "DJI Mavic 3 Enterprise RTK, kompakt yapısı, gelişmiş kamera sistemi ve RTK konumlandırma ile mühendislik ve haritalama projelerinde yüksek hassasiyet ve verimlilik sunar.",
@@ -4139,33 +4328,39 @@
           "3 eksenli gimbal"
         ]
       }
-    },    
+    },
     {
       "id": 211,
       "name": "DJI Mavic 3 Thermal (M3T RTK)",
       "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
       "images": [
         "/marka-photos/dji/m3t-0.png",
-        "/marka-photos/dji/m3t-1.png",
-        "/marka-photos/dji/m3t-2.png"
+        "/marka-photos/dji/m3t-0.webm",
+        "/marka-photos/dji/m3t-1.jpg",
+        "/marka-photos/dji/m3t-2.jpg",
+        "/marka-photos/dji/m3t-3.jpg",
+        "/marka-photos/dji/m3t-4.jpg",
+        "/marka-photos/dji/m3t-5.jpg",
+        "/marka-photos/dji/m3t-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "mavic-serisi",
       "typeTitle": "Mavic Serisi Dronlar",
       "specs": [
-        "Maksimum Uçuş Süresi: 45 dakika",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
-        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
-        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
-        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
-        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
-        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Gimbal Yapısı: 3 eksenli gimbal",
-        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
+        "DJI Mavic 3 Thermal, ideal koşullarda 45 dakikaya kadar kesintisiz uçuş süresi sunarak geniş kapsamlı görevlerin tamamlanmasını sağlar.",
+        "DJI O3 Enterprise iletim sistemi sayesinde 15 kilometreye kadar güçlü, kararlı ve düşük gecikmeli bağlantı imkanı sunar.",
+        "48 megapiksel çözünürlüğe sahip geniş açılı kamera ve 640×512 piksel termal kamera modülüyle hem görsel hem de ısı verisi toplayabilir.",
+        "7 kata kadar optik ve toplamda 56 kata kadar dijital zoom kapasitesiyle uzaktaki nesneleri ayrıntılı biçimde görüntüleyebilir.",
+        "Entegre lazer mesafe ölçer, 1200 metreye kadar mesafeleri ±0.2 metre hassasiyetle ölçerek görev doğruluğunu artırır.",
+        "Termal kamera, 30 Hz yenileme hızına sahiptir; izoterm analiz modlarıyla sıcaklık farklılıklarını belirgin biçimde analiz eder.",
+        "Cihazda kullanılan TB30 akıllı batarya sistemi hızlı değişim özelliği sunarak operasyon sürekliliğini destekler.",
+        "IP54 sertifikası sayesinde tozlu ve nemli ortam koşullarında güvenli şekilde çalışabilir.",
+        "Çalışma sıcaklığı -10°C ile +40°C aralığındadır, bu da onu çeşitli iklimlerde kullanılabilir hale getirir.",
+        "3 eksenli gimbal yapısı, titreşimleri en aza indirerek hem görsel hem termal görüntülerin sabit ve net olmasını sağlar.",
+        "Yapay zeka destekli uçuş özellikleri arasında nesne tanıma, otomatik rota planlama ve düşük ışık koşulları için optimize edilmiş gece görüş modu yer alır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-mavic-3t-rtk-termal-kamerali-endustriyel-drone",
       "meta": {
         "title": "DJI Mavic 3 Thermal (M3T RTK) | RTK Destekli Termal Endüstriyel Drone",
         "description": "DJI Mavic 3 Thermal, yüksek çözünürlüklü termal kamera ve RTK teknolojisi ile donatılmış, hassas ve güvenilir endüstriyel drone çözümüdür. Gelişmiş AI özellikleriyle gece ve gündüz operasyonlarında üstün performans sağlar.",
@@ -4199,28 +4394,32 @@
       "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
       "images": [
         "/marka-photos/dji/m3m-0.png",
-        "/marka-photos/dji/m3m-1.png",
-        "/marka-photos/dji/m3m-2.png",
-        "/marka-photos/dji/m3m-3.png",
-        "/marka-photos/dji/m3m-4.png"
+        "/marka-photos/dji/m3m-0.webm",
+        "/marka-photos/dji/m3m-1.jpg",
+        "/marka-photos/dji/m3m-2.jpg",
+        "/marka-photos/dji/m3m-3.jpg",
+        "/marka-photos/dji/m3m-4.jpg",
+        "/marka-photos/dji/m3m-5.png",
+        "/marka-photos/dji/m3m-6.jpg"
       ],
       "category": "iha",
       "brand": "dji",
       "type": "mavic-serisi",
       "typeTitle": "Mavic Serisi Dronlar",
       "specs": [
-        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
-        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
-        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
-        "Uçuş Süresi: 43 dakikaya kadar",
-        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
-        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
-        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
-        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
-        "Çalışma Sıcaklığı: -10°C ile +40°C",
-        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
-        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
+        "DJI Mavic 3 Multispectral, 20 megapiksel çözünürlüğe sahip 4/3 inç CMOS sensörlü mekanik deklanşörlü RGB kamerasıyla yüksek kaliteli görsel veri sağlar.",
+        "Multispektral görüntüleme için 5 megapiksellik dört farklı spektral banda (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar ve Yakın Kızılötesi) sahip sensörlerle donatılmıştır.",
+        "RTK desteği sayesinde santimetre düzeyinde hassas konumlandırma gerçekleştirerek tarım ve çevre uygulamalarında veri doğruluğunu maksimize eder.",
+        "Tek uçuşta 43 dakikaya kadar havada kalabilen yapısıyla geniş alanların verimli şekilde taranmasını mümkün kılar.",
+        "DJI O3 Enterprise iletim sistemi sayesinde 15 kilometreye kadar kararlı ve yüksek hızlı bağlantı sağlar.",
+        "Tam yönlü hareketli engel algılama sensörleri sayesinde güvenli ve otonom uçuşlar desteklenir.",
+        "100W şarj hub’ı ve 88W hızlı şarj teknolojisi ile operasyon sürekliliği artırılır ve saha görevlerinde zaman tasarrufu sağlanır.",
+        "Cihaz, zorlu çevresel koşullarda kullanılmak üzere toz ve suya dayanıklı bir yapıda tasarlanmıştır.",
+        "Çalışma sıcaklık aralığı -10°C ile +40°C arasında olup, geniş iklim koşullarında sorunsuz şekilde çalışabilir.",
+        "Gelişmiş akıllı uçuş özellikleri arasında akıllı rota planlama, bölgesel analiz ve nesne takibi gibi otonom işlevler yer alır.",
+        "Bulut tabanlı API desteği ve açık yazılım ekosistemi sayesinde üçüncü taraf yazılımlarla entegrasyon ve özelleştirme imkanları sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-mavic-3m-multispektral-haritalama-ve-tarim-analiz-dronu",
       "meta": {
         "title": "DJI Mavic 3 Multispectral (M3M) | Hassas Tarım ve Çevresel Analiz Dronu",
         "description": "DJI Mavic 3 Multispectral, multispektral ve RGB kameralarıyla tarım, çevre ve arazi analizlerinde yüksek hassasiyet ve detaylı veri sağlayan profesyonel drone çözümüdür.",
@@ -4245,59 +4444,6 @@
           "4/3 CMOS kamera",
           "yüksek hassasiyetli drone",
           "profesyonel drone"
-        ]
-      }
-    },    
-    {
-      "id": 221,
-      "name": "DJI U10 Lazer Gaz Kaçak Tespit Sistemi",
-      "description": "Metan gazı kaçaklarını tespit etmek için TDLAS teknolojisini kullanan lazer bazlı endüstriyel gaz dedektörü.",
-      "images": [
-        "/marka-photos/dji/u10-0.png",
-        "/marka-photos/dji/u10-1.png",
-        "/marka-photos/dji/u10-2.png",
-        "/marka-photos/dji/u10-3.png"
-      ],
-      "category": "sensor",
-      "brand": "dji",
-      "type": "gas-detection-sensor",
-      "typeTitle": "Gaz Kaçak Tespit Sensörü",
-      "specs": [
-        "Tespit Edilen Gaz Türü: Metan (CH₄)",
-        "Algılama Teknolojisi: Tunable Diode Laser Absorption Spectroscopy (TDLAS)",
-        "Tespit Hassasiyeti: 1 ppm veya daha yüksek hassasiyet",
-        "Algılama Mesafesi: 100 metreye kadar gaz tespiti",
-        "Gerçek Zamanlı Veri Analizi: Gaz yoğunluğunu ppm cinsinden analiz eder ve anlık veri aktarımı sağlar",
-        "Çevresel Dayanıklılık: Farklı hava koşullarında güvenli çalışma",
-        "Çalışma Sıcaklığı: -20°C ile +50°C",
-        "UAV Entegrasyonu: DJI Matrice 200, 300 RTK ile uyumludur",
-        "Veri Çıkışı: Anlık veri kaydı, analiz ve 3D haritalama entegrasyonu",
-        "Ağırlık: ≤1 kg"
-      ],
-      "meta": {
-        "title": "DJI U10 Lazer Gaz Kaçak Tespit Sistemi | TDLAS Teknolojili Metan Dedektörü",
-        "description": "DJI U10, TDLAS lazer teknolojisi ile metan gazı kaçaklarını yüksek hassasiyetle tespit eden, DJI drone platformlarıyla tam uyumlu gelişmiş endüstriyel gaz kaçak sensörüdür.",
-        "keywords": [
-          "DJI U10",
-          "lazer gaz tespit sistemi",
-          "TDLAS gaz dedektörü",
-          "metan gazı tespiti",
-          "gaz kaçak detektörü",
-          "endüstriyel gaz sensörü",
-          "uçan gaz dedektörü",
-          "drone gaz sensörü",
-          "gaz yoğunluğu ölçümü",
-          "gerçek zamanlı gaz izleme",
-          "100 metre gaz algılama",
-          "yüksek hassasiyet gaz sensörü",
-          "CH4 tespiti",
-          "DJI Matrice 200 uyumlu",
-          "DJI Matrice 300 RTK entegrasyonu",
-          "3D gaz haritalama",
-          "gaz kaçak önleme",
-          "çevresel dayanıklılık",
-          "anlık veri aktarımı",
-          "endüstriyel güvenlik"
         ]
       }
     },
@@ -4326,6 +4472,7 @@
         "Yapay zekâ destekli akıllı takip, görev planlama ve otomatik kalkış/iniş gibi uçuş destek özellikleriyle donatılmıştır.",
         "Termal algılama sıcaklık aralığı -20°C ila +550°C olup ±3°C hassasiyetle sıcaklık ölçümü sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-ii-dual-640t-v3-termal-ve-8k-goruntuleme-drone",
       "meta": {
         "title": "Autel EVO II Dual 640T V3 | 8K ve Termal Kamera Özellikli Endüstriyel Drone",
         "description": "Autel EVO II Dual 640T V3, 8K video ve yüksek çözünürlüklü termal kamera ile donatılmış, profesyonel kullanım için yüksek hassasiyetli, güvenli ve dayanıklı endüstriyel dronedur.",
@@ -4351,7 +4498,7 @@
           "-20 ila 550 derece sıcaklık aralığı"
         ]
       }
-    },    
+    },
     {
       "id": 297,
       "name": "Autel EVO II Enterprise V3",
@@ -4376,6 +4523,7 @@
         "20 m/s maksimum hız ve seviye 8 rüzgar dayanımı ile zorlu koşullarda güvenli uçuş sağlar.",
         "Görev planlama modları: Waypoint, dikdörtgen, poligon, eğik uçuş, hassas iniş ve güvenli iniş gibi gelişmiş özellikler içerir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-ii-enterprise-v3-moduler-aksesuarli-profesyonel-drone",
       "meta": {
         "title": "Autel EVO II Enterprise V3 | Modüler Aksesuarlar ve Uzun Uçuş Süresi ile Profesyonel Drone",
         "description": "Autel EVO II Enterprise V3, uzun uçuş süresi, yüksek görüntü kalitesi, modüler aksesuarlar ve üstün güvenlik özellikleriyle arama kurtarma, haritalama ve denetim görevleri için ideal profesyonel dronedur.",
@@ -4427,6 +4575,7 @@
         "Akıllı görev planlama: waypoint, dikdörtgen, poligon, eğik çekim gibi uçuş modları desteklenir.",
         "Hava şartlarına dayanıklı tasarımı sayesinde -10°C ile +40°C arasında güvenli kullanım sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-ii-pro-v3-6k-goruntuleme-ve-ucus-destekli-drone",
       "meta": {
         "title": "Autel EVO II Pro V3 | 6K Kamera ve Uzun Uçuş Süreli Profesyonel Drone",
         "description": "Autel EVO II Pro V3, 6K video çekim ve 1 inç CMOS sensörüyle üstün görüntü kalitesi sunan, 40 dakika uçuş süresi ve gelişmiş güvenlik özellikleriyle profesyonel endüstriyel drone platformudur.",
@@ -4450,7 +4599,7 @@
           "endüstriyel drone"
         ]
       }
-    },    
+    },
     {
       "id": 299,
       "name": "Autel EVO II RTK V3",
@@ -4475,6 +4624,7 @@
         "Autel Explorer uygulaması ile waypoint, dikdörtgen, poligon ve eğik görev planlama desteklenir.",
         "RTK servisleri NTRIP protokolü ile harici ağ tabanlı servislerle uyumlu şekilde çalışabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-ii-rtk-v3-santimetre-hassasiyetli-konumlama-drone",
       "meta": {
         "title": "Autel EVO II RTK V3 | RTK Hassasiyetli Uzun Uçuş Süreli Endüstriyel Drone",
         "description": "Autel EVO II RTK V3, gelişmiş RTK modülü, 36 dakika uçuş süresi ve çok yönlü görev modlarıyla haritalama, ölçüm ve endüstriyel analizler için profesyonel drone çözümüdür.",
@@ -4529,6 +4679,7 @@
         "Akıllı takip, bölgesel tarama, haritalama ve arazi takip özellikleri içerir.",
         "-20°C ile +50°C arasında çalışabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-max-4n-gece-goruslu-akilli-drone",
       "meta": {
         "title": "Autel EVO Max 4N | Gece Görüş ve Termal Sensörlü Profesyonel Keşif Drone'u",
         "description": "Autel EVO Max 4N, gece görüş kamerası, yüksek çözünürlüklü termal sensör ve uzun uçuş süresi ile profesyonel keşif ve haritalama görevleri için optimize edilmiş drone çözümüdür.",
@@ -4555,7 +4706,7 @@
           "profesyonel keşif drone"
         ]
       }
-    },    
+    },
     {
       "id": 301,
       "name": "Autel EVO Max 4T",
@@ -4585,6 +4736,7 @@
         "-20°C ile +50°C arasında stabil performans sunar.",
         "Otomatik rota planlama, nesne takibi, sıcaklık analizi ve akıllı hedef belirleme içerir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-max-4t-akilli-sensor-sistemli-profesyonel-gorev-iha",
       "meta": {
         "title": "Autel EVO Max 4T | Çoklu Sensörlü Termal ve Zoom Kameralı Profesyonel Drone",
         "description": "Autel EVO Max 4T, yüksek çözünürlüklü zoom, termal kamera ve lazer mesafe ölçer ile donatılmış, uzun uçuş süresi ve gelişmiş veri iletişimi sunan profesyonel keşif drone çözümüdür.",
@@ -4641,6 +4793,7 @@
         "-20°C ile +50°C arasında güvenli şekilde çalışır.",
         "Akıllı rota planlama, otomatik hedef takibi, sıcaklık analizi ve bölgesel tarama özellikleri mevcuttur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-max-4t-xe-profesyonel-kesif-ve-gozetim-iha",
       "meta": {
         "title": "Autel EVO Max 4T XE | Çoklu Sensörlü Gelişmiş Keşif Drone'u",
         "description": "Autel EVO Max 4T XE, yüksek çözünürlüklü kamera, termal sensör, uzun uçuş süresi ve gelişmiş veri iletimi özellikleriyle profesyonel güvenlik ve keşif görevleri için optimize edilmiştir.",
@@ -4667,7 +4820,7 @@
           "akıllı hedef takibi"
         ]
       }
-    },    
+    },
     {
       "id": 305,
       "name": "Autel Alpha",
@@ -4697,6 +4850,7 @@
         "10.1 inç ekranlı kontrol cihazı ile 20 km iletim menzili sunar.",
         "Otomatik kalkış, iniş, akıllı takip, uçuş planlama ve arazi takip özelliklerine sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-alpha-agir-yuk-tasima-ve-endustriyel-drone-cozumu",
       "meta": {
         "title": "Autel Alpha | Endüstriyel Çok Rotorlu Profesyonel İHA",
         "description": "Autel Alpha, yüksek taşıma kapasitesi, uzun uçuş süresi, gelişmiş RTK konum doğruluğu ve dayanıklı yapısıyla profesyonel endüstriyel görevler için tasarlanmış çok rotorlu drone sistemidir.",
@@ -4752,6 +4906,7 @@
         "Uyumluluk: DG-Z2, T3, T3H, L20T, L50T gimbal sistemleri ile uyumlu.",
         "Kontrol Sistemi: Autel Voyager uygulaması ile tam uyumluluk."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-dragonfish-pro-uzun-ucus-sureli-endustriyel-iha",
       "meta": {
         "title": "Autel Dragonfish Pro | Uzun Uçuş Süreli Endüstriyel İHA",
         "description": "Autel Dragonfish Pro, 180 dakikaya varan uçuş süresi, 30 km veri iletimi ve yüksek taşıma kapasitesi ile profesyonel endüstriyel görevler için ideal drone çözümüdür.",
@@ -4778,7 +4933,7 @@
           "kanat modu drone"
         ]
       }
-    },    
+    },
     {
       "id": 309,
       "name": "Autel Dragonfish Standard",
@@ -4807,6 +4962,7 @@
         "3 dakikada kurulum ve 5 saniyede sistem kontrolü ile zamandan tasarruf sağlar.",
         "Akıllı takip, otomatik görev uçuşları, arazi takip ve hassas iniş özellikleri bulunur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-dragonfish-standard-endustriyel-sabit-kanatli-iha",
       "meta": {
         "title": "Autel Dragonfish Standard | Uzun Uçuş Süreli Profesyonel Sabit Kanatlı Drone",
         "description": "Autel Dragonfish Standard, 120 dakika uçuş süresi, yüksek taşıma kapasitesi, RTK destekli hassas konumlandırma ve dayanıklı yapısıyla endüstriyel sabit kanatlı drone çözümleri sunar.",
@@ -4861,6 +5017,7 @@
         "Rüzgarsız ortamda sabit kanat uçuşunda 15 m/s, dikey kalkışta 12 m/s rüzgar dayanımı sunar.",
         "Çalışma sıcaklığı aralığı -20°C ile +50°C arasındadır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-dragonfish-lite-hafif-endustriyel-sabit-kanatli-iha",
       "meta": {
         "title": "Autel Dragonfish Lite | Hibrit Sabit Kanat Endüstriyel Drone",
         "description": "Autel Dragonfish Lite, uzun uçuş süresi, yüksek hassasiyetli RTK konumlandırma, geniş veri aktarım mesafesi ve dayanıklı IP43 koruma ile endüstriyel görevler için ideal hibrit sabit kanat drone sistemidir.",
@@ -4886,7 +5043,7 @@
           "Galileo destekli drone"
         ]
       }
-    },    
+    },
     {
       "id": 315,
       "name": "Autel Titan",
@@ -4916,6 +5073,7 @@
         "Boyutları: 1879×1866×584 mm (pervane dahil), katlı durumda 752×328×526 mm.",
         "Ağırlığı: Gimbal ve batarya dahil toplam 23 kg’dır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-titan-agir-yuk-tasimaya-uygun-lojistik-drone",
       "meta": {
         "title": "Autel Titan | Ağır Yük Taşıma ve Uzun Menzilli Çok Rotorlu İHA",
         "description": "Autel Titan, 10 kg taşıma kapasitesi, 55 dakikalık uzun uçuş süresi, yüksek dayanıklılık, 720° engel algılama ve A-Mesh iletişim ağı ile profesyonel ağır yük İHA çözümleri sunar.",
@@ -4969,6 +5127,7 @@
         "16 hedef yankıya kadar destek ile yoğun ortamlarda stabil veri sağlar.",
         "Zorlu endüstriyel ortamlarda çalışmaya uygun, sağlam yapıda üretilmiştir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-horn-x2-pro-endustriyel-seviye-3d-lidar-sensoru",
       "meta": {
         "title": "Benewake Horn-X2 Pro | Uzun Menzilli Yüksek Çözünürlüklü Lidar Sensörü",
         "description": "Benewake Horn-X2 Pro, 300 m algılama mesafesi, 0.05° çözünürlük, 360° tarama, IP67 koruma ve zorlu endüstriyel koşullara uygun sağlam yapısıyla ileri seviye lidar sensörüdür.",
@@ -4995,7 +5154,7 @@
           "endüstriyel sensör"
         ]
       }
-    },    
+    },
     {
       "id": 321,
       "name": "Benewake AD2-S-X3",
@@ -5021,6 +5180,7 @@
         "Ethernet üzerinden hızlı veri aktarımı sağlar.",
         "-20°C ile +60°C arasında stabil performans sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-ad2s-x3-sehir-trafiginde-ustun-3d-lidar-algilama",
       "meta": {
         "title": "Benewake AD2-S-X3 | Yüksek Çözünürlüklü 3D Lidar Sensörü",
         "description": "Benewake AD2-S-X3, 256 hatlı çözünürlük, 150 m algılama mesafesi, 120° geniş görüş açısı, 2 milyon nokta/saniye veri üretimi, IP67 koruma ve esnek sensör entegrasyonu ile akıllı şehirler ve trafik yönetimi için ideal 3D lidar sensörüdür.",
@@ -5075,6 +5235,7 @@
         "60g ağırlığında hafif ve taşınabilir yapıdadır.",
         "100K lux ışık altında dahi kararlı ölçüm sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf02i-akilli-mesafe-olcumunde-guvenilir-lidar-cozumu",
       "meta": {
         "title": "Benewake TF02-i | Orta Menzilli Hızlı Yanıtlı Lidar Sensörü",
         "description": "Benewake TF02-i, 0.1-40 m ölçüm aralığı, IP65 koruma, 3° görüş açısı, 1 cm çözünürlük, ayarlanabilir tarama hızı ve düşük enerji tüketimi ile drone ve akıllı ulaşım sistemleri için optimize edilmiş orta menzilli lidar sensörüdür.",
@@ -5101,7 +5262,7 @@
           "düşük güç tüketimi"
         ]
       }
-    },    
+    },
     {
       "id": 323,
       "name": "Benewake TF03",
@@ -5130,6 +5291,7 @@
         "44 mm x 43 mm x 32 mm ölçülerinde kompakt tasarım.",
         "89 g ± 3 g hafifliğiyle kolay montaj sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf03-uzun-menzilde-hassas-algilama-lidar-sensoru",
       "meta": {
         "title": "Benewake TF03 | Yüksek Hassasiyetli Uzun Menzilli Lidar Sensörü",
         "description": "Benewake TF03, 180 m uzun menzil algılama, IP67 dayanıklılık, çoklu çıkış seçenekleri, 1 cm çözünürlük ve geniş çalışma sıcaklığı aralığıyla drone, akıllı ulaşım ve endüstriyel uygulamalar için ideal yüksek hassasiyetli lidar sensörüdür.",
@@ -5183,6 +5345,7 @@
         "≤1.5W düşük güç tüketimi sağlar.",
         "52 g ağırlığı ve kompakt boyutları ile kolay taşınır ve entegre edilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf-nova-kompakt-yapida-yuksek-performansli-lidar-sensoru",
       "meta": {
         "title": "Benewake TF-NOVA | Kompakt ve Hassas Kısa Menzilli Lidar Sensörü",
         "description": "Benewake TF-NOVA, 40 m algılama, 1 cm çözünürlük, IP67 koruma, ayarlanabilir tarama frekansı ve düşük güç tüketimi özellikleriyle drone, robotik ve endüstriyel otomasyon uygulamaları için ideal kısa menzilli lidar sensörüdür.",
@@ -5209,7 +5372,7 @@
           "tek nokta lidar"
         ]
       }
-    },    
+    },
     {
       "id": 325,
       "name": "Benewake TFS20-L",
@@ -5235,6 +5398,7 @@
         "≤0.35W düşük güç tüketimi ile enerji verimliliği sağlar.",
         "21 mm x 15 mm x 7.87 mm boyutları ve 1.35 g ağırlığı ile ultra kompakt yapıdadır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfs20-l-kompakt-ve-yuksek-hassasiyetli-lidar-sensoru",
       "meta": {
         "title": "Benewake TFS20-L | Ultra Kompakt Kısa Menzilli Lidar Sensörü",
         "description": "Benewake TFS20-L, 20 m algılama mesafesi, ultra kompakt tasarım, düşük güç tüketimi ve yüksek hassasiyet ile drone, robotik ve endüstriyel uygulamalar için ideal kısa menzilli lidar sensörüdür.",
@@ -5288,6 +5452,7 @@
         "≤1W düşük güç tüketimi ile enerji verimliliği sağlar.",
         "31 x 30.2 x 19.2 mm boyutları ve yalnızca 10 g ağırlığı ile ultra hafif ve kompakt tasarımıyla dikkat çeker."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfa170-l-hafif-uzun-menzilli-ve-yuksek-hassasiyetli-lidar",
       "meta": {
         "title": "Benewake TFA170-L | Ultra Hafif Uzun Menzilli Lidar Sensörü",
         "description": "Benewake TFA170-L, 170 m algılama mesafesi, ultra hafif kompakt tasarım, yüksek doğruluk, düşük güç tüketimi ve hızlı veri aktarımı özellikleriyle drone ve endüstriyel uygulamalar için ideal uzun menzilli lidar sensörüdür.",
@@ -5314,7 +5479,7 @@
           "endüstriyel otomasyon lidar"
         ]
       }
-    },    
+    },
     {
       "id": 327,
       "name": "Benewake TFmini-S",
@@ -5342,6 +5507,7 @@
         "≤0.7W düşük güç tüketimi ile enerji verimliliği sağlar.",
         "42 mm x 15 mm x 16 mm boyutları ve 5 g ±0.3 g ağırlığı ile ultra kompakt ve hafif tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfmini-s-kompakt-ve-ekonomik-mikro-lidar-sensoru",
       "meta": {
         "title": "Benewake TFmini-S | Mikro Kısa Menzilli LiDAR Sensörü",
         "description": "Benewake TFmini-S, 12 m ölçüm mesafesi, mikro kompakt tasarım, yüksek hassasiyet, düşük güç tüketimi ve esnek arayüzlerle drone, robotik ve IoT uygulamaları için ideal kısa menzilli LiDAR sensörüdür.",
@@ -5396,6 +5562,7 @@
         "550mW düşük güç tüketimi ile enerji verimliliği sağlar.",
         "35 mm x 18.5 mm x 21 mm boyutları ve 12 g ±1 g ağırlığı ile ultra kompakt ve hafif tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfmini-plus-gelismis-performansli-kompakt-lidar-sensoru",
       "meta": {
         "title": "Benewake TFmini Plus | Yüksek Hassasiyetli Kısa Menzilli LiDAR Sensörü",
         "description": "Benewake TFmini Plus, 12 m ölçüm aralığı, kompakt tasarım, gelişmiş çerçeve hızı, yüksek hassasiyet, IP65 koruma ve esnek bağlantı seçenekleri ile drone, robotik ve IoT uygulamaları için üstün kısa menzilli LiDAR sensörüdür.",
@@ -5422,7 +5589,7 @@
           "mikro lidar"
         ]
       }
-    },    
+    },
     {
       "id": 329,
       "name": "Benewake TFmini-i",
@@ -5450,6 +5617,7 @@
         "≤0.8W düşük güç tüketimi ile enerji verimliliği sağlar.",
         "50 mm x 34 mm x 41 mm boyutları ve 52 g ağırlığı ile kompakt ve dayanıklı tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfmini-i-endustriyel-sinif-kompakt-lidar-sensoru",
       "meta": {
         "title": "Benewake TFmini-i | Endüstriyel Kısa Menzilli LiDAR Sensörü",
         "description": "Benewake TFmini-i, 12 m ölçüm aralığı, dayanıklı ve kompakt yapı, IP65 koruma, geniş voltaj aralığı ve RS-485/CAN arayüzleri ile endüstriyel uygulamalar için güvenilir kısa menzilli LiDAR sensörüdür.",
@@ -5505,6 +5673,7 @@
         "≤1W düşük güç tüketimi ile enerji verimliliği sağlar.",
         "69 mm x 41.5 mm x 26 mm boyutları ve 50 g ağırlığı ile kompakt ve dayanıklı tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf02-pro-orta-menzilli-lidar-sensoru",
       "meta": {
         "title": "Benewake TF02-Pro | Orta Menzilli Yüksek Hassasiyetli LiDAR Sensörü",
         "description": "Benewake TF02-Pro, 40 m ölçüm aralığı, dayanıklı ve kompakt yapı, IP65 koruma, yüksek hassasiyet ve esnek UART/I2C arayüzleri ile drone, akıllı ulaşım ve tarım uygulamalarına uygun orta menzilli LiDAR sensörüdür.",
@@ -5531,7 +5700,7 @@
           "orta menzil lidar"
         ]
       }
-    },    
+    },
     {
       "id": 331,
       "name": "Benewake TF-Luna",
@@ -5559,6 +5728,7 @@
         "≤0.35W düşük güç tüketimi ile enerji tasarrufu sağlar.",
         "35 mm x 21.25 mm x 13.5 mm boyutları ve yalnızca 5 g ağırlığı ile ultra kompakt tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf-luna-kompakt-ekonomik-lidar-sensoru",
       "meta": {
         "title": "Benewake TF-Luna | Kompakt Kısa Menzilli LiDAR Sensörü",
         "description": "Benewake TF-Luna, 8 m ölçüm aralığı, kompakt ve hafif tasarım, yüksek hassasiyet, düşük güç tüketimi ve esnek UART/I2C arayüzleri ile robotik, drone ve endüstriyel otomasyon uygulamalarında güvenilir kısa menzilli LiDAR sensörüdür.",
@@ -5615,6 +5785,7 @@
         "69 mm x 41.5 mm x 26 mm boyutlarındadır.",
         "50 gram ağırlığında kompakt ve hafif tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf02-pro-w-endustriyel-lidar-seviyelendirme-sensoru",
       "meta": {
         "title": "Benewake TF02-Pro-W | Endüstriyel Dayanıklı LiDAR Sensörü",
         "description": "Benewake TF02-Pro-W, 25 m ölçüm aralığı, kendi kendini temizleme özelliği, yüksek hassasiyet, geniş tarama frekansı, dayanıklı tasarım ve UART/RS-485/I2C arayüzleri ile endüstriyel uygulamalarda güvenilir LiDAR sensörüdür.",
@@ -5641,7 +5812,7 @@
           "endüstriyel sensör"
         ]
       }
-    },    
+    },
     {
       "id": 333,
       "name": "Benewake TF350",
@@ -5672,6 +5843,7 @@
         "155 mm x 95 mm x 75 mm boyutlarındadır.",
         "1.1 kg ağırlığında sağlam gövdeye sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tf350-endustriyel-sinif-uzun-menzilli-lidar-sensoru",
       "meta": {
         "title": "Benewake TF350 | Uzun Menzilli Endüstriyel LiDAR Sensörü",
         "description": "Benewake TF350, 350 m algılama mesafesi, 1 cm hassasiyet, IP67 koruma standardı ve UART/CAN/RS-485 bağlantı seçenekleriyle zorlu endüstriyel ortamlarda yüksek performans sunan uzun menzilli LiDAR sensörüdür.",
@@ -5727,6 +5899,7 @@
         "33 mm x 34 mm x 18 mm kompakt ölçülere sahiptir.",
         "20 gram ağırlığında ultra hafif tasarımıyla taşınabilirlik sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tfa1500-l-kilometre-seviyesinde-uzun-menzilli-lidar-sensoru",
       "meta": {
         "title": "Benewake TFA1500-L | Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
         "description": "Benewake TFA1500-L, 1500 m menzil, yüksek frekanslı tarama, kompakt tasarım, düşük güç tüketimi ve UART arayüzü ile endüstriyel ve mühendislik uygulamalarında üstün performans sağlayan uzun menzilli LiDAR sensörüdür.",
@@ -5753,7 +5926,7 @@
           "yüksek çözünürlük lidar"
         ]
       }
-    },    
+    },
     {
       "id": 335,
       "name": "Benewake TR Serise",
@@ -5779,6 +5952,7 @@
         "60 mm x 60 mm x 80 mm boyutlarındadır.",
         "Kompakt tasarımı sayesinde hafif yapıya sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-tr-serisibenewake-tr-serisi-endustriyel-kullanimlar-icin-2d-lidar-sensorleri",
       "meta": {
         "title": "Benewake TR Serise | Yüksek Performanslı 2D LiDAR Sensörleri",
         "description": "Benewake TR Serisi, 20 m ölçüm mesafesi, 0.225° açı çözünürlüğü, 360° tarama ve IP65 dayanıklılığı ile SLAM ve robotik uygulamalar için ideal yüksek performanslı 2D LiDAR sensör ailesidir.",
@@ -5831,6 +6005,7 @@
         "Zorlu saha koşulları için darbe ve titreşim testlerini başarıyla tamamlamıştır.",
         "Tuzlu ortamlarda bile uzun süre dayanıklı kalacak şekilde tasarlanmıştır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/benewake-horn-rt-rayli-sistemler-icin-uzun-menzilli-3d-lidar",
       "meta": {
         "title": "Benewake Horn-RT | Uzun Menzilli 3D LiDAR Sensörü",
         "description": "Benewake Horn-RT, 300 m ölçüm mesafesi, ayarlanabilir tarama açısı, IP67 koruma, lazer güvenlik standardı ve üstün çevresel dayanıklılık ile raylı sistemler ve endüstriyel uygulamalar için tasarlanmış yüksek performanslı 3D LiDAR sensörüdür.",
@@ -5857,7 +6032,7 @@
           "toza dayanıklı lidar"
         ]
       }
-    },    
+    },
     {
       "id": 337,
       "name": "Benewake TFA1200",
@@ -5883,6 +6058,7 @@
         "Sınıf 1 lazer güvenlik standardına uygundur, endüstriyel uygulamalarda yasal kullanıma hazırdır.",
         "Geniş alan izleme, otoyol trafik denetimi, çevre güvenliği ve İHA altimetresi gibi uygulamalarda idealdir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/tfa1200-uzun-menzilli-lidar-sensoru",
       "meta": {
         "title": "Benewake TFA1200 | Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
         "description": "Benewake TFA1200, 1200 m ölçüm mesafesi, 1550nm dalga boyu, yüksek hassasiyet ve güvenli lazer teknolojisi ile trafik ve çevre güvenliği uygulamaları için ideal uzun menzilli LiDAR sensörüdür.",
@@ -5933,6 +6109,7 @@
         "15 yıla kadar pil ömrü ile bakım gerektirmeden uzun süre çalışabilir.",
         "Her yönde monte edilebilir ve kalibrasyon gerektirmez."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-nano-triaxial-tilt-sensor-node-hassas-3-eksenli-egim-sensoru",
       "meta": {
         "title": "Senceive Nano Triaxial Tilt Sensor Node | Hassas ve Kompakt Eğilme Sensörü",
         "description": "Senceive Nano Triaxial Tilt Sensor Node, yüksek hassasiyet, IP68/IP69K koruma ve uzun pil ömrü ile tünel, köprü, bina ve demiryolu yapıları için ideal kompakt kablosuz eğilme sensörüdür.",
@@ -5959,7 +6136,7 @@
           "yapı sağlığı sensörü"
         ]
       }
-    },    
+    },
     {
       "id": 501,
       "name": "Senceive Triaxial Tilt Sensor Node",
@@ -5983,6 +6160,7 @@
         "Sıcaklık sensörü entegredir, çevresel etkilerle birlikte veri sağlar.",
         "FlatMesh™ ve GeoWAN™ kablosuz ağ protokolleriyle tam uyumludur."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-triaxial-tilt-sensor-node-uc-eksenli-egim-sensoru",
       "meta": {
         "title": "Senceive Triaxial Tilt Sensor Node | Üç Eksenli Kablosuz Eğilme Sensörü",
         "description": "Senceive Triaxial Tilt Sensor Node, yüksek hassasiyet, uzun batarya ömrü ve IP66/IP67/IP68 koruma ile tünel, yapı ve demiryolu hatları için ideal kablosuz üç eksenli eğim sensörüdür.",
@@ -6032,6 +6210,7 @@
         "Seviye ayarı gerektirmeden herhangi bir yönde monte edilebilir.",
         "Dış ortam koşullarına dayanıklı, bakım gerektirmeyen tasarım sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-tilt-beam-egim-profili-izleme-kolu",
       "meta": {
         "title": "Senceive Tilt Beam | Kablosuz Eğilme Işını",
         "description": "Senceive Tilt Beam, kablosuz eğilme sensörleri ile uyumlu, hafif ve dayanıklı alüminyum yapısıyla hızlı ve kolay kurulum imkanı sağlayan kablosuz eğilme ışınıdır.",
@@ -6058,7 +6237,7 @@
           "uzun yapı eğim ölçümü"
         ]
       }
-    },    
+    },
     {
       "id": 503,
       "name": "Senceive Optical Displacement Sensor Node",
@@ -6081,6 +6260,7 @@
         "FlatMesh™ ve GeoWAN™ kablosuz iletişim platformlarıyla uyumludur.",
         "5 ila 10 yıl arasında pil ömrü sunar (konfigürasyona göre)."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-optical-displacement-sensor-node-optik-yer-degisim-sensoru",
       "meta": {
         "title": "Senceive Optical Displacement Sensor Node | Yüksek Doğruluklu Yapı Hareket İzleme",
         "description": "Senceive Optical Displacement Sensor Node, yüksek hassasiyetli optik yer değiştirme ölçümü ile yapı ve altyapılardaki hareketleri kablosuz olarak izleyen, uzun pil ömürlü ve IP68 korumalı sensördür.",
@@ -6132,6 +6312,7 @@
         "NFC uyumluluğu sayesinde yerinde ayarlamalar yapılabilir.",
         "RS232, RS422, RS485, SDI-12, MODBUS ve CAN bağlantı protokollerini destekler."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-digital-interface-node-dijital-veri-toplayici-arayuz",
       "meta": {
         "title": "Senceive Digital Interface Node | Dijital Veri Toplama ve Otomasyon",
         "description": "Senceive Digital Interface Node, dijital çıkışlı sensörleri kablosuz ağ üzerinden entegre eden, IP66/IP67 korumalı, uzun pil ömürlü, uzaktan yönetilebilir dijital veri toplama ve otomasyon çözümüdür.",
@@ -6158,7 +6339,7 @@
           "veri toplama çözümü"
         ]
       }
-    },    
+    },
     {
       "id": 505,
       "name": "Senceive Crack Sensor Node",
@@ -6182,6 +6363,7 @@
         "Tek ve çift kanal seçenekleri mevcuttur.",
         "Kolay kurulum için çeşitli montaj aksesuarlarıyla birlikte gelir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-crack-sensor-node-catlak-ve-yapisal-hareket-izleme-cozumu",
       "meta": {
         "title": "Senceive Crack Sensor Node | Çatlak ve Yapısal Hareket İzleme",
         "description": "Senceive Crack Sensor Node, yüksek hassasiyetle yapı çatlakları ve genleşme derzi hareketlerini kablosuz olarak izleyen, IP66/IP68 korumalı, uzun pil ömürlü dayanıklı sensördür.",
@@ -6233,6 +6415,7 @@
         "Firmware, ağ geçidi üzerinden uzaktan güncellenebilir.",
         "Kolay kurulum için su geçirmez, sağlam konektörlere sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-vibrating-wire-sensor-node-titresim-telli-sensor-arayuzu",
       "meta": {
         "title": "Senceive Vibrating Wire Sensor Node | Titreşim Telli Sensör Entegrasyonu",
         "description": "Senceive Vibrating Wire Sensor Node, yüksek hassasiyetli titreşim telli sensörleri kablosuz izleme sistemine entegre eden, uzun pil ömürlü, dayanıklı ve uzaktan güncellenebilir arayüz çözümüdür.",
@@ -6259,7 +6442,7 @@
           "endüstriyel sensör arayüzü"
         ]
       }
-    },    
+    },
     {
       "id": 507,
       "name": "Senceive FlatMesh 4G Kamera",
@@ -6281,6 +6464,7 @@
         "Gece çekimleri için harici aydınlatıcıya ihtiyaç duymaz.",
         "Entegre sıcaklık sensörü ve batarya izleme özelliklerine sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-flatmesh-4g-kamera-uzaktan-goruntuleme-cozumu",
       "meta": {
         "title": "Senceive FlatMesh 4G Kamera | Uzaktan Görüntüleme Çözümü",
         "description": "Senceive FlatMesh 4G Kamera, güneş enerjili, yüksek çözünürlüklü ve hareketle tetiklenebilir kablosuz kamera sistemidir. Gece/gündüz net görüntü sağlar, entegre sıcaklık ve batarya izleme özellikleriyle sahada güvenilir kullanım sunar.",
@@ -6330,6 +6514,7 @@
         "Kendi içinde bağımsız çalışan sistemdir, ek güç veya iletişim altyapısı gerektirmez.",
         "Zorlu dış ortam koşullarında çalışabilecek şekilde IP66/IP68 korumalıdır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-infraguard-akilli-hareket-algilama-ve-goruntuleme-sistemi",
       "meta": {
         "title": "Senceive InfraGuard | Akıllı Hareket Algılama ve Görüntüleme Sistemi",
         "description": "Senceive InfraGuard, eğim sensörleriyle entegre çalışan, hareket algılamalı ve alarm verebilen, entegre 4G kameralı kablosuz izleme sistemidir. IP korumalı, bağımsız ve uzaktan yönetilebilir yapısıyla güvenilir altyapı gözetimi sağlar.",
@@ -6354,54 +6539,6 @@
           "sensor-alarm entegrasyonu",
           "otomatik uyarı gönderme",
           "akıllı gözetim sistemi"
-        ]
-      }
-    },    
-    {
-      "id": 509,
-      "name": "Senceive FlatMesh 3G Ağ Geçidi",
-      "title": "FlatMesh 3G Ağ Geçidi – Uzaktan Kablosuz Ağ Yönetimi",
-      "description": "Senceive FlatMesh 3G Ağ Geçidi, uzak bölgelerde FlatMesh kablosuz sensör ağlarının yönetimi ve veri iletimi için entegre bir çözümdür. Hücresel ağ üzerinden WebMonitor yazılımına bağlanarak, sabit IP adresine ihtiyaç duymadan veri aktarımı sağlar.",
-      "images": [
-        "/marka-photos/senceive/flatmesh-3g-gateway-0.png",
-        "/marka-photos/senceive/flatmesh-3g-gateway-1.png"
-      ],
-      "category": "veri-iletisim",
-      "brand": "senceive",
-      "type": "flatmesh-3g-ag-gecidi",
-      "typeTitle": "Veri İletişim Cihazları",
-      "technology": ["flatmesh"],
-      "specs": [
-        "Beş bantlı UMTS/HSPA+ ve dört bantlı GSM/GPRS/EDGE modem içerir.",
-        "Sabit IP gerekmeden 3G bağlantısı ile uzaktan erişim sağlar.",
-        "Dahili lityum iyon pil ve entegre güneş paneli şarj devresi mevcuttur.",
-        "Tam dolu batarya ile 3 haftaya kadar kesintisiz çalışma sağlar.",
-        "Su geçirmez bağlantı noktaları ile dış ortam kullanımına uygundur.",
-        "Mikro USB bağlantısı ile yerinde veri okuma ve yapılandırma yapılabilir.",
-        "Firmware güncellemeleri kablosuz olarak yapılabilir.",
-        "Geniş sıcaklık aralığına uygun batarya opsiyonları ile esneklik sunar."
-      ],
-      "meta": {
-        "title": "Senceive FlatMesh 3G Ağ Geçidi | Uzaktan Kablosuz Ağ Yönetimi",
-        "description": "Senceive FlatMesh 3G Ağ Geçidi, hücresel bağlantı ile uzak bölgelerde FlatMesh sensör ağlarını yönetmek için geliştirilmiş, sabit IP adresi gerektirmeyen, güneş enerjisi destekli ve uzun batarya ömrüne sahip güvenilir ağ geçididir.",
-        "keywords": [
-          "Senceive FlatMesh 3G Ağ Geçidi",
-          "kablosuz ağ yönetimi",
-          "sensör ağı yönetimi",
-          "3G bağlantı",
-          "uzaktan erişim",
-          "güneş enerjili ağ geçidi",
-          "WebMonitor uyumlu",
-          "dış ortam dayanıklılığı",
-          "IP koruma sınıfı",
-          "uzun batarya ömrü",
-          "firmware güncelleme",
-          "mikro USB",
-          "UMTS HSPA+ modem",
-          "GSM GPRS EDGE modem",
-          "entegre güneş paneli",
-          "veri iletimi",
-          "kablosuz ağ cihazı"
         ]
       }
     },
@@ -6429,6 +6566,7 @@
         "Saha güncellemeleri için firmware OTA desteği sunar.",
         "Zorlu çevresel koşullarda çalışmaya uygun IP67 koruma sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-flatmesh-4g-ag-gecidi-uzaktan-kablosuz-ag-yonetimi",
       "meta": {
         "title": "Senceive FlatMesh 4G Ağ Geçidi | Gelişmiş Uzaktan Kablosuz Ağ Yönetimi",
         "description": "Senceive FlatMesh 4G Ağ Geçidi, LTE bağlantısı ile uzak bölgelerde hızlı, güvenli ve kesintisiz veri aktarımı sağlayan, güneş enerjisi destekli, IP67 korumalı gelişmiş kablosuz ağ geçididir.",
@@ -6451,7 +6589,7 @@
           "solar şarj devresi"
         ]
       }
-    },    
+    },
     {
       "id": 511,
       "name": "Senceive FlatMesh RS232 Ağ Geçidi",
@@ -6475,6 +6613,7 @@
         "USB güç girişi üzerinden çalıştırılabilir.",
         "Seri bağlantı noktasından doğrudan yapılandırılabilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-flatmesh-rs232-ag-gecidi-pc-tabanli-kablosuz-ag-yonetimi",
       "meta": {
         "title": "Senceive FlatMesh RS232 Ağ Geçidi | PC Tabanlı Kablosuz Ağ Yönetimi",
         "description": "Senceive FlatMesh RS232 Ağ Geçidi, internet olmadan bilgisayar üzerinden FlatMesh sensör ağı yönetimi ve veri kaydı için ideal, endüstriyel dayanıklılığa sahip kompakt ağ geçididir.",
@@ -6522,6 +6661,7 @@
         "Endüstriyel dayanıklılığa sahip konektörler kullanır.",
         "Seri port üzerinden yapılandırma imkanı sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-flatmesh-usb-ag-gecidi-pc-tabanli-kablosuz-ag-yonetimi",
       "meta": {
         "title": "Senceive FlatMesh USB Ağ Geçidi | PC Tabanlı Kablosuz Ağ Yönetimi",
         "description": "Senceive FlatMesh USB Ağ Geçidi, bilgisayar üzerinden USB bağlantısıyla FlatMesh sensör ağını yönetmek ve veri kaydı almak için kompakt, dayanıklı ve kolay kullanılabilen ağ geçididir.",
@@ -6545,7 +6685,7 @@
           "lokal ağ yönetimi"
         ]
       }
-    },    
+    },
     {
       "id": 513,
       "name": "Senceive GeoWAN 4G Ağ Geçidi",
@@ -6569,6 +6709,7 @@
         "Yedekleme ve tampon belleği ile veri güvenliği sağlar.",
         "IP67 muhafaza ile dış ortamlarda güvenli kullanım sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-geowan-4g-ag-gecidi-dusuk-guc-genis-alan-kablosuz-erisim",
       "meta": {
         "title": "Senceive GeoWAN 4G Ağ Geçidi | Düşük Güçlü Geniş Alan Kablosuz Ağ Erişimi",
         "description": "Senceive GeoWAN 4G Ağ Geçidi, düşük enerji tüketimli GeoWAN protokolü ile geniş alanlarda güvenilir kablosuz sensör veri iletimi sağlar. IP67 korumalı, solar destekli, yüksek performanslı ağ geçididir.",
@@ -6615,6 +6756,7 @@
         "LoRaWAN protokolüyle uyumlu olup, mevcut IoT ağlarına kolay entegrasyon sağlar.",
         "Zorlu çevre koşullarına dayanıklı, sağlam ve güvenilir tasarıma sahiptir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-geowan-uydu-iletisim-sistemi-uzak-bolgeler-icin-sensor-cozumu",
       "meta": {
         "title": "Senceive GeoWAN Uydu İletişim Sistemi | Uzak Bölgeler İçin Kablosuz Sensör Ağı",
         "description": "Senceive GeoWAN Uydu İletişim Sistemi, hücresel olmayan bölgelerde uydu üzerinden kablosuz sensör ağı iletişimi sağlar. Geniş kapsama, düşük güç tüketimi ve güvenilir veri aktarımı sunar.",
@@ -6637,7 +6779,7 @@
           "uzaktan izleme sistemi"
         ]
       }
-    },    
+    },
     {
       "id": 515,
       "name": "Senceive Veri Yönetim Sistemi (senceive.io)",
@@ -6661,6 +6803,7 @@
         "Kapsamlı sistem logları ile tam izlenebilirlik sunar.",
         "Kendi yazılım altyapınıza entegre etmek için API desteği sağlar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-senceiveio-cihaz-yonetimi-ve-veri-yonlendirme-platformu",
       "meta": {
         "title": "Senceive.io | Cihaz Yönetimi ve Veri Yönlendirme Platformu",
         "description": "Senceive.io, bulut tabanlı, güvenli cihaz yönetimi ve veri yönlendirme platformudur. WebMonitor ve özel yazılımlarınıza entegrasyon sağlar, gerçek zamanlı takip ve kapsamlı loglama özellikleri sunar.",
@@ -6707,6 +6850,7 @@
         "Mobil uyumlu arayüz ile her cihazdan erişim sağlar.",
         "Gelişmiş veri filtreleme ve dışa aktarma seçenekleri sunar."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/senceive-webmonitor-web-tabanli-veri-gorsellestirme-platformu",
       "meta": {
         "title": "WebMonitor | Web Tabanlı Veri Görselleştirme Platformu",
         "description": "WebMonitor, Senceive sensör verilerini gerçek zamanlı görselleştiren, kapsamlı analiz ve alarm yönetimi sunan web tabanlı güçlü bir platformdur. Mobil uyumlu ve kullanıcı dostudur.",
@@ -6728,9 +6872,390 @@
           "Senceive yazılım çözümleri"
         ]
       }
-    },    
+    },
     {
       "id": 600,
+      "name": "GS-100C+ LiDAR Tarama Sistemi",
+      "title": "GS-100C+ – Uçuş Tabanlı Giriş Seviyesi LiDAR Tarama Sistemi",
+      "description": "GS-100C+, Geosun tarafından geliştirilen, kısa menzilli hava tabanlı LiDAR tarama çözümüdür. Livox Avia lazer tarayıcı, yüksek hassasiyetli IMU ve entegre RGB kamera içerir. Uygun maliyetli yapısı, taşınabilirliği ve yüksek nokta yoğunluklu veri üretimiyle genel haritalama, enerji hattı izleme, madencilik ve şehir modelleme gibi birçok sektörde kullanılır.",
+      "images": [
+        "/marka-photos/geosun/gs-100c-0.png",
+        "/marka-photos/geosun/gs-100c-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "giris-seviyesi-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Giriş/Orta Seviye LiDAR Çözümü",
+      "specs": [
+        "Yalnızca 1 kg ağırlığa sahip olan sistem, multi-rotor ve VTOL platformlarda rahatlıkla taşınabilir yapıdadır.",
+        "720.000 nokta/sn üretim kapasitesi ile yüksek yoğunluklu ve detaylı nokta bulutu oluşturur.",
+        "Triple Echo desteği sayesinde yoğun bitki örtüsü altında bile zemine ulaşarak hassas veri toplar.",
+        "±2 cm menzil doğruluğu ve 0.015° eğim hassasiyeti ile hassas arazi modelleme sağlar.",
+        "Dahili 26 MP RGB kamera sayesinde lazer verileriyle eş zamanlı yüksek çözünürlüklü görsel kayıt yapılabilir.",
+        "64-beam eşdeğeri tarama kabiliyeti ve 70° geniş görüş açısı ile büyük alanlarda etkili veri toplama imkanı sunar.",
+        "Tek uçuşta 1.92 km²’ye kadar haritalama yapılabilir, böylece operasyonel verimlilik maksimize edilir.",
+        "WayPoint Master yazılımı ile özel görev rotaları oluşturularak otonom uçuş planlaması kolaylaştırılır.",
+        "0.020 m yatay ve 0.030 m düşey doğruluk seviyeleriyle hassas topografik analizler gerçekleştirilebilir.",
+        "20W düşük güç tüketimiyle uzun süreli saha kullanımı için enerji verimliliği sağlar.",
+        "Çalışma sıcaklık aralığı -20°C ile +55°C arasında olup zorlu çevre koşullarına dayanıklıdır.",
+        "64 GB dahili hafıza ve 128 GB TF kart desteği ile yüksek hacimli veri depolama kapasitesi sunar.",
+        "GNSS sistemleri GPS, GLONASS, GALILEO ve BeiDou ile çoklu uydu desteği sayesinde güvenilir konumlama sağlar."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-100c-ucus-tabanli-giris-seviyesi-lidar-tarama-sistemi",
+      "meta": {
+        "title": "GS-100C+ LiDAR | Uçuş Tabanlı Giriş Seviyesi Tarama Çözümü",
+        "description": "GS-100C+, Geosun tarafından geliştirilen, Livox Avia tarayıcı, RGB kamera ve IMU entegreli, 720.000 pts/sn hızında çalışan giriş seviyesi LiDAR çözümüdür. Uygun maliyetli, hafif ve yüksek hassasiyetlidir.",
+        "keywords": [
+          "GS-100C+ LiDAR",
+          "Geosun lidar sistemi",
+          "uçuş tabanlı lidar",
+          "rgb entegre lidar",
+          "yüksek yoğunluklu nokta bulutu",
+          "triple echo lidar",
+          "madencilik lidar tarayıcı",
+          "smart city lidar",
+          "uygun maliyetli lidar çözümü",
+          "gps destekli lidar",
+          "yüksek doğruluk lidar",
+          "multi rotor lidar çözümü",
+          "uçan lidar sensörü"
+        ]
+      }
+    },
+    {
+      "id": 601,
+      "name": "GS-100G El Tipi SLAM LiDAR Tarama Sistemi",
+      "title": "GS-100G – Taşınabilir SLAM Destekli Lidar Tarama Sistemi",
+      "description": "GS-100G, Geosun tarafından geliştirilen, iç ve dış mekânlarda kullanılabilen, SLAM algoritması destekli taşınabilir bir LiDAR tarama çözümüdür. Ergonomik yapısı, hassasiyet seviyesi ve gerçek zamanlı görüntüleme yetenekleri ile mimari ölçüm, tünel tarama, şehir parkı analizi gibi birçok uygulama alanında güvenilir ve yüksek performanslı veri üretimi sağlar.",
+      "images": [
+        "/marka-photos/geosun/gs-100g-0.png",
+        "/marka-photos/geosun/gs-100g-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "el-tipi-lidar",
+      "typeTitle": "El Tipi SLAM LiDAR Çözümü",
+      "specs": [
+        "SLAM, RTK-SLAM ve PPK-SLAM algoritmaları ile iç ve dış mekânlarda eş zamanlı konumsal tarama yapılabilir.",
+        "Centimetre düzeyinde (≤5 cm) doğruluk ile hassas 3D modelleme sağlar.",
+        "2.2 kg ağırlığında olan yapı, el ile taşınabilir ve sırt çantası konfigürasyonları ile sahada pratik kullanım sunar.",
+        "GNSS (GPS, GLONASS, GALILEO, BDS) destekli yüksek konum doğruluğu sağlar.",
+        "gSpin 210 IMU ve 200Hz veri güncelleme hızı sayesinde yüksek kararlılıkla yönelim bilgisi üretir.",
+        "16 kanallı lazer tarayıcı, 640.000 nokta/saniye veri üretimi ile detaylı tarama sağlar.",
+        "120 m menzil ve ±1.5 cm mesafe hassasiyeti ile geniş kapsamlı alan analizleri yapılabilir.",
+        "3 adet 5 MP kamera ile görsel destekli veri kaydı ve sonradan işlenebilir modelleme verisi üretilir.",
+        "270° yatay ve 360° dikey görüş açısı ile kör noktasız çevresel tarama yapılabilir.",
+        "128 GB dahili depolama alanı ve 2 saatlik kesintisiz pil ömrü ile sahada uzun süreli tarama imkânı sunar.",
+        "Gelişmiş nokta bulutu sınıflandırma ve işleme yazılımı ile post-processing süreci optimize edilmiştir.",
+        "Android tabanlı uygulama ile gerçek zamanlı veri izleme, sistem kontrolü ve kullanım kolaylığı sağlar.",
+        "Çalışma sıcaklığı -20°C ila +55°C aralığındadır; zorlu saha koşullarına uygundur."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-100g-tasinabilir-slam-destekli-lidar-tarama-sistemi",
+      "meta": {
+        "title": "GS-100G El Tipi SLAM LiDAR | Taşınabilir Lidar Haritalama Sistemi",
+        "description": "GS-100G, el tipi, SLAM destekli LiDAR tarama sistemi olup GNSS ve IMU destekli yapısı sayesinde yüksek doğrulukta 3D modelleme sağlar. Hafif, taşınabilir ve gerçek zamanlı görüntüleme sunar.",
+        "keywords": [
+          "GS-100G LiDAR",
+          "el tipi lidar",
+          "taşınabilir lidar tarayıcı",
+          "slam lidar sistemi",
+          "yüksek doğruluk lidar",
+          "geosun handheld lidar",
+          "gerçek zamanlı lidar uygulaması",
+          "centimetre hassasiyetli lidar",
+          "android destekli lidar",
+          "3d modelleme lidar",
+          "tünel tarama lidar",
+          "şehir parkı lidar çözümü",
+          "GNSS destekli lidar"
+        ]
+      }
+    },
+    {
+      "id": 602,
+      "name": "GS-130X LiDAR Tarama Sistemi",
+      "title": "GS-130X – Yüksek Penetrasyon ve Hassasiyetli LiDAR Çözümü",
+      "description": "GS-130X, Geosun tarafından geliştirilen yüksek hassasiyetli bir LiDAR sistemidir. 360° görüş açısı, 1.280.000 nokta/sn üretimi ve çoklu platform uyumluluğu ile haritalama, enerji hatları denetimi, kültürel miras belgeleme ve zorlu arazi analizlerinde etkin çözümler sunar.",
+      "images": [
+        "/marka-photos/geosun/gs-130x-0.png",
+        "/marka-photos/geosun/gs-130x-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "profesyonel-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Profesyonel LiDAR Çözümü",
+      "specs": [
+        "Araç, VTOL ve multi-rotor drone'larla uyumlu kompakt yapısı sayesinde çoklu platformlarda kullanılabilir.",
+        "0.03° x 0.03° ışın açıklığı sayesinde yoğun bitki örtüsünde güçlü veri penetrasyonu sağlar.",
+        "1.280.000 nokta/sn üretim kapasitesiyle yüksek yoğunluklu ve detaylı nokta bulutu verisi üretir.",
+        "360° yatay görüş açısı ile çevresel bütünlükte kör noktasız veri toplama imkânı sunar.",
+        "26 MP çözünürlüğündeki kamera ile renkli nokta bulutu ve görsel kayıt entegrasyonu yapılabilir.",
+        "80 m menzil ve ±1 cm mesafe hassasiyeti ile topoğrafik haritalama ve mimari dokümantasyon sağlar.",
+        "0.05 m konum hassasiyeti ve 0.015° yönelme doğruluğu ile yüksek çözünürlüklü 3D modelleme yapılabilir.",
+        "64 GB dahili hafıza, 256 GB TF kart desteği ve 20W düşük enerji tüketimi ile uzun süreli görevlerde güvenilir performans sunar.",
+        "Zorlu hava koşullarında kullanılmak üzere -20°C ila +55°C çalışma sıcaklığına dayanıklıdır.",
+        "WayPoint Master desteği ile görev planlaması özelleştirilebilir; operasyonel verimlilik artırılır.",
+        "50 m yükseklikten uçuşta 228 pts/m² yoğunlukta veri üretimi ve tek uçuşta 1 km² alan taraması yapılabilir.",
+        "Hem hava hem de kara tabanlı haritalama projeleri için entegre GNSS, IMU ve POS sistemlerine sahiptir."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-130x-yuksek-penetrasyon-ve-hassasiyetli-lidar-cozumu",
+      "meta": {
+        "title": "GS-130X LiDAR | Yüksek Penetrasyonlu ve Hassasiyetli LiDAR Tarayıcı",
+        "description": "GS-130X, 1.28 milyon nokta/sn üretimi, 360° görüş açısı ve çoklu platform desteği ile topoğrafik haritalama, enerji hattı denetimi ve kültürel miras belgelenmesi için yüksek doğruluklu LiDAR çözümüdür.",
+        "keywords": [
+          "GS-130X LiDAR",
+          "Geosun lidar çözümü",
+          "yüksek hassasiyet lidar",
+          "yüksek penetrasyon lidar",
+          "multi-platform lidar",
+          "360 derece lidar tarayıcı",
+          "nokta bulutu lidar",
+          "kültürel miras lidar",
+          "topoğrafik lidar haritalama",
+          "enerji hattı lidar çözümü",
+          "rgb kamera entegre lidar",
+          "gspin lidar sistemi"
+        ]
+      }
+    },
+    {
+      "id": 603,
+      "name": "GS-260H LiDAR Tarama Sistemi",
+      "title": "GS-260H – Orta Menzilli, Yüksek Hızlı LiDAR Tarama Çözümü",
+      "description": "GS-260H, Geosun tarafından geliştirilen ve 300 metre menzile kadar destek sunan orta menzilli bir LiDAR tarama sistemidir. 3 yansıma (triple echo) desteği, 1.920.000 nokta/sn üretimi ve 26 MP kamera ile senkronize görüntü alma özellikleri sayesinde topoğrafik analiz, ormancılık, enerji hattı denetimi ve şehir planlamasında güçlü bir çözüm sunar.",
+      "images": [
+        "/marka-photos/geosun/gs-260h-0.png",
+        "/marka-photos/geosun/gs-260h-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "giris-seviyesi-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Giriş/Orta Seviye LiDAR Çözümü",
+      "specs": [
+        "300 metreye kadar menzil desteği ile büyük alanlarda etkili tarama imkanı sunar.",
+        "Triple echo teknolojisi sayesinde karmaşık yüzeylerde ve bitki örtüsünde detaylı veri toplar.",
+        "1.920.000 nokta/sn tarama kapasitesi ile yüksek yoğunluklu nokta bulutu verisi üretir.",
+        "26 MP çözünürlüklü entegre kamera ile renkli nokta bulutu ve görüntü destekli analiz yapılabilir.",
+        "64 GB dahili hafıza ve 128 GB TF kart desteği ile geniş veri kayıt kapasitesi sağlar.",
+        "1.1 kg ağırlığı ve 14.4 × 10.9 × 12 cm kompakt boyutları ile drone ve kara aracı entegrasyonuna uygundur.",
+        "±0.5 cm menzil hassasiyeti ve 0.015° açısal doğruluk ile milimetre seviyesinde analiz imkanı sunar.",
+        "GNSS sistemleri (GPS, GLONASS, GALILEO, BDS) ve gSpin 210 IMU ile yüksek konum doğruluğu sağlar.",
+        "360° x 40.3° görüş açısı ile çevresel bütünlükte tam alan taraması yapılabilir.",
+        "20W düşük enerji tüketimiyle mobil platformlarda enerji verimliliği sağlar.",
+        "Çalışma sıcaklığı -20°C ile +55°C arasında olup zorlu dış koşullarda güvenilirlik sunar.",
+        "Haritalama, ormancılık, şehir planlama ve enerji hat denetimi gibi çoklu alanlarda yaygın olarak kullanılır."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-260h-orta-menzilli-yuksek-hizli-lidar-tarama-cozumu",
+      "meta": {
+        "title": "GS-260H LiDAR | 300 Metre Menzilli, Triple Echo Destekli LiDAR Tarayıcı",
+        "description": "GS-260H, 1.920.000 nokta/sn üretimi, triple echo desteği, entegre RGB kamera ve 300 m menzili ile orta ölçekli hava ve kara tabanlı LiDAR uygulamaları için ideal bir çözümdür.",
+        "keywords": [
+          "GS-260H LiDAR",
+          "Geosun lidar sistemi",
+          "triple echo lidar",
+          "orta menzilli lidar",
+          "rgb entegre lidar",
+          "şehir planlama lidar",
+          "drone lidar çözümü",
+          "1.92m nokta/sn lidar",
+          "ormancılık lidar tarayıcı",
+          "multi-platform lidar",
+          "gspin imu destekli lidar",
+          "hassas lidar çözümü",
+          "enerji hattı lidar"
+        ]
+      }
+    },
+    {
+      "id": 604,
+      "name": "GS-260X LiDAR Tarama Sistemi",
+      "title": "GS-260X – Profesyonel Seviye UAV LiDAR Tarama Çözümü",
+      "description": "GS-260X, 1.1 kg ağırlığında, 300 metre menzilli ve 1.92 milyon nokta/sn üretim kapasitesine sahip profesyonel seviye bir UAV LiDAR sistemidir. Triple echo desteği ve yüksek penetrasyon kabiliyeti ile zorlu doğa koşullarında dahi etkili tarama sağlar. Harita üretimi, ormancılık, şehir modelleme ve altyapı projelerinde üstün performans sunar.",
+      "images": [
+        "/marka-photos/geosun/gs-260x-0.png",
+        "/marka-photos/geosun/gs-260x-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "profesyonel-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Profesyonel LiDAR Çözümü",
+      "specs": [
+        "1.1 kg hafifliği ile taşıması kolay ve çoklu platformlarda (multi-rotor, VTOL, araç) kullanılabilir yapıdadır.",
+        "300 metreye kadar maksimum menzil ile geniş alanlarda etkili ve kapsamlı veri toplama sağlar.",
+        "Triple echo desteği sayesinde yoğun bitki örtüsünde zemin noktalarını başarıyla yakalayarak tam tarama sağlar.",
+        "1.920.000 nokta/sn tarama hızı ile yüksek çözünürlükte, yoğun ve doğru nokta bulutu üretir.",
+        "360° yatay ve 40.3° dikey görüş açısı ile çevresel bütünlükte detaylı veri elde edilir.",
+        "0.020 m yatay ve 0.030 m dikey konum doğruluğu ile harita, arazi modeli ve mühendislik analizlerinde güvenilirlik sağlar.",
+        "0.005° pitch/roll ve 0.017° heading doğruluğu ile yönelim hassasiyeti üst düzeydedir.",
+        "gSpin 310 IMU ve 200 Hz güncelleme frekansı ile hızlı ve stabil veri üretimi sağlar.",
+        "26 MP kamera ve 16 mm odak uzaklığı sayesinde senkronize görüntü ve nokta bulutu kaydı yapılabilir.",
+        "50–150 m uçuş yüksekliklerinde sırasıyla 1 – 2.5 km² arası alan taraması sağlanabilir.",
+        "64 GB dahili hafıza ve 128 GB TF kart desteği ile geniş veri saklama kapasitesi sunar.",
+        "Çalışma sıcaklığı -20°C ile +55°C arasında olup zorlu dış ortam koşullarına uygundur.",
+        "WayPoint Master yazılımı ile rota planlaması yapılabilir; gelişmiş sınıflandırma yazılımı ile post-processing süreci desteklenir."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-260x-profesyonel-seviye-uav-lidar-tarama-cozumu",
+      "meta": {
+        "title": "GS-260X LiDAR | 1.92M Nokta/Sn Triple Echo UAV Lidar Sistemi",
+        "description": "GS-260X, 1.1 kg hafif yapısı, 300 metre menzili, 360° görüş açısı ve triple echo destekli lazer taraması ile profesyonel LiDAR uygulamaları için geliştirilen yüksek hassasiyetli bir sistemdir.",
+        "keywords": [
+          "GS-260X LiDAR",
+          "Geosun lidar",
+          "profesyonel lidar çözümü",
+          "drone lidar",
+          "1.92 milyon nokta lidar",
+          "triple echo lidar",
+          "gspin 310 imu lidar",
+          "yüksek doğruluk lidar",
+          "rgb kamera entegre lidar",
+          "360 derece lidar tarayıcı",
+          "şehir planlama lidar",
+          "köprü tarama lidar",
+          "otoyol lidar tarayıcı"
+        ]
+      }
+    },
+    {
+      "id": 605,
+      "name": "GS-960 LiDAR Tarama Sistemi",
+      "title": "GS-960 – Uzun Menzilli ve Yüksek Penetrasyonlu UAV LiDAR Çözümü",
+      "description": "GS-960, Geosun tarafından geliştirilen uzun menzilli ve yüksek hassasiyetli bir UAV LiDAR sistemidir. 750 metreye kadar menzili, 45 MP fotogrametrik kamerası, güçlü IMU sistemi ve 0.5 cm hassasiyeti ile topoğrafik haritalama, ormanlık alan analizi, acil durum haritalama ve su kaynakları yönetiminde profesyonel çözümler sunar.",
+      "images": [
+        "/marka-photos/geosun/gs-960-.png",
+        "/marka-photos/geosun/gs-960-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "profesyonel-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Profesyonel LiDAR Çözümü",
+      "specs": [
+        "750 metreye kadar tarama menzili ile geniş ölçekli ve yüksek irtifa görevlerinde kullanılabilir.",
+        "1.6 kg ağırlığıyla taşıması kolay ve çok rotorlu dronlar ile uyumlu yapıdadır (DJI M300/M350).",
+        "45 MP fotogrametrik kamera ile nokta bulutu verisine entegre renkli görsel destek sağlar.",
+        "0.020 m yatay ve 0.030 m dikey konum hassasiyeti ile milimetre düzeyinde doğruluk sunar.",
+        "0.005° pitch ve roll, 0.017° heading hassasiyetine sahip gSpin 310 IMU ile yönelme kararlılığı yüksektir.",
+        "1535 nm dalga boyunda, sınıf 1 lazer ile göz güvenliğinde yüksek performanslı veri üretimi yapılır.",
+        "0.001° açısal çözünürlük ile detaylı ve yoğun modelleme imkanı sağlar.",
+        "Saniyede 300 tarama çizgisi ve 550 kHz’e kadar değişken frekansla yüksek çözünürlükte veri elde edilir.",
+        "Sınırsız sayıda yansıma (echo) kaydı alabilir, bu sayede karmaşık yüzeylerde derinlikli veri sağlar.",
+        "21.7 x 9 x 9.9 cm boyutları ve özel DJI SkyPort arayüzü ile kolay entegrasyon sunar.",
+        "64 GB dahili hafıza ve 128 GB TF kart desteği ile uzun süreli görevlerde yüksek veri kapasitesi sunar.",
+        "WayPoint Master ile rota planlaması yapılabilir, gelişmiş yazılımlar ile post-processing süreçleri desteklenir.",
+        "Çalışma sıcaklığı -20°C ila +55°C arasında olup zorlu hava koşullarında güvenle kullanılabilir."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-960-uzun-menzilli-ve-yuksek-penetrasyonlu-uav-lidar-cozumu",
+      "meta": {
+        "title": "GS-960 LiDAR | 750 m Menzilli, 45 MP Kameralı Profesyonel UAV LiDAR Sistemi",
+        "description": "GS-960, 750 m menzil, sınırsız yansıma, 45 MP kamera ve yüksek hassasiyetli IMU ile UAV tabanlı profesyonel LiDAR görevleri için ideal bir çözüm sunar.",
+        "keywords": [
+          "GS-960 LiDAR",
+          "Geosun uzun menzilli lidar",
+          "750 metre lidar tarayıcı",
+          "djı uyumlu lidar çözümü",
+          "profesyonel drone lidar",
+          "fotogrametrik kamera lidar",
+          "su yönetimi lidar",
+          "orman haritalama lidar",
+          "acil durum lidar",
+          "high resolution lidar mapping",
+          "triple echo lidar",
+          "gspin 310 lidar imu"
+        ]
+      }
+    },
+    {
+      "id": 606,
+      "name": "GS-1500N LiDAR Tarama Sistemi",
+      "title": "GS-1500N – Tek Işınlı, Yüksek Menzilli UAV LiDAR Çözümü",
+      "description": "GS-1500N, Geosun tarafından geliştirilen, uzun menzilli tek ışınlı bir LiDAR çözümüdür. GNSS ve INS sistemleriyle entegre çalışan bu sistem, 1500 metre menzil, 5 yansıma desteği ve 2 milyon pts/sn tarama hızı ile hassas veri elde etmeyi mümkün kılar. Zorlu topoğrafik koşullarda ve yüksek irtifa haritalama projelerinde kullanılır.",
+      "images": [
+        "/marka-photos/geosun/gs-1500n-.png",
+        "/marka-photos/geosun/gs-1500n-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "profesyonel-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Profesyonel LiDAR Çözümü",
+      "specs": [
+        "1500 metre menzili sayesinde büyük ölçekli alanlarda uzun menzilli tarama yapabilir.",
+        "2.5 kg ağırlığı ve 23.8 x 10.2 x 13 cm kompakt boyutları ile hava platformları için uygundur.",
+        "2 milyon nokta/sn üretim kapasitesi ile yüksek çözünürlüklü 3D modelleme sağlar.",
+        "GNSS+INS destekli pozisyonlandırma ile 0.02 m yatay, 0.03 m dikey konum doğruluğu sunar.",
+        "Pitch ve roll için 0.005°, heading için 0.017° açısal doğruluk sağlar.",
+        "5 yansıma (echo) desteğiyle karmaşık yüzeylerde güçlü veri penetrasyonu sunar.",
+        "45 MP kamera ve 18/40 mm odak uzaklığı ile görsel veri ile lazer verisi senkronize edilebilir.",
+        "75W güç tüketimiyle uzun süreli görevlerde stabil çalışır.",
+        "WayPoint Master ile rota planlaması yapılabilir; sınıflandırma ve post-process yazılımları desteklidir.",
+        "128 GB veri kapasitesi ile büyük görevlerde yüksek hacimli veri toplanabilir.",
+        "Çalışma sıcaklığı -20°C ila +55°C aralığındadır; dış ortam koşullarına dayanıklıdır."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-1500n-tek-isinli-yuksek-menzilli-uav-lidar-cozumu",
+      "meta": {
+        "title": "GS-1500N LiDAR | 1500 Metre Menzilli, 5 Echo Destekli UAV LiDAR",
+        "description": "GS-1500N, Geosun’un 5 yansıma destekli, tek ışınlı ve yüksek doğrulukta çalışan uzun menzilli UAV LiDAR çözümüdür. Haritalama, enerji ve şehir altyapı uygulamaları için idealdir.",
+        "keywords": [
+          "GS-1500N LiDAR",
+          "tek ışınlı lidar",
+          "uzun menzilli lidar",
+          "profesyonel lidar çözümü",
+          "djı uyumlu lidar",
+          "ins destekli lidar",
+          "yüksek irtifa lidar",
+          "5 echo lidar",
+          "haritalama lidar sistemi",
+          "geosun hava lidar",
+          "45 mp kamera lidar"
+        ]
+      }
+    },
+    {
+      "id": 607,
+      "name": "GS-2000N LiDAR Tarama Sistemi",
+      "title": "GS-2000N – 2000 Metre Menzilli, Yüksek Yoğunluklu UAV LiDAR Sistemi",
+      "description": "GS-2000N, Geosun’un yüksek doğruluklu, 2000 metre menzilli profesyonel UAV LiDAR çözümüdür. 7 yansıma, 2 milyon pts/sn üretim, 256 GB hafıza, 45 MP tam kare kamera ve gelişmiş GNSS/IMU sistemleri ile çok geniş alanlarda hassas, yoğun ve kapsamlı 3D veri üretimi sağlar.",
+      "images": [
+        "/marka-photos/geosun/gs-2000n-.png",
+        "/marka-photos/geosun/gs-2000n-0.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "profesyonel-uav-lidar",
+      "typeTitle": "Uçuş Tabanlı Profesyonel LiDAR Çözümü",
+      "specs": [
+        "2000 m menzil ile çok geniş alanları tek uçuşta haritalayabilir.",
+        "2 milyon nokta/sn üretim hızıyla yüksek yoğunluklu 3D nokta bulutu verisi sağlar.",
+        "7 yansıma (echo) özelliğiyle çok katmanlı yüzeylerde detaylı veri üretir.",
+        "45 MP full-frame kamera ile lazer verilerine entegre renkli görüntü sağlanır.",
+        "3.3 kg ağırlığı ve 25.4 x 13.3 x 12.5 cm boyutları ile güçlü taşıyıcı dronlar için uygundur.",
+        "gSpin 410 IMU ile 0.003° pitch/roll ve 0.010° heading hassasiyeti sunar.",
+        "0.001° açısal çözünürlük ve 75° lazer görüş açısı ile yüksek detaylı tarama sağlar.",
+        "Çalışma sıcaklığı -20°C ila +55°C arasında olup zorlu çevresel koşullarda çalışabilir.",
+        "256 GB veri depolama kapasitesi uzun uçuşlarda büyük veri setlerinin toplanmasını sağlar.",
+        "WayPoint Master rota planlaması ve gelişmiş sınıflandırma yazılımı ile desteklenmektedir.",
+        "10 cm@600m doğruluk ile yüksek irtifa görevlerinde güvenilirlik sağlar.",
+        "200–600 m arası uçuşlarda 2.8 – 8.4 km² tek uçuş alanı kapsama potansiyeline sahiptir."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-2000n-2000-metre-menzilli-yuksek-yogunluklu-uav-lidar-sistemi",
+      "meta": {
+        "title": "GS-2000N LiDAR | 2 Km Menzilli, 7 Echo UAV Lidar Çözümü",
+        "description": "GS-2000N, 2000 m menzil, 7 echo, 2M pts/sn hız ve tam kare kamera ile geniş alan haritalama uygulamaları için ideal profesyonel bir LiDAR çözümüdür.",
+        "keywords": [
+          "GS-2000N LiDAR",
+          "geosun lidar",
+          "2 km menzilli lidar",
+          "profesyonel drone lidar",
+          "yüksek yoğunluk lidar",
+          "gnss imu lidar",
+          "multi echo lidar",
+          "tam kare kamera lidar",
+          "aerial survey lidar",
+          "uav lidar çözümü",
+          "geosun 7 echo lidar"
+        ]
+      }
+    },
+    {
+      "id": 980,
       "name": "3Dsurvey Haritalama Yazılımı",
       "title": "3Dsurvey – Drone Tabanlı Profesyonel Haritalama Yazılımı",
       "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu arayüzüyle saha süresini azaltan, LIDAR uyumlu ve yüksek hassasiyetli sonuçlar üreten güçlü bir fotogrametri yazılımıdır.",
@@ -6754,6 +7279,7 @@
         "Yalnızca 6 saatlik eğitimle kullanıcılar uzman seviyeye ulaşabilir.",
         "Web sitesinden tam sürüm deneme versiyonu ücretsiz indirilebilir (kısıtlama yok)."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/3d-survey-drone-tabanli-profesyonel-haritalama-yazilimi",
       "meta": {
         "title": "3Dsurvey | Drone Tabanlı Profesyonel Haritalama Yazılımı",
         "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu ve LIDAR uyumlu fotogrametri yazılımıdır. Saha süresini azaltır, cm hassasiyetle DTM ve ortofoto üretir, CAD ve GIS ile uyumludur.",
@@ -6793,8 +7319,6 @@
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/bos.png",
         "/marka-photos/stec/fieldmaster-1.png"
-
-        
       ],
       "category": "gnss",
       "brand": "stec",
@@ -6812,6 +7336,7 @@
         "Saha koşullarına dayanıklı tasarım.",
         "Çoklu dil desteği ile geniş kullanıcı kitlesine hitap eder."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-fieldmaster-alan-veri-toplama-ve-aplikasyon-yazilimi",
       "meta": {
         "title": "STEC FieldMaster | GNSS ve Lazer Tabanlı Veri Toplama Yazılımı",
         "description": "STEC FieldMaster, GNSS ve lazer cihazlarıyla entegre çalışan, CAD destekli mobil harita çizimi ve artırılmış gerçeklik özellikleri sunan saha veri toplama yazılımıdır.",
@@ -6833,7 +7358,7 @@
           "STEC yazılım çözümleri"
         ]
       }
-    },    
+    },
     {
       "id": 990,
       "name": "DJI FlightHub 2 Komuta ve Görev Yönetim Yazılımı",
@@ -6842,9 +7367,9 @@
       "images": [
         "/marka-photos/dji/flighthub2-1.png",
         "/marka-photos/dji/flighthub2-2.png",
-        "/marka-photos/dji/flighthub2-3.png",
-        "/marka-photos/dji/flighthub2-4.png",
-        "/marka-photos/dji/flighthub2-5.png"
+        "/marka-photos/dji/flighthub2-3.jpg",
+        "/marka-photos/dji/flighthub2-4.jpg",
+        "/marka-photos/dji/flighthub2-5.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -6862,6 +7387,7 @@
         "Ekip konumu, drone durumu ve görev bilgileri gerçek zamanlı olarak paylaşılır.",
         "DJI Dock entegrasyonu sayesinde otomatik drone görevleri uzaktan planlanabilir ve yönetilebilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-flighthub-2-komuta-ve-gorev-yonetim-platformu",
       "meta": {
         "title": "DJI FlightHub 2 | Komuta ve Görev Yönetim Yazılımı",
         "description": "DJI FlightHub 2, bulut tabanlı platformda İHA görev planlama, filo yönetimi ve gerçek zamanlı veri takibi sağlar. Operasyonlarda yüksek koordinasyon ve medya yönetimi için ideal çözümdür.",
@@ -6892,7 +7418,10 @@
       "description": "DJI Terra, DJI Enterprise drone’larıyla tam entegre çalışan, güçlü fotogrametri motoru sayesinde 2D/3D haritalama, LiDAR veri işleme ve çoklu spektrum analizi yapabilen gelişmiş bir yazılımdır.",
       "images": [
         "/marka-photos/dji/terra-1.png",
-        "/marka-photos/dji/terra-2.png"
+        "/marka-photos/dji/terra-2.png",
+        "/marka-photos/dji/terra-3.png",
+        "/marka-photos/dji/terra-4.jpg",
+        "/marka-photos/dji/terra-5.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -6912,6 +7441,7 @@
         "8500+ koordinat sistemi desteklenir ve yedi parametreli dönüşümler uygulanabilir.",
         "Windows 10+ (64 bit), 32GB RAM ve en az 4GB NVIDIA ekran kartı gereksinimi vardır."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-terra-haritalama-ve-modelleme-yazilimi",
       "meta": {
         "title": "DJI Terra | Haritalama ve Modelleme Yazılımı",
         "description": "DJI Terra, DJI Enterprise drone’ları ile entegre çalışan, güçlü fotogrametri motoruyla 2D/3D haritalama, LiDAR işleme ve çoklu spektrum analizleri sunan gelişmiş yazılımdır.",
@@ -6934,7 +7464,7 @@
           "Windows tabanlı yazılım"
         ]
       }
-    },    
+    },
     {
       "id": 992,
       "name": "DJI Modify 3D Model Düzenleme Yazılımı",
@@ -6942,9 +7472,10 @@
       "description": "DJI Modify, DJI Terra ile tam entegre çalışan, hızlı ve sezgisel 3D model düzenleme işlemleri sunan akıllı bir yazılımdır. Haritalama, yangınla mücadele, acil durum müdahalesi ve ulaşım gibi alanlarda operasyonel ihtiyaçlara yönelik uçtan uca çözüm sunar.",
       "images": [
         "/marka-photos/dji/modify-1.png",
-        "/marka-photos/dji/modify-2.png",
-        "/marka-photos/dji/modify-3.png",
-        "/marka-photos/dji/modify-4.png"
+        "/marka-photos/dji/modify-2.jpg",
+        "/marka-photos/dji/modify-3.jpg",
+        "/marka-photos/dji/modify-4.png",
+        "/marka-photos/dji/modify-5.jpg"
       ],
       "category": "iha",
       "brand": "dji",
@@ -6964,6 +7495,7 @@
         "İşlenmiş modeller bağlantı yoluyla bulut ortamında paylaşılabilir.",
         "Minimum sistem gereksinimleri: Windows 10+, 32 GB RAM, 4 GB VRAM, GTX 1050Ti veya üzeri ekran kartı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/dji-modify-3d-model-duzenleme-yazilimi",
       "meta": {
         "title": "DJI Modify | 3D Model Düzenleme Yazılımı",
         "description": "DJI Modify, DJI Terra ile entegre, hızlı ve sezgisel 3D model düzenleme yazılımıdır. Fotogrametri ve acil durum uygulamalarında yüksek verimlilik sağlar.",
@@ -7011,6 +7543,7 @@
         "AI destekli hedef tanıma, canlı akış takibi ve sensör kontrol özelliklerine sahiptir.",
         "Mobil ve masaüstü tarayıcılar üzerinden erişilebilir; yüksek bant genişliği önerilir."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-aics-komuta-ve-kontrol-sistemi-gorev-planlama-platformu",
       "meta": {
         "title": "Autel Integrated Command System (AICS) | Komuta ve Kontrol Sistemi",
         "description": "Autel AICS, çok rotorlu ve eVTOL İHA’lar için bulut tabanlı görev planlama, canlı izleme ve veri analizi sunan kapsamlı bir UAV yönetim platformudur.",
@@ -7032,7 +7565,7 @@
           "mobil ve masaüstü erişim"
         ]
       }
-    },    
+    },
     {
       "id": 994,
       "name": "Autel Mapper Haritalama Yazılımı",
@@ -7059,6 +7592,7 @@
         "Gerçek zamanlı ön izleme ve kalite kontrol araçları.",
         "PDF, TIFF, OBJ, LAS gibi çoklu format desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/autel-mapper-haritalama-yazilimi-drone-verileriyle-3d-modelleme",
       "meta": {
         "title": "Autel Mapper | Profesyonel Haritalama Yazılımı",
         "description": "Autel Mapper, drone görüntülerinden yüksek hassasiyetli haritalar ve 3D modeller üreten profesyonel bir haritalama yazılımıdır. Kolay kullanımı ve kapsamlı özellikleriyle endüstriyel projelere çözüm sunar.",
@@ -7106,6 +7640,7 @@
         "IP67 su ve toz geçirmezlik ile dayanıklı yapı.",
         "DXF ve DAT formatında dışa aktarma desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-coprocess-lidar-isleme-yazilimi-nokta-bulutu-veri-cozumu",
       "meta": {
         "title": "CHCNAV CoProcess | LiDAR Veri İşleme Yazılımı",
         "description": "CHCNAV CoProcess, gelişmiş LiDAR veri işleme ve analiz özellikleriyle profesyonel haritalama çözümleri sunan güçlü bir yazılımdır. Hassas arazi modelleme ve veri sınıflandırma imkanı sağlar.",
@@ -7127,7 +7662,7 @@
           "gelişmiş algoritmalar"
         ]
       }
-    },    
+    },
     {
       "id": 996,
       "name": "CHCNAV CoPre LiDAR İşleme Yazılımı",
@@ -7153,6 +7688,7 @@
         "Büyük veri setleri için hızlı işlem kapasitesi.",
         "POS ve SLAM verileri ile uyumlu iş akışı."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-copre-lidar-isleme-yazilimi-mobil-haritalama-veri-platformu",
       "meta": {
         "title": "CHCNAV CoPre | LiDAR Veri İşleme Yazılımı",
         "description": "CHCNAV CoPre, mobil haritalama için optimize edilmiş hızlı ve etkili LiDAR veri işleme çözümleri sunan profesyonel bir yazılımdır. Yüksek doğruluk ve otomatik işlem özellikleriyle kullanıcı dostudur.",
@@ -7200,6 +7736,7 @@
         "MySQL 5.7.24 ve üzeri veri tabanı desteği.",
         "Intel Core i7 ve üzeri işlemci önerisi ile GTX 1060 ve üzeri grafik kartı desteği."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-mas-bulut-tabanli-izleme-ve-alarm-platformu",
       "meta": {
         "title": "CHCNAV MAS | Bulut Tabanlı İzleme ve Alarm Platformu",
         "description": "CHCNAV MAS, veri görselleştirme ve alarm yönetimi için gelişmiş özellikler sunan bulut tabanlı bir izleme platformudur. Çoklu veri entegrasyonu, 3D sahne oluşturma ve özelleştirilebilir uyarılarla kapsamlı çözümler sağlar.",
@@ -7221,7 +7758,7 @@
           "veri tabanı desteği"
         ]
       }
-    },    
+    },
     {
       "id": 998,
       "name": "CHCNAV LandStar 8 Yazılımı",
@@ -7253,6 +7790,7 @@
         "WMS/WFS ve CAD haritaları ile uyumlu katman yönetimi.",
         "Uzaktan destek ve yazılım güncellemeleri ile sürekli destek."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-landstar-8-gnss-olcum-ve-haritalama-yazilimi",
       "meta": {
         "title": "CHCNAV LandStar 8 | GNSS Ölçüm ve Haritalama Yazılımı",
         "description": "CHCNAV LandStar 8, Android uyumlu gelişmiş haritalama ve ölçüm yazılımıdır. MetaCAD motoru, bulut entegrasyonu ve gelişmiş GNSS veri aktarımı özellikleri ile saha çalışmalarını hızlandırır ve kolaylaştırır.",
@@ -7306,6 +7844,7 @@
         "Çoklu dil desteği ve yerelleştirilmiş yardım dokümanları.",
         "Windows 7, 8, 10 (32-bit ve 64-bit) ile uyumlu."
       ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-cgo-2-gnss-veri-isleme-ve-post-processing-yazilimi",
       "meta": {
         "title": "CHCNAV CGO 2.0 | GNSS Veri İşleme Yazılımı",
         "description": "CHCNAV CGO 2.0, RTK, PPK ve UAV modülleri ile entegre çalışan gelişmiş GNSS veri işleme yazılımıdır. MetaCAD motoru ve bulut entegrasyonuyla yüksek doğruluk ve esneklik sağlar.",
@@ -7328,7 +7867,6 @@
         ]
       }
     }
-    
   ],
   "infoCards": [
     {
