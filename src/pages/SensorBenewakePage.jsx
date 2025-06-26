@@ -10,7 +10,7 @@ const SensorBenewakePage = () => {
   // 3D ürünleri filtrele
   const filtered3D = data.products.filter(
     (item) =>
-      item.brand === "benewake" &&
+      item.brand === "benewake-vp" &&
       item.category === "sensor" &&
       item.technology?.includes("3d")
   );

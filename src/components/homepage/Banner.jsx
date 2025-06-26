@@ -77,7 +77,7 @@ export default function Banner() {
             ? false
             : { delay: 3000, disableOnInteraction: false }
         }
-        loop={true}
+        loop={false}
         loopAdditionalSlides={1}
       >
         {newNavbar.map((item, index) => (
@@ -87,7 +87,7 @@ export default function Banner() {
         ))}
       </Swiper>
 
-      <style jsx>{`
+      <style>{`
         @media (max-width: 1024px) {
           .banner-slider .swiper-button-next,
           .banner-slider .swiper-button-prev {
@@ -107,22 +107,20 @@ export default function Banner() {
           transition: transform 0.3s ease, background 0.3s ease;
         }
 
-        /* Sol ok hover animasyonu */
         .banner-slider .swiper-button-prev:hover {
-          transform: translateX(-5px); /* Sol tarafa 5px hareket */
+          transform: translateX(-5px);
         }
 
-        /* Sağ ok hover animasyonu */
         .banner-slider .swiper-button-next:hover {
-          transform: translateX(5px); /* Sağ tarafa 5px hareket */
+          transform: translateX(5px);
         }
 
         .banner-slider .swiper-button-next {
-          right: 10%; /* Sağ okun mevcut konumu */
+          right: 10%;
         }
 
         .banner-slider .swiper-button-prev {
-          left: 10%; /* Sol okun mevcut konumu */
+          left: 10%;
         }
       `}</style>
     </div>
@@ -134,7 +132,6 @@ function BrandBanner({ item }) {
   const [mediaIndex, setMediaIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
   const mediaList = item.bannerphotos || [];
-
   const activeMedia = mediaList[mediaIndex];
 
   useEffect(() => {
@@ -173,19 +170,20 @@ function BrandBanner({ item }) {
           muted
           playsInline
           loop
-          preload="none"
+          preload="auto"
         />
       );
     } else {
       return (
-        <div
+        <img
           key={media.src}
-          className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+          src={media.src}
+          alt=""
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
             isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
           }`}
-          style={{
-            backgroundImage: isVisible ? `url(${media.src})` : "none",
-          }}
+          loading="eager"
+          fetchpriority="high"
         />
       );
     }
@@ -220,4 +218,3 @@ function BrandBanner({ item }) {
     </div>
   );
 }
-

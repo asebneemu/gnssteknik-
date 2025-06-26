@@ -32,7 +32,21 @@ import BenewakeApplicationsPage from "./pages/BenewakeApplicationsPage";
 import DjiMainPage from "./pages/DjiMainPage";
 import ThreeDSurveyPage from "./pages/ThreeDSurveyPage";
 import ScrollToTop from "./components/ScrollToTop";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import ImageObserverWrapper from "./components/ImageObserverWrapper"; // yolunu düzenle
+import SmartImageManager from "./components/SmartImageManager";
+
+// 💡 BURAYA EKLİYORUZ
+function AutoLazyLoader() {
+  useEffect(() => {
+    const imgs = document.querySelectorAll("img:not([loading])");
+    imgs.forEach((img) => {
+      img.setAttribute("loading", "lazy");
+    });
+  }, []);
+  return null;
+}
 
 function AppContent() {
   const [searching, setSearching] = useState(false);
@@ -51,29 +65,49 @@ function AppContent() {
       <NavbarMain searching={searching} />
       <NavbarSecondary />
       <CompareButton />
+      {/* 👇 Smart görsel yönetimi */}
+      <SmartImageManager />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/kvkk" element={<KvkkPage />} />
 
-        <Route path="/category/yazilim/3dsurvey" element={<ThreeDSurveyPage />} />
+        <Route
+          path="/category/yazilim/3dsurvey"
+          element={<ThreeDSurveyPage />}
+        />
         <Route path={categoryPath} element={<CategoryPage />} />
         <Route path={categoryWithParamPath} element={<CategoryPage />} />
-        <Route path="/:category/:brand/:slug" element={<ProductDetailRouter />} />
-        <Route path="/category/:category/:brand/:slug" element={<ProductDetailRouter />} />
+        <Route
+          path="/:category/:brand/:slug"
+          element={<ProductDetailRouter />}
+        />
+        <Route
+          path="/category/:category/:brand/:slug"
+          element={<ProductDetailRouter />}
+        />
 
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/customers" element={<CustomersPage />} />
-        <Route path="/category/sensor/senceive" element={<SenceiveSensorPage />} />
-        <Route path="/category/sensor/benewake" element={<SensorBenewakePage />} />
+        <Route
+          path="/category/sensor/senceive"
+          element={<SenceiveSensorPage />}
+        />
+        <Route
+          path="/category/sensor/benewake"
+          element={<SensorBenewakePage />}
+        />
         <Route path="/category/iha/dji" element={<DjiMainPage />} />
         <Route path="/products/senceive" element={<ProductListPage />} />
         <Route path="/products/benewake" element={<ProductListPage />} />
         <Route path={productListPath} element={<ProductListPage />} />
         <Route path="/sectors" element={<SectorsPage />} />
         <Route path="/applications" element={<ApplicationsPage />} />
-        <Route path="/benewake-applications" element={<BenewakeApplicationsPage />} />
+        <Route
+          path="/benewake-applications"
+          element={<BenewakeApplicationsPage />}
+        />
         <Route path="/sector/:id" element={<SectorDetailPage />} />
       </Routes>
     </Router>
@@ -82,16 +116,19 @@ function AppContent() {
 
 export default function App() {
   return (
-    <HelmetProvider>
-      <LanguageProvider>
-        <ActiveNavProvider>
-          <CompareProvider>
-            <ThemeProvider>
-              <AppContent />
-            </ThemeProvider>
-          </CompareProvider>
-        </ActiveNavProvider>
-      </LanguageProvider>
-    </HelmetProvider>
+    <>
+      <AutoLazyLoader /> {/* 💡 Burada aktif hale geliyor */}
+      <HelmetProvider>
+        <LanguageProvider>
+          <ActiveNavProvider>
+            <CompareProvider>
+              <ThemeProvider>
+                <AppContent />
+              </ThemeProvider>
+            </CompareProvider>
+          </ActiveNavProvider>
+        </LanguageProvider>
+      </HelmetProvider>
+    </>
   );
 }

@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom";
 import StecProductDetailPage from "../../pages/StecProductDetailPage";
 import DjiProductDetailPage from "../../pages/DjiProductDetailPage";
 import ProductDetailPage from "../../pages/ProductDetailPage";
+import ThreeDSurveyProductDetailPage from "../../pages/ThreeDSurveyProductDetailPage";
+import BenewakeProductDetailPage from "../../pages/BenewakeProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
 
 const slugify = (str) =>
@@ -43,6 +45,14 @@ export default function ProductDetailRouter() {
 
   if (brandSlug === "stec") {
     return <StecProductDetailPage product={product} />;
+  }
+
+  if (brandSlug === "3dsurvey") {
+    return <ThreeDSurveyProductDetailPage product={product} />;
+  }
+  
+  if (brandSlug === "benewake-vp") {
+    return <BenewakeProductDetailPage product={product} />;
   }
 
   if (brandSlug === "dji") {

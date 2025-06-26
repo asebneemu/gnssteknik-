@@ -40,6 +40,7 @@ const ReferenceSlider = () => {
       {/* Slider */}
       <div className="w-10/12 mx-auto">
         <Swiper
+        loop={false}
           slidesPerView={3}
           slidesPerGroup={3} // her kaydırmada 3 slayt kaydıracak
           spaceBetween={20}
