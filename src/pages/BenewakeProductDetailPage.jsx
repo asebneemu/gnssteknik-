@@ -6,8 +6,9 @@ export default function BenewakeProductDetailPage({ product }) {
 
   const { title, description, images = [], specs = [] } = product;
 
+  // Görsel sıralamalar 1 ötelendi (images[0] atlandı)
   const paragraphSpecs = specs.slice(0, 4);
-  const gridImages = images.slice(5);
+  const gridImages = images.slice(6); // 🔹 6. görselden (images[6]) sonrası
   const remainingSpecs = specs.slice(4);
 
   const distributeSpecsToImages = (specsList, imageCount) => {
@@ -20,13 +21,10 @@ export default function BenewakeProductDetailPage({ product }) {
 
   const distributedSpecs = distributeSpecsToImages(remainingSpecs, gridImages.length);
 
-  // 🔹 Ortak medya render (jpg/mp4/webp/webm + bos.jpg filtreli)
   const renderMedia = (src, className = "") => {
     if (!src || src.includes("bos.jpg")) return null;
-
     const ext = src.split(".").pop().toLowerCase();
     const isVideo = ext === "mp4" || ext === "webm";
-
     return isVideo ? (
       <video
         src={src}
@@ -48,10 +46,10 @@ export default function BenewakeProductDetailPage({ product }) {
   return (
     <div className="flex flex-col w-full">
 
-      {/* 🟦 1. Bölüm */}
+      {/* 🟦 1. Bölüm → Artık images[1] */}
       <div className="relative w-full bg-[#0a0f3c]">
         {renderMedia(
-          images?.[0],
+          images?.[1],
           "w-full h-[calc(100vh-90px)] object-cover"
         )}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
@@ -60,20 +58,18 @@ export default function BenewakeProductDetailPage({ product }) {
         </div>
       </div>
 
-      {/* 🟦 2. Bölüm */}
-{!(images?.[1]?.includes("bos.jpg")) && (
-  <div className="w-full bg-[rgb(3,2,7)] py-20 px-6 flex justify-center">
-    {renderMedia(
-      images?.[1],
-      "w-[80%] rounded-xl shadow-lg object-cover"
-    )}
-  </div>
-)}
+      {/* 🟦 2. Bölüm → images[2] */}
+      {!(images?.[2]?.includes("bos.jpg")) && (
+        <div className="w-full bg-[rgb(3,2,7)] py-20 px-6 flex justify-center">
+          {renderMedia(
+            images?.[2],
+            "w-[80%] rounded-xl shadow-lg object-cover"
+          )}
+        </div>
+      )}
 
-
-      {/* 📐 3. Bölüm */}
+      {/* 📐 3. Bölüm → images[3], [4], [5] */}
       <div className="w-[80%] mx-auto bg-white py-20 flex flex-col gap-10">
-        {/* Satır 1: Paragraf */}
         <div className="w-full flex justify-end">
           <motion.div
             className="w-[40%] text-justify text-lg md:text-xl text-gray-700 font-medium leading-relaxed"
@@ -86,9 +82,8 @@ export default function BenewakeProductDetailPage({ product }) {
           </motion.div>
         </div>
 
-        {/* Satır 2: 3 görsel */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {images.slice(2, 5).map((src, idx) => (
+          {images.slice(3, 6).map((src, idx) => (
             <div key={idx} className="w-full h-[300px] rounded-xl shadow-lg overflow-hidden">
               {renderMedia(src, "w-full h-full object-cover")}
             </div>
@@ -96,7 +91,7 @@ export default function BenewakeProductDetailPage({ product }) {
         </div>
       </div>
 
-      {/* 🟦 4. Bölüm */}
+      {/* 🟦 4. Bölüm → images[6] sonrası */}
       <div className="w-[80%] mx-auto py-20 bg-white grid grid-cols-1 md:grid-cols-2 gap-8">
         {gridImages.map((src, index) => (
           <div key={index} className="relative w-full h-[300px] overflow-hidden rounded-xl shadow-md">
