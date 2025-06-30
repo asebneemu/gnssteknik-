@@ -34,19 +34,10 @@ import ThreeDSurveyPage from "./pages/ThreeDSurveyPage";
 import ScrollToTop from "./components/ScrollToTop";
 import { useState, useEffect } from "react";
 
-import ImageObserverWrapper from "./components/ImageObserverWrapper"; // yolunu düzenle
+
 import SmartImageManager from "./components/SmartImageManager";
 
-// 💡 BURAYA EKLİYORUZ
-function AutoLazyLoader() {
-  useEffect(() => {
-    const imgs = document.querySelectorAll("img:not([loading])");
-    imgs.forEach((img) => {
-      img.setAttribute("loading", "lazy");
-    });
-  }, []);
-  return null;
-}
+
 
 function AppContent() {
   const [searching, setSearching] = useState(false);
@@ -65,8 +56,8 @@ function AppContent() {
       <NavbarMain searching={searching} />
       <NavbarSecondary />
       <CompareButton />
-      {/* 👇 Smart görsel yönetimi */}
-      <SmartImageManager />
+    
+
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -117,7 +108,7 @@ function AppContent() {
 export default function App() {
   return (
     <>
-      <AutoLazyLoader /> {/* 💡 Burada aktif hale geliyor */}
+      
       <HelmetProvider>
         <LanguageProvider>
           <ActiveNavProvider>

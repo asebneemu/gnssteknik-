@@ -5,6 +5,7 @@ import ProductDetailPage from "../../pages/ProductDetailPage";
 import ThreeDSurveyProductDetailPage from "../../pages/ThreeDSurveyProductDetailPage";
 import BenewakeProductDetailPage from "../../pages/BenewakeProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
+import AutelProductDetailPage from "../../pages/AutelProductDetailPage";
 
 const slugify = (str) =>
   str
@@ -57,6 +58,10 @@ export default function ProductDetailRouter() {
 
   if (brandSlug === "dji") {
     return <DjiProductDetailPage product={product} />;
+  }
+
+  if (brandSlug === "autel") {
+    return <AutelProductDetailPage product={product} />;
   }
 
   return <ProductDetailPage product={product} />;

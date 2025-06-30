@@ -58,15 +58,36 @@ export default function BenewakeProductDetailPage({ product }) {
         </div>
       </div>
 
-      {/* 🟦 2. Bölüm → images[2] */}
-      {!(images?.[2]?.includes("bos.jpg")) && (
-        <div className="w-full bg-[rgb(3,2,7)] py-20 px-6 flex justify-center">
-          {renderMedia(
-            images?.[2],
-            "w-[80%] rounded-xl shadow-lg object-cover"
-          )}
-        </div>
-      )}
+{/* 🟦 2. Bölüm → images[2] */}
+{!(images?.[2]?.includes("bos.jpg")) && (
+  <div className="w-full bg-[rgb(3,2,7)] py-20 px-6 flex flex-col items-center relative">
+    {/* 🔹 Görsel */}
+    {renderMedia(
+      images?.[2],
+      "w-[80%] rounded-xl shadow-lg object-cover"
+    )}
+
+    {/* 🔹 Altına yerleştirilen sarkan açıklamalar */}
+    {product?.p?.length > 0 && (
+  <div className="mt-8 flex flex-col md:flex-row gap-6 justify-center items-stretch w-full px-4">
+    {product.p.slice(0, 3).map((text, idx) => (
+      <motion.div
+        key={idx}
+        className="w-full md:w-1/3 backdrop-blur-md bg-white/10 border border-white/20 rounded-xl px-6 py-8 text-white font-semibold text-base md:text-lg text-center shadow-xl hover:shadow-2xl transition-shadow duration-300 min-h-[220px] flex items-center justify-center"
+        initial={{ y: -60, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6 + idx * 0.2, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        {text}
+      </motion.div>
+    ))}
+  </div>
+)}
+
+  </div>
+)}
+
 
       {/* 📐 3. Bölüm → images[3], [4], [5] */}
       <div className="w-[80%] mx-auto bg-white py-20 flex flex-col gap-10">
