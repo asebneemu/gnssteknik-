@@ -22,7 +22,7 @@ export default function AutelProductDetailPage({ product }) {
     <div className="autel-product-detail-page">
       <AutelHero
         images={product.images}
-        title={product.name}
+        name={product.name}
         metaDescription={product.meta.description}
       />
       {/* Diğer bölümler burada */}

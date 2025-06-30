@@ -12,8 +12,8 @@ const AutelZoomSequence = ({ images = [], specs = [] }) => {
   ];
 
   return (
-    <div className="w-full bg-black">
-      <div className="w-[85%] mx-auto">
+    <div className="w-full bg-black py-8">
+      <div className="w-full max-w-6xl mx-auto px-4">
         {seqImages.map((src, i) => (
           <SlideWithOverlay
             key={i}
@@ -44,27 +44,35 @@ const SlideWithOverlay = ({ src, text, alignLeft }) => {
   return (
     <div
       ref={ref}
-      className="w-[90%] mx-auto h-screen flex items-center justify-center overflow-hidden"
+      className="w-full mx-auto min-h-screen flex items-center justify-center overflow-hidden mb-12"
     >
-      <div className={`flex w-full h-full ${alignLeft ? 'flex-row' : 'flex-row-reverse'}`}>
-        {/* Görsel bloğu (%70 genişlik) */}
+      <div
+        className={`flex w-full h-full flex-col ${
+          alignLeft ? 'md:flex-row' : 'md:flex-row-reverse'
+        }`}
+      >
+        {/* Görsel bloğu */}
         <motion.div
-          className="w-[70%] h-full flex items-center justify-center"
+          className="w-full md:w-7/12 h-auto flex items-center justify-center px-2 md:px-4"
           initial={imgInitial}
           animate={inView ? imgAnimate : imgInitial}
           transition={{ duration: 0.8, ease: 'easeInOut' }}
         >
-          <img src={src} alt="" className="w-full h-auto object-contain" />
+          <img
+            src={src}
+            alt=""
+            className="w-full h-auto object-cover max-h-[60vh] rounded-lg"
+          />
         </motion.div>
 
-        {/* Yazı bloğu (%30 genişlik) */}
+        {/* Yazı bloğu */}
         <motion.div
-          className="w-[30%] h-full flex items-center justify-center px-6"
+          className="w-full md:w-5/12 h-auto flex items-center justify-center px-2 md:px-6 mt-6 md:mt-0"
           initial={textInitial}
           animate={inView ? textAnimate : textInitial}
           transition={{ delay: 0.2, duration: 0.8, ease: 'easeInOut' }}
         >
-          <p className="text-white text-xl leading-relaxed text-left">
+          <p className="text-white text-base sm:text-lg md:text-xl leading-relaxed text-center md:text-left">
             {text}
           </p>
         </motion.div>
