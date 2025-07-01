@@ -90,41 +90,54 @@ export default function BenewakeProductDetailPage({ product }) {
 
 
       {/* 📐 3. Bölüm → images[3], [4], [5] */}
-      <div className="w-[80%] mx-auto bg-white py-20 flex flex-col gap-10">
-        <div className="w-full flex justify-end">
-          <motion.div
-            className="w-[40%] text-justify text-lg md:text-xl text-gray-700 font-medium leading-relaxed"
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.5 }}
-          >
-            {paragraphSpecs.join(" ")}
-          </motion.div>
-        </div>
+<div className="w-[80%] mx-auto bg-white py-20 flex flex-col gap-10">
+  {/* Metin kısmı */}
+  <div className="w-full flex justify-center md:justify-end">
+    <motion.div
+      className="
+        w-[90%]      /* Mobilde %90 genişlik */
+        md:w-[40%]   /* MD+ ekranlarda %40 genişlik */
+        text-justify text-lg md:text-xl text-gray-700 font-medium leading-relaxed
+      "
+      initial={{ x: -200, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
+      viewport={{ once: true, amount: 0.5 }}
+    >
+      {paragraphSpecs.join(' ')}
+    </motion.div>
+  </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {images.slice(3, 6).map((src, idx) => (
-            <div key={idx} className="w-full h-[300px] rounded-xl shadow-lg overflow-hidden">
-              {renderMedia(src, "w-full h-full object-cover")}
-            </div>
-          ))}
-        </div>
+  {/* Görseller */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+    {images.slice(3, 6).map((src, idx) => (
+      <div key={idx} className="w-full h-[300px] rounded-xl shadow-lg overflow-hidden">
+        {renderMedia(src, 'w-full h-full object-cover')}
       </div>
+    ))}
+  </div>
+</div>
+
 
       {/* 🟦 4. Bölüm → images[6] sonrası */}
-      <div className="w-[80%] mx-auto py-20 bg-white grid grid-cols-1 md:grid-cols-2 gap-8">
-        {gridImages.map((src, index) => (
-          <div key={index} className="relative w-full h-[300px] overflow-hidden rounded-xl shadow-md">
-            {renderMedia(src, "w-full h-full object-cover")}
-            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-blue-500/50 flex items-center justify-center px-4">
-              <p className="text-white text-center text-lg font-semibold leading-relaxed">
-                {distributedSpecs[index]?.join(" ") || "Özellik bilgisi"}
-              </p>
-            </div>
-          </div>
-        ))}
+<div className="w-[80%] mx-auto py-20 bg-white grid grid-cols-1 md:grid-cols-2 gap-8">
+  {gridImages.map((src, index) => (
+    <div
+      key={index}
+      className="relative w-full h-[300px] overflow-hidden rounded-xl shadow-md"
+    >
+      {renderMedia(src, "w-full h-full object-cover")}
+
+      {/* Mavi overlay */}
+      <div className="absolute bottom-0 left-0 w-full h-[60%] md:h-1/2 bg-blue-500/50 flex items-center justify-center px-4">
+        <p className="text-sm md:text-lg text-white text-center font-semibold leading-relaxed">
+          {distributedSpecs[index]?.join(" ") || "Özellik bilgisi"}
+        </p>
       </div>
+    </div>
+  ))}
+</div>
+
 
     </div>
   );

@@ -9407,5 +9407,43 @@
       "icon": "/icons/106.png",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#iot"
     }
+  ],
+  "accordionSections": [
+    {
+      "title": "KURUMSAL",
+      "items": [
+        { "label": "İletişim",     "href": "#iletisim" },
+        { "label": "Hakkımızda",   "href": "#hakkimizda" },
+        { "label": "Markalarımız", "href": "#markalarimiz" },
+        { "label": "İletişim Formu","href": "#iletisim-formu" }
+      ]
+    },
+    {
+      "title": "ÜYELİK",
+      "items": [
+        { "label": "Yeni Üyelik",    "href": "#yeni-uyelik" },
+        { "label": "Üye Girişi",     "href": "#uye-girisi" },
+        { "label": "Şifremi Unuttum", "href": "#sifre-unuttum" },
+        { "label": "Profil Ayarları", "href": "#profil-ayarlari" }
+      ]
+    },
+    {
+      "title": "YARDIM",
+      "items": [
+        { "label": "Sık Sorulan Sorular", "href": "#sss" },
+        { "label": "Banka Hesap Numaraları","href": "#banka-hesap" },
+        { "label": "İptal İade Koşulları",  "href": "#iptal-iade" },
+        { "label": "Destek Talebi",        "href": "#destek-talebi" }
+      ]
+    },
+    {
+      "title": "K.V.K.K.",
+      "items": [
+        { "label": "Kişisel Veriler Politikası","href": "#kvkk-politika" },
+        { "label": "K.V.K.K. Başvuru Formu",    "href": "#kvkk-basvuru" },
+        { "label": "Aydınlatma Metni",         "href": "#aydinlatma-metni" },
+        { "label": "Gizlilik ve Güvenlik",     "href": "#gizlilik-guvenlik" }
+      ]
+    }
   ]
 }
