@@ -1,47 +1,41 @@
+// components/Banner.jsx
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function Banner() {
-  const { data, language } = useLanguage();
+  const { data } = useLanguage();
   const { newNavbar = [] } = data;
+
   const [swiperHeight, setSwiperHeight] = useState("auto");
   const [isCalculating, setIsCalculating] = useState(true);
   const [scrolled, setScrolled] = useState(false);
   const bannerRef = useRef(null);
+  const swiperRef = useRef(null);
   const location = useLocation();
 
+  // Banner yüksekliğini hesapla
   const calculateHeight = () => {
-    if (bannerRef.current) {
-      setIsCalculating(true);
-      const offset = bannerRef.current.offsetTop;
-      let height = window.innerHeight - offset;
-      if (scrolled) {
-        height = Math.min(height + 100, window.innerHeight);
-      }
-      setSwiperHeight(`${height}px`);
-      setTimeout(() => setIsCalculating(false), 50);
-    }
+    if (!bannerRef.current) return;
+    setIsCalculating(true);
+    const offset = bannerRef.current.offsetTop;
+    let height = window.innerHeight - offset;
+    if (scrolled) height = Math.min(height + 100, window.innerHeight);
+    setSwiperHeight(`${height}px`);
+    setTimeout(() => setIsCalculating(false), 50);
   };
 
+  // Resize ve scroll event'lerini dinle
   useEffect(() => {
     calculateHeight();
     window.addEventListener("resize", calculateHeight);
-
-    const onScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 10 && !scrolled) {
-        setScrolled(true);
-      } else if (scrollTop <= 10 && scrolled) {
-        setScrolled(false);
-      }
-    };
-
+    const onScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll);
     return () => {
       window.removeEventListener("resize", calculateHeight);
@@ -49,16 +43,28 @@ export default function Banner() {
     };
   }, [scrolled]);
 
+  // Route değişince yeniden hesapla
   useEffect(() => {
-    setTimeout(() => {
-      calculateHeight();
-    }, 10);
+    setTimeout(calculateHeight, 10);
   }, [location.pathname, scrolled]);
+
+  // Swiper örneğini al ve loop fix uygula
+  useEffect(() => {
+    const swiper = swiperRef.current;
+    if (swiper) {
+      // Eski loop düzenini temizle
+      swiper.loopDestroy();
+      // Yeniden oluştur
+      swiper.loopCreate();
+      swiper.navigation.update();
+      swiper.update();
+    }
+  }, []);
 
   return (
     <div
-      className="w-full overflow-hidden relative banner-slider"
       ref={bannerRef}
+      className="w-full overflow-hidden relative banner-slider"
       style={{
         transition: "opacity 0.3s ease-in-out, height 0.5s ease-in-out",
         opacity: isCalculating ? 0 : 1,
@@ -66,6 +72,7 @@ export default function Banner() {
       }}
     >
       <Swiper
+        onSwiper={(swiper) => { swiperRef.current = swiper; }}
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
@@ -77,11 +84,10 @@ export default function Banner() {
             ? false
             : { delay: 3000, disableOnInteraction: false }
         }
-        loop={false}
-        loopAdditionalSlides={1}
+        loop={true}
       >
-        {newNavbar.map((item, index) => (
-          <SwiperSlide key={index} className="h-full">
+        {newNavbar.map((item, idx) => (
+          <SwiperSlide key={idx} className="h-full">
             <BrandBanner item={item} />
           </SwiperSlide>
         ))}
@@ -94,7 +100,6 @@ export default function Banner() {
             display: none !important;
           }
         }
-
         .banner-slider .swiper-button-next,
         .banner-slider .swiper-button-prev {
           width: 70px;
@@ -106,22 +111,10 @@ export default function Banner() {
           border-radius: 50%;
           transition: transform 0.3s ease, background 0.3s ease;
         }
-
-        .banner-slider .swiper-button-prev:hover {
-          transform: translateX(-5px);
-        }
-
-        .banner-slider .swiper-button-next:hover {
-          transform: translateX(5px);
-        }
-
-        .banner-slider .swiper-button-next {
-          right: 10%;
-        }
-
-        .banner-slider .swiper-button-prev {
-          left: 10%;
-        }
+        .banner-slider .swiper-button-prev:hover { transform: translateX(-5px); }
+        .banner-slider .swiper-button-next:hover { transform: translateX(5px); }
+        .banner-slider .swiper-button-next { right: 10%; }
+        .banner-slider .swiper-button-prev { left: 10%; }
       `}</style>
     </div>
   );
@@ -130,78 +123,70 @@ export default function Banner() {
 function BrandBanner({ item }) {
   const { language } = useLanguage();
   const [mediaIndex, setMediaIndex] = useState(0);
-  const [isFading, setIsFading] = useState(false);
   const mediaList = item.bannerphotos || [];
-  const activeMedia = mediaList[mediaIndex];
+  const active = mediaList[mediaIndex];
+  const [isFading, setIsFading] = useState(false);
 
+  // Medya geçiş animasyonu
   useEffect(() => {
-    if (!activeMedia) return;
-
+    if (!active) return;
     const duration =
-      activeMedia.type === "video"
-        ? (activeMedia.duration || 10) * 1000
+      active.type === "video"
+        ? (active.duration || 10) * 1000
         : 4000;
-
     setIsFading(true);
     const fadeTimeout = setTimeout(() => setIsFading(false), 1000);
-
-    const timer = setTimeout(() => {
-      setMediaIndex((prev) => (prev + 1) % mediaList.length);
+    const slideTimeout = setTimeout(() => {
+      setMediaIndex((i) => (i + 1) % mediaList.length);
     }, duration);
-
     return () => {
-      clearTimeout(timer);
       clearTimeout(fadeTimeout);
+      clearTimeout(slideTimeout);
     };
-  }, [mediaIndex, activeMedia]);
+  }, [mediaIndex, active, mediaList.length]);
 
-  const renderMedia = (media, isVisible) => {
-    if (!media) return null;
-
-    if (media.type === "video") {
-      return (
-        <video
-          key={media.src}
-          src={media.src}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-            isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
-          }`}
-          autoPlay
-          muted
-          playsInline
-          loop
-          preload="auto"
-        />
-      );
-    } else {
-      return (
-        <img
-          key={media.src}
-          src={media.src}
-          alt=""
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-            isVisible ? "opacity-100 z-10" : "opacity-0 z-0"
-          }`}
-          loading="eager"
-          fetchpriority="high"
-        />
-      );
-    }
+  const renderMedia = (m, visible) => {
+    if (!m) return null;
+    const classes = `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+      visible ? "opacity-100 z-10" : "opacity-0 z-0"
+    }`;
+    return m.type === "video" ? (
+      <video
+        key={m.src}
+        src={m.src}
+        className={classes}
+        autoPlay
+        muted
+        playsInline
+        loop
+        preload="auto"
+      />
+    ) : (
+      <img
+        key={m.src}
+        src={m.src}
+        alt=""
+        className={classes}
+        loading="eager"
+        fetchpriority="high"
+      />
+    );
   };
 
   return (
     <div className="w-full h-full bg-black relative flex items-center justify-center overflow-hidden">
-      {renderMedia(activeMedia, true)}
-
+      {renderMedia(active, true)}
       <div
-        className="backdrop-blur-md bg-white/10 border border-white/30 shadow-xl
-        p-4 md:p-6 rounded-xl text-white
-        lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
-        lg:w-auto lg:max-w-md lg:text-left
-        max-[1023px]:absolute max-[1023px]:top-4 max-[1023px]:left-4
-        max-[1023px]:w-fit max-[1023px]:max-w-[80%]
-        max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:items-start
-        max-[1023px]:gap-1 flex flex-col items-start z-20"
+        className={`
+          backdrop-blur-md bg-white/10 border border-white/30 shadow-xl
+          p-4 md:p-6 rounded-xl text-white
+          lg:absolute lg:left-1/4 lg:bottom-1/4 lg:-translate-x-1/4
+          lg:w-auto lg:max-w-md lg:text-left
+          max-[1023px]:absolute max-[1023px]:top-4 max-[1023px]:left-4
+          max-[1023px]:w-fit max-[1023px]:max-w-[80%]
+          max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:items-start
+          max-[1023px]:gap-1 flex flex-col items-start z-20
+        `}
       >
         <h2 className="text-xl md:text-2xl font-bold text-white drop-shadow-md">
           {item.name}
