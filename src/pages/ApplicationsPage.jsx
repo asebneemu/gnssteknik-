@@ -63,7 +63,7 @@ export default function ApplicationsPage() {
               <div className="absolute inset-0 before:content-[''] before:absolute before:-top-1/2 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/40 before:to-transparent before:rotate-12 before:scale-x-150 before:animate-shimmer" />
 
               <div className="text-orange-600 z-10">
-                <img src={app.icon} alt={app.title} className="w-10 h-10" />
+                <img  src={`${app.icon}?v=2`} alt={app.title} className="w-10 h-10" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 z-10">
                 {app.title}

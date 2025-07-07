@@ -1,7 +1,7 @@
 import React from "react";
 import { useLanguage } from "../context/LanguageContext";
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet-async"; // React Helmet'ı içeri aktarın
+import { Helmet } from "react-helmet-async";
 
 export default function BenewakeApplicationsPage() {
   const { language, data } = useLanguage();
@@ -51,7 +51,7 @@ export default function BenewakeApplicationsPage() {
               className="border rounded-xl shadow hover:shadow-lg p-6 transition text-center"
             >
               <img
-                src={item.icon}
+                src={`${item.icon}?v=2`}  
                 alt={item.title}
                 className="w-16 h-16 mx-auto mb-4"
               />

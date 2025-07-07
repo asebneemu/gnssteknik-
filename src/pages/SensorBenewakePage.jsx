@@ -114,7 +114,7 @@ const SensorBenewakePage = () => {
         {/* Görsel Alanı */}
         <div className="w-full md:w-3/5">
           <img
-            src="/marka-photos/benewake/bHero.png"
+            src="/marka-photos/benewake/bHero.webp"
             alt="Benewake Sensörlü Drone"
             className="w-full rounded-xl shadow"
           />

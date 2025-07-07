@@ -111,22 +111,30 @@ export default function NavbarSecondary() {
         })}
       </div>
 
-      {/* SM ve altı için düğmeler */}
-      <div className="w-[80%] mx-auto grid grid-cols-5 gap-4 py-4 lg:hidden">
-        {filteredBrands.map((item, index) => (
-          <button
-            key={index}
-            onClick={() => handleSecondaryNavClick(item.path, item.name)}
-            className={`text-xs text-center py-2 px-1 rounded-md border border-gray-200 ${
-              activeSecondaryPath === item.path
-                ? "bg-yellow-100 text-yellow-600"
-                : "text-gray-700 hover:text-yellow-500 hover:bg-yellow-50"
-            }`}
-          >
-            {item.name}
-          </button>
-        ))}
-      </div>
+      {/* SM ve altı için düğmeler (yalnızca mobil) */}
+<div className="w-[90%] mx-auto flex gap-3 py-4 px-2 overflow-x-auto lg:hidden">
+  {filteredBrands.map((item, index) => (
+    <button
+      key={index}
+      onClick={() => handleSecondaryNavClick(item.path, item.name)}
+      className="
+        flex-shrink-0
+        whitespace-nowrap
+        text-xs py-2 px-3
+        rounded-md border border-gray-200
+        transition-colors duration-200
+        hover:text-yellow-500 hover:bg-yellow-50
+        focus:outline-none
+        {activeSecondaryPath === item.path 
+          ? 'bg-yellow-100 text-yellow-600' 
+          : 'text-gray-700'}
+      "
+    >
+      {item.name}
+    </button>
+  ))}
+</div>
+
     </nav>
   );
 }
