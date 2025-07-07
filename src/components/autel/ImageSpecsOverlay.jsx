@@ -27,10 +27,19 @@ const ImageSpecsOverlay = ({ src, specs = [] }) => {
   };
 
   return (
-    <div ref={ref} className="w-full h-screen flex flex-col sm:flex-row items-center justify-center bg-black py-8">
+    <div
+      ref={ref}
+      className={`
+        w-full
+        h-auto        /* Yükseklik içeriğe göre */
+        sm:h-screen   /* isterseniz sm+ tam ekran */
+        flex flex-col sm:flex-row
+        items-center justify-center
+        bg-black py-8
+      `}
+    >
       {/* Görsel + desktop overlay konteyneri */}
-      <div className="relative w-full sm:w-[50%] h-auto overflow-visible">
-        {/* Resim: mobilde genişlik %90, ortalanmış; sm+ full */}
+      <div className="relative w-full sm:w-1/2 h-auto overflow-visible">
         <motion.img
           src={src}
           alt=""

@@ -33,30 +33,26 @@ const SlideWithOverlay = ({ src, text, alignLeft }) => {
     triggerOnce: false,
   });
 
-  // Görselin başlangıç ve bitiş halleri
+  // Görsel başlangıç / bitiş pozisyonu
   const imgInitial = { x: alignLeft ? -50 : 50, scale: 0.95, opacity: 0 };
   const imgAnimate = { x: 0, scale: 1, opacity: 1 };
 
-  // Metnin başlangıç ve bitiş halleri
+  // Yazı başlangıç / bitiş pozisyonu
   const textInitial = { x: alignLeft ? 50 : -50, opacity: 0 };
   const textAnimate = { x: 0, opacity: 1 };
 
   return (
     <div
       ref={ref}
-      className="w-full mx-auto min-h-screen flex items-center justify-center overflow-hidden mb-12"
+      className="w-full mx-auto flex items-center justify-center overflow-hidden my-20 md:my-60 py-4" 
     >
-      <div
-        className={`flex w-full h-full flex-col ${
-          alignLeft ? 'md:flex-row' : 'md:flex-row-reverse'
-        }`}
-      >
+      <div className={`flex w-full h-auto flex-col ${alignLeft ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
         {/* Görsel bloğu */}
         <motion.div
           className="w-full md:w-7/12 h-auto flex items-center justify-center px-2 md:px-4"
           initial={imgInitial}
           animate={inView ? imgAnimate : imgInitial}
-          transition={{ duration: 0.8, ease: 'easeInOut' }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }} // 0.8 → 0.5
         >
           <img
             src={src}
@@ -67,10 +63,10 @@ const SlideWithOverlay = ({ src, text, alignLeft }) => {
 
         {/* Yazı bloğu */}
         <motion.div
-          className="w-full md:w-5/12 h-auto flex items-center justify-center px-2 md:px-6 mt-6 md:mt-0"
+          className="w-full md:w-5/12 h-auto flex items-center justify-center px-2 md:px-6 mt-4 md:mt-0" // biraz üst üste bindirme için mt-4
           initial={textInitial}
           animate={inView ? textAnimate : textInitial}
-          transition={{ delay: 0.2, duration: 0.8, ease: 'easeInOut' }}
+          transition={{ delay: 0.1, duration: 0.5, ease: 'easeInOut' }} // delay 0.2 → 0.1, duration 0.5
         >
           <p className="text-white text-base sm:text-lg md:text-xl leading-relaxed text-center md:text-left">
             {text}
