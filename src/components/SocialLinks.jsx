@@ -51,7 +51,7 @@ export default function SocialSidebar() {
       </style>
 
       <div
-        className="fixed bottom-10 right-4 z-[999] flex flex-col items-end"
+        className="fixed bottom-6 right-4 z-[999] flex flex-col items-end"
         style={{ gap: "0.5rem" }}
       >
         {/* Sosyal ikonlar */}
