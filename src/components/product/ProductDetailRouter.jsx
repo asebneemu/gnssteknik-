@@ -6,6 +6,7 @@ import ThreeDSurveyProductDetailPage from "../../pages/ThreeDSurveyProductDetail
 import BenewakeProductDetailPage from "../../pages/BenewakeProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
 import AutelProductDetailPage from "../../pages/AutelProductDetailPage";
+import GeosunProductDetailPage from "../../pages/GeosunProductDetailPage";
 
 const slugify = (str) =>
   str
@@ -62,6 +63,10 @@ export default function ProductDetailRouter() {
 
   if (brandSlug === "autel") {
     return <AutelProductDetailPage product={product} />;
+  }
+
+  if (brandSlug === "geosun") {
+    return <GeosunProductDetailPage product={product} />;
   }
 
   return <ProductDetailPage product={product} />;
