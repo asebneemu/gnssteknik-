@@ -24,6 +24,7 @@ export default function AutelProductDetailPage({ product }) {
         images={product.images}
         name={product.name}
         metaDescription={product.meta.description}
+        onBuyClick={() => window.open(product.buyUrl, "_blank")}
       />
       {/* Diğer bölümler burada */}
       <AutelZoomSequence

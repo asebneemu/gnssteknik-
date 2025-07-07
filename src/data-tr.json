@@ -3,71 +3,71 @@
     {
       "name": "GNSS",
       "title": "GNSS Teknolojisi: Hassas Konumlandırma",
-      "icon": "navbar-icons/gnss-icon.png",
-      "photo": "/navbar-photos/gnss0.png",
+      "icon": "navbar-icons/gnss-icon.webp",
+      "photo": "/navbar-photos/gnss0.webp",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme sistemlerinin genel adıdır. GPS, GLONASS, Galileo ve BeiDou gibi uydu sistemlerinin birlikte çalışmasıyla, dünya üzerinde her noktada, her an kesin konum belirlemesi yapılabilir. Özellikle RTK ve PPP teknolojileri sayesinde santimetre düzeyinde doğruluk sağlanabilir. GNSS, inşaat, haritacılık, tarım, madencilik, denizcilik, ulaşım, akıllı şehir uygulamaları ve otonom sistemlerde kritik bir rol oynar. GNSS alıcıları, zorlu saha koşullarında bile güvenilir veri sunar. Gerçek zamanlı veri iletimi, yüksek uydu takip kapasitesi ve dayanıklı gövde yapılarıyla hem mobil hem sabit uygulamalarda kullanılır. Büyük ölçekli altyapı projeleri, metro ve tünel çalışmaları, arazi düzenlemeleri ve jeodezik ölçümlerde yüksek doğruluk ve verimlilik sağlar."
     },
     {
       "name": "TOTAL STATION",
       "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
-      "icon": "navbar-icons/tstation.png",
-      "photo": "/navbar-photos/totals.png",
+      "icon": "navbar-icons/tstation.webp",
+      "photo": "/navbar-photos/totals.webp",
       "path": "/total-station",
       "description": "Total Station; lazer, elektronik açı ve mesafe ölçüm cihazlarını bir araya getiren, sahada hızlı ve yüksek doğrulukla veri toplayabilen gelişmiş ölçüm sistemidir. Otomatik hedef tanıma, prizma takibi ve uzaktan veri aktarımı gibi özellikleri sayesinde büyük inşaat projelerinde ve mühendislik uygulamalarında kritik rol oynar. CAD ve BIM sistemlerine kolay veri aktarımı, sahada hatasız ölçüm, hızlı veri kaydı ve gerçek zamanlı doğrulama imkanı sunar. Total Station cihazları, köprü inşaatları, otoyol çalışmaları, tünel kazıları ve baraj projelerinde santimetre altı hassasiyet sağlar. Dayanıklı ve ergonomik tasarımlarıyla her türlü hava ve saha koşulunda kullanılabilir. Entegre yazılımları ile rapor üretimi ve veri analizi süreçlerini hızlandırır."
     },
     {
       "name": "İHA",
       "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
-      "icon": "navbar-icons/iha.png",
-      "photo": "/navbar-photos/iha.jpeg",
+      "icon": "navbar-icons/iha.webp",
+      "photo": "/navbar-photos/iha.webp",
       "path": "/iha",
       "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
     },
     {
       "name": "LİDAR",
       "title": "Lidar Teknolojisi: Yüksek Hassasiyetli 3D Tarama",
-      "icon": "navbar-icons/lidar.png",
-      "photo": "/navbar-photos/lidar4.png  ",
+      "icon": "navbar-icons/lidar.webp",
+      "photo": "/navbar-photos/lidar4.webp  ",
       "path": "/lidar",
       "description": "Lidar (Light Detection and Ranging), lazer ışınlarıyla yüzeyleri tarayarak üç boyutlu nokta bulutları oluşturan ileri seviye bir teknolojidir. Hava ve kara araçlarına monte edilerek geniş alanlarda milimetrik doğrulukta veri toplanabilir. Özellikle orman envanteri, yol projeleri, altyapı planlaması, şehir modellemesi ve madencilik sektörlerinde tercih edilir. Karmaşık arazi yapılarının detaylı analizi, bitki örtüsü altındaki yüzey haritalamaları ve hacim hesapları için ideal bir çözümdür. Toplanan veriler, CAD, GIS ve mühendislik yazılımlarına entegre edilerek 3D analiz ve modelleme süreçlerine katkı sağlar. Hız, doğruluk ve detay seviyesi açısından benzersiz avantajlar sunar."
     },
     {
       "name": "NİVO",
       "title": "Nivo Teknolojisi: Hassas Kot ve Yükseklik Ölçüm Cihazları",
-      "icon": "navbar-icons/nivo.png",
-      "photo": "/navbar-photos/nivo2.png",
+      "icon": "navbar-icons/nivo.webp",
+      "photo": "/navbar-photos/nivo2.webp",
       "path": "/nivo",
       "description": "Nivo, inşaat, altyapı ve mühendislik projelerinde yükseklik farklarını ve kot ölçümlerini hassas şekilde belirlemek için kullanılan profesyonel cihazlardır. Optik ve dijital versiyonları ile farklı kullanıcı ihtiyaçlarına hitap eder. Dijital nivolar, ölçüm sonuçlarını otomatik hesaplar ve anlık ekranda görüntüler. Şantiye uygulamalarında; zemin düzlemesi, şev ölçümü, yol ve köprü eğim kontrolleri gibi kritik alanlarda kullanılır. Titreşim sönümleyici sistemleri ve IP66 koruma sınıfı gövdeleriyle zorlu saha koşullarında uzun süreli dayanıklılık sağlar. Hafif ve taşınabilir yapıları sayesinde sahada hızlı kurulum ve rahat kullanım imkanı sunar."
     },
     {
       "name": "BATİMETRİ",
       "title": "Batimetri Teknolojisi: Su Altı Haritalama ve Derinlik Ölçümü",
-      "icon": "navbar-icons/batimetri.png",
-      "photo": "/navbar-photos/batimetri.png",
+      "icon": "navbar-icons/batimetri.webp",
+      "photo": "/navbar-photos/batimetri.webp",
       "path": "/batimetri",
       "description": "Batimetri, su altı yüzeylerinin derinliklerini ölçmek ve topografik haritalarını çıkarmak için kullanılan ileri seviye bir tekniktir. Tek ışınlı ve çok ışınlı sonar sistemleri ile donatılmış batimetri sistemleri; baraj gölleri, limanlar, nehir yatakları ve deniz alanlarında kullanılır. GNSS entegrasyonu ile birlikte çalışan bu sistemler, koordinatlı derinlik verisi sağlayarak mühendislik projeleri, taşkın analizi, kanal ve liman tasarımları için kritik bilgiler üretir. Canlı veri aktarımı, anlık ekran görüntüleme ve detaylı hacim hesaplama özellikleri sayesinde projelerde zaman kazandırır. Mobil kullanılabilen versiyonları, zorlu deniz koşullarında bile güvenilir sonuçlar sunar."
     },
     {
       "name": "MAKİNE KONTROL",
       "title": "Makine Kontrol Teknolojisi: Şantiye Otomasyonu ve Hassas Kazı",
-      "icon": "navbar-icons/mk.png",
-      "photo": "/navbar-photos/mk.png",
+      "icon": "navbar-icons/mk.webp",
+      "photo": "/navbar-photos/mk.webp",
       "path": "/makine-kontrol",
       "description": "Makine kontrol sistemleri; ekskavatör, dozer ve greyder gibi ağır inşaat makinelerinde kullanılan, otomatik kazı ve dolgu işlemlerini milimetrik hassasiyetle gerçekleştiren sistemlerdir. GNSS ve sensörlerle entegre çalışan bu teknolojiler, 3D proje verileriyle sahaya doğrudan uygulama yapma imkanı sunar. Operasyonlarda hata oranını minimize eder, işçilik maliyetlerinden tasarruf sağlar ve proje süresini kısaltır. Şantiyelerde zaman yönetimini optimize eden makine kontrol sistemleri, canlı ilerleme takibi ve veri kayıt özellikleri ile tüm süreçleri dijital ortamda izlenebilir hale getirir."
     },
     {
       "name": "SENSÖR",
       "title": "Sensör Teknolojisi: Akıllı İzleme ve Veri Toplama Sistemleri",
-      "icon": "navbar-icons/sensor.png",
-      "photo": "/navbar-photos/sensor.png",
+      "icon": "navbar-icons/sensor.webp",
+      "photo": "/navbar-photos/sensor.webp",
       "path": "/sensor",
       "description": "Sensör sistemleri; sıcaklık, nem, basınç, eğim, hareket ve titreşim gibi çevresel ve yapısal verileri anlık olarak toplayan ve işleyen akıllı cihazlardır. IoT altyapısı ile kablosuz veri iletimi yaparak uzaktan izleme imkanı sağlar. Özellikle yapı sağlığı izleme, jeoteknik gözlem, çevresel analizler, tarım ve endüstri sektörlerinde yaygın olarak kullanılır. Uzun pil ömrü, düşük enerji tüketimi ve zorlu saha koşullarına dayanıklı yapıları ile güvenilir veri toplama süreçleri sağlar. Gelişmiş sensör ağları, anlık uyarılar ve otomatik raporlama özellikleriyle projelerin kontrol altında tutulmasına olanak tanır."
     },
     {
       "name": "YAZILIM",
       "title": "Yazılım Teknolojisi: Veri Analiz, Haritalama ve Raporlama",
-      "icon": "navbar-icons/yazilim.png",
+      "icon": "navbar-icons/yazilim.webp",
       "photo": "/navbar-photos/yazilim.webp",
       "path": "/yazilim",
       "description": "Haritalama, veri analiz ve raporlama yazılımları; GNSS, Lidar, İHA ve batimetri sistemlerinden toplanan verileri hızlı ve doğru şekilde işlemek için kullanılır. 3D modelleme, yüzey analizleri, hacim hesaplamaları ve ortofoto üretimi gibi işlemleri tek platformda gerçekleştirme imkanı sunar. CAD ve BIM entegrasyonu sayesinde inşaat ve altyapı projelerinde kolay veri akışı sağlar. Bulut tabanlı veri paylaşımı, otomatik raporlama ve kullanıcı dostu arayüzleri ile saha ve ofis süreçlerini kusursuz şekilde entegre eder. Büyük ölçekli mühendislik projelerinde zaman tasarrufu sağlar ve karar süreçlerini hızlandırır."
@@ -75,7 +75,7 @@
     {
       "name": "AKSESUAR",
       "title": "Aksesuar Teknolojisi: Destekleyici Çözümler",
-      "icon": "navbar-icons/aksesuar.png",
+      "icon": "navbar-icons/aksesuar.webp",
       "photo": "/navbar-photos/aksesuar.webp",
       "path": "/aksesuar",
       "description": "GNSS, Lidar, İHA ve total station gibi ölçüm cihazlarına özel üretilmiş bataryalar, tripodlar, prizma setleri, veri kabloları ve taşıma çantaları; saha çalışmalarının verimliliğini artırır. Yüksek kaliteli ve dayanıklı malzemelerden üretilen aksesuarlar, en zorlu arazi koşullarında bile uzun ömürlü kullanım sağlar. Hızlı kurulum, kolay taşınabilirlik ve ergonomik tasarımları sayesinde saha personeline zaman kazandırır. Bu destekleyici ekipmanlar, veri toplama süreçlerinde kesintisiz performans sağlar ve ölçüm hassasiyetini artırarak saha operasyonlarını daha verimli hale getirir."
@@ -84,7 +84,7 @@
   "newNavbar": [
     {
       "name": "3DSurvey",
-      "icon": "marka-icons/3DSURVEY.png",
+      "icon": "marka-icons/3DSURVEY.webp",
       "path": "/3dsurvey",
       "bannerphotos": [
         {
@@ -105,7 +105,7 @@
     },
     {
       "name": "CHCNAV",
-      "icon": "marka-icons/chcnav.png",
+      "icon": "marka-icons/chcnav.webp",
       "path": "/chcnav",
       "bannerphotos": [
         {
@@ -144,7 +144,7 @@
     },
     {
       "name": "AUTEL",
-      "icon": "marka-icons/autel.png",
+      "icon": "marka-icons/autel.webp",
       "path": "/autel",
       "bannerphotos": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "name": "DJI",
-      "icon": "marka-icons/dji.png",
+      "icon": "marka-icons/dji.webp",
       "path": "/dji",
       "bannerphotos": [
         {
@@ -190,14 +190,14 @@
 
     {
       "name": "STEC",
-      "icon": "marka-icons/stec.png",
+      "icon": "marka-icons/stec.webp",
       "path": "/stec",
       "bannerphotos": [
-        { "type": "image", "src": "marka-photos/stec-banner-p1.JPG" },
-        { "type": "image", "src": "marka-photos/stec-banner-p.jpg" },
-        { "type": "image", "src": "marka-photos/stec-banner.jpg" },
-        { "type": "image", "src": "marka-photos/stec-banner-p2.JPG" },
-        { "type": "image", "src": "marka-photos/stec-banner-p3.JPG" }
+        { "type": "image", "src": "marka-photos/stec-banner-p1.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p2.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p3.webp" }
       ],
       "banner-description": "İleri Teknoloji Çözümler",
       "banner-url": "https://www.gnssmarketim.com/marka/stec",
@@ -205,10 +205,10 @@
     },
     {
       "name": "SENCEIVE",
-      "icon": "marka-icons/senceive.png",
+      "icon": "marka-icons/senceive.webp",
       "path": "/senceive",
       "bannerphotos": [
-        { "type": "image", "src": "marka-photos/senceive-banner-1.jpeg" },
+        { "type": "image", "src": "marka-photos/senceive-banner-1.webp" },
         {
           "type": "video",
           "src": "marka-photos/senceive-banner-v1.webm",
@@ -221,7 +221,7 @@
     },
     {
       "name": "BENEWAKE",
-      "icon": "marka-icons/benewake.png",
+      "icon": "marka-icons/benewake.webp",
       "path": "/benewake",
       "bannerphotos": [
         {
@@ -236,7 +236,7 @@
     },
     {
       "name": "GEOSUN",
-      "icon": "marka-icons/GEOSUN.png",
+      "icon": "marka-icons/GEOSUN.webp",
       "path": "/geosun",
       "bannerphotos": [
         {
@@ -294,15 +294,15 @@
       "name": "STEC AXIS-10 Robotik Android Total Station",
       "description": "0.5\"/1\" Açı Hassasiyeti, Android İşletim Sistemi, Otomatik Takip Ve Hedef Kilitleme İmkanı Sunan Yüksek Performanslı AXIS 10 Serisi Robotic Total Station.",
       "images": [
-        "/marka-photos/stec/axis-10.0.png",
-        "/marka-photos/stec/axis-10-logo.png",
-        "/marka-photos/stec/axis-10-1.png",
-        "/marka-photos/stec/axis-10-xtrak.png",
+        "/marka-photos/stec/axis-10.0.webp",
+        "/marka-photos/stec/axis-10-logo.webp",
+        "/marka-photos/stec/axis-10-1.webp",
+        "/marka-photos/stec/axis-10-xtrak.webp",
         "/marka-photos/stec/total-s-10-1.webm",
-        "/marka-photos/stec/axis-10-xtrak.png",
-        "/marka-photos/stec/axis-10-android9.png",
-        "/marka-photos/stec/axis-10-2.png",
-        "/marka-photos/stec/axis-10-camera.png",
+        "/marka-photos/stec/axis-10-xtrak.webp",
+        "/marka-photos/stec/axis-10-android9.webp",
+        "/marka-photos/stec/axis-10-2.webp",
+        "/marka-photos/stec/axis-10-camera.webp",
         "/marka-photos/stec/axis-10-3.webm",
         "/marka-photos/stec/axis-10-4.webm"
       ],
@@ -349,17 +349,17 @@
       "name": "STEC AXIS-9 Android Total Station Serisi",
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
       "images": [
-        "/marka-photos/stec/axis-9.0.png",
-        "/marka-photos/stec/axis-9-logo.png",
-        "/marka-photos/stec/axis-9-1.jpg",
-        "/marka-photos/stec/total-s-ikon.png",
-        "/marka-photos/stec/axis-9-2.jpg",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/axis-9-3.jpg",
-        "/marka-photos/stec/axis-9-5.png"
+        "/marka-photos/stec/axis-9.0.webp",
+        "/marka-photos/stec/axis-9-logo.webp",
+        "/marka-photos/stec/axis-9-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-9-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/axis-9-3.webp",
+        "/marka-photos/stec/axis-9-5.webp"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -408,17 +408,17 @@
       "name": "STEC AXIS-4 Total Station Serisi",
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
       "images": [
-        "/marka-photos/stec/axis-4.0.png",
-        "/marka-photos/stec/axis-4-logo.png",
-        "/marka-photos/stec/axis-4-1.png",
-        "/marka-photos/stec/total-s-ikon.png",
+        "/marka-photos/stec/axis-4.0.webp",
+        "/marka-photos/stec/axis-4-logo.webp",
+        "/marka-photos/stec/axis-4-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
         "/marka-photos/stec/axis-4-3.webm",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/axis-4-2.png",
-        "/marka-photos/stec/axis-4-4.png"
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/axis-4-2.webp",
+        "/marka-photos/stec/axis-4-4.webp"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -466,17 +466,17 @@
       "name": "STEC AXIS-3 Total Station",
       "description": "Renkli ve Dokunmatik Ekranıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-3 Total Station.",
       "images": [
-        "/marka-photos/stec/axis-3.0.png",
-        "/marka-photos/stec/axis-3-logo.png",
-        "/marka-photos/stec/axis-3-1.jpg",
-        "/marka-photos/stec/total-s-ikon.png",
-        "/marka-photos/stec/axis-3-2.jpg",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/axis-3-3.jpg",
-        "/marka-photos/stec/axis-3-4.png"
+        "/marka-photos/stec/axis-3.0.webp",
+        "/marka-photos/stec/axis-3-logo.webp",
+        "/marka-photos/stec/axis-3-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-3-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/axis-3-3.webp",
+        "/marka-photos/stec/axis-3-4.webp"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -518,17 +518,17 @@
       "name": "STEC AXIS-2 Total Station",
       "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
       "images": [
-        "/marka-photos/stec/axis-2.0.png",
-        "/marka-photos/stec/axis-2-logo.png",
-        "/marka-photos/stec/axis-2-1.png",
-        "/marka-photos/stec/total-s-ikon.png",
-        "/marka-photos/stec/axis-2-2.jpg",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-2.0.webp",
+        "/marka-photos/stec/axis-2-logo.webp",
+        "/marka-photos/stec/axis-2-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-2-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
         "/marka-photos/stec/axis-2-3.webm",
-        "/marka-photos/stec/axis-2-4.jpg"
+        "/marka-photos/stec/axis-2-4.webp"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -569,15 +569,15 @@
       "name": "STEC AXIS-1 Total Station",
       "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
       "images": [
-        "/marka-photos/stec/axis-1.0.png",
-        "/marka-photos/stec/axis-1-logo.png",
-        "/marka-photos/stec/axis-1-1.png",
-        "/marka-photos/stec/total-s-ikon.png",
-        "/marka-photos/stec/axis-1-2.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/axis-1.0.webp",
+        "/marka-photos/stec/axis-1-logo.webp",
+        "/marka-photos/stec/axis-1-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-1-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
         "/marka-photos/stec/axis-1-3.webm",
         "/marka-photos/stec/axis-1-4.webm"
       ],
@@ -622,16 +622,16 @@
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
       "description": "Gelişmiş lazerli aplikasyon, yüksek güçlü 2 W radyo modem, IMU-RTK eğim telafisi, artırılmış gerçeklik (AR) destekli kamera teknolojisi ve ekstrem saha şartlarına karşı üstün dayanıklılığı bir arada sunan STEC SDi GNSS alıcısı, akıllı haritalama çözümlerinde profesyonellerin yeni gözdesidir.",
       "images": [
-        "/marka-photos/stec/sdi-.png",
-        "/marka-photos/stec/sdi-logo.png",
-        "/marka-photos/stec/sdi-0.jpg",
-        "/marka-photos/stec/laserfix.png",
+        "/marka-photos/stec/sdi-.webp",
+        "/marka-photos/stec/sdi-logo.webp",
+        "/marka-photos/stec/sdi-0.webp",
+        "/marka-photos/stec/laserfix.webp",
         "/marka-photos/stec/sdi-1-v4.webm",
         "/marka-photos/stec/sdi-ikon-1.avif",
         "/marka-photos/stec/sdi-ikon-2.avif",
         "/marka-photos/stec/sdi-ikon-3.avif",
         "/marka-photos/stec/sdi-ikon-4.avif",
-        "/marka-photos/stec/sdi--.jpg",
+        "/marka-photos/stec/sdi--.webp",
         "/marka-photos/stec/sdi-4.webm"
       ],
       "category": "gnss",
@@ -657,6 +657,7 @@
         "İHA sabit modu sayesinde insansız hava araçlarıyla entegrasyon sağlayarak GNSS sistemini havadan destekler."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-sdi-imu-rtk-gnss-alicisi-ar-destekli",
+      "brochureUrl": "/brosur/stec-sdi.pdf",
       "meta": {
         "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, IMU ve Lazerli Ölçüm",
         "description": "STEC SDi GNSS alıcısı, lazer tabanlı EDM ölçümü, AR destekli HDR kamera, IMU-RTK eğim düzeltmesi ve 1.408 kanal desteği ile sektörde yeni bir standart belirliyor. IP68 dayanıklılığı, 15 saatlik batarya süresi ve ileri bağlantı özellikleri sayesinde her türlü zorlu saha koşulunda en yüksek performansı sunar.",
@@ -685,16 +686,16 @@
       "name": "STEC SV1 IMU Kameralı GNSS Alıcısı",
       "description": "2 W Radyo Modem, 15 km RTK Yayını, 15 Saat Yüksek Batarya Ömrüyle SV1 GNSS Alıcısı",
       "images": [
-        "/marka-photos/stec/sv1.0.png",
+        "/marka-photos/stec/sv1.0.webp",
         "/marka-photos/stec/sv1-logo.avif",
-        "/marka-photos/stec/sv1-model.png",
-        "/marka-photos/stec/sv1-3.png",
-        "/marka-photos/stec/sv1-2.JPG",
+        "/marka-photos/stec/sv1-model.webp",
+        "/marka-photos/stec/sv1-3.webp",
+        "/marka-photos/stec/sv1-2.webp",
         "/marka-photos/stec/sv1-ikon-1.avif",
         "/marka-photos/stec/sv1-ikon-2.avif",
         "/marka-photos/stec/sv1-ikon-3.avif",
         "/marka-photos/stec/sv1-ikon-4.avif",
-        "/marka-photos/stec/sv1-4.jpg",
+        "/marka-photos/stec/sv1-4.webp",
         "/marka-photos/stec/sv1-5.webm"
       ],
       "category": "gnss",
@@ -719,6 +720,7 @@
         "RINEX VE NMEA mesajlarını kaydetme."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-sv1-hassas-gnss-alicisi-dayanikli",
+      "brochureUrl": "/brosur/stec-sv1.pdf",
       "meta": {
         "title": "STEC SV1 IMU Kameralı Akıllı GNSS Alıcısı | 15 km RTK Yayını ve Yüksek Hassasiyet",
         "description": "STEC SV1, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti, EZtilt kalibrasyonsuz eğim ölçümü ve IP68 dayanıklılığı ile güvenilir saha ölçümleri sağlar. 15 km radyo modem yayını ve gelişmiş AR aplikasyon özellikleri ile sahada üstün performans sunar.",
@@ -743,17 +745,17 @@
       "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
       "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
       "images": [
-        "/marka-photos/stec/se-lite.0.png",
+        "/marka-photos/stec/se-lite.0.webp",
         "/marka-photos/stec/se-lite.avif",
-        "/marka-photos/stec/se-lite-1.webm",
-        "/marka-photos/stec/fusionar.png",
-        "/marka-photos/stec/se-lite-1.JPG",
+        "/marka-photos/stec/se-lite-01.webm",
+        "/marka-photos/stec/fusionar.webp",
+        "/marka-photos/stec/se-lite-1.webp",
         "/marka-photos/stec/se-lite-ikon-1.avif",
         "/marka-photos/stec/se-lite-ikon-2.avif",
         "/marka-photos/stec/se-lite-ikon-3.avif",
         "/marka-photos/stec/se-lite-ikon-4.avif",
         "/marka-photos/stec/se-lite-2.webm",
-        "/marka-photos/stec/se-lite-3.jpg"
+        "/marka-photos/stec/se-lite-3.webp"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -774,6 +776,7 @@
         "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-se-lite-gnss-alicisi-kompakt-tasarimda-ustun-performans",
+      "brochureUrl": "/brosur/stec-se-lite.pdf",
       "meta": {
         "title": "STEC SE Lite IMU Kameralı GNSS Alıcısı | Kompakt ve Yüksek Performanslı Akıllı GNSS",
         "description": "STEC SE Lite, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti ve kompakt tasarımı ile fiyat/performans dengesi sunan GNSS alıcısıdır. IP68 dayanıklılığı, 15 saat batarya ömrü ve AR aplikasyon özellikleri ile saha çalışmalarında yüksek verimlilik sağlar.",
@@ -798,17 +801,17 @@
       "name": "STEC LiScan50 El Tipi Lazer Tarayıcı",
       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
       "images": [
-        "/marka-photos/stec/liscan50.0.png",
-        "/marka-photos/stec/liscan50-logo.png",
-        "/marka-photos/stec/liscan50--1.png",
-        "/marka-photos/stec/360.png",
-        "/marka-photos/stec/liscan50--2.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/liscan50--3.png",
-        "/marka-photos/stec/liscan50--4.JPG"
+        "/marka-photos/stec/liscan50.0.webp",
+        "/marka-photos/stec/liscan50-logo.webp",
+        "/marka-photos/stec/liscan50--1.webp",
+        "/marka-photos/stec/360.webp",
+        "/marka-photos/stec/liscan50--2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/liscan50--3.webp",
+        "/marka-photos/stec/liscan50--4.webp"
       ],
       "category": "lidar",
       "brand": "stec",
@@ -853,17 +856,17 @@
       "name": "STEC LiScan100 El Tipi Lazer Tarayıcı",
       "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
       "images": [
-        "/marka-photos/stec/liscan100.0.png",
+        "/marka-photos/stec/liscan100.0.webp",
         "/marka-photos/stec/liscan100-logo.avif",
         "/marka-photos/stec/liscan100-1.webm",
         "/marka-photos/stec/stec.avif",
-        "/marka-photos/stec/liscan100-2.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/liscan100-3.jpg",
-        "/marka-photos/stec/liscan100-4.jpg"
+        "/marka-photos/stec/liscan100-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/liscan100-3.webp",
+        "/marka-photos/stec/liscan100-4.webp"
       ],
       "category": "lidar",
       "brand": "stec",
@@ -909,17 +912,17 @@
       "name": "STEC DLS-15 Dijital Nivelman Cihazı",
       "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
       "images": [
-        "/marka-photos/stec/dls-1507.0.png",
-        "/marka-photos/stec/dls15-logo.png",
-        "/marka-photos/stec/dls15-1.jpg",
+        "/marka-photos/stec/dls-1507.0.webp",
+        "/marka-photos/stec/dls15-logo.webp",
+        "/marka-photos/stec/dls15-1.webp",
         "/marka-photos/stec/stec.avif",
-        "/marka-photos/stec/dls15-2.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/dls15-3.png",
-        "/marka-photos/stec/dls15-4.jpg"
+        "/marka-photos/stec/dls15-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/dls15-3.webp",
+        "/marka-photos/stec/dls15-4.webp"
       ],
       "category": "nivo",
       "brand": "stec",
@@ -938,6 +941,7 @@
         "230mm x 150mm x 210mm boyutlarında, 2.5kg ağırlık"
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-dls-15-hassas-dijital-nivo-cozumu",
+      "brochureUrl": "/brosur/stec-dls-15.pdf",
       "meta": {
         "title": "STEC DLS-15 Dijital Nivelman Cihazı | Yüksek Doğruluklu Hassas Seviye Ölçümü",
         "description": "STEC DLS-15, 1.5mm dijital ve 2.0mm optik yükseklik doğruluğu sunan dijital nivelman cihazıdır. 100m ölçüm mesafesi, manyetik kompansatör ve aydınlatmalı LCD ekranıyla hassas saha ölçümleri için idealdir.",
@@ -962,17 +966,17 @@
       "name": "STEC DLS-03 Dijital Nivelman Cihazı",
       "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
       "images": [
-        "/marka-photos/stec/dls03.0.png",
-        "/marka-photos/stec/dls03-logo.png",
-        "/marka-photos/stec/dls03-2.jpg",
+        "/marka-photos/stec/dls03.0.webp",
+        "/marka-photos/stec/dls03-logo.webp",
+        "/marka-photos/stec/dls03-2.webp",
         "/marka-photos/stec/stec.avif",
-        "/marka-photos/stec/dls03-logo.jpg",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/dls03-3.jpg",
-        "/marka-photos/stec/dls03-4.jpg"
+        "/marka-photos/stec/dls03-logo.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/dls03-3.webp",
+        "/marka-photos/stec/dls03-4.webp"
       ],
       "category": "nivo",
       "brand": "stec",
@@ -992,6 +996,7 @@
         "IP65 su ve toz geçirmezlik sertifikası"
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-dls-03-profesyonel-hassas-yukseklik-olcumu",
+      "brochureUrl": "/brosur/stec-dls-03.pdf",
       "meta": {
         "title": "STEC DLS-03 Dijital Nivelman Cihazı | Yüksek Hassasiyetli Hassas Seviye Ölçümü",
         "description": "STEC DLS-03, 0.3mm dijital ve 2.0mm optik yükseklik doğruluğu ile hassas dijital nivelman sağlar. Geniş ölçüm mesafesi, IP65 sertifikası ve yüksek veri depolama kapasitesi ile güvenilir saha ölçümleri için ideal cihazdır.",
@@ -1016,15 +1021,15 @@
       "name": "STEC S POD Akıllı GNSS Kontrol Ünitesi",
       "description": "STEC S POD, ultra kompakt tasarımı ve gelişmiş özellikleri ile sahada veri toplama ve kontrol ünitesi olarak kullanılan bir cihazdır.",
       "images": [
-        "/marka-photos/stec/spod-0.png",
+        "/marka-photos/stec/spod-0.webp",
         "/marka-photos/stec/s-pod-logo.avif",
-        "/marka-photos/stec/s-pod-1.jpg",
-        "/marka-photos/stec/s-pod-2.png",
-        "/marka-photos/stec/s-pod-3.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
+        "/marka-photos/stec/s-pod-1.webp",
+        "/marka-photos/stec/s-pod-2.webp",
+        "/marka-photos/stec/s-pod-3.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
         "/marka-photos/stec/s-pod-4.avif",
         "/marka-photos/stec/s-pod-5.avif"
       ],
@@ -1081,8 +1086,8 @@
       "name": "CHCNAV i93 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Kamera ile Ölçüm-Aplikasyon, 3D Modelleme, 2 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i93 GNSS Alıcısı",
       "images": [
-        "/marka-photos/chcnav/i93-0.png",
-        "/marka-photos/chcnav/i93-1.png"
+        "/marka-photos/chcnav/i93-0.webp",
+        "/marka-photos/chcnav/i93-1.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1134,10 +1139,10 @@
       "name": "CHCNAV i89 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Portatif, Kamera ile Ölçüm-Aplikasyon, 3B Modelleme, 1 W Radyo Modemli, IMU-RTK Eğim Ölçümü ve Üstün Dayanıklılık Sunan i89 GNSS Alıcısı",
       "images": [
-        "/marka-photos/chcnav/i89-0.png",
-        "/marka-photos/chcnav/i89-1.png",
-        "/marka-photos/chcnav/i89-2.png",
-        "/marka-photos/chcnav/i89-3.png"
+        "/marka-photos/chcnav/i89-0.webp",
+        "/marka-photos/chcnav/i89-1.webp",
+        "/marka-photos/chcnav/i89-2.webp",
+        "/marka-photos/chcnav/i89-3.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1187,10 +1192,10 @@
       "name": "CHCNAV i83 IMU CORS-GNSS Alıcısı",
       "description": "2 W Radyo Modem, 15 Km RTK Yayını, 34 Saat Yüksek Batarya Ömrüyle, Yüksek Hassasiyet ve Dayanıklılık Sunan i83 GNSS Alıcısı.",
       "images": [
-        "/marka-photos/chcnav/i83-0.png",
-        "/marka-photos/chcnav/i83-1.png",
-        "/marka-photos/chcnav/i83-2.png",
-        "/marka-photos/chcnav/i83-3.png"
+        "/marka-photos/chcnav/i83-0.webp",
+        "/marka-photos/chcnav/i83-1.webp",
+        "/marka-photos/chcnav/i83-2.webp",
+        "/marka-photos/chcnav/i83-3.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1240,11 +1245,11 @@
       "name": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı",
       "description": "Portatif, Fiyat/Performans, Cors-RTK Gezici, Kameralı Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
       "images": [
-        "/marka-photos/chcnav/i76-0.png",
-        "/marka-photos/chcnav/i76-3.png",
-        "/marka-photos/chcnav/i76-2.png",
-        "/marka-photos/chcnav/i76-1.png",
-        "/marka-photos/chcnav/i76-5.png"
+        "/marka-photos/chcnav/i76-0.webp",
+        "/marka-photos/chcnav/i76-3.webp",
+        "/marka-photos/chcnav/i76-2.webp",
+        "/marka-photos/chcnav/i76-1.webp",
+        "/marka-photos/chcnav/i76-5.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1292,9 +1297,9 @@
       "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
       "description": "Portatif, Fiyat/Performans, 1 W Radyo Modemli, 60° Eğim Ölçüm (IMU), Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
       "images": [
-        "/marka-photos/chcnav/i73+-0.png",
-        "/marka-photos/chcnav/i73+-1.png",
-        "/marka-photos/chcnav/i73+-2.png"
+        "/marka-photos/chcnav/i73+-0.webp",
+        "/marka-photos/chcnav/i73+-1.webp",
+        "/marka-photos/chcnav/i73+-2.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1341,9 +1346,9 @@
       "name": "CHCNAV iBase IMU CORS-GNSS Alıcısı",
       "description": "5 W Radyo Modem, 25 km Menzilli Yüksek Hassasiyet ve Dayanıklılık Sunan iBase GNSS Alıcısı.",
       "images": [
-        "/marka-photos/chcnav/iBase-0.png",
-        "/marka-photos/chcnav/iBase-1.png",
-        "/marka-photos/chcnav/iBase-0.png"
+        "/marka-photos/chcnav/iBase-0.webp",
+        "/marka-photos/chcnav/iBase-1.webp",
+        "/marka-photos/chcnav/iBase-0.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1390,8 +1395,8 @@
       "name": "CHCNAV P5U GNSS Referans CORS İstasyonu",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
       "images": [
-        "/marka-photos/chcnav/p5-0.png",
-        "/marka-photos/chcnav/p5-1.png"
+        "/marka-photos/chcnav/p5-0.webp",
+        "/marka-photos/chcnav/p5-1.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1444,8 +1449,8 @@
       "name": "CHCNAV P5E-Net Referans CORS İstasyonu",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
       "images": [
-        "/marka-photos/chcnav/p5e-0.png",
-        "/marka-photos/chcnav/p5e-1.png"
+        "/marka-photos/chcnav/p5e-0.webp",
+        "/marka-photos/chcnav/p5e-1.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1497,8 +1502,8 @@
       "name": "CHCNAV DL8 Datalink",
       "description": "Uzun mesafe GNSS RTK düzeltmeleri için güvenilir veri iletimi sunan UHF radyo modem.",
       "images": [
-        "/marka-photos/chcnav/dl8-0.png",
-        "/marka-photos/chcnav/dl8-1.png"
+        "/marka-photos/chcnav/dl8-0.webp",
+        "/marka-photos/chcnav/dl8-1.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1555,9 +1560,9 @@
       "name": "CHCNAV HCE600 Android Kontrol Ünitesi",
       "description": "5.5 İnç, 500 Nit HD+ Ekranıyla, 14 Saat Çalışma Süresiyle HCE600 Android Kontrol Ünitesi.",
       "images": [
-        "/marka-photos/chcnav/hce600-0.png",
-        "/marka-photos/chcnav/hce600-1.png",
-        "/marka-photos/chcnav/hce600-2.png"
+        "/marka-photos/chcnav/hce600-0.webp",
+        "/marka-photos/chcnav/hce600-1.webp",
+        "/marka-photos/chcnav/hce600-2.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1617,11 +1622,11 @@
       "name": "CHCNAV LT800H GNSS RTK Android Tablet",
       "description": "8.1 İnçlik Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Android Tablet.",
       "images": [
-        "/marka-photos/chcnav/lt800h-0.png",
-        "/marka-photos/chcnav/lt800h-1.png",
-        "/marka-photos/chcnav/lt800h-2.png",
-        "/marka-photos/chcnav/lt800h-3.png",
-        "/marka-photos/chcnav/lt800h-4.png"
+        "/marka-photos/chcnav/lt800h-0.webp",
+        "/marka-photos/chcnav/lt800h-1.webp",
+        "/marka-photos/chcnav/lt800h-2.webp",
+        "/marka-photos/chcnav/lt800h-3.webp",
+        "/marka-photos/chcnav/lt800h-4.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1682,11 +1687,11 @@
       "name": "CHCNAV LT700H GNSS RTK Android Tablet",
       "description": "8 İnçlik Boyutuyla, 12 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT700H GNSS Akıllı Android Tablet.",
       "images": [
-        "/marka-photos/chcnav/lt700h-0.png",
-        "/marka-photos/chcnav/lt700h-1.png",
-        "/marka-photos/chcnav/lt700h-2.png",
-        "/marka-photos/chcnav/lt700h-3.png",
-        "/marka-photos/chcnav/lt700h-4.png"
+        "/marka-photos/chcnav/lt700h-0.webp",
+        "/marka-photos/chcnav/lt700h-1.webp",
+        "/marka-photos/chcnav/lt700h-2.webp",
+        "/marka-photos/chcnav/lt700h-3.webp",
+        "/marka-photos/chcnav/lt700h-4.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1743,9 +1748,9 @@
       "name": "CHCNAV LT60H GNSS RTK Android Tablet",
       "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
       "images": [
-        "/marka-photos/chcnav/lt60h-0.png",
-        "/marka-photos/chcnav/lt60h-1.png",
-        "/marka-photos/chcnav/lt60h-2.png"
+        "/marka-photos/chcnav/lt60h-0.webp",
+        "/marka-photos/chcnav/lt60h-1.webp",
+        "/marka-photos/chcnav/lt60h-2.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -1806,10 +1811,10 @@
       "name": "CHCNAV CTS-A100 Android Total Station",
       "description": "2'' Açı Hassasiyeti, 1500 m Reklektörsüz Okuma, Android İşletim Sistemli, Yüksek Hassasiyet ve Dayanıklılık Sunan CTS-A100 Total Station",
       "images": [
-        "/marka-photos/chcnav/cts-a100-0.jpg",
-        "/marka-photos/chcnav/cts-a100-1.jpg",
-        "/marka-photos/chcnav/cts-a100-2.jpg",
-        "/marka-photos/chcnav/cts-a100-3.jpg"
+        "/marka-photos/chcnav/cts-a100-0.webp",
+        "/marka-photos/chcnav/cts-a100-1.webp",
+        "/marka-photos/chcnav/cts-a100-2.webp",
+        "/marka-photos/chcnav/cts-a100-3.webp"
       ],
       "category": "total-station",
       "brand": "chcnav",
@@ -1863,8 +1868,8 @@
       "name": "CHCNAV AA9 Havadan LiDAR + RGB Sistemi",
       "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
       "images": [
-        "/marka-photos/chcnav/aa9-1.png",
-        "/marka-photos/chcnav/aa9-1.png"
+        "/marka-photos/chcnav/aa9-1.webp",
+        "/marka-photos/chcnav/aa9-1.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -1919,10 +1924,10 @@
       "name": "CHCNAV AA10 LiDAR Sistemi",
       "description": "8 Geri Dönüş Özelliği, 800 Metreye Kadar Tarama Menzili ve Saniyede 500.000 Nokta Tarama Hızıyla Yüksek Hassasiyetli Veri Toplama İmkanı Sunan AA10 Lidar Kamera.",
       "images": [
-        "/marka-photos/chcnav/aa10-0.png",
-        "/marka-photos/chcnav/aa10-1.png",
-        "/marka-photos/chcnav/aa10-2.png",
-        "/marka-photos/chcnav/aa10-3.png"
+        "/marka-photos/chcnav/aa10-0.webp",
+        "/marka-photos/chcnav/aa10-1.webp",
+        "/marka-photos/chcnav/aa10-2.webp",
+        "/marka-photos/chcnav/aa10-3.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -1973,10 +1978,10 @@
       "name": "CHCNAV AA15 LiDAR Sistemi",
       "description": "Uzun Menzilli Taramalarda 15mm Hassasiyet, Saniyede 2 Milyon Lazer Tarama Hızı ve 600 Çizgi Taraması Sunan, Çeşitli Kamera Aksesuarlarını Destekleyen AA15 LiDAR KAMERA.",
       "images": [
-        "/marka-photos/chcnav/aa15-0.png",
-        "/marka-photos/chcnav/aa15-1.png",
-        "/marka-photos/chcnav/aa15-2.png",
-        "/marka-photos/chcnav/aa15-3.png"
+        "/marka-photos/chcnav/aa15-0.webp",
+        "/marka-photos/chcnav/aa15-1.webp",
+        "/marka-photos/chcnav/aa15-2.webp",
+        "/marka-photos/chcnav/aa15-3.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -2028,11 +2033,11 @@
       "name": "CHCNAV AA450 LiDAR Sistemi",
       "description": "Hafif ve yüksek performanslı AA450 LiDAR sistemi, UAV tabanlı hassas haritalama çözümleri sunar.",
       "images": [
-        "/marka-photos/chcnav/aa450-0.png",
-        "/marka-photos/chcnav/aa450-1.png",
-        "/marka-photos/chcnav/aa450-2.png",
-        "/marka-photos/chcnav/aa450-3.png",
-        "/marka-photos/chcnav/aa450-4.png"
+        "/marka-photos/chcnav/aa450-0.webp",
+        "/marka-photos/chcnav/aa450-1.webp",
+        "/marka-photos/chcnav/aa450-2.webp",
+        "/marka-photos/chcnav/aa450-3.webp",
+        "/marka-photos/chcnav/aa450-4.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -2085,8 +2090,8 @@
       "name": "CHCNAV AlphaUni 1300 LiDAR Sistemi",
       "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
       "images": [
-        "/marka-photos/chcnav/alphauni-0.png",
-        "/marka-photos/chcnav/alphauni-1.png"
+        "/marka-photos/chcnav/alphauni-0.webp",
+        "/marka-photos/chcnav/alphauni-1.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -2139,9 +2144,9 @@
       "name": "CHCNAV AU20 LiDAR Sistemi",
       "description": "Esnek ve yüksek performanslı AU20 LiDAR sistemi, çok platformlu haritalama çözümleri sunar.",
       "images": [
-        "/marka-photos/chcnav/au20-0.png",
-        "/marka-photos/chcnav/au20-1.png",
-        "/marka-photos/chcnav/au20-2.png"
+        "/marka-photos/chcnav/au20-0.webp",
+        "/marka-photos/chcnav/au20-1.webp",
+        "/marka-photos/chcnav/au20-2.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -2194,12 +2199,12 @@
       "name": "CHCNAV RS10 Lidar",
       "description": "İç ve dış mekanlarda yüksek hassasiyetli 3D tarama ve haritalama yapabilen taşınabilir Lidar çözümü.",
       "images": [
-        "/marka-photos/chcnav/rs10-0.png",
-        "/marka-photos/chcnav/rs10-1.png",
-        "/marka-photos/chcnav/rs10-2.png",
-        "/marka-photos/chcnav/rs10-3.png",
-        "/marka-photos/chcnav/rs10-4.png",
-        "/marka-photos/chcnav/rs10-5.png"
+        "/marka-photos/chcnav/rs10-0.webp",
+        "/marka-photos/chcnav/rs10-1.webp",
+        "/marka-photos/chcnav/rs10-2.webp",
+        "/marka-photos/chcnav/rs10-3.webp",
+        "/marka-photos/chcnav/rs10-4.webp",
+        "/marka-photos/chcnav/rs10-5.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -2252,10 +2257,10 @@
       "name": "CHCNAV X500 İnsansız Hava Aracı (İHA)",
       "description": "Yüksek Performans ve Esneklik Sunan X500 İHA, Çok Platformlu Haritalama ve Keşif Çözümleri",
       "images": [
-        "/marka-photos/chcnav/x500-0.png",
-        "/marka-photos/chcnav/x500-1.png",
-        "/marka-photos/chcnav/x500-2.png",
-        "/marka-photos/chcnav/x500-3.png"
+        "/marka-photos/chcnav/x500-0.webp",
+        "/marka-photos/chcnav/x500-1.webp",
+        "/marka-photos/chcnav/x500-2.webp",
+        "/marka-photos/chcnav/x500-3.webp"
       ],
       "category": "iha",
       "brand": "chcnav",
@@ -2301,9 +2306,9 @@
       "name": "CHCNAV C5 İHA Hava Haritalama Kamerası",
       "description": "Hafif ve Yüksek Performanslı C5 Kamera, Hava Haritalama ve Fotogrametrik Uygulamalar İçin Tasarlanmıştır.",
       "images": [
-        "/marka-photos/chcnav/c5-0.png",
-        "/marka-photos/chcnav/c5-1.png",
-        "/marka-photos/chcnav/c5-2.png"
+        "/marka-photos/chcnav/c5-0.webp",
+        "/marka-photos/chcnav/c5-1.webp",
+        "/marka-photos/chcnav/c5-2.webp"
       ],
       "category": "iha",
       "brand": "chcnav",
@@ -2351,9 +2356,9 @@
       "name": "CHCNAV C30 İHA Hava Haritalama Kamerası",
       "description": "Profesyonel Hava Haritalama Çözümleri Sunan C30 Oblik Kamera, Yüksek Çözünürlüklü ve Hassas Çekimler Yapar.",
       "images": [
-        "/marka-photos/chcnav/c30-0.png",
-        "/marka-photos/chcnav/c30-1.png",
-        "/marka-photos/chcnav/c30-2.png"
+        "/marka-photos/chcnav/c30-0.webp",
+        "/marka-photos/chcnav/c30-1.webp",
+        "/marka-photos/chcnav/c30-2.webp"
       ],
       "category": "iha",
       "brand": "chcnav",
@@ -2402,10 +2407,10 @@
       "name": "CHCNAV APACHE 6 Batimetri Cihazı",
       "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
       "images": [
-        "/marka-photos/chcnav/apache6-0.png",
-        "/marka-photos/chcnav/apache6-1.png",
-        "/marka-photos/chcnav/apache6-2.png",
-        "/marka-photos/chcnav/apache6-3.png"
+        "/marka-photos/chcnav/apache6-0.webp",
+        "/marka-photos/chcnav/apache6-1.webp",
+        "/marka-photos/chcnav/apache6-2.webp",
+        "/marka-photos/chcnav/apache6-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2448,10 +2453,10 @@
       "name": "CHCNAV APACHE 4 Batimetri Cihazı",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 4, hidroğrafik ölçümler için optimize edilmiştir.",
       "images": [
-        "/marka-photos/chcnav/apache4-0.png",
-        "/marka-photos/chcnav/apache4-1.png",
-        "/marka-photos/chcnav/apache4-2.png",
-        "/marka-photos/chcnav/apache4-3.png"
+        "/marka-photos/chcnav/apache4-0.webp",
+        "/marka-photos/chcnav/apache4-1.webp",
+        "/marka-photos/chcnav/apache4-2.webp",
+        "/marka-photos/chcnav/apache4-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2494,10 +2499,10 @@
       "name": "CHCNAV APACHE 3 PRO Batimetri Cihazı",
       "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için ideal, yüksek hassasiyetli batimetri çözümüdür.",
       "images": [
-        "/marka-photos/chcnav/apache3pro-0.png",
-        "/marka-photos/chcnav/apache3pro-1.png",
-        "/marka-photos/chcnav/apache3pro-2.png",
-        "/marka-photos/chcnav/apache3pro-3.png"
+        "/marka-photos/chcnav/apache3pro-0.webp",
+        "/marka-photos/chcnav/apache3pro-1.webp",
+        "/marka-photos/chcnav/apache3pro-2.webp",
+        "/marka-photos/chcnav/apache3pro-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2543,9 +2548,9 @@
       "name": "CHCNAV APACHE 3 Batimetri Cihazı",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiş profesyonel batimetri cihazıdır.",
       "images": [
-        "/marka-photos/chcnav/apache3-0.png",
-        "/marka-photos/chcnav/apache3-1.png",
-        "/marka-photos/chcnav/apache3-2.png"
+        "/marka-photos/chcnav/apache3-0.webp",
+        "/marka-photos/chcnav/apache3-1.webp",
+        "/marka-photos/chcnav/apache3-2.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2588,10 +2593,10 @@
       "name": "CHCNAV D270 Hidrografik Sistem",
       "description": "Hassas batimetrik ölçümler ve deniz tabanı haritalama için optimize edilmiş D270 hidrografik sistem.",
       "images": [
-        "/marka-photos/chcnav/d270-0.png",
-        "/marka-photos/chcnav/d270-1.png",
-        "/marka-photos/chcnav/d270-2.png",
-        "/marka-photos/chcnav/d270-3.png"
+        "/marka-photos/chcnav/d270-0.webp",
+        "/marka-photos/chcnav/d270-1.webp",
+        "/marka-photos/chcnav/d270-2.webp",
+        "/marka-photos/chcnav/d270-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2632,10 +2637,10 @@
       "name": "CHCNAV D390 Hidrografik Sistem",
       "description": "Profesyonel batimetrik ölçüm ve denizcilik uygulamaları için yüksek performanslı D390 hidrografik sistem.",
       "images": [
-        "/marka-photos/chcnav/d390-0.png",
-        "/marka-photos/chcnav/d390-1.png",
-        "/marka-photos/chcnav/d390-2.png",
-        "/marka-photos/chcnav/d390-3.png"
+        "/marka-photos/chcnav/d390-0.webp",
+        "/marka-photos/chcnav/d390-1.webp",
+        "/marka-photos/chcnav/d390-2.webp",
+        "/marka-photos/chcnav/d390-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2674,8 +2679,8 @@
       "name": "CHCNAV RS600 Hidrografik Sistem",
       "description": "Akustik doppler akım profili ölçümleri için gelişmiş RS600 hidrografik sistemi.",
       "images": [
-        "/marka-photos/chcnav/rs600-0.png",
-        "/marka-photos/chcnav/rs600-1.png"
+        "/marka-photos/chcnav/rs600-0.webp",
+        "/marka-photos/chcnav/rs600-1.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2716,8 +2721,8 @@
       "name": "CHCNAV RS1200 Hidrografik Sistem",
       "description": "Yüksek hassasiyetli akustik doppler akım profili ölçümleri için gelişmiş RS1200 hidrografik sistemi.",
       "images": [
-        "/marka-photos/chcnav/rs1200-0.png",
-        "/marka-photos/chcnav/rs1200-1.png"
+        "/marka-photos/chcnav/rs1200-0.webp",
+        "/marka-photos/chcnav/rs1200-1.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2758,10 +2763,10 @@
       "name": "CHCNAV HQ-400 Hidrografik Sistem",
       "description": "Çoklu ışınlı eko sondaj teknolojisi ile yüksek hassasiyetli batimetrik ölçümler için tasarlanmış HQ-400 hidrografik sistemi.",
       "images": [
-        "/marka-photos/chcnav/hq-400-0.png",
-        "/marka-photos/chcnav/hq-400-1.png",
-        "/marka-photos/chcnav/hq-400-2.png",
-        "/marka-photos/chcnav/hq-400-3.png"
+        "/marka-photos/chcnav/hq-400-0.webp",
+        "/marka-photos/chcnav/hq-400-1.webp",
+        "/marka-photos/chcnav/hq-400-2.webp",
+        "/marka-photos/chcnav/hq-400-3.webp"
       ],
       "category": "batimetri",
       "brand": "chcnav",
@@ -2803,8 +2808,8 @@
       "title": "CI-710 GNSS + INS Tümleşik Navigasyon Modülü",
       "description": "Yüksek hassasiyetli konumlandırma, yön tayini ve navigasyon çözümleri için GNSS ve IMU teknolojilerini bir araya getiren profesyonel sensör modülü. Endüstriyel standartlarda dayanıklılık ve çoklu arayüz seçenekleriyle otonom sistemler ve hassas uygulamalar için tasarlanmıştır.",
       "images": [
-        "/marka-photos/chcnav/ci-710-0.png",
-        "/marka-photos/chcnav/ci-710-1.png"
+        "/marka-photos/chcnav/ci-710-0.webp",
+        "/marka-photos/chcnav/ci-710-1.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -2848,10 +2853,10 @@
       "name": "CHCNAV PS-2000 SAR Sistemi",
       "description": "Yüksek hassasiyet ve temassız ölçüm kapasitesiyle CHCNAV PS-2000, deformasyon izleme için ideal SAR sistemidir.",
       "images": [
-        "/marka-photos/chcnav/ps2000-0.png",
-        "/marka-photos/chcnav/ps2000-1.png",
-        "/marka-photos/chcnav/ps2000-2.png",
-        "/marka-photos/chcnav/ps2000-3.png"
+        "/marka-photos/chcnav/ps2000-0.webp",
+        "/marka-photos/chcnav/ps2000-1.webp",
+        "/marka-photos/chcnav/ps2000-2.webp",
+        "/marka-photos/chcnav/ps2000-3.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -2897,8 +2902,8 @@
       "name": "CHCNAV CGI-830 GNSS ve IMU Sensörü",
       "description": "CHCNAV CGI-830, gelişmiş GNSS ve IMU teknolojileri ile yüksek hassasiyetli konumlandırma ve yön bulma sağlayan, zorlu saha koşullarına dayanıklı profesyonel sensördür.",
       "images": [
-        "/marka-photos/chcnav/cgi-830-0.png",
-        "/marka-photos/chcnav/cgi-830-1.png"
+        "/marka-photos/chcnav/cgi-830-0.webp",
+        "/marka-photos/chcnav/cgi-830-1.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -2942,9 +2947,9 @@
       "name": "CHCNAV CGI-610 GNSS ve IMU Sensörü",
       "description": "CHCNAV CGI-610, yüksek hassasiyetli GNSS ve IMU özellikleriyle donatılmış, zorlu ortamlarda güvenilir konumlandırma ve izleme çözümleri sunan profesyonel sensördür.",
       "images": [
-        "/marka-photos/chcnav/cgi-610-0.png",
-        "/marka-photos/chcnav/cgi-610-1.png",
-        "/marka-photos/chcnav/cgi-610-2.png"
+        "/marka-photos/chcnav/cgi-610-0.webp",
+        "/marka-photos/chcnav/cgi-610-1.webp",
+        "/marka-photos/chcnav/cgi-610-2.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -2988,8 +2993,8 @@
       "name": "CHCNAV CGI-230 GNSS ve IMU Sensörü",
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü, gelişmiş çoklu uydu desteği ve dayanıklı yapısıyla zorlu saha koşullarında üstün performans sunar.",
       "images": [
-        "/marka-photos/chcnav/cgi-230-1.png",
-        "/marka-photos/chcnav/cgi-230-2.png"
+        "/marka-photos/chcnav/cgi-230-1.webp",
+        "/marka-photos/chcnav/cgi-230-2.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -3035,10 +3040,10 @@
       "name": "CHCNAV H3 GNSS İzleme Alıcısı",
       "description": "Yüksek hassasiyetli ve çok yönlü CHCNAV H3 GNSS izleme alıcısı, gelişmiş uydu takibi ve MEMS sensör entegrasyonu ile güvenilir konumlandırma ve deformasyon izleme sağlar.",
       "images": [
-        "/marka-photos/chcnav/h3-0.png",
-        "/marka-photos/chcnav/h3-1.png",
-        "/marka-photos/chcnav/h3-2.png",
-        "/marka-photos/chcnav/h3-3.png"
+        "/marka-photos/chcnav/h3-0.webp",
+        "/marka-photos/chcnav/h3-1.webp",
+        "/marka-photos/chcnav/h3-2.webp",
+        "/marka-photos/chcnav/h3-3.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -3086,8 +3091,8 @@
       "title": "TX73",
       "description": "CHCNAV TX73, yüksek hassasiyetli GNSS alıcıları ve dayanıklı IMU sensörleriyle donatılmış, kepçe ucu pozisyonunu doğru bir şekilde belirleyerek doğrudan hedef yüzeylere kazı yapmayı sağlayan gelişmiş bir 3D rehberlik sistemidir.",
       "images": [
-        "/marka-photos/chcnav/tx73-1.png",
-        "/marka-photos/chcnav/tx73-2.png"
+        "/marka-photos/chcnav/tx73-1.webp",
+        "/marka-photos/chcnav/tx73-2.webp"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -3134,8 +3139,8 @@
       "name": "CHCNAV TG63",
       "description": "Motor greyderler için 3D otomatik seviye kontrol sistemi.",
       "images": [
-        "/marka-photos/chcnav/tg63-1.png",
-        "/marka-photos/chcnav/tg63-2.png"
+        "/marka-photos/chcnav/tg63-1.webp",
+        "/marka-photos/chcnav/tg63-2.webp"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -3175,8 +3180,8 @@
       "name": "CHCNAV TD63 PRO",
       "description": "Dozerler için 3D otomatik kontrol sistemi.",
       "images": [
-        "/marka-photos/chcnav/td63-1.png",
-        "/marka-photos/chcnav/td63-2.png"
+        "/marka-photos/chcnav/td63-1.webp",
+        "/marka-photos/chcnav/td63-2.webp"
       ],
       "category": "makine-kontrol",
       "brand": "chcnav",
@@ -3217,14 +3222,14 @@
       "title": "Gelişmiş Otomasyon, Mobilite ve Uçtan Uca Uyumlu Drone Yer İstasyonu",
       "description": "DJI Dock 3, zorlu çevre koşullarında otomatik drone kalkış, iniş ve şarj işlemleri gerçekleştirebilen, mobil kullanım için optimize edilmiş yeni nesil drone yer istasyonudur. Yüksek rüzgar dayanımı, geniş sıcaklık aralığı ve akıllı görev yönetimi ile kritik endüstriyel uygulamalar için mükemmel bir çözümdür.",
       "images": [
-        "/marka-photos/dji/dock3-1.png",
+        "/marka-photos/dji/dock3-01.webp",
         "/marka-photos/dji/dock3-0.webm",
-        "/marka-photos/dji/dock3-1.jpg",
-        "/marka-photos/dji/dock3-2.jpg",
-        "/marka-photos/dji/dock3-3.jpg",
-        "/marka-photos/dji/dock3-4.jpg",
-        "/marka-photos/dji/dock3-5.jpg",
-        "/marka-photos/dji/dock3-6.jpg"
+        "/marka-photos/dji/dock3-1.webp",
+        "/marka-photos/dji/dock3-2.webp",
+        "/marka-photos/dji/dock3-3.webp",
+        "/marka-photos/dji/dock3-4.webp",
+        "/marka-photos/dji/dock3-5.webp",
+        "/marka-photos/dji/dock3-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3274,14 +3279,14 @@
       "name": "DJI Matrice 4T RTK",
       "description": "Acil durum müdahalesi, kamu güvenliği ve altyapı denetimi için tasarlanan, termal kamera, yüksek çözünürlüklü zoom sistemleri ve lazer ölçüm birimiyle donatılmış profesyonel çok sensörlü drone.",
       "images": [
-        "/marka-photos/dji/m4t-0.png",
-        "/marka-photos/dji/m4t-0.webm",
-        "/marka-photos/dji/m4t-1.jpg",
-        "/marka-photos/dji/m4t-2.jpg",
-        "/marka-photos/dji/m4t-3.jpg",
-        "/marka-photos/dji/m4t-4.jpg",
-        "/marka-photos/dji/m4t-5.jpg",
-        "/marka-photos/dji/m4t-6.jpg"
+        "/marka-photos/dji/m4t-0.webp",
+        "/marka-photos/dji/m4t-00.webm",
+        "/marka-photos/dji/m4t-1.webp",
+        "/marka-photos/dji/m4t-2.webp",
+        "/marka-photos/dji/m4t-3.webp",
+        "/marka-photos/dji/m4t-4.webp",
+        "/marka-photos/dji/m4t-5.webp",
+        "/marka-photos/dji/m4t-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3325,14 +3330,14 @@
       "name": "DJI Matrice 4E RTK",
       "description": "Haritalama, inşaat ve madencilik uygulamaları için optimize edilen, gelişmiş RTK desteği, mekanik global obtüratörlü geniş açılı kamera ve yüksek doğrulukta lazer mesafe ölçüm sistemine sahip endüstriyel dron.",
       "images": [
-        "/marka-photos/dji/m4e-0.png",
-        "/marka-photos/dji/m4e-0.webm",
-        "/marka-photos/dji/m4e-1.jpg",
-        "/marka-photos/dji/m4e-2.jpg",
-        "/marka-photos/dji/m4e-3.jpg",
-        "/marka-photos/dji/m4e-4.jpg",
-        "/marka-photos/dji/m4e-5.jpg",
-        "/marka-photos/dji/m4e-6.jpg"
+        "/marka-photos/dji/m4e-0.webp",
+        "/marka-photos/dji/m4e-00.webm",
+        "/marka-photos/dji/m4e-1.webp",
+        "/marka-photos/dji/m4e-2.webp",
+        "/marka-photos/dji/m4e-3.webp",
+        "/marka-photos/dji/m4e-4.webp",
+        "/marka-photos/dji/m4e-5.webp",
+        "/marka-photos/dji/m4e-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3376,14 +3381,14 @@
       "name": "DJI Matrice 350 RTK",
       "description": "Üst düzey güvenlik ve gelişmiş otonom uçuş özellikleri sunan endüstriyel drone.",
       "images": [
-        "/marka-photos/dji/m350-0.png",
-        "/marka-photos/dji/m350-0.webm",
-        "/marka-photos/dji/m350-0.jpg",
-        "/marka-photos/dji/m350-1.jpg",
-        "/marka-photos/dji/m350-2.jpg",
-        "/marka-photos/dji/m350-3.jpg",
-        "/marka-photos/dji/m350-4.jpg",
-        "/marka-photos/dji/m350-5.jpg"
+        "/marka-photos/dji/m350-00.webp",
+        "/marka-photos/dji/m350-00.webm",
+        "/marka-photos/dji/m350-0.webp",
+        "/marka-photos/dji/m350-1.webp",
+        "/marka-photos/dji/m350-2.webp",
+        "/marka-photos/dji/m350-3.webp",
+        "/marka-photos/dji/m350-4.webp",
+        "/marka-photos/dji/m350-5.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3430,14 +3435,14 @@
       "name": "DJI Zenmuse P1",
       "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
       "images": [
-        "/marka-photos/dji/p1-0.png",
-        "/marka-photos/dji/p1-0.jpg",
-        "/marka-photos/dji/p1-1.jpg",
-        "/marka-photos/dji/p1-2.jpg",
-        "/marka-photos/dji/p1-3.jpg",
-        "/marka-photos/dji/p1-4.jpg",
-        "/marka-photos/dji/p1-5.jpg",
-        "/marka-photos/dji/p1-6.jpg"
+        "/marka-photos/dji/p1-0.webp",
+        "/marka-photos/dji/p1-0.webp",
+        "/marka-photos/dji/p1-1.webp",
+        "/marka-photos/dji/p1-2.webp",
+        "/marka-photos/dji/p1-3.webp",
+        "/marka-photos/dji/p1-4.webp",
+        "/marka-photos/dji/p1-5.webp",
+        "/marka-photos/dji/p1-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3485,14 +3490,14 @@
       "name": "DJI Zenmuse L1",
       "description": "LiDAR modülü, 20 MP RGB kamera ve yüksek doğruluklu IMU ile entegre edilmiş, profesyonel hava haritalama ve 3D modelleme çözümü.",
       "images": [
-        "/marka-photos/dji/l1-0.png",
-        "/marka-photos/dji/l1-0.jpg",
-        "/marka-photos/dji/l1-1.jpg",
-        "/marka-photos/dji/l1-2.jpg",
-        "/marka-photos/dji/l1-3.jpg",
-        "/marka-photos/dji/l1-4.jpg",
-        "/marka-photos/dji/l1-5.jpg",
-        "/marka-photos/dji/l1-6.jpg"
+        "/marka-photos/dji/l1-00.webp",
+        "/marka-photos/dji/l1-0.webp",
+        "/marka-photos/dji/l1-1.webp",
+        "/marka-photos/dji/l1-2.webp",
+        "/marka-photos/dji/l1-3.webp",
+        "/marka-photos/dji/l1-4.webp",
+        "/marka-photos/dji/l1-5.webp",
+        "/marka-photos/dji/l1-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3538,14 +3543,14 @@
       "name": "DJI Zenmuse L2",
       "description": "Yüksek hassasiyetli LiDAR modülü, 20 MP RGB kamera ve IMU ile entegre edilmiş, profesyonel hava haritalama çözümü.",
       "images": [
-        "/marka-photos/dji/l2-0.png",
+        "/marka-photos/dji/l2-0.webp",
         "/marka-photos/dji/l2-0.webm",
-        "/marka-photos/dji/l2-1.jpg",
-        "/marka-photos/dji/l2-2.jpg",
-        "/marka-photos/dji/l2-3.jpg",
-        "/marka-photos/dji/l2-4.jpg",
-        "/marka-photos/dji/l2-5.jpg",
-        "/marka-photos/dji/l2-6.jpg"
+        "/marka-photos/dji/l2-1.webp",
+        "/marka-photos/dji/l2-2.webp",
+        "/marka-photos/dji/l2-3.webp",
+        "/marka-photos/dji/l2-4.webp",
+        "/marka-photos/dji/l2-5.webp",
+        "/marka-photos/dji/l2-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3591,14 +3596,14 @@
       "title": "Gündüz-Gece Hibrit Görüntüleme Yükü",
       "description": "Zenmuse H30 modeli, geniş açılı kamera, yüksek çözünürlüklü zoom kamera, lazer mesafe ölçer ve NIR yardımcı ışık modülü ile donatılmış çoklu sensörlü hibrit gözlem ünitesidir. Termal kamera içermez. Gündüz ve düşük ışık koşullarında üstün performans sunar.",
       "images": [
-        "/marka-photos/dji/h30-1.png",
+        "/marka-photos/dji/h30-01.webp",
         "/marka-photos/dji/h30-0.webm",
-        "/marka-photos/dji/h30-1.jpg",
-        "/marka-photos/dji/h30-2.jpg",
-        "/marka-photos/dji/h30-3.jpg",
-        "/marka-photos/dji/h30-4.jpg",
-        "/marka-photos/dji/h30-5.jpg",
-        "/marka-photos/dji/h30-6.jpg"
+        "/marka-photos/dji/h30-1.webp",
+        "/marka-photos/dji/h30-2.webp",
+        "/marka-photos/dji/h30-3.webp",
+        "/marka-photos/dji/h30-4.webp",
+        "/marka-photos/dji/h30-5.webp",
+        "/marka-photos/dji/h30-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3643,14 +3648,14 @@
       "title": "Termal Kameralı Hibrit Yük Sistemi",
       "description": "Zenmuse H30T modeli; termal kamera, zoom kamera, geniş açılı kamera, lazer mesafe ölçer ve NIR yardımcı ışık ile donatılmıştır. Yüksek çözünürlüklü termal gözlem, gündüz-gece renkli ve IR destekli görüntüleme ile entegre görev yetenekleri sunar.",
       "images": [
-        "/marka-photos/dji/h30t-1.png",
+        "/marka-photos/dji/h30t-01.webp",
         "/marka-photos/dji/h30-0.webm",
-        "/marka-photos/dji/h30t-1.jpg",
-        "/marka-photos/dji/h30t-2.jpg",
-        "/marka-photos/dji/h30t-3.jpg",
-        "/marka-photos/dji/h30t-4.jpg",
-        "/marka-photos/dji/h30t-5.jpg",
-        "/marka-photos/dji/h30t-6.jpg"
+        "/marka-photos/dji/h30t-1.webp",
+        "/marka-photos/dji/h30t-2.webp",
+        "/marka-photos/dji/h30t-3.webp",
+        "/marka-photos/dji/h30t-4.webp",
+        "/marka-photos/dji/h30t-5.webp",
+        "/marka-photos/dji/h30t-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3695,14 +3700,14 @@
       "title": "Gelişmiş Gece Görüş Odaklı Kamera Sistemi",
       "description": "Zenmuse H30N, H20N’in gece görüş avantajlarını temel alarak gece operasyonları için optimize edilmiş sensörlerle donatılmıştır. Termal görüntüleme, zoom, geniş açı, lazer ve NIR aydınlatma özellikleri ile düşük ışık koşullarında üstün performans sunar.",
       "images": [
-        "/marka-photos/dji/h30n-1.png",
+        "/marka-photos/dji/h30n-01.webp",
         "/marka-photos/dji/h30-0.webm",
-        "/marka-photos/dji/h30n-1.jpg",
-        "/marka-photos/dji/h30n-2.jpg",
-        "/marka-photos/dji/h30n-3.jpg",
-        "/marka-photos/dji/h30n-4.jpg",
-        "/marka-photos/dji/h30n-5.jpg",
-        "/marka-photos/dji/h30n-6.jpg"
+        "/marka-photos/dji/h30n-1.webp",
+        "/marka-photos/dji/h30n-2.webp",
+        "/marka-photos/dji/h30n-3.webp",
+        "/marka-photos/dji/h30n-4.webp",
+        "/marka-photos/dji/h30n-5.webp",
+        "/marka-photos/dji/h30n-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3746,14 +3751,14 @@
       "name": "DJI Zenmuse H20",
       "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
       "images": [
-        "/marka-photos/dji/h20-0.png",
-        "/marka-photos/dji/h20-0.jpg",
-        "/marka-photos/dji/h20-1.jpg",
-        "/marka-photos/dji/h20-2.jpg",
-        "/marka-photos/dji/h20-3.jpg",
-        "/marka-photos/dji/h20-4.jpg",
-        "/marka-photos/dji/h20-5.jpg",
-        "/marka-photos/dji/h20-6.jpg"
+        "/marka-photos/dji/h20-00.webp",
+        "/marka-photos/dji/h20-0.webp",
+        "/marka-photos/dji/h20-1.webp",
+        "/marka-photos/dji/h20-2.webp",
+        "/marka-photos/dji/h20-3.webp",
+        "/marka-photos/dji/h20-4.webp",
+        "/marka-photos/dji/h20-5.webp",
+        "/marka-photos/dji/h20-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3797,14 +3802,14 @@
       "name": "DJI Zenmuse H20T",
       "description": "Termal kamera, yüksek çözünürlüklü zoom, geniş açılı kamera ve lazer mesafe ölçer kombinasyonuna sahip hibrit hava görüntüleme sistemi.",
       "images": [
-        "/marka-photos/dji/h20t-0.png",
-        "/marka-photos/dji/h20-0.jpg",
-        "/marka-photos/dji/h20-1.jpg",
-        "/marka-photos/dji/h20-2.jpg",
-        "/marka-photos/dji/h20-3.jpg",
-        "/marka-photos/dji/h20-4.jpg",
-        "/marka-photos/dji/h20-5.jpg",
-        "/marka-photos/dji/h20-6.jpg"
+        "/marka-photos/dji/h20t-0.webp",
+        "/marka-photos/dji/h20-0.webp",
+        "/marka-photos/dji/h20-1.webp",
+        "/marka-photos/dji/h20-2.webp",
+        "/marka-photos/dji/h20-3.webp",
+        "/marka-photos/dji/h20-4.webp",
+        "/marka-photos/dji/h20-5.webp",
+        "/marka-photos/dji/h20-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3852,14 +3857,14 @@
       "name": "DJI Zenmuse H20N",
       "description": "Gece görüş ve termal görüntüleme özellikleriyle donatılmış, düşük ışık koşullarında üstün performans sunan hibrit drone kamerası.",
       "images": [
-        "/marka-photos/dji/h20n-0.png",
-        "/marka-photos/dji/h20-0.jpg",
-        "/marka-photos/dji/h20-1.jpg",
-        "/marka-photos/dji/h20-2.jpg",
-        "/marka-photos/dji/h20-3.jpg",
-        "/marka-photos/dji/h20-4.jpg",
-        "/marka-photos/dji/h20-5.jpg",
-        "/marka-photos/dji/h20-6.jpg"
+        "/marka-photos/dji/h20n-0.webp",
+        "/marka-photos/dji/h20-0.webp",
+        "/marka-photos/dji/h20-1.webp",
+        "/marka-photos/dji/h20-2.webp",
+        "/marka-photos/dji/h20-3.webp",
+        "/marka-photos/dji/h20-4.webp",
+        "/marka-photos/dji/h20-5.webp",
+        "/marka-photos/dji/h20-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3907,14 +3912,14 @@
       "title": "Havadan Lazer Metan Gazı Dedektörü",
       "description": "DJI U10, metan gazı kaçaklarının temassız, hızlı ve yüksek hassasiyetle tespit edilmesini sağlayan ileri lazer sensör sistemidir. DJI drone platformlarıyla tam entegrasyon sayesinde enerji tesisleri, boru hatları, endüstriyel ve yerleşim alanlarında güvenli gaz izleme ve analiz sunar.",
       "images": [
-        "/marka-photos/dji/u10-1.png",
-        "/marka-photos/dji/u10-0.webp",
         "/marka-photos/dji/u10-1.webp",
-        "/marka-photos/dji/u10-2.jpg",
-        "/marka-photos/dji/u10-3.jpg",
-        "/marka-photos/dji/u10-4.jpg",
-        "/marka-photos/dji/u10-5.jpg",
-        "/marka-photos/dji/u10-6.jpg"
+        "/marka-photos/dji/u10-0.webp",
+        "/marka-photos/dji/u10-01.webp",
+        "/marka-photos/dji/u10-2.webp",
+        "/marka-photos/dji/u10-3.webp",
+        "/marka-photos/dji/u10-4.webp",
+        "/marka-photos/dji/u10-5.webp",
+        "/marka-photos/dji/u10-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -3964,14 +3969,14 @@
       "title": "Gece Aydınlatma ve Acil Durum Arama Projeksiyon Sistemi",
       "description": "DJI Zenmuse S1, düşük enerji tüketimiyle maksimum parlaklık sağlayan ve çeşitli modlarda aydınlatma imkanı sunan güçlü bir arama spot ışığıdır. Gece operasyonları, acil müdahaleler ve altyapı denetimlerinde üstün performans ve esneklik sunar.",
       "images": [
-        "/marka-photos/dji/s1-1.png",
-        "/marka-photos/dji/v1-s1-0.jpg",
-        "/marka-photos/dji/s1-1.jpg",
-        "/marka-photos/dji/v1-s1-2.jpg",
-        "/marka-photos/dji/s1-3.jpg",
-        "/marka-photos/dji/s1-4.jpg",
-        "/marka-photos/dji/s1-5.jpg",
-        "/marka-photos/dji/s1-6.jpg"
+        "/marka-photos/dji/s1-1.webp",
+        "/marka-photos/dji/v1-s1-0.webp",
+        "/marka-photos/dji/s1-1.webp",
+        "/marka-photos/dji/v1-s1-2.webp",
+        "/marka-photos/dji/s1-3.webp",
+        "/marka-photos/dji/s1-4.webp",
+        "/marka-photos/dji/s1-5.webp",
+        "/marka-photos/dji/s1-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4017,14 +4022,14 @@
       "title": "Hedeflenmiş Yüksek Sesli Yayın Sistemi",
       "description": "Zenmuse V1, DJI drone platformları için geliştirilmiş, yüksek ses gücüne ve çok yönlü yayın modlarına sahip, hedeflenmiş sesli yayın sistemi sunan güçlü bir hoparlör modülüdür. Kalabalık yönetimi, kamu güvenliği bilgilendirmesi ve acil müdahale senaryoları için tasarlanmıştır.",
       "images": [
-        "/marka-photos/dji/v1-1.png",
-        "/marka-photos/dji/v1-s1-0.jpg",
-        "/marka-photos/dji/v1-1.jpg",
-        "/marka-photos/dji/v1-s1-2.jpg",
-        "/marka-photos/dji/v1-3.jpg",
-        "/marka-photos/dji/v1-4.jpg",
+        "/marka-photos/dji/v1-1.webp",
+        "/marka-photos/dji/v1-s1-0.webp",
+        "/marka-photos/dji/v1-1.webp",
+        "/marka-photos/dji/v1-s1-2.webp",
+        "/marka-photos/dji/v1-3.webp",
+        "/marka-photos/dji/v1-4.webp",
         "/marka-photos/dji/v1-5.jpeg",
-        "/marka-photos/dji/v1-6.jpg"
+        "/marka-photos/dji/v1-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4069,14 +4074,14 @@
       "title": "Kompakt ve Güçlü Endüstriyel Drone Çözümü",
       "description": "DJI Matrice 30, taşınabilir gövdesi, gelişmiş uçuş güvenliği ve optik sensör sistemleriyle profesyonel görevlerde yüksek verimlilik sunan yeni nesil endüstriyel dronedur.",
       "images": [
-        "/marka-photos/dji/m30-0.png",
-        "/marka-photos/dji/m30-0.webm",
-        "/marka-photos/dji/m30-1.jpg",
-        "/marka-photos/dji/m30-2.jpg",
-        "/marka-photos/dji/m30-3.jpg",
-        "/marka-photos/dji/m30-4.jpg",
-        "/marka-photos/dji/m30-5.jpg",
-        "/marka-photos/dji/m30-6.jpg"
+        "/marka-photos/dji/m30-0.webp",
+        "/marka-photos/dji/m30-00.webm",
+        "/marka-photos/dji/m30-1.webp",
+        "/marka-photos/dji/m30-2.webp",
+        "/marka-photos/dji/m30-3.webp",
+        "/marka-photos/dji/m30-4.webp",
+        "/marka-photos/dji/m30-5.webp",
+        "/marka-photos/dji/m30-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4121,14 +4126,14 @@
       "title": "Entegre Termal Kameralı Gelişmiş Endüstriyel Drone",
       "description": "DJI Matrice 30T, M30 modelinin termal kamera ile zenginleştirilmiş versiyonudur. Termal görüntüleme kabiliyeti ile arama kurtarma, denetim ve güvenlik uygulamalarında ideal çözümler sunar.",
       "images": [
-        "/marka-photos/dji/m30t-0.png",
-        "/marka-photos/dji/m30-0.webm",
-        "/marka-photos/dji/m30t-1.jpg",
-        "/marka-photos/dji/m30t-2.jpg",
-        "/marka-photos/dji/m30t-3.jpg",
-        "/marka-photos/dji/m30t-4.jpg",
-        "/marka-photos/dji/m30t-5.jpg",
-        "/marka-photos/dji/m30t-6.jpg"
+        "/marka-photos/dji/m30t-0.webp",
+        "/marka-photos/dji/m30-00.webm",
+        "/marka-photos/dji/m30t-1.webp",
+        "/marka-photos/dji/m30t-2.webp",
+        "/marka-photos/dji/m30t-3.webp",
+        "/marka-photos/dji/m30t-4.webp",
+        "/marka-photos/dji/m30t-5.webp",
+        "/marka-photos/dji/m30t-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4171,7 +4176,7 @@
       "name": "Matrice 4D",
       "description": "Matrice 4D, zorlu hava koşullarında ve karmaşık görevlerde yüksek hassasiyetle çalışan, güçlü sensör entegrasyonu ve gelişmiş uçuş sistemleriyle donatılmış profesyonel bir drone çözümüdür.",
       "images": [
-        "/marka-photos/dji/matrice4d-1.png",
+        "/marka-photos/dji/matrice4d-1.webp",
         "/marka-photos/dji/m4d-0.webp",
         "/marka-photos/dji/m4d-1.webp",
         "/marka-photos/dji/m4d-2.webp",
@@ -4228,7 +4233,7 @@
       "name": "Matrice 4TD",
       "description": "Matrice 4TD, lidar ve yüksek çözünürlüklü kamera entegrasyonu ile güçlü veri toplama ve analiz kapasitesine sahip, profesyonel bir drone çözümüdür.",
       "images": [
-        "/marka-photos/dji/matrice4dt-1.png",
+        "/marka-photos/dji/matrice4dt-1.webp",
         "/marka-photos/dji/m4dt-0.webp",
         "/marka-photos/dji/m4dt-1.webp",
         "/marka-photos/dji/m4dt-2.webp",
@@ -4282,14 +4287,14 @@
       "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
       "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
       "images": [
-        "/marka-photos/dji/m3e-0.png",
+        "/marka-photos/dji/m3e-0.webp",
         "/marka-photos/dji/m3e-0.webm",
-        "/marka-photos/dji/m3e-1.jpg",
-        "/marka-photos/dji/m3e-2.jpg",
-        "/marka-photos/dji/m3e-3.png",
-        "/marka-photos/dji/m3e-4.png",
-        "/marka-photos/dji/m3e-5.png",
-        "/marka-photos/dji/m3e-6.png"
+        "/marka-photos/dji/m3e-1.webp",
+        "/marka-photos/dji/m3e-2.webp",
+        "/marka-photos/dji/m3e-3.webp",
+        "/marka-photos/dji/m3e-4.webp",
+        "/marka-photos/dji/m3e-5.webp",
+        "/marka-photos/dji/m3e-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4334,14 +4339,14 @@
       "name": "DJI Mavic 3 Thermal (M3T RTK)",
       "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
       "images": [
-        "/marka-photos/dji/m3t-0.png",
-        "/marka-photos/dji/m3t-0.webm",
-        "/marka-photos/dji/m3t-1.jpg",
-        "/marka-photos/dji/m3t-2.jpg",
-        "/marka-photos/dji/m3t-3.jpg",
-        "/marka-photos/dji/m3t-4.jpg",
-        "/marka-photos/dji/m3t-5.jpg",
-        "/marka-photos/dji/m3t-6.jpg"
+        "/marka-photos/dji/m3t-0.webp",
+        "/marka-photos/dji/m3t-00.webm",
+        "/marka-photos/dji/m3t-1.webp",
+        "/marka-photos/dji/m3t-2.webp",
+        "/marka-photos/dji/m3t-3.webp",
+        "/marka-photos/dji/m3t-4.webp",
+        "/marka-photos/dji/m3t-5.webp",
+        "/marka-photos/dji/m3t-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4393,14 +4398,14 @@
       "name": "DJI Mavic 3 Multispectral (M3M)",
       "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
       "images": [
-        "/marka-photos/dji/m3m-0.png",
-        "/marka-photos/dji/m3m-0.webm",
-        "/marka-photos/dji/m3m-1.jpg",
-        "/marka-photos/dji/m3m-2.jpg",
-        "/marka-photos/dji/m3m-3.jpg",
-        "/marka-photos/dji/m3m-4.jpg",
-        "/marka-photos/dji/m3m-5.png",
-        "/marka-photos/dji/m3m-6.jpg"
+        "/marka-photos/dji/m3m-0.webp",
+        "/marka-photos/dji/m3m-00.webm",
+        "/marka-photos/dji/m3m-1.webp",
+        "/marka-photos/dji/m3m-2.webp",
+        "/marka-photos/dji/m3m-3.webp",
+        "/marka-photos/dji/m3m-4.webp",
+        "/marka-photos/dji/m3m-5.webp",
+        "/marka-photos/dji/m3m-6.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -4453,16 +4458,16 @@
       "title": "Termal ve 8K Görüntüleme Özellikli Gelişmiş Drone",
       "description": "Termal kamera ve 8K görsel kamera ile donatılan EVO II Dual 640T V3, profesyonel havadan görüntüleme ve endüstriyel görevlerde yüksek hassasiyet ve uçuş kararlılığı sunar.",
       "images": [
-        "/marka-photos/autel/evo2dual640t-v3-0.png",
-        "/marka-photos/autel/evo2dual-1.jpg",
-        "/marka-photos/autel/evo2dual-logo.png",
-        "/marka-photos/autel/evo2dual-ikon-1.png",
-        "/marka-photos/autel/evo2dual-ikon-2.png",
-        "/marka-photos/autel/evo2dual-ikon-3.png",
-        "/marka-photos/autel/evo2dual-2.png",
-        "/marka-photos/autel/evo2dual-4.png",
-        "/marka-photos/autel/evo2dual-3.jpg",
-        "/marka-photos/autel/evo2dual-6.jpg"
+        "/marka-photos/autel/evo2dual640t-v3-0.webp",
+        "/marka-photos/autel/evo2dual-1.webp",
+        "/marka-photos/autel/evo2dual-logo.webp",
+        "/marka-photos/autel/evo2dual-ikon-1.webp",
+        "/marka-photos/autel/evo2dual-ikon-2.webp",
+        "/marka-photos/autel/evo2dual-ikon-3.webp",
+        "/marka-photos/autel/evo2dual-2.webp",
+        "/marka-photos/autel/evo2dual-4.webp",
+        "/marka-photos/autel/evo2dual-3.webp",
+        "/marka-photos/autel/evo2dual-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4519,16 +4524,16 @@
       "title": "Modüler Aksesuarlarla Donatılmış Profesyonel Drone",
       "description": "EVO II Enterprise V3; arama kurtarma, denetim, haritalama ve güvenlik operasyonlarında üstün performans sunan, uzun menzilli ve modüler yapılı profesyonel bir drone sistemidir.",
       "images": [
-        "/marka-photos/autel/evo2-enterprise-v3-0.png",
-        "/marka-photos/autel/evo2e-1.jpg",
-        "/marka-photos/autel/evo2e-logo.png",
-        "/marka-photos/autel/evo2e-ikon-1.png",
-        "/marka-photos/autel/evo2e-ikon-2.png",
-        "/marka-photos/autel/evo2e-ikon-3.png",
-        "/marka-photos/autel/evo2e-2.jpg",
-        "/marka-photos/autel/evo2e-3.jpg",
-        "/marka-photos/autel/evo2e-4.jpg",
-        "/marka-photos/autel/evo2e-6.png"
+        "/marka-photos/autel/evo2-enterprise-v3-0.webp",
+        "/marka-photos/autel/evo2e-1.webp",
+        "/marka-photos/autel/evo2e-logo.webp",
+        "/marka-photos/autel/evo2e-ikon-1.webp",
+        "/marka-photos/autel/evo2e-ikon-2.webp",
+        "/marka-photos/autel/evo2e-ikon-3.webp",
+        "/marka-photos/autel/evo2e-2.webp",
+        "/marka-photos/autel/evo2e-3.webp",
+        "/marka-photos/autel/evo2e-4.webp",
+        "/marka-photos/autel/evo2e-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4583,16 +4588,16 @@
       "title": "6K Görüntüleme ve Gelişmiş Uçuş Özellikli Profesyonel Drone",
       "description": "Autel EVO II Pro V3, 1 inçlik CMOS sensörü, 6K video kayıt desteği ve 40 dakikaya kadar uçuş süresiyle profesyonel görüntüleme ve endüstriyel görevlerde üst düzey performans sunan bir hava platformudur.",
       "images": [
-        "/marka-photos/autel/evo2-pro-v3-0.png",
-        "/marka-photos/autel/evo2-pro-1.png",
-        "/marka-photos/autel/evo2-pro-logo.png",
-        "/marka-photos/autel/evo2-pro-ikon-1.png",
-        "/marka-photos/autel/evo2-pro-ikon-2.png",
-        "/marka-photos/autel/evo2-pro-ikon-3.png",
-        "/marka-photos/autel/evo2-pro-2.jpg",
-        "/marka-photos/autel/evo2-pro-3.png",
-        "/marka-photos/autel/evo2-pro-4.png",
-        "/marka-photos/autel/evo2-pro-6.jpg"
+        "/marka-photos/autel/evo2-pro-v3-0.webp",
+        "/marka-photos/autel/evo2-pro-1.webp",
+        "/marka-photos/autel/evo2-pro-logo.webp",
+        "/marka-photos/autel/evo2-pro-ikon-1.webp",
+        "/marka-photos/autel/evo2-pro-ikon-2.webp",
+        "/marka-photos/autel/evo2-pro-ikon-3.webp",
+        "/marka-photos/autel/evo2-pro-2.webp",
+        "/marka-photos/autel/evo2-pro-3.webp",
+        "/marka-photos/autel/evo2-pro-4.webp",
+        "/marka-photos/autel/evo2-pro-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4645,16 +4650,16 @@
       "title": "RTK Destekli Hassas Konumlandırma Drone'u",
       "description": "EVO II RTK V3, santimetre seviyesinde konum doğruluğu sağlayan gelişmiş RTK modülü, uzun uçuş süresi ve çok yönlü görev modları ile haritalama, ölçüm ve endüstriyel analizlerde üst düzey performans sunar.",
       "images": [
-        "/marka-photos/autel/evo2-rtk-v3-0.png",
-        "/marka-photos/autel/evo2-rtk-1.jpg",
-        "/marka-photos/autel/evo2-rtk-logo.png",
-        "/marka-photos/autel/evo2-rtk-ikon-1.png",
-        "/marka-photos/autel/evo2-rtk-ikon-2.png",
-        "/marka-photos/autel/evo2-rtk-ikon-3.png",
-        "/marka-photos/autel/evo2-rtk-2.png",
-        "/marka-photos/autel/evo2-rtk-3.png",
-        "/marka-photos/autel/evo2-rtk-4.jpg",
-        "/marka-photos/autel/evo2-rtk-6.png"
+        "/marka-photos/autel/evo2-rtk-v3-0.webp",
+        "/marka-photos/autel/evo2-rtk-1.webp",
+        "/marka-photos/autel/evo2-rtk-logo.webp",
+        "/marka-photos/autel/evo2-rtk-ikon-1.webp",
+        "/marka-photos/autel/evo2-rtk-ikon-2.webp",
+        "/marka-photos/autel/evo2-rtk-ikon-3.webp",
+        "/marka-photos/autel/evo2-rtk-2.webp",
+        "/marka-photos/autel/evo2-rtk-3.webp",
+        "/marka-photos/autel/evo2-rtk-4.webp",
+        "/marka-photos/autel/evo2-rtk-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4709,16 +4714,16 @@
       "title": "EVO Max 4N",
       "description": "Gece görüş, termal görüntüleme ve düşük ışıkta yüksek hassasiyet sunan profesyonel keşif drone’u.",
       "images": [
-        "/marka-photos/autel/evo-max-4n-0.png",
+        "/marka-photos/autel/evo-max-4n-0.webp",
         "/marka-photos/autel/evo-max-4n-1.mp4",
         "/marka-photos/autel/evo-max-4n-logo.svg",
         "/marka-photos/autel/evo-max-4n-ikon-1.svg",
         "/marka-photos/autel/evo-max-4n-ikon-2.svg",
         "/marka-photos/autel/evo-max-4n-ikon-3.svg",
-        "/marka-photos/autel/evo-max-4n-2.png",
-        "/marka-photos/autel/evo-max-4n-3.png",
-        "/marka-photos/autel/evo-max-4n-4.png",
-        "/marka-photos/autel/evo-max-4n-6.png"
+        "/marka-photos/autel/evo-max-4n-2.webp",
+        "/marka-photos/autel/evo-max-4n-3.webp",
+        "/marka-photos/autel/evo-max-4n-4.webp",
+        "/marka-photos/autel/evo-max-4n-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4774,7 +4779,7 @@
       "title": "EVO Max 4T",
       "description": "Zoom, geniş açı, termal kamera ve lazer mesafe ölçer entegreli profesyonel görev dronu.",
       "images": [
-        "/marka-photos/autel/evo-max-4t-0.png",
+        "/marka-photos/autel/evo-max-4t-0.webp",
         "/marka-photos/autel/evo-max-4t-1.webp",
         "/marka-photos/autel/evo-max-4t-logo.svg",
         "/marka-photos/autel/evo-max-4t-ikon-1.svg",
@@ -4837,16 +4842,16 @@
       "title": "EVO Max 4T XE",
       "description": "Profesyonel güvenlik ve keşif görevleri için geliştirilen, çoklu sensörlü üst düzey keşif İHA’sı.",
       "images": [
-        "/marka-photos/autel/evo-max-4n-0.png",
+        "/marka-photos/autel/evo-max-4n-0.webp",
         "/marka-photos/autel/evo-max-4n-1.mp4",
-        "/marka-photos/autel/yok.png",
+        "/marka-photos/autel/yok.webp",
         "/marka-photos/autel/evo-max-4n-ikon-1.svg",
         "/marka-photos/autel/evo-max-4n-ikon-2.svg",
         "/marka-photos/autel/evo-max-4n-ikon-3.svg",
-        "/marka-photos/autel/evo-max-4n-2.png",
-        "/marka-photos/autel/evo-max-4n-3.png",
-        "/marka-photos/autel/evo-max-4n-4.png",
-        "/marka-photos/autel/evo-max-4n-6.png"
+        "/marka-photos/autel/evo-max-4n-2.webp",
+        "/marka-photos/autel/evo-max-4n-3.webp",
+        "/marka-photos/autel/evo-max-4n-4.webp",
+        "/marka-photos/autel/evo-max-4n-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4900,16 +4905,16 @@
       "title": "Alpha",
       "description": "Yüksek taşıma kapasitesi ve uzun uçuş süresi sunan, profesyonel endüstriyel çok rotorlu İHA.",
       "images": [
-        "/marka-photos/autel/alpha-0.png",
-        "/marka-photos/autel/alpha-1.png",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/alpha-2.png",
-        "/marka-photos/autel/alpha-3.png",
-        "/marka-photos/autel/alpha-4.png",
-        "/marka-photos/autel/alpha-5.jpg"
+        "/marka-photos/autel/alpha-0.webp",
+        "/marka-photos/autel/alpha-1.webp",
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/alpha-2.webp",
+        "/marka-photos/autel/alpha-3.webp",
+        "/marka-photos/autel/alpha-4.webp",
+        "/marka-photos/autel/alpha-5.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -4964,16 +4969,16 @@
       "name": "Autel Dragonfish Pro",
       "description": "180 dakika uçuş süresi ve 30 km iletim menzili sunan profesyonel endüstriyel İHA.",
       "images": [
-        "/marka-photos/autel/dragonfish-pro-0.png",
+        "/marka-photos/autel/dragonfish-pro-0.webp",
         "/marka-photos/autel/dragonfish.mp4",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/dragonfish-2.png",
-        "/marka-photos/autel/dragonfish-3.png",
-        "/marka-photos/autel/dragonfish-4.png",
-        "/marka-photos/autel/dragonfish-5.png"
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/dragonfish-2.webp",
+        "/marka-photos/autel/dragonfish-3.webp",
+        "/marka-photos/autel/dragonfish-4.webp",
+        "/marka-photos/autel/dragonfish-5.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -5028,16 +5033,16 @@
       "name": "Autel Dragonfish Standard",
       "description": "Uzun uçuş süresi, yüksek taşıma kapasitesi ve hassas konumlandırma özelliklerine sahip profesyonel sabit kanatlı İHA.",
       "images": [
-        "/marka-photos/autel/dragonfish-standart-0.png",
+        "/marka-photos/autel/dragonfish-standart-0.webp",
         "/marka-photos/autel/dragonfish.mp4",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/dragonfish-4.png",
-        "/marka-photos/autel/dragonfish-7.png",
-        "/marka-photos/autel/dragonfish-6.png",
-        "/marka-photos/autel/dragonfish-2.png"
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/dragonfish-4.webp",
+        "/marka-photos/autel/dragonfish-7.webp",
+        "/marka-photos/autel/dragonfish-6.webp",
+        "/marka-photos/autel/dragonfish-2.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -5093,16 +5098,16 @@
       "title": "Dragonfish Lite",
       "description": "Endüstriyel uygulamalar için uzun uçuş süresi ve yüksek hassasiyet sunan hibrit sabit kanat drone.",
       "images": [
-        "/marka-photos/autel/dragonfish-lite-0.png",
+        "/marka-photos/autel/dragonfish-lite-0.webp",
         "/marka-photos/autel/dragonfish.mp4",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/dragonfish-3.png",
-        "/marka-photos/autel/dragonfish-5.png",
-        "/marka-photos/autel/dragonfish-4.png",
-        "/marka-photos/autel/dragonfish-6.png"
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/dragonfish-3.webp",
+        "/marka-photos/autel/dragonfish-5.webp",
+        "/marka-photos/autel/dragonfish-4.webp",
+        "/marka-photos/autel/dragonfish-6.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -5155,16 +5160,16 @@
       "title": "Titan",
       "description": "Ağır yük taşıma ve uzun mesafeli görevler için 10 kg taşıma kapasitesi ve 55 dakika uçuş süresine sahip profesyonel çok rotorlu İHA.",
       "images": [
-        "/marka-photos/autel/titan-0.png",
-        "/marka-photos/autel/titan-1.jpg",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/titan-2.jpg",
-        "/marka-photos/autel/titan-3.jpg",
-        "/marka-photos/autel/titan-4.jpg",
-        "/marka-photos/autel/titan-5.jpg"
+        "/marka-photos/autel/titan-0.webp",
+        "/marka-photos/autel/titan-1.webp",
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/titan-2.webp",
+        "/marka-photos/autel/titan-3.webp",
+        "/marka-photos/autel/titan-4.webp",
+        "/marka-photos/autel/titan-5.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -5218,16 +5223,16 @@
       "title": "Horn-X2 Pro Lidar",
       "description": "Endüstriyel ve otonom sistemler için uzun menzilli, yüksek çözünürlüklü Lidar sensörü.",
       "images": [
-        "/marka-photos/benewake/horn-x2-pro.png",
+        "/marka-photos/benewake/horn-x2-pro.webp",
         "/marka-photos/benewake/horn-x2-pro-.mp4",
-        "/marka-photos/benewake/bos.jpg",
-        "/marka-photos/benewake/horn-x2-pro-3.jpg",
-        "/marka-photos/benewake/horn-x2-pro-4.jpg",
-        "/marka-photos/benewake/horn-x2-pro-5.jpg",
-        "/marka-photos/benewake/horn-x2-pro-6.jpg",
-        "/marka-photos/benewake/horn-x2-pro-7.jpg",
-        "/marka-photos/benewake/horn-x2-pro-8.jpg",
-        "/marka-photos/benewake/horn-x2-pro-9.jpg"
+        "/marka-photos/benewake/bos.webp",
+        "/marka-photos/benewake/horn-x2-pro-3.webp",
+        "/marka-photos/benewake/horn-x2-pro-4.webp",
+        "/marka-photos/benewake/horn-x2-pro-5.webp",
+        "/marka-photos/benewake/horn-x2-pro-6.webp",
+        "/marka-photos/benewake/horn-x2-pro-7.webp",
+        "/marka-photos/benewake/horn-x2-pro-8.webp",
+        "/marka-photos/benewake/horn-x2-pro-9.webp"
       ],
       "category": "sensor",
       "brand": "benewake-vp",
@@ -5285,16 +5290,16 @@
       "title": "AD2-S X3 Lidar Sensörü",
       "description": "Akıllı şehirler ve trafik yönetimi için geliştirilmiş, 256 hatlı yüksek çözünürlüklü 3D Lidar sensörü.",
       "images": [
-        "/marka-photos/benewake/ad2s-x3.png",
-        "/marka-photos/benewake/ad2-1.jpg",
-        "/marka-photos/benewake/ad2-2.PNG",
-        "/marka-photos/benewake/ad2-3.png",
-        "/marka-photos/benewake/ad2-4.png",
-        "/marka-photos/benewake/ad2-5.png",
-        "/marka-photos/benewake/ad2-6.jpg",
-        "/marka-photos/benewake/ad2-7.jpg",
-        "/marka-photos/benewake/ad2-8.png",
-        "/marka-photos/benewake/ad2-9.jpeg"
+        "/marka-photos/benewake/ad2s-x3.webp",
+        "/marka-photos/benewake/ad2-1.webp",
+        "/marka-photos/benewake/ad2-2.webp",
+        "/marka-photos/benewake/ad2-3.webp",
+        "/marka-photos/benewake/ad2-4.webp",
+        "/marka-photos/benewake/ad2-5.webp",
+        "/marka-photos/benewake/ad2-6.webp",
+        "/marka-photos/benewake/ad2-7.webp",
+        "/marka-photos/benewake/ad2-8.webp",
+        "/marka-photos/benewake/ad2-9.webp"
       ],
       "category": "sensor",
       "brand": "benewake-vp",
@@ -5360,9 +5365,9 @@
       "title": "TF02-i Lidar Sensörü",
       "description": "40 metreye kadar ölçüm yapabilen, IP65 korumalı ve hızlı yanıt süreli, drone ve akıllı ulaşım sistemleri için geliştirilmiş LiDAR sensörü.",
       "images": [
-        "/marka-photos/benewake/tf02i-0.png",
-        "/marka-photos/benewake/tf02i-1.png",
-        "/marka-photos/benewake/tf02i-2.png"
+        "/marka-photos/benewake/tf02i-0.webp",
+        "/marka-photos/benewake/tf02i-1.webp",
+        "/marka-photos/benewake/tf02i-2.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5415,8 +5420,8 @@
       "title": "TF03 Lidar Sensörü",
       "description": "180 metreye kadar uzun menzil algılama kapasitesi, IP67 koruma sınıfı ve zorlu çevre koşullarına dayanıklılığıyla drone, akıllı ulaşım ve endüstriyel uygulamalar için geliştirilmiş yüksek hassasiyetli LiDAR sensörü.",
       "images": [
-        "/marka-photos/benewake/tf03.png",
-        "/marka-photos/benewake/tf03.png"
+        "/marka-photos/benewake/tf03.webp",
+        "/marka-photos/benewake/tf03.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5471,8 +5476,8 @@
       "title": "TF-NOVA Lidar Sensörü",
       "description": "Kompakt yapıda, 40 metre algılama mesafesi ve yüksek hassasiyet sağlayan, drone, robotik ve endüstriyel otomasyon uygulamaları için tasarlanmış Lidar sensörü.",
       "images": [
-        "/marka-photos/benewake/tfnova.png",
-        "/marka-photos/benewake/tfnova.png"
+        "/marka-photos/benewake/tfnova.webp",
+        "/marka-photos/benewake/tfnova.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5525,8 +5530,8 @@
       "title": "TFS20-L Lidar Sensörü",
       "description": "20 metreye kadar algılama mesafesi, ultra kompakt tasarımı ve düşük güç tüketimi ile drone, robotik ve endüstriyel uygulamalar için ideal LiDAR sensörü.",
       "images": [
-        "/marka-photos/benewake/tfs20l.png",
-        "/marka-photos/benewake/tfs20l.png"
+        "/marka-photos/benewake/tfs20l.webp",
+        "/marka-photos/benewake/tfs20l.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5578,8 +5583,8 @@
       "title": "TFA170-L Lidar Sensörü",
       "description": "170 metre algılama kapasitesi, ultra hafif tasarımı ve yüksek doğruluğu ile drone ve endüstriyel uygulamalarda hassas mesafe ölçümü sağlayan LiDAR sensörü.",
       "images": [
-        "/marka-photos/benewake/tfa170l.png",
-        "/marka-photos/benewake/tfa170l.png"
+        "/marka-photos/benewake/tfa170l.webp",
+        "/marka-photos/benewake/tfa170l.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5632,8 +5637,8 @@
       "title": "TFmini-S Mikro LiDAR Sensörü",
       "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı mikro LiDAR sensörü. Gelişmiş çerçeve hızı ve çok yönlü arayüzleriyle drone, robotik ve IoT uygulamalarında güvenilir mesafe ölçümü sağlar.",
       "images": [
-        "/marka-photos/benewake/tfminis.png",
-        "/marka-photos/benewake/tfminis.png"
+        "/marka-photos/benewake/tfminis.webp",
+        "/marka-photos/benewake/tfminis.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5687,8 +5692,8 @@
       "title": "TFmini Plus LiDAR Sensörü",
       "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı LiDAR sensörü. Gelişmiş çerçeve hızı, yüksek hassasiyeti ve IP65 koruma sınıfıyla drone, robotik ve IoT uygulamalarında güvenilir mesafe ölçümü sağlar.",
       "images": [
-        "/marka-photos/benewake/tfminiplus.png",
-        "/marka-photos/benewake/tfminiplus.png"
+        "/marka-photos/benewake/tfminiplus.webp",
+        "/marka-photos/benewake/tfminiplus.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5742,8 +5747,8 @@
       "title": "TFmini-i Endüstriyel LiDAR Sensörü",
       "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve dayanıklı tasarımlı endüstriyel LiDAR sensörü. IP65 koruma sınıfı, geniş giriş voltajı aralığı ve esnek arayüzleriyle endüstriyel uygulamalarda güvenilir mesafe ölçümü sağlar.",
       "images": [
-        "/marka-photos/benewake/tfmini-i.png",
-        "/marka-photos/benewake/tfmini-i.png"
+        "/marka-photos/benewake/tfmini-i.webp",
+        "/marka-photos/benewake/tfmini-i.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5797,9 +5802,9 @@
       "title": "TF02-Pro Orta Menzilli LiDAR Sensörü",
       "description": "0.1 m ile 40 m arasında ölçüm yapabilen, kompakt ve dayanıklı orta menzilli LiDAR sensörü. IP65 koruma sınıfı, yüksek hassasiyeti ve esnek arayüzleriyle drone, akıllı ulaşım ve tarım uygulamalarında güvenilir mesafe ölçümü sağlar.",
       "images": [
-        "/marka-photos/benewake/tf02-pro-0.png",
-        "/marka-photos/benewake/tf02-pro-0.png",
-        "/marka-photos/benewake/tf02-pro-1.png"
+        "/marka-photos/benewake/tf02-pro-0.webp",
+        "/marka-photos/benewake/tf02-pro-0.webp",
+        "/marka-photos/benewake/tf02-pro-1.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5853,8 +5858,8 @@
       "title": "TF-Luna Kompakt LiDAR Sensörü",
       "description": "0.2 m ile 8 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı LiDAR sensörü. Yüksek hassasiyeti, düşük güç tüketimi ve esnek arayüzleriyle robotik, drone ve endüstriyel otomasyon uygulamalarında güvenilir mesafe ölçümü sağlar.",
       "images": [
-        "/marka-photos/benewake/tf-luna-0.png",
-        "/marka-photos/benewake/tf-luna-0.png"
+        "/marka-photos/benewake/tf-luna-0.webp",
+        "/marka-photos/benewake/tf-luna-0.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5908,9 +5913,9 @@
       "title": "TF02-Pro-W Endüstriyel LiDAR Sensörü",
       "description": "Endüstriyel hacim izleme ve seviye tespiti için tasarlanmış, kendi kendini temizleme özelliğine sahip dayanıklı LiDAR sensörü. Yüksek doğruluk, geniş tarama frekansı ve esnek bağlantı arayüzleri ile zorlu ortamlarda güvenilir ölçüm sağlar.",
       "images": [
-        "/marka-photos/benewake/tf02-pro-w-0.png",
-        "/marka-photos/benewake/tf02-pro-w-0.png",
-        "/marka-photos/benewake/tf02-pro-w-1.png"
+        "/marka-photos/benewake/tf02-pro-w-0.webp",
+        "/marka-photos/benewake/tf02-pro-w-0.webp",
+        "/marka-photos/benewake/tf02-pro-w-1.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -5965,9 +5970,9 @@
       "title": "TF350 Uzun Menzilli Endüstriyel LiDAR Sensörü",
       "description": "350 metreye kadar algılama mesafesi, 1 cm çözünürlük ve IP67 koruma standardı ile endüstriyel uygulamalar için geliştirilmiş uzun menzilli LiDAR sensörü. Yüksek hassasiyet ve zorlu koşullara dayanıklı tasarımıyla güvenilir performans sunar.",
       "images": [
-        "/marka-photos/benewake/tf350-0.png",
-        "/marka-photos/benewake/tf350-0.png",
-        "/marka-photos/benewake/tf350-1.png"
+        "/marka-photos/benewake/tf350-0.webp",
+        "/marka-photos/benewake/tf350-0.webp",
+        "/marka-photos/benewake/tf350-1.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -6023,8 +6028,8 @@
       "title": "TFA1500-L Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
       "description": "1500 metreye kadar menzili ve yüksek frekanslı ölçüm yeteneği ile endüstriyel ve mühendislik uygulamaları için tasarlanmış uzun menzilli LiDAR sensörüdür. Kompakt yapısı, düşük güç tüketimi ve hassas veri iletimi özellikleriyle öne çıkar.",
       "images": [
-        "/marka-photos/benewake/tfa1500-l.png",
-        "/marka-photos/benewake/tfa1500-l.png"
+        "/marka-photos/benewake/tfa1500-l.webp",
+        "/marka-photos/benewake/tfa1500-l.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -6079,8 +6084,8 @@
       "title": "TR Serisi Yüksek Performanslı 2D LiDAR Sensörleri",
       "description": "SLAM navigasyonu, engel tespiti ve robotik uygulamalar için tasarlanmış, yüksek hassasiyetli ve dayanıklı 2D LiDAR sensör ailesidir. Geniş görüş açısı, hızlı tarama ve kompakt tasarımıyla profesyonel endüstriyel uygulamalarda güvenilir çözüm sunar.",
       "images": [
-        "/marka-photos/benewake/tr-series-0.png",
-        "/marka-photos/benewake/tr-series-0.png"
+        "/marka-photos/benewake/tr-series-0.webp",
+        "/marka-photos/benewake/tr-series-0.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -6132,16 +6137,16 @@
       "title": "Horn-RT Uzun Menzilli 3D LiDAR Sensörü",
       "description": "Raylı sistem uygulamalarında güvenli ve uzun menzilli 3D algılama sağlayan yüksek performanslı LiDAR sensörüdür. 300 metreye kadar ölçüm, güçlü çevresel dayanıklılık ve hassas hedef tanıma kabiliyeti sunar.",
       "images": [
-        "/marka-photos/benewake/horn-rt.png",
-        "/marka-photos/benewake/horn-rt-1.png",
-        "/marka-photos/benewake/bos.jpg",
-        "/marka-photos/benewake/horn-rt-3.jpg",
-        "/marka-photos/benewake/horn-rt-4.jpg",
-        "/marka-photos/benewake/horn-rt-5.jpg",
-        "/marka-photos/benewake/horn-rt-6.jpg",
-        "/marka-photos/benewake/horn-rt-7.jpg",
-        "/marka-photos/benewake/horn-rt-8.jpg",
-        "/marka-photos/benewake/horn-rt-9.jpg"
+        "/marka-photos/benewake/horn-rt.webp",
+        "/marka-photos/benewake/horn-rt-1.webp",
+        "/marka-photos/benewake/bos.webp",
+        "/marka-photos/benewake/horn-rt-3.webp",
+        "/marka-photos/benewake/horn-rt-4.webp",
+        "/marka-photos/benewake/horn-rt-5.webp",
+        "/marka-photos/benewake/horn-rt-6.webp",
+        "/marka-photos/benewake/horn-rt-7.webp",
+        "/marka-photos/benewake/horn-rt-8.webp",
+        "/marka-photos/benewake/horn-rt-9.webp"
       ],
       "category": "sensor",
       "brand": "benewake-vp",
@@ -6200,8 +6205,8 @@
       "title": "TFA1200 Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
       "description": "1200 metreye kadar menzil sunan, 1550nm dalga boyuna sahip, yüksek hassasiyetli ve göz güvenliğine uygun lazer teknolojisi ile donatılmış uzun menzilli LiDAR sensörüdür. Trafik izleme, çevre güvenliği ve geniş alan haritalama gibi zorlu uygulamalar için idealdir.",
       "images": [
-        "/marka-photos/benewake/tfa1200-0.png",
-        "/marka-photos/benewake/tfa1200-1.png"
+        "/marka-photos/benewake/tfa1200-0.webp",
+        "/marka-photos/benewake/tfa1200-1.webp"
       ],
       "category": "sensor",
       "brand": "benewake",
@@ -6253,9 +6258,9 @@
       "title": "Nano Triaxial Tilt Sensor Node – Hassas ve Kompakt Eğilme Sensörü",
       "description": "Senceive Nano Triaxial Tilt Sensor Node, tüneller, köprüler, binalar ve demiryolu hatları gibi yapılar için yüksek hassasiyetli eğim ölçümü sağlayan, kompakt ve dayanıklı bir kablosuz sensördür. IP68/IP69K koruma sınıfına sahip olup, zorlu çevre koşullarında uzun ömürlü performans sunar.",
       "images": [
-        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-0.png",
-        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-1.png",
-        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-2.png"
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-0.webp",
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-1.webp",
+        "/marka-photos/senceive/nano-triaxial-tilt-sensor-node-2.webp"
       ],
       "category": "sensor",
       "brand": "senceive",
@@ -6304,9 +6309,9 @@
       "title": "Triaxial Tilt Sensor Node – Üç Eksenli Kablosuz Eğilme Sensörü",
       "description": "Senceive Triaxial Tilt Sensor Node, tünel deformasyonu, yapı hareketleri ve demiryolu hatlarındaki eğim değişimlerini izlemek için tasarlanmış, yüksek hassasiyetli üç eksenli kablosuz bir eğim ölçer sensördür. Değişken raporlama hızları ve sağlam tasarımıyla çeşitli uygulamalar için uygundur.",
       "images": [
-        "/marka-photos/senceive/triaxial-tilt-sensor-node-0.png",
-        "/marka-photos/senceive/triaxial-tilt-sensor-node-1.png",
-        "/marka-photos/senceive/triaxial-tilt-sensor-node-2.png"
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-0.webp",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-1.webp",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-2.webp"
       ],
       "category": "sensor",
       "brand": "senceive",
@@ -6355,8 +6360,8 @@
       "title": "Tilt Beam – Kablosuz Eğilme Işını",
       "description": "Senceive Tilt Beam, Triaxial Tilt Sensor Node, NanoPlus veya NanoMacro ile birlikte kullanılan, hafif ve sağlam alüminyum bir ışındır. Herhangi bir yönde monte edilebilir ve tekli veya zincirleme yapılandırmalarda hızlıca kurulabilir.",
       "images": [
-        "/marka-photos/senceive/tilt-beam-0.png",
-        "/marka-photos/senceive/tilt-beam-1.png"
+        "/marka-photos/senceive/tilt-beam-0.webp",
+        "/marka-photos/senceive/tilt-beam-1.webp"
       ],
       "category": "sensor",
       "brand": "senceive",
@@ -6405,8 +6410,8 @@
       "title": "Optical Displacement Sensor Node – Yapı Hareketlerini Yüksek Doğrulukla İzleme",
       "description": "Senceive Optical Displacement Sensor Node, yapı ve altyapılarda yatay/düşey yer değiştirmeleri yüksek doğrulukla ölçmek için kullanılan optik bir sensördür. Kablosuz ve düşük bakım gereksinimiyle saha uygulamaları için idealdir.",
       "images": [
-        "/marka-photos/senceive/ods-0.png",
-        "/marka-photos/senceive/ods-1.png"
+        "/marka-photos/senceive/ods-0.webp",
+        "/marka-photos/senceive/ods-1.webp"
       ],
       "category": "sensor",
       "brand": "senceive",
@@ -6455,8 +6460,8 @@
       "title": "Digital Interface Node – Dijital Veri Toplama ve Otomasyon Çözümü",
       "description": "Senceive Digital Interface Node, dijital çıkışlı sensörleri kablosuz bir ağ üzerinden Senceive'in arka ve ön uç platformlarına bağlayan, IP66/IP67 korumalı, uzun pil ömrüne sahip, veri toplama ve otomasyon çözümüdür.",
       "images": [
-        "/marka-photos/senceive/digital-interface-node-0.png",
-        "/marka-photos/senceive/digital-interface-node-1.png"
+        "/marka-photos/senceive/digital-interface-node-0.webp",
+        "/marka-photos/senceive/digital-interface-node-1.webp"
       ],
       "category": "sensor-interface",
       "brand": "senceive",
@@ -6507,8 +6512,8 @@
       "title": "Crack Sensor Node – Çatlak ve Yapısal Hareket İzleme Çözümü",
       "description": "Senceive Crack Sensor Node, yapıdaki çatlak hareketlerini, genleşme derzi hareketlerini ve kazık ayrılmalarını izlemek için kullanılan, yüksek hassasiyetli, kablosuz bir sensördür. IP66/IP67/IP68 koruma sınıfına sahip olup, zorlu çevre koşullarında güvenilir performans sunar.",
       "images": [
-        "/marka-photos/senceive/crack-sensor-node-0.png",
-        "/marka-photos/senceive/crack-sensor-node-0.png"
+        "/marka-photos/senceive/crack-sensor-node-0.webp",
+        "/marka-photos/senceive/crack-sensor-node-0.webp"
       ],
       "category": "sensor-interface",
       "brand": "senceive",
@@ -6558,9 +6563,9 @@
       "title": "Vibrating Wire Sensor Node – Titreşim Telli Sensör Entegrasyon Çözümü",
       "description": "Senceive Vibrating Wire Sensor Node, çeşitli titreşim telli sensörlerin kablosuz bir izleme sistemine entegre edilmesini sağlayan, yüksek hassasiyetli ve düşük güç tüketimli bir arayüz düğümüdür. Yapısal ve jeoteknik izleme uygulamaları için idealdir.",
       "images": [
-        "/marka-photos/senceive/vibrating-wire-sensor-node-0.png",
-        "/marka-photos/senceive/vibrating-wire-sensor-node-0.png",
-        "/marka-photos/senceive/vibrating-wire-sensor-node-1.png"
+        "/marka-photos/senceive/vibrating-wire-sensor-node-0.webp",
+        "/marka-photos/senceive/vibrating-wire-sensor-node-0.webp",
+        "/marka-photos/senceive/vibrating-wire-sensor-node-1.webp"
       ],
       "category": "sensor-interface",
       "brand": "senceive",
@@ -6610,8 +6615,8 @@
       "title": "FlatMesh 4G Kamera – Uzaktan Görüntüleme Çözümü",
       "description": "Senceive FlatMesh 4G Kamera, uzak veya endüstriyel alanlarda statik görüntüleme için tasarlanmış, güneş enerjisiyle çalışan yüksek çözünürlüklü bir kameradır. Gece veya gündüz, harici aydınlatmaya ihtiyaç duymadan net ve kaliteli siyah-beyaz fotoğraflar çekebilir.",
       "images": [
-        "/marka-photos/senceive/flatmesh-4g-kamera-0.png",
-        "/marka-photos/senceive/flatmesh-4g-kamera-1.png"
+        "/marka-photos/senceive/flatmesh-4g-kamera-0.webp",
+        "/marka-photos/senceive/flatmesh-4g-kamera-1.webp"
       ],
       "category": "camera",
       "brand": "senceive",
@@ -6659,8 +6664,8 @@
       "title": "InfraGuard – Akıllı Hareket Algılama ve Görüntüleme Sistemi",
       "description": "Senceive InfraGuard, ani toprak hareketlerini, heyelanları ve altyapı bozulmalarını erken tespit edebilen, eğim sensörleri ile entegre çalışan akıllı bir kablosuz izleme ve alarm sistemidir. Entegre 4G kameraları sayesinde olay anında görsel kayıt alınmasını da sağlar.",
       "images": [
-        "/marka-photos/senceive/infraguard-0.png",
-        "/marka-photos/senceive/infraguard-0.png"
+        "/marka-photos/senceive/infraguard-0.webp",
+        "/marka-photos/senceive/infraguard-0.webp"
       ],
       "category": "monitoring-system",
       "brand": "senceive",
@@ -6709,8 +6714,8 @@
       "title": "FlatMesh 4G Ağ Geçidi – Gelişmiş Uzaktan Kablosuz Ağ Yönetimi",
       "description": "Senceive FlatMesh 4G Ağ Geçidi, LTE bağlantısı üzerinden WebMonitor’a erişim sağlayan, uzak sahalarda veri aktarımı için optimize edilmiş bir ağ geçididir. Gelişmiş modem desteğiyle daha hızlı ve güvenli iletişim sunar.",
       "images": [
-        "/marka-photos/senceive/flatmesh-4g-gateway-0.png",
-        "/marka-photos/senceive/flatmesh-4g-gateway-1.png"
+        "/marka-photos/senceive/flatmesh-4g-gateway-0.webp",
+        "/marka-photos/senceive/flatmesh-4g-gateway-1.webp"
       ],
       "category": "veri-iletisim",
       "brand": "senceive",
@@ -6757,8 +6762,8 @@
       "title": "FlatMesh RS232 Ağ Geçidi – PC Tabanlı Kablosuz Ağ Yönetimi",
       "description": "Senceive FlatMesh RS232 Ağ Geçidi, internet bağlantısına gerek kalmadan bir bilgisayar aracılığıyla FlatMesh sensör ağını yerel olarak yönetmenizi ve veri kaydı almanızı sağlar.",
       "images": [
-        "/marka-photos/senceive/flatmesh-rs232-gateway-0.png",
-        "/marka-photos/senceive/flatmesh-rs232-gateway-0.png"
+        "/marka-photos/senceive/flatmesh-rs232-gateway-0.webp",
+        "/marka-photos/senceive/flatmesh-rs232-gateway-0.webp"
       ],
       "category": "veri-iletisim",
       "brand": "senceive",
@@ -6805,8 +6810,8 @@
       "title": "FlatMesh USB Ağ Geçidi – PC Tabanlı Kablosuz Ağ Yönetimi",
       "description": "Senceive FlatMesh USB Ağ Geçidi, internet bağlantısına gerek kalmadan bir bilgisayar aracılığıyla FlatMesh sensör ağını USB üzerinden yönetmenizi ve veri kaydı almanızı sağlar.",
       "images": [
-        "/marka-photos/senceive/flatmesh-usb-gateway-0.png",
-        "/marka-photos/senceive/flatmesh-usb-gateway-1.png"
+        "/marka-photos/senceive/flatmesh-usb-gateway-0.webp",
+        "/marka-photos/senceive/flatmesh-usb-gateway-1.webp"
       ],
       "category": "veri-iletisim",
       "brand": "senceive",
@@ -6853,8 +6858,8 @@
       "title": "GeoWAN 4G Ağ Geçidi – Düşük Güçlü Geniş Alan Kablosuz Ağ Erişimi",
       "description": "Senceive GeoWAN Gateway, geniş alan kapsama ihtiyacı olan düşük bant genişlikli uygulamalarda sensör verilerini merkez sistemlere aktarmak için kullanılır. LoRa benzeri düşük güçlü ağlarla çalışır.",
       "images": [
-        "/marka-photos/senceive/geowan-gateway-0.png",
-        "/marka-photos/senceive/geowan-gateway-1.png"
+        "/marka-photos/senceive/geowan-gateway-0.webp",
+        "/marka-photos/senceive/geowan-gateway-1.webp"
       ],
       "category": "veri-iletisim",
       "brand": "senceive",
@@ -6901,8 +6906,8 @@
       "title": "GeoWAN Uydu İletişim Sistemi – Uzak Bölgeler İçin Kablosuz Sensör Ağı Çözümü",
       "description": "Senceive'in GeoWAN Uydu İletişim Sistemi, hücresel sinyalin olmadığı uzak bölgelerde kablosuz sensör ağlarının çalışmasını sağlayan bir çözümdür. Bu sistem, uydu terminali aracılığıyla 100 adede kadar uzak GeoWAN sensörünü destekleyen bir GeoWAN ağ geçidi sunar.",
       "images": [
-        "/marka-photos/senceive/geowan-satellite-communications-0.png",
-        "/marka-photos/senceive/geowan-satellite-communications-0.png"
+        "/marka-photos/senceive/geowan-satellite-communications-0.webp",
+        "/marka-photos/senceive/geowan-satellite-communications-0.webp"
       ],
       "category": "veri-iletisim",
       "brand": "senceive",
@@ -6947,8 +6952,8 @@
       "title": "Senceive.io – Cihaz Yönetimi ve Veri Yönlendirme Platformu",
       "description": "Senceive.io, saha cihazlarının güvenli şekilde yapılandırılması, yönetilmesi ve yönlendirilmesi için geliştirilmiş bulut tabanlı bir platformdur. Kullanıcılar verilerini WebMonitor’a veya kendi yazılımlarına entegre edebilir.",
       "images": [
-        "/marka-photos/senceive/senceive-io-0.png",
-        "/marka-photos/senceive/senceive-io-0.png"
+        "/marka-photos/senceive/senceive-io-0.webp",
+        "/marka-photos/senceive/senceive-io-0.webp"
       ],
       "category": "yazilim",
       "brand": "senceive",
@@ -6994,8 +6999,8 @@
       "title": "WebMonitor – Web Tabanlı Veri Görselleştirme Platformu",
       "description": "WebMonitor, Senceive’in sensörlerinden gelen verileri görsel olarak sunan, kullanıcı dostu ve güçlü analiz yeteneklerine sahip bir platformdur. Harita, grafik ve alarm yönetimi gibi birçok fonksiyonu bir arada sunar.",
       "images": [
-        "/marka-photos/senceive/webmonitor-0.png",
-        "/marka-photos/senceive/webmonitor-0.png"
+        "/marka-photos/senceive/webmonitor-0.webp",
+        "/marka-photos/senceive/webmonitor-0.webp"
       ],
       "category": "yazilim",
       "brand": "senceive",
@@ -7040,8 +7045,8 @@
       "title": "GS-100C+ – Uçuş Tabanlı Giriş Seviyesi LiDAR Tarama Sistemi",
       "description": "GS-100C+, Geosun tarafından geliştirilen, kısa menzilli hava tabanlı LiDAR tarama çözümüdür. Livox Avia lazer tarayıcı, yüksek hassasiyetli IMU ve entegre RGB kamera içerir. Uygun maliyetli yapısı, taşınabilirliği ve yüksek nokta yoğunluklu veri üretimiyle genel haritalama, enerji hattı izleme, madencilik ve şehir modelleme gibi birçok sektörde kullanılır.",
       "images": [
-        "/marka-photos/geosun/gs-100c-0.png",
-        "/marka-photos/geosun/gs-100c-0.png"
+        "/marka-photos/geosun/gs-100c-0.webp",
+        "/marka-photos/geosun/gs-100c-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7089,8 +7094,8 @@
       "title": "GS-100G – Taşınabilir SLAM Destekli Lidar Tarama Sistemi",
       "description": "GS-100G, Geosun tarafından geliştirilen, iç ve dış mekânlarda kullanılabilen, SLAM algoritması destekli taşınabilir bir LiDAR tarama çözümüdür. Ergonomik yapısı, hassasiyet seviyesi ve gerçek zamanlı görüntüleme yetenekleri ile mimari ölçüm, tünel tarama, şehir parkı analizi gibi birçok uygulama alanında güvenilir ve yüksek performanslı veri üretimi sağlar.",
       "images": [
-        "/marka-photos/geosun/gs-100g-0.png",
-        "/marka-photos/geosun/gs-100g-0.png"
+        "/marka-photos/geosun/gs-100g-0.webp",
+        "/marka-photos/geosun/gs-100g-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7138,8 +7143,8 @@
       "title": "GS-130X – Yüksek Penetrasyon ve Hassasiyetli LiDAR Çözümü",
       "description": "GS-130X, Geosun tarafından geliştirilen yüksek hassasiyetli bir LiDAR sistemidir. 360° görüş açısı, 1.280.000 nokta/sn üretimi ve çoklu platform uyumluluğu ile haritalama, enerji hatları denetimi, kültürel miras belgeleme ve zorlu arazi analizlerinde etkin çözümler sunar.",
       "images": [
-        "/marka-photos/geosun/gs-130x-0.png",
-        "/marka-photos/geosun/gs-130x-0.png"
+        "/marka-photos/geosun/gs-130x-0.webp",
+        "/marka-photos/geosun/gs-130x-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7185,8 +7190,8 @@
       "title": "GS-260H – Orta Menzilli, Yüksek Hızlı LiDAR Tarama Çözümü",
       "description": "GS-260H, Geosun tarafından geliştirilen ve 300 metre menzile kadar destek sunan orta menzilli bir LiDAR tarama sistemidir. 3 yansıma (triple echo) desteği, 1.920.000 nokta/sn üretimi ve 26 MP kamera ile senkronize görüntü alma özellikleri sayesinde topoğrafik analiz, ormancılık, enerji hattı denetimi ve şehir planlamasında güçlü bir çözüm sunar.",
       "images": [
-        "/marka-photos/geosun/gs-260h-0.png",
-        "/marka-photos/geosun/gs-260h-0.png"
+        "/marka-photos/geosun/gs-260h-0.webp",
+        "/marka-photos/geosun/gs-260h-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7233,8 +7238,8 @@
       "title": "GS-260X – Profesyonel Seviye UAV LiDAR Tarama Çözümü",
       "description": "GS-260X, 1.1 kg ağırlığında, 300 metre menzilli ve 1.92 milyon nokta/sn üretim kapasitesine sahip profesyonel seviye bir UAV LiDAR sistemidir. Triple echo desteği ve yüksek penetrasyon kabiliyeti ile zorlu doğa koşullarında dahi etkili tarama sağlar. Harita üretimi, ormancılık, şehir modelleme ve altyapı projelerinde üstün performans sunar.",
       "images": [
-        "/marka-photos/geosun/gs-260x-0.png",
-        "/marka-photos/geosun/gs-260x-0.png"
+        "/marka-photos/geosun/gs-260x-0.webp",
+        "/marka-photos/geosun/gs-260x-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7282,8 +7287,8 @@
       "title": "GS-960 – Uzun Menzilli ve Yüksek Penetrasyonlu UAV LiDAR Çözümü",
       "description": "GS-960, Geosun tarafından geliştirilen uzun menzilli ve yüksek hassasiyetli bir UAV LiDAR sistemidir. 750 metreye kadar menzili, 45 MP fotogrametrik kamerası, güçlü IMU sistemi ve 0.5 cm hassasiyeti ile topoğrafik haritalama, ormanlık alan analizi, acil durum haritalama ve su kaynakları yönetiminde profesyonel çözümler sunar.",
       "images": [
-        "/marka-photos/geosun/gs-960-.png",
-        "/marka-photos/geosun/gs-960-0.png"
+        "/marka-photos/geosun/gs-960-.webp",
+        "/marka-photos/geosun/gs-960-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7330,8 +7335,8 @@
       "title": "GS-1500N – Tek Işınlı, Yüksek Menzilli UAV LiDAR Çözümü",
       "description": "GS-1500N, Geosun tarafından geliştirilen, uzun menzilli tek ışınlı bir LiDAR çözümüdür. GNSS ve INS sistemleriyle entegre çalışan bu sistem, 1500 metre menzil, 5 yansıma desteği ve 2 milyon pts/sn tarama hızı ile hassas veri elde etmeyi mümkün kılar. Zorlu topoğrafik koşullarda ve yüksek irtifa haritalama projelerinde kullanılır.",
       "images": [
-        "/marka-photos/geosun/gs-1500n-.png",
-        "/marka-photos/geosun/gs-1500n-0.png"
+        "/marka-photos/geosun/gs-1500n-.webp",
+        "/marka-photos/geosun/gs-1500n-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7375,8 +7380,8 @@
       "title": "GS-2000N – 2000 Metre Menzilli, Yüksek Yoğunluklu UAV LiDAR Sistemi",
       "description": "GS-2000N, Geosun’un yüksek doğruluklu, 2000 metre menzilli profesyonel UAV LiDAR çözümüdür. 7 yansıma, 2 milyon pts/sn üretim, 256 GB hafıza, 45 MP tam kare kamera ve gelişmiş GNSS/IMU sistemleri ile çok geniş alanlarda hassas, yoğun ve kapsamlı 3D veri üretimi sağlar.",
       "images": [
-        "/marka-photos/geosun/gs-2000n-.png",
-        "/marka-photos/geosun/gs-2000n-0.png"
+        "/marka-photos/geosun/gs-2000n-.webp",
+        "/marka-photos/geosun/gs-2000n-0.webp"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7421,20 +7426,20 @@
       "title": "3Dsurvey – Drone Tabanlı Profesyonel Haritalama Yazılımı",
       "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu arayüzüyle saha süresini azaltan, LIDAR uyumlu ve yüksek hassasiyetli sonuçlar üreten güçlü bir fotogrametri yazılımıdır.",
       "images": [
-        "/marka-photos/3dsurvey/3dsurvey-0.png",
+        "/marka-photos/3dsurvey/3dsurvey-0.webp",
         "/marka-photos/3dsurvey/3d-1.svg",
-        "/marka-photos/3dsurvey/3dsurvey-1.png",
+        "/marka-photos/3dsurvey/3dsurvey-1.webp",
         "/marka-photos/3dsurvey/3d-2.svg",
-        "/marka-photos/3dsurvey/3dsurvey-2.png",
+        "/marka-photos/3dsurvey/3dsurvey-2.webp",
         "/marka-photos/3dsurvey/3d-3.svg",
-        "/marka-photos/3dsurvey/3dsurvey-3.png",
+        "/marka-photos/3dsurvey/3dsurvey-3.webp",
         "/marka-photos/3dsurvey/3d-4.svg",
         "/marka-photos/3dsurvey/3dsurvey-4.webp",
-        "/marka-photos/3dsurvey/bos.png",
+        "/marka-photos/3dsurvey/bos.webp",
         "/marka-photos/3dsurvey/3dsurvey-5.webp",
-        "/marka-photos/3dsurvey/bos.png",
+        "/marka-photos/3dsurvey/bos.webp",
         "/marka-photos/3dsurvey/3dsurvey-6.mp4",
-        "/marka-photos/3dsurvey/bos.png"
+        "/marka-photos/3dsurvey/bos.webp"
       ],
       "category": "yazilim",
       "brand": "3dsurvey",
@@ -7490,16 +7495,16 @@
       "title": "FieldMaster",
       "description": "STEC FieldMaster, GNSS ve lazer tabanlı ölçüm cihazlarıyla entegre çalışan, CAD destekli harita çizimi, artırılmış gerçeklikli aplikasyon ve saha odaklı veri toplama işlemlerini kolaylaştıran bir mobil yazılımdır.",
       "images": [
-        "/marka-photos/stec/fieldmaster-1.png",
-        "/marka-photos/stec/fm-logo.png",
+        "/marka-photos/stec/fieldmaster-1.webp",
+        "/marka-photos/stec/fm-logo.webp",
         "/marka-photos/stec/fm-1.webp",
         "/marka-photos/stec/stec-sag.avif",
         "https://static.wixstatic.com/media/b54b30_0183e07069184eae90ff18c13cfb9cbc~mv2.gif",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/bos.png",
-        "/marka-photos/stec/fieldmaster-1.png"
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/fieldmaster-1.webp"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -7546,10 +7551,10 @@
       "title": "DJI FlightHub 2",
       "description": "DJI FlightHub 2, bulut tabanlı altyapısıyla İHA görev planlama, filo denetimi ve veri yönetimini tek bir platformda birleştiren gelişmiş bir operasyon yönetim sistemidir. Gerçek zamanlı durum farkındalığı ve görev takibi ile saha ve merkez arasındaki eş zamanlı koordinasyonu sağlar.",
       "images": [
-        "/marka-photos/dji/flighthub2-1.png",
-        "/marka-photos/dji/flighthub2-2.png",
-        "/marka-photos/dji/flighthub2-3.jpg",
-        "/marka-photos/dji/flighthub2-4.jpg",
+        "/marka-photos/dji/flighthub2-1.webp",
+        "/marka-photos/dji/flighthub2-2.webp",
+        "/marka-photos/dji/flighthub2-3.webp",
+        "/marka-photos/dji/flighthub2-4.webp",
         "/marka-photos/dji/flighthub2-5.webp"
       ],
       "category": "iha",
@@ -7598,11 +7603,11 @@
       "title": "DJI Terra",
       "description": "DJI Terra, DJI Enterprise drone’larıyla tam entegre çalışan, güçlü fotogrametri motoru sayesinde 2D/3D haritalama, LiDAR veri işleme ve çoklu spektrum analizi yapabilen gelişmiş bir yazılımdır.",
       "images": [
-        "/marka-photos/dji/terra-1.png",
-        "/marka-photos/dji/terra-2.png",
-        "/marka-photos/dji/terra-3.png",
-        "/marka-photos/dji/terra-4.jpg",
-        "/marka-photos/dji/terra-5.jpg"
+        "/marka-photos/dji/terra-1.webp",
+        "/marka-photos/dji/terra-2.webp",
+        "/marka-photos/dji/terra-3.webp",
+        "/marka-photos/dji/terra-4.webp",
+        "/marka-photos/dji/terra-5.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -7652,11 +7657,11 @@
       "title": "DJI Modify",
       "description": "DJI Modify, DJI Terra ile tam entegre çalışan, hızlı ve sezgisel 3D model düzenleme işlemleri sunan akıllı bir yazılımdır. Haritalama, yangınla mücadele, acil durum müdahalesi ve ulaşım gibi alanlarda operasyonel ihtiyaçlara yönelik uçtan uca çözüm sunar.",
       "images": [
-        "/marka-photos/dji/modify-1.png",
-        "/marka-photos/dji/modify-2.jpg",
-        "/marka-photos/dji/modify-3.jpg",
-        "/marka-photos/dji/modify-4.png",
-        "/marka-photos/dji/modify-5.jpg"
+        "/marka-photos/dji/modify-1.webp",
+        "/marka-photos/dji/modify-2.webp",
+        "/marka-photos/dji/modify-3.webp",
+        "/marka-photos/dji/modify-4.webp",
+        "/marka-photos/dji/modify-5.webp"
       ],
       "category": "iha",
       "brand": "dji",
@@ -7706,16 +7711,16 @@
       "title": "Autel Integrated Command System (AICS)",
       "description": "Autel Entegre Komuta ve Kontrol Sistemi (Autel Integrated Command System (AICS)), çok rotorlu ve eVTOL insansız hava araçlarının görev planlama, canlı izleme, organizasyonel yönetim ve veri analizini tek bir bulut tabanlı platformda sunan kapsamlı bir UAV yönetim sistemidir.",
       "images": [
-        "/marka-photos/autel/aics-1.png",
-        "/marka-photos/autel/aics-1.png",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
+        "/marka-photos/autel/aics-1.webp",
+        "/marka-photos/autel/aics-1.webp",
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
         "/marka-photos/autel/aics-2.webp",
-        "/marka-photos/autel/aics-3.png",
-        "/marka-photos/autel/aics-4.png",
-        "/marka-photos/autel/aics-5.png"
+        "/marka-photos/autel/aics-3.webp",
+        "/marka-photos/autel/aics-4.webp",
+        "/marka-photos/autel/aics-5.webp"
       ],
       "category": "iha",
       "brand": "autel",
@@ -7764,15 +7769,15 @@
       "title": "Autel Mapper",
       "description": "Autel Mapper, dronlardan elde edilen görüntüleri analiz ederek yüksek hassasiyetli haritalar ve modeller oluşturmanızı sağlayan profesyonel bir haritalama yazılımıdır.",
       "images": [
-        "/marka-photos/autel/mapper-1.png",
+        "/marka-photos/autel/mapper-1.webp",
         "/marka-photos/autel/mapper-1.mp4",
-        "/marka-photos/autel/yok.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/yok-ikon.png",
-        "/marka-photos/autel/mapper-2.png",
+        "/marka-photos/autel/yok.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/yok-ikon.webp",
+        "/marka-photos/autel/mapper-2.webp",
         "/marka-photos/autel/mapper-3.gif",
-        "/marka-photos/autel/mapper-4.png",
+        "/marka-photos/autel/mapper-4.webp",
         "/marka-photos/autel/mapper-5.gif"
       ],
       "category": "iha",
@@ -7820,9 +7825,9 @@
       "title": "CHCNAV CoProcess",
       "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
       "images": [
-        "/marka-photos/chcnav/copro-1.png",
-        "/marka-photos/chcnav/copro-2.png",
-        "/marka-photos/chcnav/copro-3.png"
+        "/marka-photos/chcnav/copro-1.webp",
+        "/marka-photos/chcnav/copro-2.webp",
+        "/marka-photos/chcnav/copro-3.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -7868,10 +7873,10 @@
       "title": "CHCNAV CoPre",
       "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
       "images": [
-        "/marka-photos/chcnav/copre-1.png",
-        "/marka-photos/chcnav/copre-2.png",
-        "/marka-photos/chcnav/copre-3.png",
-        "/marka-photos/chcnav/copre-4.png"
+        "/marka-photos/chcnav/copre-1.webp",
+        "/marka-photos/chcnav/copre-2.webp",
+        "/marka-photos/chcnav/copre-3.webp",
+        "/marka-photos/chcnav/copre-4.webp"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -7916,8 +7921,8 @@
       "title": "CHCNAV MAS",
       "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
       "images": [
-        "/marka-photos/chcnav/mas-0.png",
-        "/marka-photos/chcnav/mas-1.png"
+        "/marka-photos/chcnav/mas-0.webp",
+        "/marka-photos/chcnav/mas-1.webp"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -7964,9 +7969,9 @@
       "title": "CHCNAV LandStar 8",
       "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
       "images": [
-        "/marka-photos/chcnav/landstar8-0.png",
-        "/marka-photos/chcnav/landstar8-0.png",
-        "/marka-photos/chcnav/landstar8-1.png"
+        "/marka-photos/chcnav/landstar8-0.webp",
+        "/marka-photos/chcnav/landstar8-0.webp",
+        "/marka-photos/chcnav/landstar8-1.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -8018,9 +8023,9 @@
       "title": "CHCNAV CGO 2.0",
       "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
       "images": [
-        "/marka-photos/chcnav/cgo2-0.png",
-        "/marka-photos/chcnav/cgo2-1.png",
-        "/marka-photos/chcnav/cgo2-2.png"
+        "/marka-photos/chcnav/cgo2-0.webp",
+        "/marka-photos/chcnav/cgo2-1.webp",
+        "/marka-photos/chcnav/cgo2-2.webp"
       ],
       "category": "gnss",
       "brand": "chcnav",
@@ -8067,195 +8072,126 @@
       }
     }
   ],
-  "infoCards": [
-    {
-      "icon": "/icons/gnss.png",
-      "title": "GNSS Teknolojisi",
-      "description": "Hassas konumlandırma sistemleriyle tanışın."
-    },
-    {
-      "icon": "/icons/lidar.png",
-      "title": "Lidar Sensörleri",
-      "description": "Üç boyutlu yüzey modelleme teknolojisi."
-    },
-    {
-      "icon": "/icons/drone.png",
-      "title": "Drone Çözümleri",
-      "description": "Hava çekimi ve haritalama için gelişmiş sistemler."
-    }
-  ],
-  "teamCards": [
-    {
-      "name": "Ali Yılmaz",
-      "role": "GNSS Uzmanı",
-      "photo": "/team/ali.jpg",
-      "socials": [
-        {
-          "icon": "🔗",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "Zeynep Kaya",
-      "role": "Lidar Mühendisi",
-      "photo": "/team/zeynep.jpg",
-      "socials": [
-        {
-          "icon": "🔗",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "Ahmet Demir",
-      "role": "Drone Pilot",
-      "photo": "/team/ahmet.jpg",
-      "socials": [
-        {
-          "icon": "🔗",
-          "link": "#"
-        }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Ayşe Yıldız",
-      "position": "Mühendis",
-      "comment": "GNSS teknolojisi mükemmel çalışıyor!"
-    },
-    {
-      "name": "Mehmet Kılıç",
-      "position": "Arazi Haritacısı",
-      "comment": "Lidar sistemleri çok doğru sonuç veriyor."
-    },
-    {
-      "name": "Fatma Demir",
-      "position": "Fotogrametri Uzmanı",
-      "comment": "Drone çözümleri harika!"
-    }
-  ],
   "references": [
     {
       "name": "ADM",
-      "logo": "/ref-icons/adm.png"
+      "logo": "/ref-icons/adm.webp"
     },
     {
       "name": "AFAD",
-      "logo": "/ref-icons/afad.png"
+      "logo": "/ref-icons/afad.webp"
     },
     {
       "name": "Afyon Üniversitesi",
-      "logo": "/ref-icons/afyonuni.png"
+      "logo": "/ref-icons/afyonuni.webp"
     },
     {
       "name": "Akdeniz Üniversitesi",
-      "logo": "/ref-icons/aku.png"
+      "logo": "/ref-icons/aku.webp"
     },
     {
       "name": "Ankara BB",
-      "logo": "/ref-icons/ankarabb.png"
+      "logo": "/ref-icons/ankarabb.webp"
     },
     {
       "name": "Antalya BB",
-      "logo": "/ref-icons/antalyabb.png"
+      "logo": "/ref-icons/antalyabb.webp"
     },
     {
       "name": "Aselsan",
-      "logo": "/ref-icons/aselsan.png"
+      "logo": "/ref-icons/aselsan.webp"
     },
     {
       "name": "Bozok",
-      "logo": "/ref-icons/bozok.png"
+      "logo": "/ref-icons/bozok.webp"
     },
     {
       "name": "ÇK Elektrik",
-      "logo": "/ref-icons/ckelektrik.png"
+      "logo": "/ref-icons/ckelektrik.webp"
     },
     {
       "name": "Çoruh Elektrik",
-      "logo": "/ref-icons/coruhelektrik.png"
+      "logo": "/ref-icons/coruhelektrik.webp"
     },
     {
       "name": "DSİ",
-      "logo": "/ref-icons/dsi.png"
+      "logo": "/ref-icons/dsi.webp"
     },
     {
       "name": "Eltemtek",
-      "logo": "/ref-icons/eltemtek.png"
+      "logo": "/ref-icons/eltemtek.webp"
     },
     {
       "name": "ERÜ",
-      "logo": "/ref-icons/eru.png"
+      "logo": "/ref-icons/eru.webp"
     },
     {
       "name": "Erbakan Üniversitesi",
-      "logo": "/ref-icons/erbakanuni.png"
+      "logo": "/ref-icons/erbakanuni.webp"
     },
     {
       "name": "Fırat Elektrik",
-      "logo": "/ref-icons/firatelektrik.png"
+      "logo": "/ref-icons/firatelektrik.webp"
     },
     {
       "name": "FNSS",
-      "logo": "/ref-icons/fnss.png"
+      "logo": "/ref-icons/fnss.webp"
     },
     {
       "name": "Gebze Üniversitesi",
-      "logo": "/ref-icons/gebzeuni.png"
+      "logo": "/ref-icons/gebzeuni.webp"
     },
     {
       "name": "İC İçtaş",
-      "logo": "/ref-icons/icictas.png"
+      "logo": "/ref-icons/icictas.webp"
     },
     {
       "name": "İzmir BB",
-      "logo": "/ref-icons/izmirbb.png"
+      "logo": "/ref-icons/izmirbb.webp"
     },
     {
       "name": "İstanbul BB",
-      "logo": "/ref-icons/istanbulbb.png"
+      "logo": "/ref-icons/istanbulbb.webp"
     },
     {
       "name": "İTÜ",
-      "logo": "/ref-icons/itu.png"
+      "logo": "/ref-icons/itu.webp"
     },
     {
       "name": "Kalyon",
-      "logo": "/ref-icons/kalyon.png"
+      "logo": "/ref-icons/kalyon.webp"
     },
     {
       "name": "Kandilli",
-      "logo": "/ref-icons/kandilli.png"
+      "logo": "/ref-icons/kandilli.webp"
     },
     {
       "name": "Kayseri BB",
-      "logo": "/ref-icons/kayseribb.png"
+      "logo": "/ref-icons/kayseribb.webp"
     },
     {
       "name": "KGM",
-      "logo": "/ref-icons/kgm.png"
+      "logo": "/ref-icons/kgm.webp"
     },
     {
       "name": "Kolin",
-      "logo": "/ref-icons/kolin.png"
+      "logo": "/ref-icons/kolin.webp"
     },
     {
       "name": "Konya BB",
-      "logo": "/ref-icons/konyabb.png"
+      "logo": "/ref-icons/konyabb.webp"
     },
     {
       "name": "KTÜ",
-      "logo": "/ref-icons/ktu.png"
+      "logo": "/ref-icons/ktu.webp"
     },
     {
       "name": "Makimsan",
-      "logo": "/ref-icons/makimsan.png"
+      "logo": "/ref-icons/makimsan.webp"
     },
     {
       "name": "Malatya BB",
-      "logo": "/ref-icons/malatyabb.png"
+      "logo": "/ref-icons/malatyabb.webp"
     }
   ],
   "sideBySideCards": [
@@ -8840,8 +8776,8 @@
     {
       "title": "Yenilikçi GNSS Çözümleri",
       "description": "Yüksek hassasiyetli GNSS çözümleriyle projelerinizde fark yaratın.",
-      "imageLeft": "/assets/images/gnss-left.jpg",
-      "imageRight": "/assets/images/gnss-right.jpg",
+      "imageLeft": "/assets/images/gnss-left.webp",
+      "imageRight": "/assets/images/gnss-right.webp",
       "bottomText": "Bu çözüm sayesinde hassasiyet oranı %95 arttı.",
       "brand": "Stec",
       "type": "gnss"
@@ -8849,8 +8785,8 @@
     {
       "title": "DJI ve Lidar Teknolojisi",
       "description": "Lidar ile hassas ölçümler yaparak projelerinizi bir adım öne taşıyın.",
-      "imageLeft": "/assets/images/lidar-left.jpg",
-      "imageRight": "/assets/images/lidar-right.jpg",
+      "imageLeft": "/assets/images/lidar-left.webp",
+      "imageRight": "/assets/images/lidar-right.webp",
       "bottomText": "Lidar teknolojisi ile %30 daha hızlı veri işleme.",
       "brand": "DJI",
       "type": "lidar"
@@ -8866,7 +8802,7 @@
         "Yılların verdiği tecrübe ve alanında uzman ekibimizle, ihtiyaç duyduğunuz her anda doğru çözümler üretiyoruz. Ürün tedariğinden teknik desteğe, her aşamada sizin yanınızdayız. GNSS Teknik’in çalışma anlayışını ve sunduğu değerleri daha yakından tanımak için hakkımızda sayfamızda sizleri bekliyoruz."
       ],
       "imageLeft": "",
-      "imageRight": "/resimler/harita01.jpg",
+      "imageRight": "/resimler/harita01.webp",
       "buttonText": "Hakkımızda Daha Fazla",
       "buttonLink": "/aboutus",
       "layout": "right"
@@ -8894,7 +8830,7 @@
         "Haritalama çözümlerimiz; uydu, LIDAR ve GNSS teknolojilerini kapsar. Alanında uzman mühendis ekibimizle, bireysel ve kurumsal müşterilere en güncel ve hassas verileri sunuyoruz.",
         "Yeni e-ticaret sitemiz ile ileri teknoloji haritalama çözümlerine şimdi daha hızlı ve kolay ulaşabilirsiniz. E-ticaret altyapımız sayesinde, ihtiyaç duyduğunuz ürünleri zahmetsizce inceleyip hemen temin edebilirsiniz."
       ],
-      "imageLeft": "/resimler/market2.jpg",
+      "imageLeft": "/resimler/market2.webp",
       "imageRight": "",
       "buttonText": "Marketing Sitemizi İnceleyin",
       "buttonLink": "https://www.gnssmarketim.com/",
@@ -9067,18 +9003,18 @@
       "path": "/applications"
     }
   ],
-  "nedenSenceiveImage": "/marka-photos/senceive/neden-senceive.png",
-  "senceiveMainImage": "/marka-photos/senceive/main.png",
+  "nedenSenceiveImage": "/marka-photos/senceive/neden-senceive.webp",
+  "senceiveMainImage": "/marka-photos/senceive/main.webp",
   "sectorDetails": [
     {
       "id": "rail",
       "title": "Raylı Sistemler İzleme",
-      "heroImage": "/sectors/demiryoluHero.png",
+      "heroImage": "/sectors/demiryoluHero.webp",
       "summary": "Raylı sistemler, modern ulaşımın temel taşıdır ve ulusal lojistik stratejilerinin omurgasını oluşturur. Yüksek hızlı tren hatlarından metro sistemlerine, hafif raylı ulaşımdan banliyö hatlarına kadar her düzeyde altyapı; güvenli, kesintisiz ve uzun ömürlü işletme ihtiyacıyla şekillenir. Bu altyapılar hem doğal etkenler (zemin hareketleri, yağış, sıcaklık değişimleri) hem de yapay etkiler (ağır trafik yükü, inşaat faaliyetleri, yaşlanan yapı elemanları) nedeniyle sürekli bir risk altındadır. Bu nedenle, raylı sistem altyapısının kapsamlı ve sürekli izlenmesi yalnızca bakım planlaması açısından değil; yolcu güvenliği, çevresel risk yönetimi ve yasal uyumluluk açısından da kritik önem taşır. Senceive’in sunduğu kablosuz sensör sistemleri, bu zorlukların üstesinden gelmek için geliştirilen son teknoloji çözümlerdir. Gerçek zamanlı izleme, otomatik alarm bildirimleri, uzaktan erişimle müdahale imkânı ve uzun vadeli veri arşivleme gibi özellikleriyle demiryolu mühendislerine sınırsız bir kontrol alanı sunar.",
       "overview": "Raylı sistemlerin güvenliği ve performansı, yalnızca hat üzerinde değil; hattın çevresindeki yapılar, jeoteknik koşullar ve hatta mevsimsel değişkenlerle doğrudan ilişkilidir. Geleneksel izleme yöntemleri, genellikle anlık veri yerine periyodik ölçüm sağlar ve bu durum erken uyarı sistemlerini yetersiz bırakır. Oysa ray deformasyonları, tünel segment açıklıkları, makas sistemlerinde ani eğim değişiklikleri gibi durumlar, birkaç dakikalık gecikmelerde bile büyük risk oluşturabilir. Senceive bu noktada devreye girer: Düşük enerji tüketimli, kablosuz ve birbirine bağlı sensör düğümleri; eğim, yer değiştirme, sıcaklık ve gerinim gibi birçok parametreyi eşzamanlı olarak ölçerek ağ geçitleri üzerinden buluta aktarır. Bu sistem, metro tünellerinden yüksek hızlı tren hatlarına kadar her tür yapıda minimum insan müdahalesi ile maksimum veri erişimi sağlar. Kullanıcılar, gelişmiş görselleştirme arayüzleriyle ölçüm sonuçlarını analiz edebilir, eşik değerleri belirleyebilir, belirli senaryolara göre otomatik alarmlar tanımlayabilir. Böylece, sadece reaktif değil, proaktif bir bakım modeli kurulmuş olur. Ayrıca, SCADA sistemleri ve üçüncü parti yazılımlarla entegrasyon desteği sayesinde, mevcut altyapılarla da uyumlu şekilde çalışabilir. Yüksek nem, yoğun elektromanyetik alan, dar alan gibi zorlu ortamlarda bile güvenilir çalışması için IP68+ seviyesinde tasarlanmış bu sistem, raylı sistem mühendisliğinde yeni bir çağ başlatmaktadır.",
       "howItWorks": {
         "description": "Senceive’in raylı sistem çözümleri; çok katmanlı bir sensör ağı, enerji yönetimi altyapısı ve bulut tabanlı yazılım platformunun entegrasyonu ile çalışır. Her izleme noktasında kullanılan sensör düğümleri (tilt, displacement, temperature, strain) IP68 koruma standardına sahip olup, zorlu saha koşullarına uygundur. Bu sensörler, birkaç dakikalık kurulum süresiyle ray, travers, makas kutuları veya istinat duvarı gibi farklı yüzeylere sabitlenebilir. Sensörler, verilerini belirlenen frekansta (örneğin dakikada bir) toplar ve LoRa, GSM veya RF üzerinden ağ geçitlerine gönderir. Ağ geçitleri ise bu verileri 7/24 açık olan güvenli bulut sunucularına iletir. Kullanıcılar, bu verilere Senceive'in sunduğu Insight platformu aracılığıyla erişebilir. Platform, çoklu grafik görünümler, karşılaştırmalı analizler, eş zamanlı sensör takibi, e-posta/SMS ile alarm bildirimi gibi işlevler sunar. Ayrıca, belirli olaylara (örneğin bir sensör eşik değerini aştığında) otomatik veri paylaşımı, üçüncü parti sistem entegrasyonu (örneğin SCADA, GIS) veya video kaydı tetikleme gibi otomasyon adımları tanımlanabilir. Güneş panelli ağ geçitleri sayesinde sistem, enerji altyapısına ihtiyaç duymadan dağlık, kırsal veya tünel içi gibi yerlerde yıllarca kesintisiz çalışabilir. Pil ömrü, ölçüm frekansı ve çevresel koşullara bağlı olarak 8 ila 15 yıl arasında değişir. Kurulum sonrası bakım ihtiyacı minimum düzeydedir ve sistem, firmware güncellemeleri dahil olmak üzere uzaktan güncellenebilir. Bu sayede sahaya gitmeden yeni özellikler eklenebilir, mevcut ağ yönetimi optimize edilebilir.",
-        "image": "/sectors/demiryoluBir.png"
+        "image": "/sectors/demiryoluBir.webp"
       },
       "benefits": [
         "Gerçek zamanlı izleme ve otomatik alarm mekanizmaları sayesinde güvenlik açıkları oluşmadan tespit edilir, önleyici müdahale yapılabilir.",
@@ -9094,12 +9030,12 @@
     {
       "id": "construction",
       "title": "İnşaat Şantiyesi İzleme",
-      "heroImage": "/sectors/insaatHero.png",
+      "heroImage": "/sectors/insaatHero.webp",
       "summary": "İnşaat şantiyeleri, sürekli değişen yapısıyla yüksek risk barındıran çalışma ortamlarıdır. Gerek geçici yapılar gerekse kalıcı temeller üzerindeki yük değişimi, yeraltı hareketleri, kazı işlemleri ve ağır makine kullanımı; hem güvenlik riskleri hem de yapısal bozulma potansiyeli taşır. Senceive’in sunduğu kablosuz sensör ağları, şantiyenin her aşamasında gerçek zamanlı veri sağlar ve bu veriler sayesinde müteahhitler, mühendisler ve proje yöneticileri kararlarını daha hızlı, güvenli ve etkili şekilde alabilir. Bu sayede hem iş güvenliği sağlanır hem de olası yapısal riskler proaktif biçimde yönetilir.",
       "overview": "Geleneksel yapı izleme yöntemleri genellikle manuel ölçümler, periyodik denetimler ve gecikmeli geri bildirimlere dayanır. Ancak modern inşaat şantiyelerinde dakikaların dahi kritik olduğu süreçlerde bu yaklaşımlar yetersiz kalmaktadır. Kazı destek sistemleri, geçici iskeleler, kazık yapıları ve üstyapı montaj alanları gibi dinamik bölgeler; sürekli izleme, anlık analiz ve otomatik uyarı sistemlerine ihtiyaç duyar. Senceive’in enerji verimli, IP68 standardına sahip kablosuz sensörleri (eğim, deplasman, sıcaklık, strain vb.) her türlü yüzeye (duvar, kazık başlığı, istinat yapısı) saniyeler içinde entegre edilebilir. Kurulum sonrası, LoRa, GSM veya RF teknolojisiyle veri ağ geçidine aktarılır, oradan da buluta gönderilir. Insight platformu, tüm bu verileri grafiksel, karşılaştırmalı ve coğrafi olarak sunar. Kullanıcılar belirli eşik değerlerine göre otomatik alarm tanımlayabilir, üçüncü parti sistemlerle entegrasyon kurabilir ve verileri eş zamanlı olarak paylaşabilir. Şehir içi projelerde, tünel delme operasyonlarında veya mega altyapı şantiyelerinde kesintisiz çalışabilen bu sistemler; sahaya fiziksel erişim gerekmeden dijital denetim sunar.",
       "howItWorks": {
         "description": "Senceive platformları, bir dizi kablosuz sensör düğümünden, enerji yönetimi sisteminden ve bulut tabanlı yazılım altyapısından oluşur. Her sensör (örneğin tiltmetre, strain gauge, sıcaklık sensörü) şantiyede riskli veya kritik noktalara (kazı duvarı, geçici iskele, vinç temeli, kazık başı) kolayca monte edilir. Bu sensörler belirli frekansta (örneğin dakikada bir) veri toplayarak yakındaki ağ geçidine kablosuz olarak iletir. Ağ geçidi, bu verileri GSM, LoRaWAN veya uydu bağlantısı üzerinden güvenli bulut sunucularına aktarır. Platformda kullanıcılar, bu verileri grafikler, karşılaştırmalı analizler ve jeolokasyon bazlı görselleştirmeler eşliğinde takip eder. Belirli eşik değerleri aşıldığında SMS/e-posta bildirimleri gönderilir ve SCADA gibi mevcut sistemlerle entegre otomasyon tetiklenebilir. Güneş enerjili ağ geçitleri sayesinde sahada enerji altyapısı gereksinimi olmadan da sistem çalışabilir. Pil ömrü ortalama 10–15 yıl arasında değişir. Firmware güncellemeleri dahil tüm sistem uzaktan yönetilebilir, böylece sahaya gitmeden cihazlar güncellenebilir ya da yeni özellikler eklenebilir.",
-        "image": "/sectors/insaat.png"
+        "image": "/sectors/insaat.webp"
       },
       "benefits": [
         "Kablo ve enerji altyapısı gerektirmeyen sensör yapısı sayesinde birkaç dakikada tam kurulum yapılabilir; bu da zaman ve maliyet tasarrufu sağlar.",
@@ -9115,12 +9051,12 @@
     {
       "id": "mining",
       "title": "Madencilik ve Taş Ocağı İzleme",
-      "heroImage": "/sectors/madenHero.png",
+      "heroImage": "/sectors/madenHero.webp",
       "summary": "Madencilik, hem yer üstü hem de yer altı kaynakların elde edilmesini kapsayan, büyük ölçekli ve yüksek risk barındıran endüstriyel bir faaliyettir. Bu faaliyetler sırasında yaşanan en büyük zorluklar arasında, zemin stabilitesinin bozulması, patlatma faaliyetlerinden kaynaklı ani deformasyonlar, tavan çökmeleri, toprak kaymaları, atık barajlarının zayıflaması ve yapısal hasarlar yer almaktadır. Senceive’in kablosuz izleme sistemleri, bu dinamik ve tehlikeli ortamlar için özel olarak tasarlanmıştır. Dayanıklı sensör düğümleri, maden sahasındaki kritik yapıların davranışlarını milimetrik hassasiyetle izler. Özellikle şev, galeri, kuyu ve baraj gibi yapılar üzerinde gerçek zamanlı veri toplar. Bu sayede, hem çalışan güvenliği artırılır hem de operasyonel verimlilik en üst düzeye taşınır. Saha verilerine uzaktan erişim sayesinde, mühendisler ve saha ekipleri arasında sürekli bir bilgi akışı sağlanır. Senceive çözümleri, bakım maliyetlerini azaltır, arıza sürelerini düşürür ve olası felaketlerin önüne geçer. Ayrıca, güneş enerjili ağ geçitleriyle enerji altyapısına gerek duymadan bile uzun süreli, güvenilir izleme yapılabilir.",
       "overview": "Geleneksel madencilik izleme yöntemleri, genellikle periyodik ölçümler ve sınırlı manuel gözlemler ile gerçekleştirilir. Bu yaklaşım, ani gelişen olaylara karşı yetersiz kalır ve çoğu zaman yalnızca hasar gerçekleştikten sonra müdahale edilebilir. Oysa madencilik gibi sürekli değişim halinde olan alanlarda, yalnızca geçmişe dayalı veri değil, anlık ve sürekli bilgi gereklidir. Senceive’in sunduğu kablosuz ve enerji verimli sensör ağları, bu ihtiyaca eksiksiz yanıt verir. Şev stabilitesi, yüzey hareketleri, galeri deformasyonları, tünel yakınsama hareketleri, atık baraj basınç değişimleri gibi parametreleri eşzamanlı olarak izleyebilir. Üstelik bu sistemler, LoRa, RF ya da GSM bağlantılarıyla çalıştığı için büyük alanlara yayılan sahalarda bile kesintisiz iletişim sağlar. Insight platformu, bu sensörlerden gelen tüm verileri gerçek zamanlı olarak işleyerek anlamlı grafikler, karşılaştırmalı analizler ve uyarı sistemleri üretir. Ayrıca platform, alarm eşiği aşıldığında otomatik olarak SMS veya e-posta gönderimi yapabilir. Kameralarla entegre çalışan sistemler sayesinde, olay doğrulaması da mümkün hale gelir. Tüm bu özellikler, maden mühendislerinin sadece mevcut durumu izlemekle kalmayıp, aynı zamanda riskleri önceden öngörebilmesini sağlar. Böylece yalnızca reaktif değil, proaktif bir izleme modeli mümkün olur.",
       "howItWorks": {
         "description": "Senceive’in madencilik çözümleri; sensör, geçit ve platform üçlüsünden oluşan entegre bir izleme sistemine dayanır. Her bir sensör düğümü; eğim, deplasman, sıcaklık, strain gibi kritik parametreleri ölçebilen yüksek hassasiyetli donanımlarla donatılmıştır. Bu sensörler, IP68 standardında üretilmiş olup, zorlu saha koşullarında bile yıllarca çalışacak şekilde tasarlanmıştır. Sahada önceden belirlenen bölgelere (örneğin açık ocak şevleri, kuyular, atık baraj kenarları, tünel açıklıkları) dakikalar içinde monte edilebilir. Kurulum sonrası sensörler, belirlenen frekansa göre (örneğin her dakika) veri toplayarak yakındaki geçit cihazına kablosuz olarak iletir. Bu geçitler genellikle güneş enerjisiyle çalışır ve veri iletimini LoRaWAN, GSM veya RF bağlantısı ile bulut tabanlı Insight platformuna aktarır. Platform, bu verileri zamansal grafiklerle görselleştirir, anomali tespiti yapar ve gerektiğinde uyarı üretir. Kullanıcılar eşik değerlerini belirleyebilir, SCADA veya 3. parti sistemlere otomatik entegrasyon tanımlayabilir. Ayrıca sistem uzaktan güncellenebilir, böylece yeni sensör türleri veya veri algoritmaları saha cihazlarına fiziksel müdahale olmadan tanıtılabilir. Minimum bakım ihtiyacı ile 10 yılı aşkın süre kesintisiz çalışabilir.",
-        "image": "/sectors/maden.png"
+        "image": "/sectors/maden.webp"
       },
       "benefits": [
         "Senceive’in IP68 korumalı dayanıklı sensörleri, yüksek sıcaklık, nem, toz ve patlayıcı gaz gibi zorlu madencilik koşullarında dahi kesintisiz çalışarak saha güvenliğini garanti altına alır.",
@@ -9136,12 +9072,12 @@
     {
       "id": "infrastructure",
       "title": "Altyapı ve Kritik Yapı İzleme",
-      "heroImage": "/sectors/altyapiHero.png",
+      "heroImage": "/sectors/altyapiHero.webp",
       "summary": "Köprüler, tüneller, barajlar, su yolları, boru hatları ve enerji altyapıları gibi kritik yapılar, zamanla çevresel etkiler, yapısal yorgunluk ve beklenmedik olaylar nedeniyle risk altına girebilir. Bu tür yapılar, hem kamu güvenliği hem de ekonomik süreklilik açısından hayati öneme sahiptir. Senceive’in kablosuz izleme çözümleri, bu yapıların uzun vadeli sağlığını ve performansını izlemek için tasarlanmıştır. Gerçek zamanlı veri toplama, anlık uyarılar ve uzun ömürlü sensör teknolojisi sayesinde, altyapı sahipleri ve yöneticileri, potansiyel sorunları önceden tespit ederek proaktif önlemler alabilir, bakım maliyetlerini azaltabilir ve yapıların hizmet ömrünü uzatabilir.",
       "overview": "Geleneksel altyapı izleme yöntemleri, genellikle periyodik manuel kontroller ve sınırlı veri toplama ile sınırlıdır. Bu yaklaşım, ani gelişen olaylara karşı yetersiz kalabilir ve çoğu zaman sorunlar fark edildiğinde müdahale etmek için geç olabilir. Senceive’in sunduğu kablosuz izleme sistemleri, bu eksiklikleri gidererek sürekli, güvenilir ve detaylı veri sağlar. Sistem, eğim, deplasman, sıcaklık, strain gibi parametreleri izleyerek yapısal davranışları anlamaya yardımcı olur. LoRa, RF veya GSM bağlantılarıyla çalışan bu sistemler, geniş alanlara yayılan altyapılarda bile kesintisiz iletişim sağlar. Insight platformu, sensörlerden gelen verileri gerçek zamanlı olarak işleyerek anlamlı grafikler, karşılaştırmalı analizler ve uyarı sistemleri üretir. Bu sayede, altyapı yöneticileri, yapıların performansını sürekli olarak izleyebilir, bakım ihtiyaçlarını önceden belirleyebilir ve olası arızaları önleyebilir.",
       "howItWorks": {
         "description": "Senceive’in altyapı izleme çözümleri, sensör düğümleri, geçit cihazları ve veri yönetim platformundan oluşan entegre bir sistemdir. Her bir sensör düğümü, eğim, deplasman, sıcaklık, strain gibi parametreleri ölçebilen yüksek hassasiyetli donanımlarla donatılmıştır. Bu sensörler, IP68 standardında üretilmiş olup, zorlu saha koşullarında bile yıllarca çalışacak şekilde tasarlanmıştır. Sahada önceden belirlenen bölgelere (örneğin köprü ayakları, tünel duvarları, baraj yüzeyleri) dakikalar içinde monte edilebilir. Kurulum sonrası sensörler, belirlenen frekansa göre veri toplayarak yakındaki geçit cihazına kablosuz olarak iletir. Bu geçitler genellikle güneş enerjisiyle çalışır ve veri iletimini LoRaWAN, GSM veya RF bağlantısı ile bulut tabanlı Insight platformuna aktarır. Platform, bu verileri zamansal grafiklerle görselleştirir, anomali tespiti yapar ve gerektiğinde uyarı üretir. Kullanıcılar eşik değerlerini belirleyebilir, SCADA veya diğer sistemlere otomatik entegrasyon tanımlayabilir. Ayrıca sistem uzaktan güncellenebilir, böylece yeni sensör türleri veya veri algoritmaları saha cihazlarına fiziksel müdahale olmadan tanıtılabilir. Minimum bakım ihtiyacı ile 10 yılı aşkın süre kesintisiz çalışabilir.",
-        "image": "/sectors/altyapi.png"
+        "image": "/sectors/altyapi.webp"
       },
       "benefits": [
         "Senceive’in IP68 korumalı dayanıklı sensörleri, yüksek sıcaklık, nem, toz ve diğer zorlu çevresel koşullarda dahi kesintisiz çalışarak altyapı güvenliğini garanti altına alır.",
@@ -9159,56 +9095,56 @@
     {
       "id": "railways",
       "title": "Ray Hatları",
-      "icon": "/icons/1.png",
+      "icon": "/icons/1.webp",
       "description": "Raylı sistemler, yüksek frekanslı titreşimler, dinamik yük değişimleri ve zemin oturmaları nedeniyle sürekli izlenmesi gereken altyapılardır. Senceive sensörleri, ray deformasyonu, hat oturması, travers kaymaları gibi sorunları gerçek zamanlı olarak tespit eder. Bu sistem sayesinde hat kapatma süresi azalır, bakım planlaması optimize edilir ve yolcu güvenliği üst seviyeye çıkarılır.",
       "link": "https://www.senceive.com/applications/rail-track"
     },
     {
       "id": "rockfalls",
       "title": "Kaya Düşmeleri",
-      "icon": "/icons/2.png",
+      "icon": "/icons/2.webp",
       "description": "Dağlık veya eğimli arazilerde kaya düşmesi riski ciddi yapısal ve can güvenliği tehdidi oluşturur. Senceive’in kablosuz eğim sensörleri ve hareket izleyicileri, mikro hareketleri tespit ederek potansiyel düşmeleri önceden haber verir. Bu sayede yol, tünel veya yapıların korunması mümkün olur ve güvenlik önlemleri önceden alınabilir.",
       "link": "https://www.senceive.com/applications/rockfall"
     },
     {
       "id": "tunnels",
       "title": "Tüneller",
-      "icon": "/icons/3.png",
+      "icon": "/icons/3.webp",
       "description": "Yer altı tünellerinde meydana gelen deformasyonlar, yakınsama, segman açıklıkları ve basınç değişimleri yapısal bütünlüğü riske atar. Senceive sistemleri bu değişimleri milimetrik hassasiyetle izler. SCADA sistemleriyle entegre çalışan alarm mekanizmaları sayesinde kritik durumlar anında bildirilir ve operatörler hızlıca müdahale edebilir.",
       "link": "https://www.senceive.com/applications/tunnels"
     },
     {
       "id": "emergency",
       "title": "Acil Durum İzleme",
-      "icon": "/icons/4.png",
+      "icon": "/icons/4.webp",
       "description": "Deprem, toprak kayması, baraj yıkımı gibi acil durumlarda altyapıların davranışı hayati önem taşır. Senceive, gerçek zamanlı sensör verileri ile acil durum senaryolarında yapısal risklerin takibini mümkün kılar. Otomatik alarm üretimi ve kamera entegrasyonu sayesinde anlık kararlar alınabilir, müdahale ekipleri yönlendirilir.",
       "link": "https://www.senceive.com/emergency-response-monitoring"
     },
     {
       "id": "slopes",
       "title": "Eğim Alanları",
-      "icon": "/icons/5.png",
+      "icon": "/icons/5.webp",
       "description": "Şevler, yamaçlar ve yumuşak zeminli bölgeler, heyelan ve toprak kaymasına karşı en hassas alanlardır. Senceive eğimölçerler ve uzaktan izleme sistemleri ile bu hareketler erken evrede tespit edilir. Uzun süreli eğim değişimi analizi, projelendirme ve güçlendirme çalışmalarına yön verir.",
       "link": "https://www.senceive.com/applications/slopes"
     },
     {
       "id": "bridges",
       "title": "Köprüler",
-      "icon": "/icons/6.png",
+      "icon": "/icons/6.webp",
       "description": "Köprü yapıları; termal genleşme, yük değişimi, yer oturması ve titreşim gibi etkiler altında sürekli olarak çalışır. Senceive sistemleri, köprü ayakları, tabliyeler ve askı noktalarında gerçek zamanlı veri sağlayarak yapısal sağlık değerlendirmesine olanak tanır. Uzun vadeli izleme sayesinde bakım kararları veriye dayalı alınır.",
       "link": "https://www.senceive.com/applications/bridges"
     },
     {
       "id": "pipelines",
       "title": "Boru Hatları",
-      "icon": "/icons/7.png",
+      "icon": "/icons/7.webp",
       "description": "Yer altı ve yüzey boru hatlarında oluşabilecek yer değiştirme, eğilme, deformasyon veya sızıntılar ciddi çevresel ve finansal tehditler oluşturur. Senceive sistemleri, bu hatlar boyunca yerleştirilen sensörlerle yapısal davranışı izler, alarm eşikleri aşıldığında anında bilgilendirme sağlar.",
       "link": "https://www.senceive.com/applications/pipelines"
     },
     {
       "id": "drainage",
       "title": "Drenaj Sistemleri",
-      "icon": "/icons/8.png",
+      "icon": "/icons/8.webp",
       "description": "Yoğun yağış, kanal tıkanıklığı veya altyapı zafiyetleri nedeniyle drenaj sistemlerinde taşkın riski oluşabilir. Senceive’in kablosuz izleme çözümleri su seviyesini, akış hızını ve basıncı sürekli takip ederek belediyelere ve teknik ekiplere anlık veri sağlar. Uyarılar sayesinde önlem alınarak altyapı hasarları önlenir.",
       "link": "https://www.senceive.com/applications/drainage"
     }
@@ -9239,7 +9175,7 @@
       }
     ],
     "visualBlock": {
-      "image": "/marka-photos/benewake/bHero.png",
+      "image": "/marka-photos/benewake/bHero.webp",
       "alt": "Benewake Sensörlü Drone",
       "title": "Benewake Sensörleri Nasıl Çalışır?",
       "paragraphs": [
@@ -9369,80 +9305,85 @@
       "id": 1,
       "title": "Drone Navigasyonu",
       "description": "Yükseklik kontrolü, engel algılama ve iniş-yükselme stabilitesi için kullanılan LiDAR çözümleri, drone sistemlerinde güvenli uçuş sağlar.",
-      "icon": "/icons/101.png",
+      "icon": "/icons/101.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#drone"
     },
     {
       "id": 2,
       "title": "Fabrika Otomasyonu",
       "description": "Endüstriyel otomasyon sistemlerinde nesne tespiti, konum belirleme ve süreç kontrolü gibi görevlerde yüksek hassasiyetli lidar çözümleri sunar.",
-      "icon": "/icons/102.png",
+      "icon": "/icons/102.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#industry"
     },
     {
       "id": 3,
       "title": "Trafik ve Akıllı Ulaşım",
       "description": "Araç tespiti, hız ölçümü ve yol güvenliği izleme gibi uygulamalarda güvenilir ve uzun menzilli lidar destekli çözümler sağlar.",
-      "icon": "/icons/103.png",
+      "icon": "/icons/103.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#traffic"
     },
     {
       "id": 4,
       "title": "Araç İçi Güvenlik",
       "description": "Koltuk doluluğu, engel uyarısı ve park destek sistemlerinde kısa menzilli ve kompakt lidar sensörler kullanılır.",
-      "icon": "/icons/104.png",
+      "icon": "/icons/104.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#automotive"
     },
     {
       "id": 5,
       "title": "Akıllı Tarım",
       "description": "Tarım robotlarında, mahsul yüksekliği ölçümünde ve alan haritalamada lidar teknolojisi enerji verimli çözümler sunar.",
-      "icon": "/icons/105.png",
+      "icon": "/icons/105.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#agriculture"
     },
     {
       "id": 6,
       "title": "Akıllı Bina ve IoT",
       "description": "Yükseklik kontrolü, kişi varlığı ve hareket algılama gibi bina içi otomasyon sistemlerinde LiDAR destekli uygulamalar geliştirilir.",
-      "icon": "/icons/106.png",
+      "icon": "/icons/106.webp",
       "link": "https://en.benewake.com/ApplicationCenter/index.html#iot"
     }
   ],
   "accordionSections": [
     {
-      "title": "KURUMSAL",
+      "title": "GENEL",
       "items": [
-        { "label": "İletişim",     "href": "#iletisim" },
-        { "label": "Hakkımızda",   "href": "#hakkimizda" },
-        { "label": "Markalarımız", "href": "#markalarimiz" },
-        { "label": "İletişim Formu","href": "#iletisim-formu" }
+        { "label": "Anasayfa",   "href": "/" },
+        { "label": "Hakkımızda", "href": "/aboutus" },
+        { "label": "KVKK",       "href": "/kvkk" }
       ]
     },
     {
-      "title": "ÜYELİK",
+      "title": "ÖNE ÇIKAN ÜRÜNLER",
       "items": [
-        { "label": "Yeni Üyelik",    "href": "#yeni-uyelik" },
-        { "label": "Üye Girişi",     "href": "#uye-girisi" },
-        { "label": "Şifremi Unuttum", "href": "#sifre-unuttum" },
-        { "label": "Profil Ayarları", "href": "#profil-ayarlari" }
+        {
+          "label": "STEC SDi Lazerli GNSS",
+          "href": "/gnss/stec/stec-sdi-lazerli-kamerali-gnss-alicisi"
+        },
+        {
+          "label": "Autel EVO II RTK",
+          "href": "/category/iha/autel/autel-evo-ii-rtk-v3"
+        },
+        {
+          "label": "3D Survey",
+          "href": "/category/yazilim/3dsurvey"
+        },
+        {
+          "label": "Benewake AD2-S X3",
+          "href": "/category/sensor/benewake-vp/benewake-ad2-s-x3"
+        }
       ]
     },
     {
-      "title": "YARDIM",
+      "title": "KATEGORİLER & MARKET",
       "items": [
-        { "label": "Sık Sorulan Sorular", "href": "#sss" },
-        { "label": "Banka Hesap Numaraları","href": "#banka-hesap" },
-        { "label": "İptal İade Koşulları",  "href": "#iptal-iade" },
-        { "label": "Destek Talebi",        "href": "#destek-talebi" }
-      ]
-    },
-    {
-      "title": "K.V.K.K.",
-      "items": [
-        { "label": "Kişisel Veriler Politikası","href": "#kvkk-politika" },
-        { "label": "K.V.K.K. Başvuru Formu",    "href": "#kvkk-basvuru" },
-        { "label": "Aydınlatma Metni",         "href": "#aydinlatma-metni" },
-        { "label": "Gizlilik ve Güvenlik",     "href": "#gizlilik-guvenlik" }
+        { "label": "Kategoriler",  "href": "/category" },
+        {
+          "label": "GNSS Marketim",
+          "href": "https://www.gnssmarketim.com",
+          "external": true
+        },
+        { "label": "Banka Hesap Bilgileri", "href": "/aboutus#bank-accounts" }
       ]
     }
   ]

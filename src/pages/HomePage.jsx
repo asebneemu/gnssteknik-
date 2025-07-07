@@ -3,7 +3,7 @@ import Banner from "../components/homepage/Banner";
 import Slider from "../components/homepage/Slider";
 import ContactSection from "../components/homepage/ContactSection";
 import MiddleSection from "../components/homepage/MiddleSection";
-import SocialSidebar from "../components/SocialLinks";
+
 import InfoCards from "../components/where/InfoCards";
 import TeamCards from "../components/where/TeamCards";
 import TestimonialSlider from "../components/where/TestimonialSlider";
@@ -14,7 +14,6 @@ export default function HomePage() {
 
   const {
     newNavbar = [], // Boş bir dizi olarak default değer veriyoruz
-    socialLinks,
     infoCards,
     teamCards,
     testimonials,
@@ -109,7 +108,7 @@ export default function HomePage() {
 
       {/* ✅ İletişim ve Sosyal Medya */}
       <ContactSection />
-      <SocialSidebar socialLinks={socialLinks} />
+
     </div>
   );
 }

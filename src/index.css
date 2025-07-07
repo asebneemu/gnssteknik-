@@ -54,3 +54,8 @@ img[data-smart="true"] {
 img:not([data-src]) {
   opacity: 1;
 }
+@layer base {
+  html, body {
+    overflow-x: hidden;
+  }
+}

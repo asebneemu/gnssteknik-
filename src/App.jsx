@@ -37,6 +37,8 @@ import { useState, useEffect } from "react";
 
 import SmartImageManager from "./components/SmartImageManager";
 import AccordionMenu from "./components/AccordionMenu";
+import SocialSidebar from "./components/SocialLinks";
+
 
 
 
@@ -103,6 +105,7 @@ function AppContent() {
         <Route path="/sector/:id" element={<SectorDetailPage />} />
       </Routes>
       <AccordionMenu />
+      <SocialSidebar />
     </Router>
   );
 }

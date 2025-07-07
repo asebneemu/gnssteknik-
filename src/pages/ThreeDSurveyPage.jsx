@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 import ProductCard from "../components/product/ProductCard";
+import ThreeDSurveyProductDetailPage from "./ThreeDSurveyProductDetailPage";
 
 const ThreeDSurveyPage = () => {
   const { data } = useLanguage();
@@ -23,7 +24,7 @@ const ThreeDSurveyPage = () => {
   }, {});
 
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto py-10 space-y-16">
+    <div className="w-full mx-auto py-10 space-y-16">
       {/* Sayfa Başlığı */}
       <div className="text-center">
         <h1 className="text-4xl font-bold text-orange-600 mb-2">3D SURVEY</h1>
@@ -34,7 +35,7 @@ const ThreeDSurveyPage = () => {
 
       {/* Üçlü Anlatım Alanı */}
   
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-700">
+      <div className="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-700">
         <div className="text-center px-4">
           <h3 className="font-bold text-xl mb-2">3D Survey Nasıl Çalışır?</h3>
           <p>
@@ -99,10 +100,10 @@ const ThreeDSurveyPage = () => {
       </div>
 
       {/* Görselli Açıklama Alanı */}
-      <div className="flex flex-col md:flex-row items-center gap-8 pt-16">
+      <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center gap-8 pt-16">
         <div className="w-full md:w-3/5">
           <img
-            src="/marka-photos/3dsurvey/3dss.png"
+            src="/marka-photos/3dsurvey/3dss.webp"
             alt="3Dsurvey ekran görüntüsü"
             className="w-full rounded-xl shadow"
           />
@@ -130,11 +131,9 @@ const ThreeDSurveyPage = () => {
 
       {/* Ürün Listesi */}
       <div className="space-y-12 pt-20">
-        <h2 className="text-3xl font-bold text-orange-600 text-center mb-8">
-          3D Survey Yazılım
-        </h2>
 
-        {Object.entries(grouped).map(([title, items], index) => (
+
+        {/*{Object.entries(grouped).map(([title, items], index) => (
           <div key={index}>
             <h3 className="text-2xl font-bold text-center mb-6">{title}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -143,7 +142,14 @@ const ThreeDSurveyPage = () => {
               ))}
             </div>
           </div>
-        ))}
+        ))}*/}
+       {filteredProducts.length > 0 && (
+        <div className="pt-20">
+          <ThreeDSurveyProductDetailPage
+            product={filteredProducts[0]}
+          />
+        </div>
+      )}
       </div>
     </div>
   );

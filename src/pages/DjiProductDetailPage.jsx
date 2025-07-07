@@ -49,6 +49,7 @@ const DjiProductDetailPage = () => {
         meta={product.meta}
         videoUrl={videoUrl}
         imageUrl={product.imageUrl || product.images?.[1]}
+        buyUrl={product.buyUrl} 
       />
       <DjiSpecCards product={product} />
     </div>

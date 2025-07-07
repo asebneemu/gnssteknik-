@@ -4,7 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 
 const VIDEO_EXTENSIONS = ['mp4', 'webm', 'ogg'];
 
-const AutelHero = ({ images = [], name, metaDescription }) => {
+const AutelHero = ({ images = [], name, metaDescription, onBuyClick }) => {
   const controls = useAnimation();
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const AutelHero = ({ images = [], name, metaDescription }) => {
 
   const shouldShowName =
     !titleImageSrc ||
-    titleImageSrc.toLowerCase().includes('yok.png') ||
+    titleImageSrc.toLowerCase().includes('yok.webp') ||
     titleImageSrc.trim().length === 0;
 
   const mediaVariants = {
@@ -92,15 +92,24 @@ const AutelHero = ({ images = [], name, metaDescription }) => {
             )}
 
             {iconSources.length > 0 && (
-              <div className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4">
-                {iconSources.map((src, i) => (
-                  <img
-                    key={i}
-                    src={src}
-                    alt={`icon-${i}`}
-                    className="w-16 h-12 sm:w-24 sm:h-16 md:w-28 md:h-20 object-contain"
-                  />
-                ))}
+              <div className="flex flex-col items-center">
+                <div className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4">
+                  {iconSources.map((src, i) => (
+                    <img
+                      key={i}
+                      src={src}
+                      alt={`icon-${i}`}
+                      className="w-16 h-12 sm:w-24 sm:h-16 md:w-28 md:h-20 object-contain"
+                    />
+                  ))}
+                </div>
+                {/* Satın Al Butonu */}
+                <button
+                  onClick={onBuyClick}
+                  className="mt-4 py-2 px-6 rounded-lg border border-white bg-white/20 backdrop-blur-md text-white font-semibold transition hover:bg-red-600 hover:border-red-600 hover:scale-105 shadow-lg"
+                >
+                  Satın Al
+                </button>
               </div>
             )}
           </div>

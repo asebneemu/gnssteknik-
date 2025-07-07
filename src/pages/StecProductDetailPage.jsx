@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function StecProductDetailPage({ product }) {
   if (!product) return <div>Ürün bulunamadı!</div>;
 
-  const { name, meta, images = [], specs = [], description = "" } = product;
+  const { name, meta, images = [], specs = [], description = "", brochureUrl } = product;
   const mainDescription = meta?.description || "";
   const paragraphSpecs = [specs[0], specs[1], specs[2]]
     .filter(Boolean)
@@ -55,12 +55,26 @@ export default function StecProductDetailPage({ product }) {
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start md:pl-10">
           <h1 className="text-2xl font-bold mb-2">{name}</h1>
           <p className="text-md">{mainDescription}</p>
-          <button
-            onClick={() => window.open(product.buyUrl, "_blank")}
-            className="mt-4 px-6 py-2 bg-white/20 backdrop-blur-md text-white rounded-md border border-white/30 shadow-sm transition duration-300 hover:bg-red-600 hover:border-red-600 hover:scale-105"
-          >
-            Satın Al
-          </button>
+          <div className="mt-4 flex space-x-4">
+            {/* Satın Al */}
+            <button
+              onClick={() => window.open(product.buyUrl, "_blank")}
+              className="px-6 py-2 bg-white/20 backdrop-blur-md text-white rounded-md border border-white/30 shadow-sm transition duration-300 hover:bg-red-600 hover:border-red-600 hover:scale-105"
+            >
+              Satın Al
+            </button>
+
+            {/* Broşür İndir */}
+            {brochureUrl && (
+              <a
+                href={brochureUrl}
+                download
+                className="px-6 py-2 bg-white/20 backdrop-blur-md text-white rounded-md border border-white/30 shadow-sm transition duration-300 hover:bg-blue-500 hover:border-blue-500 hover:scale-105"
+              >
+                Broşür İndir
+              </a>
+            )}
+          </div>
         </div>
       </div>
 
@@ -112,7 +126,7 @@ export default function StecProductDetailPage({ product }) {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {boxSpecs.map((text, idx) => {
                 const src = images[5 + idx] || "";
-                const isEmpty = src.toLowerCase().includes("bos.png");
+                const isEmpty = src.toLowerCase().includes("bos.webp");
 
                 return (
                   <div

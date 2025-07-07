@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function BenewakeProductDetailPage({ product }) {
   if (!product) return null;
 
-  const { title, description, images = [], specs = [] } = product;
+  const { title, description, images = [], specs = [], buyUrl } = product;
 
   // Görsel sıralamalar 1 ötelendi (images[0] atlandı)
   const paragraphSpecs = specs.slice(0, 4);
@@ -55,6 +55,26 @@ export default function BenewakeProductDetailPage({ product }) {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-5xl font-bold drop-shadow-lg">{title}</h1>
           <p className="mt-6 text-2xl max-w-3xl text-white/90">{description}</p>
+          {/* — Satın Al Butonu */}
+          {buyUrl && (
+            <button
+              onClick={() => window.open(buyUrl, "_blank")}
+              className="
+                mt-4
+                px-6 py-2
+                text-white font-semibold
+                border border-white/20
+                bg-white/10 backdrop-blur-md
+                rounded-md
+                transition-all duration-300
+                hover:bg-blue-200/30
+                hover:border-blue-200/50
+                hover:scale-105 shadow-lg
+              "
+            >
+              Satın Al
+            </button>
+          )}
         </div>
       </div>
 
