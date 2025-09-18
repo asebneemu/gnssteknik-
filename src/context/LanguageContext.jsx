@@ -5,9 +5,11 @@ import dataTR from "../data-tr.json";
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  // Yerel depolamada dil varsa onu kullan, yoksa varsayılan olarak "tr" kullan
   const [language, setLanguage] = useState(localStorage.getItem("language") || "tr");
   const [data, setData] = useState(language === "tr" ? dataTR : dataEN);
+
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedBrand, setSelectedBrand] = useState(null);
 
   useEffect(() => {
     if (language === "en") {
@@ -15,7 +17,6 @@ export const LanguageProvider = ({ children }) => {
     } else if (language === "tr") {
       setData(dataTR);
     }
-    // Dil değişikliğini yerel depolamaya kaydet
     localStorage.setItem("language", language);
   }, [language]);
 
@@ -23,8 +24,26 @@ export const LanguageProvider = ({ children }) => {
     setLanguage((prevLanguage) => (prevLanguage === "en" ? "tr" : "en"));
   };
 
+  const resetSelections = () => {
+    setSelectedCategory(null);
+    setSelectedBrand(null);
+    localStorage.removeItem("selectedCategory");
+    localStorage.removeItem("selectedBrand");
+  };
+
   return (
-    <LanguageContext.Provider value={{ language, data, toggleLanguage }}>
+    <LanguageContext.Provider
+      value={{
+        language,
+        data,
+        toggleLanguage,
+        selectedCategory,
+        setSelectedCategory,
+        selectedBrand,
+        setSelectedBrand,
+        resetSelections,
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );
@@ -33,4 +52,4 @@ export const LanguageProvider = ({ children }) => {
 export const useLanguage = () => {
   return useContext(LanguageContext);
 };
-export { LanguageContext }; // bunu mutlaka ekle
+export { LanguageContext };

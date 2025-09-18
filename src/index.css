@@ -59,3 +59,39 @@ img:not([data-src]) {
     overflow-x: hidden;
   }
 }
+/* index.css */
+html, body {
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+#root {
+  overflow-x: hidden;
+}
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+  }
+  50% {
+    text-shadow: 0 0 10px #ffb0d2, 0 0 20px #e48cbb;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s infinite ease-in-out;
+}
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 10px #fff;
+  }
+  50% {
+    text-shadow: 0 0 5px #ffdbf3, 0 0 10px #e48cbb, 0 0 15px #c74885;
+  }
+}
+
+.glow-text {
+  animation: glow 2s infinite ease-in-out;
+}

@@ -1,27 +1,36 @@
 import { useParams, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { useActiveNav } from "../context/ActiveNavContext";
 import CategoryDetail from "../components/categorypage/CategoryDetail";
 import SideBySideCards from "../components/categorypage/SideBySideCards";
-// import FeaturedSection from "../components/categorypage/FeaturedSection";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function CategoryPage() {
   const { category } = useParams();
-  const { activeMainPath } = useActiveNav();
   const location = useLocation();
-  const { language, data } = useLanguage();
+  const { activeMainPath } = useActiveNav();
 
-  const { mainNavbar /*, customerStories*/ } = data;
+  const {
+    language,
+    data,
+    selectedCategory,
+    setSelectedCategory,
+    setSelectedBrand,
+  } = useLanguage();
 
+  const { mainNavbar } = data;
   const allCategories = mainNavbar || [];
+
   const info = category
     ? allCategories.find((item) => item.path === `/${category}`)
     : null;
 
-  // const filteredStories =
-  //   customerStories?.filter((story) =>
-  //     [story.type.toLowerCase(), story.brand.toLowerCase()].includes(category?.toLowerCase())
-  //   ) || [];
+  useEffect(() => {
+    if (category) {
+      setSelectedCategory(category);
+      setSelectedBrand(null); // Marka sıfırlansın
+    }
+  }, [category, setSelectedCategory, setSelectedBrand]);
 
   if (location.pathname === "/category" && !activeMainPath) {
     return (
@@ -38,7 +47,7 @@ export default function CategoryPage() {
               title={item.title}
               description={item.description}
               photo={item.photo}
-              lazy={true} // ✅ Lazy yükleme bilgisi geçildi
+              lazy={true}
             />
           ))}
         </div>
@@ -63,33 +72,9 @@ export default function CategoryPage() {
           title={info.title}
           description={info.description}
           photo={info.photo}
-          lazy={true} // ✅ Lazy yükleme bilgisi geçildi
+          lazy={true}
         />
-
         <SideBySideCards />
-
-        {/* <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800 mt-16">
-          {language === "tr" ? "Müşteri Hikayeleri" : "Customer Stories"}
-        </h2>
-
-        {filteredStories.length > 0 ? (
-          filteredStories.map((story, index) => (
-            <FeaturedSection
-              key={index}
-              title={story.title}
-              description={story.description}
-              imageLeft={story.imageLeft}
-              imageRight={story.imageRight}
-              bottomText={story.bottomText}
-            />
-          ))
-        ) : (
-          <p className="text-center text-gray-600">
-            {language === "tr"
-              ? "Bu kategoriye ait müşteri hikayesi bulunmamaktadır."
-              : "No customer stories available for this category."}
-          </p>
-        )} */}
       </div>
     </div>
   );

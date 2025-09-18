@@ -7,6 +7,9 @@ import BenewakeProductDetailPage from "../../pages/BenewakeProductDetailPage";
 import { useLanguage } from "../../context/LanguageContext";
 import AutelProductDetailPage from "../../pages/AutelProductDetailPage";
 import GeosunProductDetailPage from "../../pages/GeosunProductDetailPage";
+import SenceiveProductDetailPage from "../../pages/SenceiveProductDetailPage";
+import SdiProDetailPage from "../../pages/SdiProDetailPage";
+
 
 const slugify = (str) =>
   str
@@ -45,9 +48,14 @@ export default function ProductDetailRouter() {
 
   const brandSlug = slugify(product.brand);
 
+  if (brandSlug === "stec" && product.name === "STEC SDi Pro Lazerli-Kameralı GNSS Alıcısı") {
+    return <SdiProDetailPage product={product} />;
+  }  
+
   if (brandSlug === "stec") {
     return <StecProductDetailPage product={product} />;
   }
+
 
   if (brandSlug === "3dsurvey") {
     return <ThreeDSurveyProductDetailPage product={product} />;
@@ -68,6 +76,7 @@ export default function ProductDetailRouter() {
   if (brandSlug === "geosun") {
     return <GeosunProductDetailPage product={product} />;
   }
+
 
   return <ProductDetailPage product={product} />;
 }

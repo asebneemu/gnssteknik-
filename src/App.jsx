@@ -8,6 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 // Sayfa Bileşenleri
 import HeaderBar from "./components/HeaderBar";
 import TopBar from "./components/TopBar";
@@ -33,12 +34,12 @@ import DjiMainPage from "./pages/DjiMainPage";
 import ThreeDSurveyPage from "./pages/ThreeDSurveyPage";
 import ScrollToTop from "./components/ScrollToTop";
 import { useState, useEffect } from "react";
-
-
-import SmartImageManager from "./components/SmartImageManager";
 import AccordionMenu from "./components/AccordionMenu";
 import SocialSidebar from "./components/SocialLinks";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+import BrandProductListPage from "./pages/BrandProductListPage";
 
+import GA4PageViews from "./GA4PageViews";
 
 
 
@@ -50,15 +51,20 @@ function AppContent() {
   const productListPath = `${categoryPath}/:category/:brand`;
   const productDetailPath = `${categoryPath}/:category/:brand/:id`;
 
+
+  
+
   return (
     <Router>
-      <ScrollToTop />
+      <ScrollToTop /> {/* 🔥 işte bu satırı ekle */}
+      <ScrollToTopButton />
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
       <HeaderBar />
       <TopBar setSearching={setSearching} />
       <NavbarMain searching={searching} />
       <NavbarSecondary />
       <CompareButton />
+      <GA4PageViews />  
     
 
 
@@ -66,6 +72,8 @@ function AppContent() {
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/kvkk" element={<KvkkPage />} />
+
+        <Route path="/brands/:brand" element={<BrandProductListPage />} />
 
         <Route
           path="/category/yazilim/3dsurvey"

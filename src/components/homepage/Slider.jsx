@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"; // en üste ekle
+
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -19,7 +21,8 @@ function useWindowWidth() {
   return width;
 }
 
-export default function Slider({ title = "Slider Başlığı", photos = [] }) {
+export default function Slider({ title = "Slider Başlığı", photos = [], variant = "default" }) {
+
   const width = useWindowWidth();
   const totalItems = photos.length;
 
@@ -73,15 +76,51 @@ export default function Slider({ title = "Slider Başlığı", photos = [] }) {
       >
         {photos.map((photo, index) => (
           <SwiperSlide key={index} className="flex justify-center items-center">
-            <div className="w-32 h-32 flex justify-center items-center bg-white shadow-lg rounded-lg transform transition-all duration-300 hover:scale-110 hover:shadow-2xl">
-              <img
-                src={photo.logo || fallbackLogo}
-                alt={photo.name}
-                className="w-28 h-28 object-contain transition-opacity duration-300 hover:opacity-80"
-                loading="lazy"
-                onError={(e) => (e.currentTarget.src = fallbackLogo)}
-              />
-            </div>
+            {photo.linkable ? (
+  <Link to={photo.path || "#"} className={`relative ${variant === "featured" ? "w-44 h-44" : "w-32 h-32"}`}>
+    <div className="w-full h-full bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl relative group">
+      <img
+        src={photo.logo || fallbackLogo}
+        alt={photo.name}
+        className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-90"
+        loading="lazy"
+        onError={(e) => (e.currentTarget.src = fallbackLogo)}
+      />
+
+{variant === "featured" && (
+  <div className="absolute inset-0 backdrop-blur-md bg-white/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+ <span className="text-gray-800 font-sans text-xl font-semibold tracking-tight text-center px-3">
+  {photo.name}
+</span>
+
+  </div>
+)}
+
+
+    </div>
+  </Link>
+) : (
+  <div className={`relative ${variant === "featured" ? "w-44 h-44" : "w-32 h-32"}`}>
+    <div className="w-full h-full bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl relative group">
+      <img
+        src={photo.logo || fallbackLogo}
+        alt={photo.name}
+        className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-90"
+        loading="lazy"
+        onError={(e) => (e.currentTarget.src = fallbackLogo)}
+      />
+
+      {variant === "featured" && (
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <span className="text-white text-sm font-semibold text-center px-2">
+            {photo.name}
+          </span>
+        </div>
+      )}
+    </div>
+  </div>
+)}
+
           </SwiperSlide>
         ))}
       </Swiper>

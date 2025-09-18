@@ -1,13 +1,15 @@
-// ScrollToTop.jsx
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigationType } from "react-router-dom";
 
 export default function ScrollToTop() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType(); // 👈 geçiş türünü al
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    if (navigationType === "PUSH") {
+      window.scrollTo(0, 0); // 🔥 sadece yeni bir tıklama olduğunda başa dön
+    }
+  }, [pathname, navigationType]);
 
   return null;
 }

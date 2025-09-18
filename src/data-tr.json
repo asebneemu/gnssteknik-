@@ -76,7 +76,7 @@
       "name": "AKSESUAR",
       "title": "Aksesuar Teknolojisi: Destekleyici Çözümler",
       "icon": "navbar-icons/aksesuar.webp",
-      "photo": "/navbar-photos/aksesuar.webp",
+      "photo": "",
       "path": "/aksesuar",
       "description": "GNSS, Lidar, İHA ve total station gibi ölçüm cihazlarına özel üretilmiş bataryalar, tripodlar, prizma setleri, veri kabloları ve taşıma çantaları; saha çalışmalarının verimliliğini artırır. Yüksek kaliteli ve dayanıklı malzemelerden üretilen aksesuarlar, en zorlu arazi koşullarında bile uzun ömürlü kullanım sağlar. Hızlı kurulum, kolay taşınabilirlik ve ergonomik tasarımları sayesinde saha personeline zaman kazandırır. Bu destekleyici ekipmanlar, veri toplama süreçlerinde kesintisiz performans sağlar ve ölçüm hassasiyetini artırarak saha operasyonlarını daha verimli hale getirir."
     }
@@ -187,7 +187,6 @@
       "banner-url": "https://www.gnssmarketim.com/marka/dji",
       "filter": ["/iha", "/aksesuar"]
     },
-
     {
       "name": "STEC",
       "icon": "marka-icons/stec.webp",
@@ -251,7 +250,7 @@
         }
       ],
       "banner-description": "Lidar Sensör Çözümleri",
-      "banner-url": "https://www.gnssmarketim.com/marka/benewake",
+      "banner-url": "https://www.gnssmarketim.com/marka/geosun",
       "filter": ["/lidar"]
     }
   ],
@@ -325,6 +324,7 @@
         "Yanında Ekstra 8 İnç Ekranı, 8000 mAh Bataryası, Android 10 İşlemcisi, 4 GB RAM 64 GB Hafızası Ve Dokunmatik Tableti İle İşlerinizi Hızlıca Gerçekleştirebilir, Uzaktan Komut Verebilirsiniz."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-10-robotic-total-station-guc-performans-uretkenlik",
+      "brochureUrl": "/brosur/stec-axis-10.pdf",
       "meta": {
         "title": "STEC AXIS-10 Robotik Android Total Station | Yüksek Hassasiyetli Otomatik Takip Total Station",
         "description": "STEC AXIS-10, 0.5\" ve 1\" açı hassasiyeti ile yüksek doğrulukta ölçümler sunar. Android işletim sistemi sayesinde sezgisel ve hızlı veri yönetimi sağlar. 1000 metre prizma tanıma kapasitesi ve xTrak otomatik takip teknolojisiyle zorlu saha koşullarında bile güvenilir sonuçlar üretir. 600 metre uzaktan kontrol menzili ve 6 inç dokunmatik ekran ile kullanım kolaylığı sağlar. IP65 sertifikası sayesinde -20°C’den +50°C’ye kadar dayanıklılık gösterir. 6400 mAh bataryası ile uzun süre çalışma imkanı sunar. CAD aplikasyonları, yol modülü ve gelişmiş grafik alımı gibi profesyonel ölçüm programları ile desteklenir. STEC AXIS-10, inşaat ve haritacılık sektörlerinde üstün performans ve verimlilik için ideal çözümdür.",
@@ -384,6 +384,8 @@
         "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-9-robotik-total-station-yuksek-hassasiyet",
+      "brochureUrl": "/brosur/stec-axis-9.pdf",
+      "featured": true,
       "meta": {
         "title": "STEC AXIS-9 Android Total Station | Yüksek Hassasiyetli 2\" Açı ve Uzun Menzilli Total Station",
         "description": "STEC AXIS-9, 2\" açı hassasiyeti, 1.5-2 km prizmasız ölçüm ve Android işletim sistemi ile hızlı ve hassas saha ölçümleri sunan robotik total station serisidir. IP66 koruması ve gelişmiş bağlantı seçenekleri ile zorlu koşullarda üstün performans sağlar.",
@@ -442,6 +444,8 @@
         "-20°C To 50°C Çalışma Şartlarına Uygundur."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-4-total-station-yuksek-hassasiyet-esneklik",
+      "brochureUrl": "/brosur/stec-axis-4.pdf",
+
       "meta": {
         "title": "STEC AXIS-4 Manuel Total Station | Hassas ve Esnek 2\" Açı Ölçümü",
         "description": "STEC AXIS-4, 2\" açı hassasiyeti, prizmasız 1.5-2 km ölçüm kabiliyeti ve otomatik yükseklik ölçümü özellikleri ile yüksek hassasiyetli manuel total station çözümüdür. IP66 dayanıklılığı ve gelişmiş veri aktarım seçenekleri ile sahada güvenle kullanılır.",
@@ -494,6 +498,8 @@
         "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-3-yuksek-hassasiyet-gelistirilmis-total-station",
+      "brochureUrl": "/brosur/stec-axis-3.pdf",
+
       "meta": {
         "title": "STEC AXIS-3 Manuel Total Station | 2'' Açı Hassasiyeti ve 2000m Reflektörsüz Ölçüm",
         "description": "STEC AXIS-3, renkli ve dokunmatik ekranı ile kolay kullanım sağlayan, 2'' açı hassasiyetine ve 2000m reflektörsüz ölçüm kapasitesine sahip manuel total station modelidir. Geniş bağlantı seçenekleri ve uzun batarya ömrü ile saha çalışmalarında yüksek performans sunar.",
@@ -515,57 +521,6 @@
     },
     {
       "id": 9,
-      "name": "STEC AXIS-2 Total Station",
-      "description": "İkonik Kısayol Tuşlarıyla İlgi Çeken, 2'' Açı Hassasiyeti ve 2000 m Reflektörsüz Ölçüm Sunan AXIS-2 Total Station.",
-      "images": [
-        "/marka-photos/stec/axis-2.0.webp",
-        "/marka-photos/stec/axis-2-logo.webp",
-        "/marka-photos/stec/axis-2-1.webp",
-        "/marka-photos/stec/total-s-ikon.webp",
-        "/marka-photos/stec/axis-2-2.webp",
-        "/marka-photos/stec/bos.webp",
-        "/marka-photos/stec/bos.webp",
-        "/marka-photos/stec/bos.webp",
-        "/marka-photos/stec/bos.webp",
-        "/marka-photos/stec/axis-2-3.webm",
-        "/marka-photos/stec/axis-2-4.webp"
-      ],
-      "category": "total-station",
-      "brand": "stec",
-      "type": "manuel-totalstation",
-      "typeTitle": "Manuel Total Station",
-      "specs": [
-        "2 km reflektörsüz ve 5 km reflektörlü ölçüm menzili sağlar.",
-        "5' eğim telafisi sayesinde eğimli yüzeylerde 1 mm + 1 ppm hassasiyet sağlar.",
-        "0,2 saniyede ölçüm yapabilme hızı ve 3000 mAh bataryası ile 16 saatten fazla çalışma süresi sunar.",
-        "IP68 suya ve toza dayanıklı gövdesi ile en zorlu çevre koşullarında bile güvenilir.",
-        "USB ve bluetooth ile veri transfer kolaylığı sağlar.",
-        "-20°C ile +50°C arasında sorunsuz çalışır.",
-        "5.4 kg ağırlığı ve ergonomik tasarımı ile uzun süreli kullanıma uygun bir yapıya sahiptir.",
-        "3D projeksiyon ve otomatik hedef tanıma sistemi."
-      ],
-      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-2-ustun-hassasiyet-gelistirilmis-total-station",
-      "meta": {
-        "title": "STEC AXIS-2 Manuel Total Station | 2'' Açı Hassasiyeti ve IP68 Dayanıklılık",
-        "description": "STEC AXIS-2, 2'' açı hassasiyeti, 2000m reflektörsüz ölçüm kapasitesi ve IP68 sertifikalı dayanıklılığı ile en zorlu saha koşullarında üstün performans sağlar. Ergonomik tasarımı ve hızlı veri aktarımı ile manuel ölçümlerde yüksek verimlilik sunar.",
-        "keywords": [
-          "STEC AXIS-2",
-          "manuel total station",
-          "2 inç açı hassasiyeti",
-          "reflektörsüz ölçüm",
-          "IP68 suya dayanıklılık",
-          "bluetooth veri transferi",
-          "3D projeksiyon",
-          "otomatik hedef tanıma",
-          "ergonomik tasarım",
-          "uzun batarya ömrü",
-          "inşaat ölçüm cihazları",
-          "haritacılık ekipmanları"
-        ]
-      }
-    },
-    {
-      "id": 10,
       "name": "STEC AXIS-1 Total Station",
       "description": "2'' Açı Hassasiyeti, 3.1 İnç Ekran ile ve 1500 m Reflektörsüz Ölçüm Sunan AXIS-1 Total Station.",
       "images": [
@@ -598,6 +553,8 @@
         "USB ve bluetooth ile veri transfer kolaylığı sağlar."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-1-hassasiyet-dayaniklilik-verimlilik-total-station",
+      "brochureUrl": "/brosur/stec-axis-1.pdf",
+
       "meta": {
         "title": "STEC AXIS-1 Manuel Total Station | 2'' Açı Hassasiyeti ve Geniş 3.1 İnç Ekran",
         "description": "STEC AXIS-1, 2'' açı hassasiyeti ve 1500m reflektörsüz ölçüm kapasitesi ile sahada hassas ve hızlı ölçümler sağlar. IP67 dayanıklılık sertifikası ve kullanıcı dostu geniş ekranı ile uzun süreli saha çalışmaları için idealdir.",
@@ -617,6 +574,83 @@
         ]
       }
     },
+    {
+      "id": 10,
+      "name": "STEC SDi Pro Lazerli-Kameralı GNSS Alıcısı",
+      "description": "SDi Pro, görsel + lazer GNSS alıcı teknolojisinde sınırları zorlayarak çok boyutlu bir deneyim sunar: daha uzun mesafe, daha hızlı başlatma, daha uzak noktalarda daha yüksek doğruluk, farklı hareketlerde daha fazla stabilite ve daha net kamera performansı.",
+      "images": [
+        "/marka-photos/stec/sdiPro-0.png",
+        "/marka-photos/stec/sdiPro-1.png",
+        "/marka-photos/stec/sdiPro-logo.avif",
+        "/marka-photos/stec/laserfix.webp",
+        "/marka-photos/stec/sdiPro-redlaser.avif",
+        "/marka-photos/stec/sdiPro-orta.avif",
+        "/marka-photos/stec/sdiPro-agc.avif",
+        "/marka-photos/stec/sdiPro-0.png",
+        "/marka-photos/stec/sdiPro-stellarcameras.avif",
+        "/marka-photos/stec/sdiPro-ultimate.avif",
+        "/marka-photos/stec/sdiPro-sol.avif",
+        "/marka-photos/stec/sdiPro-sag.avif",
+        "/marka-photos/stec/sdiPro-donen.avif",
+        "/marka-photos/stec/sdiPro-slinkultra.avif",
+        "/marka-photos/stec/fusionar.webp",
+        "/marka-photos/stec/sdiPro-4.avif",
+        "/marka-photos/stec/sdiPro-5.avif"
+
+
+
+
+
+
+
+
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1.408 kanallı mimari ile GPS, GLONASS, Galileo, BeiDou dahil tüm GNSS sistemlerini tam kapsamlı destekler.",
+        "RED LASER teknolojisi sayesinde daha kısa dalga boyu ile yeşil lazerlere kıyasla uzun mesafelerde daha yüksek doğruluk sağlar.",
+        "Automatic Gain Control (AGC) desteği ile yansıyan ışığın çok zayıf ya da fazla güçlü olduğu durumlarda bile kararlı mesafe ölçümü yapılır.",
+        "20 metre mesafede 3 cm doğruluk, maksimum 150–200 metreye kadar lazer ölçüm kapasitesi sunar.",
+        "FusionAR Gen2 teknolojisiyle çift kamera desteği; ön kamera yön ve mesafe gösterirken, alt kamera yakın hedefte hassas konumlamaya geçiş yapar.",
+        "Stellar Cameras entegrasyonu ile 1920×1080 piksel çözünürlük, 1/2.8” optik format ve gelişmiş görüntü işleme kabiliyeti sunar.",
+        "HDR destekli CMOS görüntü sensörleri ile AR tabanlı aplikasyonlarda daha net ve gerçekçi görselleştirme yapılır.",
+        "IMU-RTK eğim telafisi ile yatayda 8 mm, düşeyde 15 mm hassasiyet korunur; 60°’ye kadar kalibrasyonsuz eğimli ölçüm yapılabilir.",
+        "SLINK Ultra protokolü ile girişim önleyici anten, 2W dahili radyo çıkışı ve %20 daha geniş kapsama alanı sunar.",
+        "L-Band ve PPP teknolojisiyle internet bağlantısı olmadan da yüksek doğrulukta pozisyonlama mümkündür.",
+        "IP68 koruma standardı ile suya, toza, çamura ve zorlu çevre koşullarına karşı tam dayanıklıdır.",
+        "-30°C ile +65°C arası çalışma garantisi ile ekstrem hava koşullarında kesintisiz görev yapar.",
+        "13.600 mAh kapasiteli batarya ile 15 saat kesintisiz çalışma süresi sağlar.",
+        "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
+        "Bluetooth 4.0 ve NFC ile saniyeler içinde bağlantı kurulur.",
+        "RINEX ve NMEA formatlarında veri kaydı ile gelişmiş dışa aktarım imkânı sunar.",
+        "İHA sabit modu sayesinde GNSS sistemini insansız hava araçlarıyla entegre ederek havadan veri toplama sağlar.",
+        "Ultra hafif ve dayanıklı magnezyum alaşımlı gövdesi sayesinde yalnızca ~900 gr ağırlığında maksimum saha ergonomisi sunar."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-sdi-pro-gnss-alicisi",
+      "featured": true,
+      "meta": {
+        "title": "STEC SDi Pro Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, Çift Kamera ve RED LASER",
+        "description": "STEC SDi Pro, RED LASER teknolojisi, FusionAR Gen2 çift kamera, Stellar Imaging sensörleri ve SLINK Ultra protokolü ile GNSS alıcılarında yeni bir dönemi başlatıyor. 200 metreye varan lazer mesafesi, 3 cm hassasiyet, IP68 dayanıklılığı ve gelişmiş bağlantı seçenekleriyle profesyoneller için geliştirildi.",
+        "keywords": [
+          "STEC SDi Pro",
+          "akıllı GNSS alıcısı",
+          "lazerli GNSS",
+          "kameralı GNSS",
+          "FusionAR Gen2",
+          "çift kamera AR",
+          "Stellar Imaging",
+          "RED LASER",
+          "AGC mesafe ölçüm",
+          "IP68 dayanıklılık",
+          "SLINK Ultra",
+          "200m lazer mesafesi",
+          "3 cm hassasiyet"
+        ]
+      }
+    },    
     {
       "id": 11,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
@@ -658,6 +692,7 @@
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/stec-sdi-imu-rtk-gnss-alicisi-ar-destekli",
       "brochureUrl": "/brosur/stec-sdi.pdf",
+      "featured": true,
       "meta": {
         "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, IMU ve Lazerli Ölçüm",
         "description": "STEC SDi GNSS alıcısı, lazer tabanlı EDM ölçümü, AR destekli HDR kamera, IMU-RTK eğim düzeltmesi ve 1.408 kanal desteği ile sektörde yeni bir standart belirliyor. IP68 dayanıklılığı, 15 saatlik batarya süresi ve ileri bağlantı özellikleri sayesinde her türlü zorlu saha koşulunda en yüksek performansı sunar.",
@@ -3436,7 +3471,7 @@
       "name": "DJI Zenmuse P1",
       "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
       "images": [
-        "/marka-photos/dji/p1-0.webp",
+        "/marka-photos/dji/p1-00.webp",
         "/marka-photos/dji/p1-0.webp",
         "/marka-photos/dji/p1-1.webp",
         "/marka-photos/dji/p1-2.webp",
@@ -3970,6 +4005,7 @@
       "title": "Gece Aydınlatma ve Acil Durum Arama Projeksiyon Sistemi",
       "description": "DJI Zenmuse S1, düşük enerji tüketimiyle maksimum parlaklık sağlayan ve çeşitli modlarda aydınlatma imkanı sunan güçlü bir arama spot ışığıdır. Gece operasyonları, acil müdahaleler ve altyapı denetimlerinde üstün performans ve esneklik sunar.",
       "images": [
+        "/marka-photos/dji/s1-1.png",
         "/marka-photos/dji/s1-1.webp",
         "/marka-photos/dji/v1-s1-0.webp",
         "/marka-photos/dji/s1-1.webp",
@@ -4023,6 +4059,7 @@
       "title": "Hedeflenmiş Yüksek Sesli Yayın Sistemi",
       "description": "Zenmuse V1, DJI drone platformları için geliştirilmiş, yüksek ses gücüne ve çok yönlü yayın modlarına sahip, hedeflenmiş sesli yayın sistemi sunan güçlü bir hoparlör modülüdür. Kalabalık yönetimi, kamu güvenliği bilgilendirmesi ve acil müdahale senaryoları için tasarlanmıştır.",
       "images": [
+        "/marka-photos/dji/v1-1.png",
         "/marka-photos/dji/v1-1.webp",
         "/marka-photos/dji/v1-s1-0.webp",
         "/marka-photos/dji/v1-1.webp",
@@ -4525,7 +4562,7 @@
       "title": "Modüler Aksesuarlarla Donatılmış Profesyonel Drone",
       "description": "EVO II Enterprise V3; arama kurtarma, denetim, haritalama ve güvenlik operasyonlarında üstün performans sunan, uzun menzilli ve modüler yapılı profesyonel bir drone sistemidir.",
       "images": [
-        "/marka-photos/autel/evo2-enterprise-v3-0.webp",
+        "/marka-photos/autel/evo2-enterprise-v3-0.png",
         "/marka-photos/autel/evo2e-1.webp",
         "/marka-photos/autel/evo2e-logo.webp",
         "/marka-photos/autel/evo2e-ikon-1.webp",
@@ -4683,6 +4720,7 @@
         "RTK modülü doğrudan gimbal üzerine entegre edilerek titreşimsiz 3 eksenli stabilizasyon ve hassas termal/optik eş zamanlı görüntüleme imkânı tanır"
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-ii-rtk-v3-santimetre-hassasiyetli-konumlama-drone",
+      "featured": true,
       "meta": {
         "title": "Autel EVO II RTK V3 | RTK Hassasiyetli Uzun Uçuş Süreli Endüstriyel Drone",
         "description": "Autel EVO II RTK V3, gelişmiş RTK modülü, 36 dakika uçuş süresi ve çok yönlü görev modlarıyla haritalama, ölçüm ve endüstriyel analizler için profesyonel drone çözümüdür.",
@@ -4810,6 +4848,7 @@
         "Hyperlapse, panorama, AEB (3/5 kare), zaman atlamalı video ve HDR fotoğraf modlarıyla ileri düzey çekim seçenekleri sunar."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/autel-evo-max-4t-akilli-sensor-sistemli-profesyonel-gorev-iha",
+      "featured": true,
       "meta": {
         "title": "Autel EVO Max 4T | Çoklu Sensörlü Termal ve Zoom Kameralı Profesyonel Drone",
         "description": "Autel EVO Max 4T, yüksek çözünürlüklü zoom, termal kamera ve lazer mesafe ölçer ile donatılmış, uzun uçuş süresi ve gelişmiş veri iletişimi sunan profesyonel keşif drone çözümüdür.",
@@ -5333,6 +5372,7 @@
         "Akıllı şehir senaryoları, yol güvenliği, trafik ışığı yönetimi, yayaların algılanması ve V2X uygulamaları için optimize edilmiştir."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/benewake-ad2s-x3-sehir-trafiginde-ustun-3d-lidar-algilama",
+      "featured": true,
       "meta": {
         "title": "Benewake AD2-S-X3 | Yüksek Çözünürlüklü 3D Lidar Sensörü",
         "description": "Benewake AD2-S-X3, 256 hatlı çözünürlük, 150 m algılama mesafesi, 120° geniş görüş açısı, 2 milyon nokta/saniye veri üretimi, IP67 koruma ve esnek sensör entegrasyonu ile akıllı şehirler ve trafik yönetimi için ideal 3D lidar sensörüdür.",
@@ -6310,8 +6350,8 @@
       "title": "Triaxial Tilt Sensor Node – Üç Eksenli Kablosuz Eğilme Sensörü",
       "description": "Senceive Triaxial Tilt Sensor Node, tünel deformasyonu, yapı hareketleri ve demiryolu hatlarındaki eğim değişimlerini izlemek için tasarlanmış, yüksek hassasiyetli üç eksenli kablosuz bir eğim ölçer sensördür. Değişken raporlama hızları ve sağlam tasarımıyla çeşitli uygulamalar için uygundur.",
       "images": [
-        "/marka-photos/senceive/triaxial-tilt-sensor-node-0.webp",
-        "/marka-photos/senceive/triaxial-tilt-sensor-node-1.webp",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-0.png",
+        "/marka-photos/senceive/triaxial-tilt-sensor-node-1.png",
         "/marka-photos/senceive/triaxial-tilt-sensor-node-2.webp"
       ],
       "category": "sensor",
@@ -7047,6 +7087,7 @@
       "description": "GS-100C+, Geosun tarafından geliştirilen, kısa menzilli hava tabanlı LiDAR tarama çözümüdür. Livox Avia lazer tarayıcı, yüksek hassasiyetli IMU ve entegre RGB kamera içerir. Uygun maliyetli yapısı, taşınabilirliği ve yüksek nokta yoğunluklu veri üretimiyle genel haritalama, enerji hattı izleme, madencilik ve şehir modelleme gibi birçok sektörde kullanılır.",
       "images": [
         "/marka-photos/geosun/gs-100c-0.webp",
+        "/marka-photos/geosun/gs-100c-0.webp",
         "/marka-photos/geosun/gs-100c-3.png",
         "/marka-photos/geosun/gs-100c-4.png"
       ],
@@ -7097,7 +7138,9 @@
       "description": "GS-100G, Geosun tarafından geliştirilen, iç ve dış mekânlarda kullanılabilen, SLAM algoritması destekli taşınabilir bir LiDAR tarama çözümüdür. Ergonomik yapısı, hassasiyet seviyesi ve gerçek zamanlı görüntüleme yetenekleri ile mimari ölçüm, tünel tarama, şehir parkı analizi gibi birçok uygulama alanında güvenilir ve yüksek performanslı veri üretimi sağlar.",
       "images": [
         "/marka-photos/geosun/gs-100g-0.webp",
-        "/marka-photos/geosun/gs-100g-0.webp"
+        "/marka-photos/geosun/gs-100g-0.webp",
+        "/marka-photos/geosun/gs-100g-1.jpg",
+        "/marka-photos/geosun/gs-100g-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7119,6 +7162,7 @@
         "Çalışma sıcaklığı -20°C ila +55°C aralığındadır; zorlu saha koşullarına uygundur."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/gs-100g-tasinabilir-slam-destekli-lidar-tarama-sistemi",
+      "featured": true,
       "meta": {
         "title": "GS-100G El Tipi SLAM LiDAR | Taşınabilir Lidar Haritalama Sistemi",
         "description": "GS-100G, el tipi, SLAM destekli LiDAR tarama sistemi olup GNSS ve IMU destekli yapısı sayesinde yüksek doğrulukta 3D modelleme sağlar. Hafif, taşınabilir ve gerçek zamanlı görüntüleme sunar.",
@@ -7141,12 +7185,67 @@
     },
     {
       "id": 602,
+      "name": "GS-200G El Tipi SLAM LiDAR Tarama Sistemi",
+      "title": "GS-200G – Hafif ve Ekonomik SLAM Destekli Lidar Tarama Sistemi",
+      "description": "GS-200G, Geosun tarafından geliştirilen, Livox Mid-360 sensörü ve gelişmiş SLAM algoritmaları ile donatılmış hafif bir el tipi LiDAR tarama sistemidir. GNSS sinyallerinin yetersiz olduğu ortamlarda bile yüksek hassasiyetle çalışan bu sistem, iç ve dış mekân haritalama, dijital ikiz modelleme, altyapı denetimi ve ormancılık gibi uygulamalarda etkili sonuçlar sunar. 1 kg’lık kompakt yapısı ve yüksek verimliliği ile mobil ve ergonomik bir çözüm sağlar.",
+      "images": [
+        "/marka-photos/geosun/gs-200g-0.png",
+        "/marka-photos/geosun/gs-200g-1.png",
+        "/marka-photos/geosun/gs-200g-2.png",
+        "/marka-photos/geosun/gs-200g-3.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "el-tipi-lidar",
+      "typeTitle": "El Tipi SLAM LiDAR Çözümü",
+      "specs": [
+        "SLAM, RTK-SLAM ve PPK-SLAM algoritmaları desteklidir.",
+        "1 cm göreli, 5 cm mutlak konum doğruluğu ile yüksek hassasiyetli tarama sağlar.",
+        "1.0 kg ağırlığı ile elde taşımaya ve mobil kullanıma uygundur.",
+        "GNSS (GPS, GLONASS, GALILEO, BDS) sistemleriyle uyumlu çalışır.",
+        "gSpin 210 IMU ile 200 Hz güncelleme frekansına sahiptir.",
+        "40 m ölçüm menzili ve ≤2 cm (10 m’de) mesafe hassasiyeti sunar.",
+        "360° yatay ve -7°~52° dikey görüş açısı ile kapsamlı tarama sağlar.",
+        "1535 nm dalga boyunda çalışan lazer tarayıcı ile 200.000 nokta/sn veri üretir.",
+        "2 adet 20 MP kamera ile senkronize görsel veri kaydı gerçekleştirir.",
+        "128 GB microSD depolama kapasitesi ile veri saklama kolaylığı sağlar.",
+        "≤25 W sistem tüketimi ile enerji verimliliği sunar.",
+        "12–20V giriş voltaj aralığında çalışır.",
+        "Zorlu çevre koşullarında (-20°C ila +55°C) güvenle kullanılabilir.",
+        "Haritalama modlarında GNSS-desteksiz alanlarda dahi veri kaybı yaşanmaz.",
+        "Yüksek verimlilik ve güçlü penetrasyon özelliği ile ormanlık ve kapalı alanlarda etkili performans sunar."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-200g-tasinabilir-slam-destekli-lidar-tarama-sistemi",
+      "featured": true,
+      "meta": {
+        "title": "GS-200G El Tipi SLAM LiDAR | Hafif ve Ekonomik Lidar Haritalama Sistemi",
+        "description": "GS-200G, Livox Mid-360 sensörü ve gelişmiş SLAM algoritmaları ile donatılmış, hafif ve taşınabilir bir LiDAR çözümüdür. GNSS sinyallerinin yetersiz olduğu ortamlarda bile yüksek doğrulukla çalışır.",
+        "keywords": [
+          "GS-200G LiDAR",
+          "el tipi lidar",
+          "hafif lidar tarayıcı",
+          "ekonomik lidar çözümü",
+          "slam lidar sistemi",
+          "GNSS destekli lidar",
+          "geosun lidar",
+          "gerçek zamanlı lidar",
+          "kapalı alan lidar çözümü",
+          "ormancılık lidar",
+          "altyapı denetimi lidar",
+          "dijital ikiz lidar sistemi"
+        ]
+      }
+    },    
+    {
+      "id": 603,
       "name": "GS-130X LiDAR Tarama Sistemi",
       "title": "GS-130X – Yüksek Penetrasyon ve Hassasiyetli LiDAR Çözümü",
       "description": "GS-130X, Geosun tarafından geliştirilen yüksek hassasiyetli bir LiDAR sistemidir. 360° görüş açısı, 1.280.000 nokta/sn üretimi ve çoklu platform uyumluluğu ile haritalama, enerji hatları denetimi, kültürel miras belgeleme ve zorlu arazi analizlerinde etkin çözümler sunar.",
       "images": [
         "/marka-photos/geosun/gs-130x-0.webp",
-        "/marka-photos/geosun/gs-130x-0.webp"
+        "/marka-photos/geosun/gs-130x-0.webp",
+        "/marka-photos/geosun/gs-130x-1.png",
+        "/marka-photos/geosun/gs-130x-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7187,13 +7286,15 @@
       }
     },
     {
-      "id": 603,
+      "id": 606,
       "name": "GS-260H LiDAR Tarama Sistemi",
       "title": "GS-260H – Orta Menzilli, Yüksek Hızlı LiDAR Tarama Çözümü",
       "description": "GS-260H, Geosun tarafından geliştirilen ve 300 metre menzile kadar destek sunan orta menzilli bir LiDAR tarama sistemidir. 3 yansıma (triple echo) desteği, 1.920.000 nokta/sn üretimi ve 26 MP kamera ile senkronize görüntü alma özellikleri sayesinde topoğrafik analiz, ormancılık, enerji hattı denetimi ve şehir planlamasında güçlü bir çözüm sunar.",
       "images": [
         "/marka-photos/geosun/gs-260h-0.webp",
-        "/marka-photos/geosun/gs-260h-0.webp"
+        "/marka-photos/geosun/gs-260h-0.webp",
+        "/marka-photos/geosun/gs-260h-1.png",
+        "/marka-photos/geosun/gs-260h-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7235,13 +7336,15 @@
       }
     },
     {
-      "id": 604,
+      "id": 607,
       "name": "GS-260X LiDAR Tarama Sistemi",
       "title": "GS-260X – Profesyonel Seviye UAV LiDAR Tarama Çözümü",
       "description": "GS-260X, 1.1 kg ağırlığında, 300 metre menzilli ve 1.92 milyon nokta/sn üretim kapasitesine sahip profesyonel seviye bir UAV LiDAR sistemidir. Triple echo desteği ve yüksek penetrasyon kabiliyeti ile zorlu doğa koşullarında dahi etkili tarama sağlar. Harita üretimi, ormancılık, şehir modelleme ve altyapı projelerinde üstün performans sunar.",
       "images": [
         "/marka-photos/geosun/gs-260x-0.webp",
-        "/marka-photos/geosun/gs-260x-0.webp"
+        "/marka-photos/geosun/gs-260x-0.webp",
+        "/marka-photos/geosun/gs-260x-1.jpg",
+        "/marka-photos/geosun/gs-260x-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7284,13 +7387,15 @@
       }
     },
     {
-      "id": 605,
+      "id": 610,
       "name": "GS-960 LiDAR Tarama Sistemi",
       "title": "GS-960 – Uzun Menzilli ve Yüksek Penetrasyonlu UAV LiDAR Çözümü",
       "description": "GS-960, Geosun tarafından geliştirilen uzun menzilli ve yüksek hassasiyetli bir UAV LiDAR sistemidir. 750 metreye kadar menzili, 45 MP fotogrametrik kamerası, güçlü IMU sistemi ve 0.5 cm hassasiyeti ile topoğrafik haritalama, ormanlık alan analizi, acil durum haritalama ve su kaynakları yönetiminde profesyonel çözümler sunar.",
       "images": [
         "/marka-photos/geosun/gs-960-.webp",
-        "/marka-photos/geosun/gs-960-0.webp"
+        "/marka-photos/geosun/gs-960-0.webp",
+        "/marka-photos/geosun/gs-960-1.png",
+        "/marka-photos/geosun/gs-960-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7332,13 +7437,15 @@
       }
     },
     {
-      "id": 606,
+      "id": 614,
       "name": "GS-1500N LiDAR Tarama Sistemi",
       "title": "GS-1500N – Tek Işınlı, Yüksek Menzilli UAV LiDAR Çözümü",
       "description": "GS-1500N, Geosun tarafından geliştirilen, uzun menzilli tek ışınlı bir LiDAR çözümüdür. GNSS ve INS sistemleriyle entegre çalışan bu sistem, 1500 metre menzil, 5 yansıma desteği ve 2 milyon pts/sn tarama hızı ile hassas veri elde etmeyi mümkün kılar. Zorlu topoğrafik koşullarda ve yüksek irtifa haritalama projelerinde kullanılır.",
       "images": [
         "/marka-photos/geosun/gs-1500n-.webp",
-        "/marka-photos/geosun/gs-1500n-0.webp"
+        "/marka-photos/geosun/gs-1500n-0.webp",
+        "/marka-photos/geosun/gs-1500n-1.jpg",
+        "/marka-photos/geosun/gs-1500n-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7377,13 +7484,15 @@
       }
     },
     {
-      "id": 607,
+      "id": 620,
       "name": "GS-2000N LiDAR Tarama Sistemi",
       "title": "GS-2000N – 2000 Metre Menzilli, Yüksek Yoğunluklu UAV LiDAR Sistemi",
       "description": "GS-2000N, Geosun’un yüksek doğruluklu, 2000 metre menzilli profesyonel UAV LiDAR çözümüdür. 7 yansıma, 2 milyon pts/sn üretim, 256 GB hafıza, 45 MP tam kare kamera ve gelişmiş GNSS/IMU sistemleri ile çok geniş alanlarda hassas, yoğun ve kapsamlı 3D veri üretimi sağlar.",
       "images": [
         "/marka-photos/geosun/gs-2000n-.webp",
-        "/marka-photos/geosun/gs-2000n-0.webp"
+        "/marka-photos/geosun/gs-2000n-0.webp",
+        "/marka-photos/geosun/gs-2000n-1.png",
+        "/marka-photos/geosun/gs-2000n-2.png"
       ],
       "category": "lidar",
       "brand": "geosun",
@@ -7468,6 +7577,7 @@
         "Sıkıştırılmış ve optimize edilmiş işlem motoru sayesinde zaman ve kaynak tasarrufu sağlanır."
       ],
       "buyUrl": "https://www.gnssmarketim.com/urun/3d-survey-drone-tabanli-profesyonel-haritalama-yazilimi",
+      "featured": true,
       "meta": {
         "title": "3Dsurvey | Drone Tabanlı Profesyonel Haritalama Yazılımı",
         "description": "3Dsurvey, harita mühendisleri tarafından geliştirilen, kullanıcı dostu ve LIDAR uyumlu fotogrametri yazılımıdır. Saha süresini azaltır, cm hassasiyetle DTM ve ortofoto üretir, CAD ve GIS ile uyumludur.",
@@ -7497,7 +7607,7 @@
       "title": "FieldMaster",
       "description": "STEC FieldMaster, GNSS ve lazer tabanlı ölçüm cihazlarıyla entegre çalışan, CAD destekli harita çizimi, artırılmış gerçeklikli aplikasyon ve saha odaklı veri toplama işlemlerini kolaylaştıran bir mobil yazılımdır.",
       "images": [
-        "/marka-photos/stec/fieldmaster-1.webp",
+        "/marka-photos/stec/fmaster-.webp",
         "/marka-photos/stec/fm-logo.webp",
         "/marka-photos/stec/fm-1.webp",
         "/marka-photos/stec/stec-sag.avif",
@@ -7506,7 +7616,7 @@
         "/marka-photos/stec/bos.webp",
         "/marka-photos/stec/bos.webp",
         "/marka-photos/stec/bos.webp",
-        "/marka-photos/stec/fieldmaster-1.webp"
+        "/marka-photos/stec/fmaster-.webp"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -8842,12 +8952,13 @@
   "aboutUs": {
     "aboutUs": {
       "title": "Hakkımızda",
-      "paragraphs": [
-        "Firmamız, <b>2008 yılında</b> kurulmuş olup, <b>2012 yılında</b> yeni bir yapılanmaya giderek <b>GNSS teknolojileri</b> firmalarından <b>CHCNAV</b> ile iş birliği yapmaya başlamıştır. Aynı dönemde el tipi <b>GNSS çözümleri</b> sunan <b>BHC</b> firması ile anlaşmaya vararak Türkiye yetkili satıcısı olmuştur. Mobil <b>GBS (GIS)</b> çözümleri için <b>Digiterra</b> firması ile görüşmeler gerçekleştirilmiş ve yazılım alanında geniş bir ürün yelpazesi oluşturularak konumsal çözümler sunulmaya başlanmıştır. <b>2019 yılında DJI Enterprise</b> bayisi olarak yetkilendirilmiş ve hemen ardından <b>3D Survey Fotoğraf Değerleme ve Harita Üretim yazılımı</b>nın da yetkili satıcısı olarak ürün portföyünü genişletmiştir. <b>2025 yılı itibarıyla</b> <b>Stec GNSS, Total Station ve Lidar</b> gibi birçok ürün yelpazesine sahip markanın Türkiye'de tek yetkili satıcısı olmuştur. Ayrıca <b>Senceive, Benewake ve Autel Robotics</b> gibi alanında lider firmalar da ürün gamımıza eklenmiştir.",
-        "<b>GNSS teknolojilerinin hızla geliştiği dönemde</b>, Türkiye'de gerçekleştirilen büyük ölçekli <b>GNSS ihaleleri</b>nin tamamını kazanarak sektördeki gücünü pekiştirmiştir. <b>%100 müşteri memnuniyeti</b> ilkesi doğrultusunda ekibini genişletmiş, yeni şubeler açmış ve <b>TSE belgeli servis hizmetini</b> hayata geçirmiştir. Türkiye <b>GNSS pazarı</b>nda hızla yükselerek ciro açısından en büyük üç firma arasına girmiş, satış adetlerinde ise lider konuma ulaşmayı başarmıştır.",
-        "<b>Konumlama, navigasyon ve haritalama</b> alanlarında; <b>GNSS, INS, Referans İstasyonları, RTK tabletler</b> ve <b>mobil GNSS çözümleri</b> sunmaktayız. Ayrıca <b>Batimetri, İnsansız Deniz Araçları, Total Station ve Robotik Sistemler, Deformasyon Çözümleri, İnsansız Hava Araçları</b> ve yazılım çözümlerine ek olarak <b>Lidar teknolojileri</b> ile kapsamlı çözümler sağlamaktayız.",
-        "<b>Yeni yıl itibarıyla</b> uzmanlık alanlarımızı daha da genişleterek <b>BIM (Yapı Bilgi Modellemesi), Yapı Sağlığı İzleme Sistemleri, Makine Kontrol Sistemleri</b> ve <b>ADAS (Otonom Sürüş) Sensör Çözümleri</b> gibi birçok farklı mühendislik disiplininde faaliyet göstermeye başladık. <b>Yenilikçi ve teknoloji odaklı yaklaşımımızla</b> sektöre öncülük etmeye devam ediyoruz."
-      ]
+"paragraphs": [
+  "Firmamız, <b>2008 yılında</b> kurulmuş olup, <b>2012 yılında</b> yeni bir yapılanmaya giderek <b>GNSS teknolojileri</b> firmalarından <b>CHCNAV</b> ile iş birliği yapmaya başlamıştır. Aynı dönemde el tipi <b>GNSS çözümleri</b> sunan <b>BHC</b> firması ile anlaşmaya vararak Türkiye yetkili satıcısı olmuştur. Mobil <b>GBS (GIS)</b> çözümleri için <b>Digiterra</b> firması ile görüşmeler gerçekleştirilmiş ve yazılım alanında geniş bir ürün yelpazesi oluşturularak konumsal çözümler sunulmaya başlanmıştır. <b>2019 yılında DJI Enterprise</b> bayisi olarak yetkilendirilmiş ve hemen ardından <b>3D Survey Fotoğraf Değerleme ve Harita Üretim yazılımı</b>nın da yetkili satıcısı olarak ürün portföyünü genişletmiştir. <b>2025 yılı itibarıyla</b> <b>Stec GNSS, Total Station ve Lidar</b> gibi birçok ürün yelpazesine sahip markanın Türkiye'de tek yetkili satıcısı olmuştur. Ayrıca <b>Senceive, Benewake ve Autel Robotics</b> gibi alanında lider firmalar da ürün gamımıza eklenmiştir. <b>2025 yazında</b> ise sektörümüze <b>taze bir soluk</b> getirerek <b>Geosun</b> markasıyla iş birliğine başlamış, özellikle <b>lidar ve konumsal ölçüm teknolojilerinde</b> gücümüzü pekiştirmiştir.",
+  "<b>GNSS teknolojilerinin hızla geliştiği dönemde</b>, Türkiye'de gerçekleştirilen büyük ölçekli <b>GNSS ihaleleri</b>nin tamamını kazanarak sektördeki gücünü pekiştirmiştir. <b>%100 müşteri memnuniyeti</b> ilkesi doğrultusunda ekibini genişletmiş, yeni şubeler açmış ve <b>TSE belgeli servis hizmetini</b> hayata geçirmiştir. Türkiye <b>GNSS pazarı</b>nda hızla yükselerek ciro açısından en büyük üç firma arasına girmiş, satış adetlerinde ise lider konuma ulaşmayı başarmıştır.",
+  "<b>Konumlama, navigasyon ve haritalama</b> alanlarında; <b>GNSS, INS, Referans İstasyonları, RTK tabletler</b> ve <b>mobil GNSS çözümleri</b> sunmaktayız. Ayrıca <b>Batimetri, İnsansız Deniz Araçları, Total Station ve Robotik Sistemler, Deformasyon Çözümleri, İnsansız Hava Araçları</b> ve yazılım çözümlerine ek olarak <b>Lidar teknolojileri</b> ile kapsamlı çözümler sağlamaktayız.",
+  "<b>Yeni yıl itibarıyla</b> uzmanlık alanlarımızı daha da genişleterek <b>BIM (Yapı Bilgi Modellemesi), Yapı Sağlığı İzleme Sistemleri, Makine Kontrol Sistemleri</b> ve <b>ADAS (Otonom Sürüş) Sensör Çözümleri</b> gibi birçok farklı mühendislik disiplininde faaliyet göstermeye başladık. <b>Yenilikçi ve teknoloji odaklı yaklaşımımızla</b> sektöre öncülük etmeye devam ediyoruz."
+]
+
     },
     "vision": {
       "title": "Vizyonumuz",
@@ -9363,13 +9474,14 @@
           "href": "/gnss/stec/stec-sdi-lazerli-kamerali-gnss-alicisi"
         },
         {
-          "label": "Autel EVO II RTK",
-          "href": "/category/iha/autel/autel-evo-ii-rtk-v3"
-        },
-        {
           "label": "3D Survey",
           "href": "/category/yazilim/3dsurvey"
         },
+        {
+          "label": "Autel EVO II RTK",
+          "href": "/category/iha/autel/autel-evo-ii-rtk-v3"
+        },
+      
         {
           "label": "Benewake AD2-S X3",
           "href": "/category/sensor/benewake-vp/benewake-ad2-s-x3"
@@ -9391,6 +9503,33 @@
         },
         { "label": "Banka Hesap Bilgileri", "href": "/aboutus#bank-accounts" }
       ]
+    },
+    {
+      "title": "GNSS HARİTA TEKNİK DAN. SAN. VE TİC. A.Ş.",
+      "items": [
+        {
+          "label": "Balgat Mahallesi 1418. Sokak No:10 Daire:9/11, 06520 Çankaya / ANKARA"
+        },
+        {
+          "label": "Tel: 0 (312) 285 14 20"
+        },
+        {
+          "label": "Faks: 0 (312) 285 14 21"
+        },
+        {
+          "label": "V.D.: HİTİT"
+        },
+        {
+          "label": "VKN: 3961015309"
+        }, {
+          "label": "Ticaret Sicil No: 254606"
+        },
+        {
+          "label": "E-posta: info@gnssteknik.com.tr"
+        }
+      ]
     }
+    
+    
   ]
 }
